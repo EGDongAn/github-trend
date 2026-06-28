@@ -115,9 +115,9 @@ export default function Home() {
     setPage(1);
   }, [mode, tab, range, language, debounced]);
 
-  // load scout index once when entering scout mode
+  // load scout index (used by both Scout and 이력 tabs)
   useEffect(() => {
-    if (mode !== "scout") return;
+    if (mode !== "scout" && mode !== "log") return;
     let alive = true;
     setLoading(true);
     setError(null);
@@ -133,7 +133,7 @@ export default function Home() {
 
   // load trending/popular/search
   useEffect(() => {
-    if (mode === "scout") return;
+    if (mode === "scout" || mode === "log") return;
     const ctrl = new AbortController();
     async function load() {
       setLoading(true);
@@ -158,7 +158,9 @@ export default function Home() {
   const subtitle =
     mode === "search"
       ? `"${debounced}" 검색 결과 — 별 많은 순`
-      : mode === "scout"
+      : mode === "log"
+        ? `텔레그램 알림 발송 이력 — dev 개발총괄로 보낸 high 후보 (${(scout.notifyLog || []).length}건)`
+        : mode === "scout"
         ? `EG AI GROUP OS 적합성 스카우팅 — codex 분석 · ${scout.days || 0}일치 데이터`
         : mode === "trending"
           ? "github.com/trending 실시간 — 별 증가량 기준 지금 뜨는 프로젝트"
@@ -193,6 +195,9 @@ export default function Home() {
           </button>
           <button className={tab === "popular" && !debounced ? "tab on" : "tab"} onClick={() => selectTab("popular")}>
             ⭐ Popular
+          </button>
+          <button className={tab === "log" && !debounced ? "tab on" : "tab"} onClick={() => selectTab("log")}>
+            📨 이력
           </button>
         </div>
         <div className="search">
@@ -233,7 +238,7 @@ export default function Home() {
             ))}
           </div>
         )}
-        {mode !== "scout" && (
+        {mode !== "scout" && mode !== "log" && (
           <select className="lang" value={language} onChange={(e) => setLanguage(e.target.value)}>
             {LANGUAGES.map((l) => (
               <option key={l} value={l}>
@@ -246,6 +251,39 @@ export default function Home() {
 
       {error && <div className="msg err">⚠️ {error}</div>}
       {loading && <div className="msg">불러오는 중…</div>}
+
+      {!loading && !error && mode === "log" && (
+        <div className="timeline">
+          {(() => {
+            const byDate = {};
+            (scout.notifyLog || []).forEach((e) => {
+              (byDate[e.date] ||= []).push(e);
+            });
+            const dates = Object.keys(byDate).sort().reverse();
+            if (!dates.length) return <div className="msg">아직 발송 이력이 없습니다.</div>;
+            return dates.map((d) => (
+              <section key={d} className="tl-day">
+                <div className="tl-date">
+                  {d} · {byDate[d].length}건 발송
+                </div>
+                <ul className="tl-list">
+                  {byDate[d].map((e, i) => (
+                    <li key={e.fullName + i} className="tl-item">
+                      <a href={e.url} target="_blank" rel="noreferrer">
+                        <div className="tl-head">
+                          <span className="tl-repo">{e.fullName}</span>
+                          {e.category && <span className="tl-cat">{e.category}</span>}
+                        </div>
+                        {e.summary && <p className="tl-sum">{e.summary}</p>}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ));
+          })()}
+        </div>
+      )}
 
       {!loading && !error && mode === "scout" && (
         <ul className="grid">

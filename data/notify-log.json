@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "obra/superpowers",
+    "owner": "obra",
+    "name": "superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "stars": 240332,
+    "category": "코딩 에이전트·개발 자동화 / 에이전트 스킬 프레임워크",
+    "summary": "Claude Code, Codex CLI/App, Cursor 등 여러 코딩 에이전트에 공통으로 적용되는 스킬 기반 개발 방법론이다. 브레인스토밍, 설계 승인, 작업 계획, git worktree, TDD, 코드 리뷰, 서브에이전트 기반 구현 흐름을 강제하는 점이 핵심이다."
+  },
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "name": "ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "stars": 222803,
+    "category": "코딩 에이전트·개발 자동화 / 에이전트 하네스 최적화",
+    "summary": "Claude Code, Codex, Opencode, Cursor 등 코딩 에이전트의 성능을 높이기 위한 스킬, 메모리, 보안, 리서치 우선 워크플로 하네스다. EG AI GROUP OS의 핵심 실행 엔진과 직접 맞닿아 있으며, 특히 Claude Code와 Codex 운영 품질을 개선할 가능성이 크다."
+  },
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "bytedance/deer-flow",
+    "owner": "bytedance",
+    "name": "deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "stars": 75125,
+    "category": "에이전트 오케스트레이션/멀티에이전트 프레임워크",
+    "summary": "장기 작업용 SuperAgent harness로, LangGraph/LangChain 기반 리드 에이전트, 병렬 sub-agent, sandbox 실행, 파일시스템, 장기 메모리, skill, MCP, IM 채널, TUI/웹 UI를 묶은 풀스택 에이전트 런타임이다. EG AI GROUP OS의 최우선 관심사인 멀티에이전트 오케스트레이션과 로컬 우선 자동화에 직접 부합한다."
+  },
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "Fission-AI/OpenSpec",
+    "owner": "Fission-AI",
+    "name": "OpenSpec",
+    "url": "https://github.com/Fission-AI/OpenSpec",
+    "stars": 0,
+    "category": null,
+    "summary": null
+  },
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "topoteretes/cognee",
+    "owner": "topoteretes",
+    "name": "cognee",
+    "url": "https://github.com/topoteretes/cognee",
+    "stars": 24356,
+    "category": "AI 에이전트 메모리/RAG/지식그래프",
+    "summary": "Cognee는 에이전트용 장기 기억 플랫폼으로, 문서·세션·도구 사용 흔적을 self-hosted 지식그래프와 벡터 검색으로 저장·검색한다. 로컬 우선, 멀티에이전트 컨텍스트 공유, Claude Code/OpenClaw/MCP 연동이 모두 EG AI GROUP OS의 핵심 방향과 강하게 맞는다."
+  },
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "name": "Anthropic-Cybersecurity-Skills",
+    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "stars": 22389,
+    "category": "코딩 에이전트/보안 스킬 라이브러리",
+    "summary": "Claude Code, Codex CLI 등에서 바로 쓸 수 있는 817개 구조화 보안 스킬 모음이다. MITRE ATT&CK, NIST CSF, ATLAS, D3FEND 등 보안 프레임워크에 매핑되어 있어 에이전트의 보안 점검·위협 모델링·방어 자동화 역량을 빠르게 보강할 수 있다."
+  },
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "DeusData/codebase-memory-mcp",
+    "owner": "DeusData",
+    "name": "codebase-memory-mcp",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "stars": 18453,
+    "category": "MCP 서버 / 코드 인텔리전스 / 로컬 지식그래프",
+    "summary": "코드베이스를 Tree-sitter 기반 지식그래프로 인덱싱하고 MCP로 초저토큰 코드 탐색을 제공하는 도구. 단일 정적 바이너리, 무의존성, 로컬 실행 특성이 EG AI GROUP OS의 로컬 우선·비용 절감·코딩 에이전트 강화 방향과 잘 맞는다."
+  },
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "stablyai/orca",
+    "owner": "stablyai",
+    "name": "orca",
+    "url": "https://github.com/stablyai/orca",
+    "stars": 8454,
+    "category": "에이전트 오케스트레이션 / 코딩 에이전트 ADE",
+    "summary": "Claude Code, Codex, OpenCode 등 CLI 코딩 에이전트를 병렬 worktree에서 실행·관제하는 데스크톱/모바일 ADE. EG OS의 멀티에이전트 운영, 로컬 우선, 비용 절감 방향과 직접 맞는다."
+  },
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "kunchenguid/no-mistakes",
+    "owner": "kunchenguid",
+    "name": "no-mistakes",
+    "url": "https://github.com/kunchenguid/no-mistakes",
+    "stars": 3910,
+    "category": "코딩 에이전트·개발 자동화 / 로컬 PR 게이트",
+    "summary": "git remote 프록시로 `git push no-mistakes`를 받아 격리 worktree에서 AI 기반 review/test/docs/lint/CI 확인을 돌리고, 통과 시에만 실제 remote로 push 및 PR 생성을 수행하는 Go 도구다. Claude, Codex, opencode 등 여러 에이전트와 연동된다."
+  },
+  {
+    "date": "2026-06-28",
+    "sentAt": "2026-06-28T10:30:00Z",
+    "fullName": "usestrix/strix",
+    "owner": "usestrix",
+    "name": "strix",
+    "url": "https://github.com/usestrix/strix",
+    "stars": 26335,
+    "category": "AI 보안 에이전트 / 자동 침투테스트 / 취약점 자동 수정",
+    "summary": "Strix는 코드베이스·GitHub repo·실행 중인 웹앱을 대상으로 AI 에이전트가 동적 테스트, PoC 검증, 리포트, 자동 수정까지 수행하는 오픈소스 보안 자동화 도구다. Docker 샌드박스, CLI, GitHub Actions, 로컬/외부 LLM API 설정을 지원해 EG AI GROUP OS의 로컬 우선 자동화 방향과 대체로 맞는다."
+  }
+]

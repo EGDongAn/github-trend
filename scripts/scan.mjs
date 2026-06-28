@@ -223,7 +223,7 @@ async function main() {
   console.log(`history snapshot written: ${date} (${snapshot.repos.length} repos)`);
 
   rebuildIndex();
-  notifyHighCandidates();
+  notifyHighCandidates(date);
 
   if (!NO_COMMIT) commitAndPush(date);
   console.log("done.");
@@ -272,7 +272,7 @@ function sendDigest() {
 
 // Alert dev 개발총괄 about high-fit candidates not yet notified (deduped via
 // data/notified.json, committed so it persists across runs).
-function notifyHighCandidates() {
+function notifyHighCandidates(date) {
   if (NO_NOTIFY) return;
   const notifiedPath = join(DATA, "notified.json");
   const notified = new Set(readJson(notifiedPath, []));
@@ -295,10 +295,31 @@ function notifyHighCandidates() {
     if (!dry.length) {
       fresh.forEach((r) => notified.add(r.fullName));
       writeFileSync(notifiedPath, JSON.stringify([...notified], null, 2));
+      appendNotifyLog(date, fresh);
     }
   } catch (e) {
     console.log("tg-send failed:", e.message);
   }
+}
+
+// Append a dated record of what was alerted → powers the 📨 알림이력 timeline.
+function appendNotifyLog(date, repos) {
+  const p = join(DATA, "notify-log.json");
+  const log = readJson(p, []);
+  for (const r of repos) {
+    log.push({
+      date,
+      sentAt: new Date().toISOString(),
+      fullName: r.fullName,
+      owner: r.owner,
+      name: r.name,
+      url: r.url,
+      stars: r.stars,
+      category: r.analysis?.category ?? null,
+      summary: r.analysis?.summary ?? null,
+    });
+  }
+  writeFileSync(p, JSON.stringify(log, null, 2));
 }
 
 // ---------- aggregate index ----------
