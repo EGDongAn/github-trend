@@ -1,0 +1,15 @@
+{
+  "fullName": "ByteByteGoHq/system-design-101",
+  "analyzedAt": "2026-06-28T10:50:50.729Z",
+  "repoMeta": {
+    "stars": 84049,
+    "language": null,
+    "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews."
+  },
+  "relevance": "low",
+  "category": "교육/시스템 설계 학습 자료",
+  "summary": "복잡한 시스템 설계 개념을 시각 자료와 쉬운 설명으로 정리한 인터뷰 대비용 레포다. 운영 자동화, 로컬 LLM, 에이전트 오케스트레이션 도구 자체는 아니다.",
+  "fit": "EG AI GROUP OS의 실행 스택을 직접 보강하지는 않는다. 다만 Paperclip, Hermes, vault sidecar, n8n 같은 내부 구성요소를 설계·문서화하거나 에이전트에게 시스템 설계 배경지식을 제공하는 참고 자료로는 약간 유용하다.",
+  "integration": "문서/학습 자료로만 활용. 필요 시 주요 다이어그램과 개념을 내부 설계 위키나 에이전트 온보딩 자료에 링크하는 정도가 적절하다.",
+  "overlaps": "기존 실행 엔진, 멀티에이전트 관제, 로컬 LLM, MCP, 비밀 관리와 기능 중복은 없다. 단, 도구가 아니라 학습 콘텐츠라 도입 효과가 제한적이다."
+}

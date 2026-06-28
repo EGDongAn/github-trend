@@ -1,0 +1,15 @@
+{
+  "fullName": "Robbyant/lingbot-map",
+  "analyzedAt": "2026-06-28T10:50:44.451Z",
+  "repoMeta": {
+    "stars": 7948,
+    "language": "Python",
+    "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data"
+  },
+  "relevance": "low",
+  "category": "3D 컴퓨터비전/스트리밍 장면 재구성 모델",
+  "summary": "스트리밍 영상 데이터에서 카메라 포즈와 3D 장면을 feed-forward 방식으로 재구성하는 Python 기반 3D foundation model이다. 연구·로보틱스·공간 인식 쪽 가치는 있지만 EG AI GROUP OS의 에이전트 운영, 코딩 자동화, MCP, 비밀관리, 로컬 LLM/RAG 핵심 축과는 직접 연결이 약하다.",
+  "fit": "로컬 실행 가능한 AI 모델이라는 점만 부분적으로 맞는다. 현재 스택의 비용 절감형 로컬 LLM, 멀티에이전트 오케스트레이션, 텔레그램 운영 자동화에는 명확한 공백을 메우지 못하므로 당장 도입 우선순위는 낮다.",
+  "integration": "도입한다면 OpenClaw나 향후 물리 공간/비전 에이전트 실험에서 카메라 스트림 기반 3D 맵 생성 모듈로 분리 운영하는 정도가 적절하다. 운영 OS 본체에는 넣지 말고 별도 GPU 실험 환경에서 검증하는 편이 맞다.",
+  "overlaps": "기존 스택과 직접 중복은 거의 없다. 다만 로컬 GPU/추론 리소스를 Ollama, mlx-lm 등 핵심 로컬 LLM과 경쟁할 수 있어 운영 자동화 목적 대비 자원 효율이 낮다."
+}

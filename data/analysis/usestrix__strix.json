@@ -1,0 +1,15 @@
+{
+  "fullName": "usestrix/strix",
+  "analyzedAt": "2026-06-28T10:51:00.234Z",
+  "repoMeta": {
+    "stars": 26335,
+    "language": "Python",
+    "description": "Open-source AI hackers to find and fix your app’s vulnerabilities."
+  },
+  "relevance": "high",
+  "category": "AI 보안 에이전트 / 자동 침투테스트 / 취약점 자동 수정",
+  "summary": "Strix는 코드베이스·GitHub repo·실행 중인 웹앱을 대상으로 AI 에이전트가 동적 테스트, PoC 검증, 리포트, 자동 수정까지 수행하는 오픈소스 보안 자동화 도구다. Docker 샌드박스, CLI, GitHub Actions, 로컬/외부 LLM API 설정을 지원해 EG AI GROUP OS의 로컬 우선 자동화 방향과 대체로 맞는다.",
+  "fit": "현재 스택에는 Claude Code/codex 기반 코드 수정과 Paperclip 작업 위임은 있지만, 보안 취약점 탐색·검증·PoC 생성·수정 PR까지 특화된 에이전트 보안 레이어는 명확한 공백이다. 특히 자체 앱, Paperclip, Hermes, vault sidecar, n8n 등 로컬 운영 서비스의 정기 보안 점검에 바로 가치가 있다.",
+  "integration": "GitHub Actions에서 PR 단위 quick scan을 돌리고, 로컬 Mac mini에서는 cron 또는 n8n으로 `strix -n --target ./repo`를 주기 실행한다. 결과는 Paperclip 이슈로 변환해 Claude Code/codex 워커에게 수정 위임하고, 민감 대상은 Docker 샌드박스와 vault sidecar 프록시로 격리한다. Ollama/LMStudio 호환 API_BASE로 로컬 LLM 실험도 가능하나, 고품질 보안 분석은 상용 모델 의존 가능성이 있다.",
+  "overlaps": "Claude Code/codex의 코드 리뷰·수정, GitHub Actions의 CI, Playwright/Nuclei류 테스트와 일부 겹친다. 다만 Strix는 보안 공격 시나리오, PoC 검증, 멀티에이전트 보안 워크플로에 특화되어 단순 중복보다는 보안 자동화 업그레이드에 가깝다."
+}

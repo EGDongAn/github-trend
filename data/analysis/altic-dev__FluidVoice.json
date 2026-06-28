@@ -1,0 +1,15 @@
+{
+  "fullName": "altic-dev/FluidVoice",
+  "analyzedAt": "2026-06-28T10:50:50.736Z",
+  "repoMeta": {
+    "stars": 3227,
+    "language": "Swift",
+    "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))"
+  },
+  "relevance": "medium",
+  "category": "로컬 음성 입력/맥 자동화",
+  "summary": "macOS 전용 오프라인 받아쓰기 앱. Parakeet/Whisper/Apple Speech 등 로컬 음성 모델, 전역 핫키, 앱 전반 텍스트 삽입, 음성 명령으로 앱 실행·Shortcuts·시스템 액션을 지원한다.",
+  "fit": "EG OS의 핵심인 에이전트 오케스트레이션은 아니지만, 운영자가 텔레그램/터미널 대신 음성으로 로컬 Mac에 지시하는 입력 계층으로 유용하다. 로컬 우선·비용 절감 방향과 잘 맞고, macOS Accessibility/Shortcuts 기반이라 Mac mini 운영 환경에 맞다.",
+  "integration": "Mac에 FluidVoice를 설치하고 전역 핫키로 Claude Code, cmux, Hermes 관리자 채팅, 터미널 입력에 음성 명령을 삽입한다. Command Mode는 macOS Shortcuts와 연결해 n8n 트리거, Paperclip 작업 생성, tg-proxy 알림 같은 로컬 자동화 진입점으로 쓸 수 있다. 단, Fluid Intelligence 런타임은 비공개이고 GPLv3라 코드 재사용·배포 시 라이선스 검토가 필요하다.",
+  "overlaps": "OpenClaw의 개인 비서 역할, macOS 기본 받아쓰기, Whisper/Ollama 기반 로컬 음성 처리와 일부 중복된다. 하지만 완성된 macOS 전역 입력 UX와 앱 간 직접 타이핑 기능은 기존 스택의 명확한 보유 기능은 아니다."
+}

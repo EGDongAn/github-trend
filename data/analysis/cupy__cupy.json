@@ -1,0 +1,15 @@
+{
+  "fullName": "cupy/cupy",
+  "analyzedAt": "2026-06-28T10:50:39.134Z",
+  "repoMeta": {
+    "stars": 11328,
+    "language": "Python",
+    "description": "NumPy & SciPy for GPU"
+  },
+  "relevance": "low",
+  "category": "GPU 가속 수치연산 라이브러리",
+  "summary": "CuPy는 NumPy/SciPy 호환 API를 GPU에서 실행하게 해주는 Python 라이브러리다. 로컬 LLM 추론 서버나 에이전트 오케스트레이션 도구는 아니며, EG AI GROUP OS의 운영 자동화 스택과 직접 연결되지는 않는다.",
+  "fit": "로컬 우선·비용 절감 방향과 간접적으로 맞지만, 주된 가치는 CUDA/ROCm GPU 기반 수치연산 가속이다. Mac mini 환경에서는 Apple Silicon GPU/Metal 중심 워크플로와 맞지 않을 가능성이 높아 도입 매력이 제한적이다.",
+  "integration": "LLM/RAG 파이프라인에서 직접 CuPy를 요구하는 커스텀 벡터 연산, 임베딩 후처리, 대규모 배열 처리 코드가 생길 때만 선택적으로 검토할 수 있다. 일반적인 Ollama/mlx-lm/Open WebUI 운영에는 직접 필요하지 않다.",
+  "overlaps": "NumPy/SciPy 계열 연산을 GPU로 대체하는 라이브러리라 기존 Paperclip, cmux, Hermes, Vault, n8n, MCP와 기능 중복은 거의 없다. 다만 로컬 LLM 가속 영역에서는 mlx-lm/Ollama와 목적이 일부 인접하지만, 추론 엔진 대체재는 아니다."
+}

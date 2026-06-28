@@ -8,17 +8,17 @@
         "trending-week"
       ],
       "rank": 1,
-      "stars": 14239,
+      "stars": 14292,
       "starsToday": 1469
     },
     {
-      "fullName": "xbtlin/ai-berkshire",
+      "fullName": "ripienaar/free-for-dev",
       "sources": [
         "trending-day"
       ],
       "rank": 2,
-      "stars": 4811,
-      "starsToday": 685
+      "stars": 124333,
+      "starsToday": 459
     },
     {
       "fullName": "commaai/openpilot",
@@ -26,155 +26,99 @@
         "trending-day"
       ],
       "rank": 3,
-      "stars": 62168,
+      "stars": 62181,
       "starsToday": 322
     },
     {
-      "fullName": "IceWhaleTech/CasaOS",
+      "fullName": "xbtlin/ai-berkshire",
       "sources": [
         "trending-day"
       ],
       "rank": 4,
-      "stars": 35928,
-      "starsToday": 502
+      "stars": 4877,
+      "starsToday": 685
     },
     {
-      "fullName": "ripienaar/free-for-dev",
+      "fullName": "Robbyant/lingbot-map",
       "sources": [
         "trending-day"
       ],
       "rank": 5,
-      "stars": 124317,
-      "starsToday": 459
+      "stars": 7948,
+      "starsToday": 372
     },
     {
-      "fullName": "google-labs-code/design.md",
+      "fullName": "DeusData/codebase-memory-mcp",
       "sources": [
         "trending-day",
         "trending-week"
       ],
-      "rank": 4,
-      "stars": 22617,
-      "starsToday": 1541
+      "rank": 2,
+      "stars": 18453,
+      "starsToday": 2162
     },
     {
-      "fullName": "microsoft/PowerToys",
+      "fullName": "cupy/cupy",
       "sources": [
         "trending-day"
       ],
       "rank": 7,
-      "stars": 135790,
-      "starsToday": 57
+      "stars": 11328,
+      "starsToday": 172
     },
     {
-      "fullName": "JCodesMore/ai-website-cloner-template",
+      "fullName": "altic-dev/FluidVoice",
       "sources": [
-        "trending-day",
-        "trending-week"
+        "trending-day"
       ],
       "rank": 8,
-      "stars": 22428,
-      "starsToday": 750
+      "stars": 3227,
+      "starsToday": 264
     },
     {
-      "fullName": "garrytan/gstack",
+      "fullName": "opendatalab/MinerU",
       "sources": [
         "trending-day"
       ],
       "rank": 9,
-      "stars": 117476,
-      "starsToday": 674
-    },
-    {
-      "fullName": "NanmiCoder/MediaCrawler",
-      "sources": [
-        "trending-day"
-      ],
-      "rank": 10,
-      "stars": 53929,
-      "starsToday": 394
-    },
-    {
-      "fullName": "Anil-matcha/Open-Generative-AI",
-      "sources": [
-        "trending-day"
-      ],
-      "rank": 11,
-      "stars": 21548,
-      "starsToday": 255
-    },
-    {
-      "fullName": "topoteretes/cognee",
-      "sources": [
-        "trending-day",
-        "trending-week"
-      ],
-      "rank": 12,
-      "stars": 24314,
-      "starsToday": 780
-    },
-    {
-      "fullName": "dbt-labs/dbt-core",
-      "sources": [
-        "trending-day"
-      ],
-      "rank": 13,
-      "stars": 13283,
-      "starsToday": 18
-    },
-    {
-      "fullName": "luongnv89/claude-howto",
-      "sources": [
-        "trending-day"
-      ],
-      "rank": 14,
-      "stars": 38759,
-      "starsToday": 141
-    },
-    {
-      "fullName": "anomalyco/opencode",
-      "sources": [
-        "trending-day"
-      ],
-      "rank": 15,
-      "stars": 179998,
-      "starsToday": 392
-    },
-    {
-      "fullName": "Fission-AI/OpenSpec",
-      "sources": [
-        "trending-day"
-      ],
-      "rank": 16,
-      "stars": 57309,
-      "starsToday": 177
+      "stars": 71176,
+      "starsToday": 749
     },
     {
       "fullName": "HKUDS/Vibe-Trading",
       "sources": [
         "trending-day"
       ],
-      "rank": 17,
-      "stars": 13917,
+      "rank": 10,
+      "stars": 13933,
       "starsToday": 92
     },
     {
-      "fullName": "keycloak/keycloak",
+      "fullName": "ByteByteGoHq/system-design-101",
       "sources": [
         "trending-day"
       ],
-      "rank": 18,
-      "stars": 35382,
-      "starsToday": 20
+      "rank": 11,
+      "stars": 84049,
+      "starsToday": 132
     },
     {
-      "fullName": "every-app/open-seo",
+      "fullName": "usestrix/strix",
       "sources": [
         "trending-day"
       ],
-      "rank": 19,
-      "stars": 3589,
-      "starsToday": 239
+      "rank": 12,
+      "stars": 26335,
+      "starsToday": 88
+    },
+    {
+      "fullName": "browser-use/video-use",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 13,
+      "stars": 10575,
+      "starsToday": 186
     },
     {
       "fullName": "calesthio/OpenMontage",
@@ -182,17 +126,8 @@
         "trending-week"
       ],
       "rank": 1,
-      "stars": 25973,
+      "stars": 26044,
       "starsToday": 18000
-    },
-    {
-      "fullName": "DeusData/codebase-memory-mcp",
-      "sources": [
-        "trending-week"
-      ],
-      "rank": 2,
-      "stars": 18373,
-      "starsToday": 7674
     },
     {
       "fullName": "kunchenguid/no-mistakes",
@@ -200,35 +135,35 @@
         "trending-week"
       ],
       "rank": 3,
-      "stars": 3900,
+      "stars": 3910,
       "starsToday": 2229
     },
     {
-      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "fullName": "palmier-io/palmier-pro",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 4,
+      "stars": 9233,
+      "starsToday": 6126
+    },
+    {
+      "fullName": "google-labs-code/design.md",
       "sources": [
         "trending-week"
       ],
       "rank": 5,
-      "stars": 50774,
-      "starsToday": 7137
+      "stars": 22644,
+      "starsToday": 6014
     },
     {
-      "fullName": "penpot/penpot",
+      "fullName": "JCodesMore/ai-website-cloner-template",
       "sources": [
         "trending-week"
       ],
       "rank": 6,
-      "stars": 54277,
-      "starsToday": 3343
-    },
-    {
-      "fullName": "Panniantong/Agent-Reach",
-      "sources": [
-        "trending-week"
-      ],
-      "rank": 7,
-      "stars": 43861,
-      "starsToday": 7676
+      "stars": 22470,
+      "starsToday": 4565
     },
     {
       "fullName": "interviewstreet/hiring-agent",
@@ -236,70 +171,79 @@
         "trending-week"
       ],
       "rank": 8,
-      "stars": 3099,
+      "stars": 3100,
       "starsToday": 1836
     },
     {
-      "fullName": "jamiepine/voicebox",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
       "sources": [
         "trending-week"
       ],
-      "rank": 10,
-      "stars": 35113,
-      "starsToday": 3965
+      "rank": 9,
+      "stars": 50794,
+      "starsToday": 7137
     },
     {
       "fullName": "stablyai/orca",
       "sources": [
         "trending-week"
       ],
-      "rank": 11,
-      "stars": 8445,
+      "rank": 10,
+      "stars": 8454,
       "starsToday": 2554
     },
     {
-      "fullName": "BuilderIO/agent-native",
+      "fullName": "Panniantong/Agent-Reach",
       "sources": [
         "trending-week"
       ],
-      "rank": 12,
-      "stars": 2775,
-      "starsToday": 1474
+      "rank": 11,
+      "stars": 43909,
+      "starsToday": 7676
     },
     {
       "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
       "sources": [
         "trending-week"
       ],
-      "rank": 13,
-      "stars": 22372,
+      "rank": 12,
+      "stars": 22389,
       "starsToday": 5121
     },
     {
-      "fullName": "koala73/worldmonitor",
+      "fullName": "penpot/penpot",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 13,
+      "stars": 54281,
+      "starsToday": 3343
+    },
+    {
+      "fullName": "BuilderIO/agent-native",
       "sources": [
         "trending-week"
       ],
       "rank": 14,
-      "stars": 60497,
-      "starsToday": 2735
+      "stars": 2780,
+      "starsToday": 1474
     },
     {
-      "fullName": "asgeirtj/system_prompts_leaks",
+      "fullName": "jamiepine/voicebox",
       "sources": [
         "trending-week"
       ],
       "rank": 15,
-      "stars": 46729,
-      "starsToday": 2775
+      "stars": 35127,
+      "starsToday": 3965
     },
     {
       "fullName": "aws/agent-toolkit-for-aws",
       "sources": [
         "trending-week"
       ],
-      "rank": 17,
-      "stars": 1507,
+      "rank": 16,
+      "stars": 1509,
       "starsToday": 524
     },
     {
@@ -307,27 +251,54 @@
       "sources": [
         "trending-week"
       ],
-      "rank": 18,
-      "stars": 20416,
+      "rank": 17,
+      "stars": 20419,
       "starsToday": 1649
-    },
-    {
-      "fullName": "bytedance/deer-flow",
-      "sources": [
-        "trending-week"
-      ],
-      "rank": 19,
-      "stars": 75121,
-      "starsToday": 3258
     },
     {
       "fullName": "Stirling-Tools/Stirling-PDF",
       "sources": [
         "trending-week"
       ],
-      "rank": 20,
-      "stars": 84854,
+      "rank": 18,
+      "stars": 84863,
       "starsToday": 3231
+    },
+    {
+      "fullName": "koala73/worldmonitor",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 19,
+      "stars": 60519,
+      "starsToday": 2735
+    },
+    {
+      "fullName": "NanmiCoder/MediaCrawler",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 20,
+      "stars": 53942,
+      "starsToday": 2225
+    },
+    {
+      "fullName": "topoteretes/cognee",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 21,
+      "stars": 24356,
+      "starsToday": 5519
+    },
+    {
+      "fullName": "bytedance/deer-flow",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 22,
+      "stars": 75125,
+      "starsToday": 3258
     },
     {
       "fullName": "codecrafters-io/build-your-own-x",
@@ -335,7 +306,7 @@
         "popular"
       ],
       "rank": 1,
-      "stars": 520386,
+      "stars": 520398,
       "starsToday": 0
     },
     {
@@ -344,7 +315,7 @@
         "popular"
       ],
       "rank": 2,
-      "stars": 479462,
+      "stars": 479467,
       "starsToday": 0
     },
     {
@@ -353,7 +324,7 @@
         "popular"
       ],
       "rank": 3,
-      "stars": 450654,
+      "stars": 450656,
       "starsToday": 0
     },
     {
@@ -362,7 +333,7 @@
         "popular"
       ],
       "rank": 4,
-      "stars": 444645,
+      "stars": 444651,
       "starsToday": 0
     },
     {
@@ -371,7 +342,7 @@
         "popular"
       ],
       "rank": 5,
-      "stars": 390891,
+      "stars": 390890,
       "starsToday": 0
     },
     {
@@ -380,7 +351,7 @@
         "popular"
       ],
       "rank": 6,
-      "stars": 380791,
+      "stars": 380794,
       "starsToday": 0
     },
     {
@@ -389,7 +360,7 @@
         "popular"
       ],
       "rank": 7,
-      "stars": 358504,
+      "stars": 358503,
       "starsToday": 0
     },
     {
@@ -398,7 +369,7 @@
         "popular"
       ],
       "rank": 8,
-      "stars": 355209,
+      "stars": 355215,
       "starsToday": 0
     },
     {
@@ -407,7 +378,7 @@
         "popular"
       ],
       "rank": 9,
-      "stars": 354318,
+      "stars": 354330,
       "starsToday": 0
     },
     {
@@ -416,7 +387,7 @@
         "popular"
       ],
       "rank": 10,
-      "stars": 305191,
+      "stars": 305197,
       "starsToday": 0
     },
     {
@@ -425,7 +396,7 @@
         "popular"
       ],
       "rank": 11,
-      "stars": 301549,
+      "stars": 301554,
       "starsToday": 0
     },
     {
@@ -443,7 +414,7 @@
         "popular"
       ],
       "rank": 13,
-      "stars": 271153,
+      "stars": 271156,
       "starsToday": 0
     },
     {
@@ -452,7 +423,7 @@
         "popular"
       ],
       "rank": 14,
-      "stars": 246257,
+      "stars": 246270,
       "starsToday": 0
     },
     {
@@ -461,7 +432,7 @@
         "popular"
       ],
       "rank": 15,
-      "stars": 240295,
+      "stars": 240332,
       "starsToday": 0
     },
     {
@@ -470,7 +441,7 @@
         "popular"
       ],
       "rank": 16,
-      "stars": 237854,
+      "stars": 237866,
       "starsToday": 0
     },
     {
@@ -479,7 +450,7 @@
         "popular"
       ],
       "rank": 17,
-      "stars": 230604,
+      "stars": 230614,
       "starsToday": 0
     },
     {
@@ -488,7 +459,7 @@
         "popular"
       ],
       "rank": 18,
-      "stars": 222786,
+      "stars": 222803,
       "starsToday": 0
     },
     {
@@ -497,7 +468,7 @@
         "popular"
       ],
       "rank": 19,
-      "stars": 222255,
+      "stars": 222257,
       "starsToday": 0
     },
     {
@@ -506,7 +477,7 @@
         "popular"
       ],
       "rank": 20,
-      "stars": 210076,
+      "stars": 210085,
       "starsToday": 0
     }
   ]

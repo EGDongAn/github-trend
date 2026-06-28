@@ -1,0 +1,15 @@
+{
+  "fullName": "browser-use/video-use",
+  "analyzedAt": "2026-06-28T10:51:17.655Z",
+  "repoMeta": {
+    "stars": 10575,
+    "language": "Python",
+    "description": "Edit videos with coding agents"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / 미디어 자동화 스킬",
+  "summary": "Claude Code/Codex 같은 셸 접근 에이전트가 원본 영상 폴더를 읽고, 전사·타임라인 뷰·EDL·ffmpeg 렌더링·자가 평가 루프로 final.mp4를 만드는 오픈소스 비디오 편집 워크플로다. 코어는 범용 오케스트레이터가 아니라 에이전트용 영상 편집 스킬/헬퍼 모음에 가깝다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·코딩 에이전트 자동화 방향과는 맞는다. 특히 Claude Code/Codex/Hermes에 스킬로 붙일 수 있고, 텔레그램 기반 영상 편집 요청 자동화 같은 운영 태스크에 바로 응용 가능하다. 다만 핵심 우선순위인 멀티에이전트 관제, 로컬 LLM 서빙, 보안 격리의 공백을 메우지는 않으므로 high는 아니다.",
+  "integration": "Codex 또는 Claude Code skill로 ~/.codex/skills/video-use 또는 ~/.claude/skills/video-use에 연결하고, ffmpeg/uv/yt-dlp를 Mac mini에 설치한 뒤 Hermes 명령으로 특정 영상 폴더에서 에이전트를 실행하게 만들면 된다. ElevenLabs Scribe API 의존이 있으므로 vault sidecar에 API key를 넣고 프록시/환경변수 주입 방식으로 격리하는 편이 적합하다.",
+  "overlaps": "Claude Code 스킬 시스템, Codex exec, Hermes, Paperclip 워커 실행 흐름과 겹치지만 대체재는 아니다. OpenClaw/기존 에이전트가 할 수 있는 일반 셸 자동화 위에 영상 편집 도메인 규칙과 헬퍼를 얹는 보강재다. 외부 전사 API 의존과 미디어 편집이라는 제한된 도메인 때문에 범용 OS 핵심 컴포넌트로 보기에는 약하다."
+}

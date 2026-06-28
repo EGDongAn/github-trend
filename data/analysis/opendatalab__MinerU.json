@@ -1,0 +1,15 @@
+{
+  "fullName": "opendatalab/MinerU",
+  "analyzedAt": "2026-06-28T10:50:37.397Z",
+  "repoMeta": {
+    "stars": 71176,
+    "language": "Python",
+    "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows."
+  },
+  "relevance": "medium",
+  "category": "문서 파싱/RAG 전처리/로컬 OCR",
+  "summary": "MinerU는 PDF·Office 등 복잡한 문서를 LLM용 Markdown/JSON으로 변환하는 오픈소스 문서 추출 도구다. 수식, 표, 레이아웃, OCR 같은 RAG 전처리 품질을 높이는 데 초점이 있고 로컬 배포가 가능해 로컬 우선 원칙과 맞는다.",
+  "fit": "에이전트들이 논문, 매뉴얼, 계약서, 리포트 PDF를 읽어 지식화하거나 Paperclip 작업 컨텍스트로 넣는 파이프라인에 유용하다. EG OS의 핵심 오케스트레이션 공백을 메우는 도구는 아니지만, 로컬 RAG/문서 ingestion 품질을 높이는 보조 인프라로 도입 검토 가치가 있다.",
+  "integration": "n8n 또는 cron 워크플로에서 감시 폴더의 PDF/DOCX를 MinerU로 Markdown/JSON 변환하고, 결과를 Open WebUI/Ollama RAG, Paperclip 이슈 첨부 컨텍스트, Claude Code/codex 작업 자료로 공급한다. 무거운 모델/스토리지 요구가 있을 수 있으므로 Mac mini에서 샘플 문서 기준 속도와 용량을 먼저 벤치마크하는 파일럿이 적절하다.",
+  "overlaps": "기존 MCP/google-drive, Open WebUI RAG, Claude Code 문서 읽기와 일부 겹치지만 MinerU는 복잡한 PDF/OCR/레이아웃 보존 전처리에 특화된다. 범용 RAG 시스템 대체가 아니라 ingestion 품질 보강재에 가깝다. Docling, Marker류와도 경쟁하므로 실제 문서셋에서 비교 필요하다."
+}
