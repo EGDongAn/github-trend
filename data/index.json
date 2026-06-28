@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T09:31:20.237Z",
+  "generatedAt": "2026-06-28T09:51:58.263Z",
   "days": 1,
   "repos": [
     {
@@ -10,7 +10,7 @@
       "avatar": "https://github.com/obra.png?size=64",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 240285,
+      "stars": 240295,
       "appearances": 1,
       "sources": [
         "popular"
@@ -20,7 +20,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 240285
+          "stars": 240295
         }
       ],
       "analysis": {
@@ -40,7 +40,7 @@
       "avatar": "https://github.com/affaan-m.png?size=64",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 222777,
+      "stars": 222786,
       "appearances": 1,
       "sources": [
         "popular"
@@ -50,7 +50,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 222777
+          "stars": 222786
         }
       ],
       "analysis": {
@@ -70,7 +70,7 @@
       "avatar": "https://github.com/bytedance.png?size=64",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "language": "Python",
-      "stars": 75119,
+      "stars": 75121,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -80,7 +80,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 75119
+          "stars": 75121
         }
       ],
       "analysis": {
@@ -100,7 +100,7 @@
       "avatar": "https://github.com/Fission-AI.png?size=64",
       "description": "Spec-driven development (SDD) for AI coding assistants.",
       "language": "TypeScript",
-      "stars": 57300,
+      "stars": 57309,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -110,7 +110,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 57300
+          "stars": 57309
         }
       ],
       "analysis": {
@@ -130,7 +130,7 @@
       "avatar": "https://github.com/topoteretes.png?size=64",
       "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
       "language": "Python",
-      "stars": 24296,
+      "stars": 24314,
       "appearances": 1,
       "sources": [
         "trending-day",
@@ -141,7 +141,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 24296
+          "stars": 24314
         }
       ],
       "analysis": {
@@ -161,7 +161,7 @@
       "avatar": "https://github.com/mukul975.png?size=64",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
       "language": "Python",
-      "stars": 22362,
+      "stars": 22372,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -171,7 +171,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 22362
+          "stars": 22372
         }
       ],
       "analysis": {
@@ -191,7 +191,7 @@
       "avatar": "https://github.com/DeusData.png?size=64",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "stars": 18331,
+      "stars": 18373,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -201,7 +201,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 18331
+          "stars": 18373
         }
       ],
       "analysis": {
@@ -221,7 +221,7 @@
       "avatar": "https://github.com/stablyai.png?size=64",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "language": "TypeScript",
-      "stars": 8441,
+      "stars": 8445,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -231,7 +231,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 8441
+          "stars": 8445
         }
       ],
       "analysis": {
@@ -251,7 +251,7 @@
       "avatar": "https://github.com/kunchenguid.png?size=64",
       "description": "git push no-mistakes",
       "language": "Go",
-      "stars": 3895,
+      "stars": 3900,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -261,7 +261,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 3895
+          "stars": 3900
         }
       ],
       "analysis": {
@@ -311,7 +311,7 @@
       "avatar": "https://github.com/anomalyco.png?size=64",
       "description": "The open source coding agent.",
       "language": "TypeScript",
-      "stars": 179988,
+      "stars": 179998,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -321,7 +321,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 179988
+          "stars": 179998
         }
       ],
       "analysis": {
@@ -341,7 +341,7 @@
       "avatar": "https://github.com/garrytan.png?size=64",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "stars": 117465,
+      "stars": 117476,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -351,7 +351,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 117465
+          "stars": 117476
         }
       ],
       "analysis": {
@@ -371,7 +371,7 @@
       "avatar": "https://github.com/koala73.png?size=64",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "stars": 60487,
+      "stars": 60497,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -381,7 +381,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 60487
+          "stars": 60497
         }
       ],
       "analysis": {
@@ -401,7 +401,7 @@
       "avatar": "https://github.com/NanmiCoder.png?size=64",
       "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
       "language": "Python",
-      "stars": 53919,
+      "stars": 53929,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -411,7 +411,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 53919
+          "stars": 53929
         }
       ],
       "analysis": {
@@ -431,7 +431,7 @@
       "avatar": "https://github.com/Panniantong.png?size=64",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "stars": 43837,
+      "stars": 43861,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -441,7 +441,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 43837
+          "stars": 43861
         }
       ],
       "analysis": {
@@ -461,7 +461,7 @@
       "avatar": "https://github.com/luongnv89.png?size=64",
       "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "language": "Python",
-      "stars": 38751,
+      "stars": 38759,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -471,7 +471,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 38751
+          "stars": 38759
         }
       ],
       "analysis": {
@@ -491,7 +491,7 @@
       "avatar": "https://github.com/IceWhaleTech.png?size=64",
       "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
       "language": "Go",
-      "stars": 35922,
+      "stars": 35928,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -501,7 +501,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 35922
+          "stars": 35928
         }
       ],
       "analysis": {
@@ -521,7 +521,7 @@
       "avatar": "https://github.com/keycloak.png?size=64",
       "description": "Open Source Identity and Access Management For Modern Applications and Services",
       "language": "Java",
-      "stars": 35379,
+      "stars": 35382,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -531,7 +531,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 35379
+          "stars": 35382
         }
       ],
       "analysis": {
@@ -551,7 +551,7 @@
       "avatar": "https://github.com/jamiepine.png?size=64",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "language": "TypeScript",
-      "stars": 35104,
+      "stars": 35113,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -561,7 +561,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 35104
+          "stars": 35113
         }
       ],
       "analysis": {
@@ -574,36 +574,6 @@
       }
     },
     {
-      "fullName": "hugohe3/ppt-master",
-      "owner": "hugohe3",
-      "name": "ppt-master",
-      "url": "https://github.com/hugohe3/ppt-master",
-      "avatar": "https://github.com/hugohe3.png?size=64",
-      "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
-      "language": "Python",
-      "stars": 33419,
-      "appearances": 1,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-06-28",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 33419
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "문서 자동화 / AI 프레젠테이션 생성",
-        "summary": "문서에서 편집 가능한 네이티브 PowerPoint를 생성하고, 템플릿 적용·애니메이션·발표자 노트 음성 내레이션까지 지원하는 Python 기반 도구다.",
-        "fit": "EG AI GROUP OS의 핵심 축인 멀티에이전트 오케스트레이션, 로컬 LLM 서빙, 보안 격리와 직접 맞물리지는 않는다. 다만 에이전트가 리서치 결과, 주간 리포트, 제안서, 운영 보고서를 자동으로 PPT 산출물로 만드는 워크플로에는 실용성이 있다.",
-        "integration": "Paperclip 작업 결과물 생성 단계나 n8n 워크플로의 문서 산출 노드로 붙여, Markdown/PDF/문서 입력을 .pptx 보고서로 변환하는 보조 도구로 검토. 로컬 실행과 로컬 LLM 연동 가능 여부를 확인한 뒤 도입 판단.",
-        "overlaps": "Claude Code/기존 문서 생성 워크플로, Google Drive/Slides 자동화, n8n 리포트 자동화와 일부 중복된다. 차별점은 슬라이드 이미지가 아니라 편집 가능한 PowerPoint 네이티브 객체를 생성한다는 점이다."
-      }
-    },
-    {
       "fullName": "calesthio/OpenMontage",
       "owner": "calesthio",
       "name": "OpenMontage",
@@ -611,7 +581,7 @@
       "avatar": "https://github.com/calesthio.png?size=64",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "stars": 25934,
+      "stars": 25973,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -621,7 +591,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 25934
+          "stars": 25973
         }
       ],
       "analysis": {
@@ -641,7 +611,7 @@
       "avatar": "https://github.com/google-labs-code.png?size=64",
       "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
       "language": "TypeScript",
-      "stars": 22608,
+      "stars": 22617,
       "appearances": 1,
       "sources": [
         "trending-day",
@@ -652,7 +622,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 22608
+          "stars": 22617
         }
       ],
       "analysis": {
@@ -672,7 +642,7 @@
       "avatar": "https://github.com/JCodesMore.png?size=64",
       "description": "Clone any website with one command using AI coding agents",
       "language": "TypeScript",
-      "stars": 22416,
+      "stars": 22428,
       "appearances": 1,
       "sources": [
         "trending-day",
@@ -683,7 +653,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 22416
+          "stars": 22428
         }
       ],
       "analysis": {
@@ -703,7 +673,7 @@
       "avatar": "https://github.com/Anil-matcha.png?size=64",
       "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "language": "JavaScript",
-      "stars": 21542,
+      "stars": 21548,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -713,7 +683,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 21542
+          "stars": 21548
         }
       ],
       "analysis": {
@@ -733,7 +703,7 @@
       "avatar": "https://github.com/alibaba.png?size=64",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "stars": 20414,
+      "stars": 20416,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -743,7 +713,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 20414
+          "stars": 20416
         }
       ],
       "analysis": {
@@ -763,7 +733,7 @@
       "avatar": "https://github.com/simplex-chat.png?size=64",
       "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
       "language": "Haskell",
-      "stars": 14222,
+      "stars": 14239,
       "appearances": 1,
       "sources": [
         "trending-day",
@@ -774,7 +744,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 14222
+          "stars": 14239
         }
       ],
       "analysis": {
@@ -794,7 +764,7 @@
       "avatar": "https://github.com/HKUDS.png?size=64",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "stars": 13901,
+      "stars": 13917,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -804,7 +774,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 13901
+          "stars": 13917
         }
       ],
       "analysis": {
@@ -824,7 +794,7 @@
       "avatar": "https://github.com/xbtlin.png?size=64",
       "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
       "language": "Python",
-      "stars": 4777,
+      "stars": 4811,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -834,7 +804,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 4777
+          "stars": 4811
         }
       ],
       "analysis": {
@@ -884,7 +854,7 @@
       "avatar": "https://github.com/aws.png?size=64",
       "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
       "language": "Python",
-      "stars": 1506,
+      "stars": 1507,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -894,7 +864,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 1506
+          "stars": 1507
         }
       ],
       "analysis": {
@@ -914,7 +884,7 @@
       "avatar": "https://github.com/codecrafters-io.png?size=64",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
-      "stars": 520381,
+      "stars": 520386,
       "appearances": 1,
       "sources": [
         "popular"
@@ -924,7 +894,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 520381
+          "stars": 520386
         }
       ],
       "analysis": {
@@ -944,7 +914,7 @@
       "avatar": "https://github.com/sindresorhus.png?size=64",
       "description": "😎 Awesome lists about all kinds of interesting topics",
       "language": null,
-      "stars": 479458,
+      "stars": 479462,
       "appearances": 1,
       "sources": [
         "popular"
@@ -954,7 +924,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 479458
+          "stars": 479462
         }
       ],
       "analysis": {
@@ -974,7 +944,7 @@
       "avatar": "https://github.com/public-apis.png?size=64",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "stars": 444641,
+      "stars": 444645,
       "appearances": 1,
       "sources": [
         "popular"
@@ -984,7 +954,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 444641
+          "stars": 444645
         }
       ],
       "analysis": {
@@ -1004,7 +974,7 @@
       "avatar": "https://github.com/EbookFoundation.png?size=64",
       "description": ":books: Freely available programming books",
       "language": "Python",
-      "stars": 390890,
+      "stars": 390891,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1014,7 +984,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 390890
+          "stars": 390891
         }
       ],
       "analysis": {
@@ -1034,7 +1004,7 @@
       "avatar": "https://github.com/openclaw.png?size=64",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript",
-      "stars": 380790,
+      "stars": 380791,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1044,7 +1014,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 380790
+          "stars": 380791
         }
       ],
       "analysis": {
@@ -1064,7 +1034,7 @@
       "avatar": "https://github.com/donnemartin.png?size=64",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "language": "Python",
-      "stars": 355207,
+      "stars": 355209,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1074,7 +1044,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 355207
+          "stars": 355209
         }
       ],
       "analysis": {
@@ -1094,7 +1064,7 @@
       "avatar": "https://github.com/vinta.png?size=64",
       "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
       "language": "Python",
-      "stars": 305187,
+      "stars": 305191,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1104,7 +1074,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 305187
+          "stars": 305191
         }
       ],
       "analysis": {
@@ -1124,7 +1094,7 @@
       "avatar": "https://github.com/torvalds.png?size=64",
       "description": "Linux kernel source tree",
       "language": "C",
-      "stars": 237846,
+      "stars": 237854,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1134,7 +1104,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 237846
+          "stars": 237854
         }
       ],
       "analysis": {
@@ -1154,7 +1124,7 @@
       "avatar": "https://github.com/trimstray.png?size=64",
       "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
       "language": null,
-      "stars": 230601,
+      "stars": 230604,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1164,7 +1134,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 230601
+          "stars": 230604
         }
       ],
       "analysis": {
@@ -1184,7 +1154,7 @@
       "avatar": "https://github.com/ripienaar.png?size=64",
       "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
       "language": "HTML",
-      "stars": 124311,
+      "stars": 124317,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -1194,7 +1164,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 124311
+          "stars": 124317
         }
       ],
       "analysis": {
@@ -1214,7 +1184,7 @@
       "avatar": "https://github.com/Stirling-Tools.png?size=64",
       "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
       "language": "Java",
-      "stars": 84852,
+      "stars": 84854,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -1224,7 +1194,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 84852
+          "stars": 84854
         }
       ],
       "analysis": {
@@ -1244,7 +1214,7 @@
       "avatar": "https://github.com/commaai.png?size=64",
       "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
       "language": "Python",
-      "stars": 62167,
+      "stars": 62168,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -1254,7 +1224,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 62167
+          "stars": 62168
         }
       ],
       "analysis": {
@@ -1274,7 +1244,7 @@
       "avatar": "https://github.com/penpot.png?size=64",
       "description": "Penpot: The open-source design tool for design and code collaboration",
       "language": "Clojure",
-      "stars": 54275,
+      "stars": 54277,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -1284,7 +1254,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 54275
+          "stars": 54277
         }
       ],
       "analysis": {
@@ -1304,7 +1274,7 @@
       "avatar": "https://github.com/ZhuLinsen.png?size=64",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 50765,
+      "stars": 50774,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -1314,7 +1284,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 50765
+          "stars": 50774
         }
       ],
       "analysis": {
@@ -1334,7 +1304,7 @@
       "avatar": "https://github.com/asgeirtj.png?size=64",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "stars": 46722,
+      "stars": 46729,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -1344,7 +1314,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 46722
+          "stars": 46729
         }
       ],
       "analysis": {
@@ -1364,7 +1334,7 @@
       "avatar": "https://github.com/dbt-labs.png?size=64",
       "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
       "language": "Rust",
-      "stars": 13281,
+      "stars": 13283,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -1374,7 +1344,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 13281
+          "stars": 13283
         }
       ],
       "analysis": {
@@ -1394,7 +1364,7 @@
       "avatar": "https://github.com/every-app.png?size=64",
       "description": "Open source alternative to Semrush and Ahrefs",
       "language": "TypeScript",
-      "stars": 3579,
+      "stars": 3589,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -1404,7 +1374,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 3579
+          "stars": 3589
         }
       ],
       "analysis": {
@@ -1424,7 +1394,7 @@
       "avatar": "https://github.com/interviewstreet.png?size=64",
       "description": "AI agent to evaluate and score resumes.",
       "language": "Python",
-      "stars": 3096,
+      "stars": 3099,
       "appearances": 1,
       "sources": [
         "trending-week"
@@ -1434,7 +1404,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 3096
+          "stars": 3099
         }
       ],
       "analysis": {
@@ -1454,7 +1424,7 @@
       "avatar": "https://github.com/freeCodeCamp.png?size=64",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "stars": 450653,
+      "stars": 450654,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1464,7 +1434,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 450653
+          "stars": 450654
         }
       ],
       "analysis": {
@@ -1484,7 +1454,7 @@
       "avatar": "https://github.com/nilbuild.png?size=64",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "language": "TypeScript",
-      "stars": 358502,
+      "stars": 358504,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1494,7 +1464,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 358502
+          "stars": 358504
         }
       ],
       "analysis": {
@@ -1514,7 +1484,7 @@
       "avatar": "https://github.com/jwasham.png?size=64",
       "description": "A complete computer science study plan to become a software engineer.",
       "language": null,
-      "stars": 354315,
+      "stars": 354318,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1524,7 +1494,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 354315
+          "stars": 354318
         }
       ],
       "analysis": {
@@ -1574,7 +1544,7 @@
       "avatar": "https://github.com/practical-tutorials.png?size=64",
       "description": "Curated list of project-based tutorials",
       "language": null,
-      "stars": 271150,
+      "stars": 271153,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1584,7 +1554,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 271150
+          "stars": 271153
         }
       ],
       "analysis": {
@@ -1604,7 +1574,7 @@
       "avatar": "https://github.com/react.png?size=64",
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
-      "stars": 246248,
+      "stars": 246257,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1614,7 +1584,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 246248
+          "stars": 246257
         }
       ],
       "analysis": {
@@ -1664,7 +1634,7 @@
       "avatar": "https://github.com/vuejs.png?size=64",
       "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
       "language": "TypeScript",
-      "stars": 210058,
+      "stars": 210076,
       "appearances": 1,
       "sources": [
         "popular"
@@ -1674,7 +1644,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 210058
+          "stars": 210076
         }
       ],
       "analysis": {
@@ -1694,7 +1664,7 @@
       "avatar": "https://github.com/microsoft.png?size=64",
       "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
       "language": "C",
-      "stars": 135784,
+      "stars": 135790,
       "appearances": 1,
       "sources": [
         "trending-day"
@@ -1704,7 +1674,7 @@
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 135784
+          "stars": 135790
         }
       ],
       "analysis": {

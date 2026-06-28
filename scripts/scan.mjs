@@ -31,7 +31,12 @@ const opt = (k, d) => {
 const LIMIT = parseInt(opt("--limit", "0"), 10) || Infinity;
 const NO_CODEX = flag("--no-codex");
 const NO_COMMIT = flag("--no-commit");
+const NO_NOTIFY = flag("--no-notify");
 const CONCURRENCY = parseInt(opt("--concurrency", "3"), 10);
+
+// Telegram alert for new high-fit candidates (dev 개발총괄). Override via env.
+const NOTIFY_CHAT = process.env.NOTIFY_CHAT_ID || "-1003728541746";
+const TG_SEND = "/Users/clawdbot/bin/tg-send";
 
 const ANALYSIS_SCHEMA = {
   type: "object",
@@ -210,9 +215,48 @@ async function main() {
   console.log(`history snapshot written: ${date} (${snapshot.repos.length} repos)`);
 
   rebuildIndex();
+  notifyHighCandidates();
 
   if (!NO_COMMIT) commitAndPush(date);
   console.log("done.");
+}
+
+// Alert dev 개발총괄 about high-fit candidates not yet notified (deduped via
+// data/notified.json, committed so it persists across runs).
+function notifyHighCandidates() {
+  if (NO_NOTIFY) return;
+  const index = readJson(join(DATA, "index.json"), { repos: [] });
+  const notifiedPath = join(DATA, "notified.json");
+  const notified = new Set(readJson(notifiedPath, []));
+  const fresh = index.repos.filter(
+    (r) => r.analysis?.relevance === "high" && !notified.has(r.fullName)
+  );
+  if (!fresh.length) {
+    console.log("no new high candidates to notify.");
+    return;
+  }
+
+  const lines = [`🔎 EG OS 신규 적합 후보 ${fresh.length}건 (codex: high)`, ""];
+  for (const r of fresh.slice(0, 8)) {
+    lines.push(`• ${r.fullName} ⭐${(r.stars / 1000).toFixed(1)}k`);
+    if (r.analysis.summary) lines.push(`  ${r.analysis.summary.slice(0, 90)}`);
+    if (r.analysis.fit) lines.push(`  적용: ${r.analysis.fit.slice(0, 110)}`);
+    lines.push(`  ${r.url}`, "");
+  }
+  if (fresh.length > 8) lines.push(`…외 ${fresh.length - 8}건`);
+  const msg = lines.join("\n");
+
+  const dry = process.env.SCAN_NOTIFY_DRY ? ["--dry"] : [];
+  try {
+    execFileSync(TG_SEND, [NOTIFY_CHAT, msg, ...dry], { timeout: 30000 });
+    console.log(`notified ${fresh.length} new high candidates → ${NOTIFY_CHAT}${dry.length ? " (dry)" : ""}`);
+    if (!dry.length) {
+      fresh.forEach((r) => notified.add(r.fullName));
+      writeFileSync(notifiedPath, JSON.stringify([...notified], null, 2));
+    }
+  } catch (e) {
+    console.log("tg-send failed:", e.message);
+  }
 }
 
 // ---------- aggregate index ----------
