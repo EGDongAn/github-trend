@@ -1,0 +1,15 @@
+{
+  "fullName": "bytedance/deer-flow",
+  "analyzedAt": "2026-06-28T09:30:07.607Z",
+  "repoMeta": {
+    "stars": 75119,
+    "language": "Python",
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours."
+  },
+  "relevance": "high",
+  "category": "에이전트 오케스트레이션/멀티에이전트 프레임워크",
+  "summary": "장기 작업용 SuperAgent harness로, LangGraph/LangChain 기반 리드 에이전트, 병렬 sub-agent, sandbox 실행, 파일시스템, 장기 메모리, skill, MCP, IM 채널, TUI/웹 UI를 묶은 풀스택 에이전트 런타임이다. EG AI GROUP OS의 최우선 관심사인 멀티에이전트 오케스트레이션과 로컬 우선 자동화에 직접 부합한다.",
+  "fit": "Paperclip/cmux가 작업 배정·세션 관제에 강하다면 DeerFlow는 실제 장기 작업 실행 런타임, sub-agent 분해, sandbox, memory, skill orchestration을 한 덩어리로 제공한다. 로컬/Docker 배포, OpenAI 호환 로컬 vLLM, Codex CLI/Claude Code 연동, Telegram 등 IM 채널 지원이 있어 Mac mini 운영 스택에 실험 가치가 크다.",
+  "integration": "기존 Paperclip의 worker backend 후보 또는 특정 장기 리서치/코딩/문서 생성 작업용 별도 agent runtime으로 붙이는 방식이 적합하다. 초기에는 Docker 또는 로컬 개발 모드로 띄우고, Telegram은 Hermes와 직접 대체하지 말고 별도 실험 채널로 제한한다. Vault sidecar로 .env/API key를 주입하고, sandbox는 Docker 격리를 기본값으로 둔다.",
+  "overlaps": "Paperclip의 작업 위임, cmux의 관제, Hermes의 Telegram gateway, Claude Code skill 체계와 상당히 겹친다. 다만 단순 중복이라기보다 LangGraph 기반 장기 실행 harness와 sub-agent/context/memory/sandbox 통합이 차별점이다. 리스크는 리소스 요구량, 보안 노출, 이미 운영 중인 Telegram/Paperclip 라우팅과의 충돌이다."
+}

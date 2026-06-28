@@ -1,0 +1,15 @@
+{
+  "fullName": "NanmiCoder/MediaCrawler",
+  "analyzedAt": "2026-06-28T09:27:29.730Z",
+  "repoMeta": {
+    "stars": 53919,
+    "language": "Python",
+    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫"
+  },
+  "relevance": "medium",
+  "category": "데이터 수집/소셜 미디어 크롤러",
+  "summary": "중국 주요 플랫폼(小红书, 抖音, 快手, B站, 微博, 贴吧, 知乎)의 게시물·댓글을 수집하는 Python 기반 크롤러다. AI 에이전트 오케스트레이션이나 로컬 LLM 핵심 도구는 아니지만, 소셜 데이터 수집 파이프라인에는 쓸 수 있다.",
+  "fit": "로컬 실행, Playwright/CDP 로그인 상태 재사용, CSV/JSON/JSONL/SQLite/MySQL 저장을 지원해 로컬 우선 운영과는 맞는다. 다만 플랫폼 약관·법적 리스크, 계정/쿠키 관리, IP 프록시 의존 가능성이 커서 핵심 OS 컴포넌트보다는 선택적 데이터 인입 모듈에 가깝다.",
+  "integration": "n8n 또는 cron에서 주기 실행하고, 결과를 SQLite/MySQL/JSONL로 저장한 뒤 RAG 인덱싱이나 Paperclip 작업 생성 트리거로 연결. 로그인 쿠키·계정 정보는 vault sidecar로 격리하고, 실행은 별도 사용자/컨테이너로 제한하는 방식이 적합하다.",
+  "overlaps": "n8n의 외부 감시 워크플로, Playwright MCP 기반 브라우저 자동화와 일부 중복된다. 다만 특정 중국 소셜 플랫폼별 수집 로직은 별도 가치가 있어 완전 중복은 아니다."
+}

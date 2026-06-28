@@ -1,0 +1,15 @@
+{
+  "fullName": "stablyai/orca",
+  "analyzedAt": "2026-06-28T09:29:04.696Z",
+  "repoMeta": {
+    "stars": 8441,
+    "language": "TypeScript",
+    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile."
+  },
+  "relevance": "high",
+  "category": "에이전트 오케스트레이션 / 코딩 에이전트 ADE",
+  "summary": "Claude Code, Codex, OpenCode 등 CLI 코딩 에이전트를 병렬 worktree에서 실행·관제하는 데스크톱/모바일 ADE. EG OS의 멀티에이전트 운영, 로컬 우선, 비용 절감 방향과 직접 맞는다.",
+  "fit": "cmux보다 에이전트 작업 단위, worktree 격리, diff 리뷰, 모바일 추적이 강하고 Paperclip의 워커 실행면을 보강할 수 있다. 다만 이슈 기반 위임/칸반 자체는 Paperclip이 이미 담당하므로 전면 대체보다는 개발 작업실 UI/관제 레이어로 보는 것이 적합하다.",
+  "integration": "Mac mini에 설치해 Claude Code/Codex 실행 환경을 Orca worktree로 묶고, Paperclip 이슈를 Orca 작업으로 열어 병렬 후보 구현을 비교한다. Orca CLI는 Hermes/tg-proxy/n8n에서 원격 작업 생성·스냅샷·알림 트리거로 연결할 수 있다. 개인정보/텔레메트리, 모바일 페어링, GitHub 권한 범위는 도입 전 점검 필요.",
+  "overlaps": "cmux의 터미널 분할·세션 관제, Paperclip의 에이전트 위임, GitHub/Linear 작업 흐름, Claude Code/Codex 실행 래퍼와 일부 중복된다. 로컬 LLM/RAG/시크릿 관리 기능은 핵심이 아니므로 Ollama·Vault sidecar를 대체하지 않는다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "google-labs-code/design.md",
+  "analyzedAt": "2026-06-28T09:27:06.978Z",
+  "repoMeta": {
+    "stars": 22608,
+    "language": "TypeScript",
+    "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / 디자인 시스템 명세",
+  "summary": "DESIGN.md는 코딩 에이전트가 프로젝트의 시각 정체성, UI 규칙, 디자인 시스템을 지속적으로 이해하도록 하는 구조화된 명세 포맷이다. 에이전트 기반 개발 워크플로에서 프론트엔드 산출물의 일관성을 높이는 보조 표준에 가깝다.",
+  "fit": "EG AI GROUP OS의 핵심인 오케스트레이션, 로컬 LLM, 보안, 자동화 인프라 공백을 직접 메우지는 않는다. 다만 Claude Code/codex가 UI 작업을 수행할 때 repo별 디자인 컨텍스트를 안정적으로 주입하는 방식으로 개발 자동화 품질을 개선할 수 있어 부분적으로 적합하다.",
+  "integration": "각 프론트엔드/제품 repo 루트에 DESIGN.md를 추가하고, Claude Code/codex 스킬 또는 프롬프트 규칙에서 작업 전 DESIGN.md를 우선 읽도록 연결한다. Paperclip 작업 생성 시 UI 관련 이슈에는 DESIGN.md 준수를 체크리스트로 넣는 정도가 현실적이다.",
+  "overlaps": "Claude Code 스킬, repo별 AGENTS.md/CLAUDE.md/CODEX.md와 역할이 겹친다. 차별점은 일반 지침이 아니라 시각 정체성과 디자인 시스템을 구조화해 에이전트가 참조하도록 만든다는 점이다. 기존 운영 스택의 핵심 도구를 대체하지는 않는다."
+}

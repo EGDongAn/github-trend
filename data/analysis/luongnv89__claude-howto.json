@@ -1,0 +1,15 @@
+{
+  "fullName": "luongnv89/claude-howto",
+  "analyzedAt": "2026-06-28T09:27:54.855Z",
+  "repoMeta": {
+    "stars": 38751,
+    "language": "Python",
+    "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
+  },
+  "relevance": "medium",
+  "category": "Claude Code 학습/운영 템플릿",
+  "summary": "Claude Code 사용법을 시각적 예제와 복붙 가능한 템플릿으로 정리한 가이드 repo. 실행 엔진 자체가 아니라 Claude Code 운용 지식, 에이전트 설정, 워크플로 패턴을 빠르게 표준화하는 자료에 가깝다.",
+  "fit": "현재 스택의 핵심 실행 엔진이 Claude Code이므로 직접 관련성은 높다. 다만 새로운 오케스트레이션, 로컬 LLM, MCP 서버, 보안 격리 기능을 제공하는 도구가 아니라 문서/템플릿 중심이라 high는 아니다.",
+  "integration": "Claude Code 운영 playbook으로 일부 채택. 유용한 agent/template/hook 패턴만 선별해 내부 EG AI GROUP OS runbook, Claude Code skills, Paperclip 작업 템플릿에 흡수하는 방식이 적합하다.",
+  "overlaps": "Claude Code 자체, 기존 skills 200+, hooks, MCP 운영 지식과 중복된다. 대체재가 아니라 교육 자료와 템플릿 보강재이며, 이미 내부 표준이 있다면 신규 가치는 선별된 예제 수준으로 제한된다."
+}

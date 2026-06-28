@@ -1,0 +1,15 @@
+{
+  "fullName": "obra/superpowers",
+  "analyzedAt": "2026-06-28T09:31:03.704Z",
+  "repoMeta": {
+    "stars": 240285,
+    "language": "Shell",
+    "description": "An agentic skills framework & software development methodology that works."
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트·개발 자동화 / 에이전트 스킬 프레임워크",
+  "summary": "Claude Code, Codex CLI/App, Cursor 등 여러 코딩 에이전트에 공통으로 적용되는 스킬 기반 개발 방법론이다. 브레인스토밍, 설계 승인, 작업 계획, git worktree, TDD, 코드 리뷰, 서브에이전트 기반 구현 흐름을 강제하는 점이 핵심이다.",
+  "fit": "EG AI GROUP OS의 Claude Code/codex 실행 엔진을 직접 강화한다. Paperclip처럼 작업 큐/칸반을 제공하는 도구는 아니지만, 개별 에이전트가 작업을 수행하는 절차 품질을 높이는 계층으로 적합하다. 특히 Codex와 Claude 양쪽에 같은 개발 규율을 입힐 수 있어 멀티에이전트 운영 표준화 가치가 크다.",
+  "integration": "Claude Code 및 Codex CLI 플러그인으로 설치해 우선 일부 작업실에 적용한다. 기존 Paperclip 이슈 워커의 기본 지침에 Superpowers 워크플로를 포함하고, TDD/리뷰/worktree 스킬만 선별 적용해 과도한 절차 비용을 측정한다. 원격 로고 기반 선택적 telemetry는 환경변수로 비활성화하는 것이 맞다.",
+  "overlaps": "Claude Code 기존 스킬 200+, Codex 지침, Paperclip의 작업 위임/리뷰 흐름, cmux의 멀티세션 운용과 일부 겹친다. 다만 대체재라기보다 에이전트 내부 SDLC 규율을 표준화하는 보강재에 가깝다."
+}

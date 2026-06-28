@@ -1,0 +1,15 @@
+{
+  "fullName": "asgeirtj/system_prompts_leaks",
+  "analyzedAt": "2026-06-28T09:29:24.292Z",
+  "repoMeta": {
+    "stars": 46722,
+    "language": "JavaScript",
+    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly."
+  },
+  "relevance": "low",
+  "category": "프롬프트 레퍼런스/리버스엔지니어링 자료",
+  "summary": "주요 AI 제품의 유출/추출 시스템 프롬프트를 모은 레포. 에이전트 설계, Claude Code/Codex 프롬프트 패턴 연구에는 참고가 되지만 실행 엔진, 오케스트레이션, 로컬 LLM, MCP, 보안 기능을 직접 제공하지 않는다.",
+  "fit": "EG AI GROUP OS의 핵심 공백을 메우지는 않는다. 다만 Claude Code/Codex 기반 워크플로의 시스템 프롬프트 설계, 에이전트 역할 정의, guardrail 문구 개선을 위한 연구 자료로는 제한적 가치가 있다.",
+  "integration": "프롬프트 패턴을 선별해 Paperclip 워커 프롬프트, Claude Code 스킬/후크 지침, Codex 평가 rubric 개선에 참고. 자동 동기화나 런타임 의존성으로 넣기보다는 읽기 전용 레퍼런스로만 취급.",
+  "overlaps": "Claude Code, Codex, OpenClaw의 프롬프트/에이전트 운용 지침과 주제가 겹치지만 기능 중복은 아니다. 유출 프롬프트 기반이라 최신성·정확성·라이선스/윤리 리스크가 있어 운영 스택의 핵심 구성요소로 채택하기 어렵다."
+}

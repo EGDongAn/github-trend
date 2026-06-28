@@ -1,0 +1,15 @@
+{
+  "fullName": "anomalyco/opencode",
+  "analyzedAt": "2026-06-28T09:28:00.954Z",
+  "repoMeta": {
+    "stars": 179988,
+    "language": "TypeScript",
+    "description": "The open source coding agent."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 도구",
+  "summary": "오픈소스 AI 코딩 에이전트로 터미널 UI, build/plan 에이전트, 내부 subagent, macOS 설치 및 데스크톱 앱을 제공한다. EG OS의 로컬 우선·코딩 자동화 방향과 잘 맞지만, 이미 Claude Code와 codex exec가 핵심 실행 엔진이라 즉시 공백을 메우는 도구라기보다 대체/보조 후보에 가깝다.",
+  "fit": "Claude Code의 폐쇄성·벤더 종속을 줄이는 오픈소스 백업 코딩 에이전트로 적합하다. 로컬/저비용 LLM 라우팅, 권한 분리된 plan/build 모드, Paperclip 워커 어댑터 후보로 검토 가치가 있다. 단, 현재 스택을 확실히 업그레이드한다는 증거는 부족해 high는 아님.",
+  "integration": "Paperclip에 opencode-local 어댑터를 추가해 이슈 워커 실행 백엔드로 붙인다. cmux 세션에서 opencode를 장기 실행하고, vault sidecar로 API 키를 주입하며, Ollama/OpenRouter/Claude 등 모델 프로바이더를 비용 정책에 따라 분기한다. 우선 read-only plan 모드와 소규모 repo 수정 작업으로 Claude Code 대비 안정성·비용·성능을 벤치마크한다.",
+  "overlaps": "Claude Code, codex exec, OpenClaw와 기능이 크게 겹친다. Claude Code의 hooks/skills/MCP 생태계와 Paperclip의 위임 구조를 대체하기보다는 보조 실행 엔진 또는 벤더 독립성 확보용으로 보는 것이 적절하다."
+}

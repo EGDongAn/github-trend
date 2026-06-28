@@ -1,0 +1,15 @@
+{
+  "fullName": "freeCodeCamp/freeCodeCamp",
+  "analyzedAt": "2026-06-28T09:30:11.388Z",
+  "repoMeta": {
+    "stars": 450653,
+    "language": "TypeScript",
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free."
+  },
+  "relevance": "none",
+  "category": "교육/커리큘럼 플랫폼",
+  "summary": "freeCodeCamp는 프로그래밍·수학·CS 학습용 오픈소스 커리큘럼과 웹 플랫폼이다. 대규모 교육 콘텐츠와 커뮤니티 운영에는 강하지만, EG AI GROUP OS의 로컬 자동화, 에이전트 오케스트레이션, LLM 서빙, MCP, 보안 격리와 직접 연결되는 도구는 아니다.",
+  "fit": "현재 스택의 핵심 공백을 메우지 않는다. 내부 에이전트 교육 자료나 온보딩 참고로는 쓸 수 있으나, 운영 자동화 시스템 구성 요소로 도입할 이유는 약하다.",
+  "integration": "-",
+  "overlaps": "Claude Code/codex, Paperclip, cmux, Hermes, n8n, Ollama 등 기존 운영 스택과 기능적 중복은 거의 없지만, 필요한 기능 영역도 아니다. 커리큘럼 콘텐츠 저장소에 가까워 도입 대상이라기보다 참고 자료에 해당한다."
+}

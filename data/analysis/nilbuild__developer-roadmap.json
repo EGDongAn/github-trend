@@ -1,0 +1,15 @@
+{
+  "fullName": "nilbuild/developer-roadmap",
+  "analyzedAt": "2026-06-28T09:30:22.507Z",
+  "repoMeta": {
+    "stars": 358502,
+    "language": "TypeScript",
+    "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers."
+  },
+  "relevance": "none",
+  "category": "개발자 교육/로드맵 콘텐츠",
+  "summary": "개발자 성장용 인터랙티브 로드맵과 학습 가이드를 제공하는 교육 콘텐츠 저장소다. EG AI GROUP OS의 에이전트 운영, 로컬 LLM, 자동화, 보안 격리와 직접 관련된 실행 컴포넌트는 아니다.",
+  "fit": "도입 적합성 낮음. 팀 내부 학습 자료나 신입 온보딩 참고로는 쓸 수 있지만, 현재 시스템의 자동화 스택을 보강하거나 운영 비용을 줄이는 기능은 없다.",
+  "integration": "-",
+  "overlaps": "Claude Code 스킬/문서화, 일반 개발 학습 자료와 약하게 겹치지만 운영 도구 중복은 아니다. 핵심 스택 관점에서는 적용 대상이 없다."
+}

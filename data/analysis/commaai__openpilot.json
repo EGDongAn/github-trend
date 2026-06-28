@@ -1,0 +1,15 @@
+{
+  "fullName": "commaai/openpilot",
+  "analyzedAt": "2026-06-28T09:26:10.372Z",
+  "repoMeta": {
+    "stars": 62167,
+    "language": "Python",
+    "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars."
+  },
+  "relevance": "low",
+  "category": "로보틱스/자율주행 운영체제",
+  "summary": "차량 ADAS를 업그레이드하는 자율주행·로보틱스용 오픈소스 시스템이다. Python 기반이지만 핵심 도메인은 차량 제어, 센서 처리, 주행 스택에 가깝다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·자동화 가치와 일부 철학은 맞지만, 현재 스택의 핵심인 코딩 에이전트, 멀티에이전트 오케스트레이션, 로컬 LLM, MCP, 비밀관리와 직접 연결되는 공백을 메우지 않는다.",
+  "integration": "도입 대상이라기보다 로보틱스 에이전트 OS 설계 참고용으로 제한적으로 검토할 수 있다. 예: 실시간 프로세스 관리, 하드웨어 인터페이스, 관측/로그 구조 참고.",
+  "overlaps": "Paperclip, cmux, Claude Code, Ollama, Hermes 등 기존 운영 자동화 스택과 기능 중복은 거의 없다. 다만 목적 자체가 차량 로보틱스라 EG AI GROUP OS에 실질 통합 가치는 낮다."
+}

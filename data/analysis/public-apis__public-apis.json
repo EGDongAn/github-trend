@@ -1,0 +1,15 @@
+{
+  "fullName": "public-apis/public-apis",
+  "analyzedAt": "2026-06-28T09:30:08.608Z",
+  "repoMeta": {
+    "stars": 444641,
+    "language": "Python",
+    "description": "A collective list of free APIs"
+  },
+  "relevance": "low",
+  "category": "API 카탈로그/개발 리소스",
+  "summary": "무료 공개 API 목록을 모아둔 curated list이다. 에이전트 오케스트레이션, 로컬 LLM, 보안 격리, 자동 운영 자체를 제공하지는 않는다.",
+  "fit": "EG AI GROUP OS의 핵심 실행 스택에는 직접 맞지 않는다. 다만 n8n 워크플로, 에이전트 툴 호출, 데이터 수집 실험에서 외부 API 후보를 찾는 참고 자료로는 쓸 수 있다.",
+  "integration": "필요 시 레퍼런스 북마크 또는 내부 지식베이스/RAG에 색인해 API 탐색용 자료로 활용. 운영 컴포넌트로 설치할 대상은 아니다.",
+  "overlaps": "MCP, n8n, Hermes 같은 기존 자동화 도구와 기능 중복은 거의 없지만, 실제 실행 능력이 없는 목록형 저장소라 도입 효과도 제한적이다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "vuejs/vue",
+  "analyzedAt": "2026-06-28T09:31:14.468Z",
+  "repoMeta": {
+    "stars": 210058,
+    "language": "TypeScript",
+    "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core"
+  },
+  "relevance": "none",
+  "category": "프론트엔드 UI 프레임워크",
+  "summary": "Vue 2는 웹 프론트엔드 애플리케이션 구축용 프레임워크이며, EG AI GROUP OS의 로컬 AI 운영, 에이전트 오케스트레이션, 비밀 격리, 자동화, 로컬 LLM 서빙과 직접 관련이 없다. 또한 Vue 2는 신규 도입 대상으로도 매력이 낮고 Vue 3가 별도 저장소로 관리된다.",
+  "fit": "현재 스택의 핵심 공백을 메우지 않는다. 대시보드나 관리 UI를 새로 만들 때 일반 웹 프레임워크로 쓸 수는 있지만, 이미 Vercel/GitHub Actions 등 일반 웹 배포 수단이 있고 운영 AI 스택 관점의 차별적 이점은 없다.",
+  "integration": "-",
+  "overlaps": "일반 프론트엔드 개발 영역에서만 기존 웹 UI/대시보드 구현 도구와 겹친다. Paperclip, cmux, Hermes, n8n, MCP, 로컬 LLM, Vault 계층과는 기능 중복이나 대체 관계가 없다."
+}

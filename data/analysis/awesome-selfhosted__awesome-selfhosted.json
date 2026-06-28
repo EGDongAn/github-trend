@@ -1,0 +1,15 @@
+{
+  "fullName": "awesome-selfhosted/awesome-selfhosted",
+  "analyzedAt": "2026-06-28T09:30:34.516Z",
+  "repoMeta": {
+    "stars": 301549,
+    "language": null,
+    "description": "A list of Free Software network services and web applications which can be hosted on your own servers"
+  },
+  "relevance": "medium",
+  "category": "셀프호스팅 리소스/서비스 카탈로그",
+  "summary": "자가호스팅 가능한 자유 소프트웨어 네트워크 서비스와 웹앱을 모은 대형 awesome-list다. 직접 실행 엔진이나 프레임워크는 아니지만, EG AI GROUP OS의 로컬 우선·셀프호스팅 확장 후보를 찾는 탐색 인덱스로 유용하다.",
+  "fit": "Paperclip, Hermes, vault sidecar, n8n, 로컬 LLM 같은 핵심 스택을 즉시 업그레이드하지는 않는다. 다만 보안, 모니터링, 워크플로, 파일/지식관리, 알림, 대시보드 등 주변 인프라 후보를 빠르게 비교하는 데 맞다.",
+  "integration": "운영 스택에 직접 설치하기보다 주기적 후보 발굴 소스로 사용. 관심 카테고리만 필터링해 n8n/크론으로 변경 감시하고, Paperclip 이슈로 도입 검토 태스크를 자동 생성하는 방식이 적합하다.",
+  "overlaps": "awesome-list라 기존 도구와 기능 중복은 약하지만, 실제 항목들은 n8n, Vaultwarden, Open WebUI, 모니터링/봇/대시보드 도구와 다수 겹칠 수 있다. 도입 대상은 각 하위 프로젝트별로 별도 평가해야 한다."
+}

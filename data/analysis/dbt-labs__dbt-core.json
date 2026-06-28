@@ -1,0 +1,15 @@
+{
+  "fullName": "dbt-labs/dbt-core",
+  "analyzedAt": "2026-06-28T09:27:39.834Z",
+  "repoMeta": {
+    "stars": 13281,
+    "language": "Rust",
+    "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications."
+  },
+  "relevance": "low",
+  "category": "데이터 변환/분석 엔지니어링",
+  "summary": "dbt-core는 SQL 기반 데이터 변환, 모델링, 테스트, 문서화를 소프트웨어 개발 방식으로 관리하는 데이터 빌드 도구다. 분석/웨어하우스 파이프라인에는 강하지만, EG AI GROUP OS의 에이전트 실행, 로컬 LLM, 텔레그램 관제, 시크릿 격리, 멀티에이전트 오케스트레이션 핵심 축과는 직접 관련이 약하다.",
+  "fit": "AI 에이전트 운영 로그, 작업 결과, 비용/성능 메트릭을 별도 데이터 웨어하우스에 쌓고 분석하려는 경우에만 보조적으로 유용하다. 현재 우선순위 기준으로는 오케스트레이션이나 로컬 실행 능력을 강화하지 않으므로 도입 매력은 낮다.",
+  "integration": "n8n, Paperclip, Hermes, cron 로그를 Postgres/BigQuery/DuckDB 등에 적재한 뒤 dbt로 운영 지표 모델, 품질 테스트, 리포트 테이블을 만드는 방식이 가능하다. 다만 별도 분석 계층을 운영할 필요가 있을 때만 의미 있다.",
+  "overlaps": "현재 스택의 핵심 도구와 직접 중복되지는 않는다. 다만 n8n/GitHub Actions 기반의 단순 데이터 처리나 Postgres 쿼리만으로 충분한 수준이라면 dbt 도입은 운영 복잡도만 늘릴 수 있다."
+}

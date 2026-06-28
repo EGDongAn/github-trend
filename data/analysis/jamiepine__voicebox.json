@@ -1,0 +1,15 @@
+{
+  "fullName": "jamiepine/voicebox",
+  "analyzedAt": "2026-06-28T09:29:06.947Z",
+  "repoMeta": {
+    "stars": 35104,
+    "language": "TypeScript",
+    "description": "The open-source AI voice studio. Clone, dictate, create."
+  },
+  "relevance": "medium",
+  "category": "로컬 음성 I/O, TTS/STT, MCP 에이전트 도구",
+  "summary": "로컬 우선 AI 음성 스튜디오로, 음성 클로닝·TTS·Whisper 기반 STT·전역 받아쓰기·REST API·내장 MCP 서버를 제공한다. Claude Code/Cursor 같은 MCP 지원 에이전트가 voicebox.speak로 음성 출력할 수 있고, macOS/Apple Silicon 및 Docker 실행을 지원한다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감·MCP 확장 방향과 잘 맞지만, 핵심인 멀티에이전트 오케스트레이션/작업 위임 자체를 개선하는 도구는 아니다. 텔레그램 텍스트 게이트웨이를 보완하는 로컬 음성 입출력 레이어로는 가치가 있다.",
+  "integration": "Mac mini에 로컬 앱 또는 Docker로 설치하고, Claude Code/Codex/Paperclip worker 알림을 MCP 또는 REST POST /speak로 연결한다. 전역 dictation은 운영자 지시 입력 보조로 쓰고, 에이전트별 voice profile을 매핑해 누가 완료/질문/오류를 말하는지 구분하는 용도가 적합하다.",
+  "overlaps": "Hermes/tg-proxy의 알림 기능과 일부 겹치지만 채널이 텔레그램이 아니라 로컬 음성이다. OpenClaw의 개인 비서 UX와도 일부 중복 가능성이 있다. Paperclip/cmux/Claude Code를 대체하지 않고 보조 인터페이스로 붙이는 성격이다."
+}

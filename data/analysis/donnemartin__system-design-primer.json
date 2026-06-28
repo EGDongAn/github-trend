@@ -1,0 +1,15 @@
+{
+  "fullName": "donnemartin/system-design-primer",
+  "analyzedAt": "2026-06-28T09:30:24.125Z",
+  "repoMeta": {
+    "stars": 355207,
+    "language": "Python",
+    "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards."
+  },
+  "relevance": "low",
+  "category": "학습 자료 / 시스템 설계 지식베이스",
+  "summary": "대규모 시스템 설계 개념, 패턴, 인터뷰 대비 자료를 모은 교육용 저장소다. 실행형 에이전트, 로컬 LLM, MCP, 자동화 인프라를 직접 제공하지 않는다.",
+  "fit": "EG AI GROUP OS의 운영 스택에 바로 들어가는 도구는 아니지만, Paperclip/Hermes/n8n 같은 내부 시스템을 설계·리뷰할 때 참고 자료로는 쓸 수 있다. 도입보다는 문서 북마크 성격이다.",
+  "integration": "내부 설계 리뷰 체크리스트나 에이전트 교육 자료로 일부 링크를 참고한다. 코드 통합은 불필요하다.",
+  "overlaps": "Claude Code 스킬/문서, 기존 개발 지식 자료와 부분 중복된다. 시스템 기능을 보강하지 않으므로 대체·업그레이드 대상은 아니다."
+}

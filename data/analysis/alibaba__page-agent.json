@@ -1,0 +1,15 @@
+{
+  "fullName": "alibaba/page-agent",
+  "analyzedAt": "2026-06-28T09:29:53.066Z",
+  "repoMeta": {
+    "stars": 20414,
+    "language": "TypeScript",
+    "description": "JavaScript in-page GUI agent. Control web interfaces with natural language."
+  },
+  "relevance": "medium",
+  "category": "웹 GUI 에이전트 / 브라우저 자동화 / MCP 보조 도구",
+  "summary": "웹페이지 안에 삽입되는 TypeScript 기반 GUI 에이전트로, 자연어 명령을 DOM 기반으로 해석해 클릭·입력·폼 처리 등을 수행한다. 스크린샷/VLM 없이 동작하고 BYO LLM, Chrome 확장, 베타 MCP 서버를 제공한다.",
+  "fit": "Hermes/Paperclip/Claude Code 에이전트가 SaaS·관리자 콘솔·웹 UI를 자연어로 조작하게 만드는 보조 레이어로는 적합하다. 특히 Playwright 스크립트를 매번 작성하기 애매한 반복 웹 작업, 폼 입력, 사내 웹앱 코파일럿에는 가치가 있다. 다만 EG OS의 핵심 공백인 멀티에이전트 오케스트레이션이나 로컬 LLM 서빙 자체를 해결하지는 않아 high는 아니다.",
+  "integration": "우선 실험용으로 로컬/내부 웹앱에 스크립트 삽입 또는 Chrome 확장+MCP 서버를 붙이고, Paperclip 워커나 Claude Code에서 MCP를 통해 브라우저 작업을 호출하는 방식이 적절하다. LLM endpoint는 Ollama/OpenAI-compatible 프록시로 연결해 로컬 우선 정책을 맞춘다. 외부 웹사이트 자동화에는 권한·세션·DOM 접근 보안 검토가 필요하다.",
+  "overlaps": "Playwright MCP, browser-use 계열 자동화, Claude Code의 브라우저 조작 워크플로와 일부 중복된다. 차별점은 headless/스크린샷 중심이 아니라 인페이지 DOM 조작으로 가볍게 붙는 점이다. 기존 Playwright MCP를 대체하기보다는 자연어 UI 조작이 필요한 웹앱에 한정해 보강재로 보는 편이 맞다."
+}

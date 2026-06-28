@@ -1,0 +1,15 @@
+{
+  "fullName": "JCodesMore/ai-website-cloner-template",
+  "analyzedAt": "2026-06-28T09:27:28.160Z",
+  "repoMeta": {
+    "stars": 22416,
+    "language": "TypeScript",
+    "description": "Clone any website with one command using AI coding agents"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / 웹사이트 역공학 템플릿",
+  "summary": "AI 코딩 에이전트로 대상 웹사이트를 분석해 Next.js 코드베이스로 재구성하는 템플릿이다. Claude Code, Codex CLI 등 여러 에이전트를 지원하고, 스크린샷·디자인 토큰·자산 추출·컴포넌트 스펙 작성·병렬 빌드·시각 QA 흐름을 제공한다.",
+  "fit": "Claude Code/codex 기반 자동화와 잘 맞고, AGENTS.md 및 스킬 구조가 있어 EG AI GROUP OS의 에이전트 실행 환경에서 바로 실험 가능하다. 다만 핵심 가치는 웹사이트 복제/마이그레이션 자동화에 한정되어 Paperclip, cmux, 로컬 LLM, 보안 격리 같은 OS 핵심 공백을 직접 메우지는 않는다.",
+  "integration": "Claude Code 또는 Codex CLI용 프로젝트 템플릿/스킬 샘플로 흡수해 웹 리빌드 작업 전용 워크플로를 만들 수 있다. Paperclip 이슈 템플릿으로 target URL을 받아 에이전트 워커가 이 템플릿을 사용해 Next.js 산출물을 생성하게 연결하는 방식이 적합하다.",
+  "overlaps": "Claude Code 스킬, Codex CLI, 병렬 에이전트 실행이라는 점에서 기존 실행 엔진 및 Paperclip/cmux와 부분 중복된다. 그러나 범용 오케스트레이션 도구가 아니라 특정 웹사이트 클로닝 파이프라인이므로 대체재보다는 작업 템플릿/레시피에 가깝다."
+}

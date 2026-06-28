@@ -1,0 +1,15 @@
+{
+  "fullName": "hugohe3/ppt-master",
+  "analyzedAt": "2026-06-28T09:27:15.608Z",
+  "repoMeta": {
+    "stars": 33419,
+    "language": "Python",
+    "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He"
+  },
+  "relevance": "medium",
+  "category": "문서 자동화 / AI 프레젠테이션 생성",
+  "summary": "문서에서 편집 가능한 네이티브 PowerPoint를 생성하고, 템플릿 적용·애니메이션·발표자 노트 음성 내레이션까지 지원하는 Python 기반 도구다.",
+  "fit": "EG AI GROUP OS의 핵심 축인 멀티에이전트 오케스트레이션, 로컬 LLM 서빙, 보안 격리와 직접 맞물리지는 않는다. 다만 에이전트가 리서치 결과, 주간 리포트, 제안서, 운영 보고서를 자동으로 PPT 산출물로 만드는 워크플로에는 실용성이 있다.",
+  "integration": "Paperclip 작업 결과물 생성 단계나 n8n 워크플로의 문서 산출 노드로 붙여, Markdown/PDF/문서 입력을 .pptx 보고서로 변환하는 보조 도구로 검토. 로컬 실행과 로컬 LLM 연동 가능 여부를 확인한 뒤 도입 판단.",
+  "overlaps": "Claude Code/기존 문서 생성 워크플로, Google Drive/Slides 자동화, n8n 리포트 자동화와 일부 중복된다. 차별점은 슬라이드 이미지가 아니라 편집 가능한 PowerPoint 네이티브 객체를 생성한다는 점이다."
+}

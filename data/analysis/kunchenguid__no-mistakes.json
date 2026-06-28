@@ -1,0 +1,15 @@
+{
+  "fullName": "kunchenguid/no-mistakes",
+  "analyzedAt": "2026-06-28T09:28:44.209Z",
+  "repoMeta": {
+    "stars": 3895,
+    "language": "Go",
+    "description": "git push no-mistakes"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트·개발 자동화 / 로컬 PR 게이트",
+  "summary": "git remote 프록시로 `git push no-mistakes`를 받아 격리 worktree에서 AI 기반 review/test/docs/lint/CI 확인을 돌리고, 통과 시에만 실제 remote로 push 및 PR 생성을 수행하는 Go 도구다. Claude, Codex, opencode 등 여러 에이전트와 연동된다.",
+  "fit": "EG AI GROUP OS의 로컬 우선 코딩 자동화와 잘 맞는다. 에이전트가 만든 변경을 바로 origin에 올리지 않고 로컬 격리 검증 파이프라인으로 거르는 층을 추가하므로 Claude Code/codex/Paperclip 워커의 산출물 품질 게이트로 유용하다.",
+  "integration": "각 repo에 `no-mistakes init`으로 gate remote를 만들고, Paperclip 워커나 Claude Code/codex 작업 완료 루틴에서 `git push no-mistakes <branch>`를 표준화한다. GitHub Actions는 최종 CI로 유지하고, no-mistakes는 로컬 사전 검증과 PR 생성 자동화 계층으로 둔다.",
+  "overlaps": "GitHub Actions, Claude Code hooks, Paperclip의 작업 완료 플로우와 일부 겹친다. 다만 CI 자체나 작업 위임 시스템이 아니라, 에이전트 산출물을 격리 worktree에서 검증한 뒤 push/PR까지 이어주는 로컬 게이트라 보강 성격이 강하다."
+}

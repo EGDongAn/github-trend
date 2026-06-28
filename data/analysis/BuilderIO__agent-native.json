@@ -1,0 +1,15 @@
+{
+  "fullName": "BuilderIO/agent-native",
+  "analyzedAt": "2026-06-28T09:29:25.659Z",
+  "repoMeta": {
+    "stars": 2775,
+    "language": "TypeScript",
+    "description": "A framework for building agent-native applications."
+  },
+  "relevance": "medium",
+  "category": "에이전트 네이티브 앱 프레임워크 / 개발 자동화",
+  "summary": "UI, 에이전트, HTTP, MCP, A2A, CLI가 같은 action을 공유하도록 만드는 TypeScript 프레임워크. SQL 상태, identity, tools, skills, jobs, observability, 템플릿 앱을 제공한다.",
+  "fit": "EG OS의 에이전트 실행 엔진 자체보다는, 에이전트가 실제 내부 앱/도구를 조작하는 제품형 인터페이스를 만들 때 유용하다. 로컬 SQL/자체 호스팅 지향은 맞지만 웹앱·TypeScript 중심이라 즉시 핵심 인프라 대체재는 아니다.",
+  "integration": "Paperclip/Claude Code/codex 주변에 내부 운영 앱을 만들고, 공통 action을 MCP/A2A/CLI로 노출하는 방식이 적합하다. 우선 visual-plan/visual-recap skill 또는 headless 템플릿으로 PoC 후, n8n·Hermes·Paperclip 작업을 action API로 감싸는 형태를 검토.",
+  "overlaps": "Paperclip의 작업 위임, Claude Code skills, OpenClaw/내부 UI, n8n 워크플로와 일부 중복된다. 다만 기존 도구를 대체하기보다는 agent-aware UI와 action 표준화 계층으로 보강하는 성격이 강하다."
+}

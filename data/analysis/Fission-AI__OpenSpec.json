@@ -1,0 +1,15 @@
+{
+  "fullName": "Fission-AI/OpenSpec",
+  "analyzedAt": "2026-06-28T09:28:04.155Z",
+  "repoMeta": {
+    "stars": 57300,
+    "language": "TypeScript",
+    "description": "Spec-driven development (SDD) for AI coding assistants."
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트·개발 자동화 / SDD 워크플로",
+  "summary": "AI 코딩 어시스턴트용 경량 spec-driven development 도구다. 기능별 proposal/spec/design/tasks 산출물을 만들고 slash command로 탐색, 제안, 적용, 아카이브 흐름을 관리한다.",
+  "fit": "EG AI GROUP OS의 Claude Code/codex 기반 개발 자동화에 잘 맞는다. 로컬 CLI 중심, TypeScript/MIT, 여러 AI 도구 지원, brownfield 도입을 강조하므로 로컬 우선·저비용 운영 원칙과 충돌이 작다. Paperclip이 작업 배정/칸반이라면 OpenSpec은 각 작업의 명세 품질과 구현 체크리스트를 보강한다.",
+  "integration": "우선 개별 repo에 `openspec init` 후 Claude Code/codex 명령 템플릿으로 `/opsx:explore`, `/opsx:propose`, `/opsx:apply` 흐름을 붙인다. Paperclip 이슈 생성 시 OpenSpec change 폴더를 만들고, 워커에게 `tasks.md` 기반 구현을 맡기는 방식이 적합하다. 텔레메트리는 `OPENSPEC_TELEMETRY=0` 또는 `DO_NOT_TRACK=1`로 기본 비활성화 권장.",
+  "overlaps": "Paperclip의 이슈/작업 관리, Claude Code 스킬/AGENTS.md, GitHub Spec Kit류와 일부 중복된다. 다만 오케스트레이션 대체재가 아니라 명세·요구사항·작업분해 레이어이므로 Paperclip/cmux와 병행 가치가 크다."
+}

@@ -4,3 +4,9 @@
 .env*.local
 .DS_Store
 *.log
+
+# scan failure dumps
+data/analysis/.fail-*.log
+
+# scan logs
+/logs

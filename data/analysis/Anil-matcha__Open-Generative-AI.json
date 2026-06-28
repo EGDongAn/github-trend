@@ -1,0 +1,15 @@
+{
+  "fullName": "Anil-matcha/Open-Generative-AI",
+  "analyzedAt": "2026-06-28T09:27:42.185Z",
+  "repoMeta": {
+    "stars": 21542,
+    "language": "JavaScript",
+    "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed."
+  },
+  "relevance": "medium",
+  "category": "셀프호스티드 생성형 미디어 스튜디오",
+  "summary": "이미지·비디오 생성용 웹 스튜디오로, 200개 이상 모델을 한 UI에서 다루는 것이 핵심이다. 에이전트 오케스트레이션, 코딩 자동화, MCP, 보안 격리와는 직접 관련이 약하지만, 로컬/셀프호스트 성향의 미디어 생성 자동화 도구로는 검토 가치가 있다.",
+  "fit": "EG AI GROUP OS의 핵심 공백인 멀티에이전트 관제나 작업 위임을 메우지는 않는다. 다만 텔레그램/n8n을 통해 이미지·영상 생성 요청을 자동화하거나, Open WebUI/Ollama 중심의 텍스트 LLM 스택에 미디어 생성 기능을 보강하는 부가 모듈로 맞는다. Sora, Veo, Kling 등 클라우드 의존 모델을 전제로 하면 로컬 우선 가치와는 일부 충돌한다.",
+  "integration": "Docker 또는 별도 웹앱으로 Mac mini에 올리고, n8n/Hermes에서 API나 HTTP 엔드포인트를 호출하는 형태가 적합하다. Telegram 그룹에서 프롬프트를 받아 결과 이미지를 반환하는 워커로 붙일 수 있다. 실제 도입 전에는 모델별 실행 방식이 로컬 추론인지 외부 API 래핑인지, GPU/스토리지 요구량, 인증·권한 분리, 생성물 저장 경로를 확인해야 한다.",
+  "overlaps": "Open WebUI와는 AI 프론트엔드라는 점에서 일부 겹치지만 대상이 텍스트/LLM이 아니라 이미지·비디오라 대체 관계는 아니다. n8n과는 워크플로 실행 측면에서 겹치지 않고, n8n의 하위 생성 액션으로 쓰는 편이 자연스럽다. 무제한/무필터 지향은 운영 리스크가 있으므로 공개 노출보다 내부망·인증 뒤 배치가 필요하다."
+}

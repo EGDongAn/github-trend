@@ -1,0 +1,15 @@
+{
+  "fullName": "ZhuLinsen/daily_stock_analysis",
+  "analyzedAt": "2026-06-28T09:28:30.070Z",
+  "repoMeta": {
+    "stars": 50765,
+    "language": "Python",
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+  },
+  "relevance": "low",
+  "category": "도메인 특화 LLM 금융 분석/자동 알림 앱",
+  "summary": "주식 시세, 뉴스, LLM 분석, 대시보드, 자동 푸시를 묶은 금융 분석 시스템이다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 코딩 자동화, 로컬 LLM 서빙, 보안 격리 인프라와는 직접 관련성이 낮다.",
+  "fit": "개인 금융 모니터링 워크플로가 필요하다면 참고할 수 있지만, 운영 AI 그룹 스택의 공백을 메우는 도구는 아니다. '제로 비용 정기 실행'과 자동 알림 구조는 일부 운영 패턴 참고 가치가 있다.",
+  "integration": "Ollama 기반 로컬 LLM 분석으로 바꾸고, 결과 알림을 tg-proxy/Hermes로 보내는 식의 개별 워크플로로 붙일 수 있다. n8n 크론이나 LaunchAgent로 정기 실행하는 보조 작업 정도가 적합하다.",
+  "overlaps": "n8n의 예약 워크플로, tg-proxy/Hermes의 알림, OpenClaw의 개인 비서 기능과 일부 중복된다. 금융 분석 도메인 자체가 목적이 아니라면 기존 스택을 업그레이드하지 않는다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "TheAlgorithms/Python",
+  "analyzedAt": "2026-06-28T09:31:20.229Z",
+  "repoMeta": {
+    "stars": 222255,
+    "language": "Python",
+    "description": "All Algorithms implemented in Python"
+  },
+  "relevance": "none",
+  "category": "알고리즘 교육/레퍼런스",
+  "summary": "Python으로 구현된 알고리즘 모음집이다. 학습, 코딩 테스트, 알고리즘 참고용으로는 크지만 EG AI GROUP OS의 로컬 자동화, 에이전트 오케스트레이션, LLM 서빙, MCP, 보안 격리와 직접 연결되는 기능은 없다.",
+  "fit": "현재 스택의 공백을 메우지 않는다. Claude Code/codex, Paperclip, cmux, Ollama, n8n 같은 운영 자동화 구성요소를 보강하거나 대체하지 못하며, 실행 가능한 에이전트/인프라 제품이라기보다 코드 예제 저장소에 가깝다.",
+  "integration": "-",
+  "overlaps": "직접 중복은 거의 없지만, 실질 도입 가치도 낮다. 일부 알고리즘 구현을 내부 도구에서 참고할 수는 있으나 라이브러리/서비스로 통합할 이유는 약하다."
+}

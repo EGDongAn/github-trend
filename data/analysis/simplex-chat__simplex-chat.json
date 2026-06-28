@@ -1,0 +1,15 @@
+{
+  "fullName": "simplex-chat/simplex-chat",
+  "analyzedAt": "2026-06-28T09:26:12.547Z",
+  "repoMeta": {
+    "stars": 14221,
+    "language": "Haskell",
+    "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!"
+  },
+  "relevance": "medium",
+  "category": "보안/프라이버시 메시징 인프라",
+  "summary": "SimpleX Chat은 사용자 식별자 없이 동작하는 프라이버시 중심 메시징 네트워크/클라이언트다. EG AI GROUP OS의 핵심 자동화·에이전트 오케스트레이션 도구는 아니지만, 텔레그램 의존 게이트웨이를 보안 강화형 통신 채널로 보완하거나 고위험 지시 채널을 분리하는 용도로 검토할 수 있다.",
+  "fit": "로컬 우선·보안 격리 가치와는 잘 맞지만, 현재 우선순위 1~4인 에이전트 실행, 로컬 LLM, 개발 자동화, MCP와 직접 연결되지는 않는다. 텔레그램/Hermes를 대체하기에는 생태계·사용자 편의·기존 48개 그룹 연동 측면에서 전환 비용이 크다.",
+  "integration": "고보안 운영 채널 또는 관리자-에이전트 지시용 별도 백채널로 제한 도입 검토. CLI/API/봇 연동 가능성이 충분하면 Hermes 옆에 보조 알림·명령 채널로 붙이고, 민감 작업 승인이나 비밀 관련 알림만 SimpleX로 분리하는 방식이 적합하다.",
+  "overlaps": "Hermes, tg-proxy의 메시징/알림 역할과 일부 중복된다. 다만 텔레그램 기반 공개 식별자와 달리 프라이버시·메타데이터 보호가 강점이므로 단순 대체보다는 보안 채널 보강 후보에 가깝다."
+}

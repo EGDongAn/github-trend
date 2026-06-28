@@ -1,0 +1,15 @@
+{
+  "fullName": "vinta/awesome-python",
+  "analyzedAt": "2026-06-28T09:30:35.937Z",
+  "repoMeta": {
+    "stars": 305187,
+    "language": "Python",
+    "description": "An opinionated list of Python frameworks, libraries, tools, and resources"
+  },
+  "relevance": "low",
+  "category": "Python 리소스/라이브러리 큐레이션",
+  "summary": "Python 프레임워크·라이브러리·도구를 모아둔 awesome list로, 직접 실행되는 에이전트/인프라 컴포넌트가 아니라 참고 자료에 가깝다.",
+  "fit": "EG AI GROUP OS의 핵심 공백을 직접 메우지는 않는다. 다만 로컬 LLM, RAG, 자동화, 보안, MCP 관련 Python 라이브러리 탐색 출발점으로는 제한적으로 유용하다.",
+  "integration": "필요 시 기술 조사용 북마크로만 사용. 특정 문제를 해결할 라이브러리 후보를 찾을 때 참조하고, 운영 스택에는 직접 통합하지 않는다.",
+  "overlaps": "이미 GitHub 검색, context7, 일반 문서 탐색으로 대체 가능하다. Paperclip/cmux/Claude Code/Hermes/vault/n8n 같은 보유 스택과 기능적으로 직접 겹치지는 않지만, 도입형 소프트웨어가 아니라 운영 가치가 낮다."
+}

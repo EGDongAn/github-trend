@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/PowerToys",
+  "analyzedAt": "2026-06-28T09:27:03.081Z",
+  "repoMeta": {
+    "stars": 135784,
+    "language": "C",
+    "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows"
+  },
+  "relevance": "none",
+  "category": "Windows 생산성 유틸리티",
+  "summary": "Windows용 생산성/커스터마이징 도구 모음으로, macOS 로컬 AI 운영 스택의 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리, 워크플로 자동화와 직접 관련이 없다.",
+  "fit": "EG AI GROUP OS는 macOS Mac mini 기반이며 PowerToys는 Windows 전용 데스크톱 유틸리티라 실행 환경과 핵심 목표가 맞지 않는다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 의미 있는 기능 중복은 거의 없다. 일부 생산성 보조 성격은 있지만 Claude Code, cmux, Paperclip, Hermes, n8n 같은 자동화/관제 도구를 보강하거나 대체하지 않는다."
+}

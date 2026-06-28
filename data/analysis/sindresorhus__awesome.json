@@ -1,0 +1,15 @@
+{
+  "fullName": "sindresorhus/awesome",
+  "analyzedAt": "2026-06-28T09:29:56.130Z",
+  "repoMeta": {
+    "stars": 479458,
+    "language": null,
+    "description": "😎 Awesome lists about all kinds of interesting topics"
+  },
+  "relevance": "low",
+  "category": "리소스/큐레이션 목록",
+  "summary": "다양한 주제의 awesome list를 모은 메타 저장소다. 직접 실행되는 에이전트, 로컬 LLM, MCP, 보안, 자동화 도구는 아니며 운영 스택에 즉시 들어갈 구성요소가 아니다.",
+  "fit": "기술 탐색용 인덱스로는 쓸 수 있지만 EG AI GROUP OS의 핵심 공백을 직접 메우지 않는다. 특정 하위 awesome 목록에서 MCP, 로컬 LLM, 에이전트 프레임워크 후보를 찾는 보조 자료 정도의 가치다.",
+  "integration": "정기 리서치/트렌드 스캔 자료로만 활용. 예: Paperclip 후보 발굴 태스크에서 관련 awesome 목록을 참조하거나, n8n/cron으로 관심 키워드 목록을 주기적으로 점검.",
+  "overlaps": "직접 중복되는 내부 도구는 없지만, 기능 도구가 아니라 링크 모음이라 기존 Paperclip, cmux, Claude Code, n8n과 역할이 다르다. 도입보다는 북마크/참조에 가깝다."
+}

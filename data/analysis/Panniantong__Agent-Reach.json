@@ -1,0 +1,15 @@
+{
+  "fullName": "Panniantong/Agent-Reach",
+  "analyzedAt": "2026-06-28T09:28:57.404Z",
+  "repoMeta": {
+    "stars": 43837,
+    "language": "Python",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+  },
+  "relevance": "medium",
+  "category": "에이전트 인터넷 리서치/소셜·영상·RSS 수집 CLI",
+  "summary": "Agent-Reach는 AI 에이전트가 Twitter/X, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu, RSS, 웹 검색 등을 API 비용 없이 읽도록 CLI와 SKILL 기반 라우팅을 설치·진단하는 capability layer다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감·에이전트 자동화 방향과 잘 맞는다. 특히 Hermes/Paperclip/Claude Code/OpenClaw 에이전트가 외부 여론, 기술 영상, GitHub 이슈, RSS를 조사할 때 보조 도구로 유용하다. 다만 핵심 오케스트레이션이나 로컬 LLM 서빙은 아니므로 high는 아니다.",
+  "integration": "Claude Code/OpenClaw 스킬로 설치해 리서치 전용 에이전트에만 제한 적용. `agent-reach doctor`를 cron/LaunchAgent로 주기 점검하고, 쿠키가 필요한 채널은 vault sidecar 또는 별도 계정·격리된 워크스페이스에서만 사용. Paperclip 작업 유형 중 외부 조사/트렌드 감시/소셜 평판 수집에 연결하면 좋다.",
+  "overlaps": "Brave/context7/playwright/MCP, gh CLI, n8n RSS·웹 감시와 일부 중복된다. 차별점은 여러 플랫폼별 우회·대체 백엔드와 에이전트용 설치·진단 흐름이다. 쿠키·로그인 세션 취급, 플랫폼 차단 우회성, 외부 CLI 다중 설치는 보안 검토가 필요하다."
+}

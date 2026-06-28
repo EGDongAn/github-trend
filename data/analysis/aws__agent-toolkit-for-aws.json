@@ -1,0 +1,15 @@
+{
+  "fullName": "aws/agent-toolkit-for-aws",
+  "analyzedAt": "2026-06-28T09:29:34.344Z",
+  "repoMeta": {
+    "stars": 1506,
+    "language": "Python",
+    "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
+  },
+  "relevance": "medium",
+  "category": "MCP 서버/코딩 에이전트 AWS 개발 보조",
+  "summary": "AWS 공식 MCP 서버, Claude Code/Codex/Cursor 플러그인, AWS 작업용 skills/rules 묶음. AWS API 300+ 서비스 접근, 문서 검색, 샌드박스 Python 실행, CloudTrail/CloudWatch 감사 기능을 제공한다.",
+  "fit": "EG AI GROUP OS가 AWS 인프라를 실제로 운영하거나 배포 자동화를 늘릴 경우 유용하다. 특히 Claude Code와 Codex에 바로 붙는 점, skills 기반 워크플로, IAM/감사 로그로 에이전트 권한을 분리하는 점은 현재 스택과 잘 맞는다. 다만 핵심 OS가 로컬 우선이고 AWS 의존을 줄이는 방향이라면 필수 공백을 메우는 도구는 아니다.",
+  "integration": "Claude Code/Codex 플러그인으로 `aws-core`부터 제한 권한 IAM 계정에 연결. vault sidecar에 AWS 자격 증명을 격리하고, Paperclip 작업 중 AWS 배포/진단 이슈에만 선택적으로 MCP를 노출. CloudTrail/CloudWatch 로그를 n8n 또는 watchdog 알림으로 연결해 에이전트 AWS 행동 감사에 사용.",
+  "overlaps": "기존 Claude Code skills/MCP와 기능적으로 겹치지만 AWS 특화 공식 번들로 품질과 유지보수 이점이 있다. Paperclip/cmux 오케스트레이션을 대체하지는 않으며, 로컬 LLM/RAG 비용 절감에도 직접 기여하지 않는다. AWS Labs MCP 계열을 쓰고 있다면 이 repo가 업그레이드 후보."
+}

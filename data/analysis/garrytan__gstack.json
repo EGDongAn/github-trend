@@ -1,0 +1,15 @@
+{
+  "fullName": "garrytan/gstack",
+  "analyzedAt": "2026-06-28T09:27:40.729Z",
+  "repoMeta": {
+    "stars": 117465,
+    "language": "TypeScript",
+    "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 워크플로/Claude Code 스킬팩",
+  "summary": "Claude Code를 CEO·디자이너·엔지니어링 매니저·QA·보안·릴리즈 역할의 slash command 묶음으로 확장하는 TypeScript 기반 스킬/도구 세트다. 리뷰, QA 브라우징, 배포, 보안 감사, 문서화, OpenClaw·Codex·Hermes 호스트 설치 지원이 핵심이다.",
+  "fit": "EG AI GROUP OS의 Claude Code 중심 운영 방식과 잘 맞고, 개발 자동화·QA·리뷰·보안 루틴을 표준화하는 데 유용하다. 다만 자체 실행 엔진이나 근본적 오케스트레이터라기보다 이미 있는 Claude Code/Paperclip/cmux 위에 얹는 운영 프롬프트·스킬 레이어에 가깝다.",
+  "integration": "우선 전역 도입보다 별도 테스트 repo에서 Claude Code/Codex용 skill pack으로 설치해 /review, /qa, /cso, /autoplan, /ship만 선별 검증. EG 기존 CLAUDE.md, Codex skill, Hermes/OpenClaw 라우팅과 충돌하는 명령은 비활성화하거나 이름을 분리해 흡수하는 방식이 적합하다.",
+  "overlaps": "Claude Code 기존 200+ 스킬, Paperclip의 작업 위임, cmux의 멀티세션 관제, OpenClaw/Hermes 연동, playwright MCP 기반 QA와 상당히 겹친다. 차별점은 Garry Tan식 역할별 워크플로와 패키징된 slash command 경험이며, 대체재보다는 일부 스킬을 벤치마킹/편입할 후보에 가깝다."
+}

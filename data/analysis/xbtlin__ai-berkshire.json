@@ -1,0 +1,15 @@
+{
+  "fullName": "xbtlin/ai-berkshire",
+  "analyzedAt": "2026-06-28T09:26:20.780Z",
+  "repoMeta": {
+    "stars": 4775,
+    "language": "Python",
+    "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis."
+  },
+  "relevance": "medium",
+  "category": "Claude Code/Codex용 도메인 특화 투자 리서치 스킬·프롬프트 프레임워크",
+  "summary": "가치투자 리서치를 Claude Code/Codex 스킬, Python 계산 도구, 다중 에이전트 병렬 분석 흐름으로 구조화한 저장소다. 에이전트 오케스트레이션 자체보다는 투자 분석 워크플로와 프롬프트/스킬 패키지에 가깝다.",
+  "fit": "EG AI GROUP OS의 핵심 인프라 공백을 메우지는 않지만, Claude Code/Codex 기반 스킬 운영, 다중 관점 에이전트 연구, 재현 가능한 리서치 템플릿이라는 점은 참고 가치가 있다. 금융/투자 리서치를 실제 운영 업무로 넣을 계획이 있다면 후보가 된다.",
+  "integration": "Claude Code/Codex 스킬 디렉터리에 일부 스킬만 이식하고, Paperclip 작업 템플릿으로 투자 리서치 태스크를 생성해 cmux 세션에서 병렬 실행하는 방식이 적합하다. Python 계산 도구는 별도 검증 후 로컬 유틸로 편입 가능하다.",
+  "overlaps": "Claude Code 스킬, Paperclip의 에이전트 위임, cmux 병렬 세션 관제와 상당히 겹친다. 자체 오케스트레이터나 범용 멀티에이전트 런타임이 아니므로 Paperclip/cmux 대체재는 아니며, 도메인 프롬프트와 리서치 절차 참고용 성격이 강하다."
+}

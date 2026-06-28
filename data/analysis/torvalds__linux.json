@@ -1,0 +1,15 @@
+{
+  "fullName": "torvalds/linux",
+  "analyzedAt": "2026-06-28T09:31:04.633Z",
+  "repoMeta": {
+    "stars": 237846,
+    "language": "C",
+    "description": "Linux kernel source tree"
+  },
+  "relevance": "low",
+  "category": "운영체제 커널 / 인프라 기반",
+  "summary": "Linux 커널 소스 트리 자체로, EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, MCP, 자동화 워크플로 공백을 직접 메우지는 않는다. macOS 기반 Mac mini 스택에서는 즉시 도입 대상이 아니다.",
+  "fit": "로컬 우선·셀프호스팅 가치와 철학적으로는 맞지만, 현재 시스템은 macOS 위에서 동작하므로 커널 소스를 직접 활용할 실익이 낮다. Linux 서버나 VM 기반 인프라로 확장할 때 커널 기능, 컨테이너 격리, eBPF, 파일시스템, 네트워킹을 깊게 커스터마이즈할 경우에만 간접 가치가 있다.",
+  "integration": "직접 통합보다는 Linux 기반 워커 노드, Docker 호스트, 홈서버, 보안 샌드박스 실험 환경을 운영할 때 참조 소스로 활용 가능하다. 현재 macOS 중심 운영에서는 도입보다는 참고 자료 수준이다.",
+  "overlaps": "현재 스택의 Claude Code, cmux, Paperclip, Hermes, vault sidecar, n8n, Ollama와 기능적으로 거의 겹치지 않는다. 다만 Docker/n8n/Ollama 등을 Linux 호스트로 이전할 경우 기반 계층으로 간접 관련이 생긴다."
+}

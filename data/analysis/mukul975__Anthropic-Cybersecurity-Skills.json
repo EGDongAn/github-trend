@@ -1,0 +1,15 @@
+{
+  "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+  "analyzedAt": "2026-06-28T09:29:14.329Z",
+  "repoMeta": {
+    "stars": 22362,
+    "language": "Python",
+    "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트/보안 스킬 라이브러리",
+  "summary": "Claude Code, Codex CLI 등에서 바로 쓸 수 있는 817개 구조화 보안 스킬 모음이다. MITRE ATT&CK, NIST CSF, ATLAS, D3FEND 등 보안 프레임워크에 매핑되어 있어 에이전트의 보안 점검·위협 모델링·방어 자동화 역량을 빠르게 보강할 수 있다.",
+  "fit": "EG AI GROUP OS의 Claude Code 스킬 기반 운영, 코드 수정 자동화, 보안 격리 가치와 직접 맞는다. 기존 vault sidecar나 Paperclip 자체를 대체하지는 않지만, 에이전트들이 보안 관점으로 코드/인프라/AI 리스크를 평가하는 능력을 크게 확장한다.",
+  "integration": "Claude Code/Codex 스킬 디렉터리에 선별 설치하고, Paperclip 작업 유형 중 보안 리뷰·시크릿 점검·AI 보안 평가·incident 대응 태스크에 연결한다. 전체 817개를 한 번에 넣기보다 MITRE ATT&CK, AI RMF, 시크릿/공급망/코드보안 관련 스킬부터 우선 도입하는 것이 적합하다.",
+  "overlaps": "Claude Code 스킬 200+와 일부 중복될 수 있으나, 보안 프레임워크 매핑과 범위가 강점이다. vault sidecar는 비밀 격리 실행 계층이고, 이 repo는 보안 분석/운영 지식 계층이라 역할 중복은 제한적이다."
+}

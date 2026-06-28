@@ -1,0 +1,15 @@
+{
+  "fullName": "calesthio/OpenMontage",
+  "analyzedAt": "2026-06-28T09:28:30.510Z",
+  "repoMeta": {
+    "stars": 25934,
+    "language": "Python",
+    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio."
+  },
+  "relevance": "medium",
+  "category": "에이전트 기반 미디어 제작 자동화 / 코딩 어시스턴트 워크플로 확장",
+  "summary": "OpenMontage는 Claude Code/Codex 같은 코딩 에이전트가 리서치, 스크립트, 에셋 생성, 편집, 렌더링을 파이프라인으로 수행하게 하는 영상 제작 시스템이다. 로컬 FFmpeg/Remotion/Piper TTS와 일부 무료·오픈 소스 경로를 제공해 로컬 우선·비용 절감 가치와는 부분적으로 맞는다.",
+  "fit": "EG OS의 핵심 운영 자동화보다는 콘텐츠 제작 도메인 특화 도구다. 다만 12개 파이프라인, 도구 레지스트리, 에이전트용 스킬 구조는 Claude Code/Codex 작업 자동화 패턴을 참고하거나, 텔레그램 명령으로 영상 생성 작업을 Paperclip에 위임하는 용도로 활용 가능하다.",
+  "integration": "Paperclip 작업 타입으로 `video-production` 큐를 만들고, Mac mini에서 FFmpeg/Node/Python 의존성을 격리 설치한 뒤 Claude Code 또는 Codex worker가 OpenMontage repo를 실행하는 방식이 적합하다. API 키는 vault sidecar로 주입하고, 결과 mp4는 로컬 저장소 또는 n8n/Telegram 알림으로 전달한다.",
+  "overlaps": "Claude Code 스킬, OpenClaw, Paperclip의 에이전트 실행 구조와 일부 중복된다. 그러나 범용 오케스트레이션 대체재라기보다 영상 제작 파이프라인·툴·스킬 묶음이므로 기존 스택을 대체하기보다는 도메인 확장으로 보는 것이 맞다. 외부 생성 API 의존 경로는 EG OS의 로컬 우선 기준에서 감점 요소다."
+}

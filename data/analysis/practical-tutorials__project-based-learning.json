@@ -1,0 +1,15 @@
+{
+  "fullName": "practical-tutorials/project-based-learning",
+  "analyzedAt": "2026-06-28T09:30:48.152Z",
+  "repoMeta": {
+    "stars": 271150,
+    "language": null,
+    "description": "Curated list of project-based tutorials"
+  },
+  "relevance": "none",
+  "category": "튜토리얼/학습 자료 큐레이션",
+  "summary": "프로젝트 기반 프로그래밍 튜토리얼 모음으로, 초보자 학습과 언어별 실습 자료 탐색에는 유용하지만 EG AI GROUP OS의 운영 자동화, 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리와 직접 관련이 없다.",
+  "fit": "현재 스택의 명확한 공백을 메우지 않는다. Claude Code, Paperclip, cmux, Hermes, 로컬 LLM 운영을 강화하는 실행 도구나 인프라가 아니라 학습용 링크 모음에 가깝다.",
+  "integration": "-",
+  "overlaps": "기존 시스템 구성요소와 기능적으로 직접 겹치지는 않지만, 도입 가능한 런타임/서비스가 아니므로 대체나 업그레이드 후보도 아니다."
+}

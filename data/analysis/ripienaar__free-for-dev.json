@@ -1,0 +1,15 @@
+{
+  "fullName": "ripienaar/free-for-dev",
+  "analyzedAt": "2026-06-28T09:27:00.520Z",
+  "repoMeta": {
+    "stars": 124311,
+    "language": "HTML",
+    "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev"
+  },
+  "relevance": "low",
+  "category": "개발/인프라 리소스 목록",
+  "summary": "free-for-dev는 DevOps와 인프라 개발자가 사용할 수 있는 무료 티어 SaaS/PaaS/IaaS 목록이다. 실행 가능한 에이전트 도구나 로컬 우선 자동화 컴포넌트가 아니라 외부 서비스 카탈로그에 가깝다.",
+  "fit": "EG AI GROUP OS의 핵심인 로컬 LLM, 멀티에이전트 오케스트레이션, 비밀 격리, 텔레그램 게이트웨이와 직접 맞물리지는 않는다. 다만 GitHub Actions, Vercel, 모니터링, 호스팅, DB, 로그 서비스 등의 무료 대안을 찾을 때 참고 자료로는 쓸 수 있다.",
+  "integration": "외부 의존 비용을 줄이기 위한 참고 링크로만 활용. 자체 스택에 런타임 통합할 대상은 아니다.",
+  "overlaps": "n8n, GitHub Actions, Vercel, MCP/모니터링 도구 선택 과정과 간접적으로 겹치지만 대체재가 아니라 목록형 레퍼런스다. 로컬 우선 원칙과는 일부 긴장 관계가 있다."
+}

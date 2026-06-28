@@ -1,0 +1,15 @@
+{
+  "fullName": "DeusData/codebase-memory-mcp",
+  "analyzedAt": "2026-06-28T09:28:27.757Z",
+  "repoMeta": {
+    "stars": 18331,
+    "language": "C",
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies."
+  },
+  "relevance": "high",
+  "category": "MCP 서버 / 코드 인텔리전스 / 로컬 지식그래프",
+  "summary": "코드베이스를 Tree-sitter 기반 지식그래프로 인덱싱하고 MCP로 초저토큰 코드 탐색을 제공하는 도구. 단일 정적 바이너리, 무의존성, 로컬 실행 특성이 EG AI GROUP OS의 로컬 우선·비용 절감·코딩 에이전트 강화 방향과 잘 맞는다.",
+  "fit": "Claude Code, codex exec, Paperclip 워커가 대형 repo를 읽을 때 반복 grep/read 비용을 줄이고 구조적 질의, 영향 분석, 호출 관계 탐색을 빠르게 제공할 수 있어 도입 검토 가치가 크다. 특히 멀티에이전트가 같은 repo를 반복 분석하는 환경에서 persistent knowledge graph가 공용 코드 메모리 역할을 할 수 있다.",
+  "integration": "MCP 서버로 Claude Code/codex 환경에 연결하고, Paperclip 작업 시작 시 repo 인덱싱을 선행하는 훅 또는 워커 부트스트랩 단계에 넣는 방식이 적합하다. cmux 작업실별로 프로젝트 루트 인덱스를 유지하고, 대형 repo 분석·리뷰·리팩터링 작업에서 기본 코드 탐색 도구로 우선 사용한다.",
+  "overlaps": "context7은 외부 문서/라이브러리 컨텍스트 성격이고, rg/Claude Code 기본 탐색은 임시 파일 검색 중심이라 직접 중복은 제한적이다. 일부 코드 검색 기능은 기존 grep/read 워크플로와 겹치지만, persistent graph와 MCP 질의 성능이 명확한 업그레이드 포인트다."
+}

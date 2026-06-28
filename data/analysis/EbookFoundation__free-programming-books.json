@@ -1,0 +1,15 @@
+{
+  "fullName": "EbookFoundation/free-programming-books",
+  "analyzedAt": "2026-06-28T09:30:18.541Z",
+  "repoMeta": {
+    "stars": 390890,
+    "language": "Python",
+    "description": ":books: Freely available programming books"
+  },
+  "relevance": "low",
+  "category": "프로그래밍 학습 자료 큐레이션 / 무료 전자책 목록",
+  "summary": "무료 프로그래밍 서적과 학습 자료를 모아둔 대형 목록 repo다. EG AI GROUP OS의 실행, 오케스트레이션, 로컬 LLM, 보안, 자동화 기능을 직접 보강하지는 않는다.",
+  "fit": "운영 스택 자체에는 거의 직접 기여하지 않는다. 다만 에이전트/개발 워크플로 문서화나 내부 학습 자료 링크 소스로는 보조적으로 쓸 수 있다.",
+  "integration": "내부 지식베이스나 RAG 소스에 일부 링크를 선별 수집하는 정도가 현실적이다. 전체 repo 도입이나 운영 컴포넌트로의 통합 가치는 낮다.",
+  "overlaps": "기존 Claude Code, Paperclip, n8n, MCP, 로컬 LLM 스택과 기능적 중복은 거의 없지만, 핵심 운영 자동화 영역과도 거리가 멀다."
+}

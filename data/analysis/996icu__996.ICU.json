@@ -1,0 +1,15 @@
+{
+  "fullName": "996icu/996.ICU",
+  "analyzedAt": "2026-06-28T09:30:52.506Z",
+  "repoMeta": {
+    "stars": 276331,
+    "language": null,
+    "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers."
+  },
+  "relevance": "none",
+  "category": "개발자 권익/캠페인 저장소",
+  "summary": "996 근무문화 비판과 스타 카운팅 중심의 상징적 캠페인 repo로, 실행 가능한 에이전트/LLM/자동화/인프라 기능을 제공하지 않는다.",
+  "fit": "EG AI GROUP OS의 로컬 우선 자동화, 멀티에이전트 오케스트레이션, 보안 격리, 개발 자동화 강화와 직접 관련이 없다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 기능적 중복은 없지만, 도입 가능한 소프트웨어 컴포넌트도 아니다."
+}

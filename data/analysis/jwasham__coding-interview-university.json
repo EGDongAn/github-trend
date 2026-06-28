@@ -1,0 +1,15 @@
+{
+  "fullName": "jwasham/coding-interview-university",
+  "analyzedAt": "2026-06-28T09:30:33.323Z",
+  "repoMeta": {
+    "stars": 354315,
+    "language": null,
+    "description": "A complete computer science study plan to become a software engineer."
+  },
+  "relevance": "none",
+  "category": "컴퓨터과학 학습/코딩 인터뷰 준비 자료",
+  "summary": "소프트웨어 엔지니어가 되기 위한 CS 기초, 알고리즘, 자료구조, 인터뷰 대비 학습 로드맵이다. 실행형 도구나 에이전트, 로컬 LLM, 자동화 인프라가 아니라 교육용 큐레이션 repo에 가깝다.",
+  "fit": "EG AI GROUP OS의 핵심 목표인 로컬 우선 자동화, 멀티에이전트 오케스트레이션, 비밀 격리, 워크플로 운영과 직접 연결되지 않는다. 에이전트 성능 개선을 위한 학습 자료로 간접 참고는 가능하지만 시스템 도입 대상은 아니다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 기능 중복은 거의 없지만, 운영 자동화 도구가 아니므로 Paperclip, cmux, Claude Code, Ollama, MCP, n8n 등을 보강하거나 대체하지 않는다."
+}
