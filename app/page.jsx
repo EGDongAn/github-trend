@@ -23,7 +23,7 @@ const RANGES = [
   { key: "month", label: "이번 달" },
 ];
 
-// Approximate language → color (GitHub linguist palette, a subset).
+// Fallback language → color (used when the API doesn't supply one).
 const LANG_COLOR = {
   TypeScript: "#3178c6",
   JavaScript: "#f1e05a",
@@ -61,23 +61,49 @@ function fmt(n) {
 
 export default function Home() {
   const [tab, setTab] = useState("trending");
-  const [range, setRange] = useState("week");
+  const [range, setRange] = useState("day");
   const [language, setLanguage] = useState("");
+  const [search, setSearch] = useState("");
+  const [debounced, setDebounced] = useState("");
+  const [page, setPage] = useState(1);
+
   const [repos, setRepos] = useState([]);
+  const [hasNext, setHasNext] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+
+  // Debounce the search box so we don't hammer the API on every keystroke.
+  useEffect(() => {
+    const t = setTimeout(() => setDebounced(search.trim()), 500);
+    return () => clearTimeout(t);
+  }, [search]);
+
+  // Search overrides the active tab.
+  const mode = debounced ? "search" : tab;
+
+  // Reset to page 1 whenever the result set changes shape.
+  useEffect(() => {
+    setPage(1);
+  }, [mode, tab, range, language, debounced]);
 
   useEffect(() => {
     const ctrl = new AbortController();
     async function load() {
       setLoading(true);
       setError(null);
-      const params = new URLSearchParams({ tab, range, language });
+      const params = new URLSearchParams({
+        mode,
+        range,
+        language,
+        q: debounced,
+        page: String(page),
+      });
       try {
         const res = await fetch(`/api/repos?${params}`, { signal: ctrl.signal });
         const data = await res.json();
         if (!res.ok) throw new Error(data.error || "불러오기 실패");
         setRepos(data.repos);
+        setHasNext(Boolean(data.hasNext));
       } catch (e) {
         if (e.name !== "AbortError") setError(e.message);
       } finally {
@@ -86,7 +112,16 @@ export default function Home() {
     }
     load();
     return () => ctrl.abort();
-  }, [tab, range, language]);
+  }, [mode, range, language, debounced, page]);
+
+  const subtitle =
+    mode === "search"
+      ? `"${debounced}" 검색 결과 — 별 많은 순`
+      : mode === "trending"
+        ? "github.com/trending 실시간 — 별 증가량 기준 지금 뜨는 프로젝트"
+        : "역대 누적 별 기준 가장 유명한 레포";
+
+  const showPager = mode !== "trending";
 
   return (
     <main className="wrap">
@@ -94,30 +129,47 @@ export default function Home() {
         <h1>
           <span className="grad">GitHub</span> 뜨는 앱 찾기
         </h1>
-        <p className="sub">
-          {tab === "trending"
-            ? "최근 생성된 레포 중 별을 많이 받은 — 지금 떠오르는 프로젝트"
-            : "역대 누적 별 기준 가장 유명한 레포"}
-        </p>
+        <p className="sub">{subtitle}</p>
       </header>
 
-      <div className="tabs">
-        <button
-          className={tab === "trending" ? "tab on" : "tab"}
-          onClick={() => setTab("trending")}
-        >
-          🔥 Trending
-        </button>
-        <button
-          className={tab === "popular" ? "tab on" : "tab"}
-          onClick={() => setTab("popular")}
-        >
-          ⭐ Popular
-        </button>
+      <div className="toolbar">
+        <div className="tabs">
+          <button
+            className={tab === "trending" && !debounced ? "tab on" : "tab"}
+            onClick={() => {
+              setSearch("");
+              setTab("trending");
+            }}
+          >
+            🔥 Trending
+          </button>
+          <button
+            className={tab === "popular" && !debounced ? "tab on" : "tab"}
+            onClick={() => {
+              setSearch("");
+              setTab("popular");
+            }}
+          >
+            ⭐ Popular
+          </button>
+        </div>
+        <div className="search">
+          <input
+            type="text"
+            placeholder="레포 검색… (예: ai agent, todo app)"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+          {search && (
+            <button className="clear" onClick={() => setSearch("")} aria-label="지우기">
+              ×
+            </button>
+          )}
+        </div>
       </div>
 
       <div className="filters">
-        {tab === "trending" && (
+        {mode === "trending" && (
           <div className="seg">
             {RANGES.map((r) => (
               <button
@@ -147,54 +199,82 @@ export default function Home() {
       {loading && <div className="msg">불러오는 중…</div>}
 
       {!loading && !error && (
-        <ul className="grid">
-          {repos.map((r, i) => (
-            <li key={r.id} className="card">
-              <a className="card-link" href={r.url} target="_blank" rel="noreferrer">
-                <div className="rank">#{i + 1}</div>
-                <div className="card-head">
-                  {r.avatar && <img className="avatar" src={r.avatar} alt="" />}
-                  <div className="names">
-                    <div className="owner">{r.owner}</div>
-                    <div className="repo">{r.name}</div>
+        <>
+          <ul className="grid">
+            {repos.map((r, i) => (
+              <li key={r.id} className="card">
+                <a className="card-link" href={r.url} target="_blank" rel="noreferrer">
+                  <div className="rank">#{(page - 1) * 30 + i + 1}</div>
+                  <div className="card-head">
+                    {r.avatar && <img className="avatar" src={r.avatar} alt="" />}
+                    <div className="names">
+                      <div className="owner">{r.owner}</div>
+                      <div className="repo">{r.name}</div>
+                    </div>
                   </div>
-                </div>
-                <p className="desc">{r.description || "설명 없음"}</p>
-                {r.topics.length > 0 && (
-                  <div className="topics">
-                    {r.topics.map((t) => (
-                      <span key={t} className="topic">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                )}
-                <div className="meta">
-                  {r.language && (
-                    <span className="meta-item">
-                      <span
-                        className="dot"
-                        style={{ background: LANG_COLOR[r.language] || "#888" }}
-                      />
-                      {r.language}
-                    </span>
+                  <p className="desc">{r.description || "설명 없음"}</p>
+                  {r.topics.length > 0 && (
+                    <div className="topics">
+                      {r.topics.map((t) => (
+                        <span key={t} className="topic">
+                          {t}
+                        </span>
+                      ))}
+                    </div>
                   )}
-                  <span className="meta-item">
-                    <StarIcon /> {fmt(r.stars)}
-                  </span>
-                  <span className="meta-item">
-                    <ForkIcon /> {fmt(r.forks)}
-                  </span>
-                </div>
-              </a>
-            </li>
-          ))}
-          {repos.length === 0 && <div className="msg">결과가 없습니다.</div>}
-        </ul>
+                  <div className="meta">
+                    {r.language && (
+                      <span className="meta-item">
+                        <span
+                          className="dot"
+                          style={{
+                            background:
+                              r.languageColor || LANG_COLOR[r.language] || "#888",
+                          }}
+                        />
+                        {r.language}
+                      </span>
+                    )}
+                    <span className="meta-item">
+                      <StarIcon /> {fmt(r.stars)}
+                    </span>
+                    <span className="meta-item">
+                      <ForkIcon /> {fmt(r.forks)}
+                    </span>
+                    {r.starsToday > 0 && (
+                      <span className="meta-item velocity">▲ {fmt(r.starsToday)}</span>
+                    )}
+                  </div>
+                </a>
+              </li>
+            ))}
+            {repos.length === 0 && <div className="msg">결과가 없습니다.</div>}
+          </ul>
+
+          {showPager && repos.length > 0 && (
+            <div className="pager">
+              <button
+                className="page-btn"
+                disabled={page <= 1}
+                onClick={() => setPage((p) => Math.max(1, p - 1))}
+              >
+                ← 이전
+              </button>
+              <span className="page-num">{page} 페이지</span>
+              <button
+                className="page-btn"
+                disabled={!hasNext}
+                onClick={() => setPage((p) => p + 1)}
+              >
+                다음 →
+              </button>
+            </div>
+          )}
+        </>
       )}
 
       <footer className="foot">
-        데이터: GitHub Search API · 인증 토큰 없으면 분당 10회 제한
+        Trending: github.com/trending 스크래핑 · Popular/검색: GitHub Search API
       </footer>
     </main>
   );
