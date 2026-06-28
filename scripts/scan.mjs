@@ -32,6 +32,7 @@ const LIMIT = parseInt(opt("--limit", "0"), 10) || Infinity;
 const NO_CODEX = flag("--no-codex");
 const NO_COMMIT = flag("--no-commit");
 const NO_NOTIFY = flag("--no-notify");
+const DIGEST = flag("--digest"); // send all current high candidates w/ 적용방안, then exit
 const CONCURRENCY = parseInt(opt("--concurrency", "3"), 10);
 
 // Telegram alert for new high-fit candidates (dev 개발총괄). Override via env.
@@ -165,6 +166,13 @@ async function pool(items, n, worker) {
 // ---------- main ----------
 async function main() {
   ensureDirs();
+
+  // --digest: just re-send current high candidates with 적용방안, no scan.
+  if (DIGEST) {
+    sendDigest();
+    return;
+  }
+
   SCHEMA_FILE = "/private/tmp/ghscan-schema.json";
   writeFileSync(SCHEMA_FILE, JSON.stringify(ANALYSIS_SCHEMA));
 
@@ -221,14 +229,54 @@ async function main() {
   console.log("done.");
 }
 
+// Build a Telegram message for a batch of high-fit repos, including the codex
+// 적용방안(integration) — how to apply each to EG AI GROUP OS.
+function buildHighMessage(repos, header) {
+  const lines = [header, ""];
+  for (const r of repos) {
+    const a = r.analysis;
+    const cat = a.category ? `  [${a.category}]` : "";
+    lines.push(`• ${r.fullName} ⭐${(r.stars / 1000).toFixed(1)}k${cat}`);
+    if (a.summary) lines.push(`  ${a.summary.slice(0, 100)}`);
+    if (a.fit) lines.push(`  ▸ 적합성: ${a.fit.slice(0, 130)}`);
+    if (a.integration && a.integration !== "-")
+      lines.push(`  ▸ 적용방안: ${a.integration.slice(0, 180)}`);
+    lines.push(`  ${r.url}`, "");
+  }
+  return lines.join("\n");
+}
+
+function sendTg(msg, dryArr = []) {
+  execFileSync(TG_SEND, [NOTIFY_CHAT, msg, ...dryArr], { timeout: 30000 });
+}
+
+// On-demand: send ALL current high candidates with 적용방안 (chunked to stay
+// under Telegram's 4096-char limit). Ignores the notified dedup set.
+function sendDigest() {
+  const high = readJson(join(DATA, "index.json"), { repos: [] }).repos.filter(
+    (r) => r.analysis?.relevance === "high"
+  );
+  if (!high.length) {
+    console.log("no high candidates for digest.");
+    return;
+  }
+  const CHUNK = 5;
+  for (let i = 0; i < high.length; i += CHUNK) {
+    const chunk = high.slice(i, i + CHUNK);
+    const part = high.length > CHUNK ? ` (${Math.floor(i / CHUNK) + 1}/${Math.ceil(high.length / CHUNK)})` : "";
+    const msg = buildHighMessage(chunk, `🔎 EG OS 적합 후보 다이제스트${part} — codex 적용방안`);
+    sendTg(msg, process.env.SCAN_NOTIFY_DRY ? ["--dry"] : []);
+  }
+  console.log(`digest sent: ${high.length} high → ${NOTIFY_CHAT}`);
+}
+
 // Alert dev 개발총괄 about high-fit candidates not yet notified (deduped via
 // data/notified.json, committed so it persists across runs).
 function notifyHighCandidates() {
   if (NO_NOTIFY) return;
-  const index = readJson(join(DATA, "index.json"), { repos: [] });
   const notifiedPath = join(DATA, "notified.json");
   const notified = new Set(readJson(notifiedPath, []));
-  const fresh = index.repos.filter(
+  const fresh = readJson(join(DATA, "index.json"), { repos: [] }).repos.filter(
     (r) => r.analysis?.relevance === "high" && !notified.has(r.fullName)
   );
   if (!fresh.length) {
@@ -236,19 +284,13 @@ function notifyHighCandidates() {
     return;
   }
 
-  const lines = [`🔎 EG OS 신규 적합 후보 ${fresh.length}건 (codex: high)`, ""];
-  for (const r of fresh.slice(0, 8)) {
-    lines.push(`• ${r.fullName} ⭐${(r.stars / 1000).toFixed(1)}k`);
-    if (r.analysis.summary) lines.push(`  ${r.analysis.summary.slice(0, 90)}`);
-    if (r.analysis.fit) lines.push(`  적용: ${r.analysis.fit.slice(0, 110)}`);
-    lines.push(`  ${r.url}`, "");
-  }
-  if (fresh.length > 8) lines.push(`…외 ${fresh.length - 8}건`);
-  const msg = lines.join("\n");
+  const shown = fresh.slice(0, 8);
+  let msg = buildHighMessage(shown, `🔎 EG OS 신규 적합 후보 ${fresh.length}건 (codex: high)`);
+  if (fresh.length > 8) msg += `\n…외 ${fresh.length - 8}건 (Scout 앱에서 확인)`;
 
   const dry = process.env.SCAN_NOTIFY_DRY ? ["--dry"] : [];
   try {
-    execFileSync(TG_SEND, [NOTIFY_CHAT, msg, ...dry], { timeout: 30000 });
+    sendTg(msg, dry);
     console.log(`notified ${fresh.length} new high candidates → ${NOTIFY_CHAT}${dry.length ? " (dry)" : ""}`);
     if (!dry.length) {
       fresh.forEach((r) => notified.add(r.fullName));
