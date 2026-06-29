@@ -1,0 +1,15 @@
+{
+  "fullName": "soxoj/maigret",
+  "analyzedAt": "2026-06-29T23:00:18.094Z",
+  "repoMeta": {
+    "stars": 34340,
+    "language": "Python",
+    "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites"
+  },
+  "relevance": "medium",
+  "category": "OSINT/보안 자동화",
+  "summary": "maigret은 사용자명을 기반으로 3000개 이상 사이트에서 계정 존재 여부와 공개 정보를 수집하는 Python OSINT 도구다.",
+  "fit": "보안/감시/자동화 관점에서는 EG AI GROUP OS와 일부 맞는다. 에이전트 오케스트레이션이나 로컬 LLM 핵심 스택은 아니지만, 텔레그램 명령이나 n8n 워크플로에서 특정 username 조사 작업을 자동화하는 보조 도구로 쓸 수 있다.",
+  "integration": "Hermes 텔레그램 명령 또는 Paperclip 작업 유형으로 감싸서 username 입력 → maigret 실행 → 결과 리포트 저장/전송 흐름을 만들 수 있다. Docker/venv 격리 실행과 rate limit, 법적/윤리적 사용 정책을 함께 두는 것이 필요하다.",
+  "overlaps": "기존 스택의 핵심 도구와 직접 중복되지는 않는다. 다만 일반 웹 감시, Brave 검색, n8n 자동화로 일부 대체 가능한 영역이 있으며, 도입 가치는 OSINT 기능을 실제 운영 워크플로에 넣을 필요가 있는지에 달려 있다."
+}

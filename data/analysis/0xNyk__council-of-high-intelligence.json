@@ -1,0 +1,15 @@
+{
+  "fullName": "0xNyk/council-of-high-intelligence",
+  "analyzedAt": "2026-06-29T23:00:38.709Z",
+  "repoMeta": {
+    "stars": 1851,
+    "language": "Shell",
+    "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council"
+  },
+  "relevance": "medium",
+  "category": "멀티에이전트 의사결정/LLM 오케스트레이션",
+  "summary": "여러 LLM 제공자와 18개 페르소나를 묶어 다중 라운드 토론으로 의사결정을 보조하는 Shell 기반 도구다. 코딩 실행 에이전트라기보다 고난도 판단, 설계 리뷰, 전략 검토용 합의/반론 생성 도구에 가깝다.",
+  "fit": "EG AI GROUP OS의 멀티에이전트 오케스트레이션 관심사와는 맞지만, Paperclip처럼 작업 위임·상태관리·실행을 담당하지는 않는다. Claude Code/codex 워크플로에서 중요한 설계 결정 전 `/council`식 검토 단계로 붙이면 가치가 있다.",
+  "integration": "Claude Code hook 또는 Telegram 명령에서 특정 이슈/PR/설계 문서를 입력으로 넘겨 council 결과를 Paperclip 코멘트나 칸반 이슈에 첨부하는 방식이 적합하다. 로컬 LLM 지원 여부를 확인해 Ollama 모델을 섞을 수 있다면 비용 절감 방향과 더 잘 맞는다.",
+  "overlaps": "Paperclip/cmux와는 오케스트레이션이라는 이름만 일부 겹치고 실제 역할은 다르다. Claude Code의 서브에이전트, MCP 기반 리뷰, 수동 멀티모델 질의와는 중복될 수 있으나, 페르소나 기반 다중 라운드 deliberation을 한 명령으로 표준화하는 점은 차별점이다."
+}

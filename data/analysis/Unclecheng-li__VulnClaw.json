@@ -1,0 +1,15 @@
+{
+  "fullName": "Unclecheng-li/VulnClaw",
+  "analyzedAt": "2026-06-29T23:00:27.389Z",
+  "repoMeta": {
+    "stars": 1107,
+    "language": "Python",
+    "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。"
+  },
+  "relevance": "medium",
+  "category": "보안 자동화 / AI Agent + MCP / 침투 테스트 워크플로",
+  "summary": "AI Agent와 MCP 도구 체인, 침투 테스트 Skill을 엮어 정보수집, 취약점 탐지, 익스플로잇, 보고서 생성을 자동화하는 Python 기반 보안 에이전트 프레임워크다.",
+  "fit": "EG AI GROUP OS의 MCP·에이전트 오케스트레이션·보안 자동화 방향과는 맞다. 다만 핵심 운영 공백을 메우는 범용 오케스트레이터라기보다 공격 보안 특화 도구라서, 현재 스택의 필수 구성요소보다는 보안 점검 자동화 후보에 가깝다.",
+  "integration": "격리된 로컬 보안 워커로 붙이는 방식이 적합하다. Paperclip에서 보안 점검 이슈를 VulnClaw 작업으로 위임하고, 결과 보고서를 GitHub 이슈/Telegram/n8n으로 전달하는 흐름을 만들 수 있다. MCP 도구 사용 구조가 안정적이면 기존 MCP 생태계와 일부 연동 가능하다.",
+  "overlaps": "Claude Code 스킬, MCP 도구, Paperclip 워커 위임과 일부 중복된다. 차별점은 침투 테스트 단계별 체인과 보고서 생성 특화다. 실제 도입 전에는 위험한 익스플로잇 실행 권한, 네트워크 범위 제한, 법적/운영 안전장치, 로컬 실행 안정성을 반드시 검증해야 한다."
+}

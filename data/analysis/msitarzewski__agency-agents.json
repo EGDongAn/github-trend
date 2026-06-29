@@ -1,0 +1,15 @@
+{
+  "fullName": "msitarzewski/agency-agents",
+  "analyzedAt": "2026-06-29T23:00:25.777Z",
+  "repoMeta": {
+    "stars": 118803,
+    "language": "Shell",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+  },
+  "relevance": "medium",
+  "category": "에이전트 프롬프트/역할 라이브러리",
+  "summary": "전문 역할별 AI 에이전트 페르소나, 프로세스, 산출물 템플릿을 모은 에이전시형 프롬프트/스크립트 컬렉션으로 보인다. 실제 오케스트레이션 런타임보다는 Claude Code/기존 에이전트 워크플로에 주입할 수 있는 역할 정의 자산에 가깝다.",
+  "fit": "멀티에이전트 운영 철학에는 맞지만 Paperclip, cmux, Claude Code처럼 실행·위임·관제 기능을 제공하는 핵심 인프라는 아니다. 다만 마케팅, 커뮤니티, 프론트엔드, 리뷰 등 작업별 agent persona/skill seed로 재사용 가능성이 있다.",
+  "integration": "Claude Code skills 또는 Paperclip agent prompt 템플릿으로 일부 에이전트 정의를 선별 이식. 반복 업무용 역할 카드, 체크리스트, deliverable 포맷만 추출해 EG AI GROUP OS의 작업 위임 프롬프트 품질을 보강하는 방식이 적합하다.",
+  "overlaps": "Claude Code skills 200+, Paperclip agent worker 프롬프트, OpenClaw 비서 기능과 상당히 겹친다. 실행 엔진·스케줄링·보안 격리·로컬 LLM 서빙을 새로 제공하지 않으므로 대체재가 아니라 콘텐츠 보강재로 봐야 한다."
+}

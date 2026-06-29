@@ -1,0 +1,15 @@
+{
+  "fullName": "veracrypt/VeraCrypt",
+  "analyzedAt": "2026-06-29T23:00:39.280Z",
+  "repoMeta": {
+    "stars": 10459,
+    "language": "C",
+    "description": "Disk encryption with strong security based on TrueCrypt"
+  },
+  "relevance": "medium",
+  "category": "보안/시크릿/격리",
+  "summary": "VeraCrypt는 로컬 디스크/볼륨 암호화 도구로, Mac mini 기반 로컬 운영 환경의 저장 데이터 보호에 직접 기여할 수 있다. 다만 에이전트 오케스트레이션, 로컬 LLM, 자동화 기능은 아니며 기존 vault sidecar의 런타임 시크릿 관리와 역할이 다르다.",
+  "fit": "로컬 우선과 보안 격리 가치에는 잘 맞는다. 특히 에이전트 작업 디렉터리, 백업 디스크, 민감 로그/키 자료를 암호화 볼륨에 분리 저장하는 용도로 적합하다. 운영 자동화 핵심 공백을 메우는 도구는 아니므로 high는 아니다.",
+  "integration": "Mac mini에 암호화 볼륨을 만들고 민감한 repo, 백업, 장기 보관 secret material, Paperclip/Hermes 로그 아카이브를 해당 볼륨에 배치한다. LaunchAgent/cron 작업은 마운트 상태를 확인한 뒤 실행하도록 가드하고, 실시간 API secret은 기존 vault sidecar에 유지한다.",
+  "overlaps": "vault sidecar와 일부 보안 영역이 겹치지만 대체 관계는 아니다. Vaultwarden/Vault sidecar는 애플리케이션 시크릿 접근 제어, VeraCrypt는 로컬 저장 매체 암호화다. macOS FileVault와는 더 직접적으로 중복되며, FileVault만으로 충분하면 도입 이점은 제한적이다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "refactoringhq/tolaria",
+  "analyzedAt": "2026-06-29T23:01:01.959Z",
+  "repoMeta": {
+    "stars": 17485,
+    "language": "TypeScript",
+    "description": "Desktop app to manage markdown knowledge bases"
+  },
+  "relevance": "medium",
+  "category": "로컬 지식베이스/에이전트 컨텍스트 관리",
+  "summary": "Tolaria는 macOS/Windows/Linux용 로컬 우선 Markdown 지식베이스 데스크톱 앱이다. 파일/Git/오프라인 우선, YAML frontmatter, Claude Code/Codex/Gemini CLI 및 MCP 서버 흐름을 지원해 에이전트가 읽는 운영 문서와 메모리 저장소 관리에 맞다.",
+  "fit": "EG AI GROUP OS의 로컬 우선, Git 기반, 에이전트 컨텍스트 관리 방향과 잘 맞는다. 다만 핵심 우선순위인 멀티에이전트 오케스트레이션, 로컬 LLM 서빙, 코딩 자동화 자체를 제공하는 도구는 아니어서 high는 아니다.",
+  "integration": "PARA/운영 매뉴얼/Claude Code 스킬/AGENTS.md/프로시저 저장소를 Tolaria vault로 관리하고, Git repo로 버전관리하며 Codex·Claude·Paperclip 워커가 참조하는 공용 지식베이스 UI로 붙일 수 있다. MCP 서버가 안정적이면 에이전트가 vault 검색/열람에 쓰는 보조 도구로 검토 가능하다.",
+  "overlaps": "para-memory-files, OpenClaw 메모리/절차, Google Drive/Notion 문서 관리와 일부 중복된다. 대체보다는 로컬 Markdown 지식베이스를 사람이 정리하는 데스크톱 UI 보강재 성격이 강하다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "logto-io/logto",
+  "analyzedAt": "2026-06-29T23:00:27.555Z",
+  "repoMeta": {
+    "stars": 12621,
+    "language": "TypeScript",
+    "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC."
+  },
+  "relevance": "medium",
+  "category": "보안/인증 인프라",
+  "summary": "Logto는 OIDC/OAuth 2.1 기반의 인증·인가 플랫폼으로, 멀티테넌시, SSO, RBAC를 제공하는 TypeScript 기반 SaaS/AI 앱용 IAM 인프라다.",
+  "fit": "EG AI GROUP OS의 보안 격리와 셀프호스팅 인프라 방향에는 맞지만, 현재 핵심 공백인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화와는 직접 관련이 약하다. 여러 내부 도구의 사용자 인증, 관리자 콘솔, 외부 노출 서비스 접근 제어가 커질 때 의미가 있다.",
+  "integration": "OpenClaw, Paperclip, n8n, 내부 대시보드, 향후 외부 공개 API에 중앙 인증 계층으로 붙일 수 있다. Vault sidecar는 비밀 보관을 계속 담당하고, Logto는 사용자·조직·권한·SSO/RBAC 계층을 맡는 분리가 적절하다.",
+  "overlaps": "Vaultwarden 기반 vault sidecar와는 목적이 다르다. vault는 시크릿 저장·격리, Logto는 사용자 인증·인가다. 다만 단일 사용자 로컬 운영 중심이면 도입 비용이 이점보다 클 수 있고, 현재 GitHub/Vercel/각 도구 내장 인증으로 충분하면 중복 관리 부담이 생긴다."
+}
