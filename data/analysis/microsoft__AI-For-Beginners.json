@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/AI-For-Beginners",
+  "analyzedAt": "2026-06-30T23:00:36.775Z",
+  "repoMeta": {
+    "stars": 49311,
+    "language": "Jupyter Notebook",
+    "description": "12 Weeks, 24 Lessons, AI for All!"
+  },
+  "relevance": "none",
+  "category": "AI 교육/튜토리얼",
+  "summary": "AI 입문자를 위한 12주 커리큘럼과 Jupyter Notebook 기반 학습 자료다. 운영 자동화, 로컬 LLM 서빙, 에이전트 오케스트레이션, MCP, 보안 격리와 직접 관련된 실행 컴포넌트는 아니다.",
+  "fit": "EG AI GROUP OS의 현재 목표는 로컬 우선 자동화 스택과 멀티에이전트 운영 인프라 강화인데, 이 저장소는 교육 콘텐츠라 도입 대상 시스템 부품으로 보기 어렵다.",
+  "integration": "-",
+  "overlaps": "이미 보유한 Claude Code, Paperclip, Ollama, n8n, MCP 등과 기능적으로 겹치지는 않지만, 실운영 기능도 제공하지 않는다. 팀 내부 AI 기초 교육 자료로만 간접 활용 가능하다."
+}

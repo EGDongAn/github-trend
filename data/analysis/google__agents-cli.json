@@ -1,0 +1,15 @@
+{
+  "fullName": "google/agents-cli",
+  "analyzedAt": "2026-06-30T23:00:28.540Z",
+  "repoMeta": {
+    "stars": 4143,
+    "language": "Python",
+    "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트/클라우드 에이전트 개발 CLI",
+  "summary": "코딩 어시스턴트가 Google Cloud 기반 AI 에이전트를 생성·평가·배포하도록 돕는 CLI와 스킬 모음. 에이전트 개발 자동화에는 직접 관련이 있지만, 핵심 방향이 Google Cloud 배포라 로컬 우선 스택과는 일부 충돌한다.",
+  "fit": "Claude Code/codex 워크플로에 에이전트 제작·평가 체크리스트나 스킬을 흡수할 수 있다. 특히 Google ADK/Vertex AI를 실험하거나 외부 배포형 에이전트가 필요할 때 보조 도구로 유용하다. 다만 EG OS의 주력인 로컬 LLM, Paperclip/cmux, self-hosted 운영을 대체하는 성격은 약하다.",
+  "integration": "Claude Code 스킬 또는 codex 작업 템플릿으로 일부 스킬만 가져와 에이전트 평가/배포 절차에 연결. Google Cloud 대상 프로젝트에 한정해 CI/GitHub Actions 단계에서 사용하고, 기본 운영 경로는 로컬 Paperclip·cmux·Ollama 계층과 분리하는 것이 적절하다.",
+  "overlaps": "Claude Code 스킬, codex, GitHub Actions, Paperclip의 에이전트 작업 자동화와 부분 중복. Google Cloud 의존성이 강해 vault sidecar/로컬 LLM/셀프호스팅 가치와는 완전히 맞지 않는다. 명확한 업그레이드라기보다 클라우드 배포용 보조 후보."
+}

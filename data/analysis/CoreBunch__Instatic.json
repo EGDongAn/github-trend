@@ -1,0 +1,15 @@
+{
+  "fullName": "CoreBunch/Instatic",
+  "analyzedAt": "2026-06-30T23:00:41.298Z",
+  "repoMeta": {
+    "stars": 1492,
+    "language": "TypeScript",
+    "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute"
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 CMS / 콘텐츠 관리",
+  "summary": "Instatic은 빠르게 띄울 수 있는 TypeScript 기반 self-hosted 비주얼 CMS로, EG AI GROUP OS의 핵심 영역인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안 격리와 직접 관련성은 낮다.",
+  "fit": "로컬 우선·셀프호스팅이라는 방향성은 일부 맞지만, 운영 AI 그룹 자동화 스택의 필수 공백을 메우지는 않는다. 내부 문서, 랜딩 페이지, 공개 지식베이스를 비주얼하게 관리하려는 별도 니즈가 있을 때만 검토 가치가 있다.",
+  "integration": "별도 Docker/Node 서비스로 띄워 내부 운영 문서나 에이전트 결과물 게시용 CMS로 제한적으로 붙일 수 있다. 자동화와 연결하려면 GitHub Actions, n8n, 또는 API/Webhook 지원 여부 확인이 필요하다.",
+  "overlaps": "현재 스택의 핵심 도구와 직접 중복되지는 않지만, 문서·지식 관리 측면에서는 GitHub repo, Google Drive, Notion류 워크플로와 역할이 겹칠 수 있다. AI 운영 자동화 관점의 업그레이드 효과는 약하다."
+}

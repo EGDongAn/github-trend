@@ -1,0 +1,15 @@
+{
+  "fullName": "facebook/astryx",
+  "analyzedAt": "2026-06-30T23:00:49.796Z",
+  "repoMeta": {
+    "stars": 1726,
+    "language": "TypeScript",
+    "description": "An open source design system that's fully customizable and agent ready"
+  },
+  "relevance": "low",
+  "category": "디자인 시스템 / React UI 컴포넌트 / 에이전트 친화 개발도구",
+  "summary": "Meta 내부에서 성장한 React+StyleX 기반 오픈소스 디자인 시스템이다. 150개 이상 접근성 컴포넌트, 테마, 템플릿, CLI, 문서화된 컨벤션을 제공하며 AI 에이전트가 일관되게 UI를 생성하도록 돕는 방향성이 있다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 멀티에이전트 오케스트레이션, 로컬 LLM, 코딩 에이전트 실행, MCP, 보안 격리와는 직접 관련이 약하다. 다만 Paperclip/OpenClaw/Hermes 관리 UI를 새로 만들거나 정비할 때 에이전트가 다루기 쉬운 React 디자인 시스템으로는 쓸 수 있다.",
+  "integration": "기존 또는 신규 React/Next/Vite 프론트엔드에 @astryxdesign/core, theme, cli를 붙여 내부 운영 대시보드 UI 컴포넌트 표준으로 시험 적용. CLI 문서를 Claude Code/codex 작업 지침에 포함하면 에이전트가 UI를 더 일관되게 생성할 가능성이 있다.",
+  "overlaps": "이미 보유한 OS 자동화 스택과 기능 중복은 거의 없지만, 핵심 인프라가 아니라 프론트엔드 UI 레이어에 한정된다. shadcn/ui, Radix, Tailwind 기반 내부 UI가 이미 있다면 단순 교체 비용 대비 이점은 불명확하다."
+}

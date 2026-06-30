@@ -1,0 +1,15 @@
+{
+  "fullName": "hasaneyldrm/exercises-dataset",
+  "analyzedAt": "2026-06-30T23:00:17.215Z",
+  "repoMeta": {
+    "stars": 6485,
+    "language": "HTML",
+    "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video."
+  },
+  "relevance": "none",
+  "category": "피트니스 데이터셋 / 일반 앱 리소스",
+  "summary": "433개 운동 항목의 이름, 부위, 장비, 설명, 썸네일, 애니메이션을 담은 피트니스 운동 데이터셋이다.",
+  "fit": "EG AI GROUP OS의 핵심 목표인 로컬 AI 운영, 멀티에이전트 오케스트레이션, 코딩 자동화, MCP, 보안 격리, 셀프호스팅 인프라와 직접 관련이 없다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 기능적 중복은 거의 없지만, 도입할 만한 운영 자동화 가치도 없다. 피트니스 앱이나 건강 코칭 에이전트를 별도로 만들 때만 참고 데이터로 쓸 수 있다."
+}

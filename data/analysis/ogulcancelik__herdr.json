@@ -1,0 +1,15 @@
+{
+  "fullName": "ogulcancelik/herdr",
+  "analyzedAt": "2026-06-30T23:00:37.559Z",
+  "repoMeta": {
+    "stars": 8972,
+    "language": "Rust",
+    "description": "agent multiplexer that lives in your terminal."
+  },
+  "relevance": "medium",
+  "category": "터미널 기반 에이전트 오케스트레이션/멀티플렉서",
+  "summary": "herdr는 터미널 안에서 여러 에이전트 세션을 다루는 Rust 기반 agent multiplexer로 보인다. EG AI GROUP OS의 멀티세션 관제와 코딩 에이전트 운용 흐름에는 직접 관련이 있다.",
+  "fit": "이미 cmux가 tmux 기반 관제실 역할을 하고 Paperclip이 작업 위임/칸반을 담당하므로 핵심 공백을 새로 메우는 수준은 아니다. 다만 더 가볍고 에이전트 중심의 터미널 UX를 제공한다면 cmux 보조 또는 일부 대체 후보가 될 수 있다.",
+  "integration": "cmux와 비교 평가가 먼저 필요하다. Claude Code/codex exec 세션을 herdr에서 안정적으로 띄우고, 로그 보존·재시작·세션 식별·Paperclip 작업 ID 매핑이 가능하면 에이전트 작업실 UI로 파일럿 적용할 수 있다.",
+  "overlaps": "cmux의 멀티세션 관제와 강하게 겹친다. Paperclip의 작업 위임 자체보다는 실행 세션 관리 계층과 중복된다. tmux/cron/LaunchAgent 기반 기존 운영보다 명확한 복구성·자동화 API·에이전트 특화 기능이 없으면 단순 중복이다."
+}
