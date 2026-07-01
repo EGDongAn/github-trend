@@ -108,5 +108,16 @@
     "stars": 26335,
     "category": "AI 보안 에이전트 / 자동 침투테스트 / 취약점 자동 수정",
     "summary": "Strix는 코드베이스·GitHub repo·실행 중인 웹앱을 대상으로 AI 에이전트가 동적 테스트, PoC 검증, 리포트, 자동 수정까지 수행하는 오픈소스 보안 자동화 도구다. Docker 샌드박스, CLI, GitHub Actions, 로컬/외부 LLM API 설정을 지원해 EG AI GROUP OS의 로컬 우선 자동화 방향과 대체로 맞는다."
+  },
+  {
+    "date": "2026-07-01",
+    "sentAt": "2026-07-01T23:00:11.180Z",
+    "fullName": "diegosouzapw/OmniRoute",
+    "owner": "diegosouzapw",
+    "name": "OmniRoute",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "stars": 9473,
+    "category": "AI 게이트웨이/코딩 에이전트 라우터",
+    "summary": "Claude Code, Codex, Cursor 등 코딩 에이전트를 단일 엔드포인트로 여러 AI provider에 연결하고, 무료/저비용 모델 라우팅·fallback·토큰 압축을 제공하는 게이트웨이. 비용 절감과 코딩 에이전트 워크플로 강화 측면에서 EG AI GROUP OS와 직접 맞닿는다."
   }
 ]
