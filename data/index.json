@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T23:00:07.082Z",
-  "days": 4,
+  "generatedAt": "2026-07-02T23:02:06.976Z",
+  "days": 5,
   "repos": [
     {
       "fullName": "obra/superpowers",
@@ -10,14 +10,14 @@
       "avatar": "https://github.com/obra.png?size=64",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 243417,
-      "appearances": 4,
+      "stars": 244357,
+      "appearances": 5,
       "sources": [
         "popular",
         "trending-day"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -34,6 +34,10 @@
         {
           "date": "2026-07-01",
           "stars": 243417
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 244357
         }
       ],
       "analysis": {
@@ -53,13 +57,14 @@
       "avatar": "https://github.com/affaan-m.png?size=64",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 224639,
-      "appearances": 4,
+      "stars": 225150,
+      "appearances": 5,
       "sources": [
-        "popular"
+        "popular",
+        "trending-day"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -76,6 +81,10 @@
         {
           "date": "2026-07-01",
           "stars": 224639
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 225150
         }
       ],
       "analysis": {
@@ -95,13 +104,13 @@
       "avatar": "https://github.com/topoteretes.png?size=64",
       "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
       "language": "Python",
-      "stars": 26378,
-      "appearances": 4,
+      "stars": 26614,
+      "appearances": 5,
       "sources": [
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -118,6 +127,10 @@
         {
           "date": "2026-07-01",
           "stars": 26378
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 26614
         }
       ],
       "analysis": {
@@ -127,6 +140,188 @@
         "fit": "현재 스택의 명확한 공백인 ‘에이전트 간 지속 장기기억/회사 브레인’을 메운다. Paperclip은 작업 위임/칸반, cmux는 세션 관제, Hermes는 지시 채널이므로 Cognee가 이들 위에 기억 계층으로 붙으면 가치가 크다.",
         "integration": "Mac mini에서 Docker Compose 또는 Python 패키지로 로컬 Cognee API를 띄우고, Claude Code 플러그인·MCP 서버·OpenClaw 플러그인으로 연결한다. Paperclip 작업 로그, Hermes 텔레그램 지시, repo 분석 결과, 운영 runbook을 Cognee에 ingest하여 에이전트들이 recall하도록 구성하는 방식이 적합하다.",
         "overlaps": "일부는 OpenClaw의 개인 비서 메모리, 기존 MCP/RAG 도구, Paperclip의 작업 기록과 겹친다. 다만 Cognee는 범용 장기기억/지식그래프 계층이므로 단순 중복보다 업그레이드 성격이 강하다. LLM API 키 의존은 로컬 Ollama/호환 provider로 대체 가능한지 검증이 필요하다."
+      }
+    },
+    {
+      "fullName": "DeusData/codebase-memory-mcp",
+      "owner": "DeusData",
+      "name": "codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "avatar": "https://github.com/DeusData.png?size=64",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 24635,
+      "appearances": 5,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 19528
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 21381
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 22795
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 23759
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 24635
+        }
+      ],
+      "analysis": {
+        "relevance": "high",
+        "category": "MCP 서버 / 코드 인텔리전스 / 로컬 지식그래프",
+        "summary": "코드베이스를 Tree-sitter 기반 지식그래프로 인덱싱하고 MCP로 초저토큰 코드 탐색을 제공하는 도구. 단일 정적 바이너리, 무의존성, 로컬 실행 특성이 EG AI GROUP OS의 로컬 우선·비용 절감·코딩 에이전트 강화 방향과 잘 맞는다.",
+        "fit": "Claude Code, codex exec, Paperclip 워커가 대형 repo를 읽을 때 반복 grep/read 비용을 줄이고 구조적 질의, 영향 분석, 호출 관계 탐색을 빠르게 제공할 수 있어 도입 검토 가치가 크다. 특히 멀티에이전트가 같은 repo를 반복 분석하는 환경에서 persistent knowledge graph가 공용 코드 메모리 역할을 할 수 있다.",
+        "integration": "MCP 서버로 Claude Code/codex 환경에 연결하고, Paperclip 작업 시작 시 repo 인덱싱을 선행하는 훅 또는 워커 부트스트랩 단계에 넣는 방식이 적합하다. cmux 작업실별로 프로젝트 루트 인덱스를 유지하고, 대형 repo 분석·리뷰·리팩터링 작업에서 기본 코드 탐색 도구로 우선 사용한다.",
+        "overlaps": "context7은 외부 문서/라이브러리 컨텍스트 성격이고, rg/Claude Code 기본 탐색은 임시 파일 검색 중심이라 직접 중복은 제한적이다. 일부 코드 검색 기능은 기존 grep/read 워크플로와 겹치지만, persistent graph와 MCP 질의 성능이 명확한 업그레이드 포인트다."
+      }
+    },
+    {
+      "fullName": "stablyai/orca",
+      "owner": "stablyai",
+      "name": "orca",
+      "url": "https://github.com/stablyai/orca",
+      "avatar": "https://github.com/stablyai.png?size=64",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "language": "TypeScript",
+      "stars": 11003,
+      "appearances": 5,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 8592
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 9075
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 9643
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 10242
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 11003
+        }
+      ],
+      "analysis": {
+        "relevance": "high",
+        "category": "에이전트 오케스트레이션 / 코딩 에이전트 ADE",
+        "summary": "Claude Code, Codex, OpenCode 등 CLI 코딩 에이전트를 병렬 worktree에서 실행·관제하는 데스크톱/모바일 ADE. EG OS의 멀티에이전트 운영, 로컬 우선, 비용 절감 방향과 직접 맞는다.",
+        "fit": "cmux보다 에이전트 작업 단위, worktree 격리, diff 리뷰, 모바일 추적이 강하고 Paperclip의 워커 실행면을 보강할 수 있다. 다만 이슈 기반 위임/칸반 자체는 Paperclip이 이미 담당하므로 전면 대체보다는 개발 작업실 UI/관제 레이어로 보는 것이 적합하다.",
+        "integration": "Mac mini에 설치해 Claude Code/Codex 실행 환경을 Orca worktree로 묶고, Paperclip 이슈를 Orca 작업으로 열어 병렬 후보 구현을 비교한다. Orca CLI는 Hermes/tg-proxy/n8n에서 원격 작업 생성·스냅샷·알림 트리거로 연결할 수 있다. 개인정보/텔레메트리, 모바일 페어링, GitHub 권한 범위는 도입 전 점검 필요.",
+        "overlaps": "cmux의 터미널 분할·세션 관제, Paperclip의 에이전트 위임, GitHub/Linear 작업 흐름, Claude Code/Codex 실행 래퍼와 일부 중복된다. 로컬 LLM/RAG/시크릿 관리 기능은 핵심이 아니므로 Ollama·Vault sidecar를 대체하지 않는다."
+      }
+    },
+    {
+      "fullName": "kunchenguid/no-mistakes",
+      "owner": "kunchenguid",
+      "name": "no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "avatar": "https://github.com/kunchenguid.png?size=64",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "stars": 4912,
+      "appearances": 5,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 4048
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 4320
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 4517
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 4728
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 4912
+        }
+      ],
+      "analysis": {
+        "relevance": "high",
+        "category": "코딩 에이전트·개발 자동화 / 로컬 PR 게이트",
+        "summary": "git remote 프록시로 `git push no-mistakes`를 받아 격리 worktree에서 AI 기반 review/test/docs/lint/CI 확인을 돌리고, 통과 시에만 실제 remote로 push 및 PR 생성을 수행하는 Go 도구다. Claude, Codex, opencode 등 여러 에이전트와 연동된다.",
+        "fit": "EG AI GROUP OS의 로컬 우선 코딩 자동화와 잘 맞는다. 에이전트가 만든 변경을 바로 origin에 올리지 않고 로컬 격리 검증 파이프라인으로 거르는 층을 추가하므로 Claude Code/codex/Paperclip 워커의 산출물 품질 게이트로 유용하다.",
+        "integration": "각 repo에 `no-mistakes init`으로 gate remote를 만들고, Paperclip 워커나 Claude Code/codex 작업 완료 루틴에서 `git push no-mistakes <branch>`를 표준화한다. GitHub Actions는 최종 CI로 유지하고, no-mistakes는 로컬 사전 검증과 PR 생성 자동화 계층으로 둔다.",
+        "overlaps": "GitHub Actions, Claude Code hooks, Paperclip의 작업 완료 플로우와 일부 겹친다. 다만 CI 자체나 작업 위임 시스템이 아니라, 에이전트 산출물을 격리 worktree에서 검증한 뒤 push/PR까지 이어주는 로컬 게이트라 보강 성격이 강하다."
+      }
+    },
+    {
+      "fullName": "usestrix/strix",
+      "owner": "usestrix",
+      "name": "strix",
+      "url": "https://github.com/usestrix/strix",
+      "avatar": "https://github.com/usestrix.png?size=64",
+      "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "stars": 32054,
+      "appearances": 4,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 26681
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 28074
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 29617
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 32054
+        }
+      ],
+      "analysis": {
+        "relevance": "high",
+        "category": "AI 보안 에이전트 / 자동 침투테스트 / 취약점 자동 수정",
+        "summary": "Strix는 코드베이스·GitHub repo·실행 중인 웹앱을 대상으로 AI 에이전트가 동적 테스트, PoC 검증, 리포트, 자동 수정까지 수행하는 오픈소스 보안 자동화 도구다. Docker 샌드박스, CLI, GitHub Actions, 로컬/외부 LLM API 설정을 지원해 EG AI GROUP OS의 로컬 우선 자동화 방향과 대체로 맞는다.",
+        "fit": "현재 스택에는 Claude Code/codex 기반 코드 수정과 Paperclip 작업 위임은 있지만, 보안 취약점 탐색·검증·PoC 생성·수정 PR까지 특화된 에이전트 보안 레이어는 명확한 공백이다. 특히 자체 앱, Paperclip, Hermes, vault sidecar, n8n 등 로컬 운영 서비스의 정기 보안 점검에 바로 가치가 있다.",
+        "integration": "GitHub Actions에서 PR 단위 quick scan을 돌리고, 로컬 Mac mini에서는 cron 또는 n8n으로 `strix -n --target ./repo`를 주기 실행한다. 결과는 Paperclip 이슈로 변환해 Claude Code/codex 워커에게 수정 위임하고, 민감 대상은 Docker 샌드박스와 vault sidecar 프록시로 격리한다. Ollama/LMStudio 호환 API_BASE로 로컬 LLM 실험도 가능하나, 고품질 보안 분석은 상용 모델 의존 가능성이 있다.",
+        "overlaps": "Claude Code/codex의 코드 리뷰·수정, GitHub Actions의 CI, Playwright/Nuclei류 테스트와 일부 겹친다. 다만 Strix는 보안 공격 시나리오, PoC 검증, 멀티에이전트 보안 워크플로에 특화되어 단순 중복보다는 보안 자동화 업그레이드에 가깝다."
       }
     },
     {
@@ -172,172 +367,6 @@
       }
     },
     {
-      "fullName": "DeusData/codebase-memory-mcp",
-      "owner": "DeusData",
-      "name": "codebase-memory-mcp",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "avatar": "https://github.com/DeusData.png?size=64",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "language": "C",
-      "stars": 23759,
-      "appearances": 4,
-      "sources": [
-        "trending-day",
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 19528
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 21381
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 22795
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 23759
-        }
-      ],
-      "analysis": {
-        "relevance": "high",
-        "category": "MCP 서버 / 코드 인텔리전스 / 로컬 지식그래프",
-        "summary": "코드베이스를 Tree-sitter 기반 지식그래프로 인덱싱하고 MCP로 초저토큰 코드 탐색을 제공하는 도구. 단일 정적 바이너리, 무의존성, 로컬 실행 특성이 EG AI GROUP OS의 로컬 우선·비용 절감·코딩 에이전트 강화 방향과 잘 맞는다.",
-        "fit": "Claude Code, codex exec, Paperclip 워커가 대형 repo를 읽을 때 반복 grep/read 비용을 줄이고 구조적 질의, 영향 분석, 호출 관계 탐색을 빠르게 제공할 수 있어 도입 검토 가치가 크다. 특히 멀티에이전트가 같은 repo를 반복 분석하는 환경에서 persistent knowledge graph가 공용 코드 메모리 역할을 할 수 있다.",
-        "integration": "MCP 서버로 Claude Code/codex 환경에 연결하고, Paperclip 작업 시작 시 repo 인덱싱을 선행하는 훅 또는 워커 부트스트랩 단계에 넣는 방식이 적합하다. cmux 작업실별로 프로젝트 루트 인덱스를 유지하고, 대형 repo 분석·리뷰·리팩터링 작업에서 기본 코드 탐색 도구로 우선 사용한다.",
-        "overlaps": "context7은 외부 문서/라이브러리 컨텍스트 성격이고, rg/Claude Code 기본 탐색은 임시 파일 검색 중심이라 직접 중복은 제한적이다. 일부 코드 검색 기능은 기존 grep/read 워크플로와 겹치지만, persistent graph와 MCP 질의 성능이 명확한 업그레이드 포인트다."
-      }
-    },
-    {
-      "fullName": "stablyai/orca",
-      "owner": "stablyai",
-      "name": "orca",
-      "url": "https://github.com/stablyai/orca",
-      "avatar": "https://github.com/stablyai.png?size=64",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-      "language": "TypeScript",
-      "stars": 10242,
-      "appearances": 4,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 8592
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 9075
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 9643
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 10242
-        }
-      ],
-      "analysis": {
-        "relevance": "high",
-        "category": "에이전트 오케스트레이션 / 코딩 에이전트 ADE",
-        "summary": "Claude Code, Codex, OpenCode 등 CLI 코딩 에이전트를 병렬 worktree에서 실행·관제하는 데스크톱/모바일 ADE. EG OS의 멀티에이전트 운영, 로컬 우선, 비용 절감 방향과 직접 맞는다.",
-        "fit": "cmux보다 에이전트 작업 단위, worktree 격리, diff 리뷰, 모바일 추적이 강하고 Paperclip의 워커 실행면을 보강할 수 있다. 다만 이슈 기반 위임/칸반 자체는 Paperclip이 이미 담당하므로 전면 대체보다는 개발 작업실 UI/관제 레이어로 보는 것이 적합하다.",
-        "integration": "Mac mini에 설치해 Claude Code/Codex 실행 환경을 Orca worktree로 묶고, Paperclip 이슈를 Orca 작업으로 열어 병렬 후보 구현을 비교한다. Orca CLI는 Hermes/tg-proxy/n8n에서 원격 작업 생성·스냅샷·알림 트리거로 연결할 수 있다. 개인정보/텔레메트리, 모바일 페어링, GitHub 권한 범위는 도입 전 점검 필요.",
-        "overlaps": "cmux의 터미널 분할·세션 관제, Paperclip의 에이전트 위임, GitHub/Linear 작업 흐름, Claude Code/Codex 실행 래퍼와 일부 중복된다. 로컬 LLM/RAG/시크릿 관리 기능은 핵심이 아니므로 Ollama·Vault sidecar를 대체하지 않는다."
-      }
-    },
-    {
-      "fullName": "kunchenguid/no-mistakes",
-      "owner": "kunchenguid",
-      "name": "no-mistakes",
-      "url": "https://github.com/kunchenguid/no-mistakes",
-      "avatar": "https://github.com/kunchenguid.png?size=64",
-      "description": "git push no-mistakes",
-      "language": "Go",
-      "stars": 4728,
-      "appearances": 4,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 4048
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 4320
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 4517
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 4728
-        }
-      ],
-      "analysis": {
-        "relevance": "high",
-        "category": "코딩 에이전트·개발 자동화 / 로컬 PR 게이트",
-        "summary": "git remote 프록시로 `git push no-mistakes`를 받아 격리 worktree에서 AI 기반 review/test/docs/lint/CI 확인을 돌리고, 통과 시에만 실제 remote로 push 및 PR 생성을 수행하는 Go 도구다. Claude, Codex, opencode 등 여러 에이전트와 연동된다.",
-        "fit": "EG AI GROUP OS의 로컬 우선 코딩 자동화와 잘 맞는다. 에이전트가 만든 변경을 바로 origin에 올리지 않고 로컬 격리 검증 파이프라인으로 거르는 층을 추가하므로 Claude Code/codex/Paperclip 워커의 산출물 품질 게이트로 유용하다.",
-        "integration": "각 repo에 `no-mistakes init`으로 gate remote를 만들고, Paperclip 워커나 Claude Code/codex 작업 완료 루틴에서 `git push no-mistakes <branch>`를 표준화한다. GitHub Actions는 최종 CI로 유지하고, no-mistakes는 로컬 사전 검증과 PR 생성 자동화 계층으로 둔다.",
-        "overlaps": "GitHub Actions, Claude Code hooks, Paperclip의 작업 완료 플로우와 일부 겹친다. 다만 CI 자체나 작업 위임 시스템이 아니라, 에이전트 산출물을 격리 worktree에서 검증한 뒤 push/PR까지 이어주는 로컬 게이트라 보강 성격이 강하다."
-      }
-    },
-    {
-      "fullName": "usestrix/strix",
-      "owner": "usestrix",
-      "name": "strix",
-      "url": "https://github.com/usestrix/strix",
-      "avatar": "https://github.com/usestrix.png?size=64",
-      "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
-      "language": "Python",
-      "stars": 29617,
-      "appearances": 3,
-      "sources": [
-        "trending-day",
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 26681
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 28074
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 29617
-        }
-      ],
-      "analysis": {
-        "relevance": "high",
-        "category": "AI 보안 에이전트 / 자동 침투테스트 / 취약점 자동 수정",
-        "summary": "Strix는 코드베이스·GitHub repo·실행 중인 웹앱을 대상으로 AI 에이전트가 동적 테스트, PoC 검증, 리포트, 자동 수정까지 수행하는 오픈소스 보안 자동화 도구다. Docker 샌드박스, CLI, GitHub Actions, 로컬/외부 LLM API 설정을 지원해 EG AI GROUP OS의 로컬 우선 자동화 방향과 대체로 맞는다.",
-        "fit": "현재 스택에는 Claude Code/codex 기반 코드 수정과 Paperclip 작업 위임은 있지만, 보안 취약점 탐색·검증·PoC 생성·수정 PR까지 특화된 에이전트 보안 레이어는 명확한 공백이다. 특히 자체 앱, Paperclip, Hermes, vault sidecar, n8n 등 로컬 운영 서비스의 정기 보안 점검에 바로 가치가 있다.",
-        "integration": "GitHub Actions에서 PR 단위 quick scan을 돌리고, 로컬 Mac mini에서는 cron 또는 n8n으로 `strix -n --target ./repo`를 주기 실행한다. 결과는 Paperclip 이슈로 변환해 Claude Code/codex 워커에게 수정 위임하고, 민감 대상은 Docker 샌드박스와 vault sidecar 프록시로 격리한다. Ollama/LMStudio 호환 API_BASE로 로컬 LLM 실험도 가능하나, 고품질 보안 분석은 상용 모델 의존 가능성이 있다.",
-        "overlaps": "Claude Code/codex의 코드 리뷰·수정, GitHub Actions의 CI, Playwright/Nuclei류 테스트와 일부 겹친다. 다만 Strix는 보안 공격 시나리오, PoC 검증, 멀티에이전트 보안 워크플로에 특화되어 단순 중복보다는 보안 자동화 업그레이드에 가깝다."
-      }
-    },
-    {
       "fullName": "diegosouzapw/OmniRoute",
       "owner": "diegosouzapw",
       "name": "OmniRoute",
@@ -345,13 +374,14 @@
       "avatar": "https://github.com/diegosouzapw.png?size=64",
       "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
       "language": "TypeScript",
-      "stars": 9473,
-      "appearances": 2,
+      "stars": 10223,
+      "appearances": 3,
       "sources": [
-        "trending-day"
+        "trending-day",
+        "trending-week"
       ],
       "firstSeen": "2026-06-30",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-30",
@@ -360,6 +390,10 @@
         {
           "date": "2026-07-01",
           "stars": 9473
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 10223
         }
       ],
       "analysis": {
@@ -409,13 +443,13 @@
       "avatar": "https://github.com/awesome-selfhosted.png?size=64",
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
       "language": null,
-      "stars": 302231,
-      "appearances": 4,
+      "stars": 302405,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -432,6 +466,10 @@
         {
           "date": "2026-07-01",
           "stars": 302231
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 302405
         }
       ],
       "analysis": {
@@ -451,13 +489,13 @@
       "avatar": "https://github.com/NanmiCoder.png?size=64",
       "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
       "language": "Python",
-      "stars": 54788,
-      "appearances": 4,
+      "stars": 55054,
+      "appearances": 5,
       "sources": [
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -474,6 +512,10 @@
         {
           "date": "2026-07-01",
           "stars": 54788
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 55054
         }
       ],
       "analysis": {
@@ -493,13 +535,13 @@
       "avatar": "https://github.com/Panniantong.png?size=64",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "stars": 48290,
-      "appearances": 4,
+      "stars": 49094,
+      "appearances": 5,
       "sources": [
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -516,6 +558,10 @@
         {
           "date": "2026-07-01",
           "stars": 48290
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 49094
         }
       ],
       "analysis": {
@@ -525,6 +571,466 @@
         "fit": "EG AI GROUP OS의 로컬 우선·비용 절감·에이전트 자동화 방향과 잘 맞는다. 특히 Hermes/Paperclip/Claude Code/OpenClaw 에이전트가 외부 여론, 기술 영상, GitHub 이슈, RSS를 조사할 때 보조 도구로 유용하다. 다만 핵심 오케스트레이션이나 로컬 LLM 서빙은 아니므로 high는 아니다.",
         "integration": "Claude Code/OpenClaw 스킬로 설치해 리서치 전용 에이전트에만 제한 적용. `agent-reach doctor`를 cron/LaunchAgent로 주기 점검하고, 쿠키가 필요한 채널은 vault sidecar 또는 별도 계정·격리된 워크스페이스에서만 사용. Paperclip 작업 유형 중 외부 조사/트렌드 감시/소셜 평판 수집에 연결하면 좋다.",
         "overlaps": "Brave/context7/playwright/MCP, gh CLI, n8n RSS·웹 감시와 일부 중복된다. 차별점은 여러 플랫폼별 우회·대체 백엔드와 에이전트용 설치·진단 흐름이다. 쿠키·로그인 세션 취급, 플랫폼 차단 우회성, 외부 CLI 다중 설치는 보안 검토가 필요하다."
+      }
+    },
+    {
+      "fullName": "calesthio/OpenMontage",
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "avatar": "https://github.com/calesthio.png?size=64",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 31697,
+      "appearances": 5,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 26850
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 28493
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 29819
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 30827
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 31697
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "에이전트 기반 미디어 제작 자동화 / 코딩 어시스턴트 워크플로 확장",
+        "summary": "OpenMontage는 Claude Code/Codex 같은 코딩 에이전트가 리서치, 스크립트, 에셋 생성, 편집, 렌더링을 파이프라인으로 수행하게 하는 영상 제작 시스템이다. 로컬 FFmpeg/Remotion/Piper TTS와 일부 무료·오픈 소스 경로를 제공해 로컬 우선·비용 절감 가치와는 부분적으로 맞는다.",
+        "fit": "EG OS의 핵심 운영 자동화보다는 콘텐츠 제작 도메인 특화 도구다. 다만 12개 파이프라인, 도구 레지스트리, 에이전트용 스킬 구조는 Claude Code/Codex 작업 자동화 패턴을 참고하거나, 텔레그램 명령으로 영상 생성 작업을 Paperclip에 위임하는 용도로 활용 가능하다.",
+        "integration": "Paperclip 작업 타입으로 `video-production` 큐를 만들고, Mac mini에서 FFmpeg/Node/Python 의존성을 격리 설치한 뒤 Claude Code 또는 Codex worker가 OpenMontage repo를 실행하는 방식이 적합하다. API 키는 vault sidecar로 주입하고, 결과 mp4는 로컬 저장소 또는 n8n/Telegram 알림으로 전달한다.",
+        "overlaps": "Claude Code 스킬, OpenClaw, Paperclip의 에이전트 실행 구조와 일부 중복된다. 그러나 범용 오케스트레이션 대체재라기보다 영상 제작 파이프라인·툴·스킬 묶음이므로 기존 스택을 대체하기보다는 도메인 확장으로 보는 것이 맞다. 외부 생성 API 의존 경로는 EG OS의 로컬 우선 기준에서 감점 요소다."
+      }
+    },
+    {
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "owner": "JCodesMore",
+      "name": "ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "avatar": "https://github.com/JCodesMore.png?size=64",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "stars": 24884,
+      "appearances": 5,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 22776
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 23464
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 23948
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 24405
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 24884
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "코딩 에이전트·개발 자동화 / 웹사이트 역공학 템플릿",
+        "summary": "AI 코딩 에이전트로 대상 웹사이트를 분석해 Next.js 코드베이스로 재구성하는 템플릿이다. Claude Code, Codex CLI 등 여러 에이전트를 지원하고, 스크린샷·디자인 토큰·자산 추출·컴포넌트 스펙 작성·병렬 빌드·시각 QA 흐름을 제공한다.",
+        "fit": "Claude Code/codex 기반 자동화와 잘 맞고, AGENTS.md 및 스킬 구조가 있어 EG AI GROUP OS의 에이전트 실행 환경에서 바로 실험 가능하다. 다만 핵심 가치는 웹사이트 복제/마이그레이션 자동화에 한정되어 Paperclip, cmux, 로컬 LLM, 보안 격리 같은 OS 핵심 공백을 직접 메우지는 않는다.",
+        "integration": "Claude Code 또는 Codex CLI용 프로젝트 템플릿/스킬 샘플로 흡수해 웹 리빌드 작업 전용 워크플로를 만들 수 있다. Paperclip 이슈 템플릿으로 target URL을 받아 에이전트 워커가 이 템플릿을 사용해 Next.js 산출물을 생성하게 연결하는 방식이 적합하다.",
+        "overlaps": "Claude Code 스킬, Codex CLI, 병렬 에이전트 실행이라는 점에서 기존 실행 엔진 및 Paperclip/cmux와 부분 중복된다. 그러나 범용 오케스트레이션 도구가 아니라 특정 웹사이트 클로닝 파이프라인이므로 대체재보다는 작업 템플릿/레시피에 가깝다."
+      }
+    },
+    {
+      "fullName": "google-labs-code/design.md",
+      "owner": "google-labs-code",
+      "name": "design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "avatar": "https://github.com/google-labs-code.png?size=64",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "stars": 24365,
+      "appearances": 5,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 22814
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 23183
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 23684
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 24012
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 24365
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "코딩 에이전트·개발 자동화 / 디자인 시스템 명세",
+        "summary": "DESIGN.md는 코딩 에이전트가 프로젝트의 시각 정체성, UI 규칙, 디자인 시스템을 지속적으로 이해하도록 하는 구조화된 명세 포맷이다. 에이전트 기반 개발 워크플로에서 프론트엔드 산출물의 일관성을 높이는 보조 표준에 가깝다.",
+        "fit": "EG AI GROUP OS의 핵심인 오케스트레이션, 로컬 LLM, 보안, 자동화 인프라 공백을 직접 메우지는 않는다. 다만 Claude Code/codex가 UI 작업을 수행할 때 repo별 디자인 컨텍스트를 안정적으로 주입하는 방식으로 개발 자동화 품질을 개선할 수 있어 부분적으로 적합하다.",
+        "integration": "각 프론트엔드/제품 repo 루트에 DESIGN.md를 추가하고, Claude Code/codex 스킬 또는 프롬프트 규칙에서 작업 전 DESIGN.md를 우선 읽도록 연결한다. Paperclip 작업 생성 시 UI 관련 이슈에는 DESIGN.md 준수를 체크리스트로 넣는 정도가 현실적이다.",
+        "overlaps": "Claude Code 스킬, repo별 AGENTS.md/CLAUDE.md/CODEX.md와 역할이 겹친다. 차별점은 일반 지침이 아니라 시각 정체성과 디자인 시스템을 구조화해 에이전트가 참조하도록 만든다는 점이다. 기존 운영 스택의 핵심 도구를 대체하지는 않는다."
+      }
+    },
+    {
+      "fullName": "alibaba/page-agent",
+      "owner": "alibaba",
+      "name": "page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "avatar": "https://github.com/alibaba.png?size=64",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "stars": 21351,
+      "appearances": 5,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 20466
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 20612
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 20782
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 20922
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 21351
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "웹 GUI 에이전트 / 브라우저 자동화 / MCP 보조 도구",
+        "summary": "웹페이지 안에 삽입되는 TypeScript 기반 GUI 에이전트로, 자연어 명령을 DOM 기반으로 해석해 클릭·입력·폼 처리 등을 수행한다. 스크린샷/VLM 없이 동작하고 BYO LLM, Chrome 확장, 베타 MCP 서버를 제공한다.",
+        "fit": "Hermes/Paperclip/Claude Code 에이전트가 SaaS·관리자 콘솔·웹 UI를 자연어로 조작하게 만드는 보조 레이어로는 적합하다. 특히 Playwright 스크립트를 매번 작성하기 애매한 반복 웹 작업, 폼 입력, 사내 웹앱 코파일럿에는 가치가 있다. 다만 EG OS의 핵심 공백인 멀티에이전트 오케스트레이션이나 로컬 LLM 서빙 자체를 해결하지는 않아 high는 아니다.",
+        "integration": "우선 실험용으로 로컬/내부 웹앱에 스크립트 삽입 또는 Chrome 확장+MCP 서버를 붙이고, Paperclip 워커나 Claude Code에서 MCP를 통해 브라우저 작업을 호출하는 방식이 적절하다. LLM endpoint는 Ollama/OpenAI-compatible 프록시로 연결해 로컬 우선 정책을 맞춘다. 외부 웹사이트 자동화에는 권한·세션·DOM 접근 보안 검토가 필요하다.",
+        "overlaps": "Playwright MCP, browser-use 계열 자동화, Claude Code의 브라우저 조작 워크플로와 일부 중복된다. 차별점은 headless/스크린샷 중심이 아니라 인페이지 DOM 조작으로 가볍게 붙는 점이다. 기존 Playwright MCP를 대체하기보다는 자연어 UI 조작이 필요한 웹앱에 한정해 보강재로 보는 편이 맞다."
+      }
+    },
+    {
+      "fullName": "simplex-chat/simplex-chat",
+      "owner": "simplex-chat",
+      "name": "simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "avatar": "https://github.com/simplex-chat.png?size=64",
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "language": "Haskell",
+      "stars": 17658,
+      "appearances": 5,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 14934
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 16516
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 17315
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 17551
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 17658
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "보안/프라이버시 메시징 인프라",
+        "summary": "SimpleX Chat은 사용자 식별자 없이 동작하는 프라이버시 중심 메시징 네트워크/클라이언트다. EG AI GROUP OS의 핵심 자동화·에이전트 오케스트레이션 도구는 아니지만, 텔레그램 의존 게이트웨이를 보안 강화형 통신 채널로 보완하거나 고위험 지시 채널을 분리하는 용도로 검토할 수 있다.",
+        "fit": "로컬 우선·보안 격리 가치와는 잘 맞지만, 현재 우선순위 1~4인 에이전트 실행, 로컬 LLM, 개발 자동화, MCP와 직접 연결되지는 않는다. 텔레그램/Hermes를 대체하기에는 생태계·사용자 편의·기존 48개 그룹 연동 측면에서 전환 비용이 크다.",
+        "integration": "고보안 운영 채널 또는 관리자-에이전트 지시용 별도 백채널로 제한 도입 검토. CLI/API/봇 연동 가능성이 충분하면 Hermes 옆에 보조 알림·명령 채널로 붙이고, 민감 작업 승인이나 비밀 관련 알림만 SimpleX로 분리하는 방식이 적합하다.",
+        "overlaps": "Hermes, tg-proxy의 메시징/알림 역할과 일부 중복된다. 다만 텔레그램 기반 공개 식별자와 달리 프라이버시·메타데이터 보호가 강점이므로 단순 대체보다는 보안 채널 보강 후보에 가깝다."
+      }
+    },
+    {
+      "fullName": "HKUDS/Vibe-Trading",
+      "owner": "HKUDS",
+      "name": "Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "avatar": "https://github.com/HKUDS.png?size=64",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars": 17306,
+      "appearances": 5,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 14267
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 15057
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 15757
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 16481
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 17306
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "금융/트레이딩 특화 AI 에이전트, MCP/API 도구, 백테스트·리서치 자동화",
+        "summary": "개인 트레이딩 에이전트로, FastAPI/React UI, CLI, Docker, MCP/API, 데이터 로더, 브로커 커넥터, 백테스트, 스케줄 실행, 리서치 자동화 기능을 제공한다. 로컬 실행과 도구 오케스트레이션 성격은 EG OS와 맞지만, 핵심 목적이 금융 트레이딩이라 운영 AI 그룹의 필수 공백을 직접 메우지는 않는다.",
+        "fit": "도메인 특화 에이전트 샘플과 금융 리서치/백테스트 자동화 도구로는 유용하다. 특히 MCP 도구 설계, 로컬 데이터 브리지, 실행 세션/리포트 관리, 스케줄러는 참고 가치가 있다. 다만 Paperclip/cmux를 대체할 범용 멀티에이전트 관제 도구는 아니므로 high는 아니다.",
+        "integration": "Docker 또는 별도 venv로 격리 실행하고, API/MCP 엔드포인트를 EG OS의 MCP 레이어에 읽기 중심 도구로 붙인다. 브로커/API 키는 vault sidecar로 주입하고, Hermes/Telegram에는 리서치 결과·백테스트 리포트 알림만 연결한다. 실거래 기능은 기본 비활성화하고 Paperclip 작업으로 정기 리서치/검증만 위임하는 방식이 적합하다.",
+        "overlaps": "Paperclip의 작업 실행·리포트 관리, n8n의 스케줄 워크플로, OpenClaw의 개인 비서, 기존 MCP 도구와 일부 중복된다. 차별점은 금융 데이터·브로커·백테스트·알파 리서치에 집중된 도메인 도구 묶음이다."
+      }
+    },
+    {
+      "fullName": "browser-use/video-use",
+      "owner": "browser-use",
+      "name": "video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "avatar": "https://github.com/browser-use.png?size=64",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stars": 13749,
+      "appearances": 5,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 10979
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 11898
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 12545
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 13191
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 13749
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "코딩 에이전트·개발 자동화 / 미디어 자동화 스킬",
+        "summary": "Claude Code/Codex 같은 셸 접근 에이전트가 원본 영상 폴더를 읽고, 전사·타임라인 뷰·EDL·ffmpeg 렌더링·자가 평가 루프로 final.mp4를 만드는 오픈소스 비디오 편집 워크플로다. 코어는 범용 오케스트레이터가 아니라 에이전트용 영상 편집 스킬/헬퍼 모음에 가깝다.",
+        "fit": "EG AI GROUP OS의 로컬 우선·코딩 에이전트 자동화 방향과는 맞는다. 특히 Claude Code/Codex/Hermes에 스킬로 붙일 수 있고, 텔레그램 기반 영상 편집 요청 자동화 같은 운영 태스크에 바로 응용 가능하다. 다만 핵심 우선순위인 멀티에이전트 관제, 로컬 LLM 서빙, 보안 격리의 공백을 메우지는 않으므로 high는 아니다.",
+        "integration": "Codex 또는 Claude Code skill로 ~/.codex/skills/video-use 또는 ~/.claude/skills/video-use에 연결하고, ffmpeg/uv/yt-dlp를 Mac mini에 설치한 뒤 Hermes 명령으로 특정 영상 폴더에서 에이전트를 실행하게 만들면 된다. ElevenLabs Scribe API 의존이 있으므로 vault sidecar에 API key를 넣고 프록시/환경변수 주입 방식으로 격리하는 편이 적합하다.",
+        "overlaps": "Claude Code 스킬 시스템, Codex exec, Hermes, Paperclip 워커 실행 흐름과 겹치지만 대체재는 아니다. OpenClaw/기존 에이전트가 할 수 있는 일반 셸 자동화 위에 영상 편집 도메인 규칙과 헬퍼를 얹는 보강재다. 외부 전사 API 의존과 미디어 편집이라는 제한된 도메인 때문에 범용 OS 핵심 컴포넌트로 보기에는 약하다."
+      }
+    },
+    {
+      "fullName": "xbtlin/ai-berkshire",
+      "owner": "xbtlin",
+      "name": "ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "avatar": "https://github.com/xbtlin.png?size=64",
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "stars": 8632,
+      "appearances": 5,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 5245
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 6566
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 7457
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 8100
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 8632
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "Claude Code/Codex용 도메인 특화 투자 리서치 스킬·프롬프트 프레임워크",
+        "summary": "가치투자 리서치를 Claude Code/Codex 스킬, Python 계산 도구, 다중 에이전트 병렬 분석 흐름으로 구조화한 저장소다. 에이전트 오케스트레이션 자체보다는 투자 분석 워크플로와 프롬프트/스킬 패키지에 가깝다.",
+        "fit": "EG AI GROUP OS의 핵심 인프라 공백을 메우지는 않지만, Claude Code/Codex 기반 스킬 운영, 다중 관점 에이전트 연구, 재현 가능한 리서치 템플릿이라는 점은 참고 가치가 있다. 금융/투자 리서치를 실제 운영 업무로 넣을 계획이 있다면 후보가 된다.",
+        "integration": "Claude Code/Codex 스킬 디렉터리에 일부 스킬만 이식하고, Paperclip 작업 템플릿으로 투자 리서치 태스크를 생성해 cmux 세션에서 병렬 실행하는 방식이 적합하다. Python 계산 도구는 별도 검증 후 로컬 유틸로 편입 가능하다.",
+        "overlaps": "Claude Code 스킬, Paperclip의 에이전트 위임, cmux 병렬 세션 관제와 상당히 겹친다. 자체 오케스트레이터나 범용 멀티에이전트 런타임이 아니므로 Paperclip/cmux 대체재는 아니며, 도메인 프롬프트와 리서치 절차 참고용 성격이 강하다."
+      }
+    },
+    {
+      "fullName": "aws/agent-toolkit-for-aws",
+      "owner": "aws",
+      "name": "agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "avatar": "https://github.com/aws.png?size=64",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "stars": 1734,
+      "appearances": 5,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 1540
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 1601
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 1646
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 1677
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 1734
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "MCP 서버/코딩 에이전트 AWS 개발 보조",
+        "summary": "AWS 공식 MCP 서버, Claude Code/Codex/Cursor 플러그인, AWS 작업용 skills/rules 묶음. AWS API 300+ 서비스 접근, 문서 검색, 샌드박스 Python 실행, CloudTrail/CloudWatch 감사 기능을 제공한다.",
+        "fit": "EG AI GROUP OS가 AWS 인프라를 실제로 운영하거나 배포 자동화를 늘릴 경우 유용하다. 특히 Claude Code와 Codex에 바로 붙는 점, skills 기반 워크플로, IAM/감사 로그로 에이전트 권한을 분리하는 점은 현재 스택과 잘 맞는다. 다만 핵심 OS가 로컬 우선이고 AWS 의존을 줄이는 방향이라면 필수 공백을 메우는 도구는 아니다.",
+        "integration": "Claude Code/Codex 플러그인으로 `aws-core`부터 제한 권한 IAM 계정에 연결. vault sidecar에 AWS 자격 증명을 격리하고, Paperclip 작업 중 AWS 배포/진단 이슈에만 선택적으로 MCP를 노출. CloudTrail/CloudWatch 로그를 n8n 또는 watchdog 알림으로 연결해 에이전트 AWS 행동 감사에 사용.",
+        "overlaps": "기존 Claude Code skills/MCP와 기능적으로 겹치지만 AWS 특화 공식 번들로 품질과 유지보수 이점이 있다. Paperclip/cmux 오케스트레이션을 대체하지는 않으며, 로컬 LLM/RAG 비용 절감에도 직접 기여하지 않는다. AWS Labs MCP 계열을 쓰고 있다면 이 repo가 업그레이드 후보."
+      }
+    },
+    {
+      "fullName": "msitarzewski/agency-agents",
+      "owner": "msitarzewski",
+      "name": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "avatar": "https://github.com/msitarzewski.png?size=64",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 125424,
+      "appearances": 4,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-29",
+          "stars": 118803
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 120776
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 123248
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 125424
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "에이전트 프롬프트/역할 라이브러리",
+        "summary": "전문 역할별 AI 에이전트 페르소나, 프로세스, 산출물 템플릿을 모은 에이전시형 프롬프트/스크립트 컬렉션으로 보인다. 실제 오케스트레이션 런타임보다는 Claude Code/기존 에이전트 워크플로에 주입할 수 있는 역할 정의 자산에 가깝다.",
+        "fit": "멀티에이전트 운영 철학에는 맞지만 Paperclip, cmux, Claude Code처럼 실행·위임·관제 기능을 제공하는 핵심 인프라는 아니다. 다만 마케팅, 커뮤니티, 프론트엔드, 리뷰 등 작업별 agent persona/skill seed로 재사용 가능성이 있다.",
+        "integration": "Claude Code skills 또는 Paperclip agent prompt 템플릿으로 일부 에이전트 정의를 선별 이식. 반복 업무용 역할 카드, 체크리스트, deliverable 포맷만 추출해 EG AI GROUP OS의 작업 위임 프롬프트 품질을 보강하는 방식이 적합하다.",
+        "overlaps": "Claude Code skills 200+, Paperclip agent worker 프롬프트, OpenClaw 비서 기능과 상당히 겹친다. 실행 엔진·스케줄링·보안 격리·로컬 LLM 서빙을 새로 제공하지 않으므로 대체재가 아니라 콘텐츠 보강재로 봐야 한다."
       }
     },
     {
@@ -567,344 +1073,6 @@
         "fit": "EG AI GROUP OS의 로컬 우선·비용 절감·MCP 확장 방향과 잘 맞지만, 핵심인 멀티에이전트 오케스트레이션/작업 위임 자체를 개선하는 도구는 아니다. 텔레그램 텍스트 게이트웨이를 보완하는 로컬 음성 입출력 레이어로는 가치가 있다.",
         "integration": "Mac mini에 로컬 앱 또는 Docker로 설치하고, Claude Code/Codex/Paperclip worker 알림을 MCP 또는 REST POST /speak로 연결한다. 전역 dictation은 운영자 지시 입력 보조로 쓰고, 에이전트별 voice profile을 매핑해 누가 완료/질문/오류를 말하는지 구분하는 용도가 적합하다.",
         "overlaps": "Hermes/tg-proxy의 알림 기능과 일부 겹치지만 채널이 텔레그램이 아니라 로컬 음성이다. OpenClaw의 개인 비서 UX와도 일부 중복 가능성이 있다. Paperclip/cmux/Claude Code를 대체하지 않고 보조 인터페이스로 붙이는 성격이다."
-      }
-    },
-    {
-      "fullName": "calesthio/OpenMontage",
-      "owner": "calesthio",
-      "name": "OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "avatar": "https://github.com/calesthio.png?size=64",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "stars": 30827,
-      "appearances": 4,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 26850
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 28493
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 29819
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 30827
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "에이전트 기반 미디어 제작 자동화 / 코딩 어시스턴트 워크플로 확장",
-        "summary": "OpenMontage는 Claude Code/Codex 같은 코딩 에이전트가 리서치, 스크립트, 에셋 생성, 편집, 렌더링을 파이프라인으로 수행하게 하는 영상 제작 시스템이다. 로컬 FFmpeg/Remotion/Piper TTS와 일부 무료·오픈 소스 경로를 제공해 로컬 우선·비용 절감 가치와는 부분적으로 맞는다.",
-        "fit": "EG OS의 핵심 운영 자동화보다는 콘텐츠 제작 도메인 특화 도구다. 다만 12개 파이프라인, 도구 레지스트리, 에이전트용 스킬 구조는 Claude Code/Codex 작업 자동화 패턴을 참고하거나, 텔레그램 명령으로 영상 생성 작업을 Paperclip에 위임하는 용도로 활용 가능하다.",
-        "integration": "Paperclip 작업 타입으로 `video-production` 큐를 만들고, Mac mini에서 FFmpeg/Node/Python 의존성을 격리 설치한 뒤 Claude Code 또는 Codex worker가 OpenMontage repo를 실행하는 방식이 적합하다. API 키는 vault sidecar로 주입하고, 결과 mp4는 로컬 저장소 또는 n8n/Telegram 알림으로 전달한다.",
-        "overlaps": "Claude Code 스킬, OpenClaw, Paperclip의 에이전트 실행 구조와 일부 중복된다. 그러나 범용 오케스트레이션 대체재라기보다 영상 제작 파이프라인·툴·스킬 묶음이므로 기존 스택을 대체하기보다는 도메인 확장으로 보는 것이 맞다. 외부 생성 API 의존 경로는 EG OS의 로컬 우선 기준에서 감점 요소다."
-      }
-    },
-    {
-      "fullName": "JCodesMore/ai-website-cloner-template",
-      "owner": "JCodesMore",
-      "name": "ai-website-cloner-template",
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "avatar": "https://github.com/JCodesMore.png?size=64",
-      "description": "Clone any website with one command using AI coding agents",
-      "language": "TypeScript",
-      "stars": 24405,
-      "appearances": 4,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 22776
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 23464
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 23948
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 24405
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "코딩 에이전트·개발 자동화 / 웹사이트 역공학 템플릿",
-        "summary": "AI 코딩 에이전트로 대상 웹사이트를 분석해 Next.js 코드베이스로 재구성하는 템플릿이다. Claude Code, Codex CLI 등 여러 에이전트를 지원하고, 스크린샷·디자인 토큰·자산 추출·컴포넌트 스펙 작성·병렬 빌드·시각 QA 흐름을 제공한다.",
-        "fit": "Claude Code/codex 기반 자동화와 잘 맞고, AGENTS.md 및 스킬 구조가 있어 EG AI GROUP OS의 에이전트 실행 환경에서 바로 실험 가능하다. 다만 핵심 가치는 웹사이트 복제/마이그레이션 자동화에 한정되어 Paperclip, cmux, 로컬 LLM, 보안 격리 같은 OS 핵심 공백을 직접 메우지는 않는다.",
-        "integration": "Claude Code 또는 Codex CLI용 프로젝트 템플릿/스킬 샘플로 흡수해 웹 리빌드 작업 전용 워크플로를 만들 수 있다. Paperclip 이슈 템플릿으로 target URL을 받아 에이전트 워커가 이 템플릿을 사용해 Next.js 산출물을 생성하게 연결하는 방식이 적합하다.",
-        "overlaps": "Claude Code 스킬, Codex CLI, 병렬 에이전트 실행이라는 점에서 기존 실행 엔진 및 Paperclip/cmux와 부분 중복된다. 그러나 범용 오케스트레이션 도구가 아니라 특정 웹사이트 클로닝 파이프라인이므로 대체재보다는 작업 템플릿/레시피에 가깝다."
-      }
-    },
-    {
-      "fullName": "google-labs-code/design.md",
-      "owner": "google-labs-code",
-      "name": "design.md",
-      "url": "https://github.com/google-labs-code/design.md",
-      "avatar": "https://github.com/google-labs-code.png?size=64",
-      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "language": "TypeScript",
-      "stars": 24012,
-      "appearances": 4,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 22814
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 23183
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 23684
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 24012
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "코딩 에이전트·개발 자동화 / 디자인 시스템 명세",
-        "summary": "DESIGN.md는 코딩 에이전트가 프로젝트의 시각 정체성, UI 규칙, 디자인 시스템을 지속적으로 이해하도록 하는 구조화된 명세 포맷이다. 에이전트 기반 개발 워크플로에서 프론트엔드 산출물의 일관성을 높이는 보조 표준에 가깝다.",
-        "fit": "EG AI GROUP OS의 핵심인 오케스트레이션, 로컬 LLM, 보안, 자동화 인프라 공백을 직접 메우지는 않는다. 다만 Claude Code/codex가 UI 작업을 수행할 때 repo별 디자인 컨텍스트를 안정적으로 주입하는 방식으로 개발 자동화 품질을 개선할 수 있어 부분적으로 적합하다.",
-        "integration": "각 프론트엔드/제품 repo 루트에 DESIGN.md를 추가하고, Claude Code/codex 스킬 또는 프롬프트 규칙에서 작업 전 DESIGN.md를 우선 읽도록 연결한다. Paperclip 작업 생성 시 UI 관련 이슈에는 DESIGN.md 준수를 체크리스트로 넣는 정도가 현실적이다.",
-        "overlaps": "Claude Code 스킬, repo별 AGENTS.md/CLAUDE.md/CODEX.md와 역할이 겹친다. 차별점은 일반 지침이 아니라 시각 정체성과 디자인 시스템을 구조화해 에이전트가 참조하도록 만든다는 점이다. 기존 운영 스택의 핵심 도구를 대체하지는 않는다."
-      }
-    },
-    {
-      "fullName": "alibaba/page-agent",
-      "owner": "alibaba",
-      "name": "page-agent",
-      "url": "https://github.com/alibaba/page-agent",
-      "avatar": "https://github.com/alibaba.png?size=64",
-      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-      "language": "TypeScript",
-      "stars": 20922,
-      "appearances": 4,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 20466
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 20612
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 20782
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 20922
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "웹 GUI 에이전트 / 브라우저 자동화 / MCP 보조 도구",
-        "summary": "웹페이지 안에 삽입되는 TypeScript 기반 GUI 에이전트로, 자연어 명령을 DOM 기반으로 해석해 클릭·입력·폼 처리 등을 수행한다. 스크린샷/VLM 없이 동작하고 BYO LLM, Chrome 확장, 베타 MCP 서버를 제공한다.",
-        "fit": "Hermes/Paperclip/Claude Code 에이전트가 SaaS·관리자 콘솔·웹 UI를 자연어로 조작하게 만드는 보조 레이어로는 적합하다. 특히 Playwright 스크립트를 매번 작성하기 애매한 반복 웹 작업, 폼 입력, 사내 웹앱 코파일럿에는 가치가 있다. 다만 EG OS의 핵심 공백인 멀티에이전트 오케스트레이션이나 로컬 LLM 서빙 자체를 해결하지는 않아 high는 아니다.",
-        "integration": "우선 실험용으로 로컬/내부 웹앱에 스크립트 삽입 또는 Chrome 확장+MCP 서버를 붙이고, Paperclip 워커나 Claude Code에서 MCP를 통해 브라우저 작업을 호출하는 방식이 적절하다. LLM endpoint는 Ollama/OpenAI-compatible 프록시로 연결해 로컬 우선 정책을 맞춘다. 외부 웹사이트 자동화에는 권한·세션·DOM 접근 보안 검토가 필요하다.",
-        "overlaps": "Playwright MCP, browser-use 계열 자동화, Claude Code의 브라우저 조작 워크플로와 일부 중복된다. 차별점은 headless/스크린샷 중심이 아니라 인페이지 DOM 조작으로 가볍게 붙는 점이다. 기존 Playwright MCP를 대체하기보다는 자연어 UI 조작이 필요한 웹앱에 한정해 보강재로 보는 편이 맞다."
-      }
-    },
-    {
-      "fullName": "simplex-chat/simplex-chat",
-      "owner": "simplex-chat",
-      "name": "simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "avatar": "https://github.com/simplex-chat.png?size=64",
-      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
-      "language": "Haskell",
-      "stars": 17551,
-      "appearances": 4,
-      "sources": [
-        "trending-day",
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 14934
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 16516
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 17315
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 17551
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "보안/프라이버시 메시징 인프라",
-        "summary": "SimpleX Chat은 사용자 식별자 없이 동작하는 프라이버시 중심 메시징 네트워크/클라이언트다. EG AI GROUP OS의 핵심 자동화·에이전트 오케스트레이션 도구는 아니지만, 텔레그램 의존 게이트웨이를 보안 강화형 통신 채널로 보완하거나 고위험 지시 채널을 분리하는 용도로 검토할 수 있다.",
-        "fit": "로컬 우선·보안 격리 가치와는 잘 맞지만, 현재 우선순위 1~4인 에이전트 실행, 로컬 LLM, 개발 자동화, MCP와 직접 연결되지는 않는다. 텔레그램/Hermes를 대체하기에는 생태계·사용자 편의·기존 48개 그룹 연동 측면에서 전환 비용이 크다.",
-        "integration": "고보안 운영 채널 또는 관리자-에이전트 지시용 별도 백채널로 제한 도입 검토. CLI/API/봇 연동 가능성이 충분하면 Hermes 옆에 보조 알림·명령 채널로 붙이고, 민감 작업 승인이나 비밀 관련 알림만 SimpleX로 분리하는 방식이 적합하다.",
-        "overlaps": "Hermes, tg-proxy의 메시징/알림 역할과 일부 중복된다. 다만 텔레그램 기반 공개 식별자와 달리 프라이버시·메타데이터 보호가 강점이므로 단순 대체보다는 보안 채널 보강 후보에 가깝다."
-      }
-    },
-    {
-      "fullName": "HKUDS/Vibe-Trading",
-      "owner": "HKUDS",
-      "name": "Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "avatar": "https://github.com/HKUDS.png?size=64",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "language": "Python",
-      "stars": 16481,
-      "appearances": 4,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 14267
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 15057
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 15757
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 16481
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "금융/트레이딩 특화 AI 에이전트, MCP/API 도구, 백테스트·리서치 자동화",
-        "summary": "개인 트레이딩 에이전트로, FastAPI/React UI, CLI, Docker, MCP/API, 데이터 로더, 브로커 커넥터, 백테스트, 스케줄 실행, 리서치 자동화 기능을 제공한다. 로컬 실행과 도구 오케스트레이션 성격은 EG OS와 맞지만, 핵심 목적이 금융 트레이딩이라 운영 AI 그룹의 필수 공백을 직접 메우지는 않는다.",
-        "fit": "도메인 특화 에이전트 샘플과 금융 리서치/백테스트 자동화 도구로는 유용하다. 특히 MCP 도구 설계, 로컬 데이터 브리지, 실행 세션/리포트 관리, 스케줄러는 참고 가치가 있다. 다만 Paperclip/cmux를 대체할 범용 멀티에이전트 관제 도구는 아니므로 high는 아니다.",
-        "integration": "Docker 또는 별도 venv로 격리 실행하고, API/MCP 엔드포인트를 EG OS의 MCP 레이어에 읽기 중심 도구로 붙인다. 브로커/API 키는 vault sidecar로 주입하고, Hermes/Telegram에는 리서치 결과·백테스트 리포트 알림만 연결한다. 실거래 기능은 기본 비활성화하고 Paperclip 작업으로 정기 리서치/검증만 위임하는 방식이 적합하다.",
-        "overlaps": "Paperclip의 작업 실행·리포트 관리, n8n의 스케줄 워크플로, OpenClaw의 개인 비서, 기존 MCP 도구와 일부 중복된다. 차별점은 금융 데이터·브로커·백테스트·알파 리서치에 집중된 도메인 도구 묶음이다."
-      }
-    },
-    {
-      "fullName": "browser-use/video-use",
-      "owner": "browser-use",
-      "name": "video-use",
-      "url": "https://github.com/browser-use/video-use",
-      "avatar": "https://github.com/browser-use.png?size=64",
-      "description": "Edit videos with coding agents",
-      "language": "Python",
-      "stars": 13191,
-      "appearances": 4,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 10979
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 11898
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 12545
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 13191
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "코딩 에이전트·개발 자동화 / 미디어 자동화 스킬",
-        "summary": "Claude Code/Codex 같은 셸 접근 에이전트가 원본 영상 폴더를 읽고, 전사·타임라인 뷰·EDL·ffmpeg 렌더링·자가 평가 루프로 final.mp4를 만드는 오픈소스 비디오 편집 워크플로다. 코어는 범용 오케스트레이터가 아니라 에이전트용 영상 편집 스킬/헬퍼 모음에 가깝다.",
-        "fit": "EG AI GROUP OS의 로컬 우선·코딩 에이전트 자동화 방향과는 맞는다. 특히 Claude Code/Codex/Hermes에 스킬로 붙일 수 있고, 텔레그램 기반 영상 편집 요청 자동화 같은 운영 태스크에 바로 응용 가능하다. 다만 핵심 우선순위인 멀티에이전트 관제, 로컬 LLM 서빙, 보안 격리의 공백을 메우지는 않으므로 high는 아니다.",
-        "integration": "Codex 또는 Claude Code skill로 ~/.codex/skills/video-use 또는 ~/.claude/skills/video-use에 연결하고, ffmpeg/uv/yt-dlp를 Mac mini에 설치한 뒤 Hermes 명령으로 특정 영상 폴더에서 에이전트를 실행하게 만들면 된다. ElevenLabs Scribe API 의존이 있으므로 vault sidecar에 API key를 넣고 프록시/환경변수 주입 방식으로 격리하는 편이 적합하다.",
-        "overlaps": "Claude Code 스킬 시스템, Codex exec, Hermes, Paperclip 워커 실행 흐름과 겹치지만 대체재는 아니다. OpenClaw/기존 에이전트가 할 수 있는 일반 셸 자동화 위에 영상 편집 도메인 규칙과 헬퍼를 얹는 보강재다. 외부 전사 API 의존과 미디어 편집이라는 제한된 도메인 때문에 범용 OS 핵심 컴포넌트로 보기에는 약하다."
-      }
-    },
-    {
-      "fullName": "xbtlin/ai-berkshire",
-      "owner": "xbtlin",
-      "name": "ai-berkshire",
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "avatar": "https://github.com/xbtlin.png?size=64",
-      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "language": "Python",
-      "stars": 8100,
-      "appearances": 4,
-      "sources": [
-        "trending-day",
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 5245
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 6566
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 7457
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 8100
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "Claude Code/Codex용 도메인 특화 투자 리서치 스킬·프롬프트 프레임워크",
-        "summary": "가치투자 리서치를 Claude Code/Codex 스킬, Python 계산 도구, 다중 에이전트 병렬 분석 흐름으로 구조화한 저장소다. 에이전트 오케스트레이션 자체보다는 투자 분석 워크플로와 프롬프트/스킬 패키지에 가깝다.",
-        "fit": "EG AI GROUP OS의 핵심 인프라 공백을 메우지는 않지만, Claude Code/Codex 기반 스킬 운영, 다중 관점 에이전트 연구, 재현 가능한 리서치 템플릿이라는 점은 참고 가치가 있다. 금융/투자 리서치를 실제 운영 업무로 넣을 계획이 있다면 후보가 된다.",
-        "integration": "Claude Code/Codex 스킬 디렉터리에 일부 스킬만 이식하고, Paperclip 작업 템플릿으로 투자 리서치 태스크를 생성해 cmux 세션에서 병렬 실행하는 방식이 적합하다. Python 계산 도구는 별도 검증 후 로컬 유틸로 편입 가능하다.",
-        "overlaps": "Claude Code 스킬, Paperclip의 에이전트 위임, cmux 병렬 세션 관제와 상당히 겹친다. 자체 오케스트레이터나 범용 멀티에이전트 런타임이 아니므로 Paperclip/cmux 대체재는 아니며, 도메인 프롬프트와 리서치 절차 참고용 성격이 강하다."
       }
     },
     {
@@ -992,83 +1160,42 @@
       }
     },
     {
-      "fullName": "aws/agent-toolkit-for-aws",
-      "owner": "aws",
-      "name": "agent-toolkit-for-aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "avatar": "https://github.com/aws.png?size=64",
-      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-      "language": "Python",
-      "stars": 1677,
-      "appearances": 4,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 1540
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 1601
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 1646
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 1677
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "MCP 서버/코딩 에이전트 AWS 개발 보조",
-        "summary": "AWS 공식 MCP 서버, Claude Code/Codex/Cursor 플러그인, AWS 작업용 skills/rules 묶음. AWS API 300+ 서비스 접근, 문서 검색, 샌드박스 Python 실행, CloudTrail/CloudWatch 감사 기능을 제공한다.",
-        "fit": "EG AI GROUP OS가 AWS 인프라를 실제로 운영하거나 배포 자동화를 늘릴 경우 유용하다. 특히 Claude Code와 Codex에 바로 붙는 점, skills 기반 워크플로, IAM/감사 로그로 에이전트 권한을 분리하는 점은 현재 스택과 잘 맞는다. 다만 핵심 OS가 로컬 우선이고 AWS 의존을 줄이는 방향이라면 필수 공백을 메우는 도구는 아니다.",
-        "integration": "Claude Code/Codex 플러그인으로 `aws-core`부터 제한 권한 IAM 계정에 연결. vault sidecar에 AWS 자격 증명을 격리하고, Paperclip 작업 중 AWS 배포/진단 이슈에만 선택적으로 MCP를 노출. CloudTrail/CloudWatch 로그를 n8n 또는 watchdog 알림으로 연결해 에이전트 AWS 행동 감사에 사용.",
-        "overlaps": "기존 Claude Code skills/MCP와 기능적으로 겹치지만 AWS 특화 공식 번들로 품질과 유지보수 이점이 있다. Paperclip/cmux 오케스트레이션을 대체하지는 않으며, 로컬 LLM/RAG 비용 절감에도 직접 기여하지 않는다. AWS Labs MCP 계열을 쓰고 있다면 이 repo가 업그레이드 후보."
-      }
-    },
-    {
-      "fullName": "msitarzewski/agency-agents",
-      "owner": "msitarzewski",
-      "name": "agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "avatar": "https://github.com/msitarzewski.png?size=64",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "stars": 123248,
+      "fullName": "ogulcancelik/herdr",
+      "owner": "ogulcancelik",
+      "name": "herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "avatar": "https://github.com/ogulcancelik.png?size=64",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "stars": 10121,
       "appearances": 3,
       "sources": [
-        "trending-day"
+        "trending-day",
+        "trending-week"
       ],
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-07-01",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
-          "date": "2026-06-29",
-          "stars": 118803
-        },
-        {
           "date": "2026-06-30",
-          "stars": 120776
+          "stars": 8972
         },
         {
           "date": "2026-07-01",
-          "stars": 123248
+          "stars": 9562
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 10121
         }
       ],
       "analysis": {
         "relevance": "medium",
-        "category": "에이전트 프롬프트/역할 라이브러리",
-        "summary": "전문 역할별 AI 에이전트 페르소나, 프로세스, 산출물 템플릿을 모은 에이전시형 프롬프트/스크립트 컬렉션으로 보인다. 실제 오케스트레이션 런타임보다는 Claude Code/기존 에이전트 워크플로에 주입할 수 있는 역할 정의 자산에 가깝다.",
-        "fit": "멀티에이전트 운영 철학에는 맞지만 Paperclip, cmux, Claude Code처럼 실행·위임·관제 기능을 제공하는 핵심 인프라는 아니다. 다만 마케팅, 커뮤니티, 프론트엔드, 리뷰 등 작업별 agent persona/skill seed로 재사용 가능성이 있다.",
-        "integration": "Claude Code skills 또는 Paperclip agent prompt 템플릿으로 일부 에이전트 정의를 선별 이식. 반복 업무용 역할 카드, 체크리스트, deliverable 포맷만 추출해 EG AI GROUP OS의 작업 위임 프롬프트 품질을 보강하는 방식이 적합하다.",
-        "overlaps": "Claude Code skills 200+, Paperclip agent worker 프롬프트, OpenClaw 비서 기능과 상당히 겹친다. 실행 엔진·스케줄링·보안 격리·로컬 LLM 서빙을 새로 제공하지 않으므로 대체재가 아니라 콘텐츠 보강재로 봐야 한다."
+        "category": "터미널 기반 에이전트 오케스트레이션/멀티플렉서",
+        "summary": "herdr는 터미널 안에서 여러 에이전트 세션을 다루는 Rust 기반 agent multiplexer로 보인다. EG AI GROUP OS의 멀티세션 관제와 코딩 에이전트 운용 흐름에는 직접 관련이 있다.",
+        "fit": "이미 cmux가 tmux 기반 관제실 역할을 하고 Paperclip이 작업 위임/칸반을 담당하므로 핵심 공백을 새로 메우는 수준은 아니다. 다만 더 가볍고 에이전트 중심의 터미널 UX를 제공한다면 cmux 보조 또는 일부 대체 후보가 될 수 있다.",
+        "integration": "cmux와 비교 평가가 먼저 필요하다. Claude Code/codex exec 세션을 herdr에서 안정적으로 띄우고, 로그 보존·재시작·세션 식별·Paperclip 작업 ID 매핑이 가능하면 에이전트 작업실 UI로 파일럿 적용할 수 있다.",
+        "overlaps": "cmux의 멀티세션 관제와 강하게 겹친다. Paperclip의 작업 위임 자체보다는 실행 세션 관리 계층과 중복된다. tmux/cron/LaunchAgent 기반 기존 운영보다 명확한 복구성·자동화 API·에이전트 특화 기능이 없으면 단순 중복이다."
       }
     },
     {
@@ -1171,40 +1298,6 @@
         "fit": "EG AI GROUP OS의 보안 격리와 셀프호스팅 인프라 방향에는 맞지만, 현재 핵심 공백인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화와는 직접 관련이 약하다. 여러 내부 도구의 사용자 인증, 관리자 콘솔, 외부 노출 서비스 접근 제어가 커질 때 의미가 있다.",
         "integration": "OpenClaw, Paperclip, n8n, 내부 대시보드, 향후 외부 공개 API에 중앙 인증 계층으로 붙일 수 있다. Vault sidecar는 비밀 보관을 계속 담당하고, Logto는 사용자·조직·권한·SSO/RBAC 계층을 맡는 분리가 적절하다.",
         "overlaps": "Vaultwarden 기반 vault sidecar와는 목적이 다르다. vault는 시크릿 저장·격리, Logto는 사용자 인증·인가다. 다만 단일 사용자 로컬 운영 중심이면 도입 비용이 이점보다 클 수 있고, 현재 GitHub/Vercel/각 도구 내장 인증으로 충분하면 중복 관리 부담이 생긴다."
-      }
-    },
-    {
-      "fullName": "ogulcancelik/herdr",
-      "owner": "ogulcancelik",
-      "name": "herdr",
-      "url": "https://github.com/ogulcancelik/herdr",
-      "avatar": "https://github.com/ogulcancelik.png?size=64",
-      "description": "agent multiplexer that lives in your terminal.",
-      "language": "Rust",
-      "stars": 9562,
-      "appearances": 2,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-30",
-          "stars": 8972
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 9562
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "터미널 기반 에이전트 오케스트레이션/멀티플렉서",
-        "summary": "herdr는 터미널 안에서 여러 에이전트 세션을 다루는 Rust 기반 agent multiplexer로 보인다. EG AI GROUP OS의 멀티세션 관제와 코딩 에이전트 운용 흐름에는 직접 관련이 있다.",
-        "fit": "이미 cmux가 tmux 기반 관제실 역할을 하고 Paperclip이 작업 위임/칸반을 담당하므로 핵심 공백을 새로 메우는 수준은 아니다. 다만 더 가볍고 에이전트 중심의 터미널 UX를 제공한다면 cmux 보조 또는 일부 대체 후보가 될 수 있다.",
-        "integration": "cmux와 비교 평가가 먼저 필요하다. Claude Code/codex exec 세션을 herdr에서 안정적으로 띄우고, 로그 보존·재시작·세션 식별·Paperclip 작업 ID 매핑이 가능하면 에이전트 작업실 UI로 파일럿 적용할 수 있다.",
-        "overlaps": "cmux의 멀티세션 관제와 강하게 겹친다. Paperclip의 작업 위임 자체보다는 실행 세션 관리 계층과 중복된다. tmux/cron/LaunchAgent 기반 기존 운영보다 명확한 복구성·자동화 API·에이전트 특화 기능이 없으면 단순 중복이다."
       }
     },
     {
@@ -1403,13 +1496,13 @@
       "avatar": "https://github.com/codecrafters-io.png?size=64",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
-      "stars": 521476,
-      "appearances": 4,
+      "stars": 521852,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1426,6 +1519,10 @@
         {
           "date": "2026-07-01",
           "stars": 521476
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 521852
         }
       ],
       "analysis": {
@@ -1445,13 +1542,13 @@
       "avatar": "https://github.com/sindresorhus.png?size=64",
       "description": "😎 Awesome lists about all kinds of interesting topics",
       "language": null,
-      "stars": 480583,
-      "appearances": 4,
+      "stars": 480890,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1468,6 +1565,10 @@
         {
           "date": "2026-07-01",
           "stars": 480583
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 480890
         }
       ],
       "analysis": {
@@ -1487,13 +1588,13 @@
       "avatar": "https://github.com/public-apis.png?size=64",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "stars": 445779,
-      "appearances": 4,
+      "stars": 446090,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1510,6 +1611,10 @@
         {
           "date": "2026-07-01",
           "stars": 445779
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 446090
         }
       ],
       "analysis": {
@@ -1529,13 +1634,13 @@
       "avatar": "https://github.com/EbookFoundation.png?size=64",
       "description": ":books: Freely available programming books",
       "language": "Python",
-      "stars": 391086,
-      "appearances": 4,
+      "stars": 391161,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1552,6 +1657,10 @@
         {
           "date": "2026-07-01",
           "stars": 391086
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 391161
         }
       ],
       "analysis": {
@@ -1571,13 +1680,13 @@
       "avatar": "https://github.com/openclaw.png?size=64",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript",
-      "stars": 381329,
-      "appearances": 4,
+      "stars": 381479,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1594,6 +1703,10 @@
         {
           "date": "2026-07-01",
           "stars": 381329
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 381479
         }
       ],
       "analysis": {
@@ -1613,13 +1726,13 @@
       "avatar": "https://github.com/donnemartin.png?size=64",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "language": "Python",
-      "stars": 355723,
-      "appearances": 4,
+      "stars": 355858,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1636,6 +1749,10 @@
         {
           "date": "2026-07-01",
           "stars": 355723
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 355858
         }
       ],
       "analysis": {
@@ -1655,13 +1772,13 @@
       "avatar": "https://github.com/vinta.png?size=64",
       "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
       "language": "Python",
-      "stars": 305832,
-      "appearances": 4,
+      "stars": 306000,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1678,6 +1795,10 @@
         {
           "date": "2026-07-01",
           "stars": 305832
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 306000
         }
       ],
       "analysis": {
@@ -1697,13 +1818,13 @@
       "avatar": "https://github.com/torvalds.png?size=64",
       "description": "Linux kernel source tree",
       "language": "C",
-      "stars": 237948,
-      "appearances": 4,
+      "stars": 238076,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1720,6 +1841,10 @@
         {
           "date": "2026-07-01",
           "stars": 237948
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 238076
         }
       ],
       "analysis": {
@@ -1739,13 +1864,13 @@
       "avatar": "https://github.com/trimstray.png?size=64",
       "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
       "language": null,
-      "stars": 231160,
-      "appearances": 4,
+      "stars": 231322,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1762,6 +1887,10 @@
         {
           "date": "2026-07-01",
           "stars": 231160
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 231322
         }
       ],
       "analysis": {
@@ -1781,14 +1910,14 @@
       "avatar": "https://github.com/ripienaar.png?size=64",
       "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
       "language": "HTML",
-      "stars": 127606,
-      "appearances": 4,
+      "stars": 127817,
+      "appearances": 5,
       "sources": [
         "trending-day",
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1805,6 +1934,10 @@
         {
           "date": "2026-07-01",
           "stars": 127606
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 127817
         }
       ],
       "analysis": {
@@ -1814,6 +1947,52 @@
         "fit": "EG AI GROUP OS의 핵심인 로컬 LLM, 멀티에이전트 오케스트레이션, 비밀 격리, 텔레그램 게이트웨이와 직접 맞물리지는 않는다. 다만 GitHub Actions, Vercel, 모니터링, 호스팅, DB, 로그 서비스 등의 무료 대안을 찾을 때 참고 자료로는 쓸 수 있다.",
         "integration": "외부 의존 비용을 줄이기 위한 참고 링크로만 활용. 자체 스택에 런타임 통합할 대상은 아니다.",
         "overlaps": "n8n, GitHub Actions, Vercel, MCP/모니터링 도구 선택 과정과 간접적으로 겹치지만 대체재가 아니라 목록형 레퍼런스다. 로컬 우선 원칙과는 일부 긴장 관계가 있다."
+      }
+    },
+    {
+      "fullName": "interviewstreet/hiring-agent",
+      "owner": "interviewstreet",
+      "name": "hiring-agent",
+      "url": "https://github.com/interviewstreet/hiring-agent",
+      "avatar": "https://github.com/interviewstreet.png?size=64",
+      "description": "AI agent to evaluate and score resumes.",
+      "language": "Python",
+      "stars": 4390,
+      "appearances": 5,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 3162
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 3769
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 3980
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 4152
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 4390
+        }
+      ],
+      "analysis": {
+        "relevance": "low",
+        "category": "도메인 특화 LLM 자동화 / 이력서 평가",
+        "summary": "PDF 이력서를 파싱해 구조화하고, GitHub 프로필·저장소 신호를 보강한 뒤 Ollama 또는 Gemini로 점수와 근거를 생성하는 Python CLI 파이프라인이다.",
+        "fit": "로컬 Ollama 실행을 지원하고 프롬프트 기반 평가 파이프라인 예제로는 참고 가치가 있다. 하지만 핵심 기능이 채용/이력서 스코어링에 한정되어 EG AI GROUP OS의 에이전트 오케스트레이션, 코딩 자동화, MCP, 보안 격리 공백을 직접 메우지는 않는다.",
+        "integration": "필요 시 독립 CLI로 두고 Paperclip 작업 또는 n8n 워크플로에서 `python score.py resume.pdf` 형태로 호출하는 정도가 적합하다. 채용 자동화가 실제 운영 과제가 아니라면 도입 우선순위는 낮다.",
+        "overlaps": "Ollama 기반 로컬 LLM 호출, GitHub API 활용, 프롬프트 템플릿 평가라는 점에서 기존 로컬 LLM·자동화 스택과 일부 겹친다. Paperclip/cmux/Claude Code를 대체하거나 업그레이드하는 도구는 아니다."
       }
     },
     {
@@ -1859,48 +2038,6 @@
       }
     },
     {
-      "fullName": "interviewstreet/hiring-agent",
-      "owner": "interviewstreet",
-      "name": "hiring-agent",
-      "url": "https://github.com/interviewstreet/hiring-agent",
-      "avatar": "https://github.com/interviewstreet.png?size=64",
-      "description": "AI agent to evaluate and score resumes.",
-      "language": "Python",
-      "stars": 4152,
-      "appearances": 4,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 3162
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 3769
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 3980
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 4152
-        }
-      ],
-      "analysis": {
-        "relevance": "low",
-        "category": "도메인 특화 LLM 자동화 / 이력서 평가",
-        "summary": "PDF 이력서를 파싱해 구조화하고, GitHub 프로필·저장소 신호를 보강한 뒤 Ollama 또는 Gemini로 점수와 근거를 생성하는 Python CLI 파이프라인이다.",
-        "fit": "로컬 Ollama 실행을 지원하고 프롬프트 기반 평가 파이프라인 예제로는 참고 가치가 있다. 하지만 핵심 기능이 채용/이력서 스코어링에 한정되어 EG AI GROUP OS의 에이전트 오케스트레이션, 코딩 자동화, MCP, 보안 격리 공백을 직접 메우지는 않는다.",
-        "integration": "필요 시 독립 CLI로 두고 Paperclip 작업 또는 n8n 워크플로에서 `python score.py resume.pdf` 형태로 호출하는 정도가 적합하다. 채용 자동화가 실제 운영 과제가 아니라면 도입 우선순위는 낮다.",
-        "overlaps": "Ollama 기반 로컬 LLM 호출, GitHub API 활용, 프롬프트 템플릿 평가라는 점에서 기존 로컬 LLM·자동화 스택과 일부 겹친다. Paperclip/cmux/Claude Code를 대체하거나 업그레이드하는 도구는 아니다."
-      }
-    },
-    {
       "fullName": "Robbyant/lingbot-map",
       "owner": "Robbyant",
       "name": "lingbot-map",
@@ -1908,14 +2045,14 @@
       "avatar": "https://github.com/Robbyant.png?size=64",
       "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
       "language": "Python",
-      "stars": 9209,
-      "appearances": 3,
+      "stars": 9401,
+      "appearances": 4,
       "sources": [
         "trending-day",
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1928,6 +2065,10 @@
         {
           "date": "2026-07-01",
           "stars": 9209
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 9401
         }
       ],
       "analysis": {
@@ -2279,13 +2420,13 @@
       "avatar": "https://github.com/freeCodeCamp.png?size=64",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "stars": 450759,
-      "appearances": 4,
+      "stars": 450917,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2302,6 +2443,10 @@
         {
           "date": "2026-07-01",
           "stars": 450759
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 450917
         }
       ],
       "analysis": {
@@ -2321,13 +2466,13 @@
       "avatar": "https://github.com/nilbuild.png?size=64",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "language": "TypeScript",
-      "stars": 358839,
-      "appearances": 4,
+      "stars": 358995,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2344,6 +2489,10 @@
         {
           "date": "2026-07-01",
           "stars": 358839
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 358995
         }
       ],
       "analysis": {
@@ -2363,13 +2512,13 @@
       "avatar": "https://github.com/jwasham.png?size=64",
       "description": "A complete computer science study plan to become a software engineer.",
       "language": null,
-      "stars": 354762,
-      "appearances": 4,
+      "stars": 354874,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2386,6 +2535,10 @@
         {
           "date": "2026-07-01",
           "stars": 354762
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 354874
         }
       ],
       "analysis": {
@@ -2405,13 +2558,13 @@
       "avatar": "https://github.com/996icu.png?size=64",
       "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
       "language": null,
-      "stars": 276339,
-      "appearances": 4,
+      "stars": 276350,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2428,6 +2581,10 @@
         {
           "date": "2026-07-01",
           "stars": 276339
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 276350
         }
       ],
       "analysis": {
@@ -2447,13 +2604,13 @@
       "avatar": "https://github.com/practical-tutorials.png?size=64",
       "description": "Curated list of project-based tutorials",
       "language": null,
-      "stars": 271701,
-      "appearances": 4,
+      "stars": 271849,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2470,6 +2627,10 @@
         {
           "date": "2026-07-01",
           "stars": 271701
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 271849
         }
       ],
       "analysis": {
@@ -2489,13 +2650,13 @@
       "avatar": "https://github.com/react.png?size=64",
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
-      "stars": 246142,
-      "appearances": 4,
+      "stars": 246174,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2512,6 +2673,10 @@
         {
           "date": "2026-07-01",
           "stars": 246142
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 246174
         }
       ],
       "analysis": {
@@ -2531,13 +2696,13 @@
       "avatar": "https://github.com/TheAlgorithms.png?size=64",
       "description": "All Algorithms implemented in Python",
       "language": "Python",
-      "stars": 222349,
-      "appearances": 4,
+      "stars": 222380,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2554,6 +2719,10 @@
         {
           "date": "2026-07-01",
           "stars": 222349
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 222380
         }
       ],
       "analysis": {
@@ -2573,13 +2742,13 @@
       "avatar": "https://github.com/vuejs.png?size=64",
       "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
       "language": "TypeScript",
-      "stars": 209928,
-      "appearances": 4,
+      "stars": 209974,
+      "appearances": 5,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-01",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2596,6 +2765,10 @@
         {
           "date": "2026-07-01",
           "stars": 209928
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 209974
         }
       ],
       "analysis": {
@@ -2605,6 +2778,44 @@
         "fit": "현재 스택의 핵심 공백을 메우지 않는다. 대시보드나 관리 UI를 새로 만들 때 일반 웹 프레임워크로 쓸 수는 있지만, 이미 Vercel/GitHub Actions 등 일반 웹 배포 수단이 있고 운영 AI 스택 관점의 차별적 이점은 없다.",
         "integration": "-",
         "overlaps": "일반 프론트엔드 개발 영역에서만 기존 웹 UI/대시보드 구현 도구와 겹친다. Paperclip, cmux, Hermes, n8n, MCP, 로컬 LLM, Vault 계층과는 기능 중복이나 대체 관계가 없다."
+      }
+    },
+    {
+      "fullName": "hasaneyldrm/exercises-dataset",
+      "owner": "hasaneyldrm",
+      "name": "exercises-dataset",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "avatar": "https://github.com/hasaneyldrm.png?size=64",
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "language": "HTML",
+      "stars": 9222,
+      "appearances": 3,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-06-30",
+          "stars": 6485
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 8348
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 9222
+        }
+      ],
+      "analysis": {
+        "relevance": "none",
+        "category": "피트니스 데이터셋 / 일반 앱 리소스",
+        "summary": "433개 운동 항목의 이름, 부위, 장비, 설명, 썸네일, 애니메이션을 담은 피트니스 운동 데이터셋이다.",
+        "fit": "EG AI GROUP OS의 핵심 목표인 로컬 AI 운영, 멀티에이전트 오케스트레이션, 코딩 자동화, MCP, 보안 격리, 셀프호스팅 인프라와 직접 관련이 없다.",
+        "integration": "-",
+        "overlaps": "현재 스택과 기능적 중복은 거의 없지만, 도입할 만한 운영 자동화 가치도 없다. 피트니스 앱이나 건강 코칭 에이전트를 별도로 만들 때만 참고 데이터로 쓸 수 있다."
       }
     },
     {
@@ -2642,40 +2853,6 @@
       }
     },
     {
-      "fullName": "hasaneyldrm/exercises-dataset",
-      "owner": "hasaneyldrm",
-      "name": "exercises-dataset",
-      "url": "https://github.com/hasaneyldrm/exercises-dataset",
-      "avatar": "https://github.com/hasaneyldrm.png?size=64",
-      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
-      "language": "HTML",
-      "stars": 8348,
-      "appearances": 2,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastSeen": "2026-07-01",
-      "starHistory": [
-        {
-          "date": "2026-06-30",
-          "stars": 6485
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 8348
-        }
-      ],
-      "analysis": {
-        "relevance": "none",
-        "category": "피트니스 데이터셋 / 일반 앱 리소스",
-        "summary": "433개 운동 항목의 이름, 부위, 장비, 설명, 썸네일, 애니메이션을 담은 피트니스 운동 데이터셋이다.",
-        "fit": "EG AI GROUP OS의 핵심 목표인 로컬 AI 운영, 멀티에이전트 오케스트레이션, 코딩 자동화, MCP, 보안 격리, 셀프호스팅 인프라와 직접 관련이 없다.",
-        "integration": "-",
-        "overlaps": "현재 스택과 기능적 중복은 거의 없지만, 도입할 만한 운영 자동화 가치도 없다. 피트니스 앱이나 건강 코칭 에이전트를 별도로 만들 때만 참고 데이터로 쓸 수 있다."
-      }
-    },
-    {
       "fullName": "mauriceboe/TREK",
       "owner": "mauriceboe",
       "name": "TREK",
@@ -2683,17 +2860,21 @@
       "avatar": "https://github.com/mauriceboe.png?size=64",
       "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
       "language": "TypeScript",
-      "stars": 8572,
-      "appearances": 1,
+      "stars": 8895,
+      "appearances": 2,
       "sources": [
         "trending-week"
       ],
       "firstSeen": "2026-06-30",
-      "lastSeen": "2026-06-30",
+      "lastSeen": "2026-07-02",
       "starHistory": [
         {
           "date": "2026-06-30",
           "stars": 8572
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 8895
         }
       ],
       "analysis": {
@@ -2704,6 +2885,190 @@
         "integration": "-",
         "overlaps": "n8n, Google Drive/Calendar류 일정·문서 관리와 주변적으로 겹칠 수 있으나, 핵심 스택과의 의미 있는 대체/업그레이드 관계는 없다."
       }
+    },
+    {
+      "fullName": "langflow-ai/langflow",
+      "owner": "langflow-ai",
+      "name": "langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "avatar": "https://github.com/langflow-ai.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 150691,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 150691
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "pytorch/pytorch",
+      "owner": "pytorch",
+      "name": "pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "avatar": "https://github.com/pytorch.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 101218,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 101218
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "ryanmcdermott/clean-code-javascript",
+      "owner": "ryanmcdermott",
+      "name": "clean-code-javascript",
+      "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+      "avatar": "https://github.com/ryanmcdermott.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 94550,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 94550
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "JuliusBrussee/caveman",
+      "owner": "JuliusBrussee",
+      "name": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "avatar": "https://github.com/JuliusBrussee.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 80781,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 80781
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "santifer/career-ops",
+      "owner": "santifer",
+      "name": "career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "avatar": "https://github.com/santifer.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 57761,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 57761
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "avatar": "https://github.com/ChromeDevTools.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 45069,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 45069
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "harvard-edge/cs249r_book",
+      "owner": "harvard-edge",
+      "name": "cs249r_book",
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "avatar": "https://github.com/harvard-edge.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 25537,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 25537
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "openai/codex-plugin-cc",
+      "owner": "openai",
+      "name": "codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "avatar": "https://github.com/openai.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 22585,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 22585
+        }
+      ],
+      "analysis": null
     },
     {
       "fullName": "yikart/AiToEarn",
@@ -2724,6 +3089,29 @@
         {
           "date": "2026-07-01",
           "stars": 22511
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "agentskills/agentskills",
+      "owner": "agentskills",
+      "name": "agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "avatar": "https://github.com/agentskills.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 21581,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 21581
         }
       ],
       "analysis": null
@@ -2752,6 +3140,29 @@
       "analysis": null
     },
     {
+      "fullName": "actions/checkout",
+      "owner": "actions",
+      "name": "checkout",
+      "url": "https://github.com/actions/checkout",
+      "avatar": "https://github.com/actions.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 8151,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 8151
+        }
+      ],
+      "analysis": null
+    },
+    {
       "fullName": "TencentCloud/CubeSandbox",
       "owner": "TencentCloud",
       "name": "CubeSandbox",
@@ -2770,6 +3181,29 @@
         {
           "date": "2026-07-01",
           "stars": 6771
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "craft-ai-agents/craft-agents-oss",
+      "owner": "craft-ai-agents",
+      "name": "craft-agents-oss",
+      "url": "https://github.com/craft-ai-agents/craft-agents-oss",
+      "avatar": "https://github.com/craft-ai-agents.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 6640,
+      "appearances": 1,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 6640
         }
       ],
       "analysis": null
