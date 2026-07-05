@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-04T23:00:07.037Z",
-  "days": 7,
+  "generatedAt": "2026-07-05T23:00:07.016Z",
+  "days": 8,
   "repos": [
     {
       "fullName": "obra/superpowers",
@@ -10,14 +10,14 @@
       "avatar": "https://github.com/obra.png?size=64",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 246179,
-      "appearances": 7,
+      "stars": 246830,
+      "appearances": 8,
       "sources": [
         "popular",
         "trending-day"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -46,6 +46,10 @@
         {
           "date": "2026-07-04",
           "stars": 246179
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 246830
         }
       ],
       "analysis": {
@@ -65,14 +69,14 @@
       "avatar": "https://github.com/affaan-m.png?size=64",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 226016,
-      "appearances": 7,
+      "stars": 226312,
+      "appearances": 8,
       "sources": [
         "popular",
         "trending-day"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -101,6 +105,10 @@
         {
           "date": "2026-07-04",
           "stars": 226016
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 226312
         }
       ],
       "analysis": {
@@ -120,13 +128,13 @@
       "avatar": "https://github.com/topoteretes.png?size=64",
       "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
       "language": "Python",
-      "stars": 26964,
-      "appearances": 7,
+      "stars": 27107,
+      "appearances": 8,
       "sources": [
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -155,6 +163,10 @@
         {
           "date": "2026-07-04",
           "stars": 26964
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 27107
         }
       ],
       "analysis": {
@@ -174,14 +186,14 @@
       "avatar": "https://github.com/DeusData.png?size=64",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "stars": 26137,
-      "appearances": 7,
+      "stars": 26692,
+      "appearances": 8,
       "sources": [
         "trending-day",
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -210,6 +222,10 @@
         {
           "date": "2026-07-04",
           "stars": 26137
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 26692
         }
       ],
       "analysis": {
@@ -229,13 +245,13 @@
       "avatar": "https://github.com/stablyai.png?size=64",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "language": "TypeScript",
-      "stars": 12007,
-      "appearances": 7,
+      "stars": 12346,
+      "appearances": 8,
       "sources": [
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -264,6 +280,10 @@
         {
           "date": "2026-07-04",
           "stars": 12007
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 12346
         }
       ],
       "analysis": {
@@ -283,14 +303,14 @@
       "avatar": "https://github.com/usestrix.png?size=64",
       "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
       "language": "Python",
-      "stars": 35980,
-      "appearances": 6,
+      "stars": 37041,
+      "appearances": 7,
       "sources": [
         "trending-day",
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -315,6 +335,10 @@
         {
           "date": "2026-07-04",
           "stars": 35980
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 37041
         }
       ],
       "analysis": {
@@ -324,6 +348,57 @@
         "fit": "현재 스택에는 Claude Code/codex 기반 코드 수정과 Paperclip 작업 위임은 있지만, 보안 취약점 탐색·검증·PoC 생성·수정 PR까지 특화된 에이전트 보안 레이어는 명확한 공백이다. 특히 자체 앱, Paperclip, Hermes, vault sidecar, n8n 등 로컬 운영 서비스의 정기 보안 점검에 바로 가치가 있다.",
         "integration": "GitHub Actions에서 PR 단위 quick scan을 돌리고, 로컬 Mac mini에서는 cron 또는 n8n으로 `strix -n --target ./repo`를 주기 실행한다. 결과는 Paperclip 이슈로 변환해 Claude Code/codex 워커에게 수정 위임하고, 민감 대상은 Docker 샌드박스와 vault sidecar 프록시로 격리한다. Ollama/LMStudio 호환 API_BASE로 로컬 LLM 실험도 가능하나, 고품질 보안 분석은 상용 모델 의존 가능성이 있다.",
         "overlaps": "Claude Code/codex의 코드 리뷰·수정, GitHub Actions의 CI, Playwright/Nuclei류 테스트와 일부 겹친다. 다만 Strix는 보안 공격 시나리오, PoC 검증, 멀티에이전트 보안 워크플로에 특화되어 단순 중복보다는 보안 자동화 업그레이드에 가깝다."
+      }
+    },
+    {
+      "fullName": "diegosouzapw/OmniRoute",
+      "owner": "diegosouzapw",
+      "name": "OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "avatar": "https://github.com/diegosouzapw.png?size=64",
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "language": "TypeScript",
+      "stars": 11824,
+      "appearances": 6,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-06-30",
+          "stars": 8435
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 9473
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 10223
+        },
+        {
+          "date": "2026-07-03",
+          "stars": 10797
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 11291
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 11824
+        }
+      ],
+      "analysis": {
+        "relevance": "high",
+        "category": "AI 게이트웨이/코딩 에이전트 라우터",
+        "summary": "Claude Code, Codex, Cursor 등 코딩 에이전트를 단일 엔드포인트로 여러 AI provider에 연결하고, 무료/저비용 모델 라우팅·fallback·토큰 압축을 제공하는 게이트웨이. 비용 절감과 코딩 에이전트 워크플로 강화 측면에서 EG AI GROUP OS와 직접 맞닿는다.",
+        "fit": "로컬 우선 자체와는 약간 결이 다르지만, 클라우드 LLM 비용 절감·provider 장애 대비·Claude Code/Codex 연결성 강화라는 실용 가치가 크다. MCP/A2A 지원도 기존 멀티에이전트·도구 생태계와 궁합이 좋다.",
+        "integration": "Claude Code와 Codex의 OpenAI/Anthropic 호환 endpoint 앞단에 배치해 provider 라우터로 사용. Paperclip 워커별 모델 정책, 무료 모델 우선 라우팅, 실패 시 fallback, 토큰 압축 옵션을 실험 적용. vault sidecar를 통해 provider 키를 격리 주입하고, n8n/LaunchAgent로 상태 감시를 붙이는 방식이 적합하다.",
+        "overlaps": "Claude Code/Codex 실행 엔진 자체를 대체하지는 않고 LLM gateway 계층을 보강한다. LiteLLM류 라우터와 기능이 겹칠 수 있으며, 이미 쓰는 로컬 Ollama와는 목적이 다르다. 강한 클라우드 provider 의존이 생길 수 있으므로 무료/외부 모델 라우팅은 보조 경로로 두는 것이 안전하다."
       }
     },
     {
@@ -374,53 +449,6 @@
         "fit": "EG AI GROUP OS의 로컬 우선 코딩 자동화와 잘 맞는다. 에이전트가 만든 변경을 바로 origin에 올리지 않고 로컬 격리 검증 파이프라인으로 거르는 층을 추가하므로 Claude Code/codex/Paperclip 워커의 산출물 품질 게이트로 유용하다.",
         "integration": "각 repo에 `no-mistakes init`으로 gate remote를 만들고, Paperclip 워커나 Claude Code/codex 작업 완료 루틴에서 `git push no-mistakes <branch>`를 표준화한다. GitHub Actions는 최종 CI로 유지하고, no-mistakes는 로컬 사전 검증과 PR 생성 자동화 계층으로 둔다.",
         "overlaps": "GitHub Actions, Claude Code hooks, Paperclip의 작업 완료 플로우와 일부 겹친다. 다만 CI 자체나 작업 위임 시스템이 아니라, 에이전트 산출물을 격리 worktree에서 검증한 뒤 push/PR까지 이어주는 로컬 게이트라 보강 성격이 강하다."
-      }
-    },
-    {
-      "fullName": "diegosouzapw/OmniRoute",
-      "owner": "diegosouzapw",
-      "name": "OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "avatar": "https://github.com/diegosouzapw.png?size=64",
-      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-      "language": "TypeScript",
-      "stars": 11291,
-      "appearances": 5,
-      "sources": [
-        "trending-day",
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-30",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-06-30",
-          "stars": 8435
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 9473
-        },
-        {
-          "date": "2026-07-02",
-          "stars": 10223
-        },
-        {
-          "date": "2026-07-03",
-          "stars": 10797
-        },
-        {
-          "date": "2026-07-04",
-          "stars": 11291
-        }
-      ],
-      "analysis": {
-        "relevance": "high",
-        "category": "AI 게이트웨이/코딩 에이전트 라우터",
-        "summary": "Claude Code, Codex, Cursor 등 코딩 에이전트를 단일 엔드포인트로 여러 AI provider에 연결하고, 무료/저비용 모델 라우팅·fallback·토큰 압축을 제공하는 게이트웨이. 비용 절감과 코딩 에이전트 워크플로 강화 측면에서 EG AI GROUP OS와 직접 맞닿는다.",
-        "fit": "로컬 우선 자체와는 약간 결이 다르지만, 클라우드 LLM 비용 절감·provider 장애 대비·Claude Code/Codex 연결성 강화라는 실용 가치가 크다. MCP/A2A 지원도 기존 멀티에이전트·도구 생태계와 궁합이 좋다.",
-        "integration": "Claude Code와 Codex의 OpenAI/Anthropic 호환 endpoint 앞단에 배치해 provider 라우터로 사용. Paperclip 워커별 모델 정책, 무료 모델 우선 라우팅, 실패 시 fallback, 토큰 압축 옵션을 실험 적용. vault sidecar를 통해 provider 키를 격리 주입하고, n8n/LaunchAgent로 상태 감시를 붙이는 방식이 적합하다.",
-        "overlaps": "Claude Code/Codex 실행 엔진 자체를 대체하지는 않고 LLM gateway 계층을 보강한다. LiteLLM류 라우터와 기능이 겹칠 수 있으며, 이미 쓰는 로컬 Ollama와는 목적이 다르다. 강한 클라우드 provider 의존이 생길 수 있으므로 무료/외부 모델 라우팅은 보조 경로로 두는 것이 안전하다."
       }
     },
     {
@@ -503,13 +531,13 @@
       "avatar": "https://github.com/awesome-selfhosted.png?size=64",
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
       "language": null,
-      "stars": 302844,
-      "appearances": 7,
+      "stars": 303061,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -538,6 +566,10 @@
         {
           "date": "2026-07-04",
           "stars": 302844
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 303061
         }
       ],
       "analysis": {
@@ -557,13 +589,13 @@
       "avatar": "https://github.com/calesthio.png?size=64",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "stars": 33076,
-      "appearances": 7,
+      "stars": 33625,
+      "appearances": 8,
       "sources": [
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -592,6 +624,10 @@
         {
           "date": "2026-07-04",
           "stars": 33076
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 33625
         }
       ],
       "analysis": {
@@ -611,13 +647,13 @@
       "avatar": "https://github.com/JCodesMore.png?size=64",
       "description": "Clone any website with one command using AI coding agents",
       "language": "TypeScript",
-      "stars": 25539,
-      "appearances": 7,
+      "stars": 25821,
+      "appearances": 8,
       "sources": [
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -646,6 +682,10 @@
         {
           "date": "2026-07-04",
           "stars": 25539
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 25821
         }
       ],
       "analysis": {
@@ -665,14 +705,14 @@
       "avatar": "https://github.com/alibaba.png?size=64",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "stars": 23073,
-      "appearances": 7,
+      "stars": 23818,
+      "appearances": 8,
       "sources": [
         "trending-week",
         "trending-day"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -701,6 +741,10 @@
         {
           "date": "2026-07-04",
           "stars": 23073
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 23818
         }
       ],
       "analysis": {
@@ -720,14 +764,14 @@
       "avatar": "https://github.com/simplex-chat.png?size=64",
       "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
       "language": "Haskell",
-      "stars": 17844,
-      "appearances": 7,
+      "stars": 17916,
+      "appearances": 8,
       "sources": [
         "trending-day",
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -756,6 +800,10 @@
         {
           "date": "2026-07-04",
           "stars": 17844
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 17916
         }
       ],
       "analysis": {
@@ -775,14 +823,14 @@
       "avatar": "https://github.com/browser-use.png?size=64",
       "description": "Edit videos with coding agents",
       "language": "Python",
-      "stars": 14665,
-      "appearances": 7,
+      "stars": 15007,
+      "appearances": 8,
       "sources": [
         "trending-day",
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -811,6 +859,10 @@
         {
           "date": "2026-07-04",
           "stars": 14665
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 15007
         }
       ],
       "analysis": {
@@ -830,14 +882,14 @@
       "avatar": "https://github.com/xbtlin.png?size=64",
       "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
       "language": "Python",
-      "stars": 9654,
-      "appearances": 7,
+      "stars": 10269,
+      "appearances": 8,
       "sources": [
         "trending-day",
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -866,6 +918,10 @@
         {
           "date": "2026-07-04",
           "stars": 9654
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 10269
         }
       ],
       "analysis": {
@@ -885,14 +941,14 @@
       "avatar": "https://github.com/msitarzewski.png?size=64",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
-      "stars": 127014,
-      "appearances": 6,
+      "stars": 127484,
+      "appearances": 7,
       "sources": [
         "trending-day",
         "trending-week"
       ],
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-29",
@@ -917,6 +973,10 @@
         {
           "date": "2026-07-04",
           "stars": 127014
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 127484
         }
       ],
       "analysis": {
@@ -976,6 +1036,57 @@
         "fit": "EG AI GROUP OS의 핵심인 오케스트레이션, 로컬 LLM, 보안, 자동화 인프라 공백을 직접 메우지는 않는다. 다만 Claude Code/codex가 UI 작업을 수행할 때 repo별 디자인 컨텍스트를 안정적으로 주입하는 방식으로 개발 자동화 품질을 개선할 수 있어 부분적으로 적합하다.",
         "integration": "각 프론트엔드/제품 repo 루트에 DESIGN.md를 추가하고, Claude Code/codex 스킬 또는 프롬프트 규칙에서 작업 전 DESIGN.md를 우선 읽도록 연결한다. Paperclip 작업 생성 시 UI 관련 이슈에는 DESIGN.md 준수를 체크리스트로 넣는 정도가 현실적이다.",
         "overlaps": "Claude Code 스킬, repo별 AGENTS.md/CLAUDE.md/CODEX.md와 역할이 겹친다. 차별점은 일반 지침이 아니라 시각 정체성과 디자인 시스템을 구조화해 에이전트가 참조하도록 만든다는 점이다. 기존 운영 스택의 핵심 도구를 대체하지는 않는다."
+      }
+    },
+    {
+      "fullName": "ogulcancelik/herdr",
+      "owner": "ogulcancelik",
+      "name": "herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "avatar": "https://github.com/ogulcancelik.png?size=64",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "stars": 12019,
+      "appearances": 6,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-06-30",
+          "stars": 8972
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 9562
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 10121
+        },
+        {
+          "date": "2026-07-03",
+          "stars": 10736
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 11402
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 12019
+        }
+      ],
+      "analysis": {
+        "relevance": "medium",
+        "category": "터미널 기반 에이전트 오케스트레이션/멀티플렉서",
+        "summary": "herdr는 터미널 안에서 여러 에이전트 세션을 다루는 Rust 기반 agent multiplexer로 보인다. EG AI GROUP OS의 멀티세션 관제와 코딩 에이전트 운용 흐름에는 직접 관련이 있다.",
+        "fit": "이미 cmux가 tmux 기반 관제실 역할을 하고 Paperclip이 작업 위임/칸반을 담당하므로 핵심 공백을 새로 메우는 수준은 아니다. 다만 더 가볍고 에이전트 중심의 터미널 UX를 제공한다면 cmux 보조 또는 일부 대체 후보가 될 수 있다.",
+        "integration": "cmux와 비교 평가가 먼저 필요하다. Claude Code/codex exec 세션을 herdr에서 안정적으로 띄우고, 로그 보존·재시작·세션 식별·Paperclip 작업 ID 매핑이 가능하면 에이전트 작업실 UI로 파일럿 적용할 수 있다.",
+        "overlaps": "cmux의 멀티세션 관제와 강하게 겹친다. Paperclip의 작업 위임 자체보다는 실행 세션 관리 계층과 중복된다. tmux/cron/LaunchAgent 기반 기존 운영보다 명확한 복구성·자동화 API·에이전트 특화 기능이 없으면 단순 중복이다."
       }
     },
     {
@@ -1117,50 +1228,50 @@
       }
     },
     {
-      "fullName": "ogulcancelik/herdr",
-      "owner": "ogulcancelik",
-      "name": "herdr",
-      "url": "https://github.com/ogulcancelik/herdr",
-      "avatar": "https://github.com/ogulcancelik.png?size=64",
-      "description": "agent multiplexer that lives in your terminal.",
-      "language": "Rust",
-      "stars": 11402,
+      "fullName": "logto-io/logto",
+      "owner": "logto-io",
+      "name": "logto",
+      "url": "https://github.com/logto-io/logto",
+      "avatar": "https://github.com/logto-io.png?size=64",
+      "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+      "language": "TypeScript",
+      "stars": 13818,
       "appearances": 5,
       "sources": [
         "trending-day",
         "trending-week"
       ],
-      "firstSeen": "2026-06-30",
-      "lastSeen": "2026-07-04",
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
-          "date": "2026-06-30",
-          "stars": 8972
+          "date": "2026-06-29",
+          "stars": 12621
         },
         {
           "date": "2026-07-01",
-          "stars": 9562
-        },
-        {
-          "date": "2026-07-02",
-          "stars": 10121
+          "stars": 13231
         },
         {
           "date": "2026-07-03",
-          "stars": 10736
+          "stars": 13617
         },
         {
           "date": "2026-07-04",
-          "stars": 11402
+          "stars": 13719
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 13818
         }
       ],
       "analysis": {
         "relevance": "medium",
-        "category": "터미널 기반 에이전트 오케스트레이션/멀티플렉서",
-        "summary": "herdr는 터미널 안에서 여러 에이전트 세션을 다루는 Rust 기반 agent multiplexer로 보인다. EG AI GROUP OS의 멀티세션 관제와 코딩 에이전트 운용 흐름에는 직접 관련이 있다.",
-        "fit": "이미 cmux가 tmux 기반 관제실 역할을 하고 Paperclip이 작업 위임/칸반을 담당하므로 핵심 공백을 새로 메우는 수준은 아니다. 다만 더 가볍고 에이전트 중심의 터미널 UX를 제공한다면 cmux 보조 또는 일부 대체 후보가 될 수 있다.",
-        "integration": "cmux와 비교 평가가 먼저 필요하다. Claude Code/codex exec 세션을 herdr에서 안정적으로 띄우고, 로그 보존·재시작·세션 식별·Paperclip 작업 ID 매핑이 가능하면 에이전트 작업실 UI로 파일럿 적용할 수 있다.",
-        "overlaps": "cmux의 멀티세션 관제와 강하게 겹친다. Paperclip의 작업 위임 자체보다는 실행 세션 관리 계층과 중복된다. tmux/cron/LaunchAgent 기반 기존 운영보다 명확한 복구성·자동화 API·에이전트 특화 기능이 없으면 단순 중복이다."
+        "category": "보안/인증 인프라",
+        "summary": "Logto는 OIDC/OAuth 2.1 기반의 인증·인가 플랫폼으로, 멀티테넌시, SSO, RBAC를 제공하는 TypeScript 기반 SaaS/AI 앱용 IAM 인프라다.",
+        "fit": "EG AI GROUP OS의 보안 격리와 셀프호스팅 인프라 방향에는 맞지만, 현재 핵심 공백인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화와는 직접 관련이 약하다. 여러 내부 도구의 사용자 인증, 관리자 콘솔, 외부 노출 서비스 접근 제어가 커질 때 의미가 있다.",
+        "integration": "OpenClaw, Paperclip, n8n, 내부 대시보드, 향후 외부 공개 API에 중앙 인증 계층으로 붙일 수 있다. Vault sidecar는 비밀 보관을 계속 담당하고, Logto는 사용자·조직·권한·SSO/RBAC 계층을 맡는 분리가 적절하다.",
+        "overlaps": "Vaultwarden 기반 vault sidecar와는 목적이 다르다. vault는 시크릿 저장·격리, Logto는 사용자 인증·인가다. 다만 단일 사용자 로컬 운영 중심이면 도입 비용이 이점보다 클 수 있고, 현재 GitHub/Vercel/각 도구 내장 인증으로 충분하면 중복 관리 부담이 생긴다."
       }
     },
     {
@@ -1249,49 +1360,6 @@
         "fit": "EG AI GROUP OS의 로컬 우선·비용 절감·MCP 확장 방향과 잘 맞지만, 핵심인 멀티에이전트 오케스트레이션/작업 위임 자체를 개선하는 도구는 아니다. 텔레그램 텍스트 게이트웨이를 보완하는 로컬 음성 입출력 레이어로는 가치가 있다.",
         "integration": "Mac mini에 로컬 앱 또는 Docker로 설치하고, Claude Code/Codex/Paperclip worker 알림을 MCP 또는 REST POST /speak로 연결한다. 전역 dictation은 운영자 지시 입력 보조로 쓰고, 에이전트별 voice profile을 매핑해 누가 완료/질문/오류를 말하는지 구분하는 용도가 적합하다.",
         "overlaps": "Hermes/tg-proxy의 알림 기능과 일부 겹치지만 채널이 텔레그램이 아니라 로컬 음성이다. OpenClaw의 개인 비서 UX와도 일부 중복 가능성이 있다. Paperclip/cmux/Claude Code를 대체하지 않고 보조 인터페이스로 붙이는 성격이다."
-      }
-    },
-    {
-      "fullName": "logto-io/logto",
-      "owner": "logto-io",
-      "name": "logto",
-      "url": "https://github.com/logto-io/logto",
-      "avatar": "https://github.com/logto-io.png?size=64",
-      "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
-      "language": "TypeScript",
-      "stars": 13719,
-      "appearances": 4,
-      "sources": [
-        "trending-day",
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-06-29",
-          "stars": 12621
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 13231
-        },
-        {
-          "date": "2026-07-03",
-          "stars": 13617
-        },
-        {
-          "date": "2026-07-04",
-          "stars": 13719
-        }
-      ],
-      "analysis": {
-        "relevance": "medium",
-        "category": "보안/인증 인프라",
-        "summary": "Logto는 OIDC/OAuth 2.1 기반의 인증·인가 플랫폼으로, 멀티테넌시, SSO, RBAC를 제공하는 TypeScript 기반 SaaS/AI 앱용 IAM 인프라다.",
-        "fit": "EG AI GROUP OS의 보안 격리와 셀프호스팅 인프라 방향에는 맞지만, 현재 핵심 공백인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화와는 직접 관련이 약하다. 여러 내부 도구의 사용자 인증, 관리자 콘솔, 외부 노출 서비스 접근 제어가 커질 때 의미가 있다.",
-        "integration": "OpenClaw, Paperclip, n8n, 내부 대시보드, 향후 외부 공개 API에 중앙 인증 계층으로 붙일 수 있다. Vault sidecar는 비밀 보관을 계속 담당하고, Logto는 사용자·조직·권한·SSO/RBAC 계층을 맡는 분리가 적절하다.",
-        "overlaps": "Vaultwarden 기반 vault sidecar와는 목적이 다르다. vault는 시크릿 저장·격리, Logto는 사용자 인증·인가다. 다만 단일 사용자 로컬 운영 중심이면 도입 비용이 이점보다 클 수 있고, 현재 GitHub/Vercel/각 도구 내장 인증으로 충분하면 중복 관리 부담이 생긴다."
       }
     },
     {
@@ -1642,13 +1710,13 @@
       "avatar": "https://github.com/codecrafters-io.png?size=64",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
-      "stars": 522432,
-      "appearances": 7,
+      "stars": 522736,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1677,6 +1745,10 @@
         {
           "date": "2026-07-04",
           "stars": 522432
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 522736
         }
       ],
       "analysis": {
@@ -1696,13 +1768,13 @@
       "avatar": "https://github.com/sindresorhus.png?size=64",
       "description": "😎 Awesome lists about all kinds of interesting topics",
       "language": null,
-      "stars": 481508,
-      "appearances": 7,
+      "stars": 481826,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1731,6 +1803,10 @@
         {
           "date": "2026-07-04",
           "stars": 481508
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 481826
         }
       ],
       "analysis": {
@@ -1750,13 +1826,13 @@
       "avatar": "https://github.com/public-apis.png?size=64",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "stars": 446594,
-      "appearances": 7,
+      "stars": 446879,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1785,6 +1861,10 @@
         {
           "date": "2026-07-04",
           "stars": 446594
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 446879
         }
       ],
       "analysis": {
@@ -1804,13 +1884,13 @@
       "avatar": "https://github.com/EbookFoundation.png?size=64",
       "description": ":books: Freely available programming books",
       "language": "Python",
-      "stars": 391275,
-      "appearances": 7,
+      "stars": 391330,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1839,6 +1919,10 @@
         {
           "date": "2026-07-04",
           "stars": 391275
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 391330
         }
       ],
       "analysis": {
@@ -1858,13 +1942,13 @@
       "avatar": "https://github.com/openclaw.png?size=64",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript",
-      "stars": 381728,
-      "appearances": 7,
+      "stars": 381827,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1893,6 +1977,10 @@
         {
           "date": "2026-07-04",
           "stars": 381728
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 381827
         }
       ],
       "analysis": {
@@ -1912,13 +2000,13 @@
       "avatar": "https://github.com/donnemartin.png?size=64",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "language": "Python",
-      "stars": 356122,
-      "appearances": 7,
+      "stars": 356255,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -1947,6 +2035,10 @@
         {
           "date": "2026-07-04",
           "stars": 356122
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 356255
         }
       ],
       "analysis": {
@@ -1966,13 +2058,13 @@
       "avatar": "https://github.com/vinta.png?size=64",
       "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
       "language": "Python",
-      "stars": 306309,
-      "appearances": 7,
+      "stars": 306514,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2001,6 +2093,10 @@
         {
           "date": "2026-07-04",
           "stars": 306309
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 306514
         }
       ],
       "analysis": {
@@ -2020,13 +2116,13 @@
       "avatar": "https://github.com/torvalds.png?size=64",
       "description": "Linux kernel source tree",
       "language": "C",
-      "stars": 238367,
-      "appearances": 7,
+      "stars": 238502,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2055,6 +2151,10 @@
         {
           "date": "2026-07-04",
           "stars": 238367
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 238502
         }
       ],
       "analysis": {
@@ -2074,13 +2174,13 @@
       "avatar": "https://github.com/trimstray.png?size=64",
       "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
       "language": null,
-      "stars": 231645,
-      "appearances": 7,
+      "stars": 231813,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2109,6 +2209,10 @@
         {
           "date": "2026-07-04",
           "stars": 231645
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 231813
         }
       ],
       "analysis": {
@@ -2118,6 +2222,61 @@
         "fit": "운영자와 에이전트가 참고할 수 있는 명령어/보안/네트워크 지식 베이스로는 약하게 유용하다. 하지만 오케스트레이션, 로컬 LLM, MCP, 비밀 격리, 텔레그램 게이트웨이 같은 핵심 공백을 메우지 않는다.",
         "integration": "내부 문서나 RAG 소스 후보로 일부 섹션을 선별 색인할 수 있다. 다만 전체를 도입하기보다 보안/CLI/운영 관련 항목만 추려 개인 지식베이스에 링크하는 정도가 적절하다.",
         "overlaps": "기존 Claude Code 스킬, context7/검색형 MCP, 개인 지식 관리와 기능적으로 겹친다. 실행 가능한 시스템 구성요소가 아니므로 Paperclip, cmux, Vault, n8n 등을 대체하거나 업그레이드하지 않는다."
+      }
+    },
+    {
+      "fullName": "Robbyant/lingbot-map",
+      "owner": "Robbyant",
+      "name": "lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "avatar": "https://github.com/Robbyant.png?size=64",
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "language": "Python",
+      "stars": 9884,
+      "appearances": 7,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-06-28",
+          "stars": 8191
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 8843
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 9209
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 9401
+        },
+        {
+          "date": "2026-07-03",
+          "stars": 9563
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 9724
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 9884
+        }
+      ],
+      "analysis": {
+        "relevance": "low",
+        "category": "3D 컴퓨터비전/스트리밍 장면 재구성 모델",
+        "summary": "스트리밍 영상 데이터에서 카메라 포즈와 3D 장면을 feed-forward 방식으로 재구성하는 Python 기반 3D foundation model이다. 연구·로보틱스·공간 인식 쪽 가치는 있지만 EG AI GROUP OS의 에이전트 운영, 코딩 자동화, MCP, 비밀관리, 로컬 LLM/RAG 핵심 축과는 직접 연결이 약하다.",
+        "fit": "로컬 실행 가능한 AI 모델이라는 점만 부분적으로 맞는다. 현재 스택의 비용 절감형 로컬 LLM, 멀티에이전트 오케스트레이션, 텔레그램 운영 자동화에는 명확한 공백을 메우지 못하므로 당장 도입 우선순위는 낮다.",
+        "integration": "도입한다면 OpenClaw나 향후 물리 공간/비전 에이전트 실험에서 카메라 스트림 기반 3D 맵 생성 모듈로 분리 운영하는 정도가 적절하다. 운영 OS 본체에는 넣지 말고 별도 GPU 실험 환경에서 검증하는 편이 맞다.",
+        "overlaps": "기존 스택과 직접 중복은 거의 없다. 다만 로컬 GPU/추론 리소스를 Ollama, mlx-lm 등 핵심 로컬 LLM과 경쟁할 수 있어 운영 자동화 목적 대비 자원 효율이 낮다."
       }
     },
     {
@@ -2175,54 +2334,53 @@
       }
     },
     {
-      "fullName": "Robbyant/lingbot-map",
-      "owner": "Robbyant",
-      "name": "lingbot-map",
-      "url": "https://github.com/Robbyant/lingbot-map",
-      "avatar": "https://github.com/Robbyant.png?size=64",
-      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "avatar": "https://github.com/ZhuLinsen.png?size=64",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 9724,
+      "stars": 54680,
       "appearances": 6,
       "sources": [
-        "trending-day",
         "trending-week"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
-          "stars": 8191
+          "stars": 51089
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 51798
         },
         {
           "date": "2026-06-30",
-          "stars": 8843
+          "stars": 52454
         },
         {
           "date": "2026-07-01",
-          "stars": 9209
-        },
-        {
-          "date": "2026-07-02",
-          "stars": 9401
-        },
-        {
-          "date": "2026-07-03",
-          "stars": 9563
+          "stars": 53053
         },
         {
           "date": "2026-07-04",
-          "stars": 9724
+          "stars": 54254
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 54680
         }
       ],
       "analysis": {
         "relevance": "low",
-        "category": "3D 컴퓨터비전/스트리밍 장면 재구성 모델",
-        "summary": "스트리밍 영상 데이터에서 카메라 포즈와 3D 장면을 feed-forward 방식으로 재구성하는 Python 기반 3D foundation model이다. 연구·로보틱스·공간 인식 쪽 가치는 있지만 EG AI GROUP OS의 에이전트 운영, 코딩 자동화, MCP, 비밀관리, 로컬 LLM/RAG 핵심 축과는 직접 연결이 약하다.",
-        "fit": "로컬 실행 가능한 AI 모델이라는 점만 부분적으로 맞는다. 현재 스택의 비용 절감형 로컬 LLM, 멀티에이전트 오케스트레이션, 텔레그램 운영 자동화에는 명확한 공백을 메우지 못하므로 당장 도입 우선순위는 낮다.",
-        "integration": "도입한다면 OpenClaw나 향후 물리 공간/비전 에이전트 실험에서 카메라 스트림 기반 3D 맵 생성 모듈로 분리 운영하는 정도가 적절하다. 운영 OS 본체에는 넣지 말고 별도 GPU 실험 환경에서 검증하는 편이 맞다.",
-        "overlaps": "기존 스택과 직접 중복은 거의 없다. 다만 로컬 GPU/추론 리소스를 Ollama, mlx-lm 등 핵심 로컬 LLM과 경쟁할 수 있어 운영 자동화 목적 대비 자원 효율이 낮다."
+        "category": "도메인 특화 LLM 금융 분석/자동 알림 앱",
+        "summary": "주식 시세, 뉴스, LLM 분석, 대시보드, 자동 푸시를 묶은 금융 분석 시스템이다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 코딩 자동화, 로컬 LLM 서빙, 보안 격리 인프라와는 직접 관련성이 낮다.",
+        "fit": "개인 금융 모니터링 워크플로가 필요하다면 참고할 수 있지만, 운영 AI 그룹 스택의 공백을 메우는 도구는 아니다. '제로 비용 정기 실행'과 자동 알림 구조는 일부 운영 패턴 참고 가치가 있다.",
+        "integration": "Ollama 기반 로컬 LLM 분석으로 바꾸고, 결과 알림을 tg-proxy/Hermes로 보내는 식의 개별 워크플로로 붙일 수 있다. n8n 크론이나 LaunchAgent로 정기 실행하는 보조 작업 정도가 적합하다.",
+        "overlaps": "n8n의 예약 워크플로, tg-proxy/Hermes의 알림, OpenClaw의 개인 비서 기능과 일부 중복된다. 금융 분석 도메인 자체가 목적이 아니라면 기존 스택을 업그레이드하지 않는다."
       }
     },
     {
@@ -2273,52 +2431,6 @@
       }
     },
     {
-      "fullName": "ZhuLinsen/daily_stock_analysis",
-      "owner": "ZhuLinsen",
-      "name": "daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "avatar": "https://github.com/ZhuLinsen.png?size=64",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "language": "Python",
-      "stars": 54254,
-      "appearances": 5,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-06-28",
-          "stars": 51089
-        },
-        {
-          "date": "2026-06-29",
-          "stars": 51798
-        },
-        {
-          "date": "2026-06-30",
-          "stars": 52454
-        },
-        {
-          "date": "2026-07-01",
-          "stars": 53053
-        },
-        {
-          "date": "2026-07-04",
-          "stars": 54254
-        }
-      ],
-      "analysis": {
-        "relevance": "low",
-        "category": "도메인 특화 LLM 금융 분석/자동 알림 앱",
-        "summary": "주식 시세, 뉴스, LLM 분석, 대시보드, 자동 푸시를 묶은 금융 분석 시스템이다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 코딩 자동화, 로컬 LLM 서빙, 보안 격리 인프라와는 직접 관련성이 낮다.",
-        "fit": "개인 금융 모니터링 워크플로가 필요하다면 참고할 수 있지만, 운영 AI 그룹 스택의 공백을 메우는 도구는 아니다. '제로 비용 정기 실행'과 자동 알림 구조는 일부 운영 패턴 참고 가치가 있다.",
-        "integration": "Ollama 기반 로컬 LLM 분석으로 바꾸고, 결과 알림을 tg-proxy/Hermes로 보내는 식의 개별 워크플로로 붙일 수 있다. n8n 크론이나 LaunchAgent로 정기 실행하는 보조 작업 정도가 적합하다.",
-        "overlaps": "n8n의 예약 워크플로, tg-proxy/Hermes의 알림, OpenClaw의 개인 비서 기능과 일부 중복된다. 금융 분석 도메인 자체가 목적이 아니라면 기존 스택을 업그레이드하지 않는다."
-      }
-    },
-    {
       "fullName": "facebook/astryx",
       "owner": "facebook",
       "name": "astryx",
@@ -2326,13 +2438,13 @@
       "avatar": "https://github.com/facebook.png?size=64",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 4566,
-      "appearances": 3,
+      "stars": 5855,
+      "appearances": 4,
       "sources": [
         "trending-day"
       ],
       "firstSeen": "2026-06-30",
-      "lastSeen": "2026-07-03",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-30",
@@ -2345,6 +2457,10 @@
         {
           "date": "2026-07-03",
           "stars": 4566
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 5855
         }
       ],
       "analysis": {
@@ -2456,6 +2572,40 @@
         "fit": "AI 운영 자동화 스택의 핵심 기능을 보강하지 않는다. 디자인 산출물 관리나 UI/UX 협업이 별도 운영 과제로 커질 때만 보조 도구로 의미가 있다.",
         "integration": "Docker 기반 셀프호스팅으로 내부 디자인 협업 서버를 띄우고, 필요 시 Vercel/GitHub 작업물의 UI 시안 관리용으로 연결할 수 있다. 다만 현재 스택의 자동화 루프에 넣을 필수 구성요소는 아니다.",
         "overlaps": "기존 스택과 직접 중복은 적지만, 핵심 운영 기능도 제공하지 않는다. OpenClaw, Paperclip, cmux, Claude Code, n8n, MCP 계층을 대체하거나 업그레이드하지 못한다."
+      }
+    },
+    {
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "owner": "asgeirtj",
+      "name": "system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "avatar": "https://github.com/asgeirtj.png?size=64",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "language": "JavaScript",
+      "stars": 49876,
+      "appearances": 2,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-04",
+          "stars": 48872
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 49876
+        }
+      ],
+      "analysis": {
+        "relevance": "low",
+        "category": "프롬프트 레퍼런스/리버스엔지니어링 자료",
+        "summary": "주요 AI 제품의 유출/추출 시스템 프롬프트를 모은 레포. 에이전트 설계, Claude Code/Codex 프롬프트 패턴 연구에는 참고가 되지만 실행 엔진, 오케스트레이션, 로컬 LLM, MCP, 보안 기능을 직접 제공하지 않는다.",
+        "fit": "EG AI GROUP OS의 핵심 공백을 메우지는 않는다. 다만 Claude Code/Codex 기반 워크플로의 시스템 프롬프트 설계, 에이전트 역할 정의, guardrail 문구 개선을 위한 연구 자료로는 제한적 가치가 있다.",
+        "integration": "프롬프트 패턴을 선별해 Paperclip 워커 프롬프트, Claude Code 스킬/후크 지침, Codex 평가 rubric 개선에 참고. 자동 동기화나 런타임 의존성으로 넣기보다는 읽기 전용 레퍼런스로만 취급.",
+        "overlaps": "Claude Code, Codex, OpenClaw의 프롬프트/에이전트 운용 지침과 주제가 겹치지만 기능 중복은 아니다. 유출 프롬프트 기반이라 최신성·정확성·라이선스/윤리 리스크가 있어 운영 스택의 핵심 구성요소로 채택하기 어렵다."
       }
     },
     {
@@ -2625,36 +2775,6 @@
       }
     },
     {
-      "fullName": "asgeirtj/system_prompts_leaks",
-      "owner": "asgeirtj",
-      "name": "system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "avatar": "https://github.com/asgeirtj.png?size=64",
-      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-      "language": "JavaScript",
-      "stars": 48872,
-      "appearances": 1,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-07-04",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-07-04",
-          "stars": 48872
-        }
-      ],
-      "analysis": {
-        "relevance": "low",
-        "category": "프롬프트 레퍼런스/리버스엔지니어링 자료",
-        "summary": "주요 AI 제품의 유출/추출 시스템 프롬프트를 모은 레포. 에이전트 설계, Claude Code/Codex 프롬프트 패턴 연구에는 참고가 되지만 실행 엔진, 오케스트레이션, 로컬 LLM, MCP, 보안 기능을 직접 제공하지 않는다.",
-        "fit": "EG AI GROUP OS의 핵심 공백을 메우지는 않는다. 다만 Claude Code/Codex 기반 워크플로의 시스템 프롬프트 설계, 에이전트 역할 정의, guardrail 문구 개선을 위한 연구 자료로는 제한적 가치가 있다.",
-        "integration": "프롬프트 패턴을 선별해 Paperclip 워커 프롬프트, Claude Code 스킬/후크 지침, Codex 평가 rubric 개선에 참고. 자동 동기화나 런타임 의존성으로 넣기보다는 읽기 전용 레퍼런스로만 취급.",
-        "overlaps": "Claude Code, Codex, OpenClaw의 프롬프트/에이전트 운용 지침과 주제가 겹치지만 기능 중복은 아니다. 유출 프롬프트 기반이라 최신성·정확성·라이선스/윤리 리스크가 있어 운영 스택의 핵심 구성요소로 채택하기 어렵다."
-      }
-    },
-    {
       "fullName": "roboflow/supervision",
       "owner": "roboflow",
       "name": "supervision",
@@ -2692,13 +2812,13 @@
       "avatar": "https://github.com/freeCodeCamp.png?size=64",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
-      "stars": 451067,
-      "appearances": 7,
+      "stars": 451129,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2727,6 +2847,10 @@
         {
           "date": "2026-07-04",
           "stars": 451067
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 451129
         }
       ],
       "analysis": {
@@ -2746,13 +2870,13 @@
       "avatar": "https://github.com/nilbuild.png?size=64",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "language": "TypeScript",
-      "stars": 359272,
-      "appearances": 7,
+      "stars": 359401,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2781,6 +2905,10 @@
         {
           "date": "2026-07-04",
           "stars": 359272
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 359401
         }
       ],
       "analysis": {
@@ -2800,13 +2928,13 @@
       "avatar": "https://github.com/jwasham.png?size=64",
       "description": "A complete computer science study plan to become a software engineer.",
       "language": null,
-      "stars": 355076,
-      "appearances": 7,
+      "stars": 355157,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2835,6 +2963,10 @@
         {
           "date": "2026-07-04",
           "stars": 355076
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 355157
         }
       ],
       "analysis": {
@@ -2854,13 +2986,13 @@
       "avatar": "https://github.com/996icu.png?size=64",
       "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
       "language": null,
-      "stars": 276360,
-      "appearances": 7,
+      "stars": 276361,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2889,6 +3021,10 @@
         {
           "date": "2026-07-04",
           "stars": 276360
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 276361
         }
       ],
       "analysis": {
@@ -2908,13 +3044,13 @@
       "avatar": "https://github.com/practical-tutorials.png?size=64",
       "description": "Curated list of project-based tutorials",
       "language": null,
-      "stars": 272042,
-      "appearances": 7,
+      "stars": 272190,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2943,6 +3079,10 @@
         {
           "date": "2026-07-04",
           "stars": 272042
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 272190
         }
       ],
       "analysis": {
@@ -2962,13 +3102,13 @@
       "avatar": "https://github.com/react.png?size=64",
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
-      "stars": 246237,
-      "appearances": 7,
+      "stars": 246265,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -2997,6 +3137,10 @@
         {
           "date": "2026-07-04",
           "stars": 246237
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 246265
         }
       ],
       "analysis": {
@@ -3016,13 +3160,13 @@
       "avatar": "https://github.com/TheAlgorithms.png?size=64",
       "description": "All Algorithms implemented in Python",
       "language": "Python",
-      "stars": 222419,
-      "appearances": 7,
+      "stars": 222436,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -3051,6 +3195,10 @@
         {
           "date": "2026-07-04",
           "stars": 222419
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 222436
         }
       ],
       "analysis": {
@@ -3070,13 +3218,13 @@
       "avatar": "https://github.com/vuejs.png?size=64",
       "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
       "language": "TypeScript",
-      "stars": 210004,
-      "appearances": 7,
+      "stars": 210060,
+      "appearances": 8,
       "sources": [
         "popular"
       ],
       "firstSeen": "2026-06-28",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-06-28",
@@ -3105,6 +3253,10 @@
         {
           "date": "2026-07-04",
           "stars": 210004
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 210060
         }
       ],
       "analysis": {
@@ -3234,13 +3386,13 @@
       "avatar": "https://github.com/JuliusBrussee.png?size=64",
       "description": null,
       "language": null,
-      "stars": 83903,
-      "appearances": 3,
+      "stars": 84819,
+      "appearances": 4,
       "sources": [
         "trending-day"
       ],
       "firstSeen": "2026-07-02",
-      "lastSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
           "date": "2026-07-02",
@@ -3253,6 +3405,81 @@
         {
           "date": "2026-07-04",
           "stars": 83903
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 84819
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "harvard-edge/cs249r_book",
+      "owner": "harvard-edge",
+      "name": "cs249r_book",
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "avatar": "https://github.com/harvard-edge.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 26816,
+      "appearances": 4,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 25537
+        },
+        {
+          "date": "2026-07-03",
+          "stars": 26137
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 26544
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 26816
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "openai/codex-plugin-cc",
+      "owner": "openai",
+      "name": "codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "avatar": "https://github.com/openai.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 25410,
+      "appearances": 4,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-02",
+          "stars": 22585
+        },
+        {
+          "date": "2026-07-03",
+          "stars": 23176
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 24320
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 25410
         }
       ],
       "analysis": null
@@ -3289,69 +3516,6 @@
       "analysis": null
     },
     {
-      "fullName": "harvard-edge/cs249r_book",
-      "owner": "harvard-edge",
-      "name": "cs249r_book",
-      "url": "https://github.com/harvard-edge/cs249r_book",
-      "avatar": "https://github.com/harvard-edge.png?size=64",
-      "description": null,
-      "language": null,
-      "stars": 26544,
-      "appearances": 3,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-07-02",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-07-02",
-          "stars": 25537
-        },
-        {
-          "date": "2026-07-03",
-          "stars": 26137
-        },
-        {
-          "date": "2026-07-04",
-          "stars": 26544
-        }
-      ],
-      "analysis": null
-    },
-    {
-      "fullName": "openai/codex-plugin-cc",
-      "owner": "openai",
-      "name": "codex-plugin-cc",
-      "url": "https://github.com/openai/codex-plugin-cc",
-      "avatar": "https://github.com/openai.png?size=64",
-      "description": null,
-      "language": null,
-      "stars": 24320,
-      "appearances": 3,
-      "sources": [
-        "trending-day",
-        "trending-week"
-      ],
-      "firstSeen": "2026-07-02",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-07-02",
-          "stars": 22585
-        },
-        {
-          "date": "2026-07-03",
-          "stars": 23176
-        },
-        {
-          "date": "2026-07-04",
-          "stars": 24320
-        }
-      ],
-      "analysis": null
-    },
-    {
       "fullName": "agentskills/agentskills",
       "owner": "agentskills",
       "name": "agentskills",
@@ -3378,6 +3542,69 @@
         {
           "date": "2026-07-04",
           "stars": 22309
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "allenai/olmocr",
+      "owner": "allenai",
+      "name": "olmocr",
+      "url": "https://github.com/allenai/olmocr",
+      "avatar": "https://github.com/allenai.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 18791,
+      "appearances": 3,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-07-01",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-01",
+          "stars": 18245
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 18696
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 18791
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "rommapp/romm",
+      "owner": "rommapp",
+      "name": "romm",
+      "url": "https://github.com/rommapp/romm",
+      "avatar": "https://github.com/rommapp.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 10509,
+      "appearances": 3,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-03",
+          "stars": 9785
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 10180
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 10509
         }
       ],
       "analysis": null
@@ -3414,6 +3641,92 @@
       "analysis": null
     },
     {
+      "fullName": "apache/maven",
+      "owner": "apache",
+      "name": "maven",
+      "url": "https://github.com/apache/maven",
+      "avatar": "https://github.com/apache.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 5283,
+      "appearances": 3,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-03",
+          "stars": 5219
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 5269
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 5283
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "anthropics/claude-code",
+      "owner": "anthropics",
+      "name": "claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "avatar": "https://github.com/anthropics.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 136275,
+      "appearances": 2,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-03",
+          "stars": 135816
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 136275
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "immich-app/immich",
+      "owner": "immich-app",
+      "name": "immich",
+      "url": "https://github.com/immich-app/immich",
+      "avatar": "https://github.com/immich-app.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 106069,
+      "appearances": 2,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-04",
+          "stars": 105600
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 106069
+        }
+      ],
+      "analysis": null
+    },
+    {
       "fullName": "pytorch/pytorch",
       "owner": "pytorch",
       "name": "pytorch",
@@ -3441,56 +3754,83 @@
       "analysis": null
     },
     {
-      "fullName": "allenai/olmocr",
-      "owner": "allenai",
-      "name": "olmocr",
-      "url": "https://github.com/allenai/olmocr",
-      "avatar": "https://github.com/allenai.png?size=64",
+      "fullName": "alirezarezvani/claude-skills",
+      "owner": "alirezarezvani",
+      "name": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "avatar": "https://github.com/alirezarezvani.png?size=64",
       "description": null,
       "language": null,
-      "stars": 18696,
+      "stars": 20519,
       "appearances": 2,
       "sources": [
-        "trending-day",
-        "trending-week"
+        "trending-day"
       ],
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-07-04",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
-          "date": "2026-07-01",
-          "stars": 18245
+          "date": "2026-07-04",
+          "stars": 20130
         },
         {
-          "date": "2026-07-04",
-          "stars": 18696
+          "date": "2026-07-05",
+          "stars": 20519
         }
       ],
       "analysis": null
     },
     {
-      "fullName": "rommapp/romm",
-      "owner": "rommapp",
-      "name": "romm",
-      "url": "https://github.com/rommapp/romm",
-      "avatar": "https://github.com/rommapp.png?size=64",
+      "fullName": "Zackriya-Solutions/meetily",
+      "owner": "Zackriya-Solutions",
+      "name": "meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "avatar": "https://github.com/Zackriya-Solutions.png?size=64",
       "description": null,
       "language": null,
-      "stars": 10180,
+      "stars": 16833,
+      "appearances": 2,
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-04",
+          "stars": 15193
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 16833
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "CoplayDev/unity-mcp",
+      "owner": "CoplayDev",
+      "name": "unity-mcp",
+      "url": "https://github.com/CoplayDev/unity-mcp",
+      "avatar": "https://github.com/CoplayDev.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 11904,
       "appearances": 2,
       "sources": [
         "trending-day"
       ],
-      "firstSeen": "2026-07-03",
-      "lastSeen": "2026-07-04",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
-          "date": "2026-07-03",
-          "stars": 9785
+          "date": "2026-07-04",
+          "stars": 11573
         },
         {
-          "date": "2026-07-04",
-          "stars": 10180
+          "date": "2026-07-05",
+          "stars": 11904
         }
       ],
       "analysis": null
@@ -3550,29 +3890,55 @@
       "analysis": null
     },
     {
-      "fullName": "apache/maven",
-      "owner": "apache",
-      "name": "maven",
-      "url": "https://github.com/apache/maven",
-      "avatar": "https://github.com/apache.png?size=64",
+      "fullName": "dotnet/skills",
+      "owner": "dotnet",
+      "name": "skills",
+      "url": "https://github.com/dotnet/skills",
+      "avatar": "https://github.com/dotnet.png?size=64",
       "description": null,
       "language": null,
-      "stars": 5269,
+      "stars": 4022,
       "appearances": 2,
       "sources": [
-        "trending-day",
-        "trending-week"
+        "trending-day"
       ],
-      "firstSeen": "2026-07-03",
-      "lastSeen": "2026-07-04",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
-          "date": "2026-07-03",
-          "stars": 5219
+          "date": "2026-07-04",
+          "stars": 3796
         },
         {
+          "date": "2026-07-05",
+          "stars": 4022
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "Starmel/OpenSuperWhisper",
+      "owner": "Starmel",
+      "name": "OpenSuperWhisper",
+      "url": "https://github.com/Starmel/OpenSuperWhisper",
+      "avatar": "https://github.com/Starmel.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 1803,
+      "appearances": 2,
+      "sources": [
+        "trending-week"
+      ],
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
           "date": "2026-07-04",
-          "stars": 5269
+          "stars": 1707
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 1803
         }
       ],
       "analysis": null
@@ -3619,52 +3985,6 @@
         {
           "date": "2026-07-02",
           "stars": 150691
-        }
-      ],
-      "analysis": null
-    },
-    {
-      "fullName": "anthropics/claude-code",
-      "owner": "anthropics",
-      "name": "claude-code",
-      "url": "https://github.com/anthropics/claude-code",
-      "avatar": "https://github.com/anthropics.png?size=64",
-      "description": null,
-      "language": null,
-      "stars": 135816,
-      "appearances": 1,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-07-03",
-      "lastSeen": "2026-07-03",
-      "starHistory": [
-        {
-          "date": "2026-07-03",
-          "stars": 135816
-        }
-      ],
-      "analysis": null
-    },
-    {
-      "fullName": "immich-app/immich",
-      "owner": "immich-app",
-      "name": "immich",
-      "url": "https://github.com/immich-app/immich",
-      "avatar": "https://github.com/immich-app.png?size=64",
-      "description": null,
-      "language": null,
-      "stars": 105600,
-      "appearances": 1,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-07-04",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-07-04",
-          "stars": 105600
         }
       ],
       "analysis": null
@@ -3762,6 +4082,29 @@
       "analysis": null
     },
     {
+      "fullName": "ruvnet/RuView",
+      "owner": "ruvnet",
+      "name": "RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "avatar": "https://github.com/ruvnet.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 76696,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-05",
+          "stars": 76696
+        }
+      ],
+      "analysis": null
+    },
+    {
       "fullName": "ansible/ansible",
       "owner": "ansible",
       "name": "ansible",
@@ -3808,6 +4151,98 @@
       "analysis": null
     },
     {
+      "fullName": "Leonxlnx/taste-skill",
+      "owner": "Leonxlnx",
+      "name": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "avatar": "https://github.com/Leonxlnx.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 57397,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-05",
+          "stars": 57397
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "hesreallyhim/awesome-claude-code",
+      "owner": "hesreallyhim",
+      "name": "awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "avatar": "https://github.com/hesreallyhim.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 48328,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-05",
+          "stars": 48328
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "coreyhaines31/marketingskills",
+      "owner": "coreyhaines31",
+      "name": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "avatar": "https://github.com/coreyhaines31.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 36392,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-05",
+          "stars": 36392
+        }
+      ],
+      "analysis": null
+    },
+    {
+      "fullName": "OthmanAdi/planning-with-files",
+      "owner": "OthmanAdi",
+      "name": "planning-with-files",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "avatar": "https://github.com/OthmanAdi.png?size=64",
+      "description": null,
+      "language": null,
+      "stars": 24677,
+      "appearances": 1,
+      "sources": [
+        "trending-day"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-05",
+      "starHistory": [
+        {
+          "date": "2026-07-05",
+          "stars": 24677
+        }
+      ],
+      "analysis": null
+    },
+    {
       "fullName": "yikart/AiToEarn",
       "owner": "yikart",
       "name": "AiToEarn",
@@ -3831,70 +4266,47 @@
       "analysis": null
     },
     {
-      "fullName": "alirezarezvani/claude-skills",
-      "owner": "alirezarezvani",
-      "name": "claude-skills",
-      "url": "https://github.com/alirezarezvani/claude-skills",
-      "avatar": "https://github.com/alirezarezvani.png?size=64",
+      "fullName": "gastownhall/gastown",
+      "owner": "gastownhall",
+      "name": "gastown",
+      "url": "https://github.com/gastownhall/gastown",
+      "avatar": "https://github.com/gastownhall.png?size=64",
       "description": null,
       "language": null,
-      "stars": 20130,
+      "stars": 16353,
       "appearances": 1,
       "sources": [
         "trending-day"
       ],
-      "firstSeen": "2026-07-04",
-      "lastSeen": "2026-07-04",
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
-          "date": "2026-07-04",
-          "stars": 20130
+          "date": "2026-07-05",
+          "stars": 16353
         }
       ],
       "analysis": null
     },
     {
-      "fullName": "Zackriya-Solutions/meetily",
-      "owner": "Zackriya-Solutions",
-      "name": "meetily",
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "avatar": "https://github.com/Zackriya-Solutions.png?size=64",
+      "fullName": "steipete/CodexBar",
+      "owner": "steipete",
+      "name": "CodexBar",
+      "url": "https://github.com/steipete/CodexBar",
+      "avatar": "https://github.com/steipete.png?size=64",
       "description": null,
       "language": null,
-      "stars": 15193,
+      "stars": 16149,
       "appearances": 1,
       "sources": [
         "trending-day"
       ],
-      "firstSeen": "2026-07-04",
-      "lastSeen": "2026-07-04",
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-05",
       "starHistory": [
         {
-          "date": "2026-07-04",
-          "stars": 15193
-        }
-      ],
-      "analysis": null
-    },
-    {
-      "fullName": "CoplayDev/unity-mcp",
-      "owner": "CoplayDev",
-      "name": "unity-mcp",
-      "url": "https://github.com/CoplayDev/unity-mcp",
-      "avatar": "https://github.com/CoplayDev.png?size=64",
-      "description": null,
-      "language": null,
-      "stars": 11573,
-      "appearances": 1,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-07-04",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-07-04",
-          "stars": 11573
+          "date": "2026-07-05",
+          "stars": 16149
         }
       ],
       "analysis": null
@@ -3918,52 +4330,6 @@
         {
           "date": "2026-07-04",
           "stars": 8038
-        }
-      ],
-      "analysis": null
-    },
-    {
-      "fullName": "dotnet/skills",
-      "owner": "dotnet",
-      "name": "skills",
-      "url": "https://github.com/dotnet/skills",
-      "avatar": "https://github.com/dotnet.png?size=64",
-      "description": null,
-      "language": null,
-      "stars": 3796,
-      "appearances": 1,
-      "sources": [
-        "trending-day"
-      ],
-      "firstSeen": "2026-07-04",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-07-04",
-          "stars": 3796
-        }
-      ],
-      "analysis": null
-    },
-    {
-      "fullName": "Starmel/OpenSuperWhisper",
-      "owner": "Starmel",
-      "name": "OpenSuperWhisper",
-      "url": "https://github.com/Starmel/OpenSuperWhisper",
-      "avatar": "https://github.com/Starmel.png?size=64",
-      "description": null,
-      "language": null,
-      "stars": 1707,
-      "appearances": 1,
-      "sources": [
-        "trending-week"
-      ],
-      "firstSeen": "2026-07-04",
-      "lastSeen": "2026-07-04",
-      "starHistory": [
-        {
-          "date": "2026-07-04",
-          "stars": 1707
         }
       ],
       "analysis": null
