@@ -1,0 +1,15 @@
+{
+  "fullName": "Zackriya-Solutions/meetily",
+  "analyzedAt": "2026-07-08T23:01:04.148Z",
+  "repoMeta": {
+    "stars": 21614,
+    "language": "Rust",
+    "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows."
+  },
+  "relevance": "medium",
+  "category": "로컬 AI 회의 기록/전사·요약 도구",
+  "summary": "Meetily는 macOS/Windows에서 100% 로컬 처리로 실시간 전사, 화자 분리, Ollama 요약을 제공하는 셀프호스팅 AI 회의 노트 도구다. 로컬 우선·비용 절감·프라이버시 방향은 EG AI GROUP OS와 잘 맞는다.",
+  "fit": "핵심 스택의 에이전트 오케스트레이션이나 개발 자동화 공백을 직접 메우지는 않지만, 텔레그램/그룹 운영 회의·음성 지시·작업 회고를 로컬 전사해 Paperclip 작업화하거나 지식화하는 보조 기능으로 가치가 있다. Ollama 연동과 Rust 기반 로컬 처리도 긍정적이다.",
+  "integration": "macOS Mac mini에 로컬 앱/서비스로 배치하고, 회의 요약 결과를 Hermes나 tg-proxy로 텔레그램에 발송하거나 Paperclip 이슈/작업으로 변환하는 후처리 파이프라인을 붙이는 방식이 적합하다. 회의 로그를 RAG/개인 메모 저장소로 보내면 운영 기억 보강에도 쓸 수 있다.",
+  "overlaps": "OpenClaw/Ollama 기반 개인 비서, 기존 로컬 LLM 요약 파이프라인과 일부 중복된다. 다만 실시간 전사와 화자 분리, 회의 노트 UX가 핵심 차별점이다. 에이전트 관제·작업 위임 자체를 대체하지는 못하므로 독립 도입보다는 회의/음성 입력 보조 모듈로 보는 편이 맞다."
+}

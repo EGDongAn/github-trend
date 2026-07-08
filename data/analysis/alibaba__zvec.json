@@ -1,0 +1,15 @@
+{
+  "fullName": "alibaba/zvec",
+  "analyzedAt": "2026-07-08T23:00:48.671Z",
+  "repoMeta": {
+    "stars": 14375,
+    "language": "C++",
+    "description": "A lightweight, lightning-fast, in-process vector database"
+  },
+  "relevance": "high",
+  "category": "로컬 RAG/벡터DB/에이전트 메모리",
+  "summary": "경량 인프로세스 벡터 데이터베이스. 로컬 프로세스에 직접 임베드되어 서버 운영 없이 벡터 검색, 하이브리드 검색, FTS, WAL 영속성, DiskANN 기반 대용량 검색을 제공한다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감 방향과 잘 맞는다. Mac mini에서 Paperclip/OpenClaw/에이전트 메모리/RAG 저장소로 붙이면 외부 벡터DB나 별도 서버 의존을 줄일 수 있다. C++ 코어와 Python/Node/Go/Rust SDK도 현재 자동화 스택과 연결성이 좋다.",
+  "integration": "우선 Python SDK로 작은 RAG/agent-memory PoC를 만든다. Paperclip 작업 이력, 코드베이스 요약, 텔레그램 지시 로그를 임베딩해 로컬 컬렉션으로 저장하고, Ollama 임베딩 모델과 조합한다. 성능·안정성이 확인되면 OpenClaw 또는 내부 MCP 서버의 검색 백엔드로 감싼다.",
+  "overlaps": "Open WebUI/OpenClaw의 내장 RAG 기능과 일부 겹칠 수 있으나, zvec은 독립 로컬 벡터 저장소 계층이라 대체보다 공통 인프라로 쓰는 편이 적합하다. Ollama/mlx-lm은 추론 계층이라 직접 중복은 없다."
+}

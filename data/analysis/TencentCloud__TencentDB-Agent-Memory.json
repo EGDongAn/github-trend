@@ -1,0 +1,15 @@
+{
+  "fullName": "TencentCloud/TencentDB-Agent-Memory",
+  "analyzedAt": "2026-07-08T23:00:27.860Z",
+  "repoMeta": {
+    "stars": 7601,
+    "language": "TypeScript",
+    "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies."
+  },
+  "relevance": "high",
+  "category": "로컬 에이전트 메모리/RAG·컨텍스트 압축",
+  "summary": "AI 에이전트용 완전 로컬 장기 메모리와 단기 컨텍스트 오프로딩을 제공하는 TypeScript 플러그인이다. SQLite/sqlite-vec 기반, 외부 API 의존 없음, OpenClaw와 Hermes 통합을 이미 지원하므로 EG AI GROUP OS의 로컬 우선·비용 절감·에이전트 지속 기억 요구에 잘 맞는다.",
+  "fit": "명확히 적합하다. 현재 스택에 OpenClaw와 Hermes가 있고, 반복 SOP·프로젝트 배경·사용자 선호·장기 작업 로그를 에이전트가 재사용하는 계층형 메모리는 기존 자동화 스택의 공백에 가깝다. 특히 토큰 사용량 절감과 tool log 오프로딩은 Claude Code/codex 장기 작업 운영에도 응용 가치가 크다.",
+  "integration": "1차로 OpenClaw 플러그인으로 로컬 SQLite 백엔드만 활성화해 파일/DB 저장 위치, 개인정보 잔존, 검색 품질을 검증한다. 2차로 기존 Hermes에 memory_tencentdb provider를 붙여 텔레그램 대화/작업 맥락의 장기 기억을 실험한다. 이후 Paperclip 워커별 메모리 네임스페이스, cmux 세션 로그 오프로딩, PARA 메모리와의 동기화 여부를 설계한다.",
+  "overlaps": "OpenClaw의 기존 메모리/플러그인 체계, PARA 파일 메모리, Claude Code 스킬/SOP 저장과 일부 겹친다. 다만 단순 지식 저장이 아니라 에이전트 실행 로그 압축, 계층형 장기 기억, OpenClaw/Hermes 직접 통합이 차별점이다. Paperclip을 대체하기보다는 워커 기억 계층으로 보강하는 성격이 강하다."
+}

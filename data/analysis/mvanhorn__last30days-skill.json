@@ -1,0 +1,15 @@
+{
+  "fullName": "mvanhorn/last30days-skill",
+  "analyzedAt": "2026-07-08T23:00:27.769Z",
+  "repoMeta": {
+    "stars": 50712,
+    "language": "Python",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+  },
+  "relevance": "medium",
+  "category": "리서치 자동화 / 에이전트 스킬",
+  "summary": "Reddit, X, YouTube, HN, Polymarket, 웹을 가로질러 최근 30일 맥락을 조사하고 근거 기반 요약을 만드는 AI 에이전트용 Python 스킬이다.",
+  "fit": "EG AI GROUP OS의 코딩/운영 에이전트가 외부 트렌드, 여론, 시장 신호를 빠르게 수집하는 데 유용하다. 특히 GitHub 트렌드 평가, 제품 리서치, 의사결정 브리핑 자동화에는 맞지만, 핵심 오케스트레이션·로컬 LLM·보안 인프라 공백을 직접 메우지는 않는다.",
+  "integration": "Claude Code/Codex 스킬 또는 Paperclip 워커의 리서치 단계로 붙이는 방식이 적합하다. Hermes 텔레그램 명령으로 특정 주제 리서치를 요청하고, 결과를 Paperclip 이슈나 그룹 채팅에 요약 전송하는 보조 도구로 통합할 수 있다.",
+  "overlaps": "기존 Claude Code 스킬, MCP 브라우징/검색 도구, n8n 리서치 워크플로와 부분 중복된다. 다만 여러 커뮤니티/시장 소스를 한 번에 묶어 최근 신호를 합성하는 목적형 스킬이라는 점은 차별점이다."
+}

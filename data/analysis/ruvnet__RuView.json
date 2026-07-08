@@ -1,0 +1,15 @@
+{
+  "fullName": "ruvnet/RuView",
+  "analyzedAt": "2026-07-08T23:00:27.192Z",
+  "repoMeta": {
+    "stars": 79101,
+    "language": "Rust",
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+  },
+  "relevance": "low",
+  "category": "WiFi 센싱/공간 인식·존재 감지",
+  "summary": "카메라 없이 상용 WiFi 신호로 공간 인식, 생체 신호 모니터링, 존재 감지를 하는 Rust 기반 도구로 보인다. 다만 EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 시크릿 격리와는 직접 관련이 약하다.",
+  "fit": "로컬 우선·프라이버시 친화 센싱이라는 점은 일부 맞지만, 현재 스택의 명확한 공백을 메우지는 않는다. 사무실/홈랩의 사람 존재 여부를 자동화 트리거로 쓰는 정도의 주변 기능 후보에 가깝다.",
+  "integration": "Mac mini 주변 WiFi 환경에서 동작 가능성이 확인되면 존재 감지 이벤트를 n8n, Hermes, tg-proxy로 보내 자동화 트리거로 연결할 수 있다. 예: 사람 감지 시 에이전트 작업 알림 모드 변경, 야간 보안 알림, 로컬 상태 대시보드 입력.",
+  "overlaps": "현재 보유한 Paperclip, cmux, Claude Code, Ollama, MCP, Vault 계층과 기능 중복은 거의 없다. 다만 워치독/옵저버빌리티 자동화의 입력 신호로만 부분적으로 접점이 있다."
+}

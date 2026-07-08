@@ -1,0 +1,15 @@
+{
+  "fullName": "dotnet/skills",
+  "analyzedAt": "2026-07-08T23:01:14.013Z",
+  "repoMeta": {
+    "stars": 4422,
+    "language": "C#",
+    "description": "Repository for skills to assist AI coding agents with .NET and C#"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / .NET 스킬 라이브러리",
+  "summary": "AI 코딩 에이전트가 .NET/C# 작업을 더 잘 수행하도록 돕는 스킬 저장소다. 특정 언어 생태계에 특화된 지식·워크플로 보강용이며, 범용 오케스트레이션이나 로컬 LLM 인프라는 아니다.",
+  "fit": "EG AI GROUP OS의 Claude Code/codex 스킬 기반 워크플로와 방향은 맞지만, 가치가 .NET/C# 프로젝트를 자주 다룰 때로 제한된다. 현재 스택의 핵심 공백을 메우기보다는 특정 개발 도메인 품질을 올리는 보조 자산에 가깝다.",
+  "integration": "Claude Code 또는 codex 스킬 체계에 .NET/C# 전용 스킬을 참고·이식해 코드 리뷰, 테스트, 마이그레이션, 패키징 작업 프롬프트/체크리스트로 활용. Paperclip 워커 중 .NET 담당 에이전트에만 선택적으로 적용하는 방식이 적합하다.",
+  "overlaps": "이미 Claude Code 스킬 200+와 codex 기반 개발 자동화가 있으므로 큰 틀에서는 중복이다. 다만 .NET/C# 특화성이 기존 스킬보다 높다면 부분 업그레이드 후보가 될 수 있다."
+}

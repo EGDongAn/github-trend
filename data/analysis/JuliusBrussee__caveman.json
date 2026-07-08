@@ -1,0 +1,15 @@
+{
+  "fullName": "JuliusBrussee/caveman",
+  "analyzedAt": "2026-07-08T23:01:16.229Z",
+  "repoMeta": {
+    "stars": 86799,
+    "language": "JavaScript",
+    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / Claude Code 스킬",
+  "summary": "Claude Code 응답을 극단적으로 압축해 토큰 사용량을 줄이는 유틸리티성 스킬이다. 로컬 우선·비용 절감 가치와는 맞지만, 오케스트레이션이나 실행 능력을 확장하는 핵심 인프라는 아니다.",
+  "fit": "토큰 비용 절감과 장시간 에이전트 운용 효율화에는 직접적인 이점이 있다. 다만 품질 저하, 지시 누락, 디버깅 가독성 저하 위험이 있어 기본 모드보다는 저위험 요약·반복 보고·로그성 응답에 제한 적용하는 후보가 적절하다.",
+  "integration": "Claude Code 스킬로 설치해 특정 작업 유형에서만 활성화. 예: cron 상태 보고, Paperclip 작업 요약, cmux 세션 요약, 텔레그램 알림 초안처럼 정확한 코드 작성보다 짧은 커뮤니케이션이 중요한 경로에 선택 적용.",
+  "overlaps": "Claude Code 스킬 체계와 직접 중복되며, 기존 실행 엔진 자체를 대체하지 않는다. Paperclip/cmux/Hermes와 기능 중복은 거의 없고, 토큰 절감 보조 레이어에 가깝다."
+}

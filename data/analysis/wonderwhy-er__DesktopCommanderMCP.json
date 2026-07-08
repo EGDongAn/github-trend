@@ -1,0 +1,15 @@
+{
+  "fullName": "wonderwhy-er/DesktopCommanderMCP",
+  "analyzedAt": "2026-07-08T23:00:46.927Z",
+  "repoMeta": {
+    "stars": 6363,
+    "language": "TypeScript",
+    "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities"
+  },
+  "relevance": "medium",
+  "category": "MCP 서버 / 로컬 개발 자동화",
+  "summary": "Claude에 터미널 제어, 파일 검색, diff 기반 파일 편집을 제공하는 MCP 서버. 로컬 우선 자동화와 코딩 에이전트 워크플로에는 잘 맞지만, 현재 스택의 Claude Code/codex exec/hooks/MCP가 이미 상당 부분 같은 기능을 제공한다.",
+  "fit": "로컬 파일시스템과 터미널을 MCP로 노출한다는 점은 EG AI GROUP OS의 로컬 우선, 에이전트 실행 자동화 방향과 부합한다. 특히 Claude Desktop이나 MCP 클라이언트에서 가벼운 로컬 작업 실행 권한을 주고 싶을 때 유용하다.",
+  "integration": "기존 MCP 레이어에 추가 서버로 붙여 Claude Desktop 또는 Claude Code 보조 도구로 테스트 가능. 우선 읽기/검색/제한된 디렉터리 편집 권한만 부여하고, vault sidecar의 시크릿 경계와 충돌하지 않도록 접근 경로를 강하게 제한해야 한다.",
+  "overlaps": "Claude Code CLI, codex exec, 기존 MCP filesystem/playwright/context7, cmux 기반 세션 제어와 기능 중복이 크다. Paperclip/cmux 같은 멀티에이전트 관제 공백을 메우지는 않으며, 도입 가치는 '새 핵심 컴포넌트'보다 특정 MCP 클라이언트용 로컬 터미널/편집 어댑터에 가깝다."
+}

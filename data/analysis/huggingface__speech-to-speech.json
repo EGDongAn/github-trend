@@ -1,0 +1,15 @@
+{
+  "fullName": "huggingface/speech-to-speech",
+  "analyzedAt": "2026-07-08T23:01:14.807Z",
+  "repoMeta": {
+    "stars": 5699,
+    "language": "Python",
+    "description": "Build local voice agents with open-source models"
+  },
+  "relevance": "medium",
+  "category": "로컬 음성 에이전트 / Speech-to-Speech 추론",
+  "summary": "오픈소스 모델로 로컬 음성 에이전트를 만드는 Python 프로젝트. EG AI GROUP OS의 로컬 우선·비용 절감 방향과 맞고, 텔레그램/개인 AI 비서/에이전트 인터페이스에 음성 입출력을 붙이는 후보가 될 수 있다.",
+  "fit": "핵심 오케스트레이션 공백을 메우는 도구는 아니지만, 현재 스택에 명시된 음성 인터페이스 계층은 약하다. OpenClaw, Hermes, 로컬 LLM과 결합하면 로컬 음성 명령·응답 파이프라인을 만들 수 있어 보조 기능으로 유용하다.",
+  "integration": "Ollama/로컬 LLM 백엔드와 연결해 음성 입력→텍스트→에이전트 명령→음성 응답 흐름을 구성. Hermes 텔레그램 게이트웨이에는 음성 메시지 처리 보강으로, OpenClaw에는 로컬 음성 비서 기능으로 붙일 수 있다. Mac mini에서 모델 성능·지연시간·메모리 사용량 검증이 필요하다.",
+  "overlaps": "OpenClaw의 개인 AI 비서 역할과 일부 겹치지만, 이 repo는 음성-음성 파이프라인에 특화되어 보완 성격이 강하다. Paperclip/cmux/Claude Code를 대체하지 않으며, 로컬 LLM 서빙 자체보다는 음성 에이전트 애플리케이션 레이어에 가깝다."
+}

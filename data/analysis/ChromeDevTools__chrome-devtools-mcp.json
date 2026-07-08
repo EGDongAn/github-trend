@@ -1,0 +1,15 @@
+{
+  "fullName": "ChromeDevTools/chrome-devtools-mcp",
+  "analyzedAt": "2026-07-08T23:01:33.781Z",
+  "repoMeta": {
+    "stars": 46380,
+    "language": "TypeScript",
+    "description": "Chrome DevTools for coding agents"
+  },
+  "relevance": "high",
+  "category": "MCP 서버 / 코딩 에이전트 개발 자동화",
+  "summary": "코딩 에이전트가 실시간 Chrome 인스턴스를 제어·검사하게 해주는 공식 Chrome DevTools MCP 서버. 콘솔, 네트워크, 스크린샷, 성능 trace, Puppeteer 기반 자동화를 제공한다.",
+  "fit": "로컬 macOS 기반 Claude Code/Codex 워크플로와 직접 맞는다. 프론트엔드 디버깅, 웹앱 회귀 확인, 성능 분석을 에이전트가 스스로 수행하게 만들어 개발 자동화 품질을 높인다.",
+  "integration": "Claude Code와 Codex MCP에 `npx -y chrome-devtools-mcp@latest`로 추가. 기본 telemetry/update check는 `--no-usage-statistics`, `CHROME_DEVTOOLS_MCP_NO_UPDATE_CHECKS`, 필요 시 `--no-performance-crux`로 꺼서 로컬 우선 원칙에 맞춘다. Paperclip 워커나 cmux 세션별로 브라우저 포트를 분리해 연결하면 좋다.",
+  "overlaps": "playwright MCP와 브라우저 자동화 영역은 겹친다. 다만 이 repo는 Chrome DevTools 기반 콘솔·네트워크·성능 trace 분석에 강해 단순 대체보다 보강 성격이 크다. 민감한 브라우저 세션 내용을 MCP 클라이언트에 노출하므로 vault/격리 정책과 함께 써야 한다."
+}

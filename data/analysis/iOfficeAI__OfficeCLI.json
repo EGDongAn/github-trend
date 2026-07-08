@@ -1,0 +1,15 @@
+{
+  "fullName": "iOfficeAI/OfficeCLI",
+  "analyzedAt": "2026-07-08T23:00:47.202Z",
+  "repoMeta": {
+    "stars": 11695,
+    "language": "C#",
+    "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required."
+  },
+  "relevance": "medium",
+  "category": "개발 자동화 / 문서 자동화 도구",
+  "summary": "AI 에이전트가 Word, Excel, PowerPoint 파일을 Office 설치 없이 읽고 수정·자동화할 수 있게 하는 단일 바이너리 CLI 도구다. 로컬 우선, 오픈소스, 에이전트 친화적 파일 조작이라는 점은 EG AI GROUP OS와 잘 맞는다.",
+  "fit": "문서 기반 업무 자동화가 있는 경우 유용하다. Telegram/Paperclip/Claude Code 작업자가 보고서, 스프레드시트, 프레젠테이션을 직접 읽고 편집하는 능력을 얻을 수 있어 운영 자동화 범위를 넓힌다. 다만 핵심 우선순위인 멀티에이전트 오케스트레이션, 로컬 LLM, 보안 인프라의 직접 업그레이드는 아니다.",
+  "integration": "Claude Code/codex exec 또는 Paperclip 워커에서 OfficeCLI 바이너리를 호출해 첨부 문서 분석, Excel 값 수정, PPT/Word 보고서 생성 작업을 자동화한다. Hermes로 받은 Office 파일을 로컬 저장소에 격리한 뒤 CLI로 처리하고 결과물을 다시 tg-proxy/Hermes로 전송하는 흐름이 적합하다.",
+  "overlaps": "OpenClaw나 Claude Code가 텍스트/코드 파일은 처리하지만 Office 바이너리 문서 조작은 약하다. Google Drive/MCP와 일부 문서 접근 영역은 겹칠 수 있으나, Office 설치 없는 로컬 CLI 편집 기능은 보완적이다. n8n 문서 자동화 노드와도 일부 중복되지만 로컬 에이전트 실행에 더 적합하다."
+}

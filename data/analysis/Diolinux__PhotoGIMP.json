@@ -1,0 +1,15 @@
+{
+  "fullName": "Diolinux/PhotoGIMP",
+  "analyzedAt": "2026-07-08T23:00:38.942Z",
+  "repoMeta": {
+    "stars": 15000,
+    "language": "CSS",
+    "description": "A Patch for GIMP 3+ for Photoshop Users"
+  },
+  "relevance": "none",
+  "category": "이미지 편집 UI 패치",
+  "summary": "GIMP 3+를 Photoshop 사용자에게 익숙하게 보이도록 키맵, 레이아웃, 테마 등을 조정하는 패치다.",
+  "fit": "EG AI GROUP OS의 핵심 영역인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안/격리, 워크플로 자동화와 직접 관련이 없다. macOS 로컬 도구라는 점은 맞지만 운영 AI 스택의 기능 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 실질적 중복은 없다. 다만 도입하더라도 개인 이미지 편집 환경 개선에 그치며 Paperclip, cmux, Claude Code, n8n, Ollama 등과 연결 가치가 거의 없다."
+}

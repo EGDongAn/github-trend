@@ -1,0 +1,15 @@
+{
+  "fullName": "huxingyi/autoremesher",
+  "analyzedAt": "2026-07-08T23:00:48.458Z",
+  "repoMeta": {
+    "stars": 1977,
+    "language": "C++",
+    "description": "Automatic quad remeshing tool"
+  },
+  "relevance": "none",
+  "category": "3D 모델링/메시 처리 도구",
+  "summary": "huxingyi/autoremesher는 3D 메시를 자동으로 quad remeshing하는 C++ 기반 그래픽/모델링 도구다.",
+  "fit": "EG AI GROUP OS의 핵심 영역인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안 격리, 워크플로 자동화와 직접적인 접점이 없다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 기능 중복은 거의 없지만, 필요한 운영 자동화 기능도 제공하지 않는다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "prisma/prisma",
+  "analyzedAt": "2026-07-08T23:00:17.757Z",
+  "repoMeta": {
+    "stars": 46530,
+    "language": "TypeScript",
+    "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
+  },
+  "relevance": "low",
+  "category": "데이터베이스 ORM / TypeScript 백엔드 개발 도구",
+  "summary": "Prisma는 Node.js/TypeScript용 성숙한 ORM으로 PostgreSQL, MySQL, SQLite, MongoDB 등 여러 DB를 타입 안전하게 다룰 수 있게 한다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리에는 직접 기여하지 않는다.",
+  "fit": "Paperclip, Hermes, OpenClaw 같은 TypeScript/Node 기반 서비스에서 DB 접근 계층을 정리하거나 새 내부 도구를 만들 때는 유용하다. 다만 현재 스택의 핵심 공백을 메우는 도구는 아니며, 운영 자동화나 멀티에이전트 능력을 강화하지 않는다.",
+  "integration": "기존 Node.js 서비스에 Prisma Client와 schema.prisma를 추가해 DB 모델을 타입 안전하게 관리. PostgreSQL/SQLite 기반 내부 서비스의 마이그레이션과 쿼리 계층 표준화 용도로 제한적으로 적용 가능.",
+  "overlaps": "Paperclip의 임베디드 PG 등 기존 데이터 저장 계층과 일부 접점은 있으나 대체 대상은 아니다. ORM 도입은 애플리케이션 코드 수정 비용이 크고, 이미 각 서비스가 자체 DB 접근 방식을 갖고 있다면 단순 중복 가능성이 높다."
+}

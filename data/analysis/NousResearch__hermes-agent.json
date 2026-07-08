@@ -1,0 +1,15 @@
+{
+  "fullName": "NousResearch/hermes-agent",
+  "analyzedAt": "2026-07-08T23:01:33.766Z",
+  "repoMeta": {
+    "stars": 211552,
+    "language": "Python",
+    "description": "The agent that grows with you"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트/개인 AI OS/멀티에이전트 오케스트레이션",
+  "summary": "로컬/원격 실행, 메시징 게이트웨이, cron 자동화, 서브에이전트 병렬화, 스킬/메모리 루프를 갖춘 범용 AI 에이전트 런타임이다. EG AI GROUP OS의 핵심 축과 거의 정면으로 맞닿는다.",
+  "fit": "단순 앱이 아니라 Claude Code, OpenClaw, Hermes, cmux/Paperclip 일부 기능을 묶는 상위 에이전트 셸 후보다. 특히 Telegram/Discord/Slack 게이트웨이, 자체 스킬 생성, 세션 검색/메모리, Docker/SSH/로컬 백엔드는 로컬 우선 운영 자동화와 잘 맞는다.",
+  "integration": "우선 별도 샌드박스에서 보조 에이전트로 붙여 Telegram gateway, cron, subagent 기능만 검증한다. 기존 Hermes/tg-proxy와 충돌 가능성이 커서 즉시 대체보다 Paperclip 워커 또는 cmux 작업실 안의 실행 엔진 후보로 제한 도입하는 편이 낫다.",
+  "overlaps": "Claude Code의 CLI/스킬/MCP, 현재 Hermes 텔레그램 게이트웨이, Paperclip의 위임/워커, cmux의 멀티세션 관제, OpenClaw 개인 비서 영역과 크게 겹친다. 도입 가치는 통합도와 자체 학습 루프가 실제로 기존 조합보다 운영 부담을 줄이는지에 달려 있다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "argoproj/argo-cd",
+  "analyzedAt": "2026-07-08T23:00:36.255Z",
+  "repoMeta": {
+    "stars": 23416,
+    "language": "Go",
+    "description": "Declarative Continuous Deployment for Kubernetes"
+  },
+  "relevance": "medium",
+  "category": "CI/CD·GitOps·Kubernetes 배포 자동화",
+  "summary": "Kubernetes 대상 선언형 CD/GitOps 도구. EG OS가 Docker/n8n/Vercel/GitHub Actions 중심이고 Mac mini 로컬 운영이라면 즉시 핵심 공백은 아니지만, 향후 K8s 기반 셀프호스팅으로 확장할 때 배포 표준화와 롤백·동기화 관제에 가치가 있다.",
+  "fit": "로컬 우선·자동화 가치와는 맞지만 Kubernetes 전제가 강하다. 현재 스택의 핵심인 에이전트 오케스트레이션, 로컬 LLM, 텔레그램 게이트웨이, 비밀 격리에는 직접 기여하지 않는다.",
+  "integration": "K3s/kind 같은 로컬 또는 홈서버 Kubernetes를 도입할 경우 GitHub repo를 단일 선언 소스로 두고 n8n, Paperclip, Hermes, vault sidecar 등의 매니페스트를 Argo CD Application으로 관리한다. GitHub Actions는 이미지 빌드까지만 담당하고 배포는 Argo CD가 pull 방식으로 수행하게 분리할 수 있다.",
+  "overlaps": "GitHub Actions/Vercel과 일부 배포 자동화 영역이 겹치지만 대상이 다르다. 현재 Docker/LaunchAgent 기반 운영에는 과한 선택일 수 있으며, Kubernetes를 운영하지 않는다면 도입 비용이 효익보다 크다."
+}
