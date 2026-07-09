@@ -1,0 +1,15 @@
+{
+  "fullName": "steipete/CodexBar",
+  "analyzedAt": "2026-07-09T23:00:51.902Z",
+  "repoMeta": {
+    "stars": 17349,
+    "language": "Swift",
+    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login."
+  },
+  "relevance": "medium",
+  "category": "개발 자동화/옵저버빌리티 보조 도구",
+  "summary": "OpenAI Codex와 Claude Code 사용량을 macOS 메뉴바에서 확인하는 Swift 앱. 에이전트 실행 자체를 개선하지는 않지만, 로컬 Mac 기반 운영 환경에서 비용·사용량 감시 보조 수단으로 쓸 수 있다.",
+  "fit": "EG AI GROUP OS의 핵심 공백을 메우는 도구는 아니다. 다만 Claude Code/codex exec 사용량을 빠르게 확인해 비용 통제와 운영 가시성을 높이는 가벼운 보조 도구로는 적합하다. macOS 네이티브 앱이라는 점은 Mac mini 로컬 운영과 잘 맞는다.",
+  "integration": "Mac mini에 메뉴바 앱으로 설치해 Codex/Claude Code 사용량 모니터링 용도로만 제한 도입. n8n, Paperclip, tg-proxy와 직접 연동되는 운영 컴포넌트라기보다 사람이 보는 로컬 관제 보조 화면으로 배치하는 것이 적절하다.",
+  "overlaps": "Claude Code, codex exec, cmux, Paperclip의 실행·관제 기능과는 직접 중복되지 않는다. 다만 기존 비용/로그 모니터링 체계가 있다면 표시 계층만 추가하는 중복이 될 수 있으며, 자동화·알림·오케스트레이션 기능은 기대하기 어렵다."
+}

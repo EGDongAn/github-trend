@@ -1,0 +1,15 @@
+{
+  "fullName": "vxcontrol/pentagi",
+  "analyzedAt": "2026-07-09T23:00:31.715Z",
+  "repoMeta": {
+    "stars": 19355,
+    "language": "Go",
+    "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks"
+  },
+  "relevance": "medium",
+  "category": "보안 자동화 / 자율 에이전트 / 침투 테스트",
+  "summary": "PentAGI는 복잡한 침투 테스트 작업을 자율 AI 에이전트로 수행하는 Go 기반 시스템이다. 보안 평가 자동화, 공격 시나리오 실행, 취약점 탐색 워크플로에 초점이 있어 EG AI GROUP OS의 멀티에이전트·보안 자동화 방향과는 맞지만, 범용 운영 자동화보다는 offensive security 특화 도구다.",
+  "fit": "보안/격리, 에이전트 오케스트레이션, 자동화 우선순위와 부분적으로 부합한다. 로컬 또는 셀프호스팅 가능성이 있다면 내부 레드팀/자가 보안 점검 에이전트로 가치가 크지만, 현재 스택의 핵심 공백을 직접 메우기보다는 특수 목적 보강에 가깝다.",
+  "integration": "Paperclip 작업 큐에서 보안 점검 태스크를 PentAGI 워커로 위임하거나, n8n/cron으로 정기 보안 점검을 트리거하는 방식이 적합하다. Vault sidecar로 API 키와 타깃 접근 권한을 격리하고, 결과는 Telegram/Hermes 또는 Paperclip 이슈로 회수하는 구조가 좋다.",
+  "overlaps": "Paperclip/cmux의 범용 멀티에이전트 관제와 일부 겹치지만 대체재라기보다 보안 테스트 전문 에이전트 실행기로 보는 것이 맞다. 기존 Claude Code/codex exec와도 자동화 역할은 겹치나, 침투 테스트 도메인 특화 플래닝·툴체인이 차별점이다."
+}

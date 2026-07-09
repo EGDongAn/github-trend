@@ -119,5 +119,71 @@
     "stars": 9473,
     "category": "AI 게이트웨이/코딩 에이전트 라우터",
     "summary": "Claude Code, Codex, Cursor 등 코딩 에이전트를 단일 엔드포인트로 여러 AI provider에 연결하고, 무료/저비용 모델 라우팅·fallback·토큰 압축을 제공하는 게이트웨이. 비용 절감과 코딩 에이전트 워크플로 강화 측면에서 EG AI GROUP OS와 직접 맞닿는다."
+  },
+  {
+    "date": "2026-07-09",
+    "sentAt": "2026-07-09T23:00:53.181Z",
+    "fullName": "openai/codex-plugin-cc",
+    "owner": "openai",
+    "name": "codex-plugin-cc",
+    "url": "https://github.com/openai/codex-plugin-cc",
+    "stars": 27152,
+    "category": "코딩 에이전트 연동 / Claude Code 확장",
+    "summary": "Claude Code 안에서 Codex를 호출해 코드 리뷰나 작업 위임을 할 수 있게 하는 플러그인이다. EG AI GROUP OS의 핵심 실행 엔진인 Claude Code와 codex exec 활용 전략을 직접 연결한다."
+  },
+  {
+    "date": "2026-07-09",
+    "sentAt": "2026-07-09T23:00:53.181Z",
+    "fullName": "ChromeDevTools/chrome-devtools-mcp",
+    "owner": "ChromeDevTools",
+    "name": "chrome-devtools-mcp",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "stars": 46380,
+    "category": "MCP 서버 / 코딩 에이전트 개발 자동화",
+    "summary": "코딩 에이전트가 실시간 Chrome 인스턴스를 제어·검사하게 해주는 공식 Chrome DevTools MCP 서버. 콘솔, 네트워크, 스크린샷, 성능 trace, Puppeteer 기반 자동화를 제공한다."
+  },
+  {
+    "date": "2026-07-09",
+    "sentAt": "2026-07-09T23:00:53.181Z",
+    "fullName": "TencentCloud/CubeSandbox",
+    "owner": "TencentCloud",
+    "name": "CubeSandbox",
+    "url": "https://github.com/TencentCloud/CubeSandbox",
+    "stars": 9318,
+    "category": "보안/격리, 에이전트 실행 샌드박스",
+    "summary": "AI 에이전트가 코드를 실행할 때 필요한 즉시 생성형 경량 샌드박스. Rust 기반이고 동시 실행, 보안 격리, 낮은 오버헤드를 강조하므로 로컬 Mac mini 운영 스택의 에이전트 실행 안전성을 강화하는 데 직접 관련 있다."
+  },
+  {
+    "date": "2026-07-09",
+    "sentAt": "2026-07-09T23:00:53.181Z",
+    "fullName": "NousResearch/hermes-agent",
+    "owner": "NousResearch",
+    "name": "hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "stars": 212179,
+    "category": "코딩 에이전트/개인 AI OS/멀티에이전트 오케스트레이션",
+    "summary": "로컬/원격 실행, 메시징 게이트웨이, cron 자동화, 서브에이전트 병렬화, 스킬/메모리 루프를 갖춘 범용 AI 에이전트 런타임이다. EG AI GROUP OS의 핵심 축과 거의 정면으로 맞닿는다."
+  },
+  {
+    "date": "2026-07-09",
+    "sentAt": "2026-07-09T23:00:53.181Z",
+    "fullName": "alibaba/zvec",
+    "owner": "alibaba",
+    "name": "zvec",
+    "url": "https://github.com/alibaba/zvec",
+    "stars": 14375,
+    "category": "로컬 RAG/벡터DB/에이전트 메모리",
+    "summary": "경량 인프로세스 벡터 데이터베이스. 로컬 프로세스에 직접 임베드되어 서버 운영 없이 벡터 검색, 하이브리드 검색, FTS, WAL 영속성, DiskANN 기반 대용량 검색을 제공한다."
+  },
+  {
+    "date": "2026-07-09",
+    "sentAt": "2026-07-09T23:00:53.181Z",
+    "fullName": "TencentCloud/TencentDB-Agent-Memory",
+    "owner": "TencentCloud",
+    "name": "TencentDB-Agent-Memory",
+    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "stars": 7601,
+    "category": "로컬 에이전트 메모리/RAG·컨텍스트 압축",
+    "summary": "AI 에이전트용 완전 로컬 장기 메모리와 단기 컨텍스트 오프로딩을 제공하는 TypeScript 플러그인이다. SQLite/sqlite-vec 기반, 외부 API 의존 없음, OpenClaw와 Hermes 통합을 이미 지원하므로 EG AI GROUP OS의 로컬 우선·비용 절감·에이전트 지속 기억 요구에 잘 맞는다."
   }
 ]

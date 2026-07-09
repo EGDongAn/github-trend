@@ -1,0 +1,15 @@
+{
+  "fullName": "kyutai-labs/pocket-tts",
+  "analyzedAt": "2026-07-09T23:00:40.082Z",
+  "repoMeta": {
+    "stars": 6955,
+    "language": "Python",
+    "description": "A TTS that fits in your CPU (and pocket)"
+  },
+  "relevance": "medium",
+  "category": "로컬 TTS/음성 합성",
+  "summary": "CPU에서 빠르게 동작하는 경량 TTS로, Python API/CLI/로컬 HTTP 서버, 스트리밍, 다국어, 보이스 클로닝을 제공한다. GPU나 외부 API 없이 Mac mini에서 음성 출력 기능을 붙일 수 있다는 점은 로컬 우선·비용 절감 가치와 맞다.",
+  "fit": "에이전트/텔레그램 알림을 음성 브리핑으로 변환하거나 OpenClaw 개인 비서에 로컬 음성 출력 레이어를 추가할 때 유용하다. 다만 핵심 공백인 오케스트레이션, 작업 위임, 코드 자동화, 보안 격리를 직접 강화하지는 않아 high는 아니다.",
+  "integration": "Hermes/tg-proxy 알림 파이프라인 뒤에 로컬 TTS 서버로 붙여 긴 작업 완료 보고를 음성 파일로 생성하거나, OpenClaw의 로컬 음성 응답 백엔드로 사용. Mac mini에서는 `pocket-tts serve`를 LaunchAgent로 띄우고 내부 localhost API만 노출하는 방식이 적합하다.",
+  "overlaps": "Ollama/mlx-lm은 텍스트 추론 계층이라 직접 중복은 거의 없다. OpenClaw가 이미 음성 기능을 갖고 있다면 TTS 백엔드 대체/업그레이드 후보이며, 클라우드 TTS나 macOS 내장 음성보다 자연도·보이스 클로닝 면에서 보강 가능성이 있다."
+}

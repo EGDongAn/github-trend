@@ -1,0 +1,15 @@
+{
+  "fullName": "VoltAgent/awesome-design-md",
+  "analyzedAt": "2026-07-09T23:00:18.151Z",
+  "repoMeta": {
+    "stars": 99591,
+    "language": null,
+    "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 UI 가이드/디자인 시스템 프롬프트",
+  "summary": "인기 브랜드 디자인 시스템의 DESIGN.md 분석 모음으로, 코딩 에이전트가 프로젝트 UI를 특정 디자인 톤에 맞춰 생성하도록 돕는 참고 자료다.",
+  "fit": "EG AI GROUP OS의 핵심인 오케스트레이션, 로컬 LLM, 보안, 자동화 공백을 직접 메우지는 않는다. 다만 Claude Code/codex 기반 개발 자동화에서 프론트엔드 산출물 품질과 일관성을 높이는 보조 도구로는 유용하다.",
+  "integration": "Claude Code/codex 스킬 또는 프로젝트 템플릿에 DESIGN.md를 포함해 UI 생성 작업의 기본 컨텍스트로 주입. Paperclip 작업 유형 중 프론트엔드 구현 태스크에 디자인 가이드 선택 옵션으로 붙일 수 있다.",
+  "overlaps": "기존 실행 엔진이나 Paperclip/cmux와 기능 중복은 거의 없다. 다만 디자인 시스템 자체를 제공하는 것이 아니라 에이전트용 참고 문서 모음이므로, 기존 프롬프트/스킬 관리 체계에 흡수되는 보조 자료 성격이 강하다."
+}

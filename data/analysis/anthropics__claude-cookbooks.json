@@ -1,0 +1,15 @@
+{
+  "fullName": "anthropics/claude-cookbooks",
+  "analyzedAt": "2026-07-09T23:00:19.683Z",
+  "repoMeta": {
+    "stars": 47125,
+    "language": "Jupyter Notebook",
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+  },
+  "relevance": "medium",
+  "category": "Claude 활용 레시피/개발 자동화 참고자료",
+  "summary": "Claude API와 Claude 활용 패턴을 보여주는 노트북/레시피 모음이다. 직접 실행 엔진이나 오케스트레이터는 아니지만, 에이전트 설계, 도구 사용, RAG, 평가, 프롬프트 패턴을 참고해 기존 Claude Code·Paperclip 워크플로를 개선하는 데 쓸 수 있다.",
+  "fit": "로컬 우선 인프라 자체를 강화하지는 않지만, 이미 Claude Code를 핵심 실행 엔진으로 쓰는 스택에는 실무 패턴 학습 자료로 적합하다. 다만 Jupyter Notebook 중심 예제라 운영 컴포넌트로 바로 도입할 대상은 아니다.",
+  "integration": "레시피 중 도구 사용, 평가, RAG, 멀티턴 워크플로 관련 노트북을 선별해 Claude Code 스킬, Paperclip 에이전트 프롬프트, n8n 자동화 템플릿으로 변환한다. 실서비스 의존 컴포넌트가 아니라 내부 베스트프랙티스/실험 저장소로만 둔다.",
+  "overlaps": "Claude Code와 기능적으로 직접 중복되지는 않는다. 다만 이미 보유한 Claude 스킬/프롬프트 자산과 학습 자료 성격이 겹칠 수 있어, 전체 도입보다 필요한 패턴만 흡수하는 방식이 적절하다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "MadsLorentzen/ai-job-search",
+  "analyzedAt": "2026-07-09T23:00:20.805Z",
+  "repoMeta": {
+    "stars": 18815,
+    "language": "TypeScript",
+    "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / Claude Code 워크플로 템플릿",
+  "summary": "Claude Code를 기반으로 구직 공고 평가, 이력서·커버레터 맞춤 작성, 면접 준비를 자동화하는 개인 생산성 프레임워크다. 범용 에이전트 인프라보다는 특정 도메인 자동화 예제에 가깝다.",
+  "fit": "Claude Code 기반 워크플로, 프로필 파일, 문서 생성, 반복 평가 루프 등은 EG AI GROUP OS의 에이전트 자동화 운영 방식과 맞는다. 다만 핵심 대상이 채용 지원이라 Paperclip/cmux/Hermes/Vault 같은 운영 스택의 명확한 공백을 메우지는 않는다.",
+  "integration": "Claude Code 스킬/프로젝트 템플릿으로 흡수해 `개인 문서 기반 평가→맞춤 산출물 생성→검토 큐 등록` 패턴을 참고할 수 있다. Paperclip 태스크 템플릿이나 Hermes 명령으로 감싸면 특정 도메인 자동화 샘플로 재사용 가능하다.",
+  "overlaps": "Claude Code를 이미 보유하고 있어 실행 엔진은 중복이다. n8n/Paperclip으로도 유사한 문서 생성 워크플로를 구성할 수 있다. 도입 가치는 프레임워크 자체보다 Claude Code 프로젝트 구조와 프롬프트/파일 기반 자동화 패턴 참고에 있다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "unclecode/crawl4ai",
+  "analyzedAt": "2026-07-09T23:00:29.540Z",
+  "repoMeta": {
+    "stars": 71791,
+    "language": "Python",
+    "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN"
+  },
+  "relevance": "medium",
+  "category": "웹 크롤링/RAG 데이터 수집 도구",
+  "summary": "LLM/RAG용 웹 크롤러·스크레이퍼. 웹페이지를 마크다운/구조화 데이터로 추출해 에이전트나 로컬 RAG 파이프라인에 넣기 좋다.",
+  "fit": "로컬 우선·자동화·RAG 보강에는 잘 맞는다. EG OS의 핵심 실행/오케스트레이션 공백을 메우는 도구는 아니지만, 에이전트가 외부 웹 지식을 수집·정제하는 데이터 수집 계층으로 유용하다.",
+  "integration": "n8n 또는 Paperclip 작업에서 crawl4ai를 호출해 URL 수집→마크다운/JSON 추출→로컬 벡터DB/RAG 또는 에이전트 컨텍스트로 전달. Claude Code/codex 작업 전 리서치 자동화, 주기적 사이트 감시, 문서 수집 파이프라인에 붙일 수 있다.",
+  "overlaps": "brave/context7/playwright MCP와 일부 중복된다. 다만 검색/브라우저 자동화보다 LLM 친화적 크롤링·스크래핑·콘텐츠 정제에 특화되어 있어 보완재 성격이 강하다. 핵심 오케스트레이션 도구인 Paperclip/cmux를 대체하지는 않는다."
+}

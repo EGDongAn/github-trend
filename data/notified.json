@@ -9,5 +9,11 @@
   "stablyai/orca",
   "kunchenguid/no-mistakes",
   "usestrix/strix",
-  "diegosouzapw/OmniRoute"
+  "diegosouzapw/OmniRoute",
+  "openai/codex-plugin-cc",
+  "ChromeDevTools/chrome-devtools-mcp",
+  "TencentCloud/CubeSandbox",
+  "NousResearch/hermes-agent",
+  "alibaba/zvec",
+  "TencentCloud/TencentDB-Agent-Memory"
 ]

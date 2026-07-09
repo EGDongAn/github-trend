@@ -1,0 +1,15 @@
+{
+  "fullName": "saadeghi/daisyui",
+  "analyzedAt": "2026-07-09T23:00:43.202Z",
+  "repoMeta": {
+    "stars": 41521,
+    "language": "Svelte",
+    "description": "🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library"
+  },
+  "relevance": "none",
+  "category": "프론트엔드 UI 라이브러리 / Tailwind CSS 컴포넌트",
+  "summary": "daisyUI는 Tailwind CSS 기반 UI 컴포넌트 라이브러리로, 웹앱 화면을 빠르게 구성하는 데 쓰인다. EG AI GROUP OS의 핵심 축인 로컬 LLM, 에이전트 오케스트레이션, 자동화, MCP, 보안 격리와는 직접 관련이 없다.",
+  "fit": "현재 스택의 운영 자동화나 멀티에이전트 기능을 보강하지 않는다. Paperclip, Hermes, cmux, vault sidecar, n8n 같은 백엔드/운영 중심 도구와도 접점이 약하다.",
+  "integration": "-",
+  "overlaps": "일반 프론트엔드 UI 계층에서만 의미가 있으며, 기존 Vercel/웹 UI 작업에 선택적으로 쓸 수는 있다. 하지만 도입 적합성 기준상 단순 UI 라이브러리라 핵심 시스템과 무관하다."
+}
