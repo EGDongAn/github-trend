@@ -1,0 +1,15 @@
+{
+  "fullName": "oven-sh/bun",
+  "analyzedAt": "2026-07-10T23:00:17.398Z",
+  "repoMeta": {
+    "stars": 94183,
+    "language": "Rust",
+    "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one"
+  },
+  "relevance": "medium",
+  "category": "개발 런타임/빌드·패키지 도구",
+  "summary": "Bun은 JavaScript/TypeScript 런타임, 번들러, 테스트 러너, 패키지 매니저를 통합한 고성능 도구다. EG OS의 핵심인 에이전트 오케스트레이션이나 로컬 LLM에는 직접 해당하지 않지만, Paperclip/Hermes/n8n 주변의 JS 기반 자동화·도구 개발 속도를 높일 수 있다.",
+  "fit": "개발 자동화 도구 관점에서는 적합하다. 특히 Node 기반 스크립트, 봇, API 프록시, 내부 대시보드, 테스트 실행을 빠르게 만들 때 유용하다. 다만 현재 스택의 명확한 공백을 메우는 핵심 인프라는 아니므로 high는 아니다.",
+  "integration": "Node.js 기반 유틸리티나 Telegram/Hermes 보조 서비스, MCP 서버, 내부 CLI 스크립트의 런타임·패키지 매니저 후보로 제한 도입. 기존 npm/pnpm 프로젝트를 전면 교체하기보다 신규 경량 서비스나 성능 병목이 있는 JS 작업부터 실험.",
+  "overlaps": "Node.js/npm/pnpm, Vite/esbuild, Jest/Vitest와 겹친다. 기존 Claude Code/codex/Paperclip 자체를 대체하지는 않으며, 인프라 운영보다는 개발 생산성 보강 성격이다."
+}

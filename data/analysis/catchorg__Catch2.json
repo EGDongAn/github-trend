@@ -1,0 +1,15 @@
+{
+  "fullName": "catchorg/Catch2",
+  "analyzedAt": "2026-07-10T23:00:26.434Z",
+  "repoMeta": {
+    "stars": 20605,
+    "language": "C++",
+    "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+  },
+  "relevance": "low",
+  "category": "C++ 테스트 프레임워크 / 개발 품질 도구",
+  "summary": "Catch2는 C++14 이상용 단위 테스트, TDD, BDD 프레임워크다. C++ 코드베이스의 테스트 작성에는 성숙하고 유용하지만, EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리, 자동화 운영과 직접 연결되지는 않는다.",
+  "fit": "현재 스택에 C++ 기반 컴포넌트가 크지 않다면 도입 필요성은 낮다. 향후 Ollama/MLX 주변 네이티브 확장, 로컬 추론 서버, 시스템 데몬 등을 C++로 개발할 때 테스트 프레임워크 후보로만 의미가 있다.",
+  "integration": "C++ 서브프로젝트가 생길 경우 CMake/CTest에 Catch2를 붙여 유닛 테스트와 회귀 테스트를 구성한다. 기존 GitHub Actions에서 C++ 테스트 잡을 추가하는 정도가 적합하다.",
+  "overlaps": "Claude Code/codex 개발 워크플로를 직접 대체하지 않으며 Paperclip, cmux, Hermes, Vault, n8n과도 기능 중복은 거의 없다. 다만 일반적인 테스트 품질 도구라서 현재 OS 자동화 스택의 핵심 공백을 메우지는 않는다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "google-labs-code/stitch-skills",
+  "analyzedAt": "2026-07-10T23:00:39.696Z",
+  "repoMeta": {
+    "stars": 6715,
+    "language": "TypeScript",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor."
+  },
+  "relevance": "medium",
+  "category": "MCP/에이전트 스킬 라이브러리",
+  "summary": "Stitch MCP 서버와 함께 쓰는 Agent Skills 모음으로, Claude Code, Gemini CLI, Cursor 등 여러 코딩 에이전트와 호환되는 스킬 표준을 따른다. EG OS의 Claude Code 스킬/MCP 생태계와 직접 맞닿아 있다.",
+  "fit": "기존 Claude Code 스킬 200+와 MCP 운영을 보강할 수 있는 후보지만, Stitch MCP 의존성이 있고 현재 스택의 핵심 공백을 바로 메우는 도구라기보다는 스킬 자산 확장에 가깝다. 도입 가치는 특정 스킬이 기존 자동화에 없는 기능을 제공할 때 커진다.",
+  "integration": "Stitch MCP 서버를 로컬 Mac mini에 셀프호스팅하거나 Claude Code MCP 설정에 연결한 뒤, 유용한 스킬만 선별해 기존 Claude Code 스킬/cron/Paperclip 작업 흐름에 붙이는 방식이 적합하다. 우선은 별도 샌드박스에서 스킬 품질과 권한 범위를 검증해야 한다.",
+  "overlaps": "Claude Code의 기존 스킬 시스템 및 MCP 서버들과 상당히 겹친다. 다만 Agent Skills open standard 기반이라 여러 코딩 에이전트 간 스킬 재사용성이 장점이며, 기존 스킬을 대체하기보다는 일부 보강/상호운용성 실험 대상으로 보는 것이 맞다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "hashicorp/terraform",
+  "analyzedAt": "2026-07-10T23:00:48.445Z",
+  "repoMeta": {
+    "stars": 49146,
+    "language": "Go",
+    "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned."
+  },
+  "relevance": "medium",
+  "category": "셀프호스팅 인프라 / IaC / 배포 자동화",
+  "summary": "Terraform은 인프라를 선언형 코드로 관리하는 표준급 IaC 도구다. EG AI GROUP OS의 로컬 에이전트·LLM·텔레그램 자동화 핵심에는 직접 해당하지 않지만, n8n, Vaultwarden, Vercel, GitHub Actions, 외부 서버·DNS·클라우드 리소스를 재현 가능하게 관리하는 데 유용하다.",
+  "fit": "운영 인프라가 Mac mini 단일 로컬 머신 중심이면 도입 효과는 제한적이다. 다만 외부 VPS, DNS, object storage, GitHub/Vercel 설정, 모니터링 리소스까지 코드화하려면 안정성과 감사 가능성을 높인다. 에이전트 오케스트레이션이나 로컬 LLM 공백을 메우지는 않으므로 high는 아니다.",
+  "integration": "GitHub Actions에서 terraform plan/apply를 수동 승인형으로 운영하거나, Paperclip 에이전트가 PR로 Terraform 변경안을 만들고 사람이 리뷰하는 흐름이 적합하다. 비밀값은 Vault sidecar 또는 GitHub Secrets와 분리하고, Mac mini 로컬 서비스 자체보다는 외부 의존 리소스 관리에 한정하는 편이 좋다.",
+  "overlaps": "GitHub Actions/Vercel/n8n과 일부 배포 자동화 영역이 겹치지만 목적이 다르다. 기존 스택은 워크플로 실행 중심이고 Terraform은 인프라 상태 선언·변경 관리 중심이다. 단, 단일 Mac mini 로컬 운영만 한다면 중복보다 과한 도구일 수 있다."
+}

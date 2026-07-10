@@ -1,0 +1,15 @@
+{
+  "fullName": "tailscale/tailscale",
+  "analyzedAt": "2026-07-10T23:00:38.904Z",
+  "repoMeta": {
+    "stars": 33620,
+    "language": "Go",
+    "description": "The easiest, most secure way to use WireGuard and 2FA."
+  },
+  "relevance": "medium",
+  "category": "보안/네트워킹/원격접속 인프라",
+  "summary": "WireGuard 기반 mesh VPN으로 Mac mini, 외부 워커, n8n, Paperclip, Vault, 로컬 LLM 서버를 안전하게 사설망으로 묶는 데 유용하다. 2FA/ACL/기기 기반 접근제어가 강점이며 로컬 우선 스택의 원격 운영 보안을 보강한다.",
+  "fit": "보안 격리와 셀프호스팅 운영에는 잘 맞지만, 핵심 우선순위인 에이전트 오케스트레이션·로컬 LLM·코딩 자동화 자체를 직접 강화하지는 않는다. 이미 단일 Mac 중심이면 즉시 효과는 제한적이고, 여러 장비/외부 접속/모바일 관리가 있을 때 가치가 커진다.",
+  "integration": "Mac mini, 원격 노트북, NAS/VPS, 모바일 기기를 tailnet으로 묶고 SSH, n8n, Open WebUI, Paperclip, Vault sidecar 관리 포트를 공개 인터넷 없이 접근하게 한다. ACL로 서비스별 접근을 분리하고, 필요하면 subnet router나 exit node로 홈/서버 네트워크 접근을 통제한다.",
+  "overlaps": "Vault sidecar의 시크릿 격리와는 역할이 다르며 보완 관계다. ngrok/Cloudflare Tunnel류 원격접속을 일부 대체할 수 있고, 자체 방화벽/SSH 포트포워딩 운영을 단순화한다. Paperclip/cmux/Hermes와 기능 중복은 거의 없다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "mattpocock/skills",
+  "analyzedAt": "2026-07-10T23:00:16.560Z",
+  "repoMeta": {
+    "stars": 164551,
+    "language": "Shell",
+    "description": "Skills for Real Engineers. Straight from my .claude directory."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트/Claude Code 스킬 라이브러리",
+  "summary": "Claude Code용 개인 스킬 모음으로 보이며, 개발 워크플로와 에이전트 작업 품질을 높이는 프롬프트·절차 자산에 가깝다. 실행 엔진이나 오케스트레이션 자체를 대체하는 도구는 아니다.",
+  "fit": "이미 Claude Code와 대량의 스킬을 운영 중이므로 핵심 공백을 메우지는 않는다. 다만 실전 개발자 관점의 스킬 패턴을 벤치마킹해 기존 스킬 체계를 개선할 가능성은 있다.",
+  "integration": "선별적으로 `.claude/skills` 또는 내부 skill repo에 가져와 테스트한다. 바로 전체 도입하기보다 코드리뷰, 리팩터링, 타입스크립트/테스트 관련 스킬만 추출해 Paperclip/Claude Code 작업자에게 적용하는 방식이 적합하다.",
+  "overlaps": "Claude Code 스킬 200+와 직접 중복된다. Paperclip/cmux/로컬 LLM/보안 격리와는 기능 중복이 거의 없지만, 개발 자동화 지식 자산 영역에서는 기존 스킬 관리 체계와 겹친다."
+}

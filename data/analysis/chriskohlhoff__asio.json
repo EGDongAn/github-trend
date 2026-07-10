@@ -1,0 +1,15 @@
+{
+  "fullName": "chriskohlhoff/asio",
+  "analyzedAt": "2026-07-10T23:00:28.856Z",
+  "repoMeta": {
+    "stars": 6064,
+    "language": "C++",
+    "description": "Asio C++ Library"
+  },
+  "relevance": "low",
+  "category": "C++ 네트워킹/비동기 I/O 라이브러리",
+  "summary": "Asio는 C++용 저수준 비동기 네트워킹 및 I/O 라이브러리로, 서버·클라이언트·프로토콜 구현의 기반 구성요소다.",
+  "fit": "EG AI GROUP OS의 핵심 관심사인 에이전트 오케스트레이션, 로컬 LLM, 코딩 에이전트, MCP, 보안 운영과는 직접 연결이 약하다. 다만 고성능 로컬 데몬, 프록시, MCP 서버, 텔레그램 게이트웨이 같은 C++ 기반 네트워크 컴포넌트를 새로 만들 때 기반 라이브러리로 쓸 수 있다.",
+  "integration": "기존 Python/Node/Docker 중심 자동화 스택에 바로 도입할 필요는 낮다. C++로 장기 실행 네트워크 서비스나 초저지연 프록시를 직접 개발하는 경우에만 내부 런타임 라이브러리로 검토.",
+  "overlaps": "n8n, Hermes, tg-proxy, Paperclip, MCP 서버들과 기능적으로 직접 중복되지는 않는다. 하지만 현 스택의 문제를 해결하는 완제품이 아니라 개발용 저수준 라이브러리라 도입 효과가 제한적이다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/TypeScript",
+  "analyzedAt": "2026-07-10T23:00:24.815Z",
+  "repoMeta": {
+    "stars": 109761,
+    "language": "TypeScript",
+    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output."
+  },
+  "relevance": "low",
+  "category": "프로그래밍 언어/컴파일러",
+  "summary": "JavaScript 생태계의 핵심 언어 도구로, 타입 안정성과 대규모 코드 유지보수에 매우 중요하지만 EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, 비밀 격리, 자동화 공백을 직접 메우는 repo는 아니다.",
+  "fit": "이미 Paperclip, Hermes, OpenClaw, n8n, MCP 도구 등 TypeScript 기반 프로젝트를 운영하거나 확장할 때 기반 기술로 유용하다. 다만 도입 대상이라기보다 개발 언어/컴파일러 인프라에 가깝다.",
+  "integration": "기존 TypeScript/Node 프로젝트의 빌드 체인, 타입 검사, SDK 개발 품질 개선에 활용. 별도 시스템 컴포넌트로 붙이는 형태는 아님.",
+  "overlaps": "현재 스택의 실행 엔진, 멀티세션 관제, 작업 위임, 로컬 LLM, MCP 서버와 직접 중복되지 않는다. 다만 이미 JS/TS 개발 환경을 쓰고 있다면 사실상 기본 의존성일 가능성이 높다."
+}

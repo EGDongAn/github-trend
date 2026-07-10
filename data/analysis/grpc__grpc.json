@@ -1,0 +1,15 @@
+{
+  "fullName": "grpc/grpc",
+  "analyzedAt": "2026-07-10T23:00:47.201Z",
+  "repoMeta": {
+    "stars": 45127,
+    "language": "C++",
+    "description": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
+  },
+  "relevance": "low",
+  "category": "RPC/분산 시스템 통신 프레임워크",
+  "summary": "gRPC는 서비스 간 고성능 RPC 통신을 위한 성숙한 범용 인프라 라이브러리다. EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화 자체를 직접 강화하지는 않는다.",
+  "fit": "Paperclip, Hermes, vault sidecar, n8n 같은 내부 컴포넌트 간 통신을 엄격한 typed API로 재설계할 때는 유용할 수 있다. 다만 현재 스택의 핵심 공백을 메우는 도구가 아니라 기반 통신 기술에 가깝다.",
+  "integration": "기존 HTTP/REST 또는 내부 프로세스 통신이 병목이 되거나 다언어 서비스 간 계약이 필요할 때 protobuf/gRPC API를 일부 백엔드 경계에 도입하는 정도가 현실적이다.",
+  "overlaps": "MCP, n8n, Paperclip API, 기존 HTTP 기반 통합과 역할이 겹칠 수 있다. 도입 시 운영 복잡도와 코드 생성/스키마 관리 부담이 생기므로 명확한 성능·타입 안정성 요구가 없으면 단순 중복에 가깝다."
+}

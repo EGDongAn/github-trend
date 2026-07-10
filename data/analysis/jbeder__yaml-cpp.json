@@ -1,0 +1,15 @@
+{
+  "fullName": "jbeder/yaml-cpp",
+  "analyzedAt": "2026-07-10T23:00:19.817Z",
+  "repoMeta": {
+    "stars": 6073,
+    "language": "C++",
+    "description": "A YAML parser and emitter in C++"
+  },
+  "relevance": "low",
+  "category": "개발 라이브러리 / YAML 파서",
+  "summary": "C++용 YAML 파서와 emitter 라이브러리다. 설정 파일 처리에는 유용하지만 EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, MCP, 자동화, 보안 격리 같은 핵심 영역과는 직접 관련이 약하다.",
+  "fit": "C++ 기반 컴포넌트에서 YAML 설정을 안전하게 읽고 쓰는 의존성이 필요할 때만 의미가 있다. 현재 스택은 CLI/Node/Python/서비스 조합 중심으로 보이며, 이 repo 자체가 운영 자동화나 에이전트 기능을 제공하지는 않는다.",
+  "integration": "C++로 작성된 내부 도구나 MCP 서버를 만들 때 설정 파일 파서로 링크할 수 있다. 단독 도입 대상이라기보다 특정 C++ 프로젝트의 하위 의존성 후보에 가깝다.",
+  "overlaps": "일반적인 YAML 처리 기능은 대부분 언어 런타임이나 기존 도구에 이미 존재한다. Paperclip, cmux, Hermes, n8n, Vault, Ollama 등 현재 핵심 스택과 기능 중복은 거의 없지만, 업그레이드 효과도 없다."
+}
