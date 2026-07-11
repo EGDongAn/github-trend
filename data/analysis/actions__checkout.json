@@ -1,0 +1,15 @@
+{
+  "fullName": "actions/checkout",
+  "analyzedAt": "2026-07-11T23:00:19.611Z",
+  "repoMeta": {
+    "stars": 8457,
+    "language": "TypeScript",
+    "description": "Action for checking out a repo"
+  },
+  "relevance": "low",
+  "category": "CI/개발 자동화",
+  "summary": "GitHub Actions 워크플로에서 저장소 코드를 체크아웃하는 표준 액션이다. CI/배포 파이프라인의 기본 구성요소지만, 에이전트 오케스트레이션·로컬 LLM·보안 격리 같은 핵심 공백을 직접 메우지는 않는다.",
+  "fit": "이미 GitHub Actions를 사용 중이라 필수에 가까운 기반 도구로 계속 쓰면 된다. 다만 EG AI GROUP OS 자체를 업그레이드하는 독립 도구라기보다 CI 작업의 일반 의존성이다.",
+  "integration": "기존 GitHub Actions 워크플로에서 `actions/checkout@v4` 형태로 유지 사용. 에이전트가 PR 생성, 테스트, 배포를 자동화할 때 저장소 소스 확보 단계로 활용.",
+  "overlaps": "GitHub Actions를 이미 보유하고 있어 신규 도입 가치는 낮다. Vercel/GitHub Actions 기반 CI와 겹치며, Paperclip·cmux·Claude Code·로컬 실행 엔진과는 기능 중복보다 보조 관계에 가깝다."
+}

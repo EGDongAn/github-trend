@@ -1,0 +1,15 @@
+{
+  "fullName": "nasa/fprime",
+  "analyzedAt": "2026-07-11T23:00:34.101Z",
+  "repoMeta": {
+    "stars": 11472,
+    "language": "C++",
+    "description": "F´ - A flight software and embedded systems framework"
+  },
+  "relevance": "low",
+  "category": "임베디드/비행 소프트웨어 프레임워크",
+  "summary": "NASA의 F´는 우주선·임베디드 시스템용 C++ flight software 프레임워크로, 컴포넌트 기반 아키텍처와 미션 소프트웨어 개발을 지원한다.",
+  "fit": "EG AI GROUP OS의 핵심 축인 로컬 LLM, 코딩 에이전트, 멀티에이전트 오케스트레이션, MCP, 보안 격리와 직접 연결되지 않는다. 임베디드 장치 제어·로보틱스·하드웨어 운영까지 확장한다면 참고 가치는 있지만, 현재 Mac mini 기반 AI 자동화 스택의 명확한 공백을 메우지는 않는다.",
+  "integration": "도입한다면 AI 에이전트가 물리 장치나 임베디드 타깃을 제어하는 별도 프로젝트에서 C++ 런타임/컴포넌트 프레임워크로 검토할 수 있다. 현재 OS 코어에는 직접 통합 우선순위가 낮다.",
+  "overlaps": "기존 Paperclip/cmux/Hermes/n8n/Vault/Ollama/MCP와 기능 중복은 거의 없지만, 관련성도 낮다. 자동화·오케스트레이션 프레임워크라기보다 임베디드 flight software 개발 프레임워크에 가깝다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "malisper/pgrust",
+  "analyzedAt": "2026-07-11T23:00:31.529Z",
+  "repoMeta": {
+    "stars": 2017,
+    "language": "Rust",
+    "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests"
+  },
+  "relevance": "low",
+  "category": "데이터베이스/인프라 런타임",
+  "summary": "Postgres를 Rust로 재구현하는 실험적 DB 프로젝트다. 회귀 테스트 통과는 흥미롭지만 EG AI GROUP OS의 핵심 축인 에이전트 오케스트레이션, 로컬 LLM, 개발 자동화, MCP, 보안 격리와 직접 연결되지는 않는다.",
+  "fit": "현재 스택은 Paperclip의 임베디드 PG, n8n, Vaultwarden 등에서 안정적인 Postgres 호환 저장소를 필요로 할 수 있으나, 운영 자동화 스택의 명확한 공백을 메우지는 않는다. 성능·안전성·운영 성숙도가 검증된 대체재라기보다 연구/관찰 대상에 가깝다.",
+  "integration": "Paperclip 또는 내부 서비스의 Postgres 대체 실험으로 로컬 테스트 환경에서만 검토 가능하다. 운영 DB로 도입하기에는 리스크가 크며, 기존 PostgreSQL을 유지하는 편이 현실적이다.",
+  "overlaps": "PostgreSQL/임베디드 PG 사용 영역과 겹치지만 기능적 업그레이드가 명확하지 않다. 로컬 우선에는 부합하나, 이미 보유한 데이터 저장 계층을 대체할 충분한 이유는 약하다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "home-assistant/core",
+  "analyzedAt": "2026-07-11T23:00:21.469Z",
+  "repoMeta": {
+    "stars": 88667,
+    "language": "Python",
+    "description": "🏡 Open source home automation that puts local control and privacy first."
+  },
+  "relevance": "low",
+  "category": "홈 자동화 / 로컬 IoT 오케스트레이션",
+  "summary": "Home Assistant Core는 로컬 제어와 프라이버시를 중시하는 Python 기반 홈 자동화 플랫폼이다. 센서, 기기, 이벤트, 자동화 규칙을 통합하는 데 강하지만, EG AI GROUP OS의 핵심인 코딩 에이전트, 멀티에이전트 작업 위임, 로컬 LLM 추론, 시크릿 격리와는 직접 관련성이 낮다.",
+  "fit": "로컬 우선과 자동화 철학은 맞지만 대상 도메인이 스마트홈/IoT라 현재 스택의 명확한 공백을 메우지 않는다. Mac mini 운영 환경의 전원, 온도, 네트워크, 장비 상태 같은 물리 인프라 모니터링을 붙일 경우 보조적으로 쓸 수는 있다.",
+  "integration": "n8n 또는 텔레그램 알림과 연동해 Mac mini 주변 장비, UPS, 스마트플러그, 온습도 센서 상태를 감시하는 로컬 운영 대시보드로 제한 도입 가능. 단, AI 에이전트 OS의 핵심 경로에는 두지 않는 것이 적절하다.",
+  "overlaps": "n8n의 이벤트 기반 자동화, 워치독 LaunchAgent, 기존 알림 파이프라인과 일부 중복된다. Home Assistant는 물리 기기/IoT 통합에는 강하지만 Paperclip, cmux, Hermes, vault sidecar, 로컬 LLM 계층을 대체하거나 업그레이드하지는 않는다."
+}

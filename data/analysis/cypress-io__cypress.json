@@ -1,0 +1,15 @@
+{
+  "fullName": "cypress-io/cypress",
+  "analyzedAt": "2026-07-11T23:00:20.311Z",
+  "repoMeta": {
+    "stars": 50610,
+    "language": "TypeScript",
+    "description": "Fast, easy and reliable testing for anything that runs in a browser."
+  },
+  "relevance": "medium",
+  "category": "개발 자동화 / 브라우저 E2E 테스트",
+  "summary": "Cypress는 브라우저 기반 앱의 E2E·컴포넌트 테스트 자동화 도구다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, 보안 격리 공백을 직접 메우지는 않지만, Hermes/OpenClaw/Paperclip 같은 웹 UI나 관리 콘솔의 회귀 테스트를 자동화하는 데는 유용하다.",
+  "fit": "로컬에서 실행 가능하고 GitHub Actions와도 잘 맞아 개발 자동화 측면의 적합성은 있다. 다만 이미 MCP playwright가 있고, 에이전트 운영 스택 자체를 강화하는 도구는 아니므로 high는 아니다.",
+  "integration": "웹 UI가 있는 내부 서비스에 Cypress 테스트 스위트를 추가하고, GitHub Actions 또는 로컬 cron에서 회귀 테스트를 실행한다. 텔레그램 게이트웨이/관제 UI처럼 브라우저로 검증 가능한 흐름에 한정해 도입하는 것이 적절하다.",
+  "overlaps": "playwright MCP 및 기존 CI와 상당 부분 중복된다. Playwright가 이미 브라우저 자동화와 테스트에 쓰이고 있다면 Cypress는 대체재에 가깝고, 특별히 Cypress 생태계나 테스트 러너 UX가 필요한 경우에만 추가 가치가 있다."
+}
