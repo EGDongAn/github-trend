@@ -1,0 +1,15 @@
+{
+  "fullName": "k1tbyte/Wand-Enhancer",
+  "analyzedAt": "2026-07-12T23:00:28.580Z",
+  "repoMeta": {
+    "stars": 6918,
+    "language": "C#",
+    "description": "Advanced UX and interoperability extension for Wand (WeMod) app"
+  },
+  "relevance": "none",
+  "category": "일반 앱 확장/게임 유틸리티",
+  "summary": "Wand-Enhancer는 Wand(WeMod) 앱의 UX와 상호운용성을 개선하는 C# 확장 도구로 보이며, 게임 트레이너/WeMod 사용 경험 개선에 초점이 있다.",
+  "fit": "EG AI GROUP OS의 핵심 영역인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안 격리, 워크플로 자동화와 직접 관련이 없다. stars는 높지만 운영 AI 스택 도입 적합성과는 무관하다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 의미 있는 기능 중복도 없고, 대체/업그레이드 대상도 아니다. 도입 검토 불필요."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "Crosstalk-Solutions/project-nomad",
+  "analyzedAt": "2026-07-12T23:00:28.633Z",
+  "repoMeta": {
+    "stars": 33774,
+    "language": "TypeScript",
+    "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere."
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM/RAG·오프라인 지식 서버",
+  "summary": "Docker 기반 Command Center로 Ollama/Qdrant RAG, Kiwix 오프라인 위키, Kolibri 교육 콘텐츠, 지도/노트/데이터 도구를 묶은 오프라인 우선 지식 어플라이언스다. 에이전트 오케스트레이션 도구는 아니다.",
+  "fit": "로컬 우선·오프라인 지식·로컬 AI라는 방향은 EG AI GROUP OS와 맞지만, 주 목적이 생존/교육용 지식 서버라 Paperclip/cmux/Claude Code 워크플로를 직접 강화하지는 않는다. macOS 중심 스택에는 Debian/Docker VM 또는 별도 호스트가 필요하고, 기본 인증 부재는 운영망 편입 시 감점이다.",
+  "integration": "별도 Docker/Debian 노드로 띄워 Kiwix/문서/RAG 지식 저장소만 활용하고, Ollama는 기존 EG Ollama 엔드포인트를 바라보게 구성. 필요한 경우 Hermes/Paperclip 에이전트가 NOMAD의 로컬 지식 UI/API를 참조하도록 제한적으로 연결.",
+  "overlaps": "Ollama, RAG, Docker 앱 카탈로그, 노트/비밀번호/파일 도구는 기존 Open WebUI/Ollama/n8n/vault sidecar와 상당히 겹친다. 차별점은 오프라인 콘텐츠 번들링(Kiwix/Kolibri/지도)과 비상용 지식 어플라이언스 패키징이다."
+}

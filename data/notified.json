@@ -15,5 +15,7 @@
   "TencentCloud/CubeSandbox",
   "NousResearch/hermes-agent",
   "alibaba/zvec",
-  "TencentCloud/TencentDB-Agent-Memory"
+  "TencentCloud/TencentDB-Agent-Memory",
+  "Dicklesworthstone/destructive_command_guard",
+  "ColeMurray/background-agents"
 ]

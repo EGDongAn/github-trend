@@ -1,0 +1,15 @@
+{
+  "fullName": "virattt/ai-hedge-fund",
+  "analyzedAt": "2026-07-12T23:00:38.038Z",
+  "repoMeta": {
+    "stars": 61371,
+    "language": "Python",
+    "description": "An AI Hedge Fund Team"
+  },
+  "relevance": "low",
+  "category": "멀티에이전트 금융 분석 데모",
+  "summary": "여러 AI 애널리스트/투자자 역할을 구성해 주식 분석과 매매 판단을 시뮬레이션하는 Python 기반 AI 헤지펀드 예제성 프로젝트로 보인다. 핵심 도메인은 금융 리서치/트레이딩이며, EG AI GROUP OS의 운영 자동화·로컬 인프라·코딩 에이전트 강화와는 직접 거리가 있다.",
+  "fit": "멀티에이전트 패턴이라는 점은 일부 참고 가치가 있지만, Paperclip/cmux를 대체하거나 보강할 범용 오케스트레이션 계층으로 보기 어렵다. 금융 특화 워크플로와 데이터 의존성이 중심이라 현재 스택의 명확한 공백을 메우지 못한다.",
+  "integration": "금융 리서치 에이전트 샘플로만 격리 실행해 프롬프트 구조, 역할 분담, 리포트 생성 흐름을 참고할 수 있다. 실제 도입보다는 Paperclip 에이전트 템플릿 설계나 멀티에이전트 의사결정 예제 분석 용도가 적절하다.",
+  "overlaps": "Paperclip의 에이전트 작업 위임, Claude Code/codex 기반 자동화와 개념적으로 일부 겹치지만 범용 작업 관리·코드 실행·운영 관제 기능은 제공하지 않는다. OpenClaw/로컬 LLM 스택과도 직접 통합 이점은 제한적이다."
+}

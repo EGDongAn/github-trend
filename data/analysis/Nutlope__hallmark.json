@@ -1,0 +1,15 @@
+{
+  "fullName": "Nutlope/hallmark",
+  "analyzedAt": "2026-07-12T23:00:47.627Z",
+  "repoMeta": {
+    "stars": 4227,
+    "language": "CSS",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / 프롬프트·스킬 품질관리",
+  "summary": "Claude Code, Cursor, Codex용으로 AI가 만든 흔한 저품질 디자인 산출물을 줄이기 위한 디자인 스킬/가이드 성격의 repo다. EG AI GROUP OS의 핵심 인프라보다는 에이전트 산출물 품질 보정에 가까운 보조 도구다.",
+  "fit": "Claude Code와 Codex를 이미 운영하므로 적용 접점은 명확하다. 다만 오케스트레이션, 로컬 LLM, 보안, 자동화 공백을 메우는 도구는 아니어서 high는 아니다. UI/프론트엔드 작업을 에이전트에게 자주 위임한다면 결과 품질을 높이는 운영 규칙으로 쓸 가치가 있다.",
+  "integration": "Claude Code/Codex 스킬 또는 프로젝트별 AGENTS.md·CLAUDE.md 디자인 지침으로 흡수. Paperclip 에이전트 작업 템플릿에 프론트엔드 산출물 검수 체크리스트로 포함. Vercel 배포 전 Playwright 스크린샷 검수와 함께 사용하면 효과적이다.",
+  "overlaps": "Claude Code 스킬 체계와 Codex 개발 지침에 중복된다. 자체 실행 엔진이나 자동 검수 도구라기보다 지침/스킬이므로 기존 워크플로를 대체하지 않고 보강하는 위치가 적절하다."
+}

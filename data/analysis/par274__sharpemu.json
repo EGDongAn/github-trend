@@ -1,0 +1,15 @@
+{
+  "fullName": "par274/sharpemu",
+  "analyzedAt": "2026-07-12T23:00:37.285Z",
+  "repoMeta": {
+    "stars": 1217,
+    "language": "C#",
+    "description": "An experimental PlayStation 5 emulator project."
+  },
+  "relevance": "none",
+  "category": "게임/콘솔 에뮬레이터",
+  "summary": "PlayStation 5 에뮬레이터 실험 프로젝트로, EG AI GROUP OS의 에이전트 운영, 로컬 LLM, 자동화, MCP, 보안 격리와 직접 관련이 없다.",
+  "fit": "도입 적합성 없음. 로컬 실행이라는 점을 제외하면 AI 운영 자동화 스택의 핵심 가치나 우선순위와 맞지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 의미 있는 기능 중복은 없지만, 보강하거나 대체할 대상도 아니다."
+}

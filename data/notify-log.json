@@ -185,5 +185,27 @@
     "stars": 7601,
     "category": "로컬 에이전트 메모리/RAG·컨텍스트 압축",
     "summary": "AI 에이전트용 완전 로컬 장기 메모리와 단기 컨텍스트 오프로딩을 제공하는 TypeScript 플러그인이다. SQLite/sqlite-vec 기반, 외부 API 의존 없음, OpenClaw와 Hermes 통합을 이미 지원하므로 EG AI GROUP OS의 로컬 우선·비용 절감·에이전트 지속 기억 요구에 잘 맞는다."
+  },
+  {
+    "date": "2026-07-12",
+    "sentAt": "2026-07-12T23:00:55.222Z",
+    "fullName": "Dicklesworthstone/destructive_command_guard",
+    "owner": "Dicklesworthstone",
+    "name": "destructive_command_guard",
+    "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+    "stars": 2804,
+    "category": "보안/격리, 코딩 에이전트 안전장치",
+    "summary": "AI 에이전트가 실행하는 위험한 git/shell 명령을 차단하는 Rust 기반 가드 도구. 로컬에서 코딩 에이전트를 많이 돌리는 EG AI GROUP OS의 핵심 리스크인 실수성 파괴 명령을 줄이는 데 직접 관련 있다."
+  },
+  {
+    "date": "2026-07-12",
+    "sentAt": "2026-07-12T23:00:55.222Z",
+    "fullName": "ColeMurray/background-agents",
+    "owner": "ColeMurray",
+    "name": "background-agents",
+    "url": "https://github.com/ColeMurray/background-agents",
+    "stars": 2243,
+    "category": "코딩 에이전트 / 백그라운드 작업 오케스트레이션",
+    "summary": "TypeScript 기반 오픈소스 백그라운드 코딩 에이전트 시스템으로, 비동기 코드 작업을 실행·관리하는 계층에 가깝다. EG AI GROUP OS의 핵심 축인 에이전트 자동화, 코드 읽기/수정/실행, 작업 위임 흐름과 직접 맞닿아 있다."
   }
 ]

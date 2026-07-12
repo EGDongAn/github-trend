@@ -1,0 +1,15 @@
+{
+  "fullName": "ColeMurray/background-agents",
+  "analyzedAt": "2026-07-12T23:00:29.303Z",
+  "repoMeta": {
+    "stars": 2243,
+    "language": "TypeScript",
+    "description": "An open-source background agents coding system"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트 / 백그라운드 작업 오케스트레이션",
+  "summary": "TypeScript 기반 오픈소스 백그라운드 코딩 에이전트 시스템으로, 비동기 코드 작업을 실행·관리하는 계층에 가깝다. EG AI GROUP OS의 핵심 축인 에이전트 자동화, 코드 읽기/수정/실행, 작업 위임 흐름과 직접 맞닿아 있다.",
+  "fit": "Paperclip의 이슈→에이전트 워커 구조나 cmux 기반 멀티세션 관제와 비교해 볼 가치가 크다. 특히 백그라운드 코딩 작업 실행 모델, 작업 상태 관리, GitHub 연동, 에이전트 실행 UX가 잘 되어 있다면 기존 스택의 보강 또는 일부 대체 후보가 될 수 있다.",
+  "integration": "Paperclip의 워커 실행 백엔드 후보로 검토하거나, Claude Code/codex exec 작업을 비동기로 돌리는 별도 background runner로 붙일 수 있다. Hermes 텔레그램 명령→Paperclip 이슈 생성→background-agents 실행→결과 알림 흐름으로 통합 가능성이 있다.",
+  "overlaps": "Paperclip, cmux, Claude Code CLI 워크플로와 중복된다. 단순히 또 하나의 에이전트 실행기라면 중복이지만, 백그라운드 실행·상태 추적·GitHub 작업화·비동기 코드 변경 흐름이 강하면 기존 관제/위임 계층을 업그레이드할 수 있다."
+}

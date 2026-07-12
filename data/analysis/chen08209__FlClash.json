@@ -1,0 +1,15 @@
+{
+  "fullName": "chen08209/FlClash",
+  "analyzedAt": "2026-07-12T23:00:38.291Z",
+  "repoMeta": {
+    "stars": 45204,
+    "language": "Dart",
+    "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free."
+  },
+  "relevance": "low",
+  "category": "네트워크/프록시 클라이언트",
+  "summary": "FlClash는 ClashMeta 기반의 멀티플랫폼 프록시 클라이언트로, 개인 단말의 네트워크 우회·프록시 설정을 쉽게 관리하는 앱이다. 오픈소스·광고 없음이라는 장점은 있으나, EG AI GROUP OS의 에이전트 운영·로컬 LLM·작업 위임·자동화 핵심 축과 직접 연결되지는 않는다.",
+  "fit": "보안 격리나 외부 API 접근 경로 제어 측면에서 간접적으로 쓸 수는 있지만, 현재 스택의 명확한 공백을 메우지는 않는다. 서버형 제어 plane, MCP, 에이전트 오케스트레이션, 워크플로 자동화 기능이 아니라 클라이언트 앱에 가깝다.",
+  "integration": "필요 시 Mac mini 또는 운영 단말의 프록시 클라이언트로 설치해 특정 네트워크 구간의 우회/라우팅에 사용 가능. 다만 OS 전체 네트워크 정책에 영향을 줄 수 있어 자동화 에이전트 실행 환경에는 신중히 적용해야 한다.",
+  "overlaps": "n8n, Paperclip, cmux, Hermes, Vault sidecar와 기능 중복은 거의 없다. 다만 인프라 관점에서는 기존 VPN/프록시/네트워크 설정이 있다면 단순 대체 후보일 뿐이며, AI 운영 스택 자체를 강화하는 도구는 아니다."
+}

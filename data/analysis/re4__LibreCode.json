@@ -1,0 +1,15 @@
+{
+  "fullName": "re4/LibreCode",
+  "analyzedAt": "2026-07-12T23:00:48.541Z",
+  "repoMeta": {
+    "stars": 590322,
+    "language": "C#",
+    "description": "LibreCode - A Ollama cursor like coding / Reversing Interface"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·로컬 LLM 개발 도구",
+  "summary": "Ollama 기반의 Cursor 유사 코딩/리버싱 인터페이스로 보이며, 로컬 LLM을 활용한 코드 탐색·수정 보조에 초점이 있다. EG AI GROUP OS의 로컬 우선·비용 절감 방향과는 맞지만, 이미 Claude Code/codex/OpenClaw/Ollama 조합이 있어 핵심 공백을 직접 메우는 도구는 아니다.",
+  "fit": "로컬 Ollama 연동 코딩 UI나 리버싱 워크플로가 필요하면 보조 도구 후보가 될 수 있다. 특히 C#/.NET 코드베이스 분석, 바이너리/리버싱 중심 작업, GUI 기반 코드 어시스트가 필요할 때 일부 가치가 있다.",
+  "integration": "Ollama에 연결해 별도 로컬 코딩/리버싱 워크벤치로 실험 도입. Claude Code/codex의 주 실행 흐름을 대체하기보다는 특정 리버싱·분석 작업용 보조 UI로 격리 운영하는 방식이 적합하다.",
+  "overlaps": "Claude Code, codex exec, OpenClaw, Ollama 기반 로컬 코딩 보조와 상당히 겹친다. 멀티에이전트 오케스트레이션, Paperclip/cmux 관제, 텔레그램 지시, 시크릿 격리 같은 핵심 운영 공백을 보강하는 도구는 아니므로 high는 아니다."
+}

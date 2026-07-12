@@ -1,0 +1,15 @@
+{
+  "fullName": "Shubhamsaboo/awesome-llm-apps",
+  "analyzedAt": "2026-07-12T23:00:30.221Z",
+  "repoMeta": {
+    "stars": 118480,
+    "language": "Python",
+    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
+  },
+  "relevance": "medium",
+  "category": "AI 에이전트/RAG 앱 템플릿·레시피 모음",
+  "summary": "실행 가능한 AI Agent, RAG, MCP, 멀티에이전트, 로컬 LLM 예제들을 모은 Python 기반 cookbook이다. 플랫폼/오케스트레이터 자체라기보다 클론해서 특정 기능을 빠르게 실험·차용하는 샘플 저장소에 가깝다.",
+  "fit": "EG AI GROUP OS와 주제 적합성은 높다. 로컬 RAG, MCP 에이전트, always-on agent, multi-agent team, agent skill 예제가 있어 Paperclip, Claude Code/Codex, Ollama 기반 워크플로의 기능 아이디어와 프로토타입 재료로 쓸 수 있다. 다만 현재 스택의 핵심 공백을 직접 메우는 런타임은 아니므로 high는 아니다.",
+  "integration": "선별 도입이 적합하다. 전체를 설치하기보다 local RAG, MCP router, always-on briefing, multi-agent coding/research 예제를 골라 Paperclip worker 템플릿, Claude Code/Codex skill, n8n/cron 작업, Ollama 기반 RAG 파이프라인으로 이식한다. API 키 의존 예제는 로컬 모델 또는 vault sidecar를 거치도록 수정해야 한다.",
+  "overlaps": "Paperclip/cmux의 오케스트레이션, Claude Code 스킬, n8n cron, Ollama/Open WebUI와 상당히 겹친다. 차별점은 완성 제품이 아니라 다양한 에이전트/RAG 패턴의 샘플 코드와 튜토리얼 밀도다. 중복 도구 대체보다는 레퍼런스·프로토타입 저장소로 보는 것이 맞다."
+}

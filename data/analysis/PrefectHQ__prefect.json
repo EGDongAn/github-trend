@@ -1,0 +1,15 @@
+{
+  "fullName": "PrefectHQ/prefect",
+  "analyzedAt": "2026-07-12T23:00:19.192Z",
+  "repoMeta": {
+    "stars": 23127,
+    "language": "Python",
+    "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python."
+  },
+  "relevance": "medium",
+  "category": "워크플로 오케스트레이션 / 데이터 파이프라인 자동화",
+  "summary": "Prefect는 Python 기반 워크플로와 데이터 파이프라인을 스케줄링, 재시도, 상태 추적, 실패 복구 중심으로 운영하는 오케스트레이션 프레임워크다.",
+  "fit": "n8n보다 코드 중심이고, cron보다 안정적인 재시도·상태관리·관측성을 제공할 수 있다. 다만 EG AI GROUP OS의 핵심인 멀티에이전트 작업 위임이나 코딩 에이전트 관제보다는 데이터/배치 워크플로 성격이 강해 명확한 공백을 바로 메운다고 보긴 어렵다.",
+  "integration": "Python 자동화 작업, 크론 잡, GitHub/텔레그램/로컬 LLM 배치 파이프라인 중 실패 복구와 실행 이력이 중요한 작업을 Prefect flow로 감싸고, 필요 시 self-hosted Prefect server 또는 로컬 실행 에이전트로 운영 검토.",
+  "overlaps": "n8n, cron, LaunchAgent 워치독, GitHub Actions와 일부 중복된다. Paperclip/cmux의 에이전트 오케스트레이션을 대체하기보다는 데이터·배치성 워크플로 보강재에 가깝다."
+}
