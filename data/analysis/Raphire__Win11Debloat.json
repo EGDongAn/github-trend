@@ -1,0 +1,15 @@
+{
+  "fullName": "Raphire/Win11Debloat",
+  "analyzedAt": "2026-07-13T23:00:16.439Z",
+  "repoMeta": {
+    "stars": 50820,
+    "language": "PowerShell",
+    "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11."
+  },
+  "relevance": "none",
+  "category": "Windows 시스템 정리/디블로트 스크립트",
+  "summary": "Windows 10/11의 기본 앱 제거, 텔레메트리 비활성화, UI/설정 커스터마이징을 자동화하는 PowerShell 스크립트다.",
+  "fit": "EG AI GROUP OS는 macOS Mac mini 기반의 로컬 AI 에이전트 운영 스택이므로 Windows 클라이언트 정리 도구는 핵심 운영 범위와 맞지 않는다. 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리, 워크플로 자동화 보강 효과가 없다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 직접 중복되는 구성요소는 없지만, 운영 OS와 목적이 달라 도입 가치도 없다."
+}

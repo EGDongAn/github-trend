@@ -1,0 +1,15 @@
+{
+  "fullName": "coreyhaines31/marketingskills",
+  "analyzedAt": "2026-07-13T23:00:29.345Z",
+  "repoMeta": {
+    "stars": 38509,
+    "language": "JavaScript",
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+  },
+  "relevance": "medium",
+  "category": "Claude Code/AI agent 스킬 라이브러리, 마케팅 자동화",
+  "summary": "Claude Code와 AI 에이전트에 CRO, 카피라이팅, SEO, 애널리틱스, 그로스 엔지니어링용 스킬을 추가하는 마케팅 특화 스킬 모음이다.",
+  "fit": "핵심 인프라 공백을 메우지는 않지만, EG AI GROUP OS의 Claude Code 스킬 기반 운영에는 바로 얹을 수 있다. 개발 자동화보다는 마케팅 운영 자동화에 가까워 우선순위 3의 주변부에 해당한다.",
+  "integration": "Claude Code 스킬 디렉터리에 일부 스킬을 선별 설치해 랜딩페이지 개선, SEO 감사, 전환율 분석, 카피 생성, 애널리틱스 리포트 자동화 작업에 연결할 수 있다. Hermes/Paperclip으로 마케팅 요청을 태스크화하고 Claude Code 워커가 해당 스킬을 사용하게 하는 방식이 적합하다.",
+  "overlaps": "기존 Claude Code 스킬 200+와 기능적으로 겹칠 가능성이 높다. Paperclip, cmux, MCP, 로컬 LLM 같은 핵심 오케스트레이션 계층과는 직접 중복되지 않지만, 범용 프롬프트/스킬 라이브러리라서 실제 도입은 고품질 스킬만 선별하는 편이 낫다."
+}

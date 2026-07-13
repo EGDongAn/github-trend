@@ -1,0 +1,15 @@
+{
+  "fullName": "github/spec-kit",
+  "analyzedAt": "2026-07-13T23:00:34.119Z",
+  "repoMeta": {
+    "stars": 120561,
+    "language": "Python",
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / Spec-Driven Development",
+  "summary": "GitHub Spec Kit은 기능 요구사항을 spec→plan→tasks 형태로 정리해 AI 코딩 에이전트가 구현하기 쉽게 만드는 SDD 도구다. EG OS의 로컬 실행·멀티에이전트 인프라 자체를 대체하지는 않지만, Paperclip 이슈와 Claude/Codex 작업 지시의 품질을 높이는 프로세스 레이어로 쓸 수 있다.",
+  "fit": "부분 적합. 현재 스택의 핵심 공백인 실행 엔진, 관제, 비밀관리, 로컬 LLM 서빙을 해결하지는 않는다. 다만 에이전트 작업이 프롬프트 중심으로 흩어지는 문제를 줄이고, 요구사항·설계·작업 단위를 명시화해 개발 자동화 안정성을 높일 수 있다.",
+  "integration": "Paperclip의 이슈 생성/분해 단계 앞단에 붙여 spec.md, plan.md, tasks.md를 생성하고, 각 task를 Claude Code 또는 codex exec 워커에게 배정하는 방식이 현실적이다. cmux 세션에는 spec-kit 산출물을 컨텍스트 파일로 주입하고, GitHub Actions에서는 spec/tasks 존재 여부를 PR 체크로 검증할 수 있다.",
+  "overlaps": "Paperclip의 작업 분해, Claude Code 스킬/프롬프트, 기존 이슈 템플릿과 일부 중복된다. 멀티에이전트 오케스트레이션, 로컬 LLM 추론, MCP 서버, 보안 격리 기능은 제공하지 않으므로 대체재가 아니라 개발 프로세스 보강재에 가깝다."
+}

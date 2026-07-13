@@ -1,0 +1,15 @@
+{
+  "fullName": "OpenCut-app/OpenCut",
+  "analyzedAt": "2026-07-13T23:00:19.772Z",
+  "repoMeta": {
+    "stars": 66116,
+    "language": "TypeScript",
+    "description": "The open-source CapCut alternative"
+  },
+  "relevance": "low",
+  "category": "오픈소스 영상 편집 앱 / CapCut 대안",
+  "summary": "OpenCut은 TypeScript 기반의 오픈소스 영상 편집기다. 로컬 또는 셀프호스팅 가능한 크리에이티브 도구로는 의미가 있지만, EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안 격리와 직접 연결되지는 않는다.",
+  "fit": "콘텐츠 제작 자동화 파이프라인에서 영상 편집 UI나 간단한 편집 도구가 필요할 때만 제한적으로 맞는다. Telegram/n8n/에이전트가 생성한 영상 결과물을 사람이 후처리하는 용도 정도이며, 운영 OS의 핵심 공백을 메우지는 않는다.",
+  "integration": "n8n이나 에이전트 워커가 만든 영상 파일을 OpenCut 프로젝트로 넘기는 보조 편집 단계로 붙일 수는 있다. 다만 자동 편집 API, CLI, MCP 서버 성격이 아니라면 통합 가치는 낮다.",
+  "overlaps": "현재 스택과 직접 중복되는 핵심 도구는 없다. 다만 Open WebUI/OpenClaw/자동화 스택과 달리 AI 운영·개발 자동화가 아니라 일반 크리에이티브 앱에 가까워 우선순위가 낮다."
+}

@@ -207,5 +207,16 @@
     "stars": 2243,
     "category": "코딩 에이전트 / 백그라운드 작업 오케스트레이션",
     "summary": "TypeScript 기반 오픈소스 백그라운드 코딩 에이전트 시스템으로, 비동기 코드 작업을 실행·관리하는 계층에 가깝다. EG AI GROUP OS의 핵심 축인 에이전트 자동화, 코드 읽기/수정/실행, 작업 위임 흐름과 직접 맞닿아 있다."
+  },
+  {
+    "date": "2026-07-13",
+    "sentAt": "2026-07-13T23:00:38.792Z",
+    "fullName": "Graphify-Labs/graphify",
+    "owner": "Graphify-Labs",
+    "name": "graphify",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "stars": 84604,
+    "category": "코딩 에이전트·개발 자동화 / 코드 지식그래프·RAG",
+    "summary": "코드, DB 스키마, 인프라, 문서까지 하나의 지식그래프로 만들어 질의 가능하게 하는 AI 코딩 어시스턴트용 스킬이다. Claude Code, Codex, Cursor 등 기존 개발 에이전트 환경과 직접 맞물리는 성격이다."
   }
 ]

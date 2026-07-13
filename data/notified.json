@@ -17,5 +17,6 @@
   "alibaba/zvec",
   "TencentCloud/TencentDB-Agent-Memory",
   "Dicklesworthstone/destructive_command_guard",
-  "ColeMurray/background-agents"
+  "ColeMurray/background-agents",
+  "Graphify-Labs/graphify"
 ]
