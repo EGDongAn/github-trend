@@ -1,0 +1,15 @@
+{
+  "fullName": "chenyme/grok2api",
+  "analyzedAt": "2026-07-14T23:00:29.173Z",
+  "repoMeta": {
+    "stars": 5839,
+    "language": "Go",
+    "description": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关"
+  },
+  "relevance": "medium",
+  "category": "LLM API 게이트웨이 / 모델 라우팅",
+  "summary": "Grok Build/Web/Console 계정을 풀링해 OpenAI Responses/Chat, Anthropic Messages, 이미지·비디오 API 형태로 노출하는 Go 기반 셀프호스팅 게이트웨이. SQLite/PostgreSQL, Redis, Docker, 관리자 UI, 키/사용량/계정 관리와 자격증명 암호화를 제공한다.",
+  "fit": "로컬 우선 코어와는 다르지만, EG OS 에이전트들이 Grok 계정을 OpenAI 호환 엔드포인트로 호출하게 만드는 비용 절감형 외부 모델 채널로는 가치가 있다. 다만 xAI/Grok 계정과 SSO 토큰에 강하게 의존하고 약관·계정 차단·운영 리스크가 있어 핵심 인프라로 채택하기에는 위험하다.",
+  "integration": "Docker Compose로 Mac mini 내부망에 띄우고, vault sidecar에 Grok OAuth/SSO 및 gateway API key를 보관한다. Claude Code/codex/OpenClaw에서 OpenAI 호환 base_url로 연결해 보조 모델 라우트로 사용하고, n8n/워치독으로 healthz·readyz와 계정 쿼터를 감시한다. 외부 공개는 피하고 reverse proxy, 로그 마스킹, 백업 정책을 적용한다.",
+  "overlaps": "Open WebUI/Ollama의 로컬 모델 서빙과는 목적이 다르고, Paperclip/cmux 오케스트레이션을 대체하지 않는다. OpenAI 호환 API 프록시·모델 라우팅 계층으로는 LiteLLM류와 일부 중복된다. 이미 충분한 모델 게이트웨이가 있다면 Grok 전용 채널 이상의 차별점은 제한적이다."
+}

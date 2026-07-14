@@ -1,0 +1,15 @@
+{
+  "fullName": "HenryNdubuaku/maths-cs-ai-compendium",
+  "analyzedAt": "2026-07-14T23:00:26.102Z",
+  "repoMeta": {
+    "stars": 5198,
+    "language": "TypeScript",
+    "description": "Become a cracked AI/ML Research Engineer"
+  },
+  "relevance": "low",
+  "category": "AI/ML 교육 자료 및 MCP 지식베이스",
+  "summary": "수학, CS, AI/ML 전반을 정리한 오픈 교재형 repo이며, 로컬 clone 기반 MCP 서버를 포함해 AI assistant가 내용을 지식베이스로 조회할 수 있다.",
+  "fit": "EG AI GROUP OS의 실행 엔진, 멀티에이전트, 로컬 추론, 보안 격리 공백을 직접 메우지는 않는다. 다만 AI inference, ML systems, coding agents 활용 같은 학습/참조 자료로는 보조 가치가 있다.",
+  "integration": "로컬에 clone 후 MCP 서버를 Claude Code/Cursor 계열에 연결해 AI/ML 개념 참조용 지식베이스로 제한 도입. 운영 자동화 핵심 컴포넌트가 아니라 연구/학습 레퍼런스로 분리 관리하는 편이 적절하다.",
+  "overlaps": "OpenClaw/Claude Code의 일반 지식, context7/brave 기반 문서 조회와 일부 중복된다. 기존 Paperclip/cmux/Hermes/vault/n8n/Ollama를 대체하거나 업그레이드하지 않는다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "AIEraDev/Clypra",
+  "analyzedAt": "2026-07-14T23:00:15.718Z",
+  "repoMeta": {
+    "stars": 2596,
+    "language": "TypeScript",
+    "description": "A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities"
+  },
+  "relevance": "none",
+  "category": "일반 앱 / 영상 편집기",
+  "summary": "Tauri, React, TypeScript 기반의 데스크톱 영상 편집기이며 CapCut 유사 기능을 무료로 제공하는 것이 목적이다. EG AI GROUP OS의 에이전트 운영, 로컬 LLM, 자동화, 보안 격리, MCP/워크플로 영역과 직접 관련이 없다.",
+  "fit": "현재 스택의 명확한 공백을 메우지 않는다. 영상 제작 자동화 파이프라인을 별도로 운영한다면 참고 가능하지만, 핵심 운영 OS 도입 후보로 볼 근거는 약하다.",
+  "integration": "-",
+  "overlaps": "OpenClaw, n8n, 에이전트/코딩 자동화 스택과 기능적으로 겹치지 않는다. 다만 일반 데스크톱 앱이므로 운영 자동화 인프라와도 접점이 거의 없다."
+}
