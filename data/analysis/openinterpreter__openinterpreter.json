@@ -1,0 +1,15 @@
+{
+  "fullName": "openinterpreter/openinterpreter",
+  "analyzedAt": "2026-07-15T23:00:30.038Z",
+  "repoMeta": {
+    "stars": 65437,
+    "language": "Rust",
+    "description": "A coding agent for low-cost models"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·로컬 코드 실행 도구",
+  "summary": "OpenInterpreter는 자연어로 로컬 셸/코드 실행을 수행하는 오픈소스 코딩 에이전트로, 저비용·로컬 모델 활용 방향은 EG AI GROUP OS의 로컬 우선/비용 절감 가치와 맞다. 다만 핵심 오케스트레이션보다는 단일 에이전트 실행기 성격이 강하다.",
+  "fit": "로컬 LLM 기반 작업 실행, 간단한 코드 수정/분석, 셸 자동화 보조에는 적합하다. Claude Code/codex보다 저비용 모델 실험용 실행기로 붙이거나, Paperclip 워커의 대체 백엔드 후보로 시험할 수 있다.",
+  "integration": "Paperclip 워커 타입으로 OpenInterpreter 실행기를 추가해 저위험 작업을 로컬 모델에 배정한다. Vault sidecar를 통해 토큰/시크릿 접근을 제한하고, cmux 세션에서 실행 로그를 관제하며, Hermes/Telegram 명령을 OpenInterpreter 작업 큐로 라우팅하는 방식이 현실적이다.",
+  "overlaps": "Claude Code, codex exec, OpenClaw와 기능이 크게 겹친다. 멀티에이전트 오케스트레이션, 칸반, 세션 관제, 시크릿 격리는 기존 Paperclip/cmux/vault가 더 직접적으로 담당한다. 도입 가치는 주력 대체가 아니라 저비용 로컬 모델 실행기 보강 여부에 달려 있다."
+}

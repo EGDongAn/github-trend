@@ -1,0 +1,15 @@
+{
+  "fullName": "YimMenu/YimMenuV2",
+  "analyzedAt": "2026-07-15T23:00:16.796Z",
+  "repoMeta": {
+    "stars": 1409,
+    "language": "C++",
+    "description": "Experimental menu for GTA 5: Enhanced"
+  },
+  "relevance": "none",
+  "category": "게임 모드/치트 메뉴",
+  "summary": "GTA 5: Enhanced용 실험적 메뉴로, 게임 클라이언트 확장 또는 모딩에 초점이 있다. EG AI GROUP OS의 로컬 AI 운영, 에이전트 오케스트레이션, MCP, 보안 격리, 자동화 스택과 직접 관련이 없다.",
+  "fit": "도입 적합성 없음. C++ 기반 런타임 후킹/게임 모딩 기술은 일반 시스템 자동화나 AI 에이전트 운영에 재사용 가치가 낮다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 기능 중복도 거의 없지만, 필요한 공백을 메우지도 않는다. Claude Code, Paperclip, cmux, Hermes, n8n, 로컬 LLM 인프라와 연결되는 실질적 접점이 없다."
+}

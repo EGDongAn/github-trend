@@ -1,0 +1,15 @@
+{
+  "fullName": "HKUDS/DeepTutor",
+  "analyzedAt": "2026-07-15T23:00:23.138Z",
+  "repoMeta": {
+    "stars": 26227,
+    "language": "Python",
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
+  },
+  "relevance": "low",
+  "category": "개인화 튜터링/교육용 AI 에이전트",
+  "summary": "DeepTutor는 장기 개인화 학습을 목표로 한 AI 튜터링 프로젝트로 보이며, 핵심 초점은 교육 도메인에서 학습자 모델링·개인화·튜터링 워크플로에 있다. EG AI GROUP OS의 운영 자동화, 멀티에이전트 작업 위임, 로컬 실행 인프라와는 직접 맞물리지 않는다.",
+  "fit": "로컬 LLM/RAG나 에이전트 오케스트레이션 자체를 보강하는 범용 인프라라기보다 교육 서비스 애플리케이션 성격이 강하다. 개인 AI 비서에 학습 코치 기능을 붙이고 싶다면 참고 후보가 될 수 있지만, 현재 우선순위 기준으로는 도입 필요성이 낮다.",
+  "integration": "OpenClaw나 텔레그램 게이트웨이에 '개인 학습 코치' 기능을 붙이는 실험용 서브서비스로만 제한적으로 검토 가능하다. 실제 도입 전에는 로컬 실행 가능 여부, 모델 의존성, 데이터 저장 구조, API 분리 가능성을 확인해야 한다.",
+  "overlaps": "OpenClaw의 개인 비서 영역과 일부 겹치지만 목적이 교육 특화라 직접 대체재는 아니다. Paperclip/cmux/Claude Code/Ollama/MCP/Vault 계층과는 기능 중복도 낮고 보강 효과도 제한적이다."
+}
