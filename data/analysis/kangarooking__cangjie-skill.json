@@ -1,0 +1,15 @@
+{
+  "fullName": "kangarooking/cangjie-skill",
+  "analyzedAt": "2026-07-16T23:00:47.459Z",
+  "repoMeta": {
+    "stars": 3280,
+    "language": "Python",
+    "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills"
+  },
+  "relevance": "medium",
+  "category": "에이전트 스킬 생성 / 지식 증류 자동화",
+  "summary": "책, 장문 영상, 팟캐스트 같은 고밀도 콘텐츠를 실행 가능한 Agent Skill로 변환하는 Python 도구다. EG AI GROUP OS의 운영 자동화 자체를 강화하는 인프라는 아니지만, Claude Code/OpenClaw용 스킬 자산을 빠르게 늘리는 데 쓸 수 있다.",
+  "fit": "로컬 우선·비용 절감 방향과 대체로 맞고, 기존 Claude Code 스킬 생태계와 직접 연결된다. 다만 멀티에이전트 오케스트레이션, 로컬 LLM 서빙, 보안 격리 같은 핵심 공백을 메우지는 않으므로 high는 아니다.",
+  "integration": "고가치 운영 문서, 책, 긴 강의/팟캐스트를 입력해 .claude/skills 또는 OpenClaw용 SKILL.md로 변환하는 보조 파이프라인으로 사용. 생성 결과는 사람이 검수한 뒤 Claude Code skills 200+ 체계에 편입하고, Paperclip 작업 템플릿이나 운영 SOP 스킬로 재가공하는 방식이 적합하다.",
+  "overlaps": "Claude Code의 기존 스킬 시스템, skill-creator, OpenClaw의 개인 비서 지식화 기능과 일부 중복된다. 단순 요약/RAG라기보다 실행 절차형 스킬 생성에 초점이 있어 보완재 성격이 강하지만, 품질 검수 없이는 스킬 난립 위험이 있다."
+}

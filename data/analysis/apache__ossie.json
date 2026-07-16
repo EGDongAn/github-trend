@@ -1,0 +1,15 @@
+{
+  "fullName": "apache/ossie",
+  "analyzedAt": "2026-07-16T23:00:25.121Z",
+  "repoMeta": {
+    "stars": 877,
+    "language": "Python",
+    "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data"
+  },
+  "relevance": "low",
+  "category": "데이터/AI 메타데이터 표준, 시맨틱 레이어 상호운용성",
+  "summary": "Apache Ossie는 분석·AI·BI 플랫폼 간 시맨틱 메타데이터 교환을 표준화하려는 Python 기반 사양/도구 성격의 repo다. 벤더 중립적인 semantic data single source of truth를 목표로 한다.",
+  "fit": "EG AI GROUP OS의 핵심축인 로컬 에이전트 실행, 멀티에이전트 오케스트레이션, 로컬 LLM 서빙, 시크릿 격리, 텔레그램 자동화와 직접 연결되지는 않는다. 다만 향후 내부 데이터/RAG/BI 메타데이터를 표준화할 필요가 생기면 참고 가치가 있다.",
+  "integration": "현재 도입보다는 관찰 후보. 내부 RAG나 분석 파이프라인에서 데이터셋·지표·스키마 의미를 통일해야 할 때 사양 검토 또는 메타데이터 변환 레이어로 제한 적용할 수 있다.",
+  "overlaps": "현재 스택의 Paperclip, cmux, Claude Code, Ollama, n8n, MCP, Vault 계층과 기능 중복은 거의 없다. 다만 즉시 운영 자동화 가치를 주는 도구가 아니라 데이터 거버넌스/시맨틱 표준에 가까워 우선순위는 낮다."
+}

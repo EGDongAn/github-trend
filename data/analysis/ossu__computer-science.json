@@ -1,0 +1,15 @@
+{
+  "fullName": "ossu/computer-science",
+  "analyzedAt": "2026-07-16T23:00:35.745Z",
+  "repoMeta": {
+    "stars": 206472,
+    "language": "HTML",
+    "description": "🎓 Path to a free self-taught education in Computer Science!"
+  },
+  "relevance": "none",
+  "category": "컴퓨터 과학 학습 커리큘럼",
+  "summary": "무료 독학용 CS 교육 로드맵과 강의 목록을 정리한 저장소다. 운영 자동화, 로컬 LLM, 멀티에이전트, MCP, 보안 격리와 직접 관련된 실행 도구나 시스템 구성요소는 아니다.",
+  "fit": "EG AI GROUP OS의 현재 우선순위와 맞지 않는다. 팀/에이전트의 장기 학습 자료로는 의미가 있지만, 스택에 도입해 기능 공백을 메우거나 비용 절감·자동화·오케스트레이션을 개선하는 repo는 아니다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 기능 중복은 거의 없지만, 도입 대상 소프트웨어가 아니라 교육 콘텐츠라 운영 시스템 관점에서는 적용 지점이 없다."
+}

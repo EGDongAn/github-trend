@@ -1,0 +1,15 @@
+{
+  "fullName": "github/copilot-sdk",
+  "analyzedAt": "2026-07-16T23:00:38.094Z",
+  "repoMeta": {
+    "stars": 9631,
+    "language": "Java",
+    "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 SDK",
+  "summary": "GitHub Copilot Agent를 외부 앱/서비스에 통합하기 위한 멀티플랫폼 SDK. 자체 에이전트 실행 엔진이라기보다 Copilot 기반 코딩 에이전트 기능을 제품이나 워크플로에 붙이는 개발 키트에 가깝다.",
+  "fit": "코딩 자동화와 에이전트 인터페이스 확장 측면에서는 관련성이 있다. 다만 EG AI GROUP OS의 핵심 방향인 로컬 우선, 비용 절감, 자체 오케스트레이션과는 약간 거리가 있고 GitHub/Copilot 생태계 의존성이 크다. Paperclip/cmux를 대체할 수준의 멀티에이전트 관제 도구라기보다는 Copilot Agent를 보조 채널로 붙일 때 가치가 있다.",
+  "integration": "Hermes나 Paperclip에서 GitHub 이슈/PR 작업을 Copilot Agent로 넘기는 보조 실행 경로를 실험할 수 있다. Codex/Claude Code가 주 실행 엔진인 상태에서, GitHub 네이티브 작업이나 PR 리뷰 자동화에 한정해 어댑터 형태로 붙이는 것이 적절하다.",
+  "overlaps": "Claude Code, Codex exec, Paperclip 에이전트 워커와 기능 영역이 일부 겹친다. 로컬 LLM/Ollama 기반 비용 절감에는 기여하지 않고, GitHub Copilot 구독 및 GitHub 플랫폼 의존이 있어 핵심 스택 대체보다는 선택적 보강 후보로 보는 편이 맞다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "jrouwe/JoltPhysics",
+  "analyzedAt": "2026-07-16T23:00:44.375Z",
+  "repoMeta": {
+    "stars": 10925,
+    "language": "C++",
+    "description": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2."
+  },
+  "relevance": "none",
+  "category": "게임/VR용 물리 엔진",
+  "summary": "JoltPhysics는 C++ 기반 고성능 rigid body 물리 및 충돌 감지 라이브러리로, 게임과 VR 애플리케이션에 적합한 엔진 컴포넌트다.",
+  "fit": "EG AI GROUP OS의 핵심 영역인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안 격리, 워크플로 자동화와 직접 관련이 없다. 현재 스택의 운영 자동화나 비용 절감 목표에도 기여가 거의 없다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 실질적 중복은 없지만, 필요한 기능 범위 자체가 다르다. 3D 시뮬레이션이나 게임형 에이전트 환경을 별도로 만들 계획이 없다면 도입 이유가 없다."
+}

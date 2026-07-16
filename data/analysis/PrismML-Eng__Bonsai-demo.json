@@ -1,0 +1,15 @@
+{
+  "fullName": "PrismML-Eng/Bonsai-demo",
+  "analyzedAt": "2026-07-16T23:00:30.063Z",
+  "repoMeta": {
+    "stars": 1491,
+    "language": "Shell",
+    "description": "Bonsai Demo"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 추론/서빙",
+  "summary": "Bonsai 1-bit/ternary 저비트 LLM을 Mac Metal, CUDA/Vulkan/ROCm, CPU에서 실행하기 위한 데모/설치 repo다. llama.cpp, MLX, HuggingFace 모델 다운로드, 로컬 서버 실행, Open WebUI류 연동 가능성이 핵심이다.",
+  "fit": "로컬 우선과 비용 절감 가치에는 잘 맞는다. 특히 Mac mini에서 작은 메모리로 8B/27B급 저비트 모델을 돌려보는 실험 후보로 의미가 있다. 다만 EG OS의 핵심 공백인 에이전트 오케스트레이션이나 작업 위임을 직접 보강하지는 않는다.",
+  "integration": "Ollama/mlx-lm 옆에 별도 실험 런타임으로 두고 Mac mini에서 Bonsai GGUF/MLX 모델 성능, 메모리, 응답 품질을 벤치마크한다. 품질이 충분하면 Hermes/Paperclip 에이전트의 저비용 로컬 추론 백엔드 후보로 연결하거나 Open WebUI에 모델을 추가한다.",
+  "overlaps": "Ollama, mlx-lm, Open WebUI, llama.cpp 기반 로컬 모델 실행과 상당히 겹친다. repo 자체는 모델/실행 데모에 가깝기 때문에 기존 스택을 대체하기보다는 저비트 모델 후보를 검증하는 보조 도구 성격이 강하다."
+}
