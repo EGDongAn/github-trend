@@ -1,0 +1,15 @@
+{
+  "fullName": "RyanCodrai/turbovec",
+  "analyzedAt": "2026-07-17T23:00:28.596Z",
+  "repoMeta": {
+    "stars": 13280,
+    "language": "Python",
+    "description": "A vector index built on TurboQuant, written in Rust with Python bindings"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM/RAG 인프라 · 벡터 검색 엔진",
+  "summary": "TurboQuant 기반 Rust 벡터 인덱스에 Python 바인딩을 제공하는 고성능 벡터 검색 라이브러리로 보인다. EG OS의 로컬 우선 RAG/메모리 검색 계층을 더 빠르고 가볍게 만들 후보지만, 자체 오케스트레이션이나 에이전트 기능은 아니다.",
+  "fit": "로컬 LLM/RAG 비용 절감 방향과는 잘 맞는다. 특히 Paperclip, 개인 메모리, 코드베이스 검색, 에이전트 컨텍스트 검색에서 임베딩 벡터를 로컬로 인덱싱하는 용도에 적합하다. 다만 현재 스택에 이미 MCP, 로컬 LLM, Open WebUI 등이 있고 벡터 DB/검색 공백이 명확히 드러난 경우에만 도입 가치가 커진다.",
+  "integration": "Python 바인딩을 통해 Paperclip 워커나 로컬 RAG 서비스에 붙이고, Rust 코어는 독립 로컬 인덱서로 운영하는 방식이 적합하다. 우선 소규모 코드/문서 임베딩 인덱스 벤치마크를 FAISS, Qdrant, LanceDB 등 기존 후보와 비교한 뒤 채택 여부를 판단하는 것이 좋다.",
+  "overlaps": "Qdrant, FAISS, LanceDB, Chroma 같은 벡터 검색 계층과 직접 중복된다. EG OS의 핵심 보유 도구와는 기능 중복이 작지만, 단순 라이브러리라 운영 UI, 분산 관리, 권한, 백업, 관측성은 별도로 붙여야 한다."
+}

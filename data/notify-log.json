@@ -218,5 +218,16 @@
     "stars": 84604,
     "category": "코딩 에이전트·개발 자동화 / 코드 지식그래프·RAG",
     "summary": "코드, DB 스키마, 인프라, 문서까지 하나의 지식그래프로 만들어 질의 가능하게 하는 AI 코딩 어시스턴트용 스킬이다. Claude Code, Codex, Cursor 등 기존 개발 에이전트 환경과 직접 맞물리는 성격이다."
+  },
+  {
+    "date": "2026-07-17",
+    "sentAt": "2026-07-17T23:00:37.374Z",
+    "fullName": "tirth8205/code-review-graph",
+    "owner": "tirth8205",
+    "name": "code-review-graph",
+    "url": "https://github.com/tirth8205/code-review-graph",
+    "stars": 19723,
+    "category": "코딩 에이전트·개발 자동화 / MCP 코드 인텔리전스",
+    "summary": "로컬에서 코드베이스 구조 그래프를 만들고 MCP/CLI로 AI 코딩 도구에 필요한 컨텍스트만 제공하는 도구. Tree-sitter 기반 파싱, 증분 업데이트, daemon watch, PR/변경 리뷰와 blast-radius 분석을 지원한다."
   }
 ]

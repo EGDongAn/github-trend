@@ -1,0 +1,15 @@
+{
+  "fullName": "protocolbuffers/protobuf",
+  "analyzedAt": "2026-07-17T23:00:16.921Z",
+  "repoMeta": {
+    "stars": 71536,
+    "language": "C++",
+    "description": "Protocol Buffers - Google's data interchange format"
+  },
+  "relevance": "low",
+  "category": "데이터 직렬화/스키마/IDL",
+  "summary": "Protocol Buffers는 언어 중립 바이너리 직렬화 포맷과 코드 생성 도구다. 멀티에이전트 오케스트레이션, 로컬 LLM, MCP, 비밀 격리 같은 EG AI GROUP OS 핵심 공백을 직접 메우지는 않는다.",
+  "fit": "에이전트 간 RPC/이벤트 메시지, Paperclip 워커 API, 내부 서비스 간 계약을 엄격히 관리해야 할 때는 유용하다. 하지만 현재 스택 도입 우선순위 기준으로는 인프라 보조 기술에 가깝고, 즉시 운영 능력을 크게 올리는 도구는 아니다.",
+  "integration": "기존 Python/Node/Go 서비스 간 메시지 스키마 표준화가 필요할 때만 선택적으로 도입. gRPC, buf, ConnectRPC 같은 상위 도구와 함께 써야 실제 통합 가치가 커진다.",
+  "overlaps": "JSON/YAML 기반 설정, REST API, n8n/Paperclip 내부 데이터 모델과 부분 중복된다. 단순 자동화 스택에서는 복잡도와 코드 생성 관리 비용이 이점보다 클 수 있다."
+}

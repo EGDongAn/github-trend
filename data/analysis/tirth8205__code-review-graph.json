@@ -1,0 +1,15 @@
+{
+  "fullName": "tirth8205/code-review-graph",
+  "analyzedAt": "2026-07-17T23:00:22.250Z",
+  "repoMeta": {
+    "stars": 19723,
+    "language": "Python",
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트·개발 자동화 / MCP 코드 인텔리전스",
+  "summary": "로컬에서 코드베이스 구조 그래프를 만들고 MCP/CLI로 AI 코딩 도구에 필요한 컨텍스트만 제공하는 도구. Tree-sitter 기반 파싱, 증분 업데이트, daemon watch, PR/변경 리뷰와 blast-radius 분석을 지원한다.",
+  "fit": "EG AI GROUP OS의 로컬 우선, 비용 절감, Claude Code/codex 워크플로 강화 방향과 직접 맞는다. 대형 repo 리뷰에서 토큰 사용을 줄이고 에이전트가 불필요한 파일을 덜 읽게 하는 역할이라 현재 스택의 명확한 개선 후보다.",
+  "integration": "Claude Code와 codex MCP 서버로 repo별 graph를 붙이고, Paperclip 워커가 작업 시작 전에 graph build/update를 실행하도록 hook화. cmux 작업실별 repo에 crg-daemon watch를 켜서 persistent code map을 유지하고, PR 리뷰/impact 분석 명령을 에이전트 기본 절차에 추가한다.",
+  "overlaps": "Claude Code의 기본 코드 탐색, context7/기존 MCP, Paperclip 워커의 자체 repo 읽기와 일부 중복된다. 다만 LLM 에이전트 자체가 아니라 코드 컨텍스트 압축·검색 계층이므로 대체보다는 보강 성격이 강하다. 안정성, 언어 지원 범위, MCP 설정 자동 변경의 보안 영향은 파일럿으로 검증 필요."
+}

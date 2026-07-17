@@ -1,0 +1,15 @@
+{
+  "fullName": "docusealco/docuseal",
+  "analyzedAt": "2026-07-17T23:00:18.200Z",
+  "repoMeta": {
+    "stars": 17820,
+    "language": "Ruby",
+    "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️"
+  },
+  "relevance": "low",
+  "category": "문서 전자서명/셀프호스팅 업무 앱",
+  "summary": "DocuSeal은 오픈소스 DocuSign 대안으로, 문서 작성·입력·전자서명 워크플로를 셀프호스팅할 수 있는 Ruby 기반 앱이다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 비밀 격리와는 직접 관련이 약하다.",
+  "fit": "로컬 우선·셀프호스팅 성향은 맞지만, 주 용도는 계약서/동의서/문서 서명 관리다. AI 에이전트 운영 스택의 생산성이나 자동화 핵심 기능을 강화하지는 않는다. 문서 서명 업무가 빈번하다면 보조 업무 앱으로만 의미가 있다.",
+  "integration": "n8n이나 Paperclip 작업 결과로 생성된 계약서/승인 문서를 DocuSeal API에 넘겨 서명 요청을 자동화하는 정도가 가능하다. Telegram 알림과 연결해 서명 상태를 통지할 수 있다.",
+  "overlaps": "현재 스택과 직접 중복은 거의 없다. 다만 Google Drive/Docs 기반 문서 관리나 n8n 워크플로로 일부 문서 처리 흐름은 이미 구성 가능하므로, 전자서명 자체가 필요한 경우가 아니라면 도입 우선순위는 낮다."
+}

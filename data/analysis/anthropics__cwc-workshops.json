@@ -1,0 +1,15 @@
+{
+  "fullName": "anthropics/cwc-workshops",
+  "analyzedAt": "2026-07-17T23:00:24.692Z",
+  "repoMeta": {
+    "stars": 1573,
+    "language": "TypeScript",
+    "description": null
+  },
+  "relevance": "medium",
+  "category": "Claude Code/Managed Agents 워크숍 자료, 멀티에이전트·MCP·에이전트 평가 예제",
+  "summary": "Anthropic Code with Claude 워크숍 모음이다. 모델 선택 최적화, 프롬프트 분해, Skills+MCP, Managed Agent, 메모리, eval-driven agent 개발, 연구 데스크/딜 데스크 같은 멀티에이전트 예제가 포함된다. 다만 README상 “not maintained and not accepting contributions”라 제품형 프레임워크라기보다 학습·레퍼런스 성격이 강하다.",
+  "fit": "EG AI GROUP OS의 Claude Code, MCP, 멀티에이전트, 에이전트 평가/메모리 설계와 직접 맞닿는다. Paperclip/cmux를 즉시 대체할 수준은 아니지만, 에이전트 분해 패턴, 평가 루프, 메모리/도구 호출 설계, Claude Code 워크플로 개선에 참고 가치가 있다.",
+  "integration": "워크숍별로 필요한 패턴만 선별 도입: agent-decomposition은 Paperclip 워커 프롬프트/스킬 분해 기준으로, eval-driven-agent-development는 에이전트 회귀 테스트 템플릿으로, rightmodel은 로컬/클라우드 모델 비용-품질 비교 벤치로, research-desk/production-ready-agent는 다중 하위 에이전트 관제 UI·이벤트 스트리밍 참고로 활용.",
+  "overlaps": "Claude Code, MCP, Paperclip, 로컬 eval/에이전트 운영과 많이 겹친다. 핵심 기능은 이미 보유 스택에 있으므로 신규 런타임 도입보다는 설계 패턴과 테스트 방법론을 흡수하는 쪽이 적합하다. Anthropic Managed Agents 의존 예제는 로컬 우선 원칙과 일부 충돌한다."
+}

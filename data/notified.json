@@ -18,5 +18,6 @@
   "TencentCloud/TencentDB-Agent-Memory",
   "Dicklesworthstone/destructive_command_guard",
   "ColeMurray/background-agents",
-  "Graphify-Labs/graphify"
+  "Graphify-Labs/graphify",
+  "tirth8205/code-review-graph"
 ]
