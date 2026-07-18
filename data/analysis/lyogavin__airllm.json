@@ -1,0 +1,15 @@
+{
+  "fullName": "lyogavin/airllm",
+  "analyzedAt": "2026-07-18T23:00:22.675Z",
+  "repoMeta": {
+    "stars": 23314,
+    "language": "Jupyter Notebook",
+    "description": "AirLLM 70B inference with single 4GB GPU"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 추론/메모리 절감",
+  "summary": "대형 LLM을 작은 VRAM에서 레이어 단위 로딩/압축으로 실행하게 하는 추론 라이브러리. 70B를 4GB GPU, Llama 3.1 405B를 8GB VRAM에서 실행하는 것을 목표로 하며 macOS/Apple Silicon도 지원한다.",
+  "fit": "EG OS의 로컬 우선·비용 절감 방향과 잘 맞는다. Mac mini에서 대형 모델을 실험할 수 있는 후보지만, 처리 속도와 디스크 I/O 병목이 커서 Ollama/MLX의 실사용 서빙 대체재라기보다 저빈도 대형 모델 실행용 보조 도구에 가깝다.",
+  "integration": "Hugging Face 모델 캐시를 별도 디스크 경로에 두고, AirLLM을 실험용 Python worker 또는 Paperclip 작업 타입으로 감싼다. Telegram/Hermes 명령으로 고비용 대형 모델 질의를 큐잉하고, 결과만 반환하는 방식이 적합하다.",
+  "overlaps": "Ollama, mlx-lm, Open WebUI와 겹친다. 다만 이들은 빠른 로컬 서빙/상호작용에 강하고, AirLLM은 매우 낮은 VRAM에서 초대형 모델을 돌리는 특화 영역이 있어 완전 중복은 아니다."
+}

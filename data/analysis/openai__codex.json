@@ -1,0 +1,15 @@
+{
+  "fullName": "openai/codex",
+  "analyzedAt": "2026-07-18T23:00:39.638Z",
+  "repoMeta": {
+    "stars": 99397,
+    "language": "Rust",
+    "description": "Lightweight coding agent that runs in your terminal"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트·개발 자동화 도구",
+  "summary": "터미널에서 동작하는 경량 코딩 에이전트로, 로컬 개발 환경에서 코드 읽기·수정·실행 워크플로를 자동화하는 핵심 도구 후보다.",
+  "fit": "EG AI GROUP OS의 로컬 우선, 비용 절감, 자동화, 에이전트 실행 엔진 방향과 직접 맞는다. Claude Code 중심 스택을 보완하거나 작업별 대체 실행기로 쓰기 좋고, Rust 기반이라 단일 바이너리/로컬 실행 관점에서도 매력적이다.",
+  "integration": "Claude Code와 병렬 실행 엔진으로 두고 cmux/Paperclip에서 작업자 타입으로 등록한다. Hermes/Telegram 지시를 Paperclip 이슈로 만들고, Codex worker가 repo 단위 수정·테스트·PR 초안을 처리하도록 연결한다. Vault sidecar로 토큰을 격리하고, MCP 도구 접근은 필요한 서버만 제한적으로 노출하는 구성이 적합하다.",
+  "overlaps": "Claude Code와 기능 영역이 크게 겹친다. 단순 추가 도입이면 중복이지만, 더 가벼운 터미널 에이전트·Rust CLI·OpenAI 모델 기반 대체 worker로 포지셔닝하면 Paperclip/cmux의 실행 다양성과 장애 대비를 높이는 업그레이드 성격이 있다."
+}

@@ -19,5 +19,7 @@
   "Dicklesworthstone/destructive_command_guard",
   "ColeMurray/background-agents",
   "Graphify-Labs/graphify",
-  "tirth8205/code-review-graph"
+  "tirth8205/code-review-graph",
+  "openai/codex",
+  "KnockOutEZ/wigolo"
 ]

@@ -229,5 +229,27 @@
     "stars": 19723,
     "category": "코딩 에이전트·개발 자동화 / MCP 코드 인텔리전스",
     "summary": "로컬에서 코드베이스 구조 그래프를 만들고 MCP/CLI로 AI 코딩 도구에 필요한 컨텍스트만 제공하는 도구. Tree-sitter 기반 파싱, 증분 업데이트, daemon watch, PR/변경 리뷰와 blast-radius 분석을 지원한다."
+  },
+  {
+    "date": "2026-07-18",
+    "sentAt": "2026-07-18T23:00:43.621Z",
+    "fullName": "openai/codex",
+    "owner": "openai",
+    "name": "codex",
+    "url": "https://github.com/openai/codex",
+    "stars": 99397,
+    "category": "코딩 에이전트·개발 자동화 도구",
+    "summary": "터미널에서 동작하는 경량 코딩 에이전트로, 로컬 개발 환경에서 코드 읽기·수정·실행 워크플로를 자동화하는 핵심 도구 후보다."
+  },
+  {
+    "date": "2026-07-18",
+    "sentAt": "2026-07-18T23:00:43.621Z",
+    "fullName": "KnockOutEZ/wigolo",
+    "owner": "KnockOutEZ",
+    "name": "wigolo",
+    "url": "https://github.com/KnockOutEZ/wigolo",
+    "stars": 1200,
+    "category": "MCP 서버/로컬 리서치·웹 크롤링 도구",
+    "summary": "AI 코딩 에이전트가 로컬 우선으로 웹 검색, fetch, crawl, research를 MCP를 통해 수행하게 해주는 TypeScript 도구. API 키와 클라우드 비용 없이 동작한다는 점이 EG AI GROUP OS의 로컬 우선·비용 절감 방향과 강하게 맞는다."
   }
 ]

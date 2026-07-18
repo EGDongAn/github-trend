@@ -1,0 +1,15 @@
+{
+  "fullName": "MoonshotAI/kimi-cli",
+  "analyzedAt": "2026-07-18T23:00:42.315Z",
+  "repoMeta": {
+    "stars": 9456,
+    "language": "Python",
+    "description": "Kimi Code CLI is your next CLI agent."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 CLI",
+  "summary": "터미널에서 코드 읽기/수정, 셸 실행, 웹 조회, 계획 수립을 수행하는 Python 기반 AI 코딩 CLI다. MCP 로딩, ACP 기반 IDE 연동, VS Code/Zsh 연동을 지원해 개발 자동화 도구로는 EG AI GROUP OS와 방향이 맞다. 다만 기존 kimi-cli는 Kimi Code로 전환되며 점진 종료 예정이라 신규 핵심 도입 대상보다는 후보 검증 성격이 강하다.",
+  "fit": "로컬 우선/비용 절감 관점에서는 Kimi 모델 또는 OpenAI 호환 provider를 Claude Code/codex 보조 백엔드로 붙일 수 있다는 점이 매력이다. 하지만 자체 멀티에이전트 오케스트레이션, 작업 큐, 비밀 격리, 텔레그램 운영을 제공하는 도구는 아니므로 Paperclip/cmux의 공백을 직접 메우지는 않는다.",
+  "integration": "Claude Code/codex의 대체재가 아니라 보조 코딩 에이전트로 샌드박스 테스트. MCP 설정을 기존 context7/playwright 등과 맞춰 보고, ACP 모드로 IDE 에이전트 서버를 붙이며, cmux 세션 중 하나에 kimi를 상주시켜 특정 저비용 코딩 작업을 위임하는 방식이 적합하다. 운영 도입 전에는 Kimi Code 신버전으로 평가 대상을 바꾸는 것이 좋다.",
+  "overlaps": "Claude Code, codex exec, OpenClaw와 기능 중복이 크다. 코드 수정/셸 실행/MCP/IDE 연동은 이미 보유한 워크플로와 겹치며, Paperclip 수준의 작업 위임·칸반이나 cmux 수준의 멀티세션 관제는 대체하지 못한다. 도입 가치는 새로운 모델 선택지와 비용/성능 비교에서만 발생한다."
+}
