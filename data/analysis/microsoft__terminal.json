@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/terminal",
+  "analyzedAt": "2026-07-19T23:00:17.445Z",
+  "repoMeta": {
+    "stars": 104156,
+    "language": "C++",
+    "description": "The new Windows Terminal and the original Windows console host, all in the same place!"
+  },
+  "relevance": "none",
+  "category": "터미널/Windows 콘솔 애플리케이션",
+  "summary": "Windows Terminal과 Windows 콘솔 호스트 개발 repo로, Windows 환경의 터미널 UI/콘솔 기능에 초점이 있다.",
+  "fit": "EG AI GROUP OS는 macOS 기반 로컬 AI 자동화 스택이며, 핵심 관심사는 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리, 자동화다. 이 repo는 Windows 터미널 자체 구현체라 해당 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "cmux/tmux, Claude Code CLI, macOS 기본 터미널 환경과 사용 영역이 일부 겹치지만 Windows 전용 성격이 강해 대체나 업그레이드 후보로 보기 어렵다."
+}

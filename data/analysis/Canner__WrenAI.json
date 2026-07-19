@@ -1,0 +1,15 @@
+{
+  "fullName": "Canner/WrenAI",
+  "analyzedAt": "2026-07-19T23:00:43.456Z",
+  "repoMeta": {
+    "stars": 16171,
+    "language": "Python",
+    "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more."
+  },
+  "relevance": "medium",
+  "category": "GenBI / Text-to-SQL / 데이터 분석 에이전트",
+  "summary": "자연어 질문을 SQL, 차트, 대시보드로 변환하는 오픈소스 BI 계층이다. 여러 데이터 소스에 걸친 governed semantic/context layer를 제공해 에이전트가 신뢰 가능한 분석 결과를 만들도록 돕는다.",
+  "fit": "EG AI GROUP OS의 핵심인 코딩 에이전트, 로컬 LLM, 작업 오케스트레이션을 직접 강화하지는 않는다. 다만 Paperclip, n8n, 운영 로그, 비용/작업 현황 DB 같은 내부 데이터를 자연어로 조회하는 운영 분석 레이어로는 가치가 있다. 데이터 기반 의사결정/관제 대시보드가 중요해질 경우 도입 후보.",
+  "integration": "PostgreSQL 기반 Paperclip DB, n8n 실행 로그, GitHub/운영 메트릭 저장소에 연결해 Telegram 또는 내부 대시보드에서 자연어 BI 질의를 제공하는 방식이 적합하다. 로컬 배포 가능성과 사용 LLM 백엔드를 확인한 뒤 Ollama/OpenAI 호환 API와 붙일 수 있으면 비용 통제 측면에서도 맞다.",
+  "overlaps": "Open WebUI/RAG, n8n, 기존 DB 대시보드와 일부 겹치지만 목적이 다르다. WrenAI는 범용 비서보다 governed text-to-SQL/BI에 특화되어 있다. 현재 스택에 이미 명확한 BI 계층이 없다면 보완재이고, 단순 챗봇/RAG 용도로 쓰려면 중복이다."
+}

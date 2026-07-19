@@ -1,0 +1,15 @@
+{
+  "fullName": "trycua/cua",
+  "analyzedAt": "2026-07-19T23:00:34.081Z",
+  "repoMeta": {
+    "stars": 20221,
+    "language": "HTML",
+    "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
+  },
+  "relevance": "high",
+  "category": "컴퓨터 사용 에이전트/크로스 OS 자동화 인프라",
+  "summary": "오픈소스 드라이버, 크로스 OS fleet, 벤치마크, 학습·평가·데이터 생성까지 포함한 computer-use 에이전트 스택이다. macOS 중심 로컬 자동화와 멀티에이전트 운영을 확장해 실제 GUI/브라우저/데스크톱 조작 능력을 평가·스케일링하는 데 직접 관련 있다.",
+  "fit": "EG AI GROUP OS의 로컬 우선, 자동화, 에이전트 오케스트레이션 방향과 잘 맞는다. Claude Code/Paperclip/cmux가 코드·터미널 작업에 강하다면, 이 repo는 OS/GUI 레벨 computer-use 실행과 평가 인프라를 보강하는 성격이라 명확한 공백을 메운다.",
+  "integration": "Paperclip worker의 실행 backend 후보로 붙여 GUI 작업, 브라우저 조작, 앱 테스트, 데이터 생성 태스크를 별도 agent class로 분리한다. cmux 관제에는 fleet 상태와 작업 로그를 노출하고, n8n/cron에서 반복 벤치마크나 regression eval을 돌리며, Vault sidecar로 계정·API secret을 격리해 사용한다.",
+  "overlaps": "playwright MCP, Claude Code, OpenClaw와 일부 겹치지만 대체라기보다 확장에 가깝다. Playwright는 웹 자동화 중심이고 Claude Code는 개발 작업 중심인 반면, cua는 computer-use driver/fleet/eval 계층을 제공하므로 GUI 기반 범용 자동화와 에이전트 평가 인프라에서 차별점이 있다."
+}

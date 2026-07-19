@@ -251,5 +251,49 @@
     "stars": 1200,
     "category": "MCP 서버/로컬 리서치·웹 크롤링 도구",
     "summary": "AI 코딩 에이전트가 로컬 우선으로 웹 검색, fetch, crawl, research를 MCP를 통해 수행하게 해주는 TypeScript 도구. API 키와 클라우드 비용 없이 동작한다는 점이 EG AI GROUP OS의 로컬 우선·비용 절감 방향과 강하게 맞는다."
+  },
+  {
+    "date": "2026-07-19",
+    "sentAt": "2026-07-19T23:00:47.488Z",
+    "fullName": "earendil-works/pi",
+    "owner": "earendil-works",
+    "name": "pi",
+    "url": "https://github.com/earendil-works/pi",
+    "stars": 72749,
+    "category": "코딩 에이전트·개발 자동화 / 에이전트 툴킷",
+    "summary": "통합 LLM API, 에이전트 루프, TUI, 코딩 에이전트 CLI를 제공하는 TypeScript 기반 AI 에이전트 툴킷. EG AI GROUP OS의 로컬 우선 코딩 자동화와 멀티에이전트 운영 흐름에 직접 맞닿는다."
+  },
+  {
+    "date": "2026-07-19",
+    "sentAt": "2026-07-19T23:00:47.488Z",
+    "fullName": "trycua/cua",
+    "owner": "trycua",
+    "name": "cua",
+    "url": "https://github.com/trycua/cua",
+    "stars": 20221,
+    "category": "컴퓨터 사용 에이전트/크로스 OS 자동화 인프라",
+    "summary": "오픈소스 드라이버, 크로스 OS fleet, 벤치마크, 학습·평가·데이터 생성까지 포함한 computer-use 에이전트 스택이다. macOS 중심 로컬 자동화와 멀티에이전트 운영을 확장해 실제 GUI/브라우저/데스크톱 조작 능력을 평가·스케일링하는 데 직접 관련 있다."
+  },
+  {
+    "date": "2026-07-19",
+    "sentAt": "2026-07-19T23:00:47.488Z",
+    "fullName": "kvcache-ai/ktransformers",
+    "owner": "kvcache-ai",
+    "name": "ktransformers",
+    "url": "https://github.com/kvcache-ai/ktransformers",
+    "stars": 18327,
+    "category": "로컬 LLM 추론/서빙 최적화",
+    "summary": "CPU-GPU 이기종 LLM 추론과 SFT 최적화 프레임워크. kt-kernel은 AMX/AVX 기반 INT4/INT8, MoE expert placement, NUMA-aware 메모리 관리, SGLang 연동을 제공하고, kt-sft는 LLaMA-Factory 기반 대형 MoE LoRA/SFT를 제한된 GPU 메모리로 돌리는 쪽에 초점이 있다."
+  },
+  {
+    "date": "2026-07-19",
+    "sentAt": "2026-07-19T23:00:47.488Z",
+    "fullName": "1jehuang/jcode",
+    "owner": "1jehuang",
+    "name": "jcode",
+    "url": "https://github.com/1jehuang/jcode",
+    "stars": 8867,
+    "category": "코딩 에이전트 하네스 / 멀티세션 개발 자동화",
+    "summary": "Rust 기반 코딩 에이전트 실행 하네스. TUI, 비대화형 실행, 세션 resume, 서버/클라이언트 모드, MCP 설정, 브라우저 자동화, 다중 LLM provider, Ollama/LM Studio/OpenAI-compatible 로컬·셀프호스트 엔드포인트를 지원한다."
   }
 ]

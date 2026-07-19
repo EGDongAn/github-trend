@@ -1,0 +1,15 @@
+{
+  "fullName": "bojieli/ai-agent-book",
+  "analyzedAt": "2026-07-19T23:00:21.955Z",
+  "repoMeta": {
+    "stars": 5326,
+    "language": "Python",
+    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
+  },
+  "relevance": "medium",
+  "category": "AI Agent 교육/레퍼런스 및 예제 코드",
+  "summary": "AI Agent 설계 원리와 엔지니어링 실습을 다룬 오픈소스 책/예제 저장소다. 직접 실행형 오케스트레이션 플랫폼이라기보다 개념, 패턴, 구현 예제를 학습·참조하는 성격이 강하다.",
+  "fit": "멀티에이전트, 툴 사용, RAG, 에이전트 설계 패턴을 체계적으로 정리하는 데는 유용하다. EG AI GROUP OS의 Paperclip/cmux/Hermes 같은 실제 운영 스택을 바로 대체하거나 보강하는 도구는 아니므로 high는 아니다.",
+  "integration": "운영 컴포넌트로 도입하기보다는 내부 설계 레퍼런스와 에이전트 구현 체크리스트로 활용. Paperclip 워커 설계, 에이전트 프롬프트/도구 호출 패턴, 로컬 LLM 기반 실험 코드의 참고 자료로 일부 흡수 가능.",
+  "overlaps": "Claude Code 스킬/훅, Paperclip 에이전트 워커, OpenClaw와 개념적으로 겹친다. 다만 실행 플랫폼이 아니라 교육용 본문과 코드 예제 중심이라 직접 중복 리스크는 낮고, 실무 도입 가치는 선별적이다."
+}

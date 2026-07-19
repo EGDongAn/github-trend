@@ -1,0 +1,15 @@
+{
+  "fullName": "PKUFlyingPig/cs-self-learning",
+  "analyzedAt": "2026-07-19T23:00:42.501Z",
+  "repoMeta": {
+    "stars": 74146,
+    "language": "HTML",
+    "description": "计算机自学指南"
+  },
+  "relevance": "none",
+  "category": "컴퓨터과학 학습 자료/커리큘럼",
+  "summary": "PKUFlyingPig/cs-self-learning은 컴퓨터과학 전반의 독학 로드맵과 강의·자료를 정리한 교육용 가이드다. 운영 자동화, 로컬 LLM, 에이전트 오케스트레이션, MCP, 보안 격리 같은 EG AI GROUP OS의 실행 구성요소를 제공하지 않는다.",
+  "fit": "도입 적합성은 거의 없다. 개인 학습 참고자료로는 가치가 있지만, 현재 스택의 공백을 메우거나 Paperclip/cmux/Claude Code/Ollama/n8n/Vault 계층을 강화하지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 기능 중복은 거의 없지만, 시스템 구성요소가 아니라 학습 콘텐츠이므로 도입 대상이 아니다."
+}
