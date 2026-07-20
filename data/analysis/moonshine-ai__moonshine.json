@@ -1,0 +1,15 @@
+{
+  "fullName": "moonshine-ai/moonshine",
+  "analyzedAt": "2026-07-20T23:00:35.883Z",
+  "repoMeta": {
+    "stars": 9788,
+    "language": "C++",
+    "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces"
+  },
+  "relevance": "medium",
+  "category": "음성 에이전트 / 로컬 STT·TTS 런타임",
+  "summary": "초저지연 STT, 의도 인식, TTS를 제공해 로컬 음성 인터페이스나 보이스 에이전트를 만들 수 있는 C++ 기반 프로젝트다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·자동화 방향과 일부 맞는다. 텔레그램 중심의 텍스트 지시 체계에 음성 명령/응답 레이어를 추가하거나, Mac mini에서 로컬 음성 게이트웨이를 붙이는 용도로 검토 가치가 있다. 다만 핵심 우선순위인 멀티에이전트 오케스트레이션, 코딩 자동화, MCP, 시크릿 격리 자체를 직접 강화하지는 않는다.",
+  "integration": "Hermes 또는 tg-proxy 앞단/옆단에 음성 입력 변환 서비스를 붙여 음성 메시지를 텍스트 명령으로 변환하고, 결과를 TTS로 되돌리는 보이스 브리지로 적용 가능하다. 로컬 실행 가능성과 macOS 빌드 안정성, 모델 크기, 한국어 성능, CLI/API 형태를 먼저 검증해야 한다.",
+  "overlaps": "Open WebUI/Ollama/mlx-lm과는 LLM 영역이 아니라 음성 I/O 영역이라 직접 중복은 작다. 다만 이미 외부 STT/TTS API나 봇 음성 처리 파이프라인이 있다면 보이스 인터페이스 계층에서 중복될 수 있다. Paperclip/cmux/Claude Code를 대체하지는 않고 보조 입력 채널 역할에 가깝다."
+}

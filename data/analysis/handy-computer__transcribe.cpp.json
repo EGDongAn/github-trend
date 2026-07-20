@@ -1,0 +1,15 @@
+{
+  "fullName": "handy-computer/transcribe.cpp",
+  "analyzedAt": "2026-07-20T23:00:34.620Z",
+  "repoMeta": {
+    "stars": 1218,
+    "language": "C++",
+    "description": "ggml speech-to-text inference for 16+ model families"
+  },
+  "relevance": "medium",
+  "category": "로컬 STT 추론 / 음성 인식 런타임",
+  "summary": "ggml 기반으로 16개 이상 음성-텍스트 모델 패밀리를 로컬에서 추론하는 C++ 프로젝트. 텔레그램/회의/음성 지시를 로컬에서 전사해 에이전트 입력으로 넣는 용도에 맞다.",
+  "fit": "로컬 우선과 비용 절감에는 잘 맞지만, 현재 EG AI GROUP OS의 최우선 공백인 멀티에이전트 오케스트레이션이나 코딩 자동화 자체를 직접 개선하지는 않는다. 음성 입력 파이프라인을 강화하려는 경우에만 도입 가치가 커진다.",
+  "integration": "Hermes/tg-proxy 앞단 또는 n8n 워크플로에 로컬 STT 서비스로 붙여 음성 메시지, 회의 녹음, 운영 로그 오디오를 텍스트화한다. Mac mini에서 CLI/daemon 형태로 감싸고 Paperclip 태스크 생성 전 전처리 단계로 연결하는 방식이 적합하다.",
+  "overlaps": "Ollama/mlx-lm은 텍스트 LLM 중심이라 직접 중복은 약하다. whisper.cpp 계열 또는 기존 STT 파이프라인을 이미 쓰고 있다면 대체 후보지만, 단순 도입만으로는 현재 스택의 핵심 자동화 계층과는 부분 보완 수준이다."
+}

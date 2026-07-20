@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/Ontology-Playground",
+  "analyzedAt": "2026-07-20T23:00:30.136Z",
+  "repoMeta": {
+    "stars": 1704,
+    "language": "TypeScript",
+    "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static."
+  },
+  "relevance": "low",
+  "category": "온톨로지 학습/시각 설계 웹앱, RDF/XML 내보내기, 정적 프론트엔드",
+  "summary": "Microsoft Fabric IQ와 온톨로지 개념을 배우고 시각적으로 설계하는 정적 TypeScript 웹앱이다. 백엔드 없이 동작하고 RDF/XML export와 인터랙티브 다이어그램 공유가 핵심이다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM 서빙, 코딩 자동화, MCP, 보안 격리와 직접 맞닿지는 않는다. 다만 지식 모델링이나 RAG용 도메인 온톨로지 설계 실험에는 보조적으로 쓸 수 있다.",
+  "integration": "정적 웹앱으로 로컬/Vercel에 쉽게 띄워 내부 지식 스키마 설계 도구로 사용할 수 있다. RAG 파이프라인에 RDF/XML 산출물을 수동 입력하거나, Paperclip/문서 자동화 쪽에서 도메인 모델 초안 작성용으로 제한 활용 가능하다.",
+  "overlaps": "기존 스택과 직접 중복은 적지만, 핵심 자동화 기능도 부족하다. Open WebUI, Paperclip, MCP, n8n을 대체하거나 보강하는 도구라기보다 별도 학습/모델링 유틸리티에 가깝다."
+}

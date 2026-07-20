@@ -295,5 +295,16 @@
     "stars": 8867,
     "category": "코딩 에이전트 하네스 / 멀티세션 개발 자동화",
     "summary": "Rust 기반 코딩 에이전트 실행 하네스. TUI, 비대화형 실행, 세션 resume, 서버/클라이언트 모드, MCP 설정, 브라우저 자동화, 다중 LLM provider, Ollama/LM Studio/OpenAI-compatible 로컬·셀프호스트 엔드포인트를 지원한다."
+  },
+  {
+    "date": "2026-07-20",
+    "sentAt": "2026-07-20T23:00:37.257Z",
+    "fullName": "PrefectHQ/fastmcp",
+    "owner": "PrefectHQ",
+    "name": "fastmcp",
+    "url": "https://github.com/PrefectHQ/fastmcp",
+    "stars": 26517,
+    "category": "MCP 서버/클라이언트 개발 프레임워크",
+    "summary": "Python으로 MCP 서버와 클라이언트를 빠르게 만들기 위한 고수준 프레임워크. EG AI GROUP OS가 이미 MCP를 적극 사용하므로, 내부 도구를 MCP 서버로 표준화하거나 에이전트용 로컬 툴 인터페이스를 늘릴 때 직접적인 가치가 있다."
   }
 ]

@@ -1,0 +1,15 @@
+{
+  "fullName": "iptv-org/iptv",
+  "analyzedAt": "2026-07-20T23:00:19.187Z",
+  "repoMeta": {
+    "stars": 133753,
+    "language": "TypeScript",
+    "description": "Collection of publicly available IPTV channels from all over the world"
+  },
+  "relevance": "none",
+  "category": "IPTV 채널 목록/미디어 데이터셋",
+  "summary": "전 세계 공개 IPTV 채널 목록을 수집한 저장소로, 스트리밍 채널 데이터 관리가 핵심이다. EG AI GROUP OS의 로컬 AI 운영, 에이전트 오케스트레이션, 코딩 자동화, MCP, 보안 격리와 직접 관련이 없다.",
+  "fit": "AI 에이전트 운영 스택의 공백을 메우지 못한다. 텔레그램 알림이나 n8n 워크플로에서 미디어 모니터링 같은 별도 취미성 자동화를 만들 때만 간접 활용 가능하다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 실질적 기능 중복은 없지만, 필요한 핵심 기능도 아니다. 로컬 LLM, Paperclip, cmux, Hermes, vault sidecar, MCP 확장과 연결되는 업그레이드 가치가 없다."
+}

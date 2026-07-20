@@ -1,0 +1,15 @@
+{
+  "fullName": "PrefectHQ/fastmcp",
+  "analyzedAt": "2026-07-20T23:00:21.891Z",
+  "repoMeta": {
+    "stars": 26517,
+    "language": "Python",
+    "description": "🚀 The fast, Pythonic way to build MCP servers and clients."
+  },
+  "relevance": "high",
+  "category": "MCP 서버/클라이언트 개발 프레임워크",
+  "summary": "Python으로 MCP 서버와 클라이언트를 빠르게 만들기 위한 고수준 프레임워크. EG AI GROUP OS가 이미 MCP를 적극 사용하므로, 내부 도구를 MCP 서버로 표준화하거나 에이전트용 로컬 툴 인터페이스를 늘릴 때 직접적인 가치가 있다.",
+  "fit": "로컬 우선, 자동화, 에이전트 도구 확장 방향과 잘 맞는다. 기존 playwright/google-drive/context7/brave MCP 소비를 넘어, 자체 Hermes/Paperclip/vault/n8n/로컬 LLM 기능을 MCP로 감싸는 제작 도구로 유용하다.",
+  "integration": "우선순위는 자체 내부 서비스용 MCP 어댑터 제작. 예: Paperclip 작업 조회/위임, vault sidecar의 제한된 secret broker, Hermes 텔레그램 작업 트리거, Ollama/RAG 호출을 FastMCP 서버로 노출. Python 기반이라 운영 스크립트와 LaunchAgent/cron에 붙이기 쉽다.",
+  "overlaps": "기존 MCP 서버들과는 실행 기능이 아니라 제작 프레임워크라 직접 중복은 작다. Claude Code/Codex의 MCP 사용 능력을 보강하는 성격이며, 이미 충분한 MCP 서버만 소비한다면 당장 효과는 제한적이다."
+}
