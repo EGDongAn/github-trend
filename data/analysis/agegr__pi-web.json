@@ -1,0 +1,15 @@
+{
+  "fullName": "agegr/pi-web",
+  "analyzedAt": "2026-07-21T23:00:47.584Z",
+  "repoMeta": {
+    "stars": 1701,
+    "language": "TypeScript",
+    "description": "Web UI for the pi coding agent"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 웹 UI / 세션 관제",
+  "summary": "pi coding agent의 로컬 세션 파일을 읽어 브라우저에서 세션 탐색, 실시간 채팅, 작업 디렉터리/워크트리 전환, 파일 미리보기, 모델·스킬 설정을 제공하는 TypeScript/Next.js 기반 UI다. 로컬 실행과 세션 가시성 측면은 EG OS 가치와 맞지만, 핵심 대상이 Claude Code/codex가 아니라 pi agent라 즉시 필수 도입은 아니다.",
+  "fit": "터미널 중심 cmux 관제의 웹 UI 보완재로는 가치가 있다. 특히 과거 세션 탐색, 컨텍스트/비용 표시, 파일 탐색과 채팅 병렬 사용은 1인 운영 AI 그룹의 관제 UX를 개선할 수 있다. 다만 멀티에이전트 오케스트레이션 자체나 Paperclip식 작업 위임 엔진은 아니므로 high는 아니다.",
+  "integration": "실험 도입은 별도 포트의 로컬 서비스로 띄워 pi agent 세션 관제용으로 제한하는 방식이 적절하다. EG OS에 본격 통합하려면 Claude Code/codex 세션 로그 포맷을 pi-web이 읽도록 어댑터를 만들거나, 유사 UI 패턴만 차용해 cmux/Paperclip 대시보드에 흡수하는 방향이 현실적이다.",
+  "overlaps": "cmux의 멀티세션 관제, OpenClaw의 개인 AI 비서 UI, Paperclip의 작업/에이전트 관리와 부분 중복된다. 차별점은 pi 세션 파일 기반의 브라우저형 대화·파일·모델·스킬 통합 UI지만, 기존 스택을 대체할 정도의 범용 오케스트레이션 기능은 부족하다."
+}

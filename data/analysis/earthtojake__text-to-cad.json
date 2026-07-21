@@ -1,0 +1,15 @@
+{
+  "fullName": "earthtojake/text-to-cad",
+  "analyzedAt": "2026-07-21T23:00:19.081Z",
+  "repoMeta": {
+    "stars": 9063,
+    "language": "JavaScript",
+    "description": "A collection of agent skills for CAD, robotics and hardware design"
+  },
+  "relevance": "low",
+  "category": "도메인 특화 에이전트 스킬 / CAD·로보틱스·하드웨어 설계",
+  "summary": "CAD, 로보틱스, 하드웨어 설계를 위한 에이전트 스킬 모음으로 보이며, 소프트웨어 운영 자동화보다는 물리 설계 워크플로 자동화에 초점이 있다.",
+  "fit": "EG AI GROUP OS의 핵심 축인 로컬 LLM, 코딩 에이전트 운영, 멀티에이전트 관제, Telegram/Paperclip/cmux 자동화와는 직접 관련성이 낮다. 다만 향후 하드웨어 설계나 로봇 제작 자동화까지 범위를 넓힌다면 Claude Code/Codex용 도메인 스킬 참고자료로 일부 가치가 있다.",
+  "integration": "기존 스킬 시스템에 CAD/하드웨어 설계용 참고 스킬로 수동 이식하거나, 로컬 CAD/로보틱스 툴체인과 연결되는 별도 실험 프로젝트에서 제한적으로 검토한다.",
+  "overlaps": "Claude Code의 스킬 생태계와 개념적으로 겹치지만, EG OS의 현재 운영 자동화 스택과는 도메인이 다르다. Paperclip/cmux/Hermes/n8n/Vault/로컬 LLM을 대체하거나 직접 업그레이드하지 않는다."
+}

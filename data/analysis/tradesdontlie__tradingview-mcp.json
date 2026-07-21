@@ -1,0 +1,15 @@
+{
+  "fullName": "tradesdontlie/tradingview-mcp",
+  "analyzedAt": "2026-07-21T23:00:26.987Z",
+  "repoMeta": {
+    "stars": 4816,
+    "language": "JavaScript",
+    "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation"
+  },
+  "relevance": "low",
+  "category": "MCP 서버 / TradingView 데스크톱 자동화",
+  "summary": "Claude Code가 로컬 TradingView Desktop에 CDP로 붙어 차트 상태 읽기, Pine Script 보조, CLI 자동화를 수행하게 하는 특화 MCP 브리지다. 로컬 처리와 MCP 구조는 EG OS 가치와 맞지만, 대상이 금융 차트 워크플로에 매우 좁게 한정된다.",
+  "fit": "코어 스택의 공백을 메우지는 않는다. 개인 트레이딩/시장 모니터링을 EG OS에 넣을 계획이 있다면 보조 도구로 검토 가능하나, 에이전트 오케스트레이션·로컬 LLM·보안 격리·일반 개발 자동화 측면의 직접 효과는 작다.",
+  "integration": "Claude Code MCP 설정에 tradingview 서버를 추가하고, Mac mini에서 TradingView Desktop을 --remote-debugging-port=9222로 실행하는 방식. n8n/cron/Hermes와 연결해 차트 스냅샷 또는 Pine Script 작업 요청을 에이전트에게 보내는 제한적 워크플로는 가능하다. 단, 포트는 localhost로만 제한하고 TradingView 약관 및 데이터 재배포 리스크를 별도 검토해야 한다.",
+  "overlaps": "이미 보유한 Claude Code MCP, playwright/browser 자동화, 로컬 데스크톱 자동화 패턴과 일부 중복된다. 차별점은 TradingView 내부 상태와 Pine Script에 맞춘 도구 세트뿐이며, TradingView 업데이트로 깨질 수 있는 미문서 내부 API 의존성이 있다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "langchain-ai/open_deep_research",
+  "analyzedAt": "2026-07-21T23:00:39.716Z",
+  "repoMeta": {
+    "stars": 12213,
+    "language": "Python",
+    "description": null
+  },
+  "relevance": "medium",
+  "category": "리서치 에이전트 / LangGraph 기반 에이전트 워크플로",
+  "summary": "LangChain/LangGraph 기반의 오픈소스 deep research 에이전트. 여러 LLM provider, 검색 API, MCP 서버를 조합해 질의 명확화, 조사, 압축, 최종 보고서 생성을 수행한다. 로컬 LangGraph 서버로 실행 가능하지만 기본값은 OpenAI/Tavily 등 외부 API 의존이 있다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·자동화·MCP 방향과 일부 맞는다. 특히 Hermes/Paperclip 작업 흐름에서 '조사 보고서 생성 워커'로 붙이면 유용하다. 다만 핵심 공백인 멀티에이전트 관제나 로컬 실행 엔진을 대체하는 도구는 아니며, 기본 구성은 클라우드 LLM/검색 비용이 발생한다.",
+  "integration": "Paperclip의 특정 이슈 유형을 open_deep_research 워커로 라우팅하거나, Hermes 텔레그램 명령에서 LangGraph API를 호출해 장문 리서치 리포트를 생성하는 방식이 적합하다. Ollama 연동과 MCP 검색 도구 설정을 먼저 검증하고, 기본 OpenAI/Tavily 의존은 vault sidecar로 키를 격리해 제한적으로 운영하는 편이 좋다.",
+  "overlaps": "Claude Code/코덱스 실행 엔진과 직접 중복되지는 않지만, 리서치 자동화는 OpenClaw·기존 MCP 검색 워크플로와 일부 겹친다. Paperclip/cmux의 오케스트레이션을 대체하기보다는 특정 리서치 태스크용 하위 에이전트로 쓰는 성격이다."
+}

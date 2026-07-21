@@ -1,0 +1,15 @@
+{
+  "fullName": "ayghri/i-have-adhd",
+  "analyzedAt": "2026-07-21T23:00:18.617Z",
+  "repoMeta": {
+    "stars": 6756,
+    "language": null,
+    "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 출력 제어 / 프롬프트 스킬",
+  "summary": "코딩 에이전트가 장황한 배경 설명보다 결론과 실행 가능한 답을 먼저 내도록 유도하는 ADHD-friendly 출력 스킬이다.",
+  "fit": "Claude Code/Codex 운영에서 답변 품질과 지시 수행성을 개선할 수 있어 개발 자동화 워크플로 보조 도구로는 적합하다. 다만 오케스트레이션, 로컬 LLM, 보안, 인프라 같은 핵심 공백을 메우는 도구는 아니다.",
+  "integration": "Claude Code/Codex 스킬 또는 시스템 프롬프트 규칙으로 흡수해 에이전트 응답 스타일 기본값에 반영. Paperclip 작업 코멘트나 텔레그램 응답에도 짧은 결론 우선 포맷으로 적용 가능.",
+  "overlaps": "기존 Claude Code 스킬/프롬프트 운영과 일부 중복된다. 별도 도입보다는 규칙을 추출해 현재 에이전트 프로파일에 병합하는 편이 적절하다."
+}

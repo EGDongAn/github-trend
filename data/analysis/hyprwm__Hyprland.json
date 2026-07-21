@@ -1,0 +1,15 @@
+{
+  "fullName": "hyprwm/Hyprland",
+  "analyzedAt": "2026-07-21T23:00:27.394Z",
+  "repoMeta": {
+    "stars": 37014,
+    "language": "C++",
+    "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks."
+  },
+  "relevance": "low",
+  "category": "데스크톱 환경/Wayland 컴포지터",
+  "summary": "Hyprland는 macOS 기반 EG AI GROUP OS의 핵심 영역인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 시크릿 관리와 직접 관련이 없다. Linux Wayland 데스크톱 환경을 고도로 커스터마이즈하는 도구다.",
+  "fit": "현재 스택이 Mac mini/macOS 중심이므로 적용성이 낮다. 개발자 워크스테이션을 Linux로 운영하거나 별도 Linux 관제 화면을 구성한다면 cmux/터미널 대시보드용 데스크톱 UX 개선에는 일부 도움될 수 있다.",
+  "integration": "Linux 기반 보조 머신에서 tmux/cmux, 브라우저, 모니터링 창을 타일링 배치하는 용도로만 제한적 검토 가능. macOS 주 시스템에는 직접 통합 불가에 가깝다.",
+  "overlaps": "cmux와 모두 작업 공간/창 배치 경험을 다루지만 계층이 다르다. Hyprland는 OS 창 관리자이고 cmux는 터미널 세션 관제 도구라 대체 관계는 아니다. 기존 EG AI 자동화 기능을 업그레이드하지 않는다."
+}

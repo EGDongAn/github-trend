@@ -306,5 +306,16 @@
     "stars": 26517,
     "category": "MCP 서버/클라이언트 개발 프레임워크",
     "summary": "Python으로 MCP 서버와 클라이언트를 빠르게 만들기 위한 고수준 프레임워크. EG AI GROUP OS가 이미 MCP를 적극 사용하므로, 내부 도구를 MCP 서버로 표준화하거나 에이전트용 로컬 툴 인터페이스를 늘릴 때 직접적인 가치가 있다."
+  },
+  {
+    "date": "2026-07-21",
+    "sentAt": "2026-07-21T23:00:51.785Z",
+    "fullName": "AlexsJones/llmfit",
+    "owner": "AlexsJones",
+    "name": "llmfit",
+    "url": "https://github.com/AlexsJones/llmfit",
+    "stars": 30164,
+    "category": "로컬 LLM 모델 선정/하드웨어 적합성 진단 도구",
+    "summary": "Mac mini의 CPU/RAM/GPU/VRAM 기준으로 수백 개 LLM의 실행 가능성, 속도, 품질, 컨텍스트 적합도를 추천하는 Rust CLI/TUI. Ollama, llama.cpp, MLX, LM Studio 등 로컬 런타임을 지원하고 JSON/REST 출력도 가능해 자동화에 붙이기 좋다."
   }
 ]

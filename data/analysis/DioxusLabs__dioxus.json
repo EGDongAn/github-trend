@@ -1,0 +1,15 @@
+{
+  "fullName": "DioxusLabs/dioxus",
+  "analyzedAt": "2026-07-21T23:00:39.734Z",
+  "repoMeta": {
+    "stars": 37625,
+    "language": "Rust",
+    "description": "Fullstack app framework for web, desktop, and mobile."
+  },
+  "relevance": "low",
+  "category": "Rust 풀스택/크로스플랫폼 앱 프레임워크",
+  "summary": "Dioxus는 Rust로 웹, 데스크톱, 모바일 앱을 만드는 UI/풀스택 프레임워크다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, MCP, 시크릿 격리, 자동 운영을 직접 강화하지는 않는다.",
+  "fit": "운영 대시보드, 로컬 데스크톱 콘솔, 내부 관리 UI를 Rust로 새로 만들 때는 후보가 될 수 있다. 하지만 현재 우선순위 기준에서는 인프라·에이전트 기능보다 앱 UI 프레임워크 성격이 강해 도입 필요성이 낮다.",
+  "integration": "Paperclip/cmux/Hermes/n8n 상태를 보여주는 별도 로컬 GUI나 크로스플랫폼 관리 앱을 만들 때 제한적으로 적용 가능하다. 기존 자동화 백엔드와는 API 클라이언트 형태로 붙어야 하며, 핵심 런타임 대체재는 아니다.",
+  "overlaps": "Vercel 기반 웹 UI, OpenClaw OSS, 기존 내부 대시보드가 있다면 기능 영역이 일부 겹친다. 다만 Dioxus는 Rust 네이티브/크로스플랫폼 UI라는 차별점은 있으나, 현재 스택의 명확한 공백을 메우는 수준은 아니다."
+}

@@ -26,5 +26,6 @@
   "trycua/cua",
   "kvcache-ai/ktransformers",
   "1jehuang/jcode",
-  "PrefectHQ/fastmcp"
+  "PrefectHQ/fastmcp",
+  "AlexsJones/llmfit"
 ]

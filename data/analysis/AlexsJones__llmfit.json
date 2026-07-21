@@ -1,0 +1,15 @@
+{
+  "fullName": "AlexsJones/llmfit",
+  "analyzedAt": "2026-07-21T23:00:24.894Z",
+  "repoMeta": {
+    "stars": 30164,
+    "language": "Rust",
+    "description": "Hundreds of models & providers. One command to find what runs on your hardware."
+  },
+  "relevance": "high",
+  "category": "로컬 LLM 모델 선정/하드웨어 적합성 진단 도구",
+  "summary": "Mac mini의 CPU/RAM/GPU/VRAM 기준으로 수백 개 LLM의 실행 가능성, 속도, 품질, 컨텍스트 적합도를 추천하는 Rust CLI/TUI. Ollama, llama.cpp, MLX, LM Studio 등 로컬 런타임을 지원하고 JSON/REST 출력도 가능해 자동화에 붙이기 좋다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감 목표와 직접 맞는다. 현재 Ollama, mlx-lm, Open WebUI는 이미 있지만 ‘어떤 모델을 이 하드웨어에서 돌릴지’ 판단하는 표준화된 추천/벤치/계획 레이어는 공백에 가깝다.",
+  "integration": "Mac mini에 Homebrew로 설치 후 cron 또는 Paperclip 작업에서 `llmfit recommend --json --use-case coding`을 호출해 모델 후보를 갱신한다. Ollama/MLX 실제 벤치 결과를 수집해 로컬 코딩 에이전트 기본 모델 선택, 모델 교체 알림, 하드웨어 업그레이드 판단에 활용한다.",
+  "overlaps": "Ollama, mlx-lm, Open WebUI와 겹치지만 대체재가 아니라 보조 도구다. 모델 실행/채팅 UI가 아니라 모델 적합성 평가와 추천이 핵심이므로 기존 로컬 LLM 스택 위에 얹는 형태가 적절하다."
+}

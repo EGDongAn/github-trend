@@ -1,0 +1,15 @@
+{
+  "fullName": "schollz/croc",
+  "analyzedAt": "2026-07-21T23:00:37.486Z",
+  "repoMeta": {
+    "stars": 36752,
+    "language": "Go",
+    "description": "Easily and securely send things from one computer to another 🐊 📦"
+  },
+  "relevance": "medium",
+  "category": "보안 파일 전송 / 로컬 운영 유틸리티",
+  "summary": "croc은 두 컴퓨터 간 파일·폴더를 간단하고 암호화된 방식으로 전송하는 Go 기반 CLI 도구다. 릴레이를 쓰지만 자체 릴레이 서버 운영도 가능해 로컬 우선 운영과 어느 정도 맞는다.",
+  "fit": "에이전트 산출물, 로그, 백업 파일, 모델 파일, 설정 묶음 등을 Mac mini와 다른 장비 사이에서 빠르게 주고받는 보조 도구로 유용하다. 핵심 오케스트레이션이나 LLM/RAG 공백을 메우지는 않지만, 운영 자동화 주변의 안전한 파일 이동 문제에는 실용적이다.",
+  "integration": "Claude Code/codex 작업 결과물 전달, n8n/cron 백업 전송, 원격 Mac·서버 간 임시 파일 교환에 CLI로 붙일 수 있다. 보안상 외부 릴레이 의존을 줄이려면 자체 croc relay를 띄우고 내부 네트워크 또는 제한된 접근으로 운영하는 방식이 적합하다.",
+  "overlaps": "이미 GitHub, Google Drive, scp/rsync, tg-proxy 알림 경로가 있다면 단순 파일 이동 기능은 중복된다. 다만 계정·키 설정 없이 일회성 코드 기반으로 안전하게 전송하는 UX는 차별점이다. Paperclip/cmux/Hermes의 핵심 기능을 대체하지는 않는다."
+}

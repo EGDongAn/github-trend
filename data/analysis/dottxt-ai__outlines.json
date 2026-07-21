@@ -1,0 +1,15 @@
+{
+  "fullName": "dottxt-ai/outlines",
+  "analyzedAt": "2026-07-21T23:00:50.513Z",
+  "repoMeta": {
+    "stars": 14810,
+    "language": "Python",
+    "description": "Structured Outputs"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 구조화 출력/개발 자동화 라이브러리",
+  "summary": "LLM 출력이 JSON Schema, Pydantic, regex, grammar, 선택지 등에 맞도록 생성 단계에서 제약하는 Python 라이브러리다. Ollama, llama.cpp, transformers, MLX-LM, vLLM, OpenAI 등과 연동되어 로컬/클라우드 모델 모두에 적용 가능하다.",
+  "fit": "EG AI GROUP OS의 로컬 LLM, 에이전트 자동화, 도구 호출 안정성에 잘 맞는다. Hermes/Paperclip/n8n/에이전트 워커에서 자연어 결과를 작업 JSON, 라우팅 결정, 티켓 상태, 명령 파라미터로 안정적으로 변환하는 데 유용하다. 다만 오케스트레이터 자체는 아니므로 high는 아니다.",
+  "integration": "로컬 LLM 호출 래퍼 계층에 Outlines를 붙여 Pydantic 스키마 기반 응답을 강제한다. 우선 적용 후보는 Paperclip 작업 분류, Hermes 텔레그램 명령 파싱, n8n webhook payload 생성, 에이전트 결과 검증이다. Ollama/MLX/transformers 경로부터 PoC하고, 기존 OpenAI structured outputs와는 provider abstraction 뒤에 숨기는 방식이 적합하다.",
+  "overlaps": "OpenAI structured outputs, 일부 LangChain/Instructor류 JSON 파서, 현재 에이전트 프롬프트+후처리 검증과 겹친다. 그러나 로컬 모델에서도 생성 단계 제약을 제공한다는 점이 차별점이다. Paperclip/cmux/Claude Code를 대체하지 않고, LLM I/O 안정화 보강재로 보는 것이 맞다."
+}

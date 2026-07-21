@@ -1,0 +1,529 @@
+{
+  "date": "2026-07-21",
+  "repos": [
+    {
+      "fullName": "koala73/worldmonitor",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 1,
+      "stars": 65194,
+      "starsToday": 1167
+    },
+    {
+      "fullName": "bojieli/ai-agent-book",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 2,
+      "stars": 14288,
+      "starsToday": 4434
+    },
+    {
+      "fullName": "tirth8205/code-review-graph",
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "rank": 3,
+      "stars": 24492,
+      "starsToday": 1921
+    },
+    {
+      "fullName": "ayghri/i-have-adhd",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 4,
+      "stars": 6756,
+      "starsToday": 1846
+    },
+    {
+      "fullName": "earthtojake/text-to-cad",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 5,
+      "stars": 9063,
+      "starsToday": 378
+    },
+    {
+      "fullName": "1jehuang/jcode",
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "rank": 6,
+      "stars": 10276,
+      "starsToday": 835
+    },
+    {
+      "fullName": "oblien/openship",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 7,
+      "stars": 6146,
+      "starsToday": 1556
+    },
+    {
+      "fullName": "AstrBotDevs/AstrBot",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 8,
+      "stars": 37440,
+      "starsToday": 416
+    },
+    {
+      "fullName": "every-app/open-seo",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 9,
+      "stars": 6557,
+      "starsToday": 850
+    },
+    {
+      "fullName": "tradesdontlie/tradingview-mcp",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 10,
+      "stars": 4816,
+      "starsToday": 219
+    },
+    {
+      "fullName": "AlexsJones/llmfit",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 11,
+      "stars": 30164,
+      "starsToday": 194
+    },
+    {
+      "fullName": "hyprwm/Hyprland",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 12,
+      "stars": 37014,
+      "starsToday": 88
+    },
+    {
+      "fullName": "chrislgarry/Apollo-11",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 13,
+      "stars": 69924,
+      "starsToday": 1195
+    },
+    {
+      "fullName": "DioxusLabs/dioxus",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 14,
+      "stars": 37625,
+      "starsToday": 261
+    },
+    {
+      "fullName": "langchain-ai/open_deep_research",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 15,
+      "stars": 12213,
+      "starsToday": 14
+    },
+    {
+      "fullName": "diegosouzapw/OmniRoute",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 16,
+      "stars": 23502,
+      "starsToday": 2040
+    },
+    {
+      "fullName": "agegr/pi-web",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 17,
+      "stars": 1701,
+      "starsToday": 286
+    },
+    {
+      "fullName": "schollz/croc",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 18,
+      "stars": 36752,
+      "starsToday": 396
+    },
+    {
+      "fullName": "microsoft/Ontology-Playground",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 19,
+      "stars": 1986,
+      "starsToday": 355
+    },
+    {
+      "fullName": "dottxt-ai/outlines",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 20,
+      "stars": 14810,
+      "starsToday": 49
+    },
+    {
+      "fullName": "KnockOutEZ/wigolo",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 21,
+      "stars": 3114,
+      "starsToday": 641
+    },
+    {
+      "fullName": "Nutlope/hallmark",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 1,
+      "stars": 14919,
+      "starsToday": 9173
+    },
+    {
+      "fullName": "OpenCut-app/OpenCut",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 2,
+      "stars": 76948,
+      "starsToday": 11676
+    },
+    {
+      "fullName": "HKUDS/DeepTutor",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 3,
+      "stars": 28829,
+      "starsToday": 2754
+    },
+    {
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 5,
+      "stars": 125742,
+      "starsToday": 5857
+    },
+    {
+      "fullName": "MoonshotAI/kimi-cli",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 6,
+      "stars": 10496,
+      "starsToday": 974
+    },
+    {
+      "fullName": "ibelick/ui-skills",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 7,
+      "stars": 5829,
+      "starsToday": 1925
+    },
+    {
+      "fullName": "kangarooking/cangjie-skill",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 9,
+      "stars": 4240,
+      "starsToday": 1342
+    },
+    {
+      "fullName": "HKUDS/Vibe-Trading",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 10,
+      "stars": 26112,
+      "starsToday": 4387
+    },
+    {
+      "fullName": "mattpocock/skills",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 11,
+      "stars": 180371,
+      "starsToday": 10872
+    },
+    {
+      "fullName": "iOfficeAI/OfficeCLI",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 12,
+      "stars": 20607,
+      "starsToday": 4140
+    },
+    {
+      "fullName": "earendil-works/pi",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 13,
+      "stars": 74596,
+      "starsToday": 2932
+    },
+    {
+      "fullName": "Dicklesworthstone/destructive_command_guard",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 14,
+      "stars": 5279,
+      "starsToday": 1410
+    },
+    {
+      "fullName": "openai/codex",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 15,
+      "stars": 100387,
+      "starsToday": 2448
+    },
+    {
+      "fullName": "tt-a1i/archify",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 16,
+      "stars": 6692,
+      "starsToday": 2102
+    },
+    {
+      "fullName": "openinterpreter/openinterpreter",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 17,
+      "stars": 67051,
+      "starsToday": 2644
+    },
+    {
+      "fullName": "HKUDS/nanobot",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 18,
+      "stars": 46008,
+      "starsToday": 571
+    },
+    {
+      "fullName": "stablyai/orca",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 19,
+      "stars": 24872,
+      "starsToday": 5517
+    },
+    {
+      "fullName": "codecrafters-io/build-your-own-x",
+      "sources": [
+        "popular"
+      ],
+      "rank": 1,
+      "stars": 529848,
+      "starsToday": 0
+    },
+    {
+      "fullName": "sindresorhus/awesome",
+      "sources": [
+        "popular"
+      ],
+      "rank": 2,
+      "stars": 487417,
+      "starsToday": 0
+    },
+    {
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "sources": [
+        "popular"
+      ],
+      "rank": 3,
+      "stars": 452327,
+      "starsToday": 0
+    },
+    {
+      "fullName": "public-apis/public-apis",
+      "sources": [
+        "popular"
+      ],
+      "rank": 4,
+      "stars": 451831,
+      "starsToday": 0
+    },
+    {
+      "fullName": "EbookFoundation/free-programming-books",
+      "sources": [
+        "popular"
+      ],
+      "rank": 5,
+      "stars": 392651,
+      "starsToday": 0
+    },
+    {
+      "fullName": "openclaw/openclaw",
+      "sources": [
+        "popular"
+      ],
+      "rank": 6,
+      "stars": 383722,
+      "starsToday": 0
+    },
+    {
+      "fullName": "nilbuild/developer-roadmap",
+      "sources": [
+        "popular"
+      ],
+      "rank": 7,
+      "stars": 362136,
+      "starsToday": 0
+    },
+    {
+      "fullName": "donnemartin/system-design-primer",
+      "sources": [
+        "popular"
+      ],
+      "rank": 8,
+      "stars": 358641,
+      "starsToday": 0
+    },
+    {
+      "fullName": "jwasham/coding-interview-university",
+      "sources": [
+        "popular"
+      ],
+      "rank": 9,
+      "stars": 356823,
+      "starsToday": 0
+    },
+    {
+      "fullName": "vinta/awesome-python",
+      "sources": [
+        "popular"
+      ],
+      "rank": 10,
+      "stars": 309538,
+      "starsToday": 0
+    },
+    {
+      "fullName": "awesome-selfhosted/awesome-selfhosted",
+      "sources": [
+        "popular"
+      ],
+      "rank": 11,
+      "stars": 307215,
+      "starsToday": 0
+    },
+    {
+      "fullName": "996icu/996.ICU",
+      "sources": [
+        "popular"
+      ],
+      "rank": 12,
+      "stars": 276451,
+      "starsToday": 0
+    },
+    {
+      "fullName": "practical-tutorials/project-based-learning",
+      "sources": [
+        "popular"
+      ],
+      "rank": 13,
+      "stars": 274594,
+      "starsToday": 0
+    },
+    {
+      "fullName": "obra/superpowers",
+      "sources": [
+        "popular"
+      ],
+      "rank": 14,
+      "stars": 258750,
+      "starsToday": 0
+    },
+    {
+      "fullName": "react/react",
+      "sources": [
+        "popular"
+      ],
+      "rank": 15,
+      "stars": 246634,
+      "starsToday": 0
+    },
+    {
+      "fullName": "torvalds/linux",
+      "sources": [
+        "popular"
+      ],
+      "rank": 16,
+      "stars": 240058,
+      "starsToday": 0
+    },
+    {
+      "fullName": "trimstray/the-book-of-secret-knowledge",
+      "sources": [
+        "popular"
+      ],
+      "rank": 17,
+      "stars": 234457,
+      "starsToday": 0
+    },
+    {
+      "fullName": "affaan-m/ECC",
+      "sources": [
+        "popular"
+      ],
+      "rank": 18,
+      "stars": 231884,
+      "starsToday": 0
+    },
+    {
+      "fullName": "TheAlgorithms/Python",
+      "sources": [
+        "popular"
+      ],
+      "rank": 19,
+      "stars": 222982,
+      "starsToday": 0
+    },
+    {
+      "fullName": "NousResearch/hermes-agent",
+      "sources": [
+        "popular"
+      ],
+      "rank": 20,
+      "stars": 218376,
+      "starsToday": 0
+    }
+  ]
+}

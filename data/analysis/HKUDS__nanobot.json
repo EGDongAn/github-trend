@@ -1,0 +1,15 @@
+{
+  "fullName": "HKUDS/nanobot",
+  "analyzedAt": "2026-07-21T23:00:49.928Z",
+  "repoMeta": {
+    "stars": 46008,
+    "language": "Python",
+    "description": "Lightweight, open-source AI agent for your tools, chats, and workflows."
+  },
+  "relevance": "medium",
+  "category": "AI 에이전트 / 워크플로 자동화",
+  "summary": "도구, 채팅, 워크플로를 연결하는 경량 오픈소스 AI 에이전트로 보인다. Python 기반이라 로컬 실행·확장 가능성은 높고, EG AI GROUP OS의 자동화/에이전트 계층과 방향은 맞다.",
+  "fit": "텔레그램/채팅 기반 명령, 도구 호출, 워크플로 자동화 쪽에서 Hermes·n8n·Paperclip 주변 기능을 보강할 후보. 다만 이미 Claude Code, Paperclip, Hermes, n8n이 핵심 역할을 맡고 있어 명확한 공백을 바로 메우는 도구라기보다는 경량 대안 또는 실험용 후보에 가깝다.",
+  "integration": "Paperclip 작업 생성 전 단계의 채팅/툴 라우터, Hermes와 연결되는 보조 에이전트, n8n보다 코드 친화적인 경량 워크플로 실행기로 검토. 로컬 LLM/Ollama 연동, MCP/외부 도구 호출, 권한·시크릿 격리 방식을 확인한 뒤 제한된 내부 자동화부터 붙이는 것이 적절하다.",
+  "overlaps": "Hermes의 채팅 게이트웨이, n8n의 워크플로 자동화, Paperclip의 작업 위임, Claude Code의 에이전트 실행과 상당 부분 중복 가능성이 있다. 도입 가치는 기존 스택보다 더 단순한 설정, 더 나은 채팅/툴 통합, 로컬 모델 지원, 운영 부담 감소 중 하나가 확인될 때 생긴다."
+}
