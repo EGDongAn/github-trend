@@ -1,0 +1,15 @@
+{
+  "fullName": "likec4/likec4",
+  "analyzedAt": "2026-07-22T23:00:19.663Z",
+  "repoMeta": {
+    "stars": 4252,
+    "language": "TypeScript",
+    "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code"
+  },
+  "relevance": "medium",
+  "category": "아키텍처 문서화/다이어그램 자동화 도구",
+  "summary": "LikeC4는 코드와 함께 유지되는 C4 기반 아키텍처 모델/다이어그램 도구로, 시스템 구조를 live diagram 형태로 시각화하고 협업할 수 있게 한다.",
+  "fit": "EG AI GROUP OS의 핵심 실행/오케스트레이션 공백을 직접 메우지는 않지만, Paperclip, Hermes, vault sidecar, n8n, MCP 등 여러 구성요소가 늘어난 현재 스택의 구조 문서화와 변경 추적에는 유용하다. 로컬 개발 워크플로와 잘 맞고 클라우드 종속도 낮아 보인다.",
+  "integration": "repo별 `docs/architecture` 또는 루트에 LikeC4 모델을 두고, Claude Code/codex가 코드 변경 시 아키텍처 다이어그램을 함께 갱신하게 할 수 있다. GitHub Actions에서 다이어그램 검증/렌더링을 돌리고, 운영 대시보드나 문서 사이트에 EG AI GROUP OS 구성도를 게시하는 방식이 적합하다.",
+  "overlaps": "기존 스택의 실행 엔진, 멀티에이전트, MCP, 비밀관리 기능과 직접 중복되지는 않는다. 다만 일반 문서화/다이어그램 도구 영역에서는 Mermaid, Excalidraw, README 다이어그램과 일부 중복되며, 도입 가치는 자동화된 최신성 유지가 실제로 정착되는지에 달려 있다."
+}

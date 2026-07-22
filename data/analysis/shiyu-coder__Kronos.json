@@ -1,0 +1,15 @@
+{
+  "fullName": "shiyu-coder/Kronos",
+  "analyzedAt": "2026-07-22T23:00:19.240Z",
+  "repoMeta": {
+    "stars": 32579,
+    "language": "Python",
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets"
+  },
+  "relevance": "low",
+  "category": "금융 시계열/시장 예측 파운데이션 모델",
+  "summary": "금융 시장 데이터를 위한 Python 기반 파운데이션 모델로, 가격·거래량 등 시장 시계열 표현/예측에 초점을 둔 연구·모델 repo로 보인다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 운영 자동화, MCP, 시크릿 격리와는 직접 관련이 약하다.",
+  "fit": "로컬 LLM/모델 실행이라는 관점에서는 일부 접점이 있지만, 범용 LLM 추론·코딩 에이전트·RAG가 아니라 금융 도메인 특화 모델이다. 금융 데이터 분석/트레이딩 에이전트를 별도 구축할 계획이 있을 때만 후보가 된다.",
+  "integration": "금융 리서치/트레이딩 워커를 Paperclip 에이전트로 붙이고, Kronos를 로컬 추론 서비스로 감싸 시장 데이터 분석 태스크에 호출하는 방식이 가능하다. 다만 현재 OS 핵심 스택 보강 효과는 제한적이다.",
+  "overlaps": "Ollama/mlx-lm 같은 범용 로컬 LLM과 목적이 다르고, Paperclip/cmux/Claude Code와도 직접 중복되지 않는다. 중복보다는 도메인 특화 부가 모델에 가깝다."
+}

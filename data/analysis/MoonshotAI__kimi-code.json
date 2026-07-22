@@ -1,0 +1,15 @@
+{
+  "fullName": "MoonshotAI/kimi-code",
+  "analyzedAt": "2026-07-22T23:00:31.137Z",
+  "repoMeta": {
+    "stars": 4580,
+    "language": "TypeScript",
+    "description": "Kimi Code CLI — The Starting Point for Next-Gen Agents"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 CLI / 개발 자동화",
+  "summary": "Kimi Code는 TypeScript 기반의 터미널 코딩 에이전트 CLI로, 자연어 지시를 받아 코드베이스 탐색·수정·실행을 수행하는 계열의 도구로 보인다. EG AI GROUP OS의 ‘코딩 에이전트·개발 자동화’ 축에는 맞지만, 이미 Claude Code와 Codex 실행 워크플로가 핵심 엔진으로 자리 잡고 있어 즉시 필수 공백을 메우는 수준은 아니다.",
+  "fit": "로컬 터미널 중심 워크플로, 에이전트형 코드 작업, CLI 자동화라는 점은 스택 방향과 맞다. 다만 핵심 가치는 Kimi 모델/생태계와의 결합 가능성에 있으며, 기존 Claude Code 대비 명확한 우위가 확인되어야 high로 올릴 수 있다. 현재 정보만으로는 보조 코딩 에이전트 또는 대체 후보 관찰 대상에 가깝다.",
+  "integration": "Claude Code/Codex와 병렬 코딩 에이전트로 cmux 세션에 붙여 실험 가능. Paperclip 워커 어댑터를 추가해 특정 이슈를 Kimi Code에 위임하거나, 저비용/특정 모델 성능 테스트용 실행 백엔드로 비교 운영할 수 있다. 도입 전 비대화형 실행, exit code 안정성, MCP/툴 호출 지원, 로컬 모델 또는 API 의존성, secret 격리 방식을 검증해야 한다.",
+  "overlaps": "Claude Code, Codex CLI, OpenClaw와 기능적으로 많이 겹친다. 단순 추가는 에이전트 종류만 늘려 운영 복잡도를 키울 수 있으므로, Paperclip 워커로 붙였을 때 비용·성능·자동화 안정성 중 하나가 기존 대비 확실히 좋아지는지 확인해야 한다."
+}

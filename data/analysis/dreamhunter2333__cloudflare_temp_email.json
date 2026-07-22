@@ -1,0 +1,15 @@
+{
+  "fullName": "dreamhunter2333/cloudflare_temp_email",
+  "analyzedAt": "2026-07-22T23:00:20.093Z",
+  "repoMeta": {
+    "stars": 10790,
+    "language": "TypeScript",
+    "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot"
+  },
+  "relevance": "low",
+  "category": "텔레그램 봇 / 이메일 인프라 / Cloudflare 기반 임시 메일",
+  "summary": "Cloudflare Workers와 임시 도메인 이메일을 이용해 무료 임시 메일 송수신, 첨부파일, IMAP/SMTP, TelegramBot 연동을 제공하는 TypeScript 프로젝트로 보인다.",
+  "fit": "EG AI GROUP OS의 핵심축인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 시크릿 격리에는 직접 기여하지 않는다. TelegramBot 지원은 Hermes/tg-proxy 주변 기능으로 약간 관련 있지만, 목적은 임시 이메일 서비스라 운영 자동화 스택의 핵심 공백을 메우지는 않는다.",
+  "integration": "Hermes나 n8n에서 일회성 가입/테스트용 수신 메일 게이트웨이로 붙일 수는 있다. 다만 Cloudflare 의존성이 강하고, 이미 별도 텔레그램 게이트웨이가 있으므로 핵심 컴포넌트가 아니라 보조 유틸리티 수준이다.",
+  "overlaps": "TelegramBot 알림/연동은 Hermes와 tg-proxy와 일부 중복된다. 이메일 기반 트리거는 n8n으로도 처리 가능하다. 로컬 우선 원칙과는 거리가 있어 대체재나 업그레이드보다는 특정 테스트/임시 메일 요구가 있을 때만 제한적으로 검토할 후보다."
+}

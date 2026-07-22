@@ -1,0 +1,15 @@
+{
+  "fullName": "Pumpkin-MC/Pumpkin",
+  "analyzedAt": "2026-07-22T23:00:29.118Z",
+  "repoMeta": {
+    "stars": 8376,
+    "language": "Rust",
+    "description": "Empowering everyone to host fast and efficient Minecraft servers."
+  },
+  "relevance": "none",
+  "category": "게임 서버/마인크래프트 인프라",
+  "summary": "Rust로 구현된 빠르고 효율적인 Minecraft 서버 호스팅용 프로젝트다. EG AI GROUP OS의 에이전트 자동화, 로컬 LLM, MCP, 보안 격리, 작업 위임 영역과 직접적인 접점이 없다.",
+  "fit": "운영 스택의 핵심 목표와 맞지 않는다. 로컬 우선·고효율 서버라는 점은 일부 가치와 겹치지만 대상 도메인이 Minecraft 서버라서 AI 그룹 자동화에 필요한 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 실질적 중복은 없다. 다만 n8n/LaunchAgent/Docker류 운영 자동화와 연결할 수 있는 일반 서버 프로세스일 뿐, Paperclip·cmux·Claude Code·Ollama를 보강하지 않는다."
+}
