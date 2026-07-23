@@ -27,5 +27,6 @@
   "kvcache-ai/ktransformers",
   "1jehuang/jcode",
   "PrefectHQ/fastmcp",
-  "AlexsJones/llmfit"
+  "AlexsJones/llmfit",
+  "citrolabs/ego-lite"
 ]

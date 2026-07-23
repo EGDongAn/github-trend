@@ -1,0 +1,15 @@
+{
+  "fullName": "alibaba/open-code-review",
+  "analyzedAt": "2026-07-23T23:00:26.302Z",
+  "repoMeta": {
+    "stars": 11456,
+    "language": "Go",
+    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / 코드 리뷰 자동화",
+  "summary": "LLM 에이전트와 결정적 룰 파이프라인을 결합한 코드 리뷰 도구. 라인 단위 코멘트, NPE·스레드 안전성·XSS·SQL injection 같은 내장 규칙, OpenAI/Anthropic 호환 API를 제공한다는 점에서 PR 품질 게이트 자동화에 적합하다.",
+  "fit": "Claude Code/codex 워크플로와 GitHub Actions를 보강하는 코드 리뷰 레이어로는 유용하다. 특히 보안·정적 규칙 기반 리뷰와 LLM 리뷰를 섞는 구조는 운영 자동화 가치가 있다. 다만 EG AI GROUP OS의 핵심 공백인 멀티에이전트 오케스트레이션, 로컬 LLM 서빙, 비밀 격리 자체를 직접 해결하지는 않아 high는 아니다.",
+  "integration": "GitHub Actions 또는 PR webhook 기반으로 붙여 자동 리뷰 봇으로 운영. OpenAI/Anthropic 호환 엔드포인트를 Ollama/OpenAI-compatible gateway로 우회할 수 있으면 로컬 LLM 비용 절감 구조에 맞출 수 있다. Paperclip 이슈→에이전트 작업 전 단계의 품질 필터, 또는 codex/Claude Code 결과물의 후속 검토 단계로 배치하는 것이 적합하다.",
+  "overlaps": "GitHub Actions, Claude Code/codex 수동 리뷰, 기존 MCP/자동화와 일부 중복된다. 하지만 정적 룰셋과 라인 코멘트 중심의 PR 리뷰 특화 기능이 차별점이다. 완전 대체보다는 CI 리뷰 보강재로 보는 것이 맞다."
+}

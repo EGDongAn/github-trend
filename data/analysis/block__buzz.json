@@ -1,0 +1,15 @@
+{
+  "fullName": "block/buzz",
+  "analyzedAt": "2026-07-23T23:00:21.060Z",
+  "repoMeta": {
+    "stars": 6744,
+    "language": "Rust",
+    "description": "A hive mind communication platform"
+  },
+  "relevance": "medium",
+  "category": "멀티에이전트 커뮤니케이션 / 협업 오케스트레이션",
+  "summary": "block/buzz는 에이전트나 사용자들이 공유 컨텍스트에서 메시지를 주고받는 “hive mind”형 커뮤니케이션 플랫폼으로 보인다. Rust 기반이라 로컬 실행·성능·격리 측면은 EG AI GROUP OS 가치와 맞지만, repo 설명만으로는 작업 위임, 상태 관리, 권한 격리, 실행 제어까지 포함하는지 불명확하다.",
+  "fit": "멀티에이전트 간 통신 계층 보강 후보로는 관련성이 있다. 특히 Paperclip/cmux/Hermes 사이에서 에이전트 간 브로드캐스트, 공유 대화방, 집단 의사결정 로그 같은 역할을 맡길 수 있다면 유용하다. 다만 현재 스택의 핵심 공백은 이미 Paperclip, cmux, Hermes가 상당 부분 메우고 있어 즉시 high로 보기에는 근거가 부족하다.",
+  "integration": "로컬 Mac mini에서 별도 Rust 서비스로 띄우고, Paperclip 워커나 Claude Code/codex 세션이 Buzz 채널에 상태·요청·결과를 publish/subscribe하도록 붙이는 방식이 적합하다. Telegram Hermes는 외부 사용자 게이트웨이로 유지하고, Buzz는 내부 에이전트 버스 또는 관제 채널로 제한하는 구성이 현실적이다.",
+  "overlaps": "Paperclip의 작업 위임/칸반, cmux의 세션 관제, Hermes의 그룹 메시징과 부분 중복된다. Buzz가 단순 채팅/메시지 허브라면 중복이 커서 도입 가치가 낮아지고, 에이전트 간 컨텍스트 공유·토픽 라우팅·로컬 우선 메시지 버스 기능이 강하다면 보강재로 의미가 있다."
+}

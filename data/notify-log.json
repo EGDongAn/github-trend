@@ -317,5 +317,16 @@
     "stars": 30164,
     "category": "로컬 LLM 모델 선정/하드웨어 적합성 진단 도구",
     "summary": "Mac mini의 CPU/RAM/GPU/VRAM 기준으로 수백 개 LLM의 실행 가능성, 속도, 품질, 컨텍스트 적합도를 추천하는 Rust CLI/TUI. Ollama, llama.cpp, MLX, LM Studio 등 로컬 런타임을 지원하고 JSON/REST 출력도 가능해 자동화에 붙이기 좋다."
+  },
+  {
+    "date": "2026-07-23",
+    "sentAt": "2026-07-23T23:00:34.013Z",
+    "fullName": "citrolabs/ego-lite",
+    "owner": "citrolabs",
+    "name": "ego-lite",
+    "url": "https://github.com/citrolabs/ego-lite",
+    "stars": 1585,
+    "category": "AI 에이전트용 브라우저 자동화 / 코딩 에이전트 워크플로 보강",
+    "summary": "ego-lite는 Claude Code, Codex, Cursor 같은 외부 에이전트가 사용자의 실제 로그인/탭 환경을 별도 Space에서 병렬로 조작하게 해주는 macOS용 에이전트 브라우저 및 ego-browser 스킬이다. 로컬 데이터 유지, Chrome 데이터 이전, 병렬 브라우저 작업, 토큰 절감형 페이지 스냅샷이 핵심이다."
   }
 ]

@@ -1,0 +1,15 @@
+{
+  "fullName": "jellyfin/jellyfin",
+  "analyzedAt": "2026-07-23T23:00:32.853Z",
+  "repoMeta": {
+    "stars": 54716,
+    "language": "C#",
+    "description": "The Free Software Media System - Server Backend & API"
+  },
+  "relevance": "none",
+  "category": "미디어 서버/홈 엔터테인먼트 백엔드",
+  "summary": "Jellyfin은 셀프호스팅 가능한 오픈소스 미디어 서버로, 영화·음악·TV 등 개인 미디어 라이브러리 스트리밍과 API 제공에 초점이 있다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 비밀 격리, 워크플로 자동화와 직접 관련이 없다. 셀프호스팅/로컬 우선 성격은 맞지만 운영 AI 스택의 기능 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 직접 중복되는 구성요소는 없다. 다만 n8n/텔레그램 알림 등과 미디어 이벤트를 연동할 수는 있으나, 이는 부가 취미/미디어 자동화 영역이라 도입 적합성 판단에는 영향이 작다."
+}

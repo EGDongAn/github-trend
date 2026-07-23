@@ -1,0 +1,15 @@
+{
+  "fullName": "Automattic/harper",
+  "analyzedAt": "2026-07-23T23:00:21.476Z",
+  "repoMeta": {
+    "stars": 12232,
+    "language": "Rust",
+    "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered"
+  },
+  "relevance": "low",
+  "category": "로컬 텍스트/문서 품질 검사 도구",
+  "summary": "Harper는 Rust 기반 오프라인 문법 검사기로, 개인정보를 외부로 보내지 않고 문서·README·에이전트 출력물의 문장 품질을 점검하는 데 쓸 수 있다.",
+  "fit": "로컬 우선·프라이버시 가치는 EG AI GROUP OS와 잘 맞지만, 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM, 개발 자동화, MCP, 보안 격리 공백을 직접 메우지는 않는다.",
+  "integration": "CLI 또는 LSP 형태로 문서/README/블로그/텔레그램 공지 생성 후 로컬 후처리 검사 단계에 붙일 수 있다. GitHub Actions나 pre-commit에서 문서 린터처럼 쓰는 정도가 현실적이다.",
+  "overlaps": "LLM 자체 교정, 에디터 문법 검사, 기존 CI 린터와 일부 중복된다. 기존 스택을 대체하거나 업그레이드하는 성격은 약하고, 보조 품질 검사 도구에 가깝다."
+}
