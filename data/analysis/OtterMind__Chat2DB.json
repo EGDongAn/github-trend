@@ -1,0 +1,15 @@
+{
+  "fullName": "OtterMind/Chat2DB",
+  "analyzedAt": "2026-07-24T23:00:30.821Z",
+  "repoMeta": {
+    "stars": 26306,
+    "language": "Java",
+    "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more."
+  },
+  "relevance": "medium",
+  "category": "DB 관리 / SQL 클라이언트 / AI 보조 개발도구",
+  "summary": "Chat2DB는 여러 DB를 지원하는 AI 기반 SQL 클라이언트/GUI 도구다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션이나 로컬 LLM 실행 공백을 직접 메우지는 않지만, Paperclip, n8n, 임베디드 PG, 운영 DB를 사람이 점검하거나 SQL 작업을 빠르게 처리하는 보조 도구로는 가치가 있다.",
+  "fit": "운영 자동화 스택의 핵심 구성요소라기보다 DB 관찰·쿼리·디버깅용 보조 워크벤치에 가깝다. 로컬/셀프호스팅 가능성이 있고 다양한 DB를 다룬다는 점은 맞지만, 기존 자동화 에이전트 체계를 강화하는 효과는 제한적이다.",
+  "integration": "Paperclip의 PostgreSQL, n8n DB, 기타 로컬 서비스 DB를 연결해 운영 상태 점검과 수동 SQL 분석에 사용. AI SQL 생성 기능은 로컬 LLM 연동 가능 여부를 확인한 뒤, 가능하면 비용 절감 원칙에 맞춰 로컬 모델로 제한하는 방식이 적합하다.",
+  "overlaps": "DBeaver, DataGrip, pgAdmin 같은 범용 DB 클라이언트와 강하게 겹친다. EG 스택 내부에서는 Paperclip/임베디드 PG를 직접 대체하지 않고, 자동화보다 사람이 보는 관리 GUI 역할이다. 이미 만족스러운 DB 클라이언트가 있다면 도입 우선순위는 낮아진다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "yorukot/superfile",
+  "analyzedAt": "2026-07-24T23:00:30.001Z",
+  "repoMeta": {
+    "stars": 19535,
+    "language": "Go",
+    "description": "Pretty fancy and modern terminal file manager"
+  },
+  "relevance": "low",
+  "category": "터미널 파일 관리자 / 로컬 개발 편의 도구",
+  "summary": "superfile은 Go 기반의 현대적인 터미널 파일 관리자다. 로컬 macOS 운영 환경에서 파일 탐색·정리 UX를 개선할 수는 있지만, 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리, 자동화 핵심 축과 직접 연결되지는 않는다.",
+  "fit": "로컬 우선 가치에는 부합하지만 EG AI GROUP OS의 운영 자동화 스택을 보강하는 핵심 컴포넌트는 아니다. Claude Code, cmux, Paperclip 같은 작업 실행·관제 계층을 대체하거나 업그레이드하지 않는다.",
+  "integration": "개발자가 Mac mini에서 수동 파일 탐색용 CLI 도구로 설치해 사용할 수 있다. 자동화 파이프라인에 넣기보다는 운영자 편의 도구 수준이다.",
+  "overlaps": "기존 스택과 직접 중복은 작지만, macOS Finder, 터미널 기본 명령어, fzf/ranger/lf 같은 범용 파일 탐색 도구와 역할이 겹친다. 시스템 핵심 역량 강화 효과는 제한적이다."
+}
