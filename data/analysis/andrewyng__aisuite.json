@@ -1,0 +1,15 @@
+{
+  "fullName": "andrewyng/aisuite",
+  "analyzedAt": "2026-07-25T23:00:24.192Z",
+  "repoMeta": {
+    "stars": 15210,
+    "language": "Python",
+    "description": "Simple, unified interface to multiple Generative AI providers"
+  },
+  "relevance": "medium",
+  "category": "LLM provider abstraction / 개발 자동화 보조 라이브러리",
+  "summary": "여러 생성형 AI provider를 OpenAI 스타일의 단일 Python 인터페이스로 호출하게 해주는 경량 라이브러리. 로컬 LLM 자체 서빙이나 에이전트 오케스트레이션은 아니고, provider 교체와 실험 비용을 줄이는 어댑터 성격이 강하다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감 목표에는 부분적으로 맞는다. Ollama 같은 로컬 provider와 클라우드 provider를 같은 코드 경로에서 바꿔 쓰는 용도로 유용할 수 있지만, Paperclip/cmux/Hermes 같은 핵심 오케스트레이션 계층을 직접 강화하지는 않는다.",
+  "integration": "Python 기반 내부 도구나 Paperclip 워커에서 LLM 호출부를 추상화하는 얇은 provider adapter로 붙일 수 있다. Claude/OpenAI/Ollama 등 모델 라우팅 실험, fallback, 벤치마크 스크립트에 먼저 제한 적용하는 것이 적절하다.",
+  "overlaps": "이미 OpenAI SDK, LiteLLM류 추상화, n8n/MCP 기반 호출 흐름이 있다면 기능 중복 가능성이 있다. 에이전트 실행, 권한 격리, 시크릿 관리, 큐잉, 관제 기능은 제공하지 않으므로 기존 OS 구성요소의 대체재는 아니다."
+}
