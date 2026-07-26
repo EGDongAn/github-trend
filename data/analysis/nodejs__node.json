@@ -1,0 +1,15 @@
+{
+  "fullName": "nodejs/node",
+  "analyzedAt": "2026-07-26T23:01:07.561Z",
+  "repoMeta": {
+    "stars": 118452,
+    "language": "JavaScript",
+    "description": "Node.js JavaScript runtime ✨🐢🚀✨"
+  },
+  "relevance": "low",
+  "category": "런타임/개발 인프라",
+  "summary": "Node.js는 JavaScript 런타임 자체로, Hermes, Paperclip, n8n, MCP 서버, 각종 CLI 도구의 기반 기술로는 중요하지만 EG AI GROUP OS의 에이전트 오케스트레이션·로컬 LLM·보안 격리 공백을 직접 메우는 도구는 아니다.",
+  "fit": "이미 스택 내 여러 구성요소가 Node.js 생태계에 의존할 가능성이 높아 운영 기반 지식으로는 유용하다. 다만 repo 자체를 도입한다기보다 런타임 버전 관리, 보안 패치, 성능 개선 추적 대상으로 보는 것이 적절하다.",
+  "integration": "직접 통합 대상은 아님. 필요 시 n8n, MCP 서버, Telegram 게이트웨이 등 Node 기반 컴포넌트의 런타임 표준 버전 선정 및 업그레이드 정책에 반영할 수 있다.",
+  "overlaps": "기존 실행 엔진이나 오케스트레이션 도구와 기능 중복은 없다. 다만 애플리케이션/에이전트 프레임워크가 아니라 범용 런타임이므로 도입 효과는 간접적이다."
+}

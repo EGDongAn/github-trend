@@ -1,0 +1,15 @@
+{
+  "fullName": "amnezia-vpn/amnezia-client",
+  "analyzedAt": "2026-07-26T23:01:00.070Z",
+  "repoMeta": {
+    "stars": 13288,
+    "language": "C++",
+    "description": "Amnezia VPN Client (Desktop+Mobile)"
+  },
+  "relevance": "medium",
+  "category": "보안/네트워크 격리 · 셀프호스팅 VPN 클라이언트",
+  "summary": "Amnezia VPN Client는 데스크톱/모바일용 오픈소스 VPN 클라이언트로, 자체 VPN 서버와 조합해 트래픽 우회·암호화·접속 격리를 제공하는 도구다.",
+  "fit": "EG AI GROUP OS의 핵심인 로컬 우선, 보안 격리, 자가 운영과는 맞지만, 에이전트 오케스트레이션·로컬 LLM·개발 자동화의 직접 공백을 메우지는 않는다. 원격 Mac mini 접속, 외부 워커의 안전한 네트워크 접근, 관리용 VPN 채널 확보 용도라면 검토 가치가 있다.",
+  "integration": "Mac mini 운영망에 관리용 VPN 클라이언트로 설치하고, Vault/Paperclip/Hermes/n8n 관리 포트 접근을 VPN 내부로 제한하는 방식이 가능하다. 다만 핵심 자동화 레이어가 아니라 인프라 보안 보조 계층으로 붙이는 것이 적절하다.",
+  "overlaps": "기존 vault sidecar의 시크릿 격리와 목적이 다르고, n8n/LaunchAgent/Paperclip과도 직접 중복은 적다. 다만 이미 Tailscale, WireGuard, ZeroTier 같은 사설망/VPN을 쓰고 있다면 단순 대체 후보에 가깝고 추가 도입 이점은 제한적이다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "jenkinsci/jenkins",
+  "analyzedAt": "2026-07-26T23:01:07.562Z",
+  "repoMeta": {
+    "stars": 25692,
+    "language": "Java",
+    "description": "Jenkins automation server"
+  },
+  "relevance": "low",
+  "category": "CI/워크플로 자동화",
+  "summary": "Jenkins는 범용 자동화/CI 서버로 플러그인 생태계와 자체 호스팅 운영성이 강하다. 다만 EG AI GROUP OS의 핵심 공백인 로컬 LLM, 멀티에이전트 오케스트레이션, 코딩 에이전트 실행을 직접 보강하지는 않는다.",
+  "fit": "셀프호스팅 가능하고 크론/워크플로 자동화 축에는 맞지만, 현재 GitHub Actions, Vercel, n8n, LaunchAgent가 이미 CI·자동화 영역을 담당한다. Mac mini 1인 운영 스택에는 Jenkins 운영 비용과 유지보수 부담이 상대적으로 크다.",
+  "integration": "기존 GitHub Actions로 부족한 장기 실행 빌드, 내부 잡 큐, 플러그인 기반 배포 파이프라인이 필요할 때만 Docker 또는 별도 JVM 서비스로 붙일 수 있다. 에이전트 작업 트리거는 webhook이나 CLI job 호출로 Paperclip/n8n과 연동 가능하다.",
+  "overlaps": "GitHub Actions, n8n, LaunchAgent/cron과 기능 중복이 크다. Jenkins가 제공하는 CI 서버 역할은 이미 보유한 배포·자동화 도구로 대부분 충족되며, EG AI GROUP OS 관점에서는 대체/업그레이드 근거가 약하다."
+}
