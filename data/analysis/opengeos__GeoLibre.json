@@ -1,0 +1,15 @@
+{
+  "fullName": "opengeos/GeoLibre",
+  "analyzedAt": "2026-07-27T23:00:58.722Z",
+  "repoMeta": {
+    "stars": 2634,
+    "language": "TypeScript",
+    "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks."
+  },
+  "relevance": "low",
+  "category": "지리공간/GIS 분석 플랫폼",
+  "summary": "GeoLibre는 브라우저·데스크톱·모바일·Jupyter에서 지리공간 데이터를 시각화·탐색·분석하는 오픈소스 GIS 도구다. Tauri/React/MapLibre/DuckDB-WASM 기반이며 로컬 데이터 처리와 플러그인 구조는 장점이다.",
+  "fit": "EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 코딩 자동화, MCP, 시크릿 격리, 로컬 LLM 운영과는 직접 관련이 약하다. 다만 로컬 우선·셀프호스팅 성향은 맞고, 지리공간 데이터 분석 업무가 생길 때 보조 도구로 쓸 수 있다.",
+  "integration": "특정 프로젝트에서 지도 데이터, GeoJSON/GeoParquet, 위성·공간 분석이 필요할 때 Docker 또는 데스크톱 앱으로 별도 도구처럼 붙이는 수준이 적합하다. 현재 OS의 핵심 자동화 레이어에 넣을 이유는 약하다.",
+  "overlaps": "기존 스택과 큰 중복은 없다. n8n·Open WebUI·Paperclip·cmux를 대체하지 않으며, Jupyter/브라우저 기반 데이터 분석 보조 도구에 가깝다."
+}

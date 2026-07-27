@@ -1,0 +1,15 @@
+{
+  "fullName": "ocornut/imgui",
+  "analyzedAt": "2026-07-27T23:01:16.168Z",
+  "repoMeta": {
+    "stars": 75191,
+    "language": "C++",
+    "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies"
+  },
+  "relevance": "low",
+  "category": "GUI/개발 도구 라이브러리",
+  "summary": "Dear ImGui는 C++ 애플리케이션에 즉시 모드 GUI를 붙이는 경량 UI 라이브러리다. 디버그 패널, 내부 툴, 실시간 상태 뷰어를 빠르게 만들 때 강점이 있다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리와는 직접 관련이 약하다. 다만 cmux/Paperclip/Hermes 같은 운영 도구의 별도 네이티브 관제 UI나 로컬 디버그 콘솔을 C++로 만들 계획이 있다면 제한적으로 유용하다.",
+  "integration": "기존 스택에 바로 넣을 필요는 낮다. 도입한다면 로컬 관제용 C++ 데스크톱 툴, 실시간 로그/상태 패널, 에이전트 작업 큐 시각화 프로토타입에 임베드하는 정도가 적절하다.",
+  "overlaps": "현재 스택의 웹 기반 관제, tmux/cmux, Paperclip 칸반, n8n UI와 기능적으로 일부 겹친다. ImGui는 범용 GUI 라이브러리라 운영 자동화 기능을 제공하지 않으므로 대체재나 업그레이드라기보다 특수한 네이티브 UI 구현 재료에 가깝다."
+}

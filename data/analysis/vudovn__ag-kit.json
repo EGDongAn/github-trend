@@ -1,0 +1,15 @@
+{
+  "fullName": "vudovn/ag-kit",
+  "analyzedAt": "2026-07-27T23:01:16.178Z",
+  "repoMeta": {
+    "stars": 7945,
+    "language": "TypeScript",
+    "description": null
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / 에이전트 템플릿 키트",
+  "summary": "AG Kit은 Google Antigravity용 에이전트, 스킬, 워크플로, 규칙, 메모리 규약을 설치·업데이트하는 TypeScript CLI/템플릿 모음이다. 20개 에이전트, 47개 스킬, 13개 워크플로와 manifest/lock/검증 도구를 제공한다.",
+  "fit": "EG AI GROUP OS의 멀티에이전트 운영 철학과는 맞지만, 자체 실행 엔진이나 오케스트레이터라기보다 에이전트 프롬프트/절차 패키지에 가깝다. Claude Code 스킬, Paperclip, cmux를 대체할 수준은 아니고, 코딩 에이전트 운영 규칙·워크플로 샘플을 흡수하는 후보로 적합하다.",
+  "integration": "선별 도입 권장. `.agents`의 워크플로, 스킬, 메모리 규약, manifest/검증 방식을 Claude Code 스킬 체계나 Paperclip 작업 템플릿으로 포팅해볼 수 있다. 전체 설치보다는 보안/디버그/테스트/오케스트레이션 관련 워크플로만 추출하는 방식이 현실적이다.",
+  "overlaps": "Claude Code의 기존 스킬 200+, hooks, MCP와 상당히 겹친다. Paperclip/cmux의 실제 멀티에이전트 실행·관제 기능과는 달리 런타임 오케스트레이션은 약하다. Google Antigravity 중심이라 현재 스택에 바로 핵심 구성요소로 넣기에는 중복과 이식 비용이 있다."
+}
