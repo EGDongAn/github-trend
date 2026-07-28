@@ -1,0 +1,15 @@
+{
+  "fullName": "paperswithbacktest/awesome-systematic-trading",
+  "analyzedAt": "2026-07-28T23:00:54.050Z",
+  "repoMeta": {
+    "stars": 9530,
+    "language": "Python",
+    "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading."
+  },
+  "relevance": "low",
+  "category": "금융/퀀트 트레이딩 리소스 모음",
+  "summary": "시스템 트레이딩 관련 라이브러리, 전략, 책, 블로그, 튜토리얼을 모은 큐레이션 repo로, AI 에이전트 운영 스택 자체를 보강하는 도구는 아니다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 멀티에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리, 자동화 인프라와 직접 맞지 않는다. 금융 자동매매나 리서치 에이전트를 별도 도메인으로 운영할 계획이 있을 때 참고 자료로는 가치가 있다.",
+  "integration": "직접 통합 대상은 아님. 향후 Paperclip/Claude Code 기반 퀀트 리서치 워커를 만든다면 백테스트 프레임워크나 데이터 소스 후보를 조사하는 출발점으로만 활용 가능하다.",
+  "overlaps": "현재 스택과 기능 중복은 거의 없지만, 운영 OS의 기반 기능을 대체하거나 업그레이드하지도 않는다. 도메인 지식 큐레이션에 가까워 도입 우선순위는 낮다."
+}

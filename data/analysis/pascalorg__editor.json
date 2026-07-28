@@ -1,0 +1,15 @@
+{
+  "fullName": "pascalorg/editor",
+  "analyzedAt": "2026-07-28T23:00:43.152Z",
+  "repoMeta": {
+    "stars": 18637,
+    "language": "TypeScript",
+    "description": "Create and share 3D architectural projects."
+  },
+  "relevance": "none",
+  "category": "3D 건축/디자인 에디터",
+  "summary": "웹 기반 3D 건축 프로젝트 생성·공유용 TypeScript 애플리케이션으로 보이며, EG AI GROUP OS의 에이전트 운영·로컬 LLM·개발 자동화·MCP·보안 인프라와 직접 관련이 없다.",
+  "fit": "일반 3D/건축 디자인 앱 성격이라 현재 스택의 핵심 목표인 로컬 우선 AI 운영 자동화, 멀티에이전트 오케스트레이션, 코딩 에이전트 강화와 맞지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 의미 있는 기능 중복도 거의 없다. 다만 프론트엔드/3D UI 사례로 참고할 수는 있으나 운영 OS 도입 대상은 아니다."
+}

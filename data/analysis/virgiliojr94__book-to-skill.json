@@ -1,0 +1,15 @@
+{
+  "fullName": "virgiliojr94/book-to-skill",
+  "analyzedAt": "2026-07-28T23:00:59.258Z",
+  "repoMeta": {
+    "stars": 11261,
+    "language": "Python",
+    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / Claude Code 스킬 생성",
+  "summary": "기술서 PDF를 Claude Code skill로 변환해 작업 중 참조 가능한 지식 자산으로 만드는 도구다. EG AI GROUP OS의 Claude Code 중심 운영과 스킬 기반 워크플로에는 잘 맞지만, 실행 엔진이나 오케스트레이션 자체를 강화하는 핵심 인프라는 아니다.",
+  "fit": "보유한 Claude Code 스킬 생태계를 확장하는 보조 도구로 적합하다. 로컬 PDF 기반 지식 추출과 skill 패키징은 로컬 우선, 비용 절감, 에이전트 작업 품질 향상 방향과 맞는다. 특히 반복 참고하는 기술서, 내부 매뉴얼, 프레임워크 문서를 skill화하는 용도로 유용하다.",
+  "integration": "Claude Code 스킬 저장소에 생성 결과를 연결하고, Paperclip 작업 유형별로 관련 skill을 자동 참조하게 만들 수 있다. cron이나 n8n으로 신규 PDF 감지 후 skill 변환 파이프라인을 구성하면 개인 지식베이스 운영 자동화에 붙일 수 있다.",
+  "overlaps": "Claude Code의 기존 스킬 200+와 기능적으로 겹치지는 않지만, 수동 skill 작성 워크플로를 자동화하는 성격이다. RAG나 문서 검색 시스템을 대체하지는 못하며, PDF 품질과 변환 결과 검수 부담이 남는다. 도입 가치는 있지만 Paperclip/cmux/로컬 LLM처럼 핵심 레이어를 바꾸는 수준은 아니므로 high는 아니다."
+}

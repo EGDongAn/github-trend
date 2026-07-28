@@ -328,5 +328,16 @@
     "stars": 1585,
     "category": "AI 에이전트용 브라우저 자동화 / 코딩 에이전트 워크플로 보강",
     "summary": "ego-lite는 Claude Code, Codex, Cursor 같은 외부 에이전트가 사용자의 실제 로그인/탭 환경을 별도 Space에서 병렬로 조작하게 해주는 macOS용 에이전트 브라우저 및 ego-browser 스킬이다. 로컬 데이터 유지, Chrome 데이터 이전, 병렬 브라우저 작업, 토큰 절감형 페이지 스냅샷이 핵심이다."
+  },
+  {
+    "date": "2026-07-28",
+    "sentAt": "2026-07-28T23:01:24.813Z",
+    "fullName": "microsoft/agent-governance-toolkit",
+    "owner": "microsoft",
+    "name": "agent-governance-toolkit",
+    "url": "https://github.com/microsoft/agent-governance-toolkit",
+    "stars": 5168,
+    "category": "보안/시크릿/격리, 에이전트 거버넌스",
+    "summary": "자율 AI 에이전트에 대한 정책 강제, 제로트러스트 ID, 실행 샌드박싱, 신뢰성 엔지니어링을 다루는 거버넌스 툴킷이다. OWASP Agentic Top 10 전체 대응을 표방하므로 멀티에이전트 운영 스택의 보안 통제 계층으로 직접 관련성이 높다."
   }
 ]

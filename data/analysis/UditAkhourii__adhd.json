@@ -1,0 +1,15 @@
+{
+  "fullName": "UditAkhourii/adhd",
+  "analyzedAt": "2026-07-28T23:01:23.605Z",
+  "repoMeta": {
+    "stars": 2557,
+    "language": "TypeScript",
+    "description": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 스킬 / 멀티에이전트 사고 오케스트레이션",
+  "summary": "Claude와 Codex Agent SDK 기반으로 여러 사고 프레임을 병렬 전개하고 점수화·가지치기하는 코딩 에이전트용 Tree-of-Thought 스킬이다. 창의적 설계, 복잡한 디버깅, 아키텍처 탐색 같은 고난도 작업에서 에이전트 추론 품질을 높이는 보조 도구에 가깝다.",
+  "fit": "EG AI GROUP OS의 Claude Code/codex exec 중심 워크플로와 잘 맞고, 로컬 우선 자동화 철학에도 비교적 부합한다. 다만 실행 엔진이나 작업 위임 계층 자체를 대체하는 핵심 인프라는 아니며, Paperclip/cmux의 구조적 공백을 직접 메우지는 않는다. 따라서 즉시 필수 도입보다는 고난도 코딩·기획 작업용 스킬 후보로 보는 것이 적절하다.",
+  "integration": "Claude Code/Codex 스킬로 설치해 특정 작업 유형에서 선택적으로 호출하는 방식이 가장 적합하다. Paperclip 워커가 난이도 높은 이슈를 처리할 때 이 스킬을 보조 추론 전략으로 사용하게 하거나, cmux 세션 내에서 아키텍처 검토·리팩터링 계획·원인 분석 단계에만 적용할 수 있다. 비용 절감을 위해 로컬 LLM과도 연결 가능한지, SDK 의존성이 클라우드 호출을 강제하지 않는지 확인이 필요하다.",
+  "overlaps": "Claude Code의 기존 스킬, Codex의 기본 추론, Paperclip의 멀티에이전트 위임과 일부 중복된다. 차별점은 작업 실행 오케스트레이션이 아니라 사고 경로를 병렬 생성·평가·가지치기하는 추론 패턴에 있다. 기존 스택을 대체하기보다는 복잡한 작업에서 품질을 올리는 보조 스킬로 겹침을 관리해야 한다."
+}
