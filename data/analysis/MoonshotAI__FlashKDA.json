@@ -1,0 +1,15 @@
+{
+  "fullName": "MoonshotAI/FlashKDA",
+  "analyzedAt": "2026-07-29T23:01:29.094Z",
+  "repoMeta": {
+    "stars": 974,
+    "language": "Cuda",
+    "description": "FlashKDA: high-performance Kimi Delta Attention kernels"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 추론 최적화 / CUDA 커널",
+  "summary": "Kimi Delta Attention을 위한 고성능 CUDA 커널 구현체로, 특정 어텐션 구조를 쓰는 모델의 추론 또는 학습 성능을 높이는 저수준 최적화 라이브러리다.",
+  "fit": "로컬 LLM 비용 절감과 성능 개선 방향에는 부합하지만, 현재 스택의 Ollama/mlx-lm 중심 운영에 바로 붙는 범용 서빙/RAG 도구는 아니다. Kimi 계열 또는 Delta Attention 기반 모델을 로컬 GPU에서 직접 운용할 계획이 있을 때 가치가 커진다.",
+  "integration": "실험용 CUDA 서버나 별도 PyTorch/vLLM 계층에서 벤치마크 후, Kimi/Delta Attention 모델을 도입할 경우 추론 백엔드 최적화 후보로 검토. Mac mini 중심이라면 CUDA 의존성 때문에 직접 적용성은 낮고, NVIDIA 머신이 있을 때만 의미가 있다.",
+  "overlaps": "Ollama, mlx-lm과 목적은 일부 겹치지만 레이어가 다르다. 기존 로컬 LLM 런타임을 대체하기보다는 특정 모델/커널 최적화 부품에 가깝다. Mac/Apple Silicon 로컬 우선 운영과는 하드웨어 측면에서 부분적으로 어긋난다."
+}

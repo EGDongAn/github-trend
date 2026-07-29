@@ -1,0 +1,15 @@
+{
+  "fullName": "different-ai/openwork",
+  "analyzedAt": "2026-07-29T23:00:59.166Z",
+  "repoMeta": {
+    "stars": 17853,
+    "language": "TypeScript",
+    "description": "The open-source alternative to Claude Cowork (powered by opencode)"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트 관제 / 로컬 우선 멀티에이전트 워크플로 UI",
+  "summary": "OpenWork는 opencode 기반의 로컬 우선 데스크톱/서버형 에이전트 작업 관제 도구다. 세션, 실시간 실행 로그, 권한 승인, 템플릿, 스킬/MCP/플러그인 관리, Telegram/Slack 커넥터 방향성이 EG AI GROUP OS의 에이전트 운영 표면과 직접 맞닿는다.",
+  "fit": "기존 Claude Code CLI와 cmux 중심 운영을 GUI/API/서버형 제어면으로 보강할 수 있다. 특히 비개발자식 지시, 반복 워크플로 템플릿화, opencode 기반 저비용 로컬 실행, 팀 공유 가능한 스킬 패키징은 현재 스택의 운영 편의성을 높일 가능성이 크다.",
+  "integration": "Mac mini에 OpenWork desktop 또는 openwork-orchestrator를 설치해 별도 opencode 워커로 붙인다. Paperclip은 작업 큐/칸반을 유지하고, OpenWork는 특정 repo 작업 세션의 실행 UI와 권한 승인 레이어로 테스트한다. Hermes/TG와는 중복되므로 Telegram connector는 보조 경로로만 검증한다.",
+  "overlaps": "Claude Code CLI, cmux, Paperclip, Hermes와 상당히 겹친다. 다만 단순 중복이 아니라 opencode 기반의 로컬 GUI 관제, 권한 흐름, 스킬/MCP 패키징, 서버/데스크톱 이중 모드가 차별점이다. Paperclip을 대체하기보다는 특정 코딩 워커의 프론트엔드/실행 콘솔로 평가하는 것이 적절하다."
+}

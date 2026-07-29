@@ -1,0 +1,15 @@
+{
+  "fullName": "deepfakes/faceswap",
+  "analyzedAt": "2026-07-29T23:00:55.082Z",
+  "repoMeta": {
+    "stars": 56229,
+    "language": "Python",
+    "description": "Deepfakes Software For All"
+  },
+  "relevance": "none",
+  "category": "컴퓨터 비전/딥페이크 생성 도구",
+  "summary": "얼굴 교체·딥페이크 제작용 Python 소프트웨어로, EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안/시크릿 운영과 직접 관련이 없다.",
+  "fit": "운영 자동화 스택의 공백을 메우지 않으며, 로컬 우선 AI 운영 목적과도 분야가 다르다. GPU 기반 미디어 생성 실험에는 쓸 수 있으나 현재 우선순위에는 해당하지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 기능 중복은 거의 없지만, 보강 가치도 낮다. OpenClaw/Ollama/Claude Code/Paperclip/cmux와 연결할 실질적 운영 워크플로가 없다."
+}

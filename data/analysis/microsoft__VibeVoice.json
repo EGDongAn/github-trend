@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/VibeVoice",
+  "analyzedAt": "2026-07-29T23:00:55.084Z",
+  "repoMeta": {
+    "stars": 51235,
+    "language": "Python",
+    "description": "Open-Source Frontier Voice AI"
+  },
+  "relevance": "medium",
+  "category": "로컬 음성 AI / TTS·대화형 음성 생성",
+  "summary": "Microsoft의 오픈소스 음성 AI 모델/도구로 보이며, 텍스트 기반 에이전트 OS에 음성 출력이나 음성 에이전트 인터페이스를 붙이는 후보가 될 수 있다. 핵심은 에이전트 오케스트레이션이 아니라 음성 생성 계층이다.",
+  "fit": "텔레그램/로컬 비서/OpenClaw에 음성 응답, 브리핑 낭독, 회의록·작업 결과 음성화 같은 기능을 추가할 때 유용하다. 로컬 실행이 가능하고 품질이 충분하다면 클라우드 TTS 비용을 줄이는 보조 컴포넌트로 맞는다.",
+  "integration": "OpenClaw 또는 Hermes 뒤에 TTS 서비스로 붙여 API 래퍼를 만들고, tg-proxy/텔레그램 봇에서 특정 명령 결과를 음성 파일로 변환해 전송한다. Mac mini에서 GPU/메모리 요구량을 검증한 뒤 Ollama·mlx-lm 계층과 별도 음성 서빙 프로세스로 운영하는 방식이 적합하다.",
+  "overlaps": "기존 스택에는 명시적인 고품질 로컬 음성 생성 계층이 없어 직접 중복은 작다. 다만 핵심 우선순위인 멀티에이전트, 코딩 자동화, MCP, 시크릿 관리와는 거리가 있어 도입 우선순위는 중간 수준이다."
+}

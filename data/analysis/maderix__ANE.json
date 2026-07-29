@@ -1,0 +1,15 @@
+{
+  "fullName": "maderix/ANE",
+  "analyzedAt": "2026-07-29T23:01:30.425Z",
+  "repoMeta": {
+    "stars": 7137,
+    "language": "Objective-C",
+    "description": "Training neural networks on Apple Neural Engine via reverse-engineered private APIs"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 추론/서빙/RAG",
+  "summary": "Apple Silicon의 ANE를 비공개 API로 직접 사용해 transformer 학습/역전파를 시연한 연구성 PoC다. 로컬 우선·비용 절감 방향과 강하게 맞지만, Objective-C 기반이고 reverse-engineered private API 의존이라 운영 안정성과 macOS 업데이트 내성이 낮다.",
+  "fit": "Mac mini 기반 로컬 AI 스택에서 ANE를 Ollama/MLX 밖의 추가 가속 자원으로 탐색할 가치가 있다. 특히 로컬 LLM 학습·파인튜닝 비용 절감 가능성을 검증하는 R&D 후보로는 매력적이다. 다만 현재는 프로덕션 서빙/오케스트레이션 도구라기보다 하드웨어 해킹 연구에 가깝다.",
+  "integration": "실서비스 도입보다 별도 실험 레포에서 M-series Mac별 빌드/실행 가능성, macOS 버전 민감도, 작은 모델 학습 벤치마크를 먼저 검증. 성공하면 MLX/Ollama 워크플로의 보조 가속 실험 또는 로컬 파인튜닝 연구 파이프라인으로 제한 통합한다.",
+  "overlaps": "MLX/ollama와 목표 영역은 일부 겹치지만, ANE 직접 학습이라는 접근은 현재 스택에 없는 기능이다. Claude Code/cmux/Paperclip과는 거의 중복 없음. 핵심 리스크는 Apple private API 의존, 유지보수 불확실성, 운영 자동화 도구가 아니라는 점이다."
+}

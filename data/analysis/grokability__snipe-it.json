@@ -1,0 +1,15 @@
+{
+  "fullName": "grokability/snipe-it",
+  "analyzedAt": "2026-07-29T23:00:52.049Z",
+  "repoMeta": {
+    "stars": 14419,
+    "language": "PHP",
+    "description": "A free open source IT asset/license management system"
+  },
+  "relevance": "low",
+  "category": "IT 자산/라이선스 관리, 셀프호스팅 운영 도구",
+  "summary": "Snipe-IT는 하드웨어 자산, 소프트웨어 라이선스, 사용자 할당, 체크인/체크아웃을 관리하는 오픈소스 ITAM 시스템이다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, 개발 자동화, MCP와는 직접 관련이 약하다.",
+  "fit": "셀프호스팅 가능하고 Mac mini/서버 자산, 라이선스, 장비 이력 관리를 체계화하는 보조 운영 도구로는 쓸 수 있다. 다만 1인 AI 운영 스택에서는 관리 대상 자산 수가 적으면 도입 비용 대비 효용이 낮다.",
+  "integration": "Docker 또는 별도 PHP/Laravel 앱으로 내부망에 배치하고, 필요 시 n8n에서 API를 호출해 장비/라이선스 만료 알림을 텔레그램으로 보낼 수 있다.",
+  "overlaps": "현재 스택의 핵심 도구와 직접 중복되지는 않는다. 다만 운영 자동화 관점에서는 n8n/텔레그램 알림으로 일부 자산 추적을 가볍게 대체할 수 있어, 전용 ITAM이 꼭 필요한 규모가 아니면 과한 구성이다."
+}
