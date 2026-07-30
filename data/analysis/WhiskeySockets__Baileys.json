@@ -1,0 +1,15 @@
+{
+  "fullName": "WhiskeySockets/Baileys",
+  "analyzedAt": "2026-07-30T23:00:19.924Z",
+  "repoMeta": {
+    "stars": 10421,
+    "language": "JavaScript",
+    "description": "Socket-based TS/JavaScript API for WhatsApp Web"
+  },
+  "relevance": "low",
+  "category": "메신저 봇/게이트웨이",
+  "summary": "WhatsApp Web 프로토콜을 소켓 기반으로 다루는 TypeScript/JavaScript 라이브러리다. 텔레그램 중심인 현재 Hermes/tg-proxy 구조와 직접 맞지는 않지만, WhatsApp 채널을 추가하려는 경우 게이트웨이 구현 재료가 될 수 있다.",
+  "fit": "로컬 우선에는 비교적 맞지만 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP 보강과는 거리가 있다. WhatsApp을 실제 운영 채널로 쓰려는 명확한 요구가 없다면 도입 우선순위는 낮다.",
+  "integration": "Hermes와 유사한 WhatsApp ingress/egress 어댑터를 별도 서비스로 만들고, 메시지를 Paperclip 작업 생성이나 tg-proxy식 알림 파이프라인에 연결하는 방식이 가능하다. 세션/인증 파일은 vault sidecar 또는 격리된 로컬 저장소로 관리해야 한다.",
+  "overlaps": "Hermes/tg-proxy의 메신저 게이트웨이 역할과 개념적으로 겹치지만 대상 채널이 Telegram이 아니라 WhatsApp이다. 기존 핵심 스택을 대체하지 않고, WhatsApp 채널 확장용 보조 라이브러리에 가깝다."
+}
