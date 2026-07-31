@@ -1,0 +1,15 @@
+{
+  "fullName": "geo-tp/ESP32-Bit-Pirate",
+  "analyzedAt": "2026-07-31T23:00:20.541Z",
+  "repoMeta": {
+    "stars": 4972,
+    "language": "C++",
+    "description": "A Hardware Hacking Tool with Web-Based CLI That Speaks Every Protocol"
+  },
+  "relevance": "low",
+  "category": "하드웨어 해킹/임베디드 프로토콜 도구",
+  "summary": "ESP32 기반으로 여러 하드웨어 프로토콜을 웹 CLI에서 다루는 Bit-Pirate 계열 장비/펌웨어로 보인다. AI 에이전트 운영, 로컬 LLM, MCP, 워크플로 자동화와 직접 연결되는 repo는 아니다.",
+  "fit": "EG AI GROUP OS의 핵심 축인 멀티에이전트 오케스트레이션, 로컬 추론, 코딩 자동화, 비밀 격리와는 거리가 있다. 다만 Mac mini 주변의 물리 장치/IoT/임베디드 디버깅 자동화가 필요해질 때 보조 도구로 쓸 수 있다.",
+  "integration": "하드웨어 랩 자동화가 목적일 때만 별도 ESP32 장비로 붙이고, Claude Code/Paperclip에서 시리얼 또는 웹 CLI 호출 래퍼를 만들어 테스트 장비 제어용으로 연동할 수 있다. 일반 OS 자동화 스택에는 기본 편입할 이유가 약하다.",
+  "overlaps": "현재 스택과 직접 중복은 거의 없다. MCP, Hermes, Paperclip, n8n을 대체하지 않으며, 역할은 소프트웨어 자동화가 아니라 물리/임베디드 프로토콜 접근 도구에 가깝다."
+}

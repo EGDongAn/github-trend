@@ -1,0 +1,15 @@
+{
+  "fullName": "zhaoxuya520/reverse-skill",
+  "analyzedAt": "2026-07-31T23:00:33.499Z",
+  "repoMeta": {
+    "stars": 10652,
+    "language": "PowerShell",
+    "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端"
+  },
+  "relevance": "medium",
+  "category": "보안/리버스엔지니어링 스킬 라우터, AI 코딩 클라이언트 확장팩",
+  "summary": "Claude Code, Cursor, Cline 등에서 보안 연구·인가된 침투 테스트·리버스엔지니어링 작업을 라우팅하고 필요한 도구 체인을 부트스트랩하는 스킬 팩으로 보인다. EG AI GROUP OS의 보안 자동화와 Claude Code 스킬 생태계에는 맞지만, 핵심 운영 오케스트레이션이나 로컬 LLM 서빙 공백을 직접 메우는 도구는 아니다.",
+  "fit": "보안 리서치, SAST/DAST 보조, 악성코드/바이너리 분석 워크플로를 Claude Code 쪽에 붙이는 용도로는 유용하다. 특히 온디맨드 툴체인 부트스트랩과 지식 베이스 축적은 로컬 우선 자동화 철학과 일부 맞는다. 다만 침투 테스트·리버스엔지니어링 도메인 특화라 EG OS의 범용 멀티에이전트 관제나 작업 위임 계층을 업그레이드하는 high급 후보는 아니다.",
+  "integration": "Claude Code 스킬 디렉터리에 별도 보안 전용 스킬 팩으로 격리 설치하고, vault sidecar를 통해 토큰·타깃 정보를 분리해야 한다. Paperclip 작업 유형 중 security-research 또는 pentest 승인 티켓에만 연결하고, n8n/cron 자동 실행은 기본 비활성화하는 것이 적합하다. 실행 전 승인된 대상만 허용하는 allowlist와 로그 보존 정책이 필요하다.",
+  "overlaps": "기존 Claude Code 스킬, security-auditor, dast-zap, scanning-tools, shellcheck/sast 계열과 일부 중복된다. 차별점은 리버스엔지니어링·침투 테스트 중심 라우팅과 도구 부트스트랩 패키징이다. 단순 보안 점검 용도라면 기존 스킬로 충분하고, 고급 보안 연구 워크플로가 필요할 때만 보강 후보로 볼 만하다."
+}

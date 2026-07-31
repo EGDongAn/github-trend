@@ -1,0 +1,15 @@
+{
+  "fullName": "usekaneo/kaneo",
+  "analyzedAt": "2026-07-31T23:00:28.132Z",
+  "repoMeta": {
+    "stars": 5038,
+    "language": "TypeScript",
+    "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you."
+  },
+  "relevance": "medium",
+  "category": "셀프호스티드 프로젝트 관리 / 칸반 / 이슈 트래킹",
+  "summary": "Kaneo는 TypeScript 기반의 경량 오픈소스 프로젝트 관리 도구로, Docker 셀프호스팅, PostgreSQL, GitHub/Gitea 이슈 동기화, 워크플로 자동화, 알림, MCP 연동을 제공한다. 로컬 우선과 셀프호스팅 방향은 맞지만, 핵심은 일반 PM/칸반이라 에이전트 오케스트레이션 자체는 아니다.",
+  "fit": "Paperclip의 에이전트 작업 위임 엔진을 대체할 수준은 아니고, 작업 현황을 사람이 보기 좋은 칸반/리스트 UI로 보강하는 후보에 가깝다. GitHub 이슈 동기화와 MCP 접근은 codex/Claude Code 작업 흐름과 연결 여지가 있다.",
+  "integration": "Docker로 Mac mini 또는 내부 서버에 배치하고, GitHub repo 이슈를 Kaneo와 동기화한다. Paperclip이 생성/관리하는 작업을 GitHub 이슈 또는 API/MCP 경유로 Kaneo에 노출하면 관제용 프로젝트 보드로 활용 가능하다. Telegram 알림은 webhook/n8n을 거쳐 연결하는 방식이 현실적이다.",
+  "overlaps": "Paperclip의 칸반/작업 관리 영역, GitHub Issues 기반 작업 추적, n8n 워크플로 일부와 겹친다. 차별점은 더 정돈된 PM UI와 일반 팀 관리 기능이며, 단순 중복을 피하려면 Paperclip의 실행 엔진은 유지하고 Kaneo는 시각화/계획 레이어로 제한해야 한다."
+}
