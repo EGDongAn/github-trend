@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/TRELLIS.2",
+  "analyzedAt": "2026-08-01T23:00:28.658Z",
+  "repoMeta": {
+    "stars": 9897,
+    "language": "Python",
+    "description": "Native and Compact Structured Latents for 3D Generation"
+  },
+  "relevance": "low",
+  "category": "3D 생성 모델/멀티모달 생성 AI",
+  "summary": "Microsoft의 TRELLIS.2는 구조화 latent 기반 3D 생성 연구/모델 repo로, 이미지나 텍스트에서 3D 에셋을 생성하는 용도에 가깝다.",
+  "fit": "EG AI GROUP OS의 핵심 축인 에이전트 오케스트레이션, 로컬 LLM 서빙, 코딩 자동화, MCP, 시크릿 격리와 직접 관련은 낮다. 로컬 GPU 기반 생성 파이프라인이나 콘텐츠 제작 자동화가 필요할 때만 보조적으로 검토할 만하다.",
+  "integration": "Python 기반 로컬 추론 도구로 별도 워커 또는 n8n/Paperclip 작업 노드에서 3D 에셋 생성 태스크를 호출하는 방식이 가능하다. 다만 GPU 요구사항, 모델 용량, 의존성 격리가 필요하며 현재 운영 자동화 스택의 핵심 구성요소로 넣을 이유는 약하다.",
+  "overlaps": "Ollama/mlx-lm 같은 로컬 LLM 스택과는 목적이 다르고, Claude Code/Paperclip/cmux와도 기능 중복은 거의 없다. 중복보다는 별도 생성 미디어 도구에 가깝지만, 현재 우선순위에는 맞지 않는다."
+}

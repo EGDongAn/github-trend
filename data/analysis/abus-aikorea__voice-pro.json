@@ -1,0 +1,15 @@
+{
+  "fullName": "abus-aikorea/voice-pro",
+  "analyzedAt": "2026-08-01T23:00:21.817Z",
+  "repoMeta": {
+    "stars": 11723,
+    "language": "Python",
+    "description": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation."
+  },
+  "relevance": "medium",
+  "category": "로컬 음성 AI / TTS·STT·더빙 WebUI",
+  "summary": "Whisper 계열 STT, Edge/Kokoro/F5/E2/CosyVoice TTS·보이스 클로닝, 번역, YouTube 다운로드, Demucs 음성 분리까지 묶은 Gradio 기반 멀티미디어 음성 처리 도구다. EG OS 핵심인 에이전트 오케스트레이션이나 코딩 자동화는 아니지만, 로컬 우선 콘텐츠/음성 자동화 파이프라인에는 쓸모가 있다.",
+  "fit": "로컬 GPU에서 음성 생성·전사·번역·더빙을 처리할 수 있어 비용 절감과 로컬 우선 가치에는 부합한다. 다만 주 용도가 크리에이터용 WebUI라 Paperclip/cmux/Claude Code를 직접 강화하지는 않는다. Mac/Linux 지원은 문서상 존재하지만 Windows+NVIDIA 중심 흔적이 강해 Mac mini 환경에서는 실사용 검증이 필요하다.",
+  "integration": "Hermes 텔레그램이나 n8n에서 음성 파일/YouTube URL을 받아 Voice-Pro 작업 폴더 또는 Gradio API로 전사·번역·TTS 작업을 호출하는 보조 워커로 붙일 수 있다. 결과물은 tg-proxy로 회신하거나 Paperclip 이슈 산출물로 저장하는 방식이 현실적이다. 로컬 GPU/CPU 성능, 모델 다운로드 용량, 의존성 충돌을 별도 격리 환경에서 검증해야 한다.",
+  "overlaps": "Whisper/STT, TTS, 로컬 모델 실행 측면에서 Ollama/Open WebUI와 일부 철학은 겹치지만 기능 영역은 음성 특화라 직접 중복은 작다. OpenClaw/Hermes의 음성 입출력 확장 후보로는 의미가 있으나, 범용 에이전트 실행 엔진이나 MCP 서버가 아니므로 EG OS 핵심 스택을 대체하지는 않는다."
+}

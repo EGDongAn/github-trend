@@ -1,0 +1,15 @@
+{
+  "fullName": "iv-org/invidious",
+  "analyzedAt": "2026-08-01T23:00:17.796Z",
+  "repoMeta": {
+    "stars": 21596,
+    "language": "Crystal",
+    "description": "Invidious is an alternative front-end to YouTube"
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 미디어 프론트엔드 / 프라이버시 도구",
+  "summary": "YouTube 대체 프론트엔드로, 광고·추적을 줄이고 자체 호스팅 가능한 영상 조회 인터페이스를 제공한다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP와는 직접 관련이 약하다.",
+  "fit": "로컬 우선·셀프호스팅·프라이버시 가치에는 일부 부합하지만, 운영 AI 그룹 자동화 스택의 핵심 공백을 메우지는 않는다. YouTube 콘텐츠 모니터링이나 리서치 수집을 프라이버시 친화적으로 하고 싶을 때 보조 도구 정도로 의미가 있다.",
+  "integration": "Hermes/n8n에서 특정 채널·영상 링크를 Invidious 인스턴스로 변환하거나, 리서치 워크플로에서 YouTube 접근 프론트엔드로 사용할 수 있다. 다만 별도 운영 부담 대비 자동화 기여도는 낮다.",
+  "overlaps": "Open WebUI, Ollama, Paperclip, cmux, Claude Code 등 기존 핵심 스택과 기능 중복은 거의 없다. 다만 Brave/search 기반 리서치나 일반 브라우저 접근을 대체할 정도는 아니며, YouTube 전용 보조 프론트엔드에 가깝다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "NomaDamas/k-skill",
+  "analyzedAt": "2026-08-01T23:00:36.271Z",
+  "repoMeta": {
+    "stars": 6717,
+    "language": "JavaScript",
+    "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로"
+  },
+  "relevance": "medium",
+  "category": "Claude Code/Codex용 한국 로컬라이즈드 스킬 번들",
+  "summary": "SRT/KTX, 카카오톡 Mac 아카이브, 네이버/공공데이터/금융/생활 자동화 등 한국 생활·업무 표면을 에이전트 스킬로 묶은 저장소. Claude Code, Codex, OpenCode, OpenClaw 설치를 지원하고 일부는 로컬 실행·시크릿 정책을 갖춘다.",
+  "fit": "EG OS의 핵심 공백인 오케스트레이션이나 로컬 LLM을 직접 보강하지는 않지만, 한국 서비스 자동화와 한국어 작업 능력을 Claude Code/OpenClaw 워크플로에 즉시 추가할 수 있다. 특히 카카오톡 Mac 검색, 한국 공공데이터, 교통/예약/리서치 계열은 1인 운영 자동화에 실사용 가치가 있다.",
+  "integration": "Claude Code 플러그인 또는 개별 스킬로 설치해 기존 skills 디렉터리에 편입. k-skill-setup으로 credential/env를 정리하고, 필요한 스킬만 선별 설치하는 방식이 적합하다. 시크릿은 기존 vault sidecar 정책에 맞춰 환경변수/프록시 접근을 격리해야 한다.",
+  "overlaps": "이미 Claude Code 스킬 200+와 자체 Telegram/Paperclip 자동화가 있어 범용 스킬 번들로는 중복이 있다. 다만 한국 특화 API·생활 자동화 표면은 차별점이다. k-skill-proxy는 AGPL 영역이 있어 자체 운영 시 라이선스와 네트워크 의존성을 별도 검토해야 한다."
+}
