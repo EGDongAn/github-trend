@@ -350,5 +350,27 @@
     "stars": 17853,
     "category": "코딩 에이전트 관제 / 로컬 우선 멀티에이전트 워크플로 UI",
     "summary": "OpenWork는 opencode 기반의 로컬 우선 데스크톱/서버형 에이전트 작업 관제 도구다. 세션, 실시간 실행 로그, 권한 승인, 템플릿, 스킬/MCP/플러그인 관리, Telegram/Slack 커넥터 방향성이 EG AI GROUP OS의 에이전트 운영 표면과 직접 맞닿는다."
+  },
+  {
+    "date": "2026-08-02",
+    "sentAt": "2026-08-02T23:00:27.310Z",
+    "fullName": "esengine/DeepSeek-Reasonix",
+    "owner": "esengine",
+    "name": "DeepSeek-Reasonix",
+    "url": "https://github.com/esengine/DeepSeek-Reasonix",
+    "stars": 29018,
+    "category": "코딩 에이전트·개발 자동화 / 터미널 에이전트",
+    "summary": "터미널에서 상주 실행되는 DeepSeek 네이티브 AI 코딩 에이전트로, prefix-cache 안정성을 중심에 둔 설계가 특징이다. 로컬/저비용 LLM 기반 코딩 워크플로를 강화할 가능성이 크다."
+  },
+  {
+    "date": "2026-08-02",
+    "sentAt": "2026-08-02T23:00:27.310Z",
+    "fullName": "antirez/ds4",
+    "owner": "antirez",
+    "name": "ds4",
+    "url": "https://github.com/antirez/ds4",
+    "stars": 19972,
+    "category": "로컬 LLM 추론/서빙",
+    "summary": "DeepSeek 4 Flash/PRO를 Metal, CUDA, ROCm에서 로컬 추론하도록 만든 C 기반 엔진으로 보인다. EG AI GROUP OS의 로컬 우선, 비용 절감, Mac mini 기반 추론 강화 방향과 직접 맞는다."
   }
 ]

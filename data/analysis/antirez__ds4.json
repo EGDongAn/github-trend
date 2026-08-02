@@ -1,0 +1,15 @@
+{
+  "fullName": "antirez/ds4",
+  "analyzedAt": "2026-08-02T23:00:20.487Z",
+  "repoMeta": {
+    "stars": 19972,
+    "language": "C",
+    "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
+  },
+  "relevance": "high",
+  "category": "로컬 LLM 추론/서빙",
+  "summary": "DeepSeek 4 Flash/PRO를 Metal, CUDA, ROCm에서 로컬 추론하도록 만든 C 기반 엔진으로 보인다. EG AI GROUP OS의 로컬 우선, 비용 절감, Mac mini 기반 추론 강화 방향과 직접 맞는다.",
+  "fit": "Ollama/mlx-lm/Open WebUI의 대체라기보다 특정 DeepSeek 계열 모델을 더 빠르거나 낮은 오버헤드로 돌리는 보조 런타임 후보. Metal 지원이 실제로 안정적이면 Mac mini 로컬 추론 성능 개선 검토 가치가 크다.",
+  "integration": "로컬 추론 백엔드로 별도 서비스화한 뒤 Open WebUI, 내부 에이전트, Paperclip 워커에서 HTTP/CLI 래퍼로 호출하는 방식이 적합하다. 우선 벤치마크: Mac mini Metal 성능, 메모리 사용량, 지원 모델/양자화 포맷, 동시 요청 안정성, Ollama 대비 지연시간을 비교해야 한다.",
+  "overlaps": "Ollama, mlx-lm과 일부 중복된다. 다만 범용 모델 관리/서빙 플랫폼보다는 DeepSeek 특화 고성능 추론 엔진 성격이면 업그레이드 또는 특화 백엔드로 의미가 있다. Open WebUI와 직접 호환 API가 없다면 래퍼 개발 비용이 생긴다."
+}

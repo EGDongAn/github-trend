@@ -30,5 +30,7 @@
   "AlexsJones/llmfit",
   "citrolabs/ego-lite",
   "microsoft/agent-governance-toolkit",
-  "different-ai/openwork"
+  "different-ai/openwork",
+  "esengine/DeepSeek-Reasonix",
+  "antirez/ds4"
 ]

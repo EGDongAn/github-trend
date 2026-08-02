@@ -1,0 +1,15 @@
+{
+  "fullName": "HarbourMasters/Lighthouse",
+  "analyzedAt": "2026-08-02T23:00:17.323Z",
+  "repoMeta": {
+    "stars": 216,
+    "language": "C",
+    "description": null
+  },
+  "relevance": "none",
+  "category": "일반 앱/게임 포팅 도구",
+  "summary": "HarbourMasters/Lighthouse는 HarbourMasters 계열 포트/런처 생태계와 관련된 C 기반 프로젝트로 보이며, EG AI GROUP OS의 에이전트 운영, 로컬 LLM, MCP, 보안 격리, 자동화 스택과 직접 관련이 없다.",
+  "fit": "현재 우선순위인 멀티에이전트 오케스트레이션, 로컬 추론/RAG, 코딩 자동화, MCP, 셀프호스팅 인프라 보강에 해당하지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 의미 있는 기능 중복도 거의 없다. 다만 중복이 없다는 점이 도입 가치로 이어지지는 않으며, 운영 자동화 시스템의 공백을 메우지 않는다."
+}
