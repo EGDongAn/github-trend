@@ -1,0 +1,15 @@
+{
+  "fullName": "Alishahryar1/free-claude-code",
+  "analyzedAt": "2026-08-03T23:00:23.131Z",
+  "repoMeta": {
+    "stars": 44015,
+    "language": "Python",
+    "description": "Use Claude Code, Codex and Pi for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / 모바일·음성 게이트웨이",
+  "summary": "Claude Code, Codex, Pi 등을 터미널·앱·IDE·폰에서 무료로 쓰게 하는 래퍼/클라이언트 성격의 Python 프로젝트로 보인다. OpenClaw와 유사하게 음성 입력까지 표방하므로 개인 AI 비서·코딩 에이전트 접근 채널 확장에는 관련이 있다.",
+  "fit": "EG AI GROUP OS의 로컬 우선/비용 절감/코딩 에이전트 워크플로 강화 방향과 일부 맞는다. 다만 핵심 가치가 새로운 오케스트레이션, 로컬 추론, 보안 격리라기보다 Claude Code/Codex 사용 경로를 우회·확장하는 데 가까워 보이며, 무료 사용 방식의 안정성·약관·보안 리스크를 먼저 검증해야 한다.",
+  "integration": "Hermes 또는 tg-proxy와 연결해 모바일/음성 명령 진입점 후보로 실험할 수 있다. Claude Code 실행 래퍼라면 cmux/Paperclip 워커 호출 계층 앞단에 붙이는 방식이 가능하지만, 기존 OpenClaw·Hermes와 기능 중복이 커서 별도 샌드박스에서 인증 흐름과 로그/비밀 노출 여부를 검증한 뒤 제한적으로 붙이는 편이 맞다.",
+  "overlaps": "OpenClaw, Claude Code CLI, Codex exec, Hermes 텔레그램 게이트웨이와 상당히 겹친다. 명확한 차별점은 무료 사용 통합, 폰/IDE/음성 접근성일 수 있지만, EG 스택의 핵심 공백을 메우는 수준은 아니므로 high는 아니다."
+}

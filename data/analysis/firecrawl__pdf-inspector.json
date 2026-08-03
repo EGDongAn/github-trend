@@ -1,0 +1,15 @@
+{
+  "fullName": "firecrawl/pdf-inspector",
+  "analyzedAt": "2026-08-03T23:00:21.694Z",
+  "repoMeta": {
+    "stars": 8059,
+    "language": "Rust",
+    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions."
+  },
+  "relevance": "medium",
+  "category": "문서 처리/RAG 전처리/로컬 파이프라인",
+  "summary": "PDF가 스캔본인지 텍스트 기반인지 빠르게 판별하고 텍스트를 추출하는 Rust 라이브러리. RAG 수집 파이프라인이나 자동 문서 분류에서 OCR 필요 여부를 라우팅하는 데 유용하다.",
+  "fit": "로컬 우선, 비용 절감, 자동화 가치와 잘 맞는다. 다만 EG AI GROUP OS의 핵심 공백인 에이전트 오케스트레이션이나 실행 엔진을 직접 보강하는 도구는 아니므로 high는 아니다.",
+  "integration": "n8n, Paperclip 워커, Claude Code 작업 파이프라인 앞단에 PDF 검사 단계로 붙여서 텍스트 PDF는 즉시 추출하고 스캔 PDF만 OCR/비전 모델로 보내는 라우터로 사용. Rust 바이너리/라이브러리 형태라 로컬 Mac mini에서 경량 CLI로 감싸기 적합하다.",
+  "overlaps": "기존 MCP나 Google Drive, 일반 PDF 처리 도구와 일부 중복될 수 있다. 차별점은 PDF 유형 감지와 빠른 로컬 추출에 특화된 점이며, 전체 RAG 시스템이나 OCR 엔진을 대체하지는 않는다."
+}

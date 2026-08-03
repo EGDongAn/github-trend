@@ -1,0 +1,15 @@
+{
+  "fullName": "livekit/agents",
+  "analyzedAt": "2026-08-03T23:00:28.019Z",
+  "repoMeta": {
+    "stars": 11948,
+    "language": "Python",
+    "description": "A framework for building realtime voice AI agents 🤖🎙️📹"
+  },
+  "relevance": "medium",
+  "category": "실시간 음성/멀티모달 AI 에이전트 프레임워크",
+  "summary": "LiveKit Agents는 Python 기반으로 STT/LLM/TTS, WebRTC, 전화, MCP, 에이전트 서버, 작업 디스패치, 멀티에이전트 handoff를 묶어 실시간 음성 AI 에이전트를 만들게 해준다. Apache-2.0이고 LiveKit 서버 셀프호스팅이 가능해 로컬 우선 원칙과 부분적으로 맞는다.",
+  "fit": "EG 스택의 핵심 공백인 텔레그램/CLI 중심 자동화에는 직접 필수는 아니지만, 음성 지시·전화 응대·실시간 상담형 에이전트 채널을 추가하려면 강한 후보다. MCP 지원과 자체 에이전트 서버/스케줄링은 기존 Claude Code, Paperclip, cmux와 연결 가능하다.",
+  "integration": "LiveKit 서버를 Mac mini 또는 별도 Docker 호스트에 셀프호스팅하고, Hermes 텔레그램 게이트웨이와 별도 음성 게이트웨이로 붙인다. 에이전트 내부 LLM은 Ollama/OpenAI/기타 provider 플러그인으로 선택하고, MCP 도구를 통해 기존 filesystem, playwright, google-drive, Paperclip 작업 위임을 호출하게 구성한다. 우선 POC는 ‘음성 명령 → Paperclip 이슈 생성/조회’ 정도가 적절하다.",
+  "overlaps": "Paperclip/cmux의 범용 멀티에이전트 작업 오케스트레이션을 대체하기보다는 실시간 음성·영상 인터페이스 계층이다. OpenClaw 개인 비서와는 음성 UX 영역에서 일부 중복되지만 LiveKit은 WebRTC/전화/프로덕션 음성 파이프라인이 강점이다. 클라우드 없이도 가능하나 STT/TTS/LLM provider 선택에 따라 외부 API 의존과 비용이 생길 수 있다."
+}
