@@ -1,0 +1,15 @@
+{
+  "fullName": "uber/ADR",
+  "analyzedAt": "2026-08-04T23:00:23.295Z",
+  "repoMeta": {
+    "stars": 662,
+    "language": "Python",
+    "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber."
+  },
+  "relevance": "high",
+  "category": "AI 에이전트 보안/옵저버빌리티/벤치마킹",
+  "summary": "엔터프라이즈 AI 에이전트의 실행을 관측하고, 보안 벤치마크와 위협 탐지를 제공하는 Python 기반 도구. Uber 실전 배포 사례가 있다는 점에서 에이전트 운영 보안 성숙도 보강에 직접 관련된다.",
+  "fit": "EG AI GROUP OS의 멀티에이전트·자동화 스택은 이미 강하지만, 에이전트 행위 관측, 보안 평가, 위협 탐지 레이어는 명시적으로 약하다. 로컬 우선 운영에서 Claude Code, Paperclip, Hermes, n8n 워커의 에이전트 실행 로그를 감시·평가하는 보안 레이어로 도입 검토 가치가 크다.",
+  "integration": "Paperclip 워커와 Claude Code 실행 결과를 ADR 관측 대상으로 연결하고, 이상 행동·프롬프트 인젝션·도구 오남용 탐지를 n8n 또는 tg-proxy 알림으로 흘리는 방식이 적합하다. 우선 독립 샌드박스에서 벤치마크/탐지 기능만 검증한 뒤, cron 워커와 장기 실행 에이전트에 단계적으로 붙이는 것이 좋다.",
+  "overlaps": "기존 vault sidecar는 비밀 격리, cmux는 세션 관제, n8n은 외부 워크플로 담당이라 ADR과 직접 중복은 작다. 일부 옵저버빌리티는 기존 로그/워치독과 겹칠 수 있으나, AI 에이전트 특화 위협 탐지라 보완재에 가깝다."
+}

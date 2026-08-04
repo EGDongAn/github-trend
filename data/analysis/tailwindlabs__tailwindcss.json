@@ -1,0 +1,15 @@
+{
+  "fullName": "tailwindlabs/tailwindcss",
+  "analyzedAt": "2026-08-04T23:00:32.155Z",
+  "repoMeta": {
+    "stars": 96449,
+    "language": "TypeScript",
+    "description": "A utility-first CSS framework for rapid UI development."
+  },
+  "relevance": "none",
+  "category": "프론트엔드 UI/CSS 프레임워크",
+  "summary": "Tailwind CSS는 유틸리티 기반 CSS 프레임워크로 웹 UI 개발 생산성을 높이는 도구다. EG AI GROUP OS의 핵심 영역인 에이전트 오케스트레이션, 로컬 LLM, 코딩 에이전트 자동화, MCP, 보안 격리, 텔레그램 운영과는 직접 관련이 없다.",
+  "fit": "현재 스택의 운영 자동화나 멀티에이전트 인프라 공백을 메우지 않는다. Vercel/웹 대시보드 등 부수적인 UI를 만들 때는 사용할 수 있지만, 시스템 도입 적합성 기준에서는 핵심 가치와 거리가 멀다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 직접 중복되지는 않지만, 필요한 경우 일반 웹 프론트엔드 구현 도구로만 쓰이는 수준이다. 도입 검토 대상이라기보다 프로젝트별 선택 사항에 가깝다."
+}

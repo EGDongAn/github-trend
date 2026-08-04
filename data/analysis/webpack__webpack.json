@@ -1,0 +1,15 @@
+{
+  "fullName": "webpack/webpack",
+  "analyzedAt": "2026-08-04T23:00:21.313Z",
+  "repoMeta": {
+    "stars": 65922,
+    "language": "JavaScript",
+    "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff."
+  },
+  "relevance": "low",
+  "category": "프론트엔드 빌드 도구 / JavaScript 번들러",
+  "summary": "webpack은 JavaScript/CSS/이미지 등을 번들링하는 성숙한 빌드 도구다. EG AI GROUP OS의 핵심 축인 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리, 자동 운영과는 직접 관련이 낮다.",
+  "fit": "웹 UI나 대시보드 프론트엔드를 직접 운영할 때만 간접적으로 유용하다. 현재 스택의 자동화/에이전트 실행 계층을 보강하지 않으므로 도입 우선순위는 낮다.",
+  "integration": "기존 프론트엔드 프로젝트가 webpack 기반이면 유지 관리 도구로 사용 가능하나, 신규 도입은 Vite/Next.js 등 현재 생태계 대안 대비 별도 이점이 약하다.",
+  "overlaps": "Vercel/Next.js 기반 배포나 기존 프론트엔드 빌드 체인과 일부 중복된다. 핵심 OS 구성요소인 Claude Code, cmux, Paperclip, n8n, Ollama와는 기능 중복도 낮지만 시너지 역시 제한적이다."
+}

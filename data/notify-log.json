@@ -372,5 +372,27 @@
     "stars": 19972,
     "category": "로컬 LLM 추론/서빙",
     "summary": "DeepSeek 4 Flash/PRO를 Metal, CUDA, ROCm에서 로컬 추론하도록 만든 C 기반 엔진으로 보인다. EG AI GROUP OS의 로컬 우선, 비용 절감, Mac mini 기반 추론 강화 방향과 직접 맞는다."
+  },
+  {
+    "date": "2026-08-04",
+    "sentAt": "2026-08-04T23:00:39.437Z",
+    "fullName": "EveryInc/compound-engineering-plugin",
+    "owner": "EveryInc",
+    "name": "compound-engineering-plugin",
+    "url": "https://github.com/EveryInc/compound-engineering-plugin",
+    "stars": 23854,
+    "category": "코딩 에이전트 워크플로/멀티에이전트 플러그인",
+    "summary": "Claude Code, Codex, Cursor 등에서 쓰는 Compound Engineering 공식 플러그인. 브레인스토밍, 계획, 작업 실행, 코드/문서 리뷰, 학습 축적을 위한 37개 스킬과 51개 에이전트를 제공하며, Codex 설치도 공식 지원한다."
+  },
+  {
+    "date": "2026-08-04",
+    "sentAt": "2026-08-04T23:00:39.438Z",
+    "fullName": "uber/ADR",
+    "owner": "uber",
+    "name": "ADR",
+    "url": "https://github.com/uber/ADR",
+    "stars": 662,
+    "category": "AI 에이전트 보안/옵저버빌리티/벤치마킹",
+    "summary": "엔터프라이즈 AI 에이전트의 실행을 관측하고, 보안 벤치마크와 위협 탐지를 제공하는 Python 기반 도구. Uber 실전 배포 사례가 있다는 점에서 에이전트 운영 보안 성숙도 보강에 직접 관련된다."
   }
 ]

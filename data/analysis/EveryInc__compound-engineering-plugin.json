@@ -1,0 +1,15 @@
+{
+  "fullName": "EveryInc/compound-engineering-plugin",
+  "analyzedAt": "2026-08-04T23:00:38.181Z",
+  "repoMeta": {
+    "stars": 23854,
+    "language": "TypeScript",
+    "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트 워크플로/멀티에이전트 플러그인",
+  "summary": "Claude Code, Codex, Cursor 등에서 쓰는 Compound Engineering 공식 플러그인. 브레인스토밍, 계획, 작업 실행, 코드/문서 리뷰, 학습 축적을 위한 37개 스킬과 51개 에이전트를 제공하며, Codex 설치도 공식 지원한다.",
+  "fit": "EG AI GROUP OS의 핵심 실행 엔진인 Claude Code/Codex 워크플로를 직접 보강한다. Paperclip/cmux 자체를 대체하는 오케스트레이터라기보다는, 작업 단위를 요구사항→계획→실행→리뷰→지식화 루프로 표준화해 에이전트 품질과 재사용성을 높이는 계층이다. 로컬 CLI/플러그인 기반이라 로컬 우선 원칙과도 잘 맞는다.",
+  "integration": "Claude Code에는 플러그인으로 설치하고, Codex에는 marketplace 등록 + Bun 기반 agent 설치 + TUI 플러그인 설치가 필요하다. 우선 별도 프로필 또는 테스트 repo에서 /ce-setup, /ce-plan, /ce-work, /ce-code-review, /ce-compound 루프를 검증한 뒤 EG 표준 작업 템플릿으로 편입하는 방식이 적합하다.",
+  "overlaps": "Claude Code 스킬 200+, Paperclip 위임 워커, 기존 code-review/plan 계열 스킬과 일부 중복된다. 다만 장점은 단일 철학과 명령 체계로 계획·리뷰·학습 축적을 묶는 점이므로, 기존 스킬을 전면 대체하기보다 고품질 엔지니어링 작업 루프의 기본 프리셋으로 비교 도입하는 것이 맞다."
+}

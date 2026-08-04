@@ -1,0 +1,15 @@
+{
+  "fullName": "angular/angular",
+  "analyzedAt": "2026-08-04T23:00:30.718Z",
+  "repoMeta": {
+    "stars": 100813,
+    "language": "TypeScript",
+    "description": "Deliver web apps with confidence 🚀"
+  },
+  "relevance": "none",
+  "category": "프론트엔드 웹 프레임워크",
+  "summary": "Angular는 TypeScript 기반 대규모 웹 앱 개발 프레임워크다. EG AI GROUP OS의 로컬 에이전트 운영, 멀티에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리, 자동화 인프라와 직접적 관련이 없다.",
+  "fit": "현재 우선순위와 맞지 않는다. 내부 관리 UI를 새로 Angular로 만들 계획이 있을 때만 간접적으로 검토할 수 있으나, 시스템 핵심 역량을 보강하지 않는다.",
+  "integration": "-",
+  "overlaps": "프론트엔드 UI가 필요하다면 기존 웹 스택이나 Vercel 배포 흐름과 일부 겹칠 수 있지만, Paperclip/cmux/Hermes/Vault/n8n/LLM 운영 계층과는 기능 중복도 대체 관계도 거의 없다."
+}

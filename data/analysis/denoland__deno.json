@@ -1,0 +1,15 @@
+{
+  "fullName": "denoland/deno",
+  "analyzedAt": "2026-08-04T23:00:21.880Z",
+  "repoMeta": {
+    "stars": 108049,
+    "language": "Rust",
+    "description": "A modern runtime for JavaScript and TypeScript."
+  },
+  "relevance": "low",
+  "category": "JavaScript/TypeScript 런타임·개발 플랫폼",
+  "summary": "Deno는 보안 기본값, TypeScript 내장 지원, 단일 바이너리, 표준 툴체인을 제공하는 현대적 JS/TS 런타임이다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, 비밀 격리, 텔레그램 게이트웨이 자체를 직접 보강하지는 않는다.",
+  "fit": "로컬 우선·자가호스팅 관점과는 맞지만, 현재 스택의 명확한 공백을 메우는 도구는 아니다. Node 기반 스크립트보다 권한 모델이 엄격한 자동화 스크립트 런타임으로 쓸 수는 있으나 도입 효과는 제한적이다.",
+  "integration": "Claude Code/codex 훅, cron 작업, 경량 MCP/웹훅 서버, 내부 자동화 스크립트를 Deno로 작성하는 방식이 가능하다. 단, 기존 Node/Python/Bash 자동화가 충분하다면 별도 런타임 추가 비용이 더 클 수 있다.",
+  "overlaps": "Node.js/TypeScript 생태계, Bun, Python/Bash 자동화, n8n 워크플로와 일부 역할이 겹친다. 보안 권한 모델은 장점이지만 vault sidecar나 샌드박싱을 대체하지는 않는다."
+}

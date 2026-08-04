@@ -32,5 +32,7 @@
   "microsoft/agent-governance-toolkit",
   "different-ai/openwork",
   "esengine/DeepSeek-Reasonix",
-  "antirez/ds4"
+  "antirez/ds4",
+  "EveryInc/compound-engineering-plugin",
+  "uber/ADR"
 ]
