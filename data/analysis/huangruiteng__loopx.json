@@ -1,0 +1,15 @@
+{
+  "fullName": "huangruiteng/loopx",
+  "analyzedAt": "2026-08-05T23:00:23.249Z",
+  "repoMeta": {
+    "stars": 2070,
+    "language": "Python",
+    "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs."
+  },
+  "relevance": "high",
+  "category": "에이전트 오케스트레이션 / 장기 실행 상태 커널",
+  "summary": "Codex, Claude Code 등 코딩 에이전트에 독립적인 장기 실행 루프 상태 관리 도구다. durable goals, quota-aware auto-wake, executable todos, evidence logs, verifiable handoffs는 EG AI GROUP OS의 크론 기반 자가 운영, 멀티에이전트 위임, 작업 인수인계 공백을 직접 보강한다.",
+  "fit": "로컬 우선 Python 도구로 보이며, Claude Code와 Codex 양쪽을 대상으로 한다는 점이 현재 스택과 잘 맞는다. Paperclip/cmux가 작업 배정과 세션 관제에 강하다면, loopx는 장기 목표 상태, 재개 조건, 증거 로그, 검증 가능한 handoff 같은 실행 루프의 내구성을 보강하는 역할이다.",
+  "integration": "Paperclip 워커나 Claude Code cron 작업의 래퍼/상태 계층으로 붙여 durable goal과 todo를 기록하게 한다. cmux 세션별 evidence log를 남기고, quota-aware auto-wake를 LaunchAgent/cron과 연결해 장기 작업 재개 정책을 표준화한다. 먼저 단일 repo 자동수정 워크플로에 파일 기반 상태 저장으로 PoC 후, Hermes 알림과 handoff 요약을 연결하는 방식이 적합하다.",
+  "overlaps": "Paperclip의 이슈→에이전트 워커, cmux의 세션 관제, Claude Code의 todo/skills/hooks와 일부 겹친다. 다만 대체재라기보다 장기 실행 상태 커널로서 보완 성격이 강하다. 이미 자체 goal/handoff/evidence 로그가 충분히 구현돼 있다면 중복 위험이 있지만, 설명 기준으로는 기존 스택의 느슨한 부분을 표준화할 가능성이 크다."
+}

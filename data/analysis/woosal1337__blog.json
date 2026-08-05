@@ -1,0 +1,15 @@
+{
+  "fullName": "woosal1337/blog",
+  "analyzedAt": "2026-08-05T23:00:19.055Z",
+  "repoMeta": {
+    "stars": 395,
+    "language": "JavaScript",
+    "description": "My blog website."
+  },
+  "relevance": "none",
+  "category": "개인 블로그/웹사이트",
+  "summary": "JavaScript로 만든 개인 블로그 웹사이트로 보이며, 설명도 \"My blog website\" 수준이라 에이전트 운영, 로컬 LLM, MCP, 보안 격리, 워크플로 자동화와 직접 관련이 없다.",
+  "fit": "EG AI GROUP OS의 핵심 가치나 우선순위와 맞지 않는다. 블로그 소스는 문서/콘텐츠 게시용 참고 정도는 가능하지만 운영 자동화 스택의 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 실질적 기능 중복은 거의 없지만, 도입 가치도 없다. Vercel/GitHub Actions 기반 정적 사이트 배포와 일부 겹칠 수 있으나 시스템 구성요소로 볼 이유는 약하다."
+}

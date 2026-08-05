@@ -1,0 +1,15 @@
+{
+  "fullName": "cloudflare/computer",
+  "analyzedAt": "2026-08-05T23:00:21.236Z",
+  "repoMeta": {
+    "stars": 2768,
+    "language": "TypeScript",
+    "description": "Give your agent a computer 👾"
+  },
+  "relevance": "medium",
+  "category": "에이전트 실행 환경 / 브라우저·컴퓨터 제어 인프라",
+  "summary": "Cloudflare의 에이전트용 원격 컴퓨터/브라우저 실행 환경으로 보인다. AI 에이전트가 격리된 컴퓨터를 받아 웹 탐색, 도구 조작, 자동화 작업을 수행하게 하는 성격이라 EG AI GROUP OS의 에이전트 실행·도구 사용 레이어와 관련 있다.",
+  "fit": "로컬 Claude Code, Paperclip, cmux가 이미 에이전트 실행과 관제를 맡고 있으므로 핵심 공백을 바로 메우는 도구는 아니다. 다만 안전한 원격 브라우저/컴퓨터 세션, 웹 작업 격리, 에이전트별 샌드박스가 필요하다면 보강 후보가 된다. Cloudflare 생태계 의존성이 강하면 로컬 우선 원칙과 충돌할 수 있어 high는 아니다.",
+  "integration": "Paperclip 워커나 Claude Code 작업 중 웹 조작이 필요한 태스크에 원격 컴퓨터 세션을 붙이는 방식으로 검토 가능. Playwright MCP의 대체보다는, 더 강한 격리와 세션형 실행 환경이 필요한 작업에 제한적으로 연결하는 쪽이 적합하다.",
+  "overlaps": "playwright MCP, Claude Code 도구 실행, cmux 세션 관제와 일부 중복된다. 기존 로컬 실행 체계보다 나은 점이 격리성·세션 관리·원격 접근성인지 확인해야 하며, 단순 웹 자동화 목적이면 기존 스택으로 충분할 가능성이 크다."
+}

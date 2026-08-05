@@ -34,5 +34,6 @@
   "esengine/DeepSeek-Reasonix",
   "antirez/ds4",
   "EveryInc/compound-engineering-plugin",
-  "uber/ADR"
+  "uber/ADR",
+  "huangruiteng/loopx"
 ]

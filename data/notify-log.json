@@ -394,5 +394,16 @@
     "stars": 662,
     "category": "AI 에이전트 보안/옵저버빌리티/벤치마킹",
     "summary": "엔터프라이즈 AI 에이전트의 실행을 관측하고, 보안 벤치마크와 위협 탐지를 제공하는 Python 기반 도구. Uber 실전 배포 사례가 있다는 점에서 에이전트 운영 보안 성숙도 보강에 직접 관련된다."
+  },
+  {
+    "date": "2026-08-05",
+    "sentAt": "2026-08-05T23:00:24.529Z",
+    "fullName": "huangruiteng/loopx",
+    "owner": "huangruiteng",
+    "name": "loopx",
+    "url": "https://github.com/huangruiteng/loopx",
+    "stars": 2070,
+    "category": "에이전트 오케스트레이션 / 장기 실행 상태 커널",
+    "summary": "Codex, Claude Code 등 코딩 에이전트에 독립적인 장기 실행 루프 상태 관리 도구다. durable goals, quota-aware auto-wake, executable todos, evidence logs, verifiable handoffs는 EG AI GROUP OS의 크론 기반 자가 운영, 멀티에이전트 위임, 작업 인수인계 공백을 직접 보강한다."
   }
 ]

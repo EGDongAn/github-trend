@@ -1,0 +1,15 @@
+{
+  "fullName": "DataExpert-io/data-engineer-handbook",
+  "analyzedAt": "2026-08-05T23:00:20.516Z",
+  "repoMeta": {
+    "stars": 43093,
+    "language": "Jupyter Notebook",
+    "description": "This is a repo with links to everything you'd ever want to learn about data engineering"
+  },
+  "relevance": "low",
+  "category": "데이터 엔지니어링 학습 자료/커리큘럼",
+  "summary": "데이터 엔지니어링을 배우기 위한 링크와 학습 자료 모음에 가까운 repo다. 실행 가능한 에이전트 오케스트레이션, 로컬 LLM, MCP, 자동화, 보안 격리 기능을 직접 제공하지 않는다.",
+  "fit": "EG AI GROUP OS의 핵심 운영 스택과는 거리가 있다. 장기적으로 로그/이벤트 파이프라인, 분석 DB, 데이터 품질 체계를 설계할 때 참고 자료로는 쓸 수 있지만, 현재 시스템의 명확한 공백을 메우는 도구는 아니다.",
+  "integration": "직접 도입보다는 필요 시 데이터 파이프라인 설계 참고 링크로 북마크하는 수준이 적절하다.",
+  "overlaps": "현재 스택과 기능 중복은 거의 없지만, 도입 가능한 소프트웨어라기보다 학습 리소스라 Paperclip, cmux, n8n, MCP, 로컬 LLM 구성과 직접 결합할 부분이 제한적이다."
+}
