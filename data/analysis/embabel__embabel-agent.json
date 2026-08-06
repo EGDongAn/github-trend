@@ -1,0 +1,15 @@
+{
+  "fullName": "embabel/embabel-agent",
+  "analyzedAt": "2026-08-06T23:00:38.150Z",
+  "repoMeta": {
+    "stars": 3989,
+    "language": "Kotlin",
+    "description": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/"
+  },
+  "relevance": "medium",
+  "category": "에이전트 오케스트레이션/멀티에이전트 프레임워크",
+  "summary": "JVM/Spring 기반 에이전트 플로우 프레임워크. 액션, 목표, 조건, 도메인 모델을 조합해 동적 계획과 재계획을 수행하며 MCP, Ollama, 관측성 연동도 지원한다.",
+  "fit": "로컬 LLM과 MCP를 활용하는 점은 EG AI GROUP OS 방향과 맞다. 다만 현재 핵심 스택이 Claude Code, Paperclip, cmux 중심이고 JVM/Spring 기반 서비스 공백이 명확하지 않다면 즉시 도입보다는 JVM 에이전트 서비스가 필요할 때 검토할 후보에 가깝다.",
+  "integration": "Spring Boot 기반 독립 에이전트 서비스로 띄우고 Ollama/MCP 서버를 연결한다. Paperclip 워커가 특정 JVM 업무를 위임하거나 n8n/텔레그램 게이트웨이에서 HTTP/CLI로 호출하는 방식이 현실적이다.",
+  "overlaps": "Paperclip의 작업 위임, Claude Code의 코딩 에이전트, 기존 MCP 클라이언트 사용과 일부 겹친다. 대체재라기보다 JVM 도메인 로직이 강한 에이전트 앱을 만들 때 보강재로 보는 편이 적절하다."
+}

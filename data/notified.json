@@ -35,5 +35,6 @@
   "antirez/ds4",
   "EveryInc/compound-engineering-plugin",
   "uber/ADR",
-  "huangruiteng/loopx"
+  "huangruiteng/loopx",
+  "goauthentik/authentik"
 ]

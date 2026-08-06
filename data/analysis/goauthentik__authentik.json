@@ -1,0 +1,15 @@
+{
+  "fullName": "goauthentik/authentik",
+  "analyzedAt": "2026-08-06T23:00:23.447Z",
+  "repoMeta": {
+    "stars": 23069,
+    "language": "Python",
+    "description": "The authentication glue you need."
+  },
+  "relevance": "high",
+  "category": "보안/인증/셀프호스팅 IAM",
+  "summary": "authentik은 셀프호스팅 가능한 SSO/IAM 플랫폼으로, 내부 도구와 에이전트 운영면의 인증 게이트웨이 역할을 할 수 있다. EG AI GROUP OS의 보안 격리, 로컬 우선, 여러 서비스 통합 요구와 직접 맞는다.",
+  "fit": "현재 스택은 Vaultwarden 기반 비밀 격리는 있으나, Claude Code, cmux, Paperclip, n8n, Open WebUI, 내부 대시보드류를 묶는 중앙 인증/SSO 계층은 명시되어 있지 않다. authentik은 OIDC/SAML/LDAP/프록시 인증을 통해 이 공백을 메울 가능성이 크다.",
+  "integration": "n8n, Open WebUI, Paperclip, 내부 관리 UI, Vercel/Cloudflare 앞단 등에 OIDC 또는 forward-auth 방식으로 붙여 단일 로그인과 접근 정책을 적용. Mac mini 단독 운영보다는 Docker/리버스 프록시 조합으로 내부망 서비스 보호 계층으로 두는 것이 적합하다.",
+  "overlaps": "Vaultwarden sidecar와는 목적이 다르다. Vaultwarden은 시크릿 저장/격리, authentik은 사용자 인증·인가·SSO다. 다만 기존 서비스별 자체 로그인이나 Cloudflare Access 같은 외부 인증 계층을 이미 쓰고 있다면 일부 중복된다."
+}

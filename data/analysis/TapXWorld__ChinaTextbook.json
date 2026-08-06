@@ -1,0 +1,15 @@
+{
+  "fullName": "TapXWorld/ChinaTextbook",
+  "analyzedAt": "2026-08-06T23:00:20.363Z",
+  "repoMeta": {
+    "stars": 77042,
+    "language": "Roff",
+    "description": "所有小初高、大学PDF教材。"
+  },
+  "relevance": "none",
+  "category": "교육 자료/PDF 교재 아카이브",
+  "summary": "중국 초중고 및 대학 PDF 교재를 모아둔 대형 자료 저장소로 보인다. AI 에이전트 운영, 로컬 LLM 서빙, 개발 자동화, MCP, 보안 격리, 텔레그램 자동화와 직접 관련이 없다.",
+  "fit": "EG AI GROUP OS의 핵심 목표인 로컬 우선 자동화 스택, 멀티에이전트 오케스트레이션, 코딩 에이전트 강화, 셀프호스팅 인프라 개선에 기여하지 않는다. RAG 테스트용 공개 문서 코퍼스로 우회 활용할 여지는 있으나, 도입 목적의 시스템 컴포넌트는 아니다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 기능 중복은 거의 없지만, 이는 보완재라기보다 단순 콘텐츠 저장소라서 도입 대상에서 제외하는 것이 맞다."
+}

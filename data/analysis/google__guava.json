@@ -1,0 +1,15 @@
+{
+  "fullName": "google/guava",
+  "analyzedAt": "2026-08-06T23:00:27.676Z",
+  "repoMeta": {
+    "stars": 51619,
+    "language": "Java",
+    "description": "Google core libraries for Java"
+  },
+  "relevance": "none",
+  "category": "Java 유틸리티 라이브러리",
+  "summary": "Guava는 Java 컬렉션, 캐싱, 문자열 처리, 동시성 보조 기능 등을 제공하는 범용 코어 라이브러리다. EG AI GROUP OS의 로컬 LLM, 에이전트 오케스트레이션, MCP, 텔레그램 게이트웨이, 비밀 격리, 운영 자동화와 직접 관련이 없다.",
+  "fit": "현재 스택이 주로 macOS 로컬 자동화, CLI 에이전트, Python/Node/워크플로 도구 중심이라 Java 범용 라이브러리를 도입할 명확한 이유가 없다. Java 기반 내부 컴포넌트를 새로 만들 때만 간접적으로 검토할 수 있다.",
+  "integration": "-",
+  "overlaps": "기존 스택의 핵심 기능과 직접 중복되지는 않지만, 필요한 공백을 메우지도 않는다. 도입해도 Paperclip, cmux, Claude Code, n8n, Vault, 로컬 LLM 구성에는 실질적 개선이 없다."
+}
