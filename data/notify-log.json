@@ -416,5 +416,38 @@
     "stars": 23069,
     "category": "보안/인증/셀프호스팅 IAM",
     "summary": "authentik은 셀프호스팅 가능한 SSO/IAM 플랫폼으로, 내부 도구와 에이전트 운영면의 인증 게이트웨이 역할을 할 수 있다. EG AI GROUP OS의 보안 격리, 로컬 우선, 여러 서비스 통합 요구와 직접 맞는다."
+  },
+  {
+    "date": "2026-08-07",
+    "sentAt": "2026-08-07T23:00:56.519Z",
+    "fullName": "pranshuparmar/witr",
+    "owner": "pranshuparmar",
+    "name": "witr",
+    "url": "https://github.com/pranshuparmar/witr",
+    "stars": 19706,
+    "category": "로컬 옵저버빌리티 / 프로세스 추적 CLI·TUI",
+    "summary": "프로세스, 포트, 컨테이너, 파일이 무엇에 의해 시작됐는지 역추적하는 Go 기반 로컬 진단 도구다. Mac mini에서 여러 에이전트, LaunchAgent, Docker, cron, MCP 서버가 동시에 도는 EG AI GROUP OS의 운영 가시성 공백에 잘 맞는다."
+  },
+  {
+    "date": "2026-08-07",
+    "sentAt": "2026-08-07T23:00:56.519Z",
+    "fullName": "PrimeIntellect-ai/prime-agent",
+    "owner": "PrimeIntellect-ai",
+    "name": "prime-agent",
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+    "stars": 6378,
+    "category": "코딩 에이전트 / 장기 실행 멀티에이전트 오케스트레이션",
+    "summary": "Prime Agent는 persistent IPython, durable harness state, subagent 호출, 세션 재부착, heartbeat/schedule, autonomous mode를 갖춘 장기 실행 코딩·리서치 에이전트다. EG AI GROUP OS의 핵심 우선순위인 로컬 우선 개발 자동화, 멀티에이전트 운영, 장기 작업 지속성에 직접 맞는다."
+  },
+  {
+    "date": "2026-08-07",
+    "sentAt": "2026-08-07T23:00:56.519Z",
+    "fullName": "semantica-agi/semantica",
+    "owner": "semantica-agi",
+    "name": "semantica",
+    "url": "https://github.com/semantica-agi/semantica",
+    "stars": 2322,
+    "category": "GraphRAG / 에이전트 컨텍스트·감사 인프라",
+    "summary": "AI 에이전트용 컨텍스트 그래프, 지식그래프, provenance, 의사결정 감사 trail, 추론/충돌 탐지를 제공하는 Python 오픈소스 라이브러리다. EG OS의 로컬 우선 RAG, 에이전트 메모리, 근거 추적 공백에 직접 맞는다."
   }
 ]

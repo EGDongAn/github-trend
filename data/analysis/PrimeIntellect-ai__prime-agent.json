@@ -1,0 +1,15 @@
+{
+  "fullName": "PrimeIntellect-ai/prime-agent",
+  "analyzedAt": "2026-08-07T23:00:34.117Z",
+  "repoMeta": {
+    "stars": 6378,
+    "language": "TypeScript",
+    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks."
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트 / 장기 실행 멀티에이전트 오케스트레이션",
+  "summary": "Prime Agent는 persistent IPython, durable harness state, subagent 호출, 세션 재부착, heartbeat/schedule, autonomous mode를 갖춘 장기 실행 코딩·리서치 에이전트다. EG AI GROUP OS의 핵심 우선순위인 로컬 우선 개발 자동화, 멀티에이전트 운영, 장기 작업 지속성에 직접 맞는다.",
+  "fit": "Claude Code/codex 단발 작업과 Paperclip 워커 사이의 공백인 장기 자율 세션, 에이전트 간 통신, self-improving skill/memory 루프를 보강할 수 있다. macOS/Linux 지원, 오픈소스 MIT, 로컬 작업 디렉터리 기반 실행도 스택 방향과 잘 맞는다. 다만 보안 샌드박스는 아니므로 vault sidecar·격리 실행 정책과 함께 써야 한다.",
+  "integration": "1차는 별도 Mac mini sandbox repo에서 prime-agent를 보조 실행 엔진으로 시험한다. Paperclip 이슈 워커 또는 cmux 세션에서 prime-agent를 장기 작업 담당자로 붙이고, Hermes/tg-proxy는 상태 조회·재부착·heartbeat 명령만 전달한다. 검증 항목은 장기 세션 복구, 파일 수정 diff 품질, subagent 병렬 작업, secret 접근 차단, 기존 Claude Code 대비 비용·성공률이다.",
+  "overlaps": "Claude Code/codex와 코딩 에이전트 기능이 크게 겹치고, cmux의 세션 지속성 및 Paperclip의 이슈→워커 흐름과도 일부 중복된다. 차별점은 RLM식 persistent REPL, agent-to-agent communication, self-refine 가능한 harness, daemon-backed long-running autonomy다. 기존 스택을 대체하기보다 Paperclip/cmux 뒤의 실험적 장기 실행 엔진으로 평가하는 것이 적절하다."
+}

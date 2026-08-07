@@ -1,0 +1,15 @@
+{
+  "fullName": "pranshuparmar/witr",
+  "analyzedAt": "2026-08-07T23:00:48.071Z",
+  "repoMeta": {
+    "stars": 19706,
+    "language": "Go",
+    "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI."
+  },
+  "relevance": "high",
+  "category": "로컬 옵저버빌리티 / 프로세스 추적 CLI·TUI",
+  "summary": "프로세스, 포트, 컨테이너, 파일이 무엇에 의해 시작됐는지 역추적하는 Go 기반 로컬 진단 도구다. Mac mini에서 여러 에이전트, LaunchAgent, Docker, cron, MCP 서버가 동시에 도는 EG AI GROUP OS의 운영 가시성 공백에 잘 맞는다.",
+  "fit": "높음. cmux, Claude Code, Paperclip, n8n, Hermes, Ollama처럼 장시간 실행 프로세스가 많은 현재 스택에서 '왜 이게 떠 있나', '누가 포트를 잡았나', '어떤 자동화가 이 파일을 만들었나'를 빠르게 추적하는 운영 디버깅 도구로 가치가 크다. 로컬 우선, 저비용, 셀프호스트 성격과도 맞는다.",
+  "integration": "Mac mini 기본 진단 도구로 설치하고, tg-proxy/Hermes 알림이나 watchdog 장애 리포트에 witr 결과를 첨부하면 좋다. Paperclip 워커나 LaunchAgent 장애 조사 시 포트·프로세스 원인 추적 단계에 넣고, cmux 관제 세션에서 TUI를 상시 진단용으로 사용 가능하다.",
+  "overlaps": "기존 ps/lsof/netstat/docker ps/launchctl 조합과 겹치지만, 수동 명령을 묶어 원인 추적 UX로 제공한다는 점이 업그레이드다. cmux는 관제실이고 witr은 원인 추적 도구라 직접 중복은 작다. 옵저버빌리티 전체를 대체하지는 않고 로컬 런타임 포렌식 보강에 가깝다."
+}

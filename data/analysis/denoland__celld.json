@@ -1,0 +1,15 @@
+{
+  "fullName": "denoland/celld",
+  "analyzedAt": "2026-08-07T23:00:43.306Z",
+  "repoMeta": {
+    "stars": 2177,
+    "language": "Rust",
+    "description": "self-hosted, distributed Durable Objects"
+  },
+  "relevance": "medium",
+  "category": "셀프호스팅 인프라 / 분산 상태 실행 런타임",
+  "summary": "denoland/celld는 Cloudflare Durable Objects와 유사한 상태ful 객체 모델을 셀프호스팅·분산 환경에서 제공하려는 Rust 기반 런타임으로 보인다. 로컬 우선, 셀프호스팅, 에이전트 작업 상태 관리와 맞닿아 있지만, EG AI GROUP OS의 핵심 공백인 에이전트 오케스트레이션 자체를 직접 해결하지는 않는다.",
+  "fit": "Paperclip 워커, Hermes 세션, 장기 실행 에이전트 상태를 객체 단위로 격리해 관리하는 인프라 후보가 될 수 있다. 특히 단일 Mac mini를 넘어 여러 노드로 확장하거나, 에이전트별 durable state와 메시지 라우팅을 표준화하려는 경우 검토 가치가 있다.",
+  "integration": "기존 Paperclip/임베디드 PG 상태 저장을 대체하기보다는, 특정 에이전트 세션이나 워크플로 인스턴스를 durable object로 감싸는 실험부터 적합하다. 우선 Hermes/Paperclip의 job state, lock, heartbeat, lease 관리 같은 작은 상태ful 컴포넌트에 붙여보는 방식이 현실적이다.",
+  "overlaps": "n8n, Paperclip, cmux와 목적이 다르며 직접 중복은 낮다. 다만 현재 단일 Mac 중심 운영에서는 PostgreSQL, Redis류 락/큐, Paperclip 내장 상태 관리로 충분할 수 있어 즉시 도입 명분은 제한적이다. 분산 노드 운영 전까지는 인프라 복잡도 증가가 더 클 수 있다."
+}

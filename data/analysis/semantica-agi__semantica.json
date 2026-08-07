@@ -1,0 +1,15 @@
+{
+  "fullName": "semantica-agi/semantica",
+  "analyzedAt": "2026-08-07T23:00:25.144Z",
+  "repoMeta": {
+    "stars": 2322,
+    "language": "Python",
+    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems"
+  },
+  "relevance": "high",
+  "category": "GraphRAG / 에이전트 컨텍스트·감사 인프라",
+  "summary": "AI 에이전트용 컨텍스트 그래프, 지식그래프, provenance, 의사결정 감사 trail, 추론/충돌 탐지를 제공하는 Python 오픈소스 라이브러리다. EG OS의 로컬 우선 RAG, 에이전트 메모리, 근거 추적 공백에 직접 맞는다.",
+  "fit": "Paperclip/Claude Code/Hermes 작업 결과를 단순 로그나 벡터 검색이 아니라 '누가 어떤 근거로 어떤 결정을 했는지' 추적 가능한 그래프로 남기는 용도에 적합하다. 의료·정책·운영 자동화처럼 출처와 책임성이 중요한 작업에서 가치가 크다.",
+  "integration": "우선 Paperclip 작업/이슈/에이전트 실행 로그를 Semantica 그래프 노드로 적재하는 실험부터 시작. RAG chunk, source, decision, action, reviewer approval을 provenance edge로 연결하고, 기존 PG/파일 로그 위에 보조 accountability layer로 붙이는 방식이 적절하다. Claude Code나 Hermes를 대체하기보다 감사 가능한 메모리/GraphRAG 계층으로 통합한다.",
+  "overlaps": "기존 RAG/임베디드 PG/로그/Google Drive 검색과 일부 중복되지만, 차별점은 그래프 네이티브 provenance와 결정 감사 모델이다. LlamaIndex류 검색 프레임워크 대체재라기보다 Paperclip의 장기 기억·근거 추적을 업그레이드하는 보완재다."
+}

@@ -36,5 +36,8 @@
   "EveryInc/compound-engineering-plugin",
   "uber/ADR",
   "huangruiteng/loopx",
-  "goauthentik/authentik"
+  "goauthentik/authentik",
+  "pranshuparmar/witr",
+  "PrimeIntellect-ai/prime-agent",
+  "semantica-agi/semantica"
 ]

@@ -1,0 +1,15 @@
+{
+  "fullName": "jdx/mise",
+  "analyzedAt": "2026-08-07T23:00:22.015Z",
+  "repoMeta": {
+    "stars": 32057,
+    "language": "Rust",
+    "description": "dev tools, env vars, task runner"
+  },
+  "relevance": "medium",
+  "category": "개발환경/태스크러너/환경변수 관리",
+  "summary": "mise는 여러 언어 런타임과 개발 도구 버전, 프로젝트별 env vars, task runner를 통합 관리하는 Rust 기반 CLI다. 로컬 우선 개발환경 표준화와 반복 작업 실행에는 유용하지만, 에이전트 오케스트레이션이나 로컬 LLM/RAG의 핵심 공백을 직접 메우지는 않는다.",
+  "fit": "EG AI GROUP OS의 Claude Code, Paperclip, cmux 작업 디렉터리별 실행 환경을 재현 가능하게 고정하는 보조 도구로 적합하다. 특히 Node/Python/Rust/Go 버전, .env 로딩, repo별 task alias를 통일하면 크론/LaunchAgent/에이전트 워커 실행 차이를 줄일 수 있다.",
+  "integration": "각 주요 repo에 mise.toml을 두고 tool versions, env, tasks를 선언한다. Claude Code hooks, Paperclip worker, cron/LaunchAgent 스크립트는 직접 npm/python 명령을 호출하기보다 mise run 또는 mise exec 경유로 실행하게 만든다. 기존 asdf/direnv/Makefile/npx 스크립트가 있다면 중복되는 부분만 점진적으로 흡수한다.",
+  "overlaps": "asdf, direnv, Makefile, package.json scripts, shell rc 기반 env 관리와 겹친다. 이미 동작 중인 오케스트레이션 계층을 대체할 도구는 아니며, 도입 가치는 '에이전트 실행 환경 표준화'에 한정된다."
+}

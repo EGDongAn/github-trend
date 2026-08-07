@@ -1,0 +1,15 @@
+{
+  "fullName": "google/skills",
+  "analyzedAt": "2026-08-07T23:00:55.255Z",
+  "repoMeta": {
+    "stars": 16217,
+    "language": "Python",
+    "description": "Agent Skills for Google products and technologies"
+  },
+  "relevance": "medium",
+  "category": "에이전트 스킬/도구 통합",
+  "summary": "Google 제품·기술용 에이전트 스킬 모음으로, Codex/Claude Code류 에이전트가 Google 생태계 작업을 더 구조화해 수행하도록 돕는 자산에 가깝다.",
+  "fit": "Google Drive/MCP/문서·클라우드 관련 자동화가 이미 있는 EG AI GROUP OS에는 보조 스킬팩으로 유용할 수 있다. 다만 핵심 공백인 멀티에이전트 오케스트레이션, 로컬 LLM 추론, 시크릿 격리, 실행 엔진 자체를 대체·업그레이드하는 성격은 약해 high는 아니다.",
+  "integration": "Claude Code/Codex 스킬 체계에 일부 스킬을 선별 이식하거나, Google Drive·Docs·Cloud 작업용 운영 runbook/skill로 변환해 사용. 기존 MCP google-drive와 함께 쓰되, 실제 권한·인증·비밀 처리는 vault sidecar 규칙을 유지해야 한다.",
+  "overlaps": "이미 보유한 google-drive MCP, Claude Code 스킬, n8n 워크플로와 부분 중복된다. repo 전체 도입보다는 Google 제품별 반복 작업 자동화에 필요한 스킬만 선별하는 편이 적합하다."
+}
