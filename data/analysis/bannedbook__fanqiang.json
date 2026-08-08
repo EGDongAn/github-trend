@@ -1,0 +1,15 @@
+{
+  "fullName": "bannedbook/fanqiang",
+  "analyzedAt": "2026-08-08T23:00:21.862Z",
+  "repoMeta": {
+    "stars": 49860,
+    "language": "Kotlin",
+    "description": "翻墙-科学上网"
+  },
+  "relevance": "low",
+  "category": "네트워크 우회/프록시 자료",
+  "summary": "방화벽 우회·과학상网 관련 자료/도구 성격의 repo로 보이며, EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 시크릿 격리와 직접 연결은 약하다.",
+  "fit": "네트워크 제한 환경에서 외부 API나 GitHub 접근을 보조하는 참고자료 정도의 가능성은 있으나, 현재 스택의 명확한 공백을 메우지는 않는다. 보안·법적·운영 리스크 검토 없이는 도입 가치가 낮다.",
+  "integration": "프록시/네트워크 장애 대응 문서에 참고 링크로만 보관하는 수준이 적절하다. 실행 컴포넌트로 편입하거나 자동화 스택에 연결할 우선순위는 낮다.",
+  "overlaps": "n8n, Hermes, Paperclip, Claude Code, MCP 등 핵심 자동화 스택과 기능 중복은 거의 없다. 다만 네트워크 우회 목적은 기존 macOS/VPN/프록시 운영 방식과 일부 겹칠 수 있다."
+}

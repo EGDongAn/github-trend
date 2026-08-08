@@ -1,0 +1,15 @@
+{
+  "fullName": "LadybirdBrowser/ladybird",
+  "analyzedAt": "2026-08-08T23:00:19.557Z",
+  "repoMeta": {
+    "stars": 64971,
+    "language": "C++",
+    "description": "Truly independent web browser"
+  },
+  "relevance": "low",
+  "category": "브라우저/웹 런타임",
+  "summary": "Ladybird는 독립 웹 브라우저 구현체로 기술적으로 흥미롭지만, EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, MCP, 자동화, 시크릿 격리와 직접 연결되는 도구는 아니다.",
+  "fit": "로컬 우선·셀프호스팅 성향과는 일부 맞지만, 운영 자동화 스택의 공백을 메우지 않는다. Playwright/Chrome 기반 검증 워크플로를 대체하기에는 생태계와 자동화 호환성이 불확실하다.",
+  "integration": "브라우저 엔진 독립성 검토나 장기적 보안 격리 실험용으로만 제한적으로 볼 수 있다. 실제 도입보다는 관찰 후보에 가깝다.",
+  "overlaps": "현재 Chrome/Playwright 기반 브라우저 자동화와 기능 영역이 일부 겹치지만, 에이전트 실행·관제·MCP 통합을 강화하는 직접 이점은 약하다."
+}

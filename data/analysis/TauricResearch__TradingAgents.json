@@ -1,0 +1,15 @@
+{
+  "fullName": "TauricResearch/TradingAgents",
+  "analyzedAt": "2026-08-08T23:00:28.380Z",
+  "repoMeta": {
+    "stars": 96445,
+    "language": "Python",
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+  },
+  "relevance": "medium",
+  "category": "멀티에이전트 금융 트레이딩 프레임워크",
+  "summary": "LLM 에이전트 여러 개로 시장 분석, 리서치, 토론, 의사결정을 구성하는 Python 기반 금융 트레이딩 실험 프레임워크다. EG AI GROUP OS의 멀티에이전트 오케스트레이션 관심사와는 맞지만, 핵심 도메인이 금융 트레이딩에 강하게 고정되어 있다.",
+  "fit": "멀티에이전트 역할 분리, 분석 에이전트 간 토론, 의사결정 파이프라인 구조는 Paperclip/cmux 기반 작업 위임 설계에 참고 가치가 있다. 다만 현재 스택의 범용 운영 자동화, 코드 실행, 텔레그램 게이트웨이, 로컬 비밀 격리 공백을 직접 메우는 도구는 아니다.",
+  "integration": "바로 도입보다는 아키텍처 참고 또는 샌드박스 실험 후보. 로컬 LLM/Ollama 연동 가능성, 외부 금융 데이터/API 의존성, 백테스트 재현성, 에이전트 상태 저장 방식을 확인한 뒤 Paperclip의 특정 분석 워커 패턴으로 일부 차용하는 방식이 적절하다.",
+  "overlaps": "Paperclip의 이슈→에이전트 워커, cmux의 멀티세션 관제, Claude Code 기반 에이전트 실행과 일부 철학이 겹친다. TradingAgents는 금융 트레이딩 목적의 도메인 프레임워크라 범용 오케스트레이터 대체재로 보기는 어렵고, 기존 스택을 업그레이드하기보다는 특정 금융 리서치 워크플로 예시로 중복된다."
+}

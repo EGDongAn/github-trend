@@ -1,0 +1,15 @@
+{
+  "fullName": "Comfy-Org/ComfyUI",
+  "analyzedAt": "2026-08-08T23:00:31.345Z",
+  "repoMeta": {
+    "stars": 124891,
+    "language": "Python",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+  },
+  "relevance": "medium",
+  "category": "로컬 생성형 AI 워크플로/모델 실행 백엔드",
+  "summary": "ComfyUI는 diffusion 모델을 로컬에서 노드 그래프로 실행·자동화할 수 있는 Python 기반 GUI/API/백엔드다. 이미지·영상 생성 파이프라인을 로컬 우선으로 운영하거나 에이전트가 생성 작업을 호출하는 용도에는 강하다.",
+  "fit": "EG AI GROUP OS의 핵심인 에이전트 오케스트레이션이나 코딩 자동화 공백을 직접 메우지는 않는다. 다만 로컬 LLM/생성형 AI 실행, 비용 절감, 셀프호스팅 자동화에는 잘 맞아 콘텐츠·마케팅·디자인 생성 파이프라인의 보조 엔진으로 도입 가치가 있다.",
+  "integration": "Mac mini에 로컬 ComfyUI 서버를 띄우고 Hermes/Paperclip/n8n에서 API로 워크플로를 호출하는 방식이 적합하다. 결과물은 로컬 파일/Drive/Telegram으로 전달하고, 모델 파일과 출력 디렉터리는 vault/권한 분리 정책에 맞춰 격리한다.",
+  "overlaps": "Ollama/Open WebUI/mlx-lm과는 텍스트 LLM이 아니라 diffusion 실행 영역이라 직접 중복은 작다. n8n과는 워크플로 자동화 면에서 일부 겹치지만 ComfyUI는 생성 모델 그래프 실행 엔진에 가깝다. 범용 에이전트 관제인 Paperclip/cmux를 대체하지는 못한다."
+}

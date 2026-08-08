@@ -1,0 +1,15 @@
+{
+  "fullName": "litu54/DevOps-Interview-Guide",
+  "analyzedAt": "2026-08-08T23:00:27.677Z",
+  "repoMeta": {
+    "stars": 692,
+    "language": null,
+    "description": "DevOps Interview Guide"
+  },
+  "relevance": "low",
+  "category": "DevOps/SRE 면접 지식 저장소",
+  "summary": "2025~2026년 DevOps, SRE, Cloud 엔지니어 면접 질문을 회사별로 모은 문서형 repo다. Kubernetes, Docker, Terraform, 클라우드, CI/CD, Ansible, Linux, SRE 기본 개념 등이 포함되지만 실행 도구나 자동화 프레임워크는 아니다.",
+  "fit": "EG AI GROUP OS의 운영 자동화, 멀티에이전트 오케스트레이션, 로컬 LLM, MCP, 시크릿 격리 같은 핵심 우선순위와 직접 연결되지 않는다. 다만 내부 DevOps/SRE 체크리스트나 에이전트 평가용 질문 데이터로 일부 참고할 수 있다.",
+  "integration": "Paperclip 또는 로컬 RAG에 문서로 ingest해 인프라/CI/운영 점검 질문 bank로 쓰는 정도가 가능하다. 도입 대상이라기보다 참고 지식 자료로 제한하는 것이 맞다.",
+  "overlaps": "현재 GitHub Actions, Vercel, n8n, LaunchAgent, Docker, MCP 운영 경험과 주제만 일부 겹친다. 기능적 중복은 없지만, 실사용 도구가 아니라 면접 콘텐츠라 스택 업그레이드 효과도 거의 없다."
+}
