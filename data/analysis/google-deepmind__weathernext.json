@@ -1,0 +1,15 @@
+{
+  "fullName": "google-deepmind/weathernext",
+  "analyzedAt": "2026-08-09T23:00:16.282Z",
+  "repoMeta": {
+    "stars": 7056,
+    "language": "Python",
+    "description": null
+  },
+  "relevance": "none",
+  "category": "기상 예측/과학 ML 모델",
+  "summary": "Google DeepMind의 WeatherNext는 기상 예측 벤치마크·모델·데이터 파이프라인 성격의 Python 저장소로 보인다. EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 시크릿 격리, 텔레그램 운영과 직접 연결되는 기능은 없다.",
+  "fit": "기상 데이터 분석이나 예측 서비스를 직접 운영할 계획이 있을 때만 의미가 있다. 현재 프로파일 기준 핵심 운영 자동화 스택에는 필요한 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 실질적 중복은 거의 없지만, 필요한 기능 영역 자체가 다르다. 로컬 LLM/RAG/에이전트 운영 도구가 아니라 도메인 특화 과학 ML 프로젝트라 도입 우선순위에서 제외하는 것이 맞다."
+}

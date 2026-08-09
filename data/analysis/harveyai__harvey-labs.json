@@ -1,0 +1,15 @@
+{
+  "fullName": "harveyai/harvey-labs",
+  "analyzedAt": "2026-08-09T23:00:27.507Z",
+  "repoMeta": {
+    "stars": 803,
+    "language": "Python",
+    "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work."
+  },
+  "relevance": "medium",
+  "category": "에이전트 평가 벤치마크 / 법무 작업 자동화",
+  "summary": "법무 업무용 AI 에이전트의 성능을 현실적인 문서·지시·채점 루브릭 기반으로 평가하는 Python 벤치마크와 실행 harness다. 운영 런타임이나 오케스트레이터라기보다 에이전트 품질 측정 도구에 가깝다.",
+  "fit": "EG AI GROUP OS의 핵심 실행 스택을 직접 대체하지는 않지만, 계약서·문서 검토·법무 리서치형 에이전트의 품질 평가에는 유용하다. 로컬 실행 가능성이 있고 벤치마크/루브릭 구조를 Paperclip 작업자나 Claude Code/Codex 에이전트 평가에 차용할 수 있어 부분 적합하다.",
+  "integration": "Paperclip 워커나 codex/Claude Code 에이전트를 harvey-labs harness에 어댑터로 연결해 법무·계약 검토 태스크 회귀 테스트로 사용. EG 내부 법무/계약/컴플라이언스 작업 샘플을 별도 task set으로 만들어 평가 루브릭만 재사용하는 방식이 적합하다.",
+  "overlaps": "Claude Code 스킬, 기존 MCP/문서 처리 도구, Paperclip 작업 위임과 일부 겹치지만 역할은 다르다. 기존 스택은 실행·위임 중심이고 harvey-labs는 평가·벤치마킹 중심이라 보강 성격이 강하다. 단, 법무 도메인 특화라 범용 EG OS 핵심 구성요소로 보기에는 범위가 좁다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "drawdb-io/drawdb",
+  "analyzedAt": "2026-08-09T23:00:21.852Z",
+  "repoMeta": {
+    "stars": 38616,
+    "language": "JavaScript",
+    "description": "Free, simple, and intuitive online database diagram editor and SQL generator."
+  },
+  "relevance": "low",
+  "category": "DB 다이어그램/SQL 생성 도구",
+  "summary": "drawdb는 데이터베이스 ERD를 그리고 SQL을 생성하는 웹 기반 편집기다. EG AI GROUP OS의 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM, 자동화 실행, 보안 격리와는 직접 관련이 약하다.",
+  "fit": "Paperclip, Hermes, EG Manual 등 내부 DB 스키마를 시각화하거나 신규 테이블 설계 초안 작성에는 쓸 수 있다. 하지만 운영 자동화 스택의 공백을 메우는 도구는 아니다.",
+  "integration": "로컬 또는 내부망에 셀프호스트해 PostgreSQL 스키마 설계/문서화 보조 도구로 사용. 실제 마이그레이션 권한은 주지 않고 설계 산출물만 검토용으로 활용하는 편이 적절하다.",
+  "overlaps": "기존 코드베이스의 DB 마이그레이션, Supabase/PG 스키마, 문서화 워크플로와 일부 중복된다. 자동화·관제·에이전트 실행 기능은 없어 Paperclip/cmux/Claude Code를 대체하지 않는다."
+}
