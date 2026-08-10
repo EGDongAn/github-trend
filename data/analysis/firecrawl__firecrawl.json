@@ -1,0 +1,15 @@
+{
+  "fullName": "firecrawl/firecrawl",
+  "analyzedAt": "2026-08-10T23:00:28.082Z",
+  "repoMeta": {
+    "stars": 165014,
+    "language": "TypeScript",
+    "description": "The context API to search, scrape, and interact with the web at scale. 🔥"
+  },
+  "relevance": "medium",
+  "category": "웹 크롤링/검색 API, RAG 데이터 수집, MCP/에이전트 도구",
+  "summary": "Firecrawl은 웹사이트 검색·스크래핑·크롤링 결과를 LLM/RAG에 쓰기 좋은 형태로 제공하는 TypeScript 기반 도구다. 대규모 웹 컨텍스트 수집에는 강하지만, 핵심은 에이전트 오케스트레이션이 아니라 외부 웹 데이터 파이프라인이다.",
+  "fit": "EG AI GROUP OS의 로컬 우선 RAG·자동화에는 부분적으로 맞는다. Paperclip/Claude Code 에이전트가 웹 근거 수집, 문서화, 경쟁사/정책 모니터링을 할 때 입력 품질을 높일 수 있다. 다만 이미 brave/context7/playwright/n8n이 있어 필수 공백은 아니다.",
+  "integration": "n8n 또는 Paperclip 워커에서 Firecrawl API/MCP를 호출해 URL 크롤링, 검색 결과 수집, 마크다운 변환 후 임베디드 PG/RAG 저장소에 넣는 보조 수집기로 적용. 자체 호스팅 가능 여부와 비용/API 의존도를 먼저 검증해야 한다.",
+  "overlaps": "playwright 기반 직접 브라우징, brave 검색 MCP, n8n 워크플로, 기존 RAG ingestion과 겹친다. 차별점은 일반 브라우저 자동화보다 LLM 친화적 추출·크롤링 API를 빠르게 제공한다는 점이며, 대체보다는 보강 후보에 가깝다."
+}
