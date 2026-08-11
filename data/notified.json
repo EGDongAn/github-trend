@@ -39,5 +39,6 @@
   "goauthentik/authentik",
   "pranshuparmar/witr",
   "PrimeIntellect-ai/prime-agent",
-  "semantica-agi/semantica"
+  "semantica-agi/semantica",
+  "anthropics/skills"
 ]

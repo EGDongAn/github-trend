@@ -1,0 +1,15 @@
+{
+  "fullName": "anthropics/skills",
+  "analyzedAt": "2026-08-11T23:00:37.851Z",
+  "repoMeta": {
+    "stars": 168092,
+    "language": "Python",
+    "description": "Public repository for Agent Skills"
+  },
+  "relevance": "high",
+  "category": "에이전트 스킬/도구 확장 표준",
+  "summary": "Claude/에이전트가 작업별 지침, 스크립트, 리소스를 동적으로 로드하는 Agent Skills 예제·스펙·템플릿 저장소다. EG AI GROUP OS의 Claude Code 스킬 200+ 운영과 직접 맞닿아 있고, 사내 반복 작업을 표준화하는 참고 구현으로 가치가 크다.",
+  "fit": "현재 스택의 명확한 공백이라기보다 기존 Claude Code 스킬 체계를 체계화·업그레이드하는 성격이다. 문서/PDF/XLSX 처리, MCP 생성, 테스트 자동화, 브랜드/업무 워크플로 스킬 패턴을 흡수하면 Paperclip 에이전트 위임과 cmux 운영실의 작업 품질을 안정화할 수 있다.",
+  "integration": "Claude Code 플러그인 마켓플레이스로 등록해 필요한 skill만 선별 설치하고, EG 전용 SKILL.md 템플릿을 만들어 clinic/admin/devops/market-research 작업별 로컬 스킬로 이식한다. 바로 전면 도입보다 spec/template과 우수 예제만 벤치마킹하고, 실행 스크립트가 있는 skill은 vault sidecar·파일 권한·네트워크 접근을 샌드박스 검토 후 허용한다.",
+  "overlaps": "이미 Claude Code 스킬 200+를 보유하므로 단순 설치는 중복이다. 다만 공식 Anthropic 스킬 포맷, 문서 처리 skill, MCP/개발 자동화 예제는 기존 자체 스킬의 품질 기준과 배포 구조를 정리하는 업그레이드 후보다. OpenClaw/Paperclip 자체 오케스트레이션을 대체하지는 않는다."
+}

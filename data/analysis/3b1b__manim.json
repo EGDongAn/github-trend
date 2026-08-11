@@ -1,0 +1,15 @@
+{
+  "fullName": "3b1b/manim",
+  "analyzedAt": "2026-08-11T23:00:28.466Z",
+  "repoMeta": {
+    "stars": 90145,
+    "language": "Python",
+    "description": "Animation engine for explanatory math videos"
+  },
+  "relevance": "none",
+  "category": "수학 애니메이션/영상 제작 엔진",
+  "summary": "수학 개념 설명 영상을 파이썬 코드로 생성하는 애니메이션 엔진이다. 교육 콘텐츠나 시각화 제작에는 강하지만, EG AI GROUP OS의 에이전트 실행, 로컬 LLM, MCP, 보안 격리, 텔레그램 운영 자동화와는 직접 관련이 없다.",
+  "fit": "현재 스택의 핵심 공백을 메우지 않는다. AI 에이전트 오케스트레이션, 개발 자동화, 로컬 추론, 워크플로 운영 도구가 아니라 콘텐츠 렌더링 도구에 가깝다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 직접 중복되지는 않지만, 도입해도 운영 자동화 역량을 강화하지 않는다. 교육/마케팅용 수학 설명 영상 제작이 별도 목표일 때만 부가 도구로 검토할 수 있다."
+}

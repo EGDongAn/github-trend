@@ -1,0 +1,15 @@
+{
+  "fullName": "jaywcjlove/awesome-mac",
+  "analyzedAt": "2026-08-11T23:00:37.849Z",
+  "repoMeta": {
+    "stars": 110444,
+    "language": "Swift",
+    "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use."
+  },
+  "relevance": "low",
+  "category": "macOS 소프트웨어 큐레이션/목록",
+  "summary": "macOS용 고품질 앱을 카테고리별로 정리한 awesome 리스트다. 실행 엔진, 멀티에이전트, 로컬 LLM, MCP, 시크릿 격리 같은 EG AI GROUP OS 핵심 런타임을 직접 제공하지 않는다.",
+  "fit": "Mac mini 기반 로컬 운영 환경에서 보조 유틸리티를 탐색할 때 참고 자료로는 쓸 수 있다. 다만 도입 대상 소프트웨어 자체가 아니라 링크 모음이므로 시스템 공백을 직접 메우지는 못한다.",
+  "integration": "README를 참고해 macOS 운영/생산성/개발 보조 앱 후보를 수동 선별하는 정도가 적절하다.",
+  "overlaps": "현재 스택의 Claude Code, cmux, Hermes, Paperclip, vault sidecar, n8n, Ollama와 직접 기능 중복은 거의 없다. 대신 실제 도구가 아닌 큐레이션 저장소라 운영 스택 구성요소로 보기 어렵다."
+}

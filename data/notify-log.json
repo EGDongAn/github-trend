@@ -449,5 +449,16 @@
     "stars": 2322,
     "category": "GraphRAG / 에이전트 컨텍스트·감사 인프라",
     "summary": "AI 에이전트용 컨텍스트 그래프, 지식그래프, provenance, 의사결정 감사 trail, 추론/충돌 탐지를 제공하는 Python 오픈소스 라이브러리다. EG OS의 로컬 우선 RAG, 에이전트 메모리, 근거 추적 공백에 직접 맞는다."
+  },
+  {
+    "date": "2026-08-11",
+    "sentAt": "2026-08-11T23:00:39.012Z",
+    "fullName": "anthropics/skills",
+    "owner": "anthropics",
+    "name": "skills",
+    "url": "https://github.com/anthropics/skills",
+    "stars": 168092,
+    "category": "에이전트 스킬/도구 확장 표준",
+    "summary": "Claude/에이전트가 작업별 지침, 스크립트, 리소스를 동적으로 로드하는 Agent Skills 예제·스펙·템플릿 저장소다. EG AI GROUP OS의 Claude Code 스킬 200+ 운영과 직접 맞닿아 있고, 사내 반복 작업을 표준화하는 참고 구현으로 가치가 크다."
   }
 ]

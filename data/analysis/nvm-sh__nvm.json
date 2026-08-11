@@ -1,0 +1,15 @@
+{
+  "fullName": "nvm-sh/nvm",
+  "analyzedAt": "2026-08-11T23:00:31.370Z",
+  "repoMeta": {
+    "stars": 94472,
+    "language": "Shell",
+    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions"
+  },
+  "relevance": "medium",
+  "category": "개발환경/런타임 버전 관리",
+  "summary": "Node.js 버전을 프로젝트별로 전환하는 표준적인 로컬 개발 도구다. EG AI GROUP OS 자체의 에이전트 오케스트레이션이나 로컬 LLM 공백을 메우지는 않지만, Hermes, Paperclip, n8n 보조 스크립트, 각종 Node 기반 MCP/프론트엔드 도구의 재현 가능한 실행 환경을 만드는 데 유용하다.",
+  "fit": "로컬 우선, macOS 운영, 비용 절감 방향과는 잘 맞는다. 다만 핵심 자동화 스택을 직접 강화하는 도구라기보다 개발/운영 기반 안정화 도구에 가깝다.",
+  "integration": "Mac mini의 사용자 셸에 설치하고, Node 기반 프로젝트별 `.nvmrc`를 표준화한다. LaunchAgent/cron에서 nvm 로딩이 빠지면 Node 경로 문제가 생길 수 있으므로 비대화형 셸용 초기화 스크립트를 별도로 고정해야 한다.",
+  "overlaps": "이미 pnpm/npm, Vercel, GitHub Actions, 각 프로젝트의 Node 런타임 설정과 일부 겹친다. nvm은 배포 도구 대체가 아니라 로컬 개발·에이전트 실행 환경의 Node 버전 고정 보조 역할이다."
+}
