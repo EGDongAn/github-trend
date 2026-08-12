@@ -1,0 +1,15 @@
+{
+  "fullName": "smicallef/spiderfoot",
+  "analyzedAt": "2026-08-12T23:00:52.710Z",
+  "repoMeta": {
+    "stars": 20329,
+    "language": "Python",
+    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface."
+  },
+  "relevance": "medium",
+  "category": "보안/OSINT·공격표면 관리",
+  "summary": "SpiderFoot는 오픈소스 OSINT 자동화 도구로, 도메인/IP/이메일/사용자명 등을 대상으로 200개 이상 모듈을 돌려 위협 인텔리전스와 노출 자산을 수집한다. 로컬 실행, CLI, 웹 UI, Docker, SQLite, JSON/CSV export가 있어 EG AI GROUP OS의 보안 감시 보강 후보로 적합하다. 단, 핵심 우선순위인 에이전트 오케스트레이션이나 로컬 LLM에는 직접 기여하지 않는다.",
+  "fit": "현재 스택의 명확한 공백인 자체 공격표면/OSINT 정기 점검을 메운다. 로컬 우선·자동화·시크릿 격리 방향과 잘 맞지만, 운영 OS의 중심 엔진이라기보다 보안 서브시스템 성격이다.",
+  "integration": "Mac mini에서 Docker 또는 Python CLI로 내부 전용 실행. n8n/cron/LaunchAgent로 정기 스캔을 돌리고, 결과 JSON/CSV를 Paperclip 이슈나 별도 PG 테이블에 적재한다. API 키는 vault sidecar로 주입하고, 고위험 결과만 tg-proxy/Hermes로 텔레그램 알림한다. SpiderFoot HX 같은 클라우드판은 로컬 우선 원칙상 제외한다.",
+  "overlaps": "n8n/워치독의 외부 감시 역할과 일부 겹치지만, SpiderFoot는 OSINT·위협피드·공격표면 수집에 특화되어 대체보다 보강에 가깝다. Shodan/VirusTotal 등 개별 API 연동과도 겹치나 통합 실행·상관분석 계층을 제공한다. Paperclip/cmux/Claude Code와는 직접 중복이 거의 없다."
+}

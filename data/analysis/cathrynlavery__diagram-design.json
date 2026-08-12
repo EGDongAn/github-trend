@@ -1,0 +1,15 @@
+{
+  "fullName": "cathrynlavery/diagram-design",
+  "analyzedAt": "2026-08-12T23:00:34.160Z",
+  "repoMeta": {
+    "stars": 10124,
+    "language": "HTML",
+    "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
+  },
+  "relevance": "medium",
+  "category": "개발 자동화 / 문서화 보조 도구",
+  "summary": "Claude Code에서 바로 쓸 수 있는 29종 HTML+SVG 편집형 다이어그램 템플릿 모음. Mermaid보다 시각 품질이 높은 산출물을 빠르게 만들려는 목적에 가깝다.",
+  "fit": "EG AI GROUP OS의 핵심 실행/오케스트레이션 공백을 메우지는 않지만, 에이전트 작업 결과를 보고서·ADR·운영 문서·시스템 설계 설명으로 정리할 때 유용하다. 로컬 파일 기반이고 셀프컨테인드라 로컬 우선 원칙에는 잘 맞는다.",
+  "integration": "Claude Code 스킬 또는 템플릿 디렉터리로 가져와서, Paperclip 이슈 결과물·cmux 운영 보고·아키텍처 문서 생성 시 HTML/SVG 다이어그램 산출 포맷으로 사용. 자동화 가치가 있으려면 기존 문서 생성 워크플로에 “다이어그램 템플릿 선택 → 데이터 주입 → SVG/HTML 저장” 단계를 붙이는 방식이 적합하다.",
+  "overlaps": "Mermaid, draw.io, 기존 수동 SVG/HTML 문서화와 일부 중복. 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리 기능은 없으므로 핵심 스택 대체재는 아니다. 다만 Claude Code 친화적 다이어그램 품질 개선 도구로는 보완성이 있다."
+}

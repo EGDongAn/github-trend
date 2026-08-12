@@ -1,0 +1,15 @@
+{
+  "fullName": "infiniflow/ragflow",
+  "analyzedAt": "2026-08-12T23:00:30.662Z",
+  "repoMeta": {
+    "stars": 87521,
+    "language": "Go",
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+  },
+  "relevance": "high",
+  "category": "로컬 LLM 추론/서빙/RAG, 에이전트 컨텍스트 레이어",
+  "summary": "RAGFlow는 오픈소스 RAG 엔진에 에이전트 기능을 결합한 대형 프로젝트로, EG AI GROUP OS의 로컬 우선 RAG/검색/문서 기반 에이전트 자동화 방향과 직접 맞는다. 단순 라이브러리보다 완성형 RAG 플랫폼 성격이 강해 도입 검토 가치가 크다.",
+  "fit": "EG Manual, Paperclip 이슈/작업 컨텍스트, Google Drive/문서 검색, clinic/admin 지식베이스의 검색 정확도와 근거 기반 답변 품질을 강화할 수 있다. 특히 현재 스택의 Claude Code, MCP, Ollama, Open WebUI와 연결하면 로컬 LLM 비용 절감 전략에도 부합한다.",
+  "integration": "우선 별도 Docker/self-hosted RAG 서비스로 띄워 EG Manual 또는 Paperclip의 문서/이슈/메모 데이터를 인덱싱하는 방식이 적합하다. 이후 MCP 서버나 내부 API 어댑터를 붙여 Claude Code, Hermes 텔레그램 게이트웨이, Paperclip worker가 검색 컨텍스트를 호출하게 만들 수 있다. Ollama 연동 가능성과 저장소/벡터DB 의존성은 PoC에서 확인해야 한다.",
+  "overlaps": "기존 RAG/search, Open WebUI, Ollama, Paperclip 컨텍스트 검색과 일부 겹친다. 다만 RAGFlow는 문서 파싱, 검색 파이프라인, RAG 워크플로를 더 통합적으로 제공할 가능성이 있어 단순 중복보다는 EG Manual/문서 RAG 계층의 대체 또는 업그레이드 후보에 가깝다."
+}

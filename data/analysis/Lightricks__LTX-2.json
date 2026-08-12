@@ -1,0 +1,15 @@
+{
+  "fullName": "Lightricks/LTX-2",
+  "analyzedAt": "2026-08-12T23:00:55.543Z",
+  "repoMeta": {
+    "stars": 8689,
+    "language": "Python",
+    "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model."
+  },
+  "relevance": "medium",
+  "category": "로컬 생성형 미디어 추론/LoRA 학습",
+  "summary": "LTX-2 오디오-비디오 생성 모델의 Python 추론 및 LoRA 트레이너. 에이전트 OS의 핵심 오케스트레이션 도구는 아니지만, 로컬 우선 콘텐츠 생성 파이프라인을 만들 때 가치가 있다.",
+  "fit": "EG AI GROUP OS의 비용 절감·로컬 추론 방향과는 일부 맞지만, 주력 영역인 코딩 에이전트, Paperclip/cmux 오케스트레이션, MCP/RAG와는 거리가 있다. 또한 권장 환경이 Linux CUDA/NVIDIA 고VRAM 중심이라 Mac mini 단독 도입성은 낮다.",
+  "integration": "Paperclip 작업 큐에서 영상 생성/LoRA 학습 작업을 생성하고, 별도 CUDA GPU 서버나 클라우드 GPU 워커가 LTX-2를 실행한 뒤 결과물을 Drive/로컬 스토리지/Telegram 알림으로 반환하는 구조가 현실적이다. Hermes를 통해 프롬프트 접수, n8n으로 후처리·업로드 자동화를 붙일 수 있다.",
+  "overlaps": "Ollama/Open WebUI/mlx-lm과는 텍스트 LLM이 아니라 직접 중복은 작다. 다만 기존 이미지·콘텐츠 생성 워크플로와는 일부 겹치며, Mac 로컬 실행보다는 별도 GPU 인프라가 필요해 운영 복잡도가 늘어난다."
+}

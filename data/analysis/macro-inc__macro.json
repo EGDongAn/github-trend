@@ -1,0 +1,15 @@
+{
+  "fullName": "macro-inc/macro",
+  "analyzedAt": "2026-08-12T23:00:31.133Z",
+  "repoMeta": {
+    "stars": 1710,
+    "language": "Rust",
+    "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory."
+  },
+  "relevance": "medium",
+  "category": "통합 협업 워크스페이스 / AI 메모리 / 팀 운영 OS",
+  "summary": "이메일, 채팅, 문서, 작업, 에이전트, 콜, CRM을 하나의 공유 AI 메모리로 묶는 팀 워크스페이스다. EG AI GROUP OS의 에이전트 운영·지식 연결 방향과는 맞지만, 핵심은 로컬 자동화 엔진이 아니라 협업 SaaS형 생산성 허브에 가깝다.",
+  "fit": "Paperclip, Hermes, 문서/RAG, 에이전트 작업 맥락을 하나의 업무 메모리로 연결하려는 관점에서는 참고 가치가 있다. 다만 현재 스택은 로컬 우선·CLI/cron/MCP 중심이라, Macro가 셀프호스팅·로컬 실행·기존 도구 연동을 강하게 지원하지 않으면 직접 도입 매력은 제한적이다.",
+  "integration": "우선 도입보다는 아키텍처 참고 후보. 공유 AI 메모리, @-link 기반 객체 연결, 업무 컨텍스트 통합 방식을 Paperclip/EG Manual/RAG에 차용할 수 있다. 실제 적용 전에는 셀프호스팅 가능 여부, 데이터 저장 위치, API/MCP 연동성, 로컬 에이전트 호출 가능성을 확인해야 한다.",
+  "overlaps": "Paperclip의 작업/에이전트 관리, EG Manual·RAG의 문서 지식화, Hermes의 커뮤니케이션 게이트웨이, Google Workspace/CRM류 도구와 넓게 겹친다. 명확한 차별점은 여러 업무 객체를 공유 AI 메모리로 묶는 통합 UX이지만, 기존 로컬 자동화 스택을 대체하기보다는 상위 협업 레이어 성격이다."
+}

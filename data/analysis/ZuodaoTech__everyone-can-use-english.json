@@ -1,0 +1,15 @@
+{
+  "fullName": "ZuodaoTech/everyone-can-use-english",
+  "analyzedAt": "2026-08-12T23:00:47.814Z",
+  "repoMeta": {
+    "stars": 36051,
+    "language": "TypeScript",
+    "description": "人人都能用英语"
+  },
+  "relevance": "low",
+  "category": "AI 영어 학습/콘텐츠/브라우저 확장·데스크톱 앱",
+  "summary": "AI를 활용한 영어 학습 서비스 Enjoy 및 관련 학습 콘텐츠 저장소다. 웹, 브라우저 확장, 데스크톱 패키지와 전사·문서·미디어 학습 기능이 중심이다.",
+  "fit": "EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 운영 자동화, MCP, 비밀 격리, 작업 위임과는 직접 관련이 약하다. macOS whisper.cpp 지원과 미디어 전사 흐름은 참고 가능하지만 시스템 공백을 메우는 수준은 아니다.",
+  "integration": "직접 도입보다는 로컬 전사/어학 콘텐츠 처리 UI 패턴을 참고하는 정도. 내부 교육 콘텐츠 자동화가 필요할 때 일부 컴포넌트나 UX 아이디어만 검토.",
+  "overlaps": "Open WebUI/Ollama/로컬 LLM, 기존 브라우저·데스크톱 AI 도구와 일부 중복된다. Paperclip, cmux, Hermes, vault sidecar, n8n을 대체하거나 보강하는 기능은 거의 없다."
+}

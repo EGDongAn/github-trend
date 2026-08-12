@@ -1,0 +1,15 @@
+{
+  "fullName": "NVIDIA-NeMo/Switchyard",
+  "analyzedAt": "2026-08-12T23:00:28.392Z",
+  "repoMeta": {
+    "stars": 792,
+    "language": "Rust",
+    "description": null
+  },
+  "relevance": "high",
+  "category": "로컬 LLM 추론/서빙, 에이전트 런타임 라우팅",
+  "summary": "NVIDIA NeMo Switchyard는 여러 LLM 추론 백엔드와 모델을 대상으로 요청 라우팅, 부하 분산, 장애 전환, 정책 기반 스위칭을 제공하는 Rust 기반 인프라로 보인다. EG AI GROUP OS의 로컬 LLM/Ollama/mlx-lm 비용 절감 축과 직접 맞닿는다.",
+  "fit": "로컬·자가호스팅 추론 스택에서 모델/서버를 상황별로 선택하고 장애 시 대체하는 계층이 부족하다면 도입 검토 가치가 크다. 특히 여러 로컬 모델, GPU/CPU 서버, 원격 백업 모델을 섞어 운영할 때 유용하다.",
+  "integration": "Ollama, mlx-lm, Open WebUI 앞단 또는 내부 에이전트 호출부 앞에 라우팅 프록시로 배치한다. Hermes/Paperclip/Claude Code 작업자가 직접 특정 모델을 고르지 않고 Switchyard 엔드포인트를 호출하게 만들고, 정책은 비용·지연·가용성 기준으로 분리한다.",
+  "overlaps": "Ollama/Open WebUI와는 추론 실행·UI가 아니라 라우팅 계층이라 보완 관계다. n8n이나 Paperclip의 워크플로 라우팅과도 목적이 다르다. 다만 이미 단순한 모델 선택만 필요하다면 과한 인프라가 될 수 있다."
+}

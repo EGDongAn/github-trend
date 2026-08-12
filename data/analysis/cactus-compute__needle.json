@@ -1,0 +1,15 @@
+{
+  "fullName": "cactus-compute/needle",
+  "analyzedAt": "2026-08-12T23:00:53.305Z",
+  "repoMeta": {
+    "stars": 4182,
+    "language": "Python",
+    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots."
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 추론/초소형 온디바이스 모델",
+  "summary": "초소형 기기용 14MB foundation model로, Mac mini 중심 OS 자체보다는 모바일·웨어러블·IoT·로봇 쪽 온디바이스 AI 실험에 가깝다.",
+  "fit": "로컬 우선과 비용 절감 방향에는 맞지만, 현재 EG AI GROUP OS의 주 실행 축인 codex/Claude Code, Paperclip, cmux, Hermes를 직접 보강하는 도구는 아니다. 초저전력 엣지 에이전트나 오프라인 센서/기기 자동화 계획이 있을 때 후보가 된다.",
+  "integration": "Mac mini에서는 Ollama/mlx-lm과 별개로 경량 모델 실험용 벤치마크 또는 엣지 디바이스용 추론 모듈로 검토. 실제 도입 전 Python 런타임, 모델 라이선스, 추론 성능, 로컬 API 래핑 가능성을 확인해야 한다.",
+  "overlaps": "Ollama, mlx-lm, Open WebUI와 '로컬 모델' 영역이 겹치지만 목적이 다르다. 기존 스택은 Mac급 로컬 LLM 운영이고, needle은 초소형 디바이스 배포 쪽이라 대체보다는 특수 목적 보완에 가깝다."
+}

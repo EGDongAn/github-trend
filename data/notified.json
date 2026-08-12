@@ -40,5 +40,7 @@
   "pranshuparmar/witr",
   "PrimeIntellect-ai/prime-agent",
   "semantica-agi/semantica",
-  "anthropics/skills"
+  "anthropics/skills",
+  "infiniflow/ragflow",
+  "NVIDIA-NeMo/Switchyard"
 ]

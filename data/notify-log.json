@@ -460,5 +460,27 @@
     "stars": 168092,
     "category": "에이전트 스킬/도구 확장 표준",
     "summary": "Claude/에이전트가 작업별 지침, 스크립트, 리소스를 동적으로 로드하는 Agent Skills 예제·스펙·템플릿 저장소다. EG AI GROUP OS의 Claude Code 스킬 200+ 운영과 직접 맞닿아 있고, 사내 반복 작업을 표준화하는 참고 구현으로 가치가 크다."
+  },
+  {
+    "date": "2026-08-12",
+    "sentAt": "2026-08-12T23:00:56.699Z",
+    "fullName": "infiniflow/ragflow",
+    "owner": "infiniflow",
+    "name": "ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "stars": 87521,
+    "category": "로컬 LLM 추론/서빙/RAG, 에이전트 컨텍스트 레이어",
+    "summary": "RAGFlow는 오픈소스 RAG 엔진에 에이전트 기능을 결합한 대형 프로젝트로, EG AI GROUP OS의 로컬 우선 RAG/검색/문서 기반 에이전트 자동화 방향과 직접 맞는다. 단순 라이브러리보다 완성형 RAG 플랫폼 성격이 강해 도입 검토 가치가 크다."
+  },
+  {
+    "date": "2026-08-12",
+    "sentAt": "2026-08-12T23:00:56.699Z",
+    "fullName": "NVIDIA-NeMo/Switchyard",
+    "owner": "NVIDIA-NeMo",
+    "name": "Switchyard",
+    "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+    "stars": 792,
+    "category": "로컬 LLM 추론/서빙, 에이전트 런타임 라우팅",
+    "summary": "NVIDIA NeMo Switchyard는 여러 LLM 추론 백엔드와 모델을 대상으로 요청 라우팅, 부하 분산, 장애 전환, 정책 기반 스위칭을 제공하는 Rust 기반 인프라로 보인다. EG AI GROUP OS의 로컬 LLM/Ollama/mlx-lm 비용 절감 축과 직접 맞닿는다."
   }
 ]
