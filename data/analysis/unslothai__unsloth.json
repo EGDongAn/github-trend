@@ -1,0 +1,15 @@
+{
+  "fullName": "unslothai/unsloth",
+  "analyzedAt": "2026-08-13T23:00:28.101Z",
+  "repoMeta": {
+    "stars": 71024,
+    "language": "Python",
+    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more."
+  },
+  "relevance": "high",
+  "category": "로컬 LLM 학습/파인튜닝 최적화",
+  "summary": "Unsloth는 로컬 또는 자체 GPU 환경에서 LLM 파인튜닝과 추론 효율을 크게 높이는 Python 기반 도구다. Qwen/Gemma/DeepSeek 계열 등 현재 로컬 LLM 스택과 직접 맞닿는다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감 방향과 강하게 부합한다. Ollama/Open WebUI/mlx-lm이 주로 실행·사용 계층이라면, Unsloth는 사내 업무 데이터 기반 경량 파인튜닝과 모델 최적화 계층을 보강한다.",
+  "integration": "로컬 GPU 또는 클라우드 GPU에서 업무별 LoRA/QLoRA 파인튜닝 파이프라인으로 붙이고, 결과 모델을 Ollama/Open WebUI 또는 에이전트 실행 엔진에서 사용한다. Paperclip/Claude Code 작업 로그, 텔레그램 지시 데이터, 내부 문서 RAG 데이터를 학습 데이터셋으로 정제해 특화 모델을 만들 수 있다.",
+  "overlaps": "Ollama·Open WebUI·mlx-lm과 일부 모델 실행 영역은 겹치지만 핵심은 파인튜닝/최적화라 단순 중복은 아니다. Claude Code나 Paperclip을 대체하지 않고, 로컬 모델 품질과 비용 구조를 개선하는 하위 ML 인프라로 보는 것이 적절하다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "megadose/holehe",
+  "analyzedAt": "2026-08-13T23:00:20.700Z",
+  "repoMeta": {
+    "stars": 12396,
+    "language": "Python",
+    "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function."
+  },
+  "relevance": "low",
+  "category": "OSINT/이메일 계정 존재 확인 도구",
+  "summary": "이메일 주소가 여러 웹서비스에 가입되어 있는지 비밀번호 재설정 흐름 등을 이용해 확인하는 Python CLI 성격의 OSINT 도구다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 시크릿 격리와는 직접 관련이 약하다. 계정 노출 점검이나 보안 감사 보조에는 쓸 수 있지만 운영 자동화 스택의 명확한 공백을 메우지는 않는다.",
+  "integration": "보안 점검용 임시 CLI로만 격리 실행. 내부 이메일/도메인 계정의 서비스 노출 여부를 감사할 때 별도 가상환경과 로그 마스킹을 적용해 수동 실행하는 정도가 적절하다.",
+  "overlaps": "n8n/크론 감시와 결합해 계정 노출 모니터링으로 확장할 수는 있으나, 현재 보유한 에이전트·관제·비밀관리 스택과 기능 중복은 크지 않다. 다만 외부 사이트의 비밀번호 재설정 흐름을 대량 호출하는 방식이라 법적·윤리적 리스크와 차단 리스크가 있다."
+}

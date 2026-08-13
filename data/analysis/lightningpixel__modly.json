@@ -1,0 +1,15 @@
+{
+  "fullName": "lightningpixel/modly",
+  "analyzedAt": "2026-08-13T23:00:35.877Z",
+  "repoMeta": {
+    "stars": 5374,
+    "language": "TypeScript",
+    "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU"
+  },
+  "relevance": "low",
+  "category": "로컬 AI 3D 생성 데스크톱 앱",
+  "summary": "이미지에서 3D mesh/GLB를 생성하는 로컬 GPU 기반 Electron/FastAPI 앱이다. Apple Silicon macOS 지원, 확장 시스템, CLI 자동화 출력은 EG의 로컬 우선 방향과 일부 맞지만, 핵심은 3D 콘텐츠 생성이라 현재 EG AI GROUP OS의 에이전트 오케스트레이션·개발 자동화·MCP·비밀관리 공백을 직접 메우지는 않는다.",
+  "fit": "로컬 GPU 실행, 오픈소스, CLI/JSON 출력, 워크플로/확장 구조는 자동화 파이프라인에 붙일 수 있어 약한 적합성은 있다. 다만 의료/마케팅 3D 에셋 생성 같은 특수 니즈가 있을 때만 의미가 있고, 운영 OS의 기반 컴포넌트로 보기는 어렵다.",
+  "integration": "Hermes/Paperclip 에이전트가 Modly CLI를 호출해 제품 이미지나 교육자료용 3D GLB를 생성하는 보조 워커로 붙일 수 있다. Mac mini GPU 성능과 모델 용량을 먼저 PoC로 확인하고, 산출물은 Drive/Vercel/콘텐츠 파이프라인에 저장하는 방식이 현실적이다.",
+  "overlaps": "Ollama/mlx-lm 같은 로컬 LLM 스택과 방향성만 겹치며 기능 중복은 거의 없다. n8n/Paperclip/cmux를 대체하지 않고, Open WebUI나 Claude Code의 일반 AI 작업 흐름도 대체하지 않는다. 핵심 스택 보강보다는 콘텐츠 생성용 주변 도구다."
+}

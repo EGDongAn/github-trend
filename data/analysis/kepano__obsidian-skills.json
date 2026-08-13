@@ -1,0 +1,15 @@
+{
+  "fullName": "kepano/obsidian-skills",
+  "analyzedAt": "2026-08-13T23:00:27.836Z",
+  "repoMeta": {
+    "stars": 45685,
+    "language": null,
+    "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas."
+  },
+  "relevance": "medium",
+  "category": "에이전트 스킬 / Obsidian 지식관리 자동화",
+  "summary": "Obsidian CLI와 Markdown, Bases, JSON Canvas 같은 열린 파일 포맷을 에이전트가 다루도록 하는 스킬 모음이다. 로컬 우선 지식 저장소와 에이전트 작업 기록/문서화에는 잘 맞지만, 멀티에이전트 오케스트레이션이나 실행 엔진 자체를 업그레이드하는 도구는 아니다.",
+  "fit": "EG AI GROUP OS의 로컬 우선, 오픈 포맷, 에이전트 자동화 방향과는 맞는다. 특히 Obsidian vault를 운영 지식베이스, 작업 로그, 회의/기획 노트, Canvas 기반 구조화 문서로 쓰는 경우 유용하다. 다만 현재 최우선 공백인 Paperclip/cmux 보강, 로컬 LLM 서빙, 보안 격리에는 직접 기여가 약해 high는 아니다.",
+  "integration": "Claude Code 스킬 디렉터리에 필요한 스킬만 선별 이식하고, Obsidian vault를 Markdown 기반 운영 지식 저장소로 연결한다. Paperclip 이슈 처리 결과, cron 리포트, Hermes 지시 요약을 vault에 기록하거나 JSON Canvas로 워크플로 맵을 생성하는 보조 자동화로 쓰는 방식이 적합하다.",
+  "overlaps": "이미 Claude Code 스킬 200+, MCP, 로컬 Markdown 문서 운영이 있다면 상당 부분 중복된다. Obsidian을 핵심 지식 허브로 쓰지 않는다면 단순 스킬 추가에 그칠 가능성이 크다. 도입 가치는 기존 스킬 대체보다 Obsidian 전용 문서/Canvas/Bases 처리 능력 보강에 있다."
+}

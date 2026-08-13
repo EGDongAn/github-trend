@@ -42,5 +42,7 @@
   "semantica-agi/semantica",
   "anthropics/skills",
   "infiniflow/ragflow",
-  "NVIDIA-NeMo/Switchyard"
+  "NVIDIA-NeMo/Switchyard",
+  "unslothai/unsloth",
+  "holaboss-ai/holaOS"
 ]

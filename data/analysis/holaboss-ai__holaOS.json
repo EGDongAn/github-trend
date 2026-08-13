@@ -1,0 +1,15 @@
+{
+  "fullName": "holaboss-ai/holaOS",
+  "analyzedAt": "2026-08-13T23:00:27.999Z",
+  "repoMeta": {
+    "stars": 6553,
+    "language": "TypeScript",
+    "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK."
+  },
+  "relevance": "high",
+  "category": "에이전트 워크스페이스 / 멀티에이전트 오케스트레이션",
+  "summary": "Claude Code와 Codex를 포함한 여러 에이전트를 도구, 앱, 브라우저, 파일, MCP, 공유 메모리 위에서 통합 실행하는 올인원 AI 작업공간이다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 에이전트 오케스트레이션, 코딩 에이전트 워크플로, MCP 통합, 공유 메모리와 직접 맞는다. Paperclip/cmux/Hermes 주변의 작업실·관제·위임 계층을 보강하거나 일부 대체 후보로 검토할 가치가 크다.",
+  "integration": "Mac mini 로컬 환경에 셀프호스팅 가능 여부를 먼저 확인한 뒤, Claude Code/Codex 실행 래퍼, MCP 통합 허브, 공유 메모리 계층으로 붙이는 방식이 적합하다. 초기 적용은 기존 Paperclip을 대체하지 말고 별도 워크스페이스로 띄워 cmux 세션, 파일 접근, 브라우저 자동화, Telegram 명령 흐름과 연결성을 검증하는 것이 좋다.",
+  "overlaps": "cmux의 멀티세션 관제, Paperclip의 에이전트 위임, OpenClaw의 개인 AI 비서, 기존 MCP 도구 묶음과 강하게 겹친다. 도입 판단의 핵심은 기존 스택보다 공유 메모리, 100+ 통합, 브라우저·파일·앱 접근, Claude Code/Codex 동시 운영을 더 단순하고 안정적으로 제공하는지다."
+}

@@ -482,5 +482,27 @@
     "stars": 792,
     "category": "로컬 LLM 추론/서빙, 에이전트 런타임 라우팅",
     "summary": "NVIDIA NeMo Switchyard는 여러 LLM 추론 백엔드와 모델을 대상으로 요청 라우팅, 부하 분산, 장애 전환, 정책 기반 스위칭을 제공하는 Rust 기반 인프라로 보인다. EG AI GROUP OS의 로컬 LLM/Ollama/mlx-lm 비용 절감 축과 직접 맞닿는다."
+  },
+  {
+    "date": "2026-08-13",
+    "sentAt": "2026-08-13T23:00:40.402Z",
+    "fullName": "unslothai/unsloth",
+    "owner": "unslothai",
+    "name": "unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "stars": 71024,
+    "category": "로컬 LLM 학습/파인튜닝 최적화",
+    "summary": "Unsloth는 로컬 또는 자체 GPU 환경에서 LLM 파인튜닝과 추론 효율을 크게 높이는 Python 기반 도구다. Qwen/Gemma/DeepSeek 계열 등 현재 로컬 LLM 스택과 직접 맞닿는다."
+  },
+  {
+    "date": "2026-08-13",
+    "sentAt": "2026-08-13T23:00:40.402Z",
+    "fullName": "holaboss-ai/holaOS",
+    "owner": "holaboss-ai",
+    "name": "holaOS",
+    "url": "https://github.com/holaboss-ai/holaOS",
+    "stars": 6553,
+    "category": "에이전트 워크스페이스 / 멀티에이전트 오케스트레이션",
+    "summary": "Claude Code와 Codex를 포함한 여러 에이전트를 도구, 앱, 브라우저, 파일, MCP, 공유 메모리 위에서 통합 실행하는 올인원 AI 작업공간이다."
   }
 ]
