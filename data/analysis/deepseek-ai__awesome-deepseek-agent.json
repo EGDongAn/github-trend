@@ -1,0 +1,15 @@
+{
+  "fullName": "deepseek-ai/awesome-deepseek-agent",
+  "analyzedAt": "2026-08-14T23:00:33.393Z",
+  "repoMeta": {
+    "stars": 5681,
+    "language": null,
+    "description": null
+  },
+  "relevance": "medium",
+  "category": "AI 에이전트/코딩 에이전트용 DeepSeek 연동 가이드 모음",
+  "summary": "DeepSeek 모델을 Claude Code, Codex, OpenClaw, Cline, OpenCode, LobeHub 등 여러 에이전트/코딩 도구에 붙이는 설치·설정 가이드 저장소다. 자체 실행 엔진이나 오케스트레이터가 아니라 레퍼런스/awesome-list 성격이 강하다.",
+  "fit": "비용 절감과 코딩 에이전트 워크플로 강화에는 부분적으로 맞는다. 특히 기존 Claude Code/Codex/OpenClaw에 DeepSeek API를 붙여 보조 모델로 쓰는 실험 가치가 있다. 다만 로컬 LLM 서빙, 멀티에이전트 운영, 시크릿 격리, 크론 자가운영 공백을 직접 메우지는 못한다.",
+  "integration": "Claude Code/Codex/OpenClaw 항목만 골라 DeepSeek provider 설정을 검토하고, Hermes/Paperclip 워커의 저비용 보조 모델 후보로 파일럿 적용한다. 도입 대상은 repo 자체가 아니라 각 가이드와 그 안의 설정값이다.",
+  "overlaps": "기존 Claude Code, Codex, OpenClaw, Hermes, MCP 스택과 크게 겹친다. 새 플랫폼이라기보다 이미 가진 도구에 DeepSeek를 연결하는 문서 허브이므로 대체재가 아닌 참고 자료다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "rustdesk/rustdesk",
+  "analyzedAt": "2026-08-14T23:00:32.616Z",
+  "repoMeta": {
+    "stars": 120624,
+    "language": "Rust",
+    "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer."
+  },
+  "relevance": "medium",
+  "category": "셀프호스팅 원격접속/운영 인프라",
+  "summary": "RustDesk는 TeamViewer 대안의 오픈소스 원격 데스크톱으로, Mac mini 기반 로컬 운영 스택에 원격 장애 대응·화면 확인·긴급 접속 수단을 제공할 수 있다.",
+  "fit": "로컬 우선·셀프호스팅 가치에는 잘 맞지만, 에이전트 오케스트레이션이나 LLM/코딩 자동화 핵심 공백을 직접 메우지는 않는다. 운영 안정성 보조 도구로는 의미가 있으나 EG AI GROUP OS의 주력 자동화 계층은 아니다.",
+  "integration": "Mac mini에 RustDesk 클라이언트를 설치하고, 별도 VPS 또는 내부 서버에 RustDesk Server를 self-hosting해 중계/ID 서버를 통제한다. cmux, Hermes, Paperclip 장애 시 사람이 원격으로 접속해 상태 확인·재시작·로그 점검하는 운영 백도어로 배치할 수 있다.",
+  "overlaps": "macOS 화면공유, SSH, Tailscale/원격관리 도구와 일부 중복된다. 기존 자동화 스택을 대체하지 않으며, 보안 노출면이 늘기 때문에 Vault/네트워크 ACL/강한 인증 없이는 도입 가치가 낮아진다."
+}

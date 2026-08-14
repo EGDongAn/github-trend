@@ -1,0 +1,15 @@
+{
+  "fullName": "cursor/plugins",
+  "analyzedAt": "2026-08-14T23:00:30.310Z",
+  "repoMeta": {
+    "stars": 2802,
+    "language": "TypeScript",
+    "description": "Cursor plugin specification and official plugins"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 도구 / 플러그인 생태계",
+  "summary": "Cursor의 플러그인 명세와 공식 플러그인 저장소로, 에디터 기반 AI 코딩 워크플로를 확장하는 표준과 예제를 제공한다. EG AI GROUP OS의 핵심 실행 엔진을 직접 대체하진 않지만, 코딩 에이전트 UI·도구 확장 방식 참고에는 가치가 있다.",
+  "fit": "Claude Code/codex 중심 로컬 자동화 스택과 일부 접점이 있다. 특히 플러그인 명세, 도구 호출 UX, 에디터 내 에이전트 확장 구조를 분석하면 내부 개발 자동화나 OpenClaw/Paperclip 연동 아이디어로 활용 가능하다. 다만 Cursor 제품 생태계 의존성이 강해 현재 로컬 우선 운영 OS의 핵심 공백을 바로 메우지는 않는다.",
+  "integration": "Cursor 플러그인 구조를 참고해 내부 에이전트 도구 명세, MCP 래퍼, 코드 편집 워크플로 UX를 벤치마킹한다. 실제 도입은 Cursor를 주 개발 환경으로 쓰는 경우에 한해 제한적으로 검토하고, Claude Code hooks/MCP/Paperclip에 재사용 가능한 패턴만 추출하는 방식이 적절하다.",
+  "overlaps": "Claude Code의 skills/hooks/MCP, codex exec, 기존 IDE·CLI 기반 개발 자동화와 중복된다. Cursor를 운영 표준으로 삼지 않는다면 직접적인 런타임 가치는 낮고, 공식 플러그인 예제와 스펙을 참고 자료로 쓰는 정도가 현실적이다."
+}
