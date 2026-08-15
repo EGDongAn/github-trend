@@ -1,0 +1,15 @@
+{
+  "fullName": "cordiverse/cordis",
+  "analyzedAt": "2026-08-15T23:00:46.282Z",
+  "repoMeta": {
+    "stars": 4036,
+    "language": "TypeScript",
+    "description": "Meta-Framework of Spatiotemporal Composability"
+  },
+  "relevance": "medium",
+  "category": "TypeScript 플러그인/서비스 컨텍스트 메타프레임워크",
+  "summary": "Cordis는 서비스 컨테이너, 의존성 주입, 타입화 이벤트, 되돌릴 수 있는 effect, 플러그인 hot reload/teardown을 제공하는 런타임 조합 프레임워크다. LLM 추론이나 에이전트 실행기는 아니지만, 동적 플러그인 기반 agent harness를 직접 만들 때 기반 라이브러리로 쓸 수 있다.",
+  "fit": "EG AI GROUP OS의 멀티에이전트 운영 자체를 즉시 업그레이드하기보다는, Hermes/Paperclip 주변에 TypeScript 기반 플러그인 런타임이나 도구 레지스트리를 새로 설계할 때 참고 가치가 있다. 현재 공백을 바로 메우는 도구는 아니므로 high는 아님.",
+  "integration": "신규 TS 서비스에서 ctx 기반 플러그인 시스템으로 실험: 도구 등록, LLM adapter, 워커 lifecycle, 이벤트 middleware를 Cordis plugin으로 감싼다. 기존 Paperclip/cmux를 교체하지 말고, 작은 sidecar 또는 internal agent harness POC로 검증한다.",
+  "overlaps": "Claude Code의 hooks/skills/MCP, Paperclip의 작업 위임, n8n 워크플로와 부분 중복된다. Cordis는 완제품 오케스트레이터가 아니라 내부 프레임워크라 운영 UI, 큐, 권한, 관제, 텔레그램 게이트웨이는 별도 구현이 필요하다."
+}

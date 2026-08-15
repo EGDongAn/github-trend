@@ -1,0 +1,15 @@
+{
+  "fullName": "MakazhanAlpamys/Soup",
+  "analyzedAt": "2026-08-15T23:00:33.468Z",
+  "repoMeta": {
+    "stars": 1629,
+    "language": "Python",
+    "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU."
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 파인튜닝/모델 실험 CLI",
+  "summary": "YAML 하나로 SFT, DPO, GRPO 등 LLM 파인튜닝을 설정하고 LoRA/QLoRA, 데이터 준비, 채팅, GGUF/Ollama 내보내기까지 묶는 Python CLI다. 로컬 GPU, Apple Silicon MPS, Docker 실행을 지원하며 로컬 우선·비용 절감 방향과는 잘 맞는다.",
+  "fit": "EG AI GROUP OS의 로컬 LLM 역량을 보강할 수 있다. 특히 진료/상담/운영 문체 데이터로 qwen/gemma 계열을 소규모 LoRA 튜닝하고 Ollama용 GGUF로 내보내는 실험 파이프라인에 적합하다. 다만 핵심 공백인 멀티에이전트 오케스트레이션, 텔레그램 게이트웨이, 비밀 격리, 작업 위임을 직접 해결하지는 않으므로 high는 아니다.",
+  "integration": "Ollama/MLX 실험 보조 도구로 격리 도입. 별도 venv 또는 Docker에서 soup-cli[train]를 설치하고, clinic/ops 데이터셋을 YAML로 관리한 뒤 결과를 GGUF로 export해 Ollama에 등록한다. Paperclip/cron에서는 모델 학습 작업을 배치 잡으로 호출하고, 산출물만 기존 로컬 LLM 서빙 계층에 반영하는 방식이 적절하다.",
+  "overlaps": "Ollama/Open WebUI/MLX와는 추론·서빙이 아니라 파인튜닝 준비 및 export 단계에서 보완 관계다. 기존 Claude Code/codex/Paperclip과는 에이전트 실행 영역이 달라 직접 중복은 작다. Hugging Face transformers, PEFT, TRL, Unsloth 래퍼 성격이므로 이미 수동 파인튜닝 스크립트가 있다면 편의성 업그레이드인지 검증해야 한다."
+}

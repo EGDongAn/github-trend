@@ -1,0 +1,15 @@
+{
+  "fullName": "HKUDS/CLI-Anything",
+  "analyzedAt": "2026-08-15T23:00:34.683Z",
+  "repoMeta": {
+    "stars": 47324,
+    "language": "Python",
+    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트·개발 자동화 / 에이전트용 CLI 생성",
+  "summary": "임의의 소프트웨어 코드베이스를 에이전트가 안정적으로 다룰 수 있는 구조화 CLI와 SKILL.md로 감싸는 도구다. Claude Code, OpenClaw, Codex 스킬 경로를 염두에 두고 있고 JSON 출력, REPL, 테스트, CLI-Hub 설치 생태계를 제공한다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·에이전트 자동화 방향과 강하게 맞는다. 특히 GUI/RPA 의존을 줄이고 기존 앱이나 내부 도구를 Claude Code/codex/Paperclip 워커가 호출 가능한 CLI로 바꾸는 데 직접적 가치가 있다. Paperclip/cmux 자체를 대체하기보다는 작업자들이 쓸 수 있는 도구 표면을 넓히는 보강재에 가깝다.",
+  "integration": "Claude Code 플러그인 또는 Codex/OpenClaw 스킬로 설치해 내부 소프트웨어별 agent-harness를 생성한다. 우선순위는 반복 작업이 많은 로컬 앱, 문서/미디어/업무 도구, 사내 스크립트다. 생성된 CLI는 PATH에 설치하고 Paperclip 워커·cron·cmux 세션에서 JSON 모드로 호출하게 연결하면 된다. Vault sidecar로 자격증명 주입을 제한하고, 각 harness는 실제 앱 E2E 테스트를 통과한 것만 운영에 편입해야 한다.",
+  "overlaps": "Claude Code 스킬, MCP, n8n, Paperclip과 일부 겹치지만 역할이 다르다. MCP가 도구 프로토콜이라면 CLI-Anything은 기존 소프트웨어를 에이전트 친화 CLI로 변환하는 제작 파이프라인이다. OpenClaw와도 중복보다 상호 보강이다. 단, 이미 API/MCP가 잘 갖춰진 서비스에는 과한 래퍼가 될 수 있고, 강한 모델 의존 및 생성 harness 품질 검증 비용이 주요 리스크다."
+}

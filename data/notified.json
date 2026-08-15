@@ -44,5 +44,6 @@
   "infiniflow/ragflow",
   "NVIDIA-NeMo/Switchyard",
   "unslothai/unsloth",
-  "holaboss-ai/holaOS"
+  "holaboss-ai/holaOS",
+  "HKUDS/CLI-Anything"
 ]
