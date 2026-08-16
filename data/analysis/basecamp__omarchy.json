@@ -1,0 +1,15 @@
+{
+  "fullName": "basecamp/omarchy",
+  "analyzedAt": "2026-08-16T23:00:22.932Z",
+  "repoMeta": {
+    "stars": 25344,
+    "language": "Shell",
+    "description": "Beautiful, Modern & Opinionated Linux"
+  },
+  "relevance": "low",
+  "category": "리눅스 데스크톱 배포판/설정 스크립트",
+  "summary": "Omarchy는 Arch 기반의 강한 취향형 Linux 데스크톱 환경/배포판 구성이다. Hyprland, 터미널, 테마, 개발 CLI, 파일 전송, 데스크톱 앱 등을 빠르게 세팅하는 용도에 가깝고, 에이전트 오케스트레이션·로컬 LLM 서빙·MCP·시크릿 격리 자체를 제공하는 도구는 아니다.",
+  "fit": "EG AI GROUP OS의 핵심은 macOS Mac mini 위 로컬 우선 AI 자동화 스택이므로 직접 적합도는 낮다. Linux 워크스테이션이나 별도 실험용 에이전트 노드를 새로 만들 때 개발자 데스크톱 부트스트랩으로는 참고 가치가 있지만, 현재 Claude Code/cmux/Hermes/Paperclip/Vault/n8n/Ollama 구조의 공백을 메우지는 않는다.",
+  "integration": "Linux 보조 노드를 둘 경우에만 Arch 기반 개발 머신 이미지/설정 레퍼런스로 검토. macOS 주 운영 환경에는 직접 통합하지 않고, 필요한 패키지 목록·터미널/tmux/AI CLI lazy install 방식만 선택적으로 차용하는 정도가 적절하다.",
+  "overlaps": "cmux/tmux, Codex/Claude/OpenCode/Gemini/Playwright CLI 설치 보조와 일부 겹치지만 운영 오케스트레이션은 아니다. macOS 로컬 자동화, Telegram gateway, Paperclip 작업 위임, Vault sidecar, n8n 워크플로와는 기능 중복보다 범위 불일치가 크다."
+}
