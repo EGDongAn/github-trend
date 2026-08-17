@@ -1,0 +1,15 @@
+{
+  "fullName": "akitaonrails/ai-memory",
+  "analyzedAt": "2026-08-17T23:00:23.709Z",
+  "repoMeta": {
+    "stars": 2003,
+    "language": "Rust",
+    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+  },
+  "relevance": "medium",
+  "category": "에이전트 메모리/핸드오프 도구",
+  "summary": "코딩 에이전트 CLI 간 장기 메모리와 작업 인수인계를 돕는 Rust 기반 도구로, Claude Code/codex/cmux/Paperclip 같은 멀티에이전트 운영에서 세션 간 맥락 손실을 줄이는 목적은 EG AI GROUP OS와 잘 맞는다.",
+  "fit": "로컬 우선, 에이전트 작업 연속성, 벤더 간 핸드오프라는 방향은 적합하다. 다만 이미 Claude Code 스킬/메모리, Paperclip 이슈 기반 위임, cmux 세션 관제가 있어 핵심 오케스트레이션 공백을 직접 메우기보다는 메모리 레이어 보강 후보에 가깝다.",
+  "integration": "Claude Code/codex 작업 종료 시 요약을 ai-memory에 저장하고, 새 세션 시작 시 repo/이슈별 메모리를 주입하는 방식으로 실험 가능. Paperclip 워커 인수인계 로그나 cmux 세션 요약과 연결하면 벤더 간 handoff 저장소로 쓸 수 있다.",
+  "overlaps": "Claude Code 스킬/메모리, Paperclip의 이슈-워커 기록, 기존 로컬 메모리 파일 운용과 일부 중복된다. 차별점은 코딩 CLI 벤더 간 장기 메모리/핸드오프에 초점을 둔 독립 도구라는 점이며, 대체보다는 보조 레이어로 보는 것이 적절하다."
+}

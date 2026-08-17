@@ -45,5 +45,6 @@
   "NVIDIA-NeMo/Switchyard",
   "unslothai/unsloth",
   "holaboss-ai/holaOS",
-  "HKUDS/CLI-Anything"
+  "HKUDS/CLI-Anything",
+  "jundot/omlx"
 ]

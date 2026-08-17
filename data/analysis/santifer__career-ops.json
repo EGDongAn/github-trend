@@ -1,0 +1,15 @@
+{
+  "fullName": "santifer/career-ops",
+  "analyzedAt": "2026-08-17T23:00:23.268Z",
+  "repoMeta": {
+    "stars": 64579,
+    "language": "JavaScript",
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)"
+  },
+  "relevance": "medium",
+  "category": "코딩 CLI 기반 로컬 자동화 / 에이전트 워크플로",
+  "summary": "구직 포털 스캔, 공고 평가, CV 맞춤화, 지원 현황 추적을 로컬 AI 코딩 CLI에서 실행하는 자동화 도구다. EG AI GROUP OS의 핵심 운영 영역과 직접 일치하지는 않지만, Claude Code/Codex 기반 로컬 실행 패턴과 구조화 평가 파이프라인은 참고 가치가 있다.",
+  "fit": "로컬 우선, 코딩 CLI 실행, 구조화 rubric 평가라는 점은 잘 맞는다. 다만 대상 도메인이 채용/구직이라 현재 스택의 멀티에이전트 관제, 텔레그램 게이트웨이, Paperclip, 시크릿 격리의 명확한 공백을 메우지는 않는다.",
+  "integration": "채용 도구 자체로 도입하기보다, 공고 스캔→rubric 평가→문서 생성→상태 추적 패턴을 EG 업무 후보 평가, 벤더 리서치, GitHub repo 선별 자동화에 차용할 수 있다. Codex/Claude Code에서 실행되는 로컬 workflow 예제로 검토할 만하다.",
+  "overlaps": "Paperclip의 이슈 추적/에이전트 위임, n8n의 외부 워크플로, Claude Code/Codex 자동화와 부분 중복된다. 기능 도입보다는 평가 템플릿, 로컬 CLI UX, 문서 맞춤화 파이프라인만 선별 흡수하는 편이 적합하다."
+}

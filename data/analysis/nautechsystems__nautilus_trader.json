@@ -1,0 +1,15 @@
+{
+  "fullName": "nautechsystems/nautilus_trader",
+  "analyzedAt": "2026-08-17T23:00:23.035Z",
+  "repoMeta": {
+    "stars": 25879,
+    "language": "Rust",
+    "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture"
+  },
+  "relevance": "low",
+  "category": "트레이딩 엔진 / 이벤트 기반 시스템",
+  "summary": "고성능 Rust 기반 알고리즘 트레이딩 엔진이다. 결정론적 이벤트 처리, 백테스트/실거래 구조, 데이터 파이프라인 성격은 강하지만 EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, MCP, 보안 격리 자동화와 직접 연결되는 도구는 아니다.",
+  "fit": "직접 도입 적합성은 낮다. 이벤트 기반 아키텍처나 Rust 성능 설계는 참고할 수 있지만, 현재 스택의 명확한 공백을 메우지는 않는다.",
+  "integration": "트레이딩 자동화나 금융 데이터 실험을 별도 서브시스템으로 만든다면 독립 서비스로 실행하고 n8n/Paperclip에서 작업 트리거를 연결하는 정도가 가능하다. 핵심 OS 구성요소로 통합할 이유는 약하다.",
+  "overlaps": "Paperclip/cmux/Claude Code/Hermes와 기능 중복은 거의 없다. 다만 이벤트 기반 워커 설계나 상태 재현성 개념은 내부 자동화 엔진 설계 참고자료로만 겹친다."
+}

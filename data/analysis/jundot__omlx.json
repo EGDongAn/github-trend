@@ -1,0 +1,15 @@
+{
+  "fullName": "jundot/omlx",
+  "analyzedAt": "2026-08-17T23:00:34.242Z",
+  "repoMeta": {
+    "stars": 18970,
+    "language": "Python",
+    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar"
+  },
+  "relevance": "high",
+  "category": "로컬 LLM 추론/서빙",
+  "summary": "Apple Silicon용 LLM 추론 서버로 continuous batching과 SSD 캐싱을 제공하고 macOS 메뉴바에서 관리되는 도구다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감 방향과 직접 맞는다. Mac mini에서 Ollama/mlx-lm 기반 로컬 추론을 이미 쓰고 있으므로, 동시 요청 처리량 개선이나 큰 모델 운용 시 메모리 압박 완화가 확인되면 명확한 업그레이드 후보다.",
+  "integration": "Mac mini에 보조 로컬 inference endpoint로 설치해 Ollama/mlx-lm과 벤치마크 비교한다. Paperclip, Hermes, Claude Code hooks, n8n에서 호출 가능한 OpenAI 호환 또는 HTTP API 여부를 확인하고, 처리량·첫 토큰 지연·SSD 캐시 효과·장시간 안정성을 기준으로 라우팅 대상을 결정한다.",
+  "overlaps": "Ollama, mlx-lm, Open WebUI와 중복된다. 단순 모델 실행만이면 중복이지만, continuous batching과 SSD caching이 실제 다중 에이전트 동시 호출에서 성능/메모리 이점을 주면 대체가 아니라 고부하 로컬 추론 서버로 보강 가치가 있다."
+}

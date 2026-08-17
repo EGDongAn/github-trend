@@ -1,0 +1,15 @@
+{
+  "fullName": "harry0703/MoneyPrinterTurbo",
+  "analyzedAt": "2026-08-17T23:00:23.066Z",
+  "repoMeta": {
+    "stars": 105917,
+    "language": "Python",
+    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
+  },
+  "relevance": "low",
+  "category": "AI 영상 생성 자동화 / 콘텐츠 워크플로",
+  "summary": "주제나 키워드로 숏폼 영상을 자동 생성하는 Python 기반 AI 워크플로 도구다. 대형 모델, TTS, 자막, 영상 합성 등을 묶어 콘텐츠 제작을 자동화하는 성격이 강하다.",
+  "fit": "EG AI GROUP OS의 핵심인 로컬 우선 에이전트 오케스트레이션, 코딩 자동화, 시크릿 격리, 운영 관제와는 직접 관련이 약하다. 다만 병원/제품 홍보용 숏폼 콘텐츠를 자동 생산하는 부가 워크플로로는 활용 가능성이 있다. 핵심 인프라 업그레이드가 아니라 마케팅 콘텐츠 자동화 도구에 가깝다.",
+  "integration": "n8n 또는 Hermes/Paperclip에서 키워드 기반 영상 생성 작업을 트리거하고, 결과물을 검수 큐나 텔레그램 채널로 보내는 보조 파이프라인으로 붙일 수 있다. 로컬 실행 가능 여부, 외부 API 의존도, 모델/음성/소스 저작권 처리를 별도 검증해야 한다.",
+  "overlaps": "n8n 자동화와 일부 워크플로 기능이 겹치지만 목적은 영상 생성이라 직접 중복은 작다. 기존 로컬 LLM/Ollama와 결합 가능성은 있으나, 핵심 에이전트 실행 엔진이나 Paperclip/cmux를 대체하지는 않는다."
+}
