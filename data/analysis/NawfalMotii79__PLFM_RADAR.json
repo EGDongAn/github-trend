@@ -1,0 +1,15 @@
+{
+  "fullName": "NawfalMotii79/PLFM_RADAR",
+  "analyzedAt": "2026-08-18T23:00:22.258Z",
+  "repoMeta": {
+    "stars": 24279,
+    "language": "PLSQL",
+    "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system"
+  },
+  "relevance": "none",
+  "category": "하드웨어/RADAR 시스템",
+  "summary": "10.5GHz PLFM 위상배열 레이더를 저비용으로 구현하는 오픈소스 하드웨어 프로젝트로 보인다.",
+  "fit": "EG AI GROUP OS의 로컬 AI 실행, 멀티에이전트 오케스트레이션, 코딩 자동화, MCP, 시크릿 격리, 워크플로 자동화와 직접 관련이 없다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 기능 중복도 거의 없으며, 필요한 운영 자동화 영역을 보강하지도 않는다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "superradcompany/microsandbox",
+  "analyzedAt": "2026-08-18T23:00:34.871Z",
+  "repoMeta": {
+    "stars": 7658,
+    "language": "Rust",
+    "description": "🧱 easy fast local-first microVM runtime and library"
+  },
+  "relevance": "high",
+  "category": "보안/격리, 로컬 실행 인프라, 에이전트 샌드박싱",
+  "summary": "microsandbox는 로컬 우선 microVM 런타임/라이브러리로, 에이전트가 코드를 실행하거나 외부 repo를 다룰 때 격리된 실행 환경을 제공하는 데 직접 관련이 있다. Rust 기반이고 로컬 실행을 전제로 하므로 EG AI GROUP OS의 보안 격리, 비용 절감, 자동화 방향과 잘 맞는다.",
+  "fit": "현재 스택의 vault sidecar는 비밀 격리에 가깝고, cmux/Paperclip/Claude Code는 작업 실행·관제 중심이다. microsandbox는 비신뢰 코드 실행, 에이전트별 격리 워커, repo 평가용 일회성 샌드박스 같은 공백을 메울 수 있어 도입 검토 가치가 크다.",
+  "integration": "Paperclip 워커나 Claude Code/codex 실행 전 단계에 microVM sandbox wrapper로 붙여 repo별 작업 디렉터리, 네트워크, 파일시스템, 시크릿 접근을 제한한다. Hermes 텔레그램 지시로 시작된 작업은 cmux 세션 대신 microsandbox 기반 격리 job으로 실행하고, 결과 로그만 tg-proxy/n8n으로 전달하는 구조가 적합하다.",
+  "overlaps": "Docker/n8n, macOS LaunchAgent, cmux 세션 격리와 일부 역할이 겹치지만 보안 경계 수준이 다르다. 기존 도구를 대체하기보다는 비신뢰 코드 실행용 격리 계층으로 보강하는 성격이 강하다."
+}

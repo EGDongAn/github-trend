@@ -1,0 +1,15 @@
+{
+  "fullName": "volcengine/OpenViking",
+  "analyzedAt": "2026-08-18T23:00:31.468Z",
+  "repoMeta": {
+    "stars": 29331,
+    "language": "Python",
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+  },
+  "relevance": "high",
+  "category": "에이전트 컨텍스트 DB / 메모리·RAG·스킬 관리",
+  "summary": "AI 에이전트용 메모리, 지식 RAG, 스킬을 파일시스템형 계층 구조로 통합 관리하는 Python 기반 오픈소스 컨텍스트 데이터베이스다. Claude Code, Codex hooks, OpenClaw, LangChain/LangGraph, MCP류 워크플로와 직접 맞닿아 있어 EG AI GROUP OS의 장기 메모리와 작업 컨텍스트 관리 공백을 메울 가능성이 크다.",
+  "fit": "로컬 우선, 비용 절감, 멀티에이전트 운영, 컨텍스트 재사용이라는 핵심 방향과 잘 맞는다. 특히 Paperclip/cmux/Claude Code가 실행·위임·관제라면 OpenViking은 에이전트들이 공유할 기억·자료·스킬 계층을 제공하는 보강재에 가깝다. 단, AGPLv3 라이선스와 Volcengine 권장 배포/서비스 의존 가능성은 도입 전 확인이 필요하다.",
+  "integration": "우선 별도 self-hosted 서버로 Mac mini에 띄우고 Claude Code/Codex/OpenClaw 메모리 플러그인 형태로 붙이는 파일럿이 적합하다. 기존 memory 폴더, Paperclip 이슈/작업 로그, Hermes 대화 요약, 프로젝트 문서/레포를 viking://resources, user/memories, agent/skills로 매핑해 검색·회상 품질과 토큰 절감 효과를 측정한다.",
+  "overlaps": "기존 gbrain/RAG, Codex memory files, OpenClaw 메모리, Paperclip 작업기억과 일부 중복된다. 하지만 단순 벡터DB가 아니라 관찰 가능한 계층형 컨텍스트 파일시스템을 지향하므로 대체보다는 통합 컨텍스트 레이어로 검토할 가치가 크다."
+}

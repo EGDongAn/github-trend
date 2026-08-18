@@ -1,0 +1,15 @@
+{
+  "fullName": "genlayerlabs/genlayer-project-boilerplate",
+  "analyzedAt": "2026-08-18T23:00:28.463Z",
+  "repoMeta": {
+    "stars": 15900,
+    "language": "TypeScript",
+    "description": null
+  },
+  "relevance": "low",
+  "category": "AI 네이티브 블록체인 / GenLayer DApp 보일러플레이트",
+  "summary": "GenLayer 지능형 컨트랙트 예제, 테스트, 배포 스크립트, Next.js 프론트엔드를 포함한 DApp 템플릿이다. 웹 접근과 LLM 호출을 컨트랙트 로직에 넣는 사례가 핵심이며, EG AI GROUP OS의 로컬 에이전트 운영·오케스트레이션과는 직접 맞지 않는다.",
+  "fit": "로컬 LLM 비용 절감, Claude Code/codex 자동화, Paperclip/cmux 멀티에이전트 운영을 강화하는 도구가 아니다. 블록체인 컨트랙트 개발 학습용으로는 흥미가 있지만 현재 스택의 명확한 공백을 메우지 못한다.",
+  "integration": "당장 도입 대상은 아님. 참고한다면 LLM 호출을 테스트에서 mock 처리하는 패턴, 에이전트 친화적 CLAUDE.md/테스트 루프 구성 정도만 내부 프로젝트 템플릿에 부분 차용할 수 있다.",
+  "overlaps": "Next.js/TypeScript 프론트엔드, GitHub Actions, 테스트 템플릿은 이미 보유 역량과 중복된다. GenLayer Studio/CLI와 블록체인 런타임 의존성이 있어 로컬 우선 운영 OS의 핵심 구성요소로 보기 어렵다."
+}

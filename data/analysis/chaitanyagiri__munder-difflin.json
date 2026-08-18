@@ -1,0 +1,15 @@
+{
+  "fullName": "chaitanyagiri/munder-difflin",
+  "analyzedAt": "2026-08-18T23:00:31.446Z",
+  "repoMeta": {
+    "stars": 1990,
+    "language": "TypeScript",
+    "description": "local multi-agent harness"
+  },
+  "relevance": "high",
+  "category": "에이전트 오케스트레이션/멀티에이전트 harness",
+  "summary": "Claude Code, Codex 등 기존 터미널 코딩 CLI를 로컬 Electron 앱에서 다중 에이전트로 띄우고, 메일박스/메모리/라우터/GOD 오케스트레이터로 협업시키는 도구다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 로컬 우선 멀티에이전트 관제에 직접 부합한다. cmux의 터미널 관제와 Paperclip의 위임 흐름 사이에 있는 ‘실시간 에이전트 팀 운영 UI/라우팅/메모리’ 공백을 보강할 가능성이 크다.",
+  "integration": "Mac mini에 별도 실험 설치 후 Claude Code, Codex, Ollama 기반 로컬 엔진을 붙여 cmux/Paperclip과 병행 검증. 우선은 운영 대체가 아니라 연구용 작업실로 두고, hive 메일박스/메모리 구조가 Paperclip 이슈 워커와 연동 가능한지 확인한다.",
+  "overlaps": "cmux와는 터미널 멀티세션 관제가 겹치고, Paperclip과는 작업 위임/칸반/에이전트 워커 개념이 겹친다. 다만 기존 CLI를 그대로 감싸는 로컬 다중 에이전트 하네스와 시각적 오케스트레이터가 차별점이라 단순 중복은 아니다."
+}

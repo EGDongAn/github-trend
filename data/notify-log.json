@@ -526,5 +526,38 @@
     "stars": 18970,
     "category": "로컬 LLM 추론/서빙",
     "summary": "Apple Silicon용 LLM 추론 서버로 continuous batching과 SSD 캐싱을 제공하고 macOS 메뉴바에서 관리되는 도구다."
+  },
+  {
+    "date": "2026-08-18",
+    "sentAt": "2026-08-18T23:00:36.139Z",
+    "fullName": "volcengine/OpenViking",
+    "owner": "volcengine",
+    "name": "OpenViking",
+    "url": "https://github.com/volcengine/OpenViking",
+    "stars": 29331,
+    "category": "에이전트 컨텍스트 DB / 메모리·RAG·스킬 관리",
+    "summary": "AI 에이전트용 메모리, 지식 RAG, 스킬을 파일시스템형 계층 구조로 통합 관리하는 Python 기반 오픈소스 컨텍스트 데이터베이스다. Claude Code, Codex hooks, OpenClaw, LangChain/LangGraph, MCP류 워크플로와 직접 맞닿아 있어 EG AI GROUP OS의 장기 메모리와 작업 컨텍스트 관리 공백을 메울 가능성이 크다."
+  },
+  {
+    "date": "2026-08-18",
+    "sentAt": "2026-08-18T23:00:36.139Z",
+    "fullName": "superradcompany/microsandbox",
+    "owner": "superradcompany",
+    "name": "microsandbox",
+    "url": "https://github.com/superradcompany/microsandbox",
+    "stars": 7658,
+    "category": "보안/격리, 로컬 실행 인프라, 에이전트 샌드박싱",
+    "summary": "microsandbox는 로컬 우선 microVM 런타임/라이브러리로, 에이전트가 코드를 실행하거나 외부 repo를 다룰 때 격리된 실행 환경을 제공하는 데 직접 관련이 있다. Rust 기반이고 로컬 실행을 전제로 하므로 EG AI GROUP OS의 보안 격리, 비용 절감, 자동화 방향과 잘 맞는다."
+  },
+  {
+    "date": "2026-08-18",
+    "sentAt": "2026-08-18T23:00:36.139Z",
+    "fullName": "chaitanyagiri/munder-difflin",
+    "owner": "chaitanyagiri",
+    "name": "munder-difflin",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "stars": 1990,
+    "category": "에이전트 오케스트레이션/멀티에이전트 harness",
+    "summary": "Claude Code, Codex 등 기존 터미널 코딩 CLI를 로컬 Electron 앱에서 다중 에이전트로 띄우고, 메일박스/메모리/라우터/GOD 오케스트레이터로 협업시키는 도구다."
   }
 ]
