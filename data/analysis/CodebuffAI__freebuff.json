@@ -1,0 +1,15 @@
+{
+  "fullName": "CodebuffAI/freebuff",
+  "analyzedAt": "2026-08-19T23:00:20.344Z",
+  "repoMeta": {
+    "stars": 10088,
+    "language": "TypeScript",
+    "description": "The free coding agent"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 / 개발 자동화",
+  "summary": "TypeScript 기반의 무료 코딩 에이전트로, 코드베이스를 읽고 수정하는 개발 자동화 영역에 해당한다. EG AI GROUP OS의 Claude Code/codex 실행 흐름과 직접 인접하지만, 설명만으로는 멀티에이전트 오케스트레이션, 로컬 LLM 우선, 보안 격리, 텔레그램/크론 운영 같은 핵심 공백을 메운다고 보기는 어렵다.",
+  "fit": "Claude Code/codex 워크플로의 보조 또는 대체 후보로는 검토 가치가 있다. stars가 높아 생태계 신호는 강하지만, 현재 스택에 이미 강한 코딩 에이전트 실행 엔진이 있으므로 ‘명확한 업그레이드’가 확인되기 전까지 high는 아니다.",
+  "integration": "Claude Code와 병행해 특정 repo 자동 수정/리뷰 작업에 샌드박스 테스트로 붙여보고, Paperclip 워커가 호출 가능한 CLI/API 형태가 있는지 확인한다. 로컬 실행 가능성, 모델 선택 자유도, 비용 구조, 권한 격리, hooks/MCP 연동 여부를 우선 검증한다.",
+  "overlaps": "Claude Code, codex exec, OpenClaw OSS와 강하게 중복된다. Paperclip의 에이전트 워커 역할과도 일부 겹칠 수 있다. 도입하려면 기존 도구보다 더 나은 코드 수정 품질, 비용 절감, 로컬 모델 지원, 또는 자동화 인터페이스가 있어야 한다."
+}
