@@ -1,0 +1,15 @@
+{
+  "fullName": "agent-substrate/substrate",
+  "analyzedAt": "2026-08-20T23:00:34.103Z",
+  "repoMeta": {
+    "stars": 1378,
+    "language": "Go",
+    "description": "Agent Substrate: the core system"
+  },
+  "relevance": "medium",
+  "category": "에이전트 오케스트레이션/샌드박스 런타임",
+  "summary": "Kubernetes 위에서 상태ful agent actor를 적은 worker pod에 다중화하고 suspend/resume, 상태 스냅샷, 라우팅을 제공하는 agent 실행 인프라. Claude Code/CodeX 같은 코딩 에이전트 세션을 고밀도로 운영하는 방향과 맞지만, 아직 매우 초기 단계이고 Kubernetes/gVisor 기반이라 Mac mini 로컬 우선 스택에 바로 얹기에는 무겁다.",
+  "fit": "Paperclip/cmux가 작업 위임과 세션 관제 중심이라면, Substrate는 실제 에이전트 실행 환경을 pod 단위로 격리·복원·다중화하는 하위 런타임 후보다. 다수의 장기 실행 코딩 에이전트를 로컬 단일 머신을 넘어 k3s/k8s 클러스터로 확장하려는 경우 가치가 있다. 단, 현재 1인 운영 Mac mini 중심에서는 운영 복잡도와 미성숙도가 커서 즉시 도입보다는 실험 후보에 가깝다.",
+  "integration": "PoC로 k3s 또는 별도 테스트 Kubernetes 클러스터에 설치해 Claude Code/CodeX worker 컨테이너를 actor로 감싸고, Paperclip worker 실행 백엔드를 Substrate actor 생성/라우팅으로 대체 가능한지 검증한다. 성공 기준은 세션 상태 보존, 파일시스템 격리, 재개 지연, 동시 agent 수 대비 리소스 절감, Vault sidecar/시크릿 주입 방식 호환성이다.",
+  "overlaps": "cmux의 세션 유지/관제, Paperclip의 이슈→워커 실행, vault sidecar의 격리 운영과 일부 겹친다. 다만 Substrate는 칸반이나 텔레그램 게이트웨이가 아니라 Kubernetes 기반 agent sandbox 스케줄러이므로 직접 대체재라기보다 Paperclip 하위 실행 계층 후보다."
+}

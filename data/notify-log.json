@@ -559,5 +559,16 @@
     "stars": 1990,
     "category": "에이전트 오케스트레이션/멀티에이전트 harness",
     "summary": "Claude Code, Codex 등 기존 터미널 코딩 CLI를 로컬 Electron 앱에서 다중 에이전트로 띄우고, 메일박스/메모리/라우터/GOD 오케스트레이터로 협업시키는 도구다."
+  },
+  {
+    "date": "2026-08-20",
+    "sentAt": "2026-08-20T23:00:41.499Z",
+    "fullName": "Tencent/AI-Infra-Guard",
+    "owner": "Tencent",
+    "name": "AI-Infra-Guard",
+    "url": "https://github.com/Tencent/AI-Infra-Guard",
+    "stars": 4923,
+    "category": "AI 보안/레드팀·MCP/스킬/인프라 스캐너",
+    "summary": "AI 에이전트, MCP 서버, Agent Skills, Ollama/n8n/vLLM류 AI 인프라, LLM jailbreak를 한 번에 점검하는 풀스택 AI 레드팀 플랫폼이다. EG AI GROUP OS의 핵심 구성요소인 Claude Code skills, MCP, Ollama, n8n, OpenClaw/Paperclip 계열 보안 점검과 직접 맞닿는다."
   }
 ]

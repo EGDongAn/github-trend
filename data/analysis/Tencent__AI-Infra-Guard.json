@@ -1,0 +1,15 @@
+{
+  "fullName": "Tencent/AI-Infra-Guard",
+  "analyzedAt": "2026-08-20T23:00:40.333Z",
+  "repoMeta": {
+    "stars": 4923,
+    "language": "Python",
+    "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation."
+  },
+  "relevance": "high",
+  "category": "AI 보안/레드팀·MCP/스킬/인프라 스캐너",
+  "summary": "AI 에이전트, MCP 서버, Agent Skills, Ollama/n8n/vLLM류 AI 인프라, LLM jailbreak를 한 번에 점검하는 풀스택 AI 레드팀 플랫폼이다. EG AI GROUP OS의 핵심 구성요소인 Claude Code skills, MCP, Ollama, n8n, OpenClaw/Paperclip 계열 보안 점검과 직접 맞닿는다.",
+  "fit": "명확한 공백 보완. 현재 스택은 자동화·오케스트레이션은 강하지만, 에이전트 스킬/MCP/로컬 AI 인프라를 정기적으로 레드팀 관점에서 스캔하는 전용 보안 계층은 약하다. self-host/Docker 가능, Apache-2.0, 로컬 우선 운영과도 잘 맞는다.",
+  "integration": "Mac mini 내부망 보안 점검 서비스로 Docker 배포 후, Ollama/Open WebUI/n8n/MCP 서버/Claude skills/Paperclip 워커 대상 정기 스캔을 cron 또는 n8n에서 실행. 결과는 Hermes/tg-proxy로 텔레그램 알림, Paperclip 이슈로 자동 등록. 우선은 읽기 전용 진단 도구로 붙이고, 이후 CI에서 skill-scan/mcp-scan을 pre-merge 검사로 확장한다.",
+  "overlaps": "vault sidecar와는 역할이 다르고, n8n/cron과는 실행 자동화만 겹친다. Paperclip/cmux/Claude Code를 대체하기보다 보안 검증 계층으로 보강한다. Codex Security류와 일부 겹칠 수 있으나, MCP·Agent Skills·Ollama/n8n 등 EG 로컬 AI 스택 특화 스캔 범위가 차별점이다."
+}

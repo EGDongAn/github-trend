@@ -1,0 +1,15 @@
+{
+  "fullName": "AprilNEA/OpenLogi",
+  "analyzedAt": "2026-08-20T23:00:20.934Z",
+  "repoMeta": {
+    "stars": 11789,
+    "language": "Rust",
+    "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry."
+  },
+  "relevance": "low",
+  "category": "로컬 macOS 유틸리티 / 입력장치 제어",
+  "summary": "Logitech Options+를 대체하는 Rust 기반 로컬 우선 HID++ 설정 도구다. 계정과 텔레메트리 없이 버튼 매핑, DPI, SmartShift 제어를 제공한다.",
+  "fit": "로컬 우선과 무텔레메트리 방향은 맞지만, EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, 개발 자동화, MCP, 시크릿 격리와 직접 관련은 약하다. Mac mini 운영 환경에서 Logitech 장비를 쓰는 경우 작업환경 품질 개선 정도의 부가 가치가 있다.",
+  "integration": "Logitech Options+를 쓰고 있다면 대체 유틸리티로 시험 설치해 입력장치 설정을 로컬화할 수 있다. AI 자동화 스택 내부 컴포넌트로 통합할 필요는 낮다.",
+  "overlaps": "OpenClaw, Paperclip, cmux, Hermes, vault, n8n과 기능 중복은 거의 없다. 다만 macOS 로컬 운영 편의 도구일 뿐 시스템 자동화 계층과는 겹치지 않는다."
+}

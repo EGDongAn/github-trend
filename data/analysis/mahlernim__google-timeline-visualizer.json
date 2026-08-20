@@ -1,0 +1,15 @@
+{
+  "fullName": "mahlernim/google-timeline-visualizer",
+  "analyzedAt": "2026-08-20T23:00:22.487Z",
+  "repoMeta": {
+    "stars": 1499,
+    "language": "Kotlin",
+    "description": "Visualize your year in travel using your Google Location History (Timeline) data"
+  },
+  "relevance": "none",
+  "category": "개인 위치 데이터 시각화 / 여행 회고 도구",
+  "summary": "Google Location History(Timeline) 데이터를 가져와 연간 이동·여행 기록을 시각화하는 Kotlin 기반 앱으로 보인다. 에이전트 실행, 멀티에이전트 관제, 로컬 LLM, MCP, 비밀 격리, 자동화 운영과 직접 관련이 없다.",
+  "fit": "EG AI GROUP OS의 핵심 가치인 로컬 우선 자동화 스택에는 맞지만, 목적이 개인 위치 데이터 시각화라 운영 AI 그룹의 공백을 메우지 않는다. 현재 우선순위 영역인 오케스트레이션, 개발 자동화, RAG/서빙, MCP, 보안과 연결성이 약하다.",
+  "integration": "-",
+  "overlaps": "직접 중복 도구는 없지만, 기능 자체가 현재 스택의 운영 자동화 목적과 겹치지 않는다. Google Timeline 데이터를 개인 분석용으로 쓰는 별도 니즈가 있을 때만 독립 도구로 검토할 수 있다."
+}

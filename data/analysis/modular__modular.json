@@ -1,0 +1,15 @@
+{
+  "fullName": "modular/modular",
+  "analyzedAt": "2026-08-20T23:00:27.523Z",
+  "repoMeta": {
+    "stars": 27892,
+    "language": "Mojo",
+    "description": "The Modular Platform (includes MAX & Mojo)"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 추론/서빙 및 AI 컴파일러 플랫폼",
+  "summary": "MAX와 Mojo 중심의 AI 추론·컴파일·커널 개발 플랫폼이다. 로컬 우선/비용 절감 방향과 맞고, 특히 고성능 LLM 서빙이나 커스텀 연산 최적화에는 잠재력이 크다. 다만 EG AI GROUP OS의 즉시 공백인 에이전트 오케스트레이션, 텔레그램 게이트웨이, 작업 위임, 시크릿 격리와는 직접 관련이 약하다.",
+  "fit": "로컬 LLM 성능 최적화 후보로는 적합하다. Ollama, mlx-lm, Open WebUI 기반 로컬 추론을 이미 갖춘 상태라서 즉시 대체재라기보다 특정 모델/워크로드에서 성능·배포 이점이 검증될 때 도입할 후보에 가깝다.",
+  "integration": "Mac mini에서 MAX 로컬 추론 벤치마크를 Ollama/mlx-lm과 비교하고, 유의미한 성능 또는 비용 이점이 있을 때 Open WebUI나 내부 에이전트 실행 경로의 별도 inference backend로 붙인다. Mojo는 성능 병목이 있는 로컬 도구나 RAG 전처리 커널 최적화에 제한적으로 검토한다.",
+  "overlaps": "Ollama, mlx-lm, Open WebUI와 로컬 LLM 실행 영역이 겹친다. Claude Code, cmux, Paperclip 같은 오케스트레이션 계층과는 거의 겹치지 않는다. 현재 스택을 대체하기보다는 추론 성능 계층의 선택지를 늘리는 성격이다."
+}
