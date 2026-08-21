@@ -1,0 +1,15 @@
+{
+  "fullName": "ruvnet/ruflo",
+  "analyzedAt": "2026-08-21T23:00:29.934Z",
+  "repoMeta": {
+    "stars": 68626,
+    "language": "TypeScript",
+    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
+  },
+  "relevance": "high",
+  "category": "에이전트 오케스트레이션 / 멀티에이전트 메타 하네스",
+  "summary": "EG AI GROUP OS의 최우선 영역인 Claude Code/Codex 기반 멀티에이전트 조율, swarm, 메모리, RAG, MCP, Hermes 연동을 직접 겨냥한다. 설명상 현재 스택의 cmux/Paperclip/Hermes/Claude Code를 대체하기보다 상위 조율 계층으로 묶는 후보에 가깝다.",
+  "fit": "매우 높음. 로컬 우선 TypeScript/npx 기반으로 Mac mini 운영에 맞고, Claude Code/Codex/Hermes 네이티브 통합을 주장하므로 기존 운영 방식과 접점이 크다. adaptive memory, self-learning, RAG, MCP 도구가 실제로 안정적이면 Paperclip의 작업 위임과 cmux 관제를 보강할 수 있다.",
+  "integration": "소규모 샌드박스 repo에서 npx 기반으로 설치해 Claude Code MCP 서버로 붙이고, 기존 Hermes 지시 → Paperclip 이슈 생성 → 에이전트 실행 흐름 중 에이전트 spawn/routing/memory 계층만 실험한다. 우선 검증 항목은 실제 MCP 도구 구현률, 로컬 저장소/비밀 처리 방식, Hermes 연동 실체, 장기 실행 안정성, 기존 Paperclip worker와의 역할 충돌이다.",
+  "overlaps": "Claude Code hooks/skills/MCP, cmux 멀티세션 관제, Paperclip 이슈→워커 위임, Hermes 텔레그램 게이트웨이, 기존 RAG/로컬 LLM 스택과 많이 겹친다. 단순 추가 도구가 아니라 중복이 큰 오케스트레이션 계층이므로, 도입 시 기존 컨트롤 플레인을 대체할지 보강할지 명확히 나눠야 한다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "apache/maka",
+  "analyzedAt": "2026-08-21T23:00:23.916Z",
+  "repoMeta": {
+    "stars": 2000,
+    "language": "TypeScript",
+    "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log."
+  },
+  "relevance": "high",
+  "category": "에이전트 워크스페이스 / 로컬 우선 실행 로그 / 개발 자동화",
+  "summary": "로컬 우선 AI 에이전트 작업공간이며, 모델 메시지·툴 호출·결과·권한 결정·종료 이벤트를 append-only 로그로 남기는 구조가 EG AI GROUP OS의 핵심 가치와 강하게 맞는다.",
+  "fit": "cmux/Paperclip/Claude Code 운영에서 부족한 실행 이력 감사, 재현성, 권한 결정 추적, 에이전트 작업 세션 기록 계층을 보강할 수 있다. 단순 채팅 UI가 아니라 에이전트 실행 상태를 구조화해 남기는 점이 도입 검토 가치가 크다.",
+  "integration": "우선 별도 로컬 서비스로 띄워 Claude Code/codex 작업 로그 또는 Paperclip 워커 실행 로그를 Maka 이벤트 모델로 미러링하는 방식이 적합하다. 이후 권한 승인/거부 이벤트를 vault sidecar, Hermes 알림, cmux 세션 ID와 연결하면 에이전트 관제·감사 대시보드로 확장 가능하다.",
+  "overlaps": "Claude Code hooks, cmux 세션 로그, Paperclip 이슈/워커 기록과 일부 중복된다. 하지만 Maka의 강점은 append-only 이벤트 로그와 권한/툴 호출까지 포함한 에이전트 실행 기록 모델이므로, 대체보다는 감사·재현성 레이어로 보강하는 방향이 맞다."
+}

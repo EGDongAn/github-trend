@@ -570,5 +570,27 @@
     "stars": 4923,
     "category": "AI 보안/레드팀·MCP/스킬/인프라 스캐너",
     "summary": "AI 에이전트, MCP 서버, Agent Skills, Ollama/n8n/vLLM류 AI 인프라, LLM jailbreak를 한 번에 점검하는 풀스택 AI 레드팀 플랫폼이다. EG AI GROUP OS의 핵심 구성요소인 Claude Code skills, MCP, Ollama, n8n, OpenClaw/Paperclip 계열 보안 점검과 직접 맞닿는다."
+  },
+  {
+    "date": "2026-08-21",
+    "sentAt": "2026-08-21T23:02:10.059Z",
+    "fullName": "ruvnet/ruflo",
+    "owner": "ruvnet",
+    "name": "ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "stars": 68626,
+    "category": "에이전트 오케스트레이션 / 멀티에이전트 메타 하네스",
+    "summary": "EG AI GROUP OS의 최우선 영역인 Claude Code/Codex 기반 멀티에이전트 조율, swarm, 메모리, RAG, MCP, Hermes 연동을 직접 겨냥한다. 설명상 현재 스택의 cmux/Paperclip/Hermes/Claude Code를 대체하기보다 상위 조율 계층으로 묶는 후보에 가깝다."
+  },
+  {
+    "date": "2026-08-21",
+    "sentAt": "2026-08-21T23:02:10.059Z",
+    "fullName": "apache/maka",
+    "owner": "apache",
+    "name": "maka",
+    "url": "https://github.com/apache/maka",
+    "stars": 2000,
+    "category": "에이전트 워크스페이스 / 로컬 우선 실행 로그 / 개발 자동화",
+    "summary": "로컬 우선 AI 에이전트 작업공간이며, 모델 메시지·툴 호출·결과·권한 결정·종료 이벤트를 append-only 로그로 남기는 구조가 EG AI GROUP OS의 핵심 가치와 강하게 맞는다."
   }
 ]

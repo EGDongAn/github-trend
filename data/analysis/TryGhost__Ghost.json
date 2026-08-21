@@ -1,0 +1,15 @@
+{
+  "fullName": "TryGhost/Ghost",
+  "analyzedAt": "2026-08-21T23:00:22.696Z",
+  "repoMeta": {
+    "stars": 54868,
+    "language": "JavaScript",
+    "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters."
+  },
+  "relevance": "low",
+  "category": "퍼블리싱/CMS/뉴스레터 플랫폼",
+  "summary": "Ghost는 셀프호스팅 가능한 Node.js 기반 CMS로, 블로그·멤버십·구독·뉴스레터 운영에 강점이 있다. EG AI GROUP OS의 에이전트 실행, 로컬 LLM, 작업 위임, 시크릿 격리 같은 핵심 자동화 스택과는 직접 관련이 약하다.",
+  "fit": "콘텐츠 발행 허브나 내부 운영 리포트/뉴스레터 공개 채널이 필요할 때만 보조적으로 맞는다. 로컬 우선·셀프호스팅 관점은 일부 부합하지만, AI 에이전트 오케스트레이션 공백을 메우지는 않는다.",
+  "integration": "n8n 또는 GitHub Actions에서 Ghost Admin API로 자동 리포트/작업 요약을 발행하는 정도가 현실적이다. 기존 Paperclip/cmux/Hermes를 대체하지 않고, 외부 공개용 CMS로만 붙인다.",
+  "overlaps": "이미 GitHub/Vercel/Google Drive/텔레그램으로 운영 알림과 문서 공유가 가능하므로 단순 운영 지식베이스 용도라면 중복이다. 멤버십·뉴스레터 사업 기능이 필요할 때만 별도 가치가 있다."
+}

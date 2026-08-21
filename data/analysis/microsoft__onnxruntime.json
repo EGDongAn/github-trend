@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/onnxruntime",
+  "analyzedAt": "2026-08-21T23:00:33.248Z",
+  "repoMeta": {
+    "stars": 21424,
+    "language": "C++",
+    "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 추론/서빙 인프라",
+  "summary": "ONNX 모델을 다양한 하드웨어에서 고성능으로 실행하는 추론 런타임이다. EG AI GROUP OS의 로컬 우선·비용 절감 방향과는 맞지만, 자체 에이전트 오케스트레이션이나 완성형 LLM 운영 도구는 아니다.",
+  "fit": "Ollama/mlx-lm이 커버하지 못하는 ONNX 모델, 임베딩 모델, 경량 분류기, OCR/비전 모델 등을 Mac mini에서 직접 돌릴 때 유용하다. 특정 모델을 ONNX로 고정해 빠르고 안정적으로 서빙해야 할 때 도입 가치가 있다.",
+  "integration": "로컬 추론 마이크로서비스나 MCP 도구 내부 런타임으로 붙이는 방식이 적합하다. Python/Node/Go 래퍼를 통해 Paperclip 워커, n8n 작업, Telegram 명령 처리, RAG 전처리 파이프라인에서 ONNX 모델을 호출하게 할 수 있다.",
+  "overlaps": "Ollama, mlx-lm, Open WebUI와 일부 로컬 추론 영역이 겹친다. 다만 범용 LLM 채팅보다는 ONNX 포맷 모델의 저수준 고성능 실행에 강하므로 대체재라기보다 특수 모델 실행 보강재에 가깝다."
+}
