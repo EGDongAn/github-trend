@@ -1,0 +1,15 @@
+{
+  "fullName": "n8n-io/n8n",
+  "analyzedAt": "2026-08-22T23:00:25.704Z",
+  "repoMeta": {
+    "stars": 201793,
+    "language": "TypeScript",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+  },
+  "relevance": "medium",
+  "category": "워크플로 자동화/AI 오케스트레이션",
+  "summary": "n8n은 셀프호스팅 가능한 워크플로 자동화 플랫폼으로, 텔레그램, GitHub, 웹훅, DB, AI 노드 등을 연결해 운영 자동화를 구성하기 좋다. EG AI GROUP OS에는 이미 n8n이 있으므로 신규 도입 대상이라기보다 기존 n8n 활용도 확장 또는 운영 표준화 후보에 가깝다.",
+  "fit": "로컬 우선과 셀프호스팅 조건에 잘 맞고, Hermes/Paperclip/cron/GitHub Actions 사이의 외부 이벤트 처리, 알림, 정기 작업, 승인 플로우를 묶는 데 유용하다. 다만 핵심 에이전트 실행 엔진이나 멀티에이전트 관제 자체를 대체하는 도구는 아니므로 high는 아니다.",
+  "integration": "기존 Docker 기반 n8n을 유지하면서 Telegram/GitHub/Paperclip API/Vault 프록시를 연결한 표준 워크플로 템플릿을 만든다. 예: GitHub 이슈 생성→Paperclip 작업 생성→Hermes 알림, cron 실패 감지→텔레그램 보고, 외부 폼/웹훅→에이전트 작업 큐 등록.",
+  "overlaps": "이미 현재 스택에 n8n이 포함되어 있어 신규 도입 중복이 크다. cron/LaunchAgent, Hermes 알림, Paperclip 작업 위임과 일부 기능이 겹치지만, n8n은 이들을 대체하기보다 외부 SaaS/API 연동과 시각적 워크플로 계층으로 보강하는 위치가 적합하다."
+}

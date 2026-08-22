@@ -592,5 +592,16 @@
     "stars": 2000,
     "category": "에이전트 워크스페이스 / 로컬 우선 실행 로그 / 개발 자동화",
     "summary": "로컬 우선 AI 에이전트 작업공간이며, 모델 메시지·툴 호출·결과·권한 결정·종료 이벤트를 append-only 로그로 남기는 구조가 EG AI GROUP OS의 핵심 가치와 강하게 맞는다."
+  },
+  {
+    "date": "2026-08-22",
+    "sentAt": "2026-08-22T23:00:38.606Z",
+    "fullName": "anthropics/claude-code",
+    "owner": "anthropics",
+    "name": "claude-code",
+    "url": "https://github.com/anthropics/claude-code",
+    "stars": 142512,
+    "category": "코딩 에이전트·개발 자동화 / 로컬 터미널 실행 엔진",
+    "summary": "터미널 기반 에이전트 코딩 도구로, 코드베이스 이해, 파일 수정, 명령 실행, git 워크플로 자동화를 자연어로 처리한다. EG AI GROUP OS의 핵심 실행 엔진으로 이미 보유한 Claude Code 자체에 해당한다."
   }
 ]

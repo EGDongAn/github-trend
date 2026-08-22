@@ -1,0 +1,15 @@
+{
+  "fullName": "eneskirca/nodeterm",
+  "analyzedAt": "2026-08-22T23:00:37.448Z",
+  "repoMeta": {
+    "stars": 1046,
+    "language": "TypeScript",
+    "description": "Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition."
+  },
+  "relevance": "medium",
+  "category": "멀티세션 관제 / AI 코딩 에이전트 터미널 UI",
+  "summary": "tmux 기반 병렬 에이전트 세션을 노드 캔버스에서 관리하는 TypeScript 터미널 매니저. EG AI GROUP OS의 cmux 관제실과 직접 겹치지만, 시각적 드래그/팬/줌 UI와 브라우저 Server Edition은 멀티에이전트 작업 현황 관제 보강 후보가 될 수 있다.",
+  "fit": "로컬 우선, macOS/Linux, tmux 기반이라는 점은 현재 스택과 잘 맞는다. 다만 이미 cmux로 멀티세션 관제를 보유하고 있어 명확한 공백을 메우기보다는 UX 대체/보강 성격이다. 실제 도입 가치는 Hermes/Paperclip 작업 단위와 세션 매핑, 원격 브라우저 관제, 장기 세션 안정성에 달려 있다.",
+  "integration": "cmux를 즉시 대체하기보다 별도 실험 환경에서 Claude Code/codex 세션을 nodeterm 노드로 띄워 비교한다. Paperclip 이슈별 워커 세션, Hermes 명령으로 생성된 작업 세션, 장기 실행 cron/agent 상태를 노드로 시각화할 수 있는지 검증한다. Server Edition은 Mac mini 내부망 전용으로 묶고 인증/접근제어를 확인해야 한다.",
+  "overlaps": "cmux와 핵심 역할이 중복된다. Paperclip의 작업 위임 자체를 대체하지는 않고, Claude Code 실행 엔진도 대체하지 않는다. 장점은 터미널 멀티세션을 더 시각적으로 배치·감시하는 UI일 가능성이며, 단순 터미널 래퍼라면 도입 우선순위는 낮아진다."
+}

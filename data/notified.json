@@ -52,5 +52,6 @@
   "chaitanyagiri/munder-difflin",
   "Tencent/AI-Infra-Guard",
   "ruvnet/ruflo",
-  "apache/maka"
+  "apache/maka",
+  "anthropics/claude-code"
 ]
