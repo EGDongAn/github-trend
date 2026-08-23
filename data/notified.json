@@ -53,5 +53,6 @@
   "Tencent/AI-Infra-Guard",
   "ruvnet/ruflo",
   "apache/maka",
-  "anthropics/claude-code"
+  "anthropics/claude-code",
+  "tinyhumansai/openhuman"
 ]

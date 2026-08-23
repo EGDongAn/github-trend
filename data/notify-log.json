@@ -603,5 +603,16 @@
     "stars": 142512,
     "category": "코딩 에이전트·개발 자동화 / 로컬 터미널 실행 엔진",
     "summary": "터미널 기반 에이전트 코딩 도구로, 코드베이스 이해, 파일 수정, 명령 실행, git 워크플로 자동화를 자연어로 처리한다. EG AI GROUP OS의 핵심 실행 엔진으로 이미 보유한 Claude Code 자체에 해당한다."
+  },
+  {
+    "date": "2026-08-23",
+    "sentAt": "2026-08-23T23:00:43.194Z",
+    "fullName": "tinyhumansai/openhuman",
+    "owner": "tinyhumansai",
+    "name": "openhuman",
+    "url": "https://github.com/tinyhumansai/openhuman",
+    "stars": 36705,
+    "category": "로컬 우선 개인 AI / 메모리 / 에이전트 오케스트레이션",
+    "summary": "로컬 우선 생활 메모리, 에이전트 fleet/workflow 오케스트레이션, deep research를 표방하므로 EG AI GROUP OS의 핵심 우선순위와 직접 맞닿는다. 특히 Paperclip/cmux/Hermes 위의 개인 지식·장기 메모리 계층이나 워크플로 오케스트레이터 보강 후보로 볼 수 있다."
   }
 ]

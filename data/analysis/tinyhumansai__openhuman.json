@@ -1,0 +1,15 @@
+{
+  "fullName": "tinyhumansai/openhuman",
+  "analyzedAt": "2026-08-23T23:00:27.299Z",
+  "repoMeta": {
+    "stars": 36705,
+    "language": "Rust",
+    "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher."
+  },
+  "relevance": "high",
+  "category": "로컬 우선 개인 AI / 메모리 / 에이전트 오케스트레이션",
+  "summary": "로컬 우선 생활 메모리, 에이전트 fleet/workflow 오케스트레이션, deep research를 표방하므로 EG AI GROUP OS의 핵심 우선순위와 직접 맞닿는다. 특히 Paperclip/cmux/Hermes 위의 개인 지식·장기 메모리 계층이나 워크플로 오케스트레이터 보강 후보로 볼 수 있다.",
+  "fit": "로컬 우선, 비용 절감, 멀티에이전트, 자동화 방향과 강하게 부합한다. Rust 기반이면 장기 상주 데몬/로컬 서비스로 운영하기에도 유리할 수 있다. 다만 실제 self-host 가능성, 데이터 저장 위치, LLM provider 의존성, MCP/CLI/API 제공 여부는 도입 전 확인이 필요하다.",
+  "integration": "1차는 기존 스택 대체가 아니라 보강으로 검토. OpenHuman을 로컬 메모리/리서치/워크플로 계층으로 띄우고, Hermes 텔레그램 명령 또는 Paperclip worker가 API/CLI로 호출하는 구조가 적합하다. cmux에서는 장기 실행 세션으로 관제하고, vault sidecar로 토큰·개인 데이터 접근을 격리해야 한다.",
+  "overlaps": "OpenClaw OSS의 개인 AI 비서 역할, Paperclip의 작업 위임, n8n의 워크플로, 로컬 RAG/메모리 구성과 일부 중복된다. 차별점이 실제 장기 메모리 품질과 agent fleet 오케스트레이션이라면 high 유지, 단순 챗봇/워크플로 UI 수준이면 medium으로 하향해야 한다."
+}

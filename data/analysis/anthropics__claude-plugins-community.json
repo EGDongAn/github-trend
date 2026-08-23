@@ -1,0 +1,15 @@
+{
+  "fullName": "anthropics/claude-plugins-community",
+  "analyzedAt": "2026-08-23T23:00:40.587Z",
+  "repoMeta": {
+    "stars": 911,
+    "language": "Python",
+    "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission."
+  },
+  "relevance": "medium",
+  "category": "Claude Code/Cowork 플러그인 마켓플레이스",
+  "summary": "Claude Code와 Claude Cowork용 커뮤니티 플러그인 카탈로그의 read-only 미러다. 직접 실행 엔진이나 오케스트레이터는 아니지만, skills/commands/MCP/agents 형태의 확장을 탐색·설치하는 유통 채널로 쓸 수 있다.",
+  "fit": "현재 스택이 Claude Code, skills, MCP 중심이므로 호환성은 높다. 다만 EG AI GROUP OS의 핵심 공백을 직접 메우기보다는 외부 커뮤니티 플러그인 소싱 채널에 가깝다. 도입 가치는 플러그인별로 달라서 마켓플레이스 자체는 medium이 적절하다.",
+  "integration": "Claude Code에서 `claude plugin marketplace add anthropics/claude-plugins-community`로 추가한 뒤, 필요한 플러그인만 개별 설치한다. 설치 전 각 플러그인의 MCP 서버, 파일 접근, 네트워크 권한, hooks를 검토하고 EG용 allowlist 방식으로 운영하는 것이 맞다.",
+  "overlaps": "이미 Claude Code, 다수 skills, MCP, 공식/지식업무 플러그인 계열을 보유해 기능 범주는 상당히 겹친다. 차별점은 커뮤니티 플러그인 풀 확대이며, 보안·품질·유지보수 리스크 때문에 Paperclip/cmux/Hermes를 대체할 대상은 아니다."
+}

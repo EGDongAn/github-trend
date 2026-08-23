@@ -1,0 +1,15 @@
+{
+  "fullName": "VoltAgent/awesome-agent-skills",
+  "analyzedAt": "2026-08-23T23:00:26.805Z",
+  "repoMeta": {
+    "stars": 31260,
+    "language": null,
+    "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more."
+  },
+  "relevance": "medium",
+  "category": "에이전트 스킬 카탈로그/프롬프트·워크플로 리소스",
+  "summary": "Claude Code, Codex, Gemini CLI, Cursor 등에서 쓸 수 있는 에이전트 스킬 모음집이다. 실행 엔진이나 오케스트레이터 자체가 아니라, 기존 에이전트 환경에 붙일 수 있는 스킬/작업 패턴 레퍼런스에 가깝다.",
+  "fit": "Claude Code 스킬 200+를 이미 운용 중인 EG AI GROUP OS에는 직접적인 공백 보완보다는 스킬 확장 후보 발굴용으로 맞다. 로컬 우선·비용 절감·보안 격리와 충돌은 적지만, 핵심 인프라를 업그레이드하는 도구는 아니다.",
+  "integration": "선별 도입. 현재 Claude Code/Codex 스킬 디렉터리에 바로 넣기보다, 보안·운영·코딩 자동화·MCP 관련 스킬만 리뷰해서 내부 표준에 맞게 포팅한다. Paperclip 작업 유형별 템플릿이나 cmux 운영 룰 보강용으로 일부 흡수 가능하다.",
+  "overlaps": "기존 Claude Code 스킬 200+와 상당히 중복된다. Paperclip/cmux/Hermes/vault sidecar를 대체하지 않으며, 품질이 섞인 큐레이션 저장소라 검증 없이 대량 도입하면 관리 비용이 늘 수 있다."
+}
