@@ -1,0 +1,15 @@
+{
+  "fullName": "AgriciDaniel/claude-obsidian",
+  "analyzedAt": "2026-08-24T23:00:26.949Z",
+  "repoMeta": {
+    "stars": 11849,
+    "language": "Python",
+    "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern."
+  },
+  "relevance": "medium",
+  "category": "PKM/RAG·Claude Code 지식베이스 자동화",
+  "summary": "Obsidian의 plain Markdown vault를 Claude Code가 읽고, 링크하고, 정리하는 개인 지식 그래프 도구다. 로컬 소유 Markdown, LLM Wiki 패턴, PKM 자동화는 EG AI GROUP OS의 로컬 우선 지식 운영 방향과 맞다.",
+  "fit": "기존 Obsidian/로컬 문서/에이전트 작업 로그를 장기 기억처럼 구조화하는 용도로 유용하다. 다만 핵심 우선순위인 멀티에이전트 오케스트레이션, 실행 엔진, 비밀 격리, 텔레그램 게이트웨이를 직접 보강하지는 않아 high는 아니다.",
+  "integration": "Obsidian_Vault 또는 운영 문서 vault에 붙여 Claude Code 작업 산출물, 리서치, 회의/지시 기록을 Markdown 지식 그래프로 자동 분류하게 한다. Paperclip 이슈 요약, cmux 작업실 결과, Hermes 텔레그램 지시 로그를 주기적으로 vault에 drop하는 보조 파이프라인으로 연결 가능하다.",
+  "overlaps": "Obsidian 기반 메모리/문서 운영, Claude Code 스킬·로컬 메모리, 기존 RAG/knowledge workflow와 부분 중복된다. 대체재라기보다 Markdown 지식 정리 자동화 레이어로 보는 것이 적절하다."
+}

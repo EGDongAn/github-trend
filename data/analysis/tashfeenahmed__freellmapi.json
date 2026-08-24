@@ -1,0 +1,15 @@
+{
+  "fullName": "tashfeenahmed/freellmapi",
+  "analyzedAt": "2026-08-24T23:00:25.911Z",
+  "repoMeta": {
+    "stars": 19745,
+    "language": "TypeScript",
+    "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
+  },
+  "relevance": "medium",
+  "category": "LLM 라우팅/무료 티어 집계 게이트웨이",
+  "summary": "여러 무료 LLM 제공자를 OpenAI 호환 /v1 단일 엔드포인트로 묶고 스마트 라우팅, 장애 전환, 키 암호화를 제공하는 TypeScript 기반 프록시다. Claude Code/Codex 같은 코딩 에이전트 클라이언트 연결도 지원한다.",
+  "fit": "EG AI GROUP OS의 비용 절감과 OpenAI 호환 게이트웨이 요구에는 맞지만, 로컬 LLM 추론 자체가 아니라 외부 무료 티어를 모아 쓰는 방식이라 로컬 우선 원칙과는 부분 충돌한다. 무료 제공자 약관/쿼터 변동, 개인 실험용 성격, 키 다수 관리 리스크 때문에 핵심 인프라보다는 보조 라우터 후보가 적절하다.",
+  "integration": "Mac mini에 Docker 또는 Node 서비스로 띄우고 Hermes/Paperclip/Claude Code/Codex의 보조 base_url로 연결한다. vault sidecar에서 provider key와 ENCRYPTION_KEY를 주입하고, Ollama/LM Studio 같은 내부 OpenAI 호환 엔드포인트도 custom provider로 붙여 외부 무료 티어와 로컬 모델을 한 라우터에서 비교 운용한다.",
+  "overlaps": "이미 Ollama/Open WebUI/Claude Code/Codex/n8n을 보유하므로 추론 UI나 에이전트 실행 엔진은 중복이다. 차별점은 여러 외부 무료 LLM 키의 라우팅/장애전환/쿼터 관리이며, Paperclip/cmux 오케스트레이션을 대체하지는 못한다."
+}
