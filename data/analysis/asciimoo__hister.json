@@ -1,0 +1,15 @@
+{
+  "fullName": "asciimoo/hister",
+  "analyzedAt": "2026-08-25T23:00:25.448Z",
+  "repoMeta": {
+    "stars": 2749,
+    "language": "Go",
+    "description": "Your own search engine"
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 검색 엔진",
+  "summary": "hister는 개인용/자가 호스팅 검색 엔진으로 보이며, 로컬 우선 검색 인프라라는 점은 EG AI GROUP OS 방향과 약하게 맞는다. 다만 에이전트 오케스트레이션, 코딩 자동화, MCP, 시크릿 격리, 텔레그램 운영 자동화와 직접 연결되는 핵심 기능은 아니다.",
+  "fit": "내부 문서, 코드, 웹 아카이브를 자체 색인해 검색하는 보조 도구로는 검토 가능하다. 하지만 현재 스택에는 Google Drive, context7, Brave, 로컬 RAG/LLM 계층이 이미 있어 단순 검색 엔진만으로는 명확한 공백을 메우지 못한다.",
+  "integration": "로컬 Mac mini나 Docker 환경에 별도 검색 서비스로 띄우고, 필요하면 n8n 또는 MCP 래퍼를 붙여 에이전트가 내부 검색 백엔드로 호출하게 만들 수 있다.",
+  "overlaps": "Brave 검색, context7, Google Drive 검색, 로컬 RAG/Open WebUI 계층과 일부 중복된다. 대체재라기보다 특정 데이터셋을 로컬 색인하는 보조 검색 엔진 후보에 가깝다."
+}

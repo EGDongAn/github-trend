@@ -1,0 +1,15 @@
+{
+  "fullName": "marin-community/marin",
+  "analyzedAt": "2026-08-25T23:00:25.822Z",
+  "repoMeta": {
+    "stars": 2079,
+    "language": "Python",
+    "description": "Open-source framework for the research and development of foundation models."
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM/R&D 프레임워크",
+  "summary": "파운데이션 모델 연구개발용 오픈소스 Python 프레임워크로, 학습/데이터/평가 파이프라인 성격이 강하다. EG AI GROUP OS의 운영 자동화보다는 로컬 LLM 역량 확장 후보에 가깝다.",
+  "fit": "로컬 우선과 비용 절감 방향에는 맞을 수 있으나, 현재 스택의 즉시 공백인 에이전트 오케스트레이션, 텔레그램 게이트웨이, 작업 위임을 직접 보강하지는 않는다. 자체 모델 실험, 데이터 파이프라인, 평가 자동화를 진지하게 운영할 때 가치가 생긴다.",
+  "integration": "Ollama/mlx-lm 주변의 모델 연구·평가 샌드박스로 분리 도입. Mac mini 단독 운영보다는 별도 GPU 장비나 클라우드 GPU와 연결해 실험 파이프라인으로 쓰고, 결과 모델만 로컬 서빙 스택에 반영하는 방식이 현실적이다.",
+  "overlaps": "Ollama/Open WebUI/mlx-lm과는 추론·서빙이 아니라 연구개발/학습 영역이라 직접 중복은 낮다. Paperclip/cmux/Hermes와는 기능 중복이 거의 없다. 다만 운영 자동화 스택 관점에서는 무겁고, GPU 리소스 요구가 크면 로컬 우선 원칙과 충돌할 수 있다."
+}

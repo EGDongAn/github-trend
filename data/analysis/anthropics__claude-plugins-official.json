@@ -1,0 +1,15 @@
+{
+  "fullName": "anthropics/claude-plugins-official",
+  "analyzedAt": "2026-08-25T23:00:30.069Z",
+  "repoMeta": {
+    "stars": 34065,
+    "language": "Python",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+  },
+  "relevance": "medium",
+  "category": "Claude Code 플러그인 디렉터리 / 개발 자동화 확장",
+  "summary": "Anthropic 공식 Claude Code 플러그인 모음으로, Claude Code 기반 워크플로에 검증된 플러그인 탐색·도입 경로를 제공한다.",
+  "fit": "이미 Claude Code를 핵심 실행 엔진으로 쓰고 있으므로 호환성은 높다. 다만 자체 실행 엔진이나 오케스트레이션 공백을 메우는 도구라기보다 플러그인 카탈로그 성격이 강해, 시스템 자체를 업그레이드하는 영향은 제한적이다.",
+  "integration": "Claude Code 플러그인 후보를 선별해 기존 스킬/MCP/cron 워크플로에 필요한 것만 설치·검증한다. 특히 MCP, 문서/코딩 자동화, 보안 격리 관련 플러그인만 우선 평가하고 범용 플러그인은 제외한다.",
+  "overlaps": "Claude Code 스킬 200+, 기존 MCP, Google Drive, playwright, GitHub Actions/Vercel 워크플로와 상당히 겹친다. 대체재라기보다 공식 관리 플러그인으로 일부 기능을 표준화하거나 업그레이드할 때만 의미가 있다."
+}
