@@ -1,0 +1,15 @@
+{
+  "fullName": "K-Dense-AI/scientific-agent-skills",
+  "analyzedAt": "2026-08-26T23:00:32.672Z",
+  "repoMeta": {
+    "stars": 34707,
+    "language": "Python",
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+  },
+  "relevance": "medium",
+  "category": "에이전트 스킬 라이브러리 / 과학·의학 RAG 워크플로",
+  "summary": "Claude Code, Codex 등 Agent Skills 표준과 호환되는 과학·의학 특화 스킬 묶음이다. 생물학, 화학, 의학, 신약개발 DB/패키지 사용법을 에이전트에 주입하는 용도이며, MIT 라이선스와 로컬 설치 방식이라 EG AI GROUP OS의 로컬 우선 원칙과는 맞는다. 참고: https://github.com/K-Dense-AI/scientific-agent-skills",
+  "fit": "OS 핵심인 멀티에이전트 오케스트레이션, 텔레그램 게이트웨이, 비밀관리 공백을 메우지는 않는다. 다만 이지동안의원/Collma/KFERA 쪽 의학 리서치, 논문 요약, 임상·바이오 데이터 조회, 의료 콘텐츠 근거 조사에는 실사용 가치가 있다. 기존 Claude Code 스킬 체계를 보강하는 후보로 적합하다.",
+  "integration": "전체 도입보다 필요한 스킬만 선별 설치가 적절하다. Claude Code/Codex skills 디렉터리에 pin된 버전으로 설치하고, 의학·바이오 DB 접근 스킬은 네트워크/API 키 사용 여부와 실행 코드 권한을 먼저 리뷰해야 한다. 의료 자문 자동화에는 바로 연결하지 말고, 리서치 보조/문헌 정리/초안 생성 범위로 제한하는 것이 맞다.",
+  "overlaps": "이미 보유한 Claude Code 스킬 200+, medical-research, clinical-decision-support, paper-search 계열과 상당히 겹친다. 차별점은 과학 패키지·DB별 SKILL.md와 예제가 더 촘촘하다는 점이다. Paperclip/cmux/n8n을 대체하지는 않고, 과학·의학 작업자의 도구함을 확장하는 성격이다."
+}

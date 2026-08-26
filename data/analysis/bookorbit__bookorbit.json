@@ -1,0 +1,15 @@
+{
+  "fullName": "bookorbit/bookorbit",
+  "analyzedAt": "2026-08-26T23:00:30.982Z",
+  "repoMeta": {
+    "stars": 3262,
+    "language": "TypeScript",
+    "description": "BookOrbit: Your Reading Space"
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 디지털 라이브러리/리딩 플랫폼",
+  "summary": "BookOrbit는 Docker로 자체 호스팅하는 전자책, PDF, 오디오북, 코믹스 관리 및 리더 앱이다. Kobo/KOReader 동기화, OPDS, OIDC/SSO, 메타데이터 제공자, Readwise/StoryGraph 연동이 핵심이다.",
+  "fit": "로컬 우선과 셀프호스팅 성향은 맞지만, EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 코딩 자동화, 로컬 LLM/RAG, 시크릿 격리와는 직접 관련이 약하다.",
+  "integration": "Mac mini 또는 NAS에 Docker Compose로 띄워 개인/조직 문서·전자책 라이브러리로만 보조 운용 가능. AI 에이전트 작업 지식베이스로 쓰려면 별도 export/API/RAG 파이프라인이 필요하다.",
+  "overlaps": "Obsidian/Google Drive/RAG 자료 저장소와 일부 겹치지만, 목적은 독서·라이브러리 관리라 대체재는 아니다. Readwise/OPDS/KOReader를 실제로 쓰지 않으면 도입 이점이 작다."
+}

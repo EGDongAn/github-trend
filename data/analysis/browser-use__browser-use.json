@@ -1,0 +1,15 @@
+{
+  "fullName": "browser-use/browser-use",
+  "analyzedAt": "2026-08-26T23:00:32.479Z",
+  "repoMeta": {
+    "stars": 110941,
+    "language": "Python",
+    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
+  },
+  "relevance": "high",
+  "category": "AI 브라우저 자동화 / 에이전트 도구",
+  "summary": "LLM 에이전트가 실제 웹사이트를 탐색, 클릭, 입력, 추출하도록 해주는 Python 기반 브라우저 자동화 프레임워크다. Playwright 수준의 저수준 제어보다 자연어 작업 실행에 가깝고, Claude Code/Codex 작업 흐름에 붙이기 쉽다.",
+  "fit": "EG AI GROUP OS의 로컬 우선 자동화, 웹 QA, 리서치, 관리자 페이지 반복 작업, 폼 입력, 크롤링형 운영 태스크에 잘 맞는다. 이미 보유한 playwright MCP를 대체하기보다, 그 위에 에이전트 친화 실행 계층을 추가하는 성격이다.",
+  "integration": "Python 3.11+ 환경에 설치해 Claude Code/Codex 스킬 또는 Paperclip 워커의 브라우저 실행 백엔드로 연결한다. Hermes 텔레그램 명령 → Paperclip 작업 → browser-use 실행 → 결과 요약/스크린샷 반환 흐름이 적합하다. 로컬 LLM/Ollama 연동 가능성을 먼저 검증하고, CAPTCHA/대규모 병렬 실행은 클라우드 의존 없이 가능한 범위만 파일럿한다.",
+  "overlaps": "playwright MCP, 기존 브라우저 자동화, Claude Code 도구와 일부 중복된다. 차별점은 자연어 기반 웹 태스크 실행, 에이전트용 상태/행동 추상화, Claude Code와의 직접 결합 가능성이다. cmux/Paperclip 같은 멀티에이전트 관제 자체를 대체하지는 않는다."
+}

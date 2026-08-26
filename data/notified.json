@@ -54,5 +54,6 @@
   "ruvnet/ruflo",
   "apache/maka",
   "anthropics/claude-code",
-  "tinyhumansai/openhuman"
+  "tinyhumansai/openhuman",
+  "browser-use/browser-use"
 ]

@@ -614,5 +614,16 @@
     "stars": 36705,
     "category": "로컬 우선 개인 AI / 메모리 / 에이전트 오케스트레이션",
     "summary": "로컬 우선 생활 메모리, 에이전트 fleet/workflow 오케스트레이션, deep research를 표방하므로 EG AI GROUP OS의 핵심 우선순위와 직접 맞닿는다. 특히 Paperclip/cmux/Hermes 위의 개인 지식·장기 메모리 계층이나 워크플로 오케스트레이터 보강 후보로 볼 수 있다."
+  },
+  {
+    "date": "2026-08-26",
+    "sentAt": "2026-08-26T23:00:37.102Z",
+    "fullName": "browser-use/browser-use",
+    "owner": "browser-use",
+    "name": "browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "stars": 110941,
+    "category": "AI 브라우저 자동화 / 에이전트 도구",
+    "summary": "LLM 에이전트가 실제 웹사이트를 탐색, 클릭, 입력, 추출하도록 해주는 Python 기반 브라우저 자동화 프레임워크다. Playwright 수준의 저수준 제어보다 자연어 작업 실행에 가깝고, Claude Code/Codex 작업 흐름에 붙이기 쉽다."
   }
 ]

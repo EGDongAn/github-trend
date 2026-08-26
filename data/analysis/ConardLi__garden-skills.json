@@ -1,0 +1,15 @@
+{
+  "fullName": "ConardLi/garden-skills",
+  "analyzedAt": "2026-08-26T23:00:27.313Z",
+  "repoMeta": {
+    "stars": 10898,
+    "language": "CSS",
+    "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more."
+  },
+  "relevance": "medium",
+  "category": "에이전트 스킬/지식검색 보조",
+  "summary": "Claude Code, Cursor, Codex용 Agent Skills 모음이다. 핵심은 웹디자인/웹프레젠테이션, 이미지 프롬프트, 로컬 knowledge 디렉터리 검색용 kb-retriever 등이며, 로컬 설치와 pinned zip/checksum 배포를 지원한다.",
+  "fit": "EG AI GROUP OS의 실행 엔진(Claude Code/Codex)과 바로 맞물리는 스킬 팩이라 도입 장벽은 낮다. 특히 kb-retriever는 로컬 문서 기반 RAG/검색 습관을 표준화하는 데 쓸 수 있고, web-design 계열은 사이트/자료 제작 품질을 올리는 보조 스킬로 유용하다. 다만 멀티에이전트 오케스트레이션, 보안 격리, 실행 자동화의 핵심 공백을 메우는 repo는 아니다.",
+  "integration": "필요한 스킬만 선별 설치가 적합하다. 예: `npx skills add ConardLi/garden-skills -s kb-retriever -a claude-code` 또는 pinned release zip을 `.claude/skills`/`.codex/skills`에 배치. EG 내부 문서/운영 매뉴얼 검색에는 kb-retriever를 먼저 테스트하고, 웹 제작 작업에는 web-design-engineer를 보조 스킬로 제한 적용한다.",
+  "overlaps": "이미 Claude Code 스킬 200+와 자체 memory/검색 운영이 있어 상당 부분 중복된다. Paperclip/cmux/Hermes/vault/n8n을 대체하지 못하며, web-design/image 스킬은 기존 프론트엔드·이미지 생성 지침과 겹친다. 대체재라기보다 일부 스킬을 벤더링해 기존 스킬셋을 보강하는 후보로 보는 것이 맞다."
+}
