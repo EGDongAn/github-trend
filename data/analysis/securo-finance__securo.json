@@ -1,0 +1,15 @@
+{
+  "fullName": "securo-finance/securo",
+  "analyzedAt": "2026-08-27T23:00:35.177Z",
+  "repoMeta": {
+    "stars": 2392,
+    "language": "Python",
+    "description": "Open-source personal finance manager. Self-hosted, privacy-first."
+  },
+  "relevance": "none",
+  "category": "개인 재무 관리 / 셀프호스팅 앱",
+  "summary": "Securo는 개인정보 보호를 강조한 오픈소스 개인 재무 관리 도구로 보이며, EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, 개발 자동화, MCP, 시크릿 격리, 운영 자동화와 직접 관련이 없다.",
+  "fit": "일반 개인용 재무 앱 성격이 강해 현재 시스템의 명확한 공백을 메우지 않는다. 셀프호스팅과 privacy-first 방향성은 일부 맞지만 핵심 운영 스택에는 기여가 작다.",
+  "integration": "-",
+  "overlaps": "현재 보유 스택과 직접 중복되지는 않지만, AI 운영 자동화 관점의 대체/업그레이드 대상도 아니다."
+}

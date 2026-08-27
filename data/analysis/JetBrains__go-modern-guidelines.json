@@ -1,0 +1,15 @@
+{
+  "fullName": "JetBrains/go-modern-guidelines",
+  "analyzedAt": "2026-08-27T23:00:21.783Z",
+  "repoMeta": {
+    "stars": 2054,
+    "language": "Go",
+    "description": "Help AI coding agents write modern Go"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 / Go 코드 품질 가이드라인",
+  "summary": "AI 코딩 에이전트가 현대적인 Go 코드를 작성하도록 돕는 가이드라인 저장소. 실행 프레임워크나 MCP 서버가 아니라, Go 프로젝트에서 에이전트 출력 품질을 높이는 규칙·프롬프트 성격의 자료에 가깝다.",
+  "fit": "Claude Code/codex가 Go 코드 수정 시 참고할 AGENTS.md, skill, lint/checklist로 흡수하면 유용하다. 다만 EG AI GROUP OS의 핵심 공백인 오케스트레이션, 로컬 LLM 서빙, 보안 격리, 텔레그램 게이트웨이를 직접 보강하지는 않는다.",
+  "integration": "Go 관련 repo의 AGENTS.md 또는 Claude Code skill에 요약 규칙을 넣고, Go 작업 전후 체크리스트로 사용. 필요하면 golangci-lint, gofmt, go test와 함께 codex/Claude hook에 연결.",
+  "overlaps": "기존 Claude Code 스킬·AGENTS.md 운영 방식과 겹친다. 기능 도구가 아니라 가이드라인이라 Paperclip/cmux/Hermes를 대체하지 않으며, Go 코드 품질 규칙 보강 정도의 부분 중복이다."
+}

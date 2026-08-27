@@ -55,5 +55,6 @@
   "apache/maka",
   "anthropics/claude-code",
   "tinyhumansai/openhuman",
-  "browser-use/browser-use"
+  "browser-use/browser-use",
+  "thedotmack/claude-mem"
 ]

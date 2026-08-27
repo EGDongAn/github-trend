@@ -1,0 +1,15 @@
+{
+  "fullName": "zedeus/nitter",
+  "analyzedAt": "2026-08-27T23:00:22.710Z",
+  "repoMeta": {
+    "stars": 13853,
+    "language": "Nim",
+    "description": "Alternative Twitter front-end"
+  },
+  "relevance": "medium",
+  "category": "셀프호스팅 프론트엔드 / 소셜 미디어 모니터링",
+  "summary": "Nitter는 Twitter/X를 광고와 추적 없이 읽기 위한 대체 프론트엔드다. EG AI GROUP OS의 핵심 실행 엔진, 멀티에이전트, 로컬 LLM, 시크릿 격리 공백을 직접 메우지는 않지만, 소셜 리서치·브랜드 모니터링·콘텐츠 감시용 읽기 채널로는 유용할 수 있다.",
+  "fit": "로컬 우선·셀프호스팅 성향은 맞지만, 현재 우선순위 1~5의 핵심 자동화 인프라와는 거리가 있다. Twitter/X 데이터 접근 안정성이 외부 정책에 강하게 좌우되므로 운영 핵심 컴포넌트로 보기 어렵다.",
+  "integration": "n8n 또는 Hermes 워커가 Nitter 인스턴스를 읽어 특정 계정·키워드·링크를 감시하고, 결과를 텔레그램 그룹이나 Paperclip 이슈로 넘기는 보조 리서치 파이프라인으로 붙일 수 있다. 단, 공식 API 대체재로 의존하기보다는 실패 가능한 읽기 어댑터로 격리하는 편이 적합하다.",
+  "overlaps": "Brave/search, Apify류 소셜 스크래핑, n8n HTTP 워크플로와 일부 중복된다. 차별점은 가벼운 셀프호스팅 Twitter/X 읽기 프론트엔드라는 점이고, 단점은 플랫폼 차단·유지보수 리스크가 크다는 점이다."
+}

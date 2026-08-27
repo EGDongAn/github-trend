@@ -625,5 +625,16 @@
     "stars": 110941,
     "category": "AI 브라우저 자동화 / 에이전트 도구",
     "summary": "LLM 에이전트가 실제 웹사이트를 탐색, 클릭, 입력, 추출하도록 해주는 Python 기반 브라우저 자동화 프레임워크다. Playwright 수준의 저수준 제어보다 자연어 작업 실행에 가깝고, Claude Code/Codex 작업 흐름에 붙이기 쉽다."
+  },
+  {
+    "date": "2026-08-27",
+    "sentAt": "2026-08-27T23:00:39.505Z",
+    "fullName": "thedotmack/claude-mem",
+    "owner": "thedotmack",
+    "name": "claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "stars": 92251,
+    "category": "에이전트 메모리/컨텍스트 지속성",
+    "summary": "Claude Code, Codex, OpenClaw, Hermes 등 현재 스택의 핵심 실행 경로에 세션 간 지속 컨텍스트를 붙이는 도구다. 에이전트 작업 기록을 압축해 다음 세션에 주입한다는 점이 1인 AI 운영 OS의 장기 작업 연속성 문제와 직접 맞는다."
   }
 ]
