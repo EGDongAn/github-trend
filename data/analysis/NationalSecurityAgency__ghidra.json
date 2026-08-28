@@ -1,0 +1,15 @@
+{
+  "fullName": "NationalSecurityAgency/ghidra",
+  "analyzedAt": "2026-08-28T23:00:24.740Z",
+  "repoMeta": {
+    "stars": 73313,
+    "language": "Java",
+    "description": "Ghidra is a software reverse engineering (SRE) framework"
+  },
+  "relevance": "low",
+  "category": "보안/리버스 엔지니어링 도구",
+  "summary": "NSA가 공개한 대형 소프트웨어 리버스 엔지니어링 프레임워크. 바이너리 분석, 디컴파일, 악성코드/취약점 분석에는 강력하지만 EG AI GROUP OS의 에이전트 운영, 로컬 LLM, 자동화 오케스트레이션과는 직접 연결성이 낮다.",
+  "fit": "보안 감사나 의심 바이너리 분석 업무가 정기적으로 있다면 보조 도구로 의미가 있다. 그러나 현재 스택의 핵심 공백을 메우는 도구는 아니며, Claude Code/Paperclip/cmux/Hermes 운영 자동화에는 즉시 기여하지 않는다.",
+  "integration": "필요 시 macOS 분석 워크스테이션에 독립 도구로 설치하고, 에이전트가 파일 해시/샘플 메타데이터를 정리하거나 분석 리포트 초안을 작성하는 보조 워크플로에만 연결한다.",
+  "overlaps": "기존 스택과 직접 중복은 거의 없다. 다만 보안/시크릿 격리 목적의 운영 도구가 아니라 전문 수동 분석 도구에 가깝기 때문에 vault sidecar나 MCP/워크플로 자동화와 대체 관계는 아니다."
+}

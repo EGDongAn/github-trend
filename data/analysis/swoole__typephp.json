@@ -1,0 +1,15 @@
+{
+  "fullName": "swoole/typephp",
+  "analyzedAt": "2026-08-28T23:00:36.086Z",
+  "repoMeta": {
+    "stars": 802,
+    "language": "PHP",
+    "description": "Compile PHP to Native Binaries"
+  },
+  "relevance": "low",
+  "category": "PHP 네이티브 바이너리 컴파일/배포 도구",
+  "summary": "PHP 애플리케이션을 네이티브 바이너리로 컴파일하는 도구로 보인다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, MCP, 비밀 격리와 직접 관련은 약하다.",
+  "fit": "PHP 기반 내부 도구를 단일 실행 파일로 배포해야 하는 경우에는 일부 가치가 있지만, 현재 스택의 명확한 공백을 메우지는 않는다. PHP/Gnuboard 운영 자산이 있다면 배포 단순화 후보 정도다.",
+  "integration": "PHP 기반 Hermes/tg-proxy/운영 스크립트가 있을 때 실험적으로 CLI 패키징에만 검토. 핵심 OS 구성요소로 도입할 이유는 약하다.",
+  "overlaps": "기존 Docker, LaunchAgent, GitHub Actions, Vercel 배포 흐름과 일부 겹친다. PHP 앱 배포 문제를 해결하는 도구이지 Paperclip/cmux/Claude Code 계열을 대체하거나 보강하는 도구는 아니다."
+}

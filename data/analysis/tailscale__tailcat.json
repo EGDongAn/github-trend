@@ -1,0 +1,15 @@
+{
+  "fullName": "tailscale/tailcat",
+  "analyzedAt": "2026-08-28T23:00:30.906Z",
+  "repoMeta": {
+    "stars": 2630,
+    "language": "Go",
+    "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane"
+  },
+  "relevance": "medium",
+  "category": "보안/네트워킹/원격 접속 도구",
+  "summary": "Tailscale 제어 plane 없이 Tailscale 데이터 plane과 WireGuard/DERP를 써서 두 머신을 임시로 연결하는 netcat형 CLI/Go 라이브러리다. 계정, 루트 권한, 라우팅 변경 없이 토큰 기반으로 stdin/stdout, 포트 포워딩, 임시 SSH 접근을 만들 수 있다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·보안 격리·자가운영 방향과 잘 맞지만, 핵심 오케스트레이션/LLM/RAG 공백을 직접 메우지는 않는다. Mac mini와 외부 노트북/에이전트/테스트 머신 사이에 일회성 보안 터널을 열 때 유용한 보조 도구다.",
+  "integration": "Hermes/Paperclip 작업자가 외부 임시 워커나 테스트 장비에 접근해야 할 때 tailcat 토큰을 작업 컨텍스트로 전달해 단기 터널을 만들 수 있다. vault sidecar에는 장기 인증정보 대신 tailcat 실행 정책과 자체 DERP 설정만 보관하고, 필요하면 n8n/LaunchAgent에서 임시 tailcat 서버를 띄우는 방식이 적합하다.",
+  "overlaps": "이미 Tailscale, Cloudflare Tunnel, SSH, tg-proxy 계열 원격 접속/터널링 수단과 일부 겹친다. 다만 제어 plane·계정·라우팅 없이 임시 P2P 터널을 만드는 점은 차별점이다. 안정성 보장과 API/CLI 호환성 약속이 약하므로 핵심 인프라 대체보다는 임시 접속·파일 전달·에이전트 샌드박스 접근용 후보로 보는 것이 맞다."
+}

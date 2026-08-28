@@ -1,0 +1,15 @@
+{
+  "fullName": "abi/screenshot-to-code",
+  "analyzedAt": "2026-08-28T23:00:26.470Z",
+  "repoMeta": {
+    "stars": 75526,
+    "language": "Python",
+    "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화 도구 / UI 코드 생성",
+  "summary": "스크린샷을 HTML/Tailwind/React/Vue 코드로 변환하는 도구로, UI 복제·프로토타이핑·관리자 화면 초안 생성에는 유용하다. 다만 EG AI GROUP OS의 핵심 공백인 멀티에이전트 오케스트레이션, 로컬 LLM 운영, 비밀 격리, 텔레그램 게이트웨이를 직접 보강하지는 않는다.",
+  "fit": "프론트엔드 구현 시간을 줄이는 보조 도구로는 적합하다. 특히 내부 운영툴, 랜딩 페이지, 캡처 기반 리디자인 초안 생성에 쓸 수 있다. 핵심 OS 인프라가 아니라 개발 워크플로 주변 생산성 도구에 가깝다.",
+  "integration": "로컬 또는 셀프호스팅 형태로 띄워 Claude Code/codex 작업 전에 스크린샷 기반 초안 생성기로 사용. 생성 결과를 바로 신뢰하지 말고 기존 디자인 시스템, 접근성, 반응형, 보안 검토를 거쳐 repo에 반영하는 보조 단계로 붙이는 것이 적절하다.",
+  "overlaps": "Claude Code/codex가 이미 UI 코드를 작성할 수 있어 기능 일부는 중복된다. 차별점은 이미지 기반 입력과 빠른 초안 생성이며, Paperclip/cmux/Hermes/Vault/n8n과는 직접 중복이 거의 없다."
+}
