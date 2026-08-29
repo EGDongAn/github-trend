@@ -636,5 +636,27 @@
     "stars": 92251,
     "category": "에이전트 메모리/컨텍스트 지속성",
     "summary": "Claude Code, Codex, OpenClaw, Hermes 등 현재 스택의 핵심 실행 경로에 세션 간 지속 컨텍스트를 붙이는 도구다. 에이전트 작업 기록을 압축해 다음 세션에 주입한다는 점이 1인 AI 운영 OS의 장기 작업 연속성 문제와 직접 맞는다."
+  },
+  {
+    "date": "2026-08-29",
+    "sentAt": "2026-08-29T23:00:53.311Z",
+    "fullName": "Osmantic/ODS",
+    "owner": "Osmantic",
+    "name": "ODS",
+    "url": "https://github.com/Osmantic/ODS",
+    "stars": 4885,
+    "category": "로컬 AI 서버/에이전트 운영 스택",
+    "summary": "ODS는 로컬 하드웨어를 AI 서버로 구성하는 통합 배포 시스템이다. Ollama/llama.cpp 계열 추론, Open WebUI, LiteLLM, n8n, Qdrant RAG, SearXNG, Whisper/Kokoro 음성, ComfyUI 이미지 생성, 대시보드, 프라이버시/옵저버빌리티 요소를 한 번에 묶는다."
+  },
+  {
+    "date": "2026-08-29",
+    "sentAt": "2026-08-29T23:00:53.311Z",
+    "fullName": "workweave/router",
+    "owner": "workweave",
+    "name": "router",
+    "url": "https://github.com/workweave/router",
+    "stars": 2683,
+    "category": "모델 라우터 / AI 게이트웨이 / 에이전트 비용 최적화",
+    "summary": "Claude Code, Codex, Cursor, 자체 앱을 Anthropic/OpenAI/Gemini/OpenAI-compatible 모델로 라우팅하는 Go 기반 로컬 프록시. 요청별 모델 선택, BYOK, 로컬 self-host, OTLP 관측성, Codex/Claude Code 설정 패치가 핵심이다."
   }
 ]

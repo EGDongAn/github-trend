@@ -1,0 +1,15 @@
+{
+  "fullName": "bigskysoftware/htmx",
+  "analyzedAt": "2026-08-29T23:00:31.671Z",
+  "repoMeta": {
+    "stars": 49106,
+    "language": "JavaScript",
+    "description": "</> htmx - high power tools for HTML"
+  },
+  "relevance": "low",
+  "category": "프론트엔드/HTML 상호작용 라이브러리",
+  "summary": "htmx는 HTML 속성만으로 AJAX, 서버 렌더링 기반 UI 업데이트, 간단한 실시간 상호작용을 구현하게 해주는 경량 JavaScript 라이브러리다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안 격리와는 직접 관련이 약하다. 다만 내부 운영 대시보드나 Paperclip/Hermes/n8n 관리 UI를 서버 렌더링 중심으로 단순하게 만들 때 비용 낮은 선택지가 될 수 있다.",
+  "integration": "기존 백엔드 관리 화면이나 내부 도구에서 React/Vue 같은 무거운 프론트엔드 대신 htmx를 붙여 간단한 CRUD, 상태 갱신, 작업 큐 보기, 로그 필터링 UI를 구현하는 방식이 적합하다.",
+  "overlaps": "Vercel/기존 웹 프론트엔드 영역과 일부 겹치지만, 오케스트레이션이나 자동화 엔진을 대체하지 않는다. 현재 스택의 핵심 공백을 메우는 도구라기보다 내부 UI 구현 방식 후보에 가깝다."
+}

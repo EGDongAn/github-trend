@@ -1,0 +1,15 @@
+{
+  "fullName": "omacom/omarchy",
+  "analyzedAt": "2026-08-29T23:00:52.134Z",
+  "repoMeta": {
+    "stars": 34752,
+    "language": "Shell",
+    "description": "Beautiful, Modern & Opinionated Linux"
+  },
+  "relevance": "low",
+  "category": "Linux 데스크톱/워크스테이션 배포판",
+  "summary": "Omarchy는 DHH/Basecamp 계열의 의견 강한 Arch 기반 Linux 환경 구성/배포 프로젝트로, 셸 스크립트 중심의 데스크톱·터미널·개발환경 표준화에 가깝다.",
+  "fit": "EG AI GROUP OS의 핵심 공백인 멀티에이전트 오케스트레이션, 로컬 LLM 서빙, MCP, 비밀 격리, 텔레그램 자동화에는 직접 기여하지 않는다. 다만 향후 Mac mini 외에 Linux 에이전트 노드를 만들 때 표준 워크스테이션 이미지 참고용으로는 가치가 있다.",
+  "integration": "직접 도입보다는 별도 Linux 테스트 머신/VM에서 개발자용 베이스 이미지 후보로만 검토. Claude Code, Ollama, n8n, Paperclip 실행 노드의 OS 템플릿으로 쓸 수 있는지 설치 스크립트와 패키지 구성을 확인하는 수준이 적절하다.",
+  "overlaps": "현재 macOS 중심 운영환경, OpenClaw/Ollama/Open WebUI, Claude Code 개발환경과 목적이 일부 겹치지만 기능 대체재는 아니다. 자동화 시스템이 아니라 OS 취향 배포판이라 Paperclip/cmux/Hermes/vault sidecar와의 중복은 낮고, 도입 필요성도 낮다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "workweave/router",
+  "analyzedAt": "2026-08-29T23:00:46.716Z",
+  "repoMeta": {
+    "stars": 2683,
+    "language": "Go",
+    "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change."
+  },
+  "relevance": "high",
+  "category": "모델 라우터 / AI 게이트웨이 / 에이전트 비용 최적화",
+  "summary": "Claude Code, Codex, Cursor, 자체 앱을 Anthropic/OpenAI/Gemini/OpenAI-compatible 모델로 라우팅하는 Go 기반 로컬 프록시. 요청별 모델 선택, BYOK, 로컬 self-host, OTLP 관측성, Codex/Claude Code 설정 패치가 핵심이다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감·코딩 에이전트 자동화 우선순위와 강하게 맞는다. Paperclip/cmux 자체를 대체하진 않지만, 그 위에서 실행되는 Codex/Claude Code/에이전트 호출 비용을 줄이고 모델 선택을 표준화하는 공백을 메운다.",
+  "integration": "Mac mini에 self-host로 띄우고 Claude Code/Codex의 base URL을 router로 지정. OpenRouter/Ollama/OpenAI-compatible 엔드포인트를 함께 물려 비용/성능 정책을 실험한다. 먼저 개인/프로젝트 scope 한 곳에서 A/B로 라우팅 로그, 실패율, 응답 품질, 실제 토큰 비용 절감률을 검증해야 한다.",
+  "overlaps": "Open WebUI/Ollama는 로컬 LLM UI·서빙이고, n8n/Paperclip/cmux는 워크플로·작업 관제라 직접 중복은 낮다. OpenClaw나 기존 MCP 게이트웨이와 일부 프록시 역할은 겹칠 수 있지만, 이 repo의 차별점은 에이전트 호출별 모델 라우팅과 비용 최적화다."
+}

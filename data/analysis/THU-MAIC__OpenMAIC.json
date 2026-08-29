@@ -1,0 +1,15 @@
+{
+  "fullName": "THU-MAIC/OpenMAIC",
+  "analyzedAt": "2026-08-29T23:00:32.306Z",
+  "repoMeta": {
+    "stars": 22152,
+    "language": "TypeScript",
+    "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click"
+  },
+  "relevance": "medium",
+  "category": "멀티에이전트 교육/콘텐츠 생성 플랫폼",
+  "summary": "OpenMAIC는 주제나 문서를 입력하면 AI 교사/학생 에이전트가 강의, 토론, 퀴즈, 시뮬레이션, PPTX/HTML을 생성하는 TypeScript 기반 오픈소스 플랫폼이다. LangGraph 기반 오케스트레이션, Ollama/로컬 provider, OpenClaw 및 Telegram 연동, Docker/셀프호스팅을 지원한다.",
+  "fit": "EG AI GROUP OS의 핵심 오케스트레이션 엔진을 대체할 수준은 아니지만, 내부 교육자료·강의안·PPTX·인터랙티브 학습 콘텐츠 자동 생성에는 직접 활용 가치가 있다. 로컬 LLM/Ollama와 OpenClaw 연동은 로컬 우선·비용 절감 방향과 맞는다.",
+  "integration": "우선 별도 self-hosted 교육 콘텐츠 서비스로 붙이는 것이 적절하다. Hermes/Telegram에서 OpenClaw skill 또는 API 호출로 '자료→강의/PPTX/퀴즈 생성' 작업을 위임하고, 결과물은 Google Drive나 내부 자료실로 저장하는 보조 워커로 통합 가능하다. AGPL-3.0이므로 상업/외부 서비스화 전 라이선스 검토가 필요하다.",
+  "overlaps": "Claude Code/스킬/Paperclip/cmux의 범용 에이전트 운영과는 목적이 다르며 대체재는 아니다. OpenClaw OSS와는 직접 중복·연동 영역이 있고, 기존 PPT/콘텐츠 자동화와는 출력물 생성 기능이 겹친다. 핵심 차별점은 '멀티에이전트 classroom UX + 학습 시나리오 + PPTX/HTML export'에 있다."
+}

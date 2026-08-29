@@ -1,0 +1,15 @@
+{
+  "fullName": "kaifcodec/user-scanner",
+  "analyzedAt": "2026-08-29T23:00:45.017Z",
+  "repoMeta": {
+    "stars": 3508,
+    "language": "Python",
+    "description": "🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 455+ actively maintained scan vectors (175+ email / 280+ username) for security research, investigations, and digital footprinting."
+  },
+  "relevance": "medium",
+  "category": "보안/OSINT 자동화",
+  "summary": "이메일/사용자명 기반 OSINT 스캐너로 455개 이상 벡터를 조회해 디지털 풋프린트와 계정 노출 가능성을 점검하는 Python 도구다.",
+  "fit": "로컬 실행형 보안 조사 도구라는 점은 EG AI GROUP OS의 로컬 우선·보안 감시 방향과 맞는다. 다만 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화의 핵심 공백을 메우지는 않아 high는 아니다.",
+  "integration": "Paperclip 워커나 n8n 워크플로에서 특정 이메일/핸들 점검 태스크로 호출하고, 결과를 Hermes/tg-proxy로 알림화하는 방식이 적합하다. 사용 범위는 내부 자산·본인 계정·허가된 조사로 제한해야 한다.",
+  "overlaps": "기존 MCP/playwright/brave 검색 자동화와 일부 중복되지만, 계정·이메일 특화 스캔 벡터 묶음이라는 점에서 보완재에 가깝다. OpenClaw나 Claude Code를 대체하지 않는다."
+}

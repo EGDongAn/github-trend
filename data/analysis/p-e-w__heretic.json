@@ -1,0 +1,15 @@
+{
+  "fullName": "p-e-w/heretic",
+  "analyzedAt": "2026-08-29T23:00:30.295Z",
+  "repoMeta": {
+    "stars": 28667,
+    "language": "Python",
+    "description": "Fully automatic censorship removal for language models"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 모델 커스터마이징/안전정렬 제거 도구",
+  "summary": "Transformer 계열 로컬 LLM의 거절 성향을 자동으로 줄이는 Python CLI 도구다. Optuna 기반 파라미터 탐색과 abliteration으로 후학습 없이 모델을 변형하는 목적이라, 추론 서버나 RAG가 아니라 모델 개조 파이프라인에 가깝다.",
+  "fit": "로컬 우선·비용 절감 방향과는 일부 맞지만, EG AI GROUP OS의 핵심 공백인 멀티에이전트 오케스트레이션, 텔레그램 관제, 작업 위임, 시크릿 격리에는 직접 기여하지 않는다. 의료/운영 자동화 환경에서는 안전정렬 제거가 컴플라이언스와 평판 리스크를 키울 수 있어 production 도입보다는 폐쇄된 실험 후보가 적절하다.",
+  "integration": "Ollama/Open WebUI/mlx-lm에 투입할 사내 실험용 로컬 모델을 만들 때 별도 GPU 머신 또는 임시 Python/uv 환경에서 실행한다. 결과 모델은 내부 벤치마크, 금지 응답 회귀 테스트, 의료·법무 가드레일 평가를 통과한 경우에만 제한된 워크스페이스에서 사용한다.",
+  "overlaps": "Ollama, Open WebUI, mlx-lm과는 실행 계층이 아니라 모델 공급 계층에서 연결된다. Claude Code/codex, Paperclip, cmux, Hermes를 대체하지 않으며, 기존 로컬 LLM 스택의 선택적 전처리/모델 변형 도구로만 겹친다."
+}
