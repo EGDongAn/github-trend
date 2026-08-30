@@ -1,0 +1,15 @@
+{
+  "fullName": "majd/ipatool",
+  "analyzedAt": "2026-08-30T23:00:32.333Z",
+  "repoMeta": {
+    "stars": 10185,
+    "language": "Go",
+    "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store."
+  },
+  "relevance": "low",
+  "category": "모바일 앱 패키지 다운로드/CLI 도구",
+  "summary": "App Store에서 iOS/iPadOS/tvOS/visionOS용 IPA 패키지를 검색·다운로드하는 Go 기반 CLI다. EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 로컬 LLM, MCP, 자동화 운영과 직접 관련은 약하다.",
+  "fit": "macOS 로컬 CLI라는 점은 맞지만, 용도는 Apple 앱 패키지 확보에 한정된다. 모바일 앱 리버스엔지니어링, 내부 앱 보관, App Store 자산 조사 같은 특수 운영 니즈가 있을 때만 의미가 있다.",
+  "integration": "필요 시 Mac mini에 보조 CLI로 설치해 특정 앱 IPA 수집 작업을 스크립트화할 수 있다. 다만 Hermes/Paperclip/cmux의 핵심 워크플로와 직접 연결할 이유는 약하다.",
+  "overlaps": "현재 스택과 직접 중복되는 핵심 도구는 없다. 다만 자동화 관점에서는 단순 CLI 유틸리티라 기존 cron/Claude Code 스크립트로 호출하는 보조 역할에 그친다."
+}

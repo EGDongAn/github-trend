@@ -1,0 +1,15 @@
+{
+  "fullName": "pollen-robotics/microduck_rl",
+  "analyzedAt": "2026-08-30T23:00:59.306Z",
+  "repoMeta": {
+    "stars": 774,
+    "language": "Python",
+    "description": "RL training environments for Microduck (mjlab)"
+  },
+  "relevance": "low",
+  "category": "로보틱스 강화학습/시뮬레이션",
+  "summary": "Microduck 이족 로봇용 MuJoCo Warp 기반 RL 학습 환경이다. PPO 학습, sim2real, ONNX export, 도메인 랜덤화 등은 로봇 제어에는 의미가 있지만 EG AI GROUP OS의 에이전트 운영·코딩 자동화·로컬 LLM·MCP·비밀 격리 공백과 직접 맞지 않는다.",
+  "fit": "로컬 실행 가능한 Python 학습 환경이라는 점만 약하게 부합한다. Microduck 하드웨어나 로봇 RL 실험 계획이 없다면 현재 스택 도입 필요성은 낮다.",
+  "integration": "별도 실험 샌드박스로 CUDA 머신에서 RL 정책 학습을 돌리고, ONNX export 결과를 관찰하는 정도가 적절하다. Paperclip/cmux/Hermes/Claude Code 운영 파이프라인에는 직접 통합 가치가 작다.",
+  "overlaps": "기존 스택과 기능 중복은 거의 없다. 다만 로컬 GPU 의존, uv/CUDA 휠, 실험 데이터 관리 부담이 추가되며 운영 자동화 ROI는 낮다."
+}

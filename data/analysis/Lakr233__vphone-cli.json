@@ -1,0 +1,15 @@
+{
+  "fullName": "Lakr233/vphone-cli",
+  "analyzedAt": "2026-08-30T23:00:38.860Z",
+  "repoMeta": {
+    "stars": 9579,
+    "language": "Swift",
+    "description": null
+  },
+  "relevance": "medium",
+  "category": "로컬 iOS 가상화 / 모바일 자동화 / MCP 후보",
+  "summary": "Apple Silicon macOS에서 Virtualization.framework로 가상 iPhone을 부팅·관리하는 CLI. VM 생성, 펌웨어 패치, DFU restore, jailbreak variant, SSH/VNC 접속, 자동화용 vphone.sock을 제공하며 README상 vphone-mcp 연동도 언급된다. 출처: https://github.com/Lakr233/vphone-cli",
+  "fit": "EG AI GROUP OS의 핵심인 에이전트 오케스트레이션이나 로컬 LLM에는 직접 기여하지 않지만, 로컬 우선 모바일 테스트/자동화 환경으로는 의미가 있다. 특히 에이전트가 iOS 화면 캡처·터치·스와이프를 제어하는 E2E 테스트 실험에는 적합하다. 다만 SIP/AMFI 완화, private entitlement, jailbreak 패치가 필요해 운영 Mac mini 본체보다는 격리된 실험용 Apple Silicon Mac에서만 검토해야 한다.",
+  "integration": "vphone-cli를 별도 격리 호스트에 설치하고, vphone-mcp 또는 vphone.sock을 MCP 도구로 감싸 Claude Code/codex 에이전트가 iOS VM을 조작하게 한다. 활용 범위는 EGSKIN/EGSNS 모바일 웹 QA, iOS 앱 설치 테스트, 자동 스크린샷 회귀 테스트 정도로 제한하는 것이 현실적이다.",
+  "overlaps": "Playwright와 E2E 자동화 목적은 겹치지만 Playwright는 브라우저 중심이고 vphone-cli는 실제 iOS VM 조작이라 보완 관계다. cmux/Paperclip/Hermes/Claude Code를 대체하지 않는다. 보안 격리 측면에서는 현재 vault/sidecar 원칙과 충돌 가능성이 있어 운영 시크릿이 있는 주 환경에 넣으면 안 된다."
+}

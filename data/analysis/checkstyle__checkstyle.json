@@ -1,0 +1,15 @@
+{
+  "fullName": "checkstyle/checkstyle",
+  "analyzedAt": "2026-08-30T23:00:29.488Z",
+  "repoMeta": {
+    "stars": 9185,
+    "language": "Java",
+    "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program."
+  },
+  "relevance": "low",
+  "category": "Java 정적 분석/코딩 스타일 검사",
+  "summary": "Java 코드가 정해진 코딩 표준을 따르는지 검사하는 성숙한 정적 분석 도구다. Google Java Style, Sun Code Conventions 등을 지원하고 CLI/Ant로 실행 가능하다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM, MCP, 비밀 격리, 자동화 인프라와는 직접 관련이 약하다. 다만 Java 기반 내부 도구나 에이전트 워커가 있다면 CI 품질 게이트로 사용할 수 있다.",
+  "integration": "Java 프로젝트가 있는 경우 GitHub Actions 또는 로컬 pre-commit/CI 단계에 Checkstyle을 추가해 코드 스타일 위반을 차단한다. Claude Code/codex가 생성한 Java 코드의 형식 일관성 검증에도 보조적으로 쓸 수 있다.",
+  "overlaps": "이미 GitHub Actions를 보유하고 있으므로 별도 운영 시스템 공백을 메우지는 않는다. ESLint/Prettier류와 역할이 유사하지만 Java 전용이다. Paperclip, cmux, Hermes, 로컬 LLM 스택과 기능 중복은 거의 없다."
+}

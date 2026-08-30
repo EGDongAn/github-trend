@@ -1,0 +1,15 @@
+{
+  "fullName": "handsomestWei/patent-disclosure-skill",
+  "analyzedAt": "2026-08-30T23:00:54.022Z",
+  "repoMeta": {
+    "stars": 5628,
+    "language": "Python",
+    "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。"
+  },
+  "relevance": "medium",
+  "category": "Agent Skill / 특허 문서 자동화",
+  "summary": "중국 특허용 Agent Skill로, 프로젝트 문서·코드에서 특허 포인트를 발굴하고 교底서/Word 산출, CNIPA 선행기술 검색, 탈민감 처리, 특허 PDF 해설 및 Obsidian 지식화까지 지원한다.",
+  "fit": "EG AI GROUP OS의 핵심 오케스트레이션/로컬 LLM/코딩 자동화 공백을 메우는 도구는 아니지만, Claude Code 스킬 생태계에 바로 붙일 수 있는 도메인 특화 자동화다. EGSKIN·플랫폼 개발 산출물에서 특허 후보를 정리하거나 중국 특허를 읽는 업무가 있다면 유용하다.",
+  "integration": "Claude Code skills 디렉터리에 설치해 `/交底书`, `/patent-read` 계열 작업으로 사용. 특허 검토 대상 repo나 문서 폴더를 입력으로 주고, 산출물은 Markdown/Docx 또는 Obsidian vault로 저장하게 구성한다. CNIPA 검색은 Playwright/Chromium 의존성이 있어 별도 격리 환경에서 실행하는 편이 좋다.",
+  "overlaps": "이미 보유한 Claude Code 스킬 체계와는 형식상 중복이지만, 특허 발굴·교底서 작성이라는 콘텐츠가 특화되어 있다. Paperclip/cmux/Hermes/로컬 LLM 인프라를 대체하지 않으며, 일반 문서 작성·Obsidian 정리 자동화와 일부 겹친다."
+}

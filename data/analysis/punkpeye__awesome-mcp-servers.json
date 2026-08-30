@@ -1,0 +1,15 @@
+{
+  "fullName": "punkpeye/awesome-mcp-servers",
+  "analyzedAt": "2026-08-30T23:00:40.905Z",
+  "repoMeta": {
+    "stars": 93292,
+    "language": null,
+    "description": "A collection of MCP servers."
+  },
+  "relevance": "medium",
+  "category": "MCP 서버 카탈로그 / 도구 디스커버리",
+  "summary": "MCP 서버를 분야별로 모아 둔 큐레이션 repo다. 자체 실행 엔진이나 오케스트레이터가 아니라, EG AI GROUP OS에 붙일 후보 MCP 서버를 찾는 색인 역할이 핵심이다. 로컬 서비스, macOS, 보안, 코드 실행, 브라우저 자동화, DB, 모니터링 등 현재 스택과 맞는 항목을 선별하는 데 유용하다.",
+  "fit": "MCP 확장 후보를 빠르게 발굴하는 용도로는 적합하다. 다만 도입 자체가 시스템 능력을 즉시 업그레이드하지는 않으므로 high는 아니다. Claude Code/codex/cmux/Paperclip의 실행·관제 공백을 직접 메우기보다, 그 주변 도구를 찾는 레퍼런스에 가깝다.",
+  "integration": "주기적으로 repo 또는 Glama 디렉터리를 스캔해 로컬/셀프호스트/보안/개발자동화 MCP 후보만 Paperclip 백로그로 넣는다. 후보별로 라이선스, self-host 가능 여부, secret 격리 방식, macOS 호환성, Claude Code 연결 설정을 검증한 뒤 cmux 작업실에 단계적으로 추가한다.",
+  "overlaps": "이미 MCP 서버를 다수 보유하고 있으므로 단순 목록으로는 중복이다. context7, brave, playwright, google-drive 같은 기존 MCP와 직접 겹치는 항목도 많다. 가치는 대체가 아니라 신규 MCP 후보 발굴과 품질 비교에 있다."
+}

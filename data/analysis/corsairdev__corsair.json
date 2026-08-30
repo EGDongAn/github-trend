@@ -1,0 +1,15 @@
+{
+  "fullName": "corsairdev/corsair",
+  "analyzedAt": "2026-08-30T23:01:00.240Z",
+  "repoMeta": {
+    "stars": 10927,
+    "language": "TypeScript",
+    "description": "Connect your users to their apps"
+  },
+  "relevance": "medium",
+  "category": "에이전트 통합/권한 게이트웨이, MCP/외부 앱 커넥터",
+  "summary": "Corsair는 에이전트가 Gmail, Slack, GitHub 등 외부 앱 API를 안전하게 호출하도록 OAuth 연결, 권한 모드, 웹훅, 멀티테넌트 credential 저장을 제공하는 TypeScript 통합 레이어다. MCP 어댑터와 scoped auth가 핵심이다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·보안 격리·에이전트 도구 호출 방향과 맞는다. 특히 에이전트에게 직접 앱 토큰을 주지 않고 읽기/쓰기/승인 정책을 둘 수 있는 점은 유용하다. 다만 현재도 MCP, vault sidecar, google-drive 등 개별 커넥터가 있어 즉시 필수 공백은 아니다.",
+  "integration": "Paperclip/Claude Code/codex 에이전트가 외부 SaaS 작업을 수행할 때 Corsair를 중간 권한 게이트웨이로 두는 방식이 적합하다. 우선 Gmail/Slack/GitHub 같은 고위험 write 작업에 readonly/strict 정책을 적용하고, credential은 자체 DB와 기존 vault 체계에 맞춰 보관하는 PoC가 현실적이다.",
+  "overlaps": "기존 MCP 커넥터, Hermes/tg-proxy 알림, vault sidecar와 일부 중복된다. Corsair의 가치는 단순 커넥터 추가가 아니라 OAuth 연결 UX, 앱별 권한 정책, 에이전트용 통합 API를 한 레이어로 묶는 데 있다. Hub 사용 시 클라우드 의존이 생기므로 self-host/manual 구성이 전제다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "colinhacks/zod",
+  "analyzedAt": "2026-08-30T23:00:58.663Z",
+  "repoMeta": {
+    "stars": 43641,
+    "language": "TypeScript",
+    "description": "TypeScript-first schema validation with static type inference"
+  },
+  "relevance": "low",
+  "category": "개발 도구 / 스키마 검증 라이브러리",
+  "summary": "Zod는 TypeScript 런타임 스키마 검증과 정적 타입 추론을 결합한 라이브러리다. API 입력값, 설정 파일, 웹훅 payload, 에이전트 간 메시지 구조 검증에는 유용하다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 멀티에이전트 오케스트레이션, 로컬 LLM, MCP, 시크릿 격리 자체를 직접 강화하지는 않는다. 다만 Hermes, Paperclip, n8n 연동 코드처럼 TypeScript 경계가 많은 부분에서 데이터 계약 안정성을 높이는 보조 도구로는 적합하다.",
+  "integration": "TypeScript 기반 서비스나 봇/웹훅 핸들러에서 env, API request/response, 에이전트 작업 payload 검증에 부분 도입. 기존 JS/TS 코드가 없다면 별도 도입 이유는 약함.",
+  "overlaps": "기존 실행 엔진, cmux, Paperclip, vault, n8n과 기능 중복은 거의 없다. 다만 단독 시스템 컴포넌트가 아니라 애플리케이션 내부 검증 라이브러리이므로 도입 효과는 해당 코드베이스가 TypeScript일 때로 제한된다."
+}
