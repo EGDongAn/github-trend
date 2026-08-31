@@ -1,0 +1,15 @@
+{
+  "fullName": "jingyaogong/minimind",
+  "analyzedAt": "2026-08-31T23:00:27.820Z",
+  "repoMeta": {
+    "stars": 56059,
+    "language": "Python",
+    "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 학습/경량 모델 실험",
+  "summary": "MiniMind는 64M급 초소형 LLM을 PyTorch로 처음부터 학습하는 교육용/실험용 repo다. pretrain, SFT, LoRA, DPO/RLAIF, tool use, distillation까지 end-to-end 파이프라인을 제공하고, 단일 개인 GPU에서 재현 가능한 저비용 학습을 목표로 한다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감 방향과는 잘 맞지만, 즉시 Ollama/qwen3/gemma를 대체할 운영 모델은 아니다. 핵심 가치는 프로덕션 서빙보다 로컬 LLM 훈련 파이프라인 학습, 소형 도메인 모델 실험, RAG/에이전트용 경량 모델 튜닝 베이스에 있다.",
+  "integration": "Ollama/mlx-lm 운영 모델을 대체하지 말고 별도 실험 repo로 두는 것이 적절하다. 진료/운영 문서의 내부 데이터로 SFT·LoRA 소형 모델을 만들어보고, 성능이 확인되면 Open WebUI 또는 내부 에이전트의 저비용 보조 모델 후보로 연결한다. GPU 자원, 한국어 성능, GGUF/MLX 변환 가능성은 별도 검증이 필요하다.",
+  "overlaps": "Ollama, mlx-lm, Open WebUI와 '로컬 LLM' 영역이 겹치지만 역할이 다르다. 기존 스택은 추론/사용 중심이고 MiniMind는 학습/재현/튜닝 중심이다. Paperclip, cmux, Hermes 같은 오케스트레이션 도구와는 직접 중복이 거의 없다."
+}
