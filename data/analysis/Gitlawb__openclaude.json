@@ -1,0 +1,15 @@
+{
+  "fullName": "Gitlawb/openclaude",
+  "analyzedAt": "2026-09-01T23:00:45.592Z",
+  "repoMeta": {
+    "stars": 31250,
+    "language": "TypeScript",
+    "description": "runs anywhere. uses anything"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 CLI / 로컬·클라우드 LLM 실행 어댑터",
+  "summary": "OpenClaude는 터미널 기반 오픈소스 코딩 에이전트로, OpenAI 호환 API, Gemini, GitHub Models, Codex, Ollama 등 여러 모델 백엔드를 한 CLI에서 쓰고 bash/file/grep/glob/MCP/skills/스트리밍/세션 기능을 제공한다. 참고: https://openclaude.gitlawb.com/ 및 https://github.com/Gitlawb/openclaude",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감 방향과 잘 맞고, Ollama/오픈AI 호환 게이트웨이를 통해 Claude Code 의존도를 낮추는 보조 실행 엔진 후보가 될 수 있다. 다만 이미 Claude Code, codex exec, OpenClaw, Ollama, MCP가 있어 즉시 필수 공백을 메우는 수준은 아니다.",
+  "integration": "1차는 대체가 아니라 샌드박스 보조 CLI로 설치해 Ollama/qwen 계열 프로필, MCP 서버, non-interactive JSON/stream 출력, repo별 설정을 검증한다. 이후 Hermes/Paperclip 워커에서 특정 저비용 코드 작업을 OpenClaude로 라우팅하는 실험이 적절하다.",
+  "overlaps": "Claude Code와 가장 크게 겹친다. OpenClaw OSS, codex exec, 기존 MCP/skills 체계와도 중복된다. 차별점은 모델 중립성과 로컬/오픈AI 호환 백엔드 전환성이며, 라이선스·Claude Code 파생 구조와 안정성은 도입 전 확인이 필요하다."
+}

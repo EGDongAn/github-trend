@@ -1,0 +1,15 @@
+{
+  "fullName": "Imbad0202/academic-research-skills",
+  "analyzedAt": "2026-09-01T23:00:44.989Z",
+  "repoMeta": {
+    "stars": 44843,
+    "language": "Python",
+    "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize"
+  },
+  "relevance": "medium",
+  "category": "Claude Code 스킬 / 학술 리서치 워크플로",
+  "summary": "Claude Code용 학술 연구 스킬 묶음으로, 문헌조사, 논문 작성, 리뷰, 수정, 최종화 흐름을 에이전트/스크립트 기반으로 표준화한다. EG AI GROUP OS의 핵심 인프라보다는 콘텐츠·논문 리서치 자동화 보강재에 가깝다.",
+  "fit": "Column Studio, 의료/미용 논문 서치, KSFM 자료 작성처럼 근거 기반 콘텐츠가 필요한 작업에는 잘 맞는다. 다만 Paperclip/cmux/Hermes/vault 같은 운영 OS의 핵심 공백을 메우는 도구는 아니며, 이미 Claude Code 스킬 체계가 있으므로 도입 가치는 특정 리서치 워크플로 품질 향상에 한정된다.",
+  "integration": "Claude Code plugin 또는 ~/.claude/skills에 deep-research, academic-paper, academic-paper-reviewer, academic-pipeline 스킬을 설치해 기존 Claude Code 스킬셋에 추가한다. EG 쪽에서는 의료 키워드 문헌조사와 원고 검수 단계에만 제한적으로 연결하고, 자동 게시 전에는 citation 검증과 국내 의료광고 기준 검토를 별도 게이트로 둔다.",
+  "overlaps": "기존 Claude Code 스킬 200+, Column Studio의 evidence/writing 파이프라인, paper-search 계열 작업과 일부 중복된다. 대체재라기보다 학술 논문형 산출물에 특화된 보조 스킬이며, 멀티에이전트 관제·작업위임·비밀관리·텔레그램 게이트웨이와는 직접 중복이 적다."
+}

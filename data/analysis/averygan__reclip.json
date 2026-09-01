@@ -1,0 +1,15 @@
+{
+  "fullName": "averygan/reclip",
+  "analyzedAt": "2026-09-01T23:00:31.963Z",
+  "repoMeta": {
+    "stars": 7615,
+    "language": "HTML",
+    "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI."
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 미디어 다운로드 / 웹 UI",
+  "summary": "여러 웹사이트에서 영상을 내려받는 경량 셀프호스팅 도구다. 로컬 우선과 셀프호스팅 성향은 맞지만, 핵심 스택인 에이전트 오케스트레이션, 코딩 자동화, 로컬 LLM, MCP, 보안 격리와는 직접 관련이 약하다.",
+  "fit": "콘텐츠 수집 파이프라인에서 영상 자료를 로컬로 보관하거나, 마케팅/리서치용 미디어 아카이빙을 자동화할 때 보조 도구로 쓸 수 있다. 다만 EG AI GROUP OS의 운영 자동화 핵심 공백을 메우는 도구는 아니다.",
+  "integration": "n8n 또는 Hermes 명령에서 특정 URL을 받아 reclip에 다운로드 요청을 보내고, 결과 파일을 로컬 스토리지/RAG 인덱싱/콘텐츠 워크플로에 넘기는 보조 단계로 붙일 수 있다.",
+  "overlaps": "기존 스택의 n8n, 로컬 스크립트, yt-dlp 기반 다운로드 작업과 일부 중복된다. clean web UI와 셀프호스팅 패키징이 장점일 수 있으나, 단순 다운로드 기능만으로는 대체/업그레이드 근거가 약하다."
+}
