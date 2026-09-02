@@ -1,0 +1,15 @@
+{
+  "fullName": "sngyai/Sequoia-X",
+  "analyzedAt": "2026-09-02T23:00:28.747Z",
+  "repoMeta": {
+    "stars": 6019,
+    "language": "Python",
+    "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书"
+  },
+  "relevance": "low",
+  "category": "금융/퀀트 주식 스크리너 자동화",
+  "summary": "A주 시장용 자동 종목선정 시스템이다. baostock으로 일봉 데이터를 받아 로컬 SQLite에 저장하고, 여러 기술적 패턴 전략을 장마감 후 실행한 뒤 Feishu로 알림을 보낸다.",
+  "fit": "EG AI GROUP OS의 핵심 우선순위인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안 격리와 직접 관련이 거의 없다. 로컬 실행, cron, SQLite, 알림 발송이라는 운영 패턴은 맞지만 도메인이 중국 주식 스크리닝에 고정되어 있어 현재 스택의 명확한 공백을 메우지는 않는다.",
+  "integration": "독립 cron 잡으로만 붙일 수 있다. Feishu 알림을 Hermes/tg-proxy 텔레그램 알림으로 바꾸고, SQLite 결과를 n8n이나 Paperclip 작업 입력으로 넘기는 정도가 현실적이다. 핵심 OS 구성요소로 통합할 이유는 약하다.",
+  "overlaps": "cron 기반 자동 실행은 기존 LaunchAgent/n8n 워치독과 겹치고, 알림 발송은 Hermes/tg-proxy와 겹친다. 데이터 저장은 로컬 SQLite라 Paperclip의 임베디드 PG와 운영 철학은 비슷하지만 목적이 완전히 다르다."
+}

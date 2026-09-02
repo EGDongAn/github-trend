@@ -1,0 +1,15 @@
+{
+  "fullName": "debpalash/VoiceStudio",
+  "analyzedAt": "2026-09-02T23:00:23.252Z",
+  "repoMeta": {
+    "stars": 14616,
+    "language": "Python",
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+  },
+  "relevance": "medium",
+  "category": "로컬 음성 AI / TTS-STT / 더빙 자동화",
+  "summary": "완전 로컬 ElevenLabs 대안으로 음성 클로닝, 음성 디자인, 더빙, 받아쓰기, 전사, 오디오북 생성까지 다루는 Python 기반 음성 스튜디오다. EG AI GROUP OS의 핵심 축인 코딩 에이전트/오케스트레이션 자체는 아니지만, 로컬 우선·비용 절감·콘텐츠 자동화에는 맞는다.",
+  "fit": "콘텐츠 제작, 영상 더빙, 전사/요약 파이프라인, 텔레그램 음성 지시 처리, 로컬 음성 합성 워크플로에 붙일 수 있어 실용성은 있다. 다만 현재 우선순위 1~3의 핵심 공백을 직접 메우지는 않으므로 high는 아니다.",
+  "integration": "Hermes 또는 tg-proxy에 음성 입력 전사 모듈로 연결하거나, Column Studio/콘텐츠 파이프라인의 영상 더빙·나레이션 생성 백엔드로 붙이는 방식이 적합하다. 로컬 Mac mini에서 모델·GPU/CPU 성능, 지연시간, 음성 클론 품질, 라이선스와 상업적 사용 조건을 별도 검증해야 한다.",
+  "overlaps": "Open WebUI/Ollama/mlx-lm과는 LLM이 아니라 음성 I/O 영역이라 직접 중복은 작다. 전사 기능은 기존 STT 도구가 있다면 일부 중복될 수 있고, ElevenLabs 같은 외부 SaaS를 이미 쓴다면 로컬 대체 후보가 된다."
+}

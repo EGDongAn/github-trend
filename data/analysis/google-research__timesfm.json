@@ -1,0 +1,15 @@
+{
+  "fullName": "google-research/timesfm",
+  "analyzedAt": "2026-09-02T23:00:20.595Z",
+  "repoMeta": {
+    "stars": 29698,
+    "language": "Python",
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting."
+  },
+  "relevance": "low",
+  "category": "로컬 LLM/RAG·예측 모델 후보",
+  "summary": "Google Research의 시계열 예측 foundation model. 운영 로그, 비용, 예약, 재고, 트래픽 같은 시계열 예측에는 쓸 수 있지만 EG AI GROUP OS의 핵심인 에이전트 오케스트레이션, 코딩 자동화, MCP, 보안 격리와는 직접 관련이 약하다.",
+  "fit": "로컬 우선 가치에는 일부 부합한다. 자체 실행 가능한 Python 모델/라이브러리라면 클라우드 종속 없이 예측 기능을 붙일 수 있지만, 주 용도는 범용 AI 운영체제 보강이 아니라 forecasting 특화 기능이다.",
+  "integration": "n8n/Hermes/Paperclip에서 수집한 작업량, 알림 빈도, 재고·매출·콘텐츠 성과 데이터를 배치로 예측하는 별도 analytics worker로 붙이는 정도가 적절하다. Ollama/Claude Code 계층을 대체하지 않는다.",
+  "overlaps": "기존 스택과 직접 중복은 작다. 다만 현재 우선순위의 로컬 LLM은 대화·코딩·RAG 중심이고 TimesFM은 시계열 예측 전용이라, 운영 데이터 예측 니즈가 명확하지 않으면 도입 이유가 약하다."
+}

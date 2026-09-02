@@ -1,0 +1,15 @@
+{
+  "fullName": "superlinked/sie",
+  "analyzedAt": "2026-09-02T23:00:38.665Z",
+  "repoMeta": {
+    "stars": 3038,
+    "language": "Python",
+    "description": "Open-source inference server and production cluster for all the models your agent needs."
+  },
+  "relevance": "high",
+  "category": "로컬 LLM 추론/서빙/RAG 인프라",
+  "summary": "SIE는 에이전트가 쓰는 임베딩, rerank, OCR/문서→마크다운, 구조화 추출, 안전성 판정, 오픈 LLM 호출을 OpenAI 호환 API로 묶어 서빙하는 오픈소스 추론 서버/클러스터다. macOS/리눅스 로컬 실행과 Docker, Kubernetes 운영 스택을 제공한다.",
+  "fit": "EG AI GROUP OS의 로컬 우선·비용 절감 방향과 강하게 맞다. Ollama/Open WebUI가 일반 LLM 실행에 가깝다면, SIE는 에이전트 작업에 필요한 보조 모델들을 통합 API로 제공해 RAG, 문서 처리, 검색 품질, 토큰 비용 절감에 직접 기여할 수 있다.",
+  "integration": "우선 Mac mini에서 `sie-server[local]` 또는 CPU Docker로 OpenAI-compatible endpoint를 띄우고, Claude Code/codex/Hermes/Paperclip 워커의 embeddings, rerank, OCR, extraction 호출을 `base_url` 전환 방식으로 연결한다. 이후 사용량이 늘면 n8n/cron 감시와 Grafana, 필요 시 Kubernetes 배포를 검토한다.",
+  "overlaps": "Ollama/vLLM류 로컬 서빙, Open WebUI, 기존 RAG/vector DB 구성과 일부 겹친다. 하지만 SIE의 차별점은 단일 채팅 모델 서버가 아니라 검색·OCR·rerank·구조화 추출·가드 모델까지 묶은 에이전트용 inference layer라는 점이다. Paperclip/cmux를 대체하기보다는 하위 추론 인프라로 보강하는 성격이다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "fmtlib/fmt",
+  "analyzedAt": "2026-09-02T23:00:18.923Z",
+  "repoMeta": {
+    "stars": 24211,
+    "language": "C++",
+    "description": "A modern formatting library"
+  },
+  "relevance": "none",
+  "category": "C++ 포매팅 라이브러리",
+  "summary": "fmt는 C++용 문자열 포매팅 라이브러리로, 성능과 타입 안전성을 제공하며 C++20 std::format의 기반으로 널리 쓰인다.",
+  "fit": "EG AI GROUP OS의 핵심 축인 에이전트 오케스트레이션, 로컬 LLM, MCP, 자동화, 보안 격리와 직접 관련이 없다. C++ 컴포넌트를 새로 작성하거나 기존 네이티브 에이전트 런타임을 최적화할 때만 간접 유용성이 있다.",
+  "integration": "-",
+  "overlaps": "현재 스택 대부분이 CLI, Python/JS, 텔레그램, 워크플로, 로컬 LLM 중심이라 실질적 중복은 없다. 다만 도입 목적도 불명확해 시스템 레벨 보강 효과가 없다."
+}

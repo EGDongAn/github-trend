@@ -1,0 +1,15 @@
+{
+  "fullName": "vercel-labs/portless",
+  "analyzedAt": "2026-09-02T23:00:48.222Z",
+  "repoMeta": {
+    "stars": 11710,
+    "language": "TypeScript",
+    "description": "Replace port numbers with stable, named local URLs. For humans and agents."
+  },
+  "relevance": "medium",
+  "category": "로컬 개발 URL/리버스 프록시 자동화",
+  "summary": "port 번호 대신 `https://이름.localhost` 같은 안정적인 로컬 URL을 제공하는 TypeScript CLI다. 로컬 CA, HTTPS/HTTP2, worktree별 서브도메인, monorepo dev script 실행, `/etc/hosts` 동기화, Tailscale/ngrok 공유를 지원한다.",
+  "fit": "EG AI GROUP OS의 핵심인 멀티에이전트 오케스트레이션이나 로컬 LLM 공백을 직접 메우지는 않지만, Mac mini에서 여러 dev server, 에이전트 작업실, OAuth 콜백, 브라우저 자동화 URL을 안정적으로 다루는 데 실용적이다. 포트 충돌과 임시 localhost 포트 전달 문제를 줄일 수 있어 개발 자동화 보강 후보로 적합하다.",
+  "integration": "우선 글로벌 CLI로 설치해 Claude Code/codex/Paperclip 작업 repo의 `dev` script에 `portless run`을 선택 적용한다. Hermes, OpenClaw, WebUI, n8n 같은 상시 서비스에는 바로 붙이기보다 개발용 앱과 PR/worktree 미리보기부터 적용하고, `portless doctor`, `service install`, CA trust, `/etc/hosts` 변경 권한을 별도 검증한다.",
+  "overlaps": "ngrok/Tailscale 공유, Vercel dev workflow, 수동 localhost 포트 관리와 일부 겹친다. 다만 목적은 외부 터널보다 로컬 named URL 안정화라서 완전 중복은 아니다. 단점은 pre-1.0, Node.js 24+ 요구, sudo/로컬 CA/hosts 수정이 있어 보안 격리 정책과 운영 LaunchAgent 충돌 여부를 확인해야 한다."
+}

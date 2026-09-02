@@ -58,5 +58,7 @@
   "browser-use/browser-use",
   "thedotmack/claude-mem",
   "Osmantic/ODS",
-  "workweave/router"
+  "workweave/router",
+  "superlinked/sie",
+  "pacifio/atlas"
 ]

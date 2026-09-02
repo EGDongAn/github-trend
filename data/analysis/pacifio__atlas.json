@@ -1,0 +1,15 @@
+{
+  "fullName": "pacifio/atlas",
+  "analyzedAt": "2026-09-02T23:00:37.715Z",
+  "repoMeta": {
+    "stars": 2844,
+    "language": "Rust",
+    "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트 관제 / 에이전트 소스컨트롤",
+  "summary": "Claude Code, Codex 등 여러 코딩 에이전트의 세션·프롬프트·툴콜·파일 변경·커밋 체크포인트를 로컬 DB로 기록하고, 에이전트 간 공유 메모리와 검색 가능한 히스토리를 제공하는 도구다.",
+  "fit": "EG AI GROUP OS의 핵심 공백인 ‘여러 에이전트가 무엇을 왜 바꿨는지’를 추적하는 계층에 직접 맞는다. 로컬 우선, Claude Code/Codex 연동, AGENTS.md/CLAUDE.md/지식 노트 통합, 세션-커밋 연결은 Paperclip·cmux 운영을 보강할 가치가 크다.",
+  "integration": "Mac mini에 Atlas를 로컬 앱/워크스페이스 단위로 붙여 Claude Code와 Codex 세션을 Atlas 경유로 실행한다. 우선 한 repo에서 `.atlas` 세션 기록, 커밋 체크포인트, shared memory, transcript import를 검증하고, 이후 cmux 관제실에는 Atlas를 ‘변경 이력/의사결정 검색 UI’로 연결한다. Paperclip 이슈 ID를 커밋/세션 메타에 남기면 이슈→에이전트→변경 결과 추적이 좋아진다.",
+  "overlaps": "cmux의 멀티세션 관제, Paperclip의 작업 위임, 기존 Codex/Claude 메모리와 일부 겹친다. 다만 Atlas는 작업 배분보다는 세션 기록·변경 추적·공유 컨텍스트에 강하므로 대체보다 보강 포지션이 적합하다. 조직 동기화/계정 기능은 로컬 우선 원칙에 맞게 비활성 또는 선택 도입해야 한다."
+}

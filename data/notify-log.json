@@ -658,5 +658,27 @@
     "stars": 2683,
     "category": "모델 라우터 / AI 게이트웨이 / 에이전트 비용 최적화",
     "summary": "Claude Code, Codex, Cursor, 자체 앱을 Anthropic/OpenAI/Gemini/OpenAI-compatible 모델로 라우팅하는 Go 기반 로컬 프록시. 요청별 모델 선택, BYOK, 로컬 self-host, OTLP 관측성, Codex/Claude Code 설정 패치가 핵심이다."
+  },
+  {
+    "date": "2026-09-02",
+    "sentAt": "2026-09-02T23:00:49.867Z",
+    "fullName": "superlinked/sie",
+    "owner": "superlinked",
+    "name": "sie",
+    "url": "https://github.com/superlinked/sie",
+    "stars": 3038,
+    "category": "로컬 LLM 추론/서빙/RAG 인프라",
+    "summary": "SIE는 에이전트가 쓰는 임베딩, rerank, OCR/문서→마크다운, 구조화 추출, 안전성 판정, 오픈 LLM 호출을 OpenAI 호환 API로 묶어 서빙하는 오픈소스 추론 서버/클러스터다. macOS/리눅스 로컬 실행과 Docker, Kubernetes 운영 스택을 제공한다."
+  },
+  {
+    "date": "2026-09-02",
+    "sentAt": "2026-09-02T23:00:49.867Z",
+    "fullName": "pacifio/atlas",
+    "owner": "pacifio",
+    "name": "atlas",
+    "url": "https://github.com/pacifio/atlas",
+    "stars": 2844,
+    "category": "코딩 에이전트 관제 / 에이전트 소스컨트롤",
+    "summary": "Claude Code, Codex 등 여러 코딩 에이전트의 세션·프롬프트·툴콜·파일 변경·커밋 체크포인트를 로컬 DB로 기록하고, 에이전트 간 공유 메모리와 검색 가능한 히스토리를 제공하는 도구다."
   }
 ]
