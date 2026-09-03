@@ -60,5 +60,6 @@
   "Osmantic/ODS",
   "workweave/router",
   "superlinked/sie",
-  "pacifio/atlas"
+  "pacifio/atlas",
+  "magnitudedev/magnitude"
 ]

@@ -680,5 +680,16 @@
     "stars": 2844,
     "category": "코딩 에이전트 관제 / 에이전트 소스컨트롤",
     "summary": "Claude Code, Codex 등 여러 코딩 에이전트의 세션·프롬프트·툴콜·파일 변경·커밋 체크포인트를 로컬 DB로 기록하고, 에이전트 간 공유 메모리와 검색 가능한 히스토리를 제공하는 도구다."
+  },
+  {
+    "date": "2026-09-03",
+    "sentAt": "2026-09-03T23:00:30.581Z",
+    "fullName": "magnitudedev/magnitude",
+    "owner": "magnitudedev",
+    "name": "magnitude",
+    "url": "https://github.com/magnitudedev/magnitude",
+    "stars": 1921,
+    "category": "로컬 LLM 추론/서빙, 코딩 에이전트 인프라",
+    "summary": "로컬 하드웨어를 프로파일링해 적합한 모델을 추천하고 다운로드·튜닝·서빙하는 오픈소스 inference server. Codex, Claude Code, Hermes, OpenClaw 등 현재 EG AI GROUP OS 핵심 에이전트와 직접 연결되는 점이 강하다."
   }
 ]

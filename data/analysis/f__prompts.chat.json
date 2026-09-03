@@ -1,0 +1,15 @@
+{
+  "fullName": "f/prompts.chat",
+  "analyzedAt": "2026-09-03T23:00:22.064Z",
+  "repoMeta": {
+    "stars": 168954,
+    "language": "HTML",
+    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
+  },
+  "relevance": "low",
+  "category": "프롬프트 라이브러리/셀프호스팅 지식베이스",
+  "summary": "커뮤니티 프롬프트를 수집·검색·공유하는 오픈소스 웹 앱이다. 조직 내부용으로 셀프호스팅 가능하다는 점은 맞지만, 핵심은 에이전트 실행·오케스트레이션이 아니라 프롬프트 카탈로그다.",
+  "fit": "EG AI GROUP OS의 핵심 공백을 메우지는 않는다. Claude Code 스킬, Paperclip, Hermes, 로컬 LLM 운영을 직접 강화하지 않으며, 프롬프트 표준화나 내부 프롬프트 위키 용도로만 제한적으로 쓸 수 있다.",
+  "integration": "내부 프롬프트 레지스트리로 self-host 후, Claude Code 스킬/운영 프롬프트/텔레그램 명령 템플릿을 정리하는 보조 포털로 연결 가능. 단, 실행 자동화는 별도 구현 필요.",
+  "overlaps": "기존 스킬 200+, 운영 문서, 프롬프트/워크플로 메모리와 기능적으로 겹친다. 도입하려면 단순 프롬프트 모음이 아니라 내부 승인된 프롬프트 저장소·검색 UI로 쓸 명확한 이유가 있어야 한다."
+}
