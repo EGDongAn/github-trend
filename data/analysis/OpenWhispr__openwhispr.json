@@ -1,0 +1,15 @@
+{
+  "fullName": "OpenWhispr/openwhispr",
+  "analyzedAt": "2026-09-04T23:00:33.785Z",
+  "repoMeta": {
+    "stars": 6743,
+    "language": "JavaScript",
+    "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform."
+  },
+  "relevance": "medium",
+  "category": "로컬 음성 입력/STT, 회의 전사, MCP 연동 도구",
+  "summary": "OpenWhispr는 macOS/Windows/Linux용 오픈소스 음성-텍스트 앱으로, 로컬 Whisper·NVIDIA Parakeet 전사와 BYOK 클라우드 모델, 회의 전사, 노트, REST API/MCP를 제공한다. 참고: https://github.com/OpenWhispr/openwhispr",
+  "fit": "EG AI GROUP OS의 핵심 엔진은 아니지만, 현재 스택에 명시된 ‘로컬 우선 음성 입력/회의 전사’ 공백을 메운다. 텔레그램 텍스트 지시, Claude Code/codex 실행, Paperclip 위임 흐름 앞단에 음성 캡처 레이어를 붙이는 후보로 적합하다. 다만 오케스트레이션이나 작업 실행 엔진 자체를 대체하지는 않으므로 high는 아니다.",
+  "integration": "Mac mini에 데스크톱 앱으로 설치하고 로컬 Whisper/Parakeet을 기본값으로 둔다. 전사 결과를 MCP 또는 REST API로 Claude Code, OpenClaw, n8n, Paperclip 티켓 생성, 회의록 저장 파이프라인에 연결한다. 클라우드 전사는 BYOK 보조 옵션으로만 두고, 민감한 진료·운영 음성은 로컬 처리로 제한한다.",
+  "overlaps": "Ollama/mlx-lm과는 ‘로컬 AI’ 방향이 겹치지만 STT 영역이라 보완 관계다. OpenClaw 개인 비서, MCP, n8n과 기능 접점이 있고, 회의 노트·AI 에이전트 기능은 기존 에이전트/노트 워크플로와 일부 중복된다. Hermes 텔레그램 게이트웨이를 대체하지 않고 음성 입력 소스로 보강하는 쪽이 현실적이다."
+}

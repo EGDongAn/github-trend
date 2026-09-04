@@ -1,0 +1,15 @@
+{
+  "fullName": "clshortfuse/renodx",
+  "analyzedAt": "2026-09-04T23:00:21.490Z",
+  "repoMeta": {
+    "stars": 3516,
+    "language": "HLSL",
+    "description": "Renovation Engine for DirectX Games"
+  },
+  "relevance": "none",
+  "category": "게임 렌더링/DirectX 그래픽 모딩",
+  "summary": "RenoDX는 DirectX 게임용 렌더링/HDR/색 보정 개조 엔진으로, HLSL 기반 게임 그래픽 파이프라인을 다루는 프로젝트다.",
+  "fit": "EG AI GROUP OS의 로컬 AI 자동화, 에이전트 오케스트레이션, LLM/RAG, MCP, 보안 격리, 텔레그램/크론 운영과 직접 관련이 없다. 게임 렌더링 도구라 현재 스택의 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 보유 스택과 실질적 중복은 없지만, 보완 관계도 없다. Claude Code, Paperclip, cmux, Hermes, vault, n8n, Ollama 중 어느 축도 업그레이드하지 않는다."
+}

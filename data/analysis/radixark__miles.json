@@ -1,0 +1,15 @@
+{
+  "fullName": "radixark/miles",
+  "analyzedAt": "2026-09-04T23:00:27.077Z",
+  "repoMeta": {
+    "stars": 2544,
+    "language": "Python",
+    "description": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime."
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM post-training/RL 프레임워크",
+  "summary": "LLM/VLM 대규모 post-training용 강화학습 프레임워크다. SGLang rollout, Megatron-LM training, FP8/INT4, MoE 안정화, GRPO, multi-turn/tool-use/coding-agent 학습 레시피를 지향하며 Apache-2.0로 보인다.",
+  "fit": "EG AI GROUP OS의 운영 오케스트레이션 공백을 직접 메우지는 않는다. 다만 로컬 LLM 비용 절감과 자체 모델 성능 개선 관점에서는 후보 가치가 있다. 단, Mac mini 중심 스택에는 과하다. GPU 클러스터/대형 모델 학습 전제가 강해 지금 즉시 도입할 핵심 컴포넌트라기보다 향후 자체 Qwen/Gemma 계열 agent fine-tuning 실험용이다.",
+  "integration": "별도 실험 repo 또는 GPU 서버/Docker 환경에서 격리 PoC. EG 스택에는 Paperclip/cmux 에이전트 로그와 작업 결과를 학습 데이터로 수집하고, reward function을 코드수정 성공률·테스트 통과·리뷰 통과 기준으로 붙이는 방식이 현실적이다. 운영 Mac에는 설치하지 말고 원격 학습 노드에서 산출 checkpoint만 Ollama/serving 계층으로 가져오는 구조가 맞다.",
+  "overlaps": "Ollama/Open WebUI/mlx-lm과는 추론이 아니라 post-training이라 직접 중복은 약하다. Paperclip/cmux/Hermes와도 실행 오케스트레이션이 아니라 모델 학습 계층이라 역할이 다르다. 다만 현재 보유 스택의 즉시 자동화 문제를 해결하지 못하고, Megatron/SGLang 기반 대형 GPU 의존성이 커서 로컬 우선 운영 자동화 도구로는 낮은 적합도를 가진다."
+}
