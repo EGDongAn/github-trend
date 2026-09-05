@@ -1,0 +1,15 @@
+{
+  "fullName": "humanlayer/skills",
+  "analyzedAt": "2026-09-05T23:00:29.420Z",
+  "repoMeta": {
+    "stars": 2671,
+    "language": "TypeScript",
+    "description": null
+  },
+  "relevance": "medium",
+  "category": "Claude Code 스킬/에이전트 워크플로 템플릿",
+  "summary": "HumanLayer가 배포하는 Claude Code용 skill 모음이다. CLAUDE.md 개선, React prop type 축소, 반복형 코딩 에이전트 루프, 제어 루프 설계, 시각 설명 보조 같은 repo-local 작업 절차를 패키지로 설치해 쓰는 형태다.",
+  "fit": "EG AI GROUP OS의 Claude Code 중심 운영에는 맞는다. 특히 build-iterated-agentic-loop, design-control-loop는 repo별 반복 작업 자동화와 GitHub Actions 기반 에이전트 루프 설계에 참고 가치가 있다. 다만 독립 오케스트레이터나 로컬 LLM/RAG 엔진이 아니라 기존 Claude Code 사용성을 보강하는 얇은 레이어라 high는 아니다.",
+  "integration": "선별 도입. 전체 설치보다 필요한 skill만 테스트 repo에 `npx skills add humanlayer/skills --skill <name>`로 추가해 CLAUDE.md/AGENTS.md 규칙, Paperclip 이슈 워커, GitHub Actions 루프와 충돌 여부를 검증한다. 반복 작업 템플릿은 Paperclip 워커 지침이나 repo-local skill 표준화에 흡수 가능하다.",
+  "overlaps": "Claude Code 스킬 200+, 기존 AGENTS.md/CLAUDE.md 운영 규칙, Paperclip의 이슈→에이전트 워커, GitHub Actions 자동화와 상당히 겹친다. 차별점은 HumanLayer식 skill 패키징과 에이전트 루프 설계 템플릿이지만, 현재 스택을 대체할 수준은 아니다."
+}

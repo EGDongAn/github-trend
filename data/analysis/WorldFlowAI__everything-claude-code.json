@@ -1,0 +1,15 @@
+{
+  "fullName": "WorldFlowAI/everything-claude-code",
+  "analyzedAt": "2026-09-05T23:00:28.072Z",
+  "repoMeta": {
+    "stars": 2331,
+    "language": "JavaScript",
+    "description": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development"
+  },
+  "relevance": "medium",
+  "category": "Claude Code 생산성 툴킷 / 에이전트·스킬·훅 라이브러리",
+  "summary": "Claude Code용 agents, commands, skills, rules, hooks, MCP 설정 모음이다. EG AI GROUP OS가 이미 Claude Code, 200+ skills, hooks, MCP, cmux/Paperclip을 갖고 있어 핵심 공백을 새로 메우기보다는 운영 패턴과 템플릿을 흡수하는 성격이 강하다.",
+  "fit": "Claude Code 중심 스택과 직접 맞고, 보안 규칙·테스트 규칙·서브에이전트·메모리 지속성·검증 루프·MCP 설정은 현재 운영 품질을 높이는 참고 자산이 될 수 있다. 다만 독립 오케스트레이터나 로컬 LLM 서빙 엔진은 아니므로 high는 아님.",
+  "integration": "선별 도입 권장. 전체 설치보다 agents/rules/hooks/mcp-configs를 현재 ~/.claude 구성과 diff로 비교해 유용한 것만 가져오고, 특히 security/testing/performance rules, checkpoint/verify/learn류 워크플로, Node 기반 cross-platform hooks를 검토한다. MCP 설정은 컨텍스트 비용과 시크릿 노출 위험 때문에 비활성 상태로 검토 후 필요한 서버만 추가한다.",
+  "overlaps": "Claude Code 스킬·훅·MCP·서브에이전트 영역에서 기존 스택과 많이 겹친다. Paperclip/cmux/Hermes/vault/n8n을 대체하지는 못하며, EG OS에는 이미 유사한 운영 규칙과 멀티에이전트 레이어가 있다. 가치는 대체보다 Claude Code 규칙·훅·검증 루프의 업그레이드 후보에 있다."
+}

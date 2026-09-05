@@ -1,0 +1,15 @@
+{
+  "fullName": "BraveOPotato/FckSignups",
+  "analyzedAt": "2026-09-05T23:00:25.412Z",
+  "repoMeta": {
+    "stars": 2863,
+    "language": "TypeScript",
+    "description": "A list of tools that are open-source, in-browser, and require no-signups!"
+  },
+  "relevance": "low",
+  "category": "도구 디렉터리 / 노사인업 오픈소스 큐레이션",
+  "summary": "브라우저에서 바로 쓰는 오픈소스·무가입 도구 목록을 React/TypeScript로 제공하는 큐레이션 사이트다. 자체 에이전트, 로컬 LLM, MCP, 워크플로 엔진은 아니다.",
+  "fit": "로컬 우선·저비용 철학과는 정서적으로 맞지만 EG AI GROUP OS의 핵심 공백을 직접 메우지 않는다. 운영 스택에 넣을 시스템 컴포넌트라기보다 필요 시 참고할 외부 도구 카탈로그에 가깝다.",
+  "integration": "도입한다면 Paperclip/Hermes/운영 문서에 '무가입 오픈소스 도구 후보 링크'로만 연결하거나, tools.json을 주기적으로 가져와 개발·문서·PDF·프라이버시 도구 탐색용 인덱스로 쓰는 정도가 적절하다. 핵심 런타임 통합은 불필요하다.",
+  "overlaps": "이미 Claude Code, n8n, Open WebUI, Vercel, GitHub Actions 등 실제 실행 도구를 보유하고 있어 기능적으로 대체하지 않는다. 일부 listed tool은 현재 스택과 중복될 수 있으나 이 repo 자체는 실행 플랫폼이 아니라 디렉터리라 중복 영향은 작다."
+}
