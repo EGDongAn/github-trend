@@ -1,0 +1,15 @@
+{
+  "fullName": "openai/skills",
+  "analyzedAt": "2026-09-06T23:00:22.937Z",
+  "repoMeta": {
+    "stars": 25602,
+    "language": "Python",
+    "description": "Skills Catalog for Codex"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트·개발 자동화 / 스킬 카탈로그",
+  "summary": "Codex용 스킬 카탈로그로, 반복 작업을 절차화해 에이전트 실행 품질과 재사용성을 높이는 저장소다. EG AI GROUP OS의 Claude Code 스킬, hooks, MCP, cron 기반 운영 방식과 직접 맞물린다.",
+  "fit": "현재 스택의 핵심인 codex/Claude Code 실행 워크플로를 보강한다. 특히 repo 리뷰, 문서화, 테스트, 자동화 작업을 표준 스킬로 묶어 멀티에이전트 작업 품질을 균일하게 만드는 데 적합하다.",
+  "integration": "기존 Claude Code 스킬 디렉터리와 Paperclip 워커 템플릿에 선별 도입한다. 우선 자주 쓰는 코드리뷰, 테스트, 문서화, 배포 점검 스킬만 로컬에 vendoring하고, EG 전용 보안/시크릿/텔레그램/운영 규칙을 덧씌운 래퍼 스킬로 통합하는 방식이 적절하다.",
+  "overlaps": "이미 Claude Code 스킬 200+를 보유하므로 단순 추가는 중복이다. 다만 OpenAI/Codex 생태계의 표준 스킬 포맷과 예제를 흡수하면 기존 사내 스킬의 구조화, 품질 기준, 재사용성 개선에 가치가 있다."
+}

@@ -691,5 +691,16 @@
     "stars": 1921,
     "category": "로컬 LLM 추론/서빙, 코딩 에이전트 인프라",
     "summary": "로컬 하드웨어를 프로파일링해 적합한 모델을 추천하고 다운로드·튜닝·서빙하는 오픈소스 inference server. Codex, Claude Code, Hermes, OpenClaw 등 현재 EG AI GROUP OS 핵심 에이전트와 직접 연결되는 점이 강하다."
+  },
+  {
+    "date": "2026-09-06",
+    "sentAt": "2026-09-06T23:00:35.630Z",
+    "fullName": "openai/skills",
+    "owner": "openai",
+    "name": "skills",
+    "url": "https://github.com/openai/skills",
+    "stars": 25602,
+    "category": "코딩 에이전트·개발 자동화 / 스킬 카탈로그",
+    "summary": "Codex용 스킬 카탈로그로, 반복 작업을 절차화해 에이전트 실행 품질과 재사용성을 높이는 저장소다. EG AI GROUP OS의 Claude Code 스킬, hooks, MCP, cron 기반 운영 방식과 직접 맞물린다."
   }
 ]

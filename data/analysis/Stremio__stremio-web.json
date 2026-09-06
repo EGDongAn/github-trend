@@ -1,0 +1,15 @@
+{
+  "fullName": "Stremio/stremio-web",
+  "analyzedAt": "2026-09-06T23:00:34.425Z",
+  "repoMeta": {
+    "stars": 13456,
+    "language": "JavaScript",
+    "description": "Stremio - Freedom to Stream"
+  },
+  "relevance": "none",
+  "category": "미디어 스트리밍 웹앱 / React PWA",
+  "summary": "Stremio의 공식 웹 UI로, 영화·시리즈·채널 탐색, 애드온 기반 콘텐츠, 자막, Chromecast, PWA 설치를 제공하는 소비자용 미디어 센터다. React UI와 Rust/WASM 기반 stremio-core를 연결하는 구조다.",
+  "fit": "EG AI GROUP OS의 핵심 축인 에이전트 오케스트레이션, 로컬 LLM, 코딩 자동화, MCP, 보안 격리, 텔레그램 자동화와 직접 관련이 없다. WASM/Web Worker 구조는 참고 사례 정도지만 도입 필요성은 없다.",
+  "integration": "-",
+  "overlaps": "Open WebUI 같은 웹 기반 인터페이스와 표면적으로만 겹치지만 목적이 완전히 다르다. 미디어 플레이어/PWA 영역이라 현재 자동화 스택의 대체재나 업그레이드가 아니다."
+}

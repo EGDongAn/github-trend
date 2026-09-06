@@ -61,5 +61,6 @@
   "workweave/router",
   "superlinked/sie",
   "pacifio/atlas",
-  "magnitudedev/magnitude"
+  "magnitudedev/magnitude",
+  "openai/skills"
 ]
