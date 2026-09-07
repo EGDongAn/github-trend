@@ -1,0 +1,15 @@
+{
+  "fullName": "advaitpaliwal/feynman",
+  "analyzedAt": "2026-09-07T23:00:47.818Z",
+  "repoMeta": {
+    "stars": 9031,
+    "language": "TypeScript",
+    "description": "The open source AI research agent."
+  },
+  "relevance": "medium",
+  "category": "연구 자동화·멀티에이전트 리서치",
+  "summary": "논문·웹 검색, 인용 기반 보고서, 병렬 연구·종합·검증을 제공하는 연구 에이전트. [공식 문서](https://github.com/advaitpaliwal/feynman)",
+  "fit": "macOS와 Ollama 등 로컬 모델을 지원해 운영 방향에 부합한다. 다만 연구 특화 도구로, 기존 스택의 명확한 공백이나 확실한 업그레이드는 입증되지 않았다.",
+  "integration": "전체 실행기 도입보다 연구 스킬만 Codex·Claude 작업 환경에 설치해 기존 연구 작업과 품질·비용을 비교하는 소규모 검증이 적합하다.",
+  "overlaps": "Claude Code의 스킬·위임 및 기존 검색 MCP와 부분 중복한다. Paperclip의 이슈·워커 관리나 cmux의 세션 관제를 대체하는 도구는 아니다."
+}

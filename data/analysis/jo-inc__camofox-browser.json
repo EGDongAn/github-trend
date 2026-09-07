@@ -1,0 +1,15 @@
+{
+  "fullName": "jo-inc/camofox-browser",
+  "analyzedAt": "2026-09-07T23:00:26.790Z",
+  "repoMeta": {
+    "stars": 9643,
+    "language": "JavaScript",
+    "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement."
+  },
+  "relevance": "medium",
+  "category": "에이전트용 브라우저 자동화",
+  "summary": "Camoufox 기반 탐지 회피 브라우저 서버. 로컬 REST API, 접근성 스냅샷, 사용자별 세션 격리와 OpenClaw 플러그인을 제공한다. [공식 문서](https://github.com/jo-inc/camofox-browser)",
+  "fit": "로컬 우선 운영과 부합하며 웹 수집 차단을 줄일 후보다. 다만 현재 차단 문제가 확인되지 않았고, 기존 Playwright 대비 성공률 개선도 미검증이므로 명확한 업그레이드로 판단하기 어렵다.",
+  "integration": "로컬 서버를 띄워 OpenClaw 플러그인이나 n8n HTTP 요청으로 연결하고, 기존 Playwright가 실패한 페이지에서 비교 검증한다. 자동 장애 보고는 비활성화하고 쿠키는 vault 격리 원칙에 맞춰 관리한다.",
+  "overlaps": "Playwright MCP 및 OpenClaw 브라우저 기능과 상당 부분 중복된다. 탐지 회피용 보조 경로로 검토하며, 기존 Puppeteer·Playwright 코드의 무수정 교체 가능성은 별도 확인이 필요하다."
+}

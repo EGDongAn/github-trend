@@ -1,0 +1,15 @@
+{
+  "fullName": "heygen-com/hyperframes",
+  "analyzedAt": "2026-09-07T23:00:27.541Z",
+  "repoMeta": {
+    "stars": 45772,
+    "language": "TypeScript",
+    "description": "Write HTML. Render video. Built for agents."
+  },
+  "relevance": "low",
+  "category": "에이전트용 영상 제작·로컬 렌더링",
+  "summary": "HTML·CSS·미디어를 MP4로 변환하는 오픈소스 프레임워크. 로컬 CLI와 코딩 에이전트용 스킬을 제공한다. [저장소](https://github.com/heygen-com/hyperframes)",
+  "fit": "로컬 우선·자동화 방향에는 맞지만, 오케스트레이션·추론·보안의 공백을 메우지는 않는다. 영상 제작 수요가 명시되지 않아 당장 도입 이유는 약하다.",
+  "integration": "영상 자동화가 필요해지면 Claude Code/Codex가 HTML을 작성하고 로컬 CLI로 렌더링하는 작업을 Paperclip 워커에 연결할 수 있다.",
+  "overlaps": "현재 명시된 스택과 직접 중복은 적다. 기존 실행·관제 도구의 대체재가 아닌 영상 출력 기능 확장이다."
+}

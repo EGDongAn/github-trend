@@ -1,0 +1,15 @@
+{
+  "fullName": "roboflow/rf-detr",
+  "analyzedAt": "2026-09-07T23:00:55.766Z",
+  "repoMeta": {
+    "stars": 9372,
+    "language": "Python",
+    "description": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026]"
+  },
+  "relevance": "none",
+  "category": "컴퓨터 비전·객체 탐지 및 분할",
+  "summary": "실시간 객체 탐지·분할과 미세조정을 위한 모델 아키텍처.",
+  "fit": "현재 스택에 영상 인식 요구가 없어 명확한 공백을 메우지 않는다. 에이전트 오케스트레이션이나 로컬 LLM 비용 절감과도 직접 관련이 없다.",
+  "integration": "-",
+  "overlaps": "기존 도구와 직접 중복되지는 않지만, 현재 필요한 기능의 보강·대체 대상도 아니다."
+}

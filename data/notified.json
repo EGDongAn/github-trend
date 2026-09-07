@@ -62,5 +62,6 @@
   "superlinked/sie",
   "pacifio/atlas",
   "magnitudedev/magnitude",
-  "openai/skills"
+  "openai/skills",
+  "mksglu/context-mode"
 ]

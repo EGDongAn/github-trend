@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/markitdown",
+  "analyzedAt": "2026-09-07T23:00:27.792Z",
+  "repoMeta": {
+    "stars": 180117,
+    "language": "Python",
+    "description": "Python tool for converting files and office documents to Markdown."
+  },
+  "relevance": "medium",
+  "category": "문서 변환·RAG 전처리",
+  "summary": "PDF·Word·Excel·PowerPoint 등을 LLM 입력용 Markdown으로 변환하는 Python 도구. 기본 문서 변환은 오프라인으로 가능하다. [공식 저장소](https://github.com/microsoft/markitdown)",
+  "fit": "로컬 문서 전처리와 에이전트 입력 통일에 유용하다. 다만 현재 문서 처리의 공백이나 성능 개선이 확인되지 않아 도입 후보 수준이다.",
+  "integration": "Mac mini의 Python 가상환경에 필요한 형식만 설치하고 n8n·에이전트 작업에서 CLI로 호출한다. 변환물을 로컬 RAG에 공급하되 스캔 PDF·복잡한 표는 추출 품질을 검증한다.",
+  "overlaps": "Open WebUI의 문서 수집·추출 및 기존 문서 처리 스킬과 부분 중복한다. Paperclip·cmux 대체재가 아니라 공통 문서 변환 계층을 보강하는 도구다."
+}

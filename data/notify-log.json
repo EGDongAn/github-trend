@@ -702,5 +702,16 @@
     "stars": 25602,
     "category": "코딩 에이전트·개발 자동화 / 스킬 카탈로그",
     "summary": "Codex용 스킬 카탈로그로, 반복 작업을 절차화해 에이전트 실행 품질과 재사용성을 높이는 저장소다. EG AI GROUP OS의 Claude Code 스킬, hooks, MCP, cron 기반 운영 방식과 직접 맞물린다."
+  },
+  {
+    "date": "2026-09-07",
+    "sentAt": "2026-09-07T23:00:56.956Z",
+    "fullName": "mksglu/context-mode",
+    "owner": "mksglu",
+    "name": "context-mode",
+    "url": "https://github.com/mksglu/context-mode",
+    "stars": 20792,
+    "category": "코딩 에이전트 컨텍스트 최적화·MCP",
+    "summary": "도구 출력을 별도 처리하고 필요한 결과만 전달하며, SQLite 기반 세션 기억을 검색·복원한다. 98% 축소는 프로젝트 자체 주장이다. [공식 저장소](https://github.com/mksglu/context-mode)"
   }
 ]

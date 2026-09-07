@@ -1,0 +1,15 @@
+{
+  "fullName": "mksglu/context-mode",
+  "analyzedAt": "2026-09-07T23:00:27.510Z",
+  "repoMeta": {
+    "stars": 20792,
+    "language": "TypeScript",
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트 컨텍스트 최적화·MCP",
+  "summary": "도구 출력을 별도 처리하고 필요한 결과만 전달하며, SQLite 기반 세션 기억을 검색·복원한다. 98% 축소는 프로젝트 자체 주장이다. [공식 저장소](https://github.com/mksglu/context-mode)",
+  "fit": "대량 로그·파일·Playwright 출력에 따른 컨텍스트 소모와 압축 후 작업 맥락 손실을 직접 보완한다. 로컬 처리와 기존 Claude Code 확장 방식이 스택에 잘 맞는다.",
+  "integration": "Claude Code 한 작업실에 플러그인으로 시범 적용하고 진단 도구로 MCP·훅을 확인한다. 기존 훅 충돌, 출력 누락, 압축 후 복원 정확도와 실제 토큰 절감량을 비교한 뒤 확대한다.",
+  "overlaps": "Claude Code의 컨텍스트 압축·세션 기억 및 기존 출력 축약 훅과 부분 중복한다. Paperclip·cmux를 대체하지 않고 실행 세션을 보강하며, 출력 샌드박스를 vault 수준의 보안 격리로 간주하면 안 된다."
+}

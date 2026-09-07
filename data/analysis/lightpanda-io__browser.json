@@ -1,0 +1,15 @@
+{
+  "fullName": "lightpanda-io/browser",
+  "analyzedAt": "2026-09-07T23:00:51.874Z",
+  "repoMeta": {
+    "stars": 34821,
+    "language": "Zig",
+    "description": "Lightpanda: the headless browser designed for AI and automation"
+  },
+  "relevance": "medium",
+  "category": "로컬 브라우저 자동화·MCP",
+  "summary": "Zig 기반 경량 헤드리스 브라우저. macOS와 네이티브 MCP·CDP를 지원하며 그래픽 렌더링 엔진은 없다. [공식 저장소](https://github.com/lightpanda-io/browser)",
+  "fit": "로컬 웹 수집의 메모리·실행 비용 절감 후보. 기존 Playwright와 부분 중복하며, 프로젝트 측 성능 수치만으로 현재 워크로드의 확실한 업그레이드라 판단하기 어렵다.",
+  "integration": "Mac mini에서 별도 MCP로 연결해 반복 수집 작업을 시험한다. 기존 Chromium 대비 성공률·메모리·지연을 비교하고, 텔레메트리는 비활성화한다.",
+  "overlaps": "Playwright MCP의 탐색·클릭·데이터 추출과 중복. 검증된 수집 작업의 보조 엔진으로 적합하며, 시각적 UI 검증은 기존 브라우저를 유지한다."
+}

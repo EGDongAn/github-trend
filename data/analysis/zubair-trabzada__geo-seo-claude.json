@@ -1,0 +1,15 @@
+{
+  "fullName": "zubair-trabzada/geo-seo-claude",
+  "analyzedAt": "2026-09-07T23:00:52.752Z",
+  "repoMeta": {
+    "stars": 10396,
+    "language": "Python",
+    "description": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If you want learn how to sell this to real businesses, check out the skool community"
+  },
+  "relevance": "low",
+  "category": "Claude Code용 검색 최적화 스킬",
+  "summary": "AI 검색 인용 가능성, 크롤러 접근, 구조화 데이터 등을 점검하고 PDF 보고서를 생성한다. [저장소](https://github.com/zubair-trabzada/geo-seo-claude)",
+  "fit": "기존 Claude Code에 붙이기 쉽지만, 웹사이트 마케팅에 특화되어 핵심 운영 스택의 공백을 메우지는 않는다. 로컬 추론이나 비용 절감 효과도 확인되지 않았다.",
+  "integration": "웹사이트 GEO 진단 수요가 생기면 선택적으로 설치해 URL 감사와 보고서 생성에 활용한다. 당장 도입 우선순위는 낮다.",
+  "overlaps": "기존 스킬·브라우저 도구를 활용한 웹 분석과 부분 중복한다. 병렬 서브에이전트는 SEO 작업 분담용으로, Paperclip·cmux의 대체나 업그레이드에 해당하지 않는다."
+}

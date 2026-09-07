@@ -1,0 +1,15 @@
+{
+  "fullName": "MoonTechLab/LunaTV",
+  "analyzedAt": "2026-09-07T23:00:44.619Z",
+  "repoMeta": {
+    "stars": 9689,
+    "language": "TypeScript",
+    "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源"
+  },
+  "relevance": "none",
+  "category": "영상 검색·재생 앱",
+  "summary": "여러 영상 소스를 통합 검색하고 재생하며 즐겨찾기·시청 기록을 동기화하는 셀프호스팅 앱. [저장소](https://github.com/MoonTechLab/LunaTV)",
+  "fit": "셀프호스팅은 가능하지만 에이전트 운영, 로컬 LLM, 개발 자동화와 무관해 시스템의 공백을 메우지 못함.",
+  "integration": "-",
+  "overlaps": "기존 스택과 기능 중복은 없으나 보강·대체 가치도 없음."
+}
