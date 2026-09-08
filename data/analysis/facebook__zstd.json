@@ -1,0 +1,15 @@
+{
+  "fullName": "facebook/zstd",
+  "analyzedAt": "2026-09-08T23:00:21.924Z",
+  "repoMeta": {
+    "stars": 27754,
+    "language": "C",
+    "description": "Zstandard - Fast real-time compression algorithm"
+  },
+  "relevance": "low",
+  "category": "인프라 유틸리티·데이터 압축",
+  "summary": "빠른 실시간 데이터 압축을 위한 C 기반 라이브러리.",
+  "fit": "로컬 데이터 저장 효율에는 도움이 되지만, 현재 스택의 명확한 공백을 메우거나 에이전트 운영을 직접 개선하지는 않음.",
+  "integration": "로그·백업 용량이 실제 병목일 때 압축 속도와 압축률을 비교해 제한적으로 적용.",
+  "overlaps": "기존 백업·아카이브 압축 기능과 역할이 겹침. 핵심 스택의 대체·업그레이드 대상은 아님."
+}
