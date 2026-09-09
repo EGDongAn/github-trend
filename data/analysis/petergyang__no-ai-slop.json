@@ -1,0 +1,15 @@
+{
+  "fullName": "petergyang/no-ai-slop",
+  "analyzedAt": "2026-09-09T23:00:28.645Z",
+  "repoMeta": {
+    "stars": 7832,
+    "language": "Python",
+    "description": "Removes 20+ patterns of AI slop from any piece of writing."
+  },
+  "relevance": "low",
+  "category": "글쓰기 교정 스킬",
+  "summary": "AI 문체의 상투적 패턴 20여 가지를 탐지·교정하는 에이전트 스킬. Python은 플러그인 패키징 용도다. [저장소](https://github.com/petergyang/no-ai-slop)",
+  "fit": "문서·콘텐츠 교정에는 유용하지만 오케스트레이션, 로컬 추론, 보안 격리의 공백을 메우지 않는다. 당장 도입할 이유는 약하다.",
+  "integration": "필요한 교정 규칙만 기존 글쓰기 스킬에 반영하고, 한국어 문장에서도 효과가 있는지 샘플로 검증한다.",
+  "overlaps": "보유한 humanizer, human-writing, anti-ai-validator 및 기존 문체 지침과 목적이 겹친다. 독립 도입보다 규칙 보완 후보에 가깝다."
+}

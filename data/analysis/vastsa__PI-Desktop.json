@@ -1,0 +1,15 @@
+{
+  "fullName": "vastsa/PI-Desktop",
+  "analyzedAt": "2026-09-09T23:00:30.676Z",
+  "repoMeta": {
+    "stars": 1633,
+    "language": "TypeScript",
+    "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins"
+  },
+  "relevance": "medium",
+  "category": "로컬 우선 코딩 에이전트 데스크톱",
+  "summary": "로컬 모델·MCP·스킬·서브에이전트와 작업 검토 화면을 통합한 데스크톱 작업실. 현재 초기 프리뷰 단계다. [공식 저장소](https://github.com/vastsa/PI-Desktop)",
+  "fit": "로컬 우선과 모델 선택 자유는 부합하지만, 기존 실행·관제 도구 대비 명확한 공백 해소나 업그레이드는 입증되지 않아 관찰 후보.",
+  "integration": "Mac mini에서 별도 프로젝트에 Ollama와 기존 MCP를 연결해 GUI 검토·세션 관리 효용을 시험. 비용·안정성·스킬 호환성을 비교한 뒤 도입 판단.",
+  "overlaps": "Claude Code의 코딩·스킬·MCP·위임과 cmux의 다중 세션 관제가 크게 중복. Paperclip의 이슈·칸반 운영이나 vault의 비밀 격리를 대체할 근거는 부족."
+}

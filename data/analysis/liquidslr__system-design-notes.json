@@ -1,0 +1,15 @@
+{
+  "fullName": "liquidslr/system-design-notes",
+  "analyzedAt": "2026-09-09T23:00:22.857Z",
+  "repoMeta": {
+    "stars": 17958,
+    "language": null,
+    "description": "Notes of the book System Desgin Interview - An Insider's Guide"
+  },
+  "relevance": "none",
+  "category": "시스템 설계 학습 자료",
+  "summary": "『System Design Interview - An Insider's Guide』의 내용을 정리한 학습 노트.",
+  "fit": "에이전트 실행·오케스트레이션·로컬 LLM을 위한 도구가 아니며, 현재 스택의 공백을 메우거나 기존 도구를 업그레이드하지 않음.",
+  "integration": "-",
+  "overlaps": "기존 도구와 직접적인 기능 중복 없음. 일반적인 설계 참고자료에 해당."
+}

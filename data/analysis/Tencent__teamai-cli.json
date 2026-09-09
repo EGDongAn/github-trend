@@ -1,0 +1,15 @@
+{
+  "fullName": "Tencent/teamai-cli",
+  "analyzedAt": "2026-09-09T23:00:29.709Z",
+  "repoMeta": {
+    "stars": 2932,
+    "language": "TypeScript",
+    "description": "Make Every Team AI Native"
+  },
+  "relevance": "medium",
+  "category": "에이전트 설정·스킬 동기화",
+  "summary": "Git 저장소로 여러 코딩 에이전트의 스킬·규칙·훅·MCP 설정을 배포하고 동기화하는 CLI. [공식 문서](https://github.com/Tencent/teamai-cli)",
+  "fit": "Claude Code·Codex 간 설정 일관성 유지에 유용하고 로컬 우선 운영과 부합한다. 다만 현재 동기화 공백이 확인되지 않아 확실한 업그레이드로 보기는 어렵다.",
+  "integration": "별도 테스트 프로젝트에서 공통 스킬·규칙 배포부터 검증. 기존 훅·설정과 충돌을 확인하고, 비밀값은 vault에 유지한다.",
+  "overlaps": "기존 스킬·훅·MCP 관리와 중복된다. Paperclip의 작업 위임이나 cmux의 세션 관제를 대체하기보다는 에이전트 간 설정 배포를 보강한다."
+}
