@@ -1,0 +1,15 @@
+{
+  "fullName": "JustVugg/colibri",
+  "analyzedAt": "2026-09-10T23:00:32.897Z",
+  "repoMeta": {
+    "stars": 27429,
+    "language": "C",
+    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM 추론 엔진",
+  "summary": "MoE 전문가 가중치를 디스크에서 필요한 만큼 읽는 C 기반 추론 엔진. Metal과 메모리 계층화를 지원한다. [저장소](https://github.com/JustVugg/colibri)",
+  "fit": "로컬 우선·비용 절감에 부합하지만, 기존 추론 도구 대비 Mac mini에서의 속도와 실익이 미검증이므로 확실한 업그레이드로 보기 어렵다.",
+  "integration": "별도 로컬 환경에서 지원 모델을 시험하고 메모리·디스크 사용량, 첫 토큰 지연, 생성 속도와 품질을 비교한 뒤 비실시간 작업용 보조 엔진으로 검토.",
+  "overlaps": "Ollama·mlx-lm과 추론 기능이 중복된다. 차별점은 메모리에 모두 담기 어려운 대형 MoE의 디스크 스트리밍이며, Paperclip·cmux를 대체하지 않는다."
+}

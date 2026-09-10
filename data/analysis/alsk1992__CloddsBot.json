@@ -1,0 +1,15 @@
+{
+  "fullName": "alsk1992/CloddsBot",
+  "analyzedAt": "2026-09-10T23:00:26.203Z",
+  "repoMeta": {
+    "stars": 1605,
+    "language": "TypeScript",
+    "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude."
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 AI 트레이딩 에이전트",
+  "summary": "예측시장·암호화폐 거래와 위험 관리를 자동화하며 메신저·MCP 연동을 제공하는 도구. [저장소](https://github.com/alsk1992/CloddsBot)",
+  "fit": "셀프호스팅과 에이전트 자동화는 부합하지만, 핵심은 거래 업무다. 현재 요구에 거래 자동화가 없어 오케스트레이션·로컬 추론·개발 자동화의 공백을 메우지 못한다.",
+  "integration": "당장 도입하지 않고, 거래 자동화 수요가 생길 때 독립 환경에서 MCP 연동과 모의 거래부터 검토.",
+  "overlaps": "메신저 게이트웨이는 Hermes·OpenClaw, 스킬·도구 호출은 Claude Code, 주기적 자동화는 n8n과 부분 중복. 기존 스택을 대체할 명확한 이점은 확인되지 않는다."
+}

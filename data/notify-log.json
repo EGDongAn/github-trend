@@ -713,5 +713,16 @@
     "stars": 20792,
     "category": "코딩 에이전트 컨텍스트 최적화·MCP",
     "summary": "도구 출력을 별도 처리하고 필요한 결과만 전달하며, SQLite 기반 세션 기억을 검색·복원한다. 98% 축소는 프로젝트 자체 주장이다. [공식 저장소](https://github.com/mksglu/context-mode)"
+  },
+  {
+    "date": "2026-09-10",
+    "sentAt": "2026-09-10T23:00:47.156Z",
+    "fullName": "nashsu/llm_wiki",
+    "owner": "nashsu",
+    "name": "llm_wiki",
+    "url": "https://github.com/nashsu/llm_wiki",
+    "stars": 18064,
+    "category": "로컬 지식베이스·에이전트 검색 도구",
+    "summary": "문서를 출처가 연결된 영속 위키로 축적하고 증분 갱신하는 데스크톱 앱. 로컬 API와 MCP를 제공한다. [공식 저장소](https://github.com/nashsu/llm_wiki)"
   }
 ]

@@ -63,5 +63,6 @@
   "pacifio/atlas",
   "magnitudedev/magnitude",
   "openai/skills",
-  "mksglu/context-mode"
+  "mksglu/context-mode",
+  "nashsu/llm_wiki"
 ]

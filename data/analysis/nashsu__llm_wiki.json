@@ -1,0 +1,15 @@
+{
+  "fullName": "nashsu/llm_wiki",
+  "analyzedAt": "2026-09-10T23:00:32.012Z",
+  "repoMeta": {
+    "stars": 18064,
+    "language": "TypeScript",
+    "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。"
+  },
+  "relevance": "high",
+  "category": "로컬 지식베이스·에이전트 검색 도구",
+  "summary": "문서를 출처가 연결된 영속 위키로 축적하고 증분 갱신하는 데스크톱 앱. 로컬 API와 MCP를 제공한다. [공식 저장소](https://github.com/nashsu/llm_wiki)",
+  "fit": "현재 스택에 명시되지 않은 문서의 자동 구조화·상호 연결·지속 갱신 기능을 보완한다. 에이전트 공용 지식 저장소로 도입 검토 가치가 크며, 실제 비용 절감은 검증이 필요하다.",
+  "integration": "Mac mini에서 운영 문서 일부로 시범 구축하고, 제공 MCP를 Claude Code·Codex에 연결한다. 소스 폴더 감시로 갱신을 자동화하고 로컬 모델 연결·한국어 생성 품질·상시 실행 안정성을 검증한다.",
+  "overlaps": "Open WebUI의 문서 검색 및 기존 에이전트의 파일 탐색과 부분 중복. 차별점은 출처 기반 위키의 증분 유지와 지식 그래프이며, Paperclip·cmux의 보완 도구다."
+}

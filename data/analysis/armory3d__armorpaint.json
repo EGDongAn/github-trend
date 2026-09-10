@@ -1,0 +1,15 @@
+{
+  "fullName": "armory3d/armorpaint",
+  "analyzedAt": "2026-09-10T23:00:19.679Z",
+  "repoMeta": {
+    "stars": 4394,
+    "language": "C",
+    "description": "Graphics Creation Tools"
+  },
+  "relevance": "none",
+  "category": "그래픽 제작 도구",
+  "summary": "그래픽 콘텐츠 제작을 위한 도구 프로젝트.",
+  "fit": "에이전트 오케스트레이션, 로컬 LLM, 개발 자동화 등 현재 스택의 핵심 요구와 무관하며 명확한 공백을 메우지 않음.",
+  "integration": "-",
+  "overlaps": "현재 스택과 직접적인 기능 중복은 없으나 도입 필요성도 없음."
+}
