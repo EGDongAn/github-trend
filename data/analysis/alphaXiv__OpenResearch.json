@@ -1,0 +1,15 @@
+{
+  "fullName": "alphaXiv/OpenResearch",
+  "analyzedAt": "2026-09-11T23:00:47.355Z",
+  "repoMeta": {
+    "stars": 1255,
+    "language": "Rust",
+    "description": "Run parallel research agents with any model"
+  },
+  "relevance": "medium",
+  "category": "연구용 멀티에이전트 오케스트레이션",
+  "summary": "독립 작업 트리에서 연구 에이전트를 병렬 실행하고 실험 이력·로그·결과물을 연결하는 로컬 작업 공간. [공식 문서](https://github.com/alphaXiv/OpenResearch)",
+  "fit": "macOS·Claude Code·Codex 및 OpenCode 경유 로컬 모델 연동이 적합하다. 실험 재현성 관리가 차별점이나, 현재 스택에 연구 실험 관리 공백이 명확하지 않아 관찰 후보.",
+  "integration": "독립 연구 프로젝트에서 로컬 실행하고, Paperclip 워커가 CLI로 실험을 호출하는 방식으로 시험한다. 기존 흐름 대비 결과 추적성과 운영 부담을 비교한다.",
+  "overlaps": "cmux의 병렬 세션 관제, Paperclip의 작업 위임, Claude Code의 에이전트 실행과 부분 중복. 실험 계보와 커밋별 실행 기록을 보강하는 용도로 적합하다."
+}

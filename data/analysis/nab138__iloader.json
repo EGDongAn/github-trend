@@ -1,0 +1,15 @@
+{
+  "fullName": "nab138/iloader",
+  "analyzedAt": "2026-09-11T23:00:25.709Z",
+  "repoMeta": {
+    "stars": 2893,
+    "language": "TypeScript",
+    "description": "User friendly sideloader"
+  },
+  "relevance": "none",
+  "category": "iOS 앱 사이드로딩 도구",
+  "summary": "iOS 기기에 IPA·SideStore를 설치하고 페어링 파일과 개발 인증서를 관리하는 데스크톱 앱. [공식 저장소](https://github.com/nab138/iloader)",
+  "fit": "에이전트 운영·로컬 LLM·MCP·자동화와 무관하며, macOS 지원만으로는 도입 근거가 되지 않음.",
+  "integration": "-",
+  "overlaps": "기존 스택과 직접 중복은 없으나, 현재 시스템의 공백을 메우거나 기존 도구를 개선하지 않음."
+}

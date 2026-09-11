@@ -1,0 +1,15 @@
+{
+  "fullName": "jakubkrehel/skills",
+  "analyzedAt": "2026-09-11T23:00:55.969Z",
+  "repoMeta": {
+    "stars": 6254,
+    "language": "Markdown",
+    "description": "A collection of agent skills that help you build a great interface."
+  },
+  "relevance": "low",
+  "category": "인터페이스 개발용 에이전트 스킬",
+  "summary": "에이전트의 인터페이스 제작을 돕는 Markdown 스킬 모음.",
+  "fit": "코딩 에이전트 활용과는 관련되지만, 제공된 설명상 오케스트레이션·로컬 추론·보안 격리의 공백을 메우지 않는다. 당장 도입할 근거는 약하다.",
+  "integration": "UI 개발 수요가 있을 때 기존 스킬과 비교해 부족한 항목만 선별 적용.",
+  "overlaps": "현재 Claude Code의 다수 스킬 및 디자인·프론트엔드 관련 스킬과 겹칠 가능성이 높다. 기존 대비 개선점은 확인되지 않았다."
+}

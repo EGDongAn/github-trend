@@ -1,0 +1,15 @@
+{
+  "fullName": "jihe520/MathModelAgent",
+  "analyzedAt": "2026-09-11T23:00:28.368Z",
+  "repoMeta": {
+    "stars": 4846,
+    "language": "Python",
+    "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission."
+  },
+  "relevance": "low",
+  "category": "수학 모델링·논문 작성 자동화",
+  "summary": "문제 분석·모델링·코딩·논문 생성을 자동화하며, 현재는 Claude Code·Codex용 스킬 중심으로 개발된다. [저장소](https://github.com/jihe520/MathModelAgent)",
+  "fit": "에이전트 자동화와 관련되지만 수학 모델링 대회에 특화되어 있다. 현재 스택의 명확한 공백을 메우거나 범용 관제를 개선할 근거가 부족하다.",
+  "integration": "수학 모델링 업무가 생기면 필요한 스킬만 선별해 기존 코딩 에이전트에서 시험하고, 단계별 수치 검증·논문 검수 절차를 참고한다.",
+  "overlaps": "Claude Code·Codex의 스킬 실행 및 코드 작성 기능과 중복된다. Paperclip·cmux를 대체할 범용 오케스트레이션 도구로 보기 어렵다."
+}

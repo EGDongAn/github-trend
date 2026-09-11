@@ -1,0 +1,15 @@
+{
+  "fullName": "melgarafael/DeskcommCRM",
+  "analyzedAt": "2026-09-11T23:00:35.461Z",
+  "repoMeta": {
+    "stars": 1312,
+    "language": "TypeScript",
+    "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD."
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 AI 영업·고객관리",
+  "summary": "WhatsApp 상담, 영업 파이프라인, AI 에이전트·RAG·MCP를 결합한 CRM. [저장소](https://github.com/melgarafael/DeskcommCRM)",
+  "fit": "셀프호스팅 방향은 맞지만 WhatsApp 영업 수요가 명시되지 않아 당장 도입 이유가 약하다. 범용 에이전트 관제의 공백을 메우지 않으며, 기본 설치는 Supabase와 외부 AI API를 요구한다.",
+  "integration": "WhatsApp 영업 자동화가 필요해질 때 별도 CRM으로 시험하고 MCP 연동을 검토. 로컬 LLM 연결과 Mac mini 배포 호환성은 추가 확인이 필요하다.",
+  "overlaps": "대화 자동화는 Hermes, 후속 처리·스케줄링은 n8n과 일부 중복. 고객·영업 이력 관리는 추가 기능이지만 Paperclip/cmux를 대체하지 않는다."
+}

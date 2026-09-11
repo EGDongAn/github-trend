@@ -1,0 +1,15 @@
+{
+  "fullName": "jordan-gibbs/hyperresearch",
+  "analyzedAt": "2026-09-11T23:00:47.934Z",
+  "repoMeta": {
+    "stars": 2565,
+    "language": "Python",
+    "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki."
+  },
+  "relevance": "medium",
+  "category": "에이전트 기반 리서치·영속 지식베이스",
+  "summary": "Claude Code에 단계별 조사·인용 검증·비판 검토를 추가하고, 출처를 로컬 Markdown·SQLite 저장소에 누적한다. [공식 저장소](https://github.com/jordan-gibbs/hyperresearch)",
+  "fit": "연구 자료의 축적·재검색에 유용하지만 기존 조사 스킬 대비 우위는 검증이 필요하다. 로컬 저장은 적합하나 Claude Code 중심 실행과 다수 에이전트 호출이 비용 절감을 보장하지 않는다.",
+  "integration": "별도 연구 프로젝트에 설치해 Paperclip의 조사 작업을 Claude Code로 실행하고 결과·출처를 누적하는 방식으로 시험 적용. 기존 조사 방식과 비용·인용 정확도·자료 재사용률을 비교한다.",
+  "overlaps": "Claude Code 조사 스킬 및 검색 MCP와 수집·합성 기능이 겹친다. 영속 출처 저장과 검증 파이프라인은 보강 후보이며, Paperclip·cmux의 범용 작업 관제를 대체하지 않는다."
+}

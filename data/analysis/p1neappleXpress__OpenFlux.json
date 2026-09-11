@@ -1,0 +1,15 @@
+{
+  "fullName": "p1neappleXpress/OpenFlux",
+  "analyzedAt": "2026-09-11T23:00:42.653Z",
+  "repoMeta": {
+    "stars": 1134,
+    "language": "Go",
+    "description": "Network stack research tool. TCP tunnel with pluggable transports."
+  },
+  "relevance": "low",
+  "category": "네트워크 터널·전송 계층 연구",
+  "summary": "SOCKS5 트래픽을 Yandex Docs 또는 MAX 경유로 출구 노드에 전달하는 Go 기반 TCP 터널. [공식 문서](https://github.com/p1neappleXpress/OpenFlux)",
+  "fit": "네트워크 연결 실험에는 관련되지만 에이전트 운영의 명확한 공백을 메우지 않는다. 현재 전송 방식의 외부 플랫폼 의존성과 별도 Linux 출구 노드 운영 부담으로 도입 이점이 작다.",
+  "integration": "특수한 네트워크 경로 실험이 필요할 때만 격리 환경에서 SOCKS5 연결을 시험하는 수준.",
+  "overlaps": "기존 스택과 직접 중복은 적지만, vault sidecar의 비밀 격리나 Hermes의 메시지 게이트웨이를 대체·개선하는 도구는 아니다."
+}

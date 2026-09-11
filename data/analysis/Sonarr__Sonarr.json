@@ -1,0 +1,15 @@
+{
+  "fullName": "Sonarr/Sonarr",
+  "analyzedAt": "2026-09-11T23:00:22.857Z",
+  "repoMeta": {
+    "stars": 15723,
+    "language": "C#",
+    "description": "Smart PVR for newsgroup and bittorrent users."
+  },
+  "relevance": "none",
+  "category": "TV 시리즈 수집·다운로드 자동화",
+  "summary": "유즈넷과 비트토렌트 사용자를 위한 TV 시리즈 관리·다운로드 자동화 도구.",
+  "fit": "에이전트 오케스트레이션, 로컬 LLM, 개발 자동화 등 핵심 요구와 무관하며 현재 스택의 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "n8n의 자동화와 개념적 접점만 있으며, 기존 도구의 대체·업그레이드 대상은 아니다."
+}
