@@ -1,0 +1,15 @@
+{
+  "fullName": "multimodal-art-projection/YuE",
+  "analyzedAt": "2026-09-12T23:00:26.810Z",
+  "repoMeta": {
+    "stars": 7261,
+    "language": "Python",
+    "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing."
+  },
+  "relevance": "none",
+  "category": "음악 생성·편집 모델",
+  "summary": "가사와 스타일로 악보·보컬·반주를 생성하고 커버 및 에이전트 기반 음악 편집을 지원한다. [공식 저장소](https://github.com/multimodal-art-projection/YuE)",
+  "fit": "음악 제작은 제시된 운영 스택의 공백에 해당하지 않는다. 에이전트 기능도 음악 편집에 한정되며, 공식 실행 요건은 Linux·NVIDIA GPU·24GB VRAM으로 Mac mini 중심 환경과 맞지 않는다.",
+  "integration": "-",
+  "overlaps": "직접 중복은 없으나 Paperclip·cmux 오케스트레이션이나 Ollama의 범용 로컬 추론을 보강·대체하지 않는다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "SnailSploit/Claude-Red",
+  "analyzedAt": "2026-09-12T23:00:29.285Z",
+  "repoMeta": {
+    "stars": 3571,
+    "language": "Python",
+    "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
+  },
+  "relevance": "medium",
+  "category": "보안 검증용 Claude 스킬 모음",
+  "summary": "웹·인증·API·컨테이너·AI 공격면의 점검 방법론을 제공하는 SKILL.md 라이브러리. [저장소](https://github.com/SnailSploit/Claude-Red)",
+  "fit": "Claude Code에 선택적으로 추가해 보안 검토를 보강할 수 있다. 다만 오케스트레이션·로컬 추론·비밀 격리의 직접적인 개선은 아니며, 기존 스킬 대비 추가 효과는 검증이 필요하다.",
+  "integration": "AI 프롬프트 주입·API·인증 관련 스킬부터 검토해 프로젝트 단위로 추가하고, 격리된 테스트 환경에서 기존 보안 리뷰와 비교 평가한다.",
+  "overlaps": "기존 Claude Code 보안·코드 리뷰 스킬과 부분 중복. vault sidecar의 접근 통제나 격리를 대체하지 않으며, 공격 관점의 점검 절차를 보완한다."
+}
