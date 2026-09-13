@@ -1,0 +1,15 @@
+{
+  "fullName": "tonhowtf/omniget",
+  "analyzedAt": "2026-09-13T23:00:30.269Z",
+  "repoMeta": {
+    "stars": 11582,
+    "language": "Rust",
+    "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer."
+  },
+  "relevance": "low",
+  "category": "로컬 미디어 다운로드·학습 앱",
+  "summary": "yt-dlp 기반으로 강의·영상·음악을 내려받고 재생·읽기·전사를 제공하는 데스크톱 앱. [저장소](https://github.com/tonhowtf/omniget)",
+  "fit": "macOS와 로컬 저장은 부합하지만, 에이전트 운영·추론·보안 격리의 명확한 공백을 메우지는 않는다. 당장 도입 이유는 약하다.",
+  "integration": "강의·영상 자료를 로컬로 수집하는 보조 도구로 제한 검토. RAG 활용에는 별도 텍스트 정제·색인 과정이 필요하다.",
+  "overlaps": "핵심 스택과 직접 중복은 적지만 Paperclip·Hermes·Ollama의 대체나 업그레이드에 해당하지 않는다."
+}

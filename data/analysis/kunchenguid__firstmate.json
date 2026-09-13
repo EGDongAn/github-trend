@@ -1,0 +1,15 @@
+{
+  "fullName": "kunchenguid/firstmate",
+  "analyzedAt": "2026-09-13T23:00:50.269Z",
+  "repoMeta": {
+    "stars": 5722,
+    "language": "Shell",
+    "description": "Talk to one agent. Ship with a crew."
+  },
+  "relevance": "medium",
+  "category": "멀티에이전트 코딩 오케스트레이션",
+  "summary": "Claude Code·Codex 등을 지휘해 작업별 worktree, 세션 감시, PR 전달을 관리하는 에이전트 배포 묶음. [공식 설명](https://github.com/kunchenguid/firstmate)",
+  "fit": "로컬 실행과 이벤트 기반 감시는 방향에 부합한다. 다만 Paperclip·cmux·워치독과 중복이 커 명확한 공백이나 확실한 업그레이드는 아직 입증되지 않았다.",
+  "integration": "별도 디렉터리에서 단일 저장소로 시험하고, 기존 체계 대비 작업 복구율·감시 토큰·PR 완료율을 비교한다. cmux 지원은 실험적이므로 기본 tmux부터 검증한다.",
+  "overlaps": "Paperclip의 작업 위임·진행 관리, cmux의 세션 관제, LaunchAgent의 감시와 중복. 기존 실행 엔진을 활용하는 보강 후보이며, 칸반·텔레그램·비밀 관리의 대체재는 아니다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "tech-leads-club/agent-skills",
+  "analyzedAt": "2026-09-13T23:00:36.214Z",
+  "repoMeta": {
+    "stars": 5617,
+    "language": "TypeScript",
+    "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 스킬 레지스트리·배포 관리",
+  "summary": "Claude Code·Codex용 스킬과 설치 CLI를 제공한다. 문서상 보안 스캔·해시·잠금파일 기반 무결성 검증을 지원한다. [저장소](https://github.com/tech-leads-club/agent-skills)",
+  "fit": "기존 스킬의 배포·검증 절차를 보강할 후보다. 다만 스킬 200개 이상을 이미 보유해 추가 효용이 불확실하며, 오케스트레이션이나 로컬 추론의 공백을 직접 메우지는 않는다.",
+  "integration": "기존 목록과 비교해 부족한 스킬만 프로젝트 범위에서 시험한다. 검증·버전 고정 방식을 검토한 뒤 내부 스킬 관리에 적용한다.",
+  "overlaps": "기존 개발·보안 리뷰 스킬 및 Playwright MCP와 상당 부분 중복된다. Paperclip·cmux의 대체재가 아닌 스킬 공급·관리 보완재다."
+}

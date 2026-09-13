@@ -1,0 +1,15 @@
+{
+  "fullName": "ever-co/ever-gauzy",
+  "analyzedAt": "2026-09-13T23:00:30.230Z",
+  "repoMeta": {
+    "stars": 5012,
+    "language": "TypeScript",
+    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co"
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 경영·인사·프로젝트 관리",
+  "summary": "ERP·CRM·HRM·채용·프로젝트·근무시간 관리를 통합한 업무 플랫폼. [공식 저장소](https://github.com/ever-co/ever-gauzy)",
+  "fit": "셀프호스팅 방향은 맞지만 사람과 조직의 업무 관리가 중심이다. 에이전트 실행·위임이나 로컬 추론의 명확한 공백을 메우지 못한다.",
+  "integration": "향후 고객·인사·청구 관리 수요가 생길 때 별도 업무 시스템으로 검토. 현재 도입 우선순위는 낮다.",
+  "overlaps": "프로젝트·태스크 관리가 Paperclip과 부분 중복된다. 에이전트 워커 관제나 cmux를 대체할 근거는 부족하다."
+}
