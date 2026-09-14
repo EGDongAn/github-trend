@@ -1,0 +1,15 @@
+{
+  "fullName": "peetzweg/opendisplay",
+  "analyzedAt": "2026-09-14T23:00:31.741Z",
+  "repoMeta": {
+    "stars": 3539,
+    "language": "Swift",
+    "description": "Free, open-source Sidecar/Duet alternative — use your iPhone or iPad as a true second monitor for your Mac over USB or WiFi. Low latency H.264, Retina HiDPI, touch input."
+  },
+  "relevance": "none",
+  "category": "보조 모니터·화면 확장",
+  "summary": "iPhone·iPad를 USB 또는 WiFi로 Mac의 보조 모니터로 사용하는 오픈소스 도구.",
+  "fit": "Mac mini 작업 화면 확장에는 쓸 수 있지만, 에이전트 자동화·로컬 추론·보안 격리의 공백을 메우거나 기존 도구를 업그레이드하지 않는다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 직접 중복은 없다. cmux 관제 화면을 표시할 수는 있으나 세션 관리·오케스트레이션 기능을 보강하지 않는다."
+}

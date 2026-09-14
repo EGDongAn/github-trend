@@ -1,0 +1,15 @@
+{
+  "fullName": "reconurge/flowsint",
+  "analyzedAt": "2026-09-14T23:00:38.677Z",
+  "repoMeta": {
+    "stars": 8320,
+    "language": "TypeScript",
+    "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators."
+  },
+  "relevance": "low",
+  "category": "보안 조사·공개정보 관계 분석",
+  "summary": "도메인·IP 등의 관계를 그래프로 탐색하고 정보 수집을 자동화하는 셀프호스팅 조사 플랫폼. [공식 저장소](https://github.com/reconurge/flowsint)",
+  "fit": "macOS·Docker 기반 로컬 운영은 부합하지만, 에이전트 관제·추론 비용 절감·비밀 격리의 명확한 공백을 메우지는 않는다. 전용 보안 조사 수요가 없어 당장 도입 이유는 약하다.",
+  "integration": "자사 도메인·IP 관계를 반복 조사할 필요가 생길 때 별도 Docker 환경에서 제한적으로 검증.",
+  "overlaps": "정보 수집 자동화는 n8n·기존 MCP와 부분 중복. 조사 그래프는 추가 기능이지만 Paperclip·cmux·vault의 대체재는 아니다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "OpenBMB/VoxCPM",
+  "analyzedAt": "2026-09-14T23:00:36.321Z",
+  "repoMeta": {
+    "stars": 37341,
+    "language": "Python",
+    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning"
+  },
+  "relevance": "low",
+  "category": "로컬 음성 합성",
+  "summary": "한국어 포함 30개 언어의 음성 합성·음색 설계·음성 복제를 지원하는 공개 모델. [공식 저장소](https://github.com/OpenBMB/VoxCPM)",
+  "fit": "로컬 우선 방향에는 맞지만, 현재 명시된 음성 출력 수요가 없어 핵심 운영 공백을 메우지는 않는다. Mac mini 실사용 성능은 별도 검증이 필요하다.",
+  "integration": "음성 알림 수요가 생기면 Python 호출로 보고서를 음성 파일로 변환하고 Hermes의 텔레그램 발송에 연결하는 방식으로 시험한다.",
+  "overlaps": "제공된 스택에 전용 음성 합성 도구는 없어 직접 중복은 적다. Ollama·mlx-lm이나 Paperclip을 대체하지 않는 선택적 기능 확장이다."
+}

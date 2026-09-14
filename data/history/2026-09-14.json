@@ -1,0 +1,384 @@
+{
+  "date": "2026-09-14",
+  "repos": [
+    {
+      "fullName": "JustVugg/colibri",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 1,
+      "stars": 31970,
+      "starsToday": 2233
+    },
+    {
+      "fullName": "alibaba/open-code-review",
+      "sources": [
+        "trending-day",
+        "trending-week"
+      ],
+      "rank": 2,
+      "stars": 25573,
+      "starsToday": 1796
+    },
+    {
+      "fullName": "multimodal-art-projection/YuE",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 3,
+      "stars": 8297,
+      "starsToday": 578
+    },
+    {
+      "fullName": "debpalash/VoiceStudio",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 4,
+      "stars": 29068,
+      "starsToday": 2774
+    },
+    {
+      "fullName": "666ghj/MiroFish",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 5,
+      "stars": 73101,
+      "starsToday": 524
+    },
+    {
+      "fullName": "Panniantong/Agent-Reach",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 6,
+      "stars": 81192,
+      "starsToday": 640
+    },
+    {
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 7,
+      "stars": 66728,
+      "starsToday": 770
+    },
+    {
+      "fullName": "rlaope/oh-my-hermes",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 8,
+      "stars": 2008,
+      "starsToday": 52
+    },
+    {
+      "fullName": "localsend/localsend",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 9,
+      "stars": 91281,
+      "starsToday": 311
+    },
+    {
+      "fullName": "dani-garcia/vaultwarden",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 10,
+      "stars": 67516,
+      "starsToday": 110
+    },
+    {
+      "fullName": "TauricResearch/TradingAgents",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 11,
+      "stars": 106066,
+      "starsToday": 756
+    },
+    {
+      "fullName": "ruvnet/RuView",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 12,
+      "stars": 93814,
+      "starsToday": 370
+    },
+    {
+      "fullName": "tech-leads-club/agent-skills",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 13,
+      "stars": 6035,
+      "starsToday": 506
+    },
+    {
+      "fullName": "OpenBMB/VoxCPM",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 14,
+      "stars": 37341,
+      "starsToday": 204
+    },
+    {
+      "fullName": "huggingface/transformers",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 15,
+      "stars": 165950,
+      "starsToday": 528
+    },
+    {
+      "fullName": "ever-co/ever-gauzy",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 16,
+      "stars": 5935,
+      "starsToday": 1095
+    },
+    {
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 17,
+      "stars": 36882,
+      "starsToday": 26
+    },
+    {
+      "fullName": "reconurge/flowsint",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 18,
+      "stars": 8320,
+      "starsToday": 279
+    },
+    {
+      "fullName": "peetzweg/opendisplay",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 19,
+      "stars": 3539,
+      "starsToday": 258
+    },
+    {
+      "fullName": "SnailSploit/Claude-Red",
+      "sources": [
+        "trending-day"
+      ],
+      "rank": 20,
+      "stars": 4691,
+      "starsToday": 606
+    },
+    {
+      "fullName": "ayghri/i-have-adhd",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 1,
+      "stars": 45390,
+      "starsToday": 16740
+    },
+    {
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 2,
+      "stars": 33498,
+      "starsToday": 12931
+    },
+    {
+      "fullName": "affaan-m/ECC",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 3,
+      "stars": 258363,
+      "starsToday": 7264
+    },
+    {
+      "fullName": "openai/plugins",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 4,
+      "stars": 6703,
+      "starsToday": 1181
+    },
+    {
+      "fullName": "DietrichGebert/ponytail",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 5,
+      "stars": 138365,
+      "starsToday": 8444
+    },
+    {
+      "fullName": "mksglu/context-mode",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 6,
+      "stars": 22836,
+      "starsToday": 2102
+    },
+    {
+      "fullName": "heygen-com/hyperframes",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 7,
+      "stars": 50006,
+      "starsToday": 5146
+    },
+    {
+      "fullName": "tt-a1i/archify",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 8,
+      "stars": 62164,
+      "starsToday": 10132
+    },
+    {
+      "fullName": "openai/skills",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 9,
+      "stars": 27186,
+      "starsToday": 1622
+    },
+    {
+      "fullName": "microsoft/markitdown",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 10,
+      "stars": 183986,
+      "starsToday": 5191
+    },
+    {
+      "fullName": "obra/superpowers",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 11,
+      "stars": 286667,
+      "starsToday": 4068
+    },
+    {
+      "fullName": "blader/humanizer",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 12,
+      "stars": 48122,
+      "starsToday": 3673
+    },
+    {
+      "fullName": "max-sixty/worktrunk",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 13,
+      "stars": 7651,
+      "starsToday": 588
+    },
+    {
+      "fullName": "THU-MAIC/OpenMAIC",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 14,
+      "stars": 36804,
+      "starsToday": 4202
+    },
+    {
+      "fullName": "cathrynlavery/diagram-design",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 15,
+      "stars": 39761,
+      "starsToday": 7129
+    },
+    {
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 16,
+      "stars": 51951,
+      "starsToday": 736
+    },
+    {
+      "fullName": "Tencent/WeKnora",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 17,
+      "stars": 23203,
+      "starsToday": 1302
+    },
+    {
+      "fullName": "coreyhaines31/marketingskills",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 18,
+      "stars": 50237,
+      "starsToday": 2678
+    },
+    {
+      "fullName": "earthtojake/text-to-cad",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 19,
+      "stars": 15764,
+      "starsToday": 1054
+    },
+    {
+      "fullName": "petergyang/no-ai-slop",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 20,
+      "stars": 9526,
+      "starsToday": 1668
+    },
+    {
+      "fullName": "github/spec-kit",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 21,
+      "stars": 136784,
+      "starsToday": 2642
+    },
+    {
+      "fullName": "kunchenguid/firstmate",
+      "sources": [
+        "trending-week"
+      ],
+      "rank": 23,
+      "stars": 5938,
+      "starsToday": 778
+    }
+  ]
+}
