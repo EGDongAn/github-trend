@@ -1,0 +1,15 @@
+{
+  "fullName": "MG1937/ASC",
+  "analyzedAt": "2026-09-15T23:00:31.655Z",
+  "repoMeta": {
+    "stars": 1137,
+    "language": "Python",
+    "description": "ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers."
+  },
+  "relevance": "low",
+  "category": "안드로이드 역공학·에이전트 분석 도구",
+  "summary": "APK에서 필요한 클래스만 디컴파일하고 매니페스트·코드 참조를 조회하는 CLI 도구. [공식 저장소](https://github.com/MG1937/ASC)",
+  "fit": "로컬 실행과 에이전트 도구 활용에는 부합하지만, 현재 스택에 안드로이드 분석 수요가 없어 명확한 공백을 메우지 못한다.",
+  "integration": "APK 분석 업무가 생기면 Claude Code·codex에서 droidasc CLI를 호출하는 보조 도구로 검토.",
+  "overlaps": "직접 중복은 적지만 기존 오케스트레이션·추론·보안 격리 도구의 대체나 업그레이드는 아니다."
+}

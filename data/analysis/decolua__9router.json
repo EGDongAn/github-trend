@@ -1,0 +1,15 @@
+{
+  "fullName": "decolua/9router",
+  "analyzedAt": "2026-09-15T23:00:31.906Z",
+  "repoMeta": {
+    "stars": 28896,
+    "language": "JavaScript",
+    "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits."
+  },
+  "relevance": "medium",
+  "category": "셀프호스팅 LLM 라우터·코딩 비용 최적화",
+  "summary": "코딩 도구에 공통 API를 제공하고 공급자 자동 전환·사용량 추적·도구 출력 압축을 지원한다. [공식 저장소](https://github.com/decolua/9router)",
+  "fit": "공급자 통합과 비용 절감에 유용하지만, 현재 스택의 라우팅 공백은 확인되지 않았다. 로컬 설치가 가능해도 추론은 외부 공급자에 의존하며, 무제한 무료·토큰 절감률은 보장으로 볼 수 없다.",
+  "integration": "Mac mini의 로컬 전용 포트에서 시험 운영하고 비핵심 코딩 워커부터 연결. 기존 vault 격리를 유지할 수 있는지, 도구 호출 호환성·전환 시 품질·실제 비용을 검증한 뒤 확대.",
+  "overlaps": "Claude Code·Codex·OpenClaw의 공급자 연결과 일부 중복. 공통 라우팅 계층을 보강하는 후보이며 Paperclip/cmux의 오케스트레이션이나 Ollama/mlx-lm의 로컬 추론을 대체하지 않는다."
+}
