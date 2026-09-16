@@ -1,0 +1,15 @@
+{
+  "fullName": "cline/cline",
+  "analyzedAt": "2026-09-16T23:00:52.331Z",
+  "repoMeta": {
+    "stars": 68347,
+    "language": "TypeScript",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화",
+  "summary": "IDE·CLI·SDK로 코드 수정과 명령 실행을 지원하며, 로컬 모델과 MCP를 연결할 수 있는 오픈소스 에이전트. [공식 저장소](https://github.com/cline/cline)",
+  "fit": "Ollama 연동과 모델 선택 자유도는 로컬 우선 전략에 부합한다. 다만 Claude Code·codex 대비 확실한 성능·비용 우위나 운영 공백 해소는 입증되지 않아 비교 검토 후보에 해당한다.",
+  "integration": "격리된 개발 저장소에서 Ollama 기반 CLI 워커를 시험하고, 동일 과제의 성공률·처리 시간·비용을 비교한다. 효과가 확인되면 Paperclip의 선택형 실행기로 연동을 검토한다.",
+  "overlaps": "Claude Code·codex의 코드 수정·명령 실행·스킬·MCP 기능과 크게 겹친다. SDK의 팀 구성·예약 자동화도 Paperclip·n8n과 일부 중복되므로 전면 교체 근거는 부족하다."
+}

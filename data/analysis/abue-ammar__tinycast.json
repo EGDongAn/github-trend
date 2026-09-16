@@ -1,0 +1,15 @@
+{
+  "fullName": "abue-ammar/tinycast",
+  "analyzedAt": "2026-09-16T23:00:27.354Z",
+  "repoMeta": {
+    "stars": 5551,
+    "language": "Swift",
+    "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history."
+  },
+  "relevance": "low",
+  "category": "macOS 생산성 도구",
+  "summary": "macOS 네이티브 런처·단축키·클립보드 기록 도구.",
+  "fit": "로컬 우선 환경에는 맞지만 에이전트 오케스트레이션·추론 비용·보안 격리의 명확한 공백을 메우지는 못함. 당장 도입 필요성은 낮음.",
+  "integration": "반복적인 앱 실행과 단축키 작업을 줄이는 운영자 보조 도구로 제한 검토.",
+  "overlaps": "cmux의 작업실 접근 및 기존 macOS 단축키와 일부 용도 중복. 핵심 자동화 스택을 대체하거나 확실히 강화할 근거는 부족함."
+}

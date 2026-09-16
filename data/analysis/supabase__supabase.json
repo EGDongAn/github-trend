@@ -1,0 +1,15 @@
+{
+  "fullName": "supabase/supabase",
+  "analyzedAt": "2026-09-16T23:00:40.627Z",
+  "repoMeta": {
+    "stars": 109672,
+    "language": "TypeScript",
+    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
+  },
+  "relevance": "medium",
+  "category": "PostgreSQL 기반 애플리케이션·AI 데이터 플랫폼",
+  "summary": "웹·모바일·AI 애플리케이션의 데이터 기반을 제공하는 Postgres 개발 플랫폼.",
+  "fit": "에이전트 간 공유 데이터와 운영 대시보드 구축에 활용 가능하다. 다만 현재 스택의 명확한 공백이 확인되지 않았고, 오케스트레이션이나 로컬 추론을 직접 강화하지는 않는다.",
+  "integration": "공유 데이터 저장소가 필요한 신규 서비스에 한해 셀프호스팅 구성과 Mac mini 자원 부담을 검증한다. Paperclip 내부 DB와 분리한 소규모 시범 도입이 적절하다.",
+  "overlaps": "Paperclip의 임베디드 PostgreSQL과 데이터 저장 기능이 부분 중복된다. 작업 위임·관제 기능의 대체재는 아니며, 별도 서비스 요구가 없다면 운영 부담만 늘 수 있다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "ankitects/anki",
+  "analyzedAt": "2026-09-16T23:00:23.285Z",
+  "repoMeta": {
+    "stars": 30828,
+    "language": "Rust",
+    "description": "Anki is a smart spaced repetition flashcard program"
+  },
+  "relevance": "none",
+  "category": "간격 반복 학습 앱",
+  "summary": "플래시카드와 간격 반복으로 개인의 암기·복습을 돕는 학습 프로그램.",
+  "fit": "에이전트 오케스트레이션, 로컬 LLM, 개발 자동화 등 현재 스택의 공백을 메우거나 기존 도구를 개선하지 않음. 로컬 실행만으로는 도입 근거가 부족함.",
+  "integration": "-",
+  "overlaps": "현재 스택과 직접 중복은 없으나, 개인 학습용으로 시스템 목적과 무관함."
+}

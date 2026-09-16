@@ -1,0 +1,15 @@
+{
+  "fullName": "anthropics/knowledge-work-plugins",
+  "analyzedAt": "2026-09-16T23:00:31.260Z",
+  "repoMeta": {
+    "stars": 24267,
+    "language": "Python",
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+  },
+  "relevance": "low",
+  "category": "직무별 스킬·MCP 연동 플러그인",
+  "summary": "Claude Cowork·Claude Code용 직무별 스킬, 명령, 외부 도구 연결 모음. [공식 저장소](https://github.com/anthropics/knowledge-work-plugins)",
+  "fit": "업무 절차 표준화에는 유용하지만, 현재 세션에 동일 계열 플러그인이 다수 제공되어 추가 도입 이점이 작다. 오케스트레이션·로컬 추론의 공백도 메우지 않는다.",
+  "integration": "일괄 추가보다 기존 설치본과 비교해 누락된 스킬과 개선 사항만 선별 반영하고, MCP 연결을 내부 도구에 맞게 조정한다.",
+  "overlaps": "기존 marketing·data·engineering·legal 등 Cowork 스킬과 직접 중복. Paperclip·cmux를 대체하지 않으며 비용 절감·보안 격리 기능도 추가하지 않는다."
+}
