@@ -1,0 +1,15 @@
+{
+  "fullName": "TencentCloud/Octop",
+  "analyzedAt": "2026-09-17T23:00:32.951Z",
+  "repoMeta": {
+    "stars": 3406,
+    "language": "Python",
+    "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent."
+  },
+  "relevance": "medium",
+  "category": "自托管多智能体助手平台",
+  "summary": "自托管平台，整合多用户、多智能体、文档 RAG、MCP、定时任务及 Claude Code 委派。[官方仓库](https://github.com/TencentCloud/Octop)",
+  "fit": "本地部署与自动化方向契合，但现有系统已覆盖多数功能；多用户能力对单人运营价值有限，尚不足以认定为明确升级。",
+  "integration": "可独立部署测试文档 RAG 与 ACP 编码任务委派，验证本地模型兼容性、权限隔离及运行成本后再决定是否接入。",
+  "overlaps": "与 OpenClaw 的个人助手、Hermes 的消息网关、n8n 的定时自动化及 Paperclip 的任务委派明显重叠；暂未证明能替代现有看板与多会话管控。"
+}

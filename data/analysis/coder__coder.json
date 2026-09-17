@@ -1,0 +1,15 @@
+{
+  "fullName": "coder/coder",
+  "analyzedAt": "2026-09-17T23:00:33.651Z",
+  "repoMeta": {
+    "stars": 14805,
+    "language": "Go",
+    "description": "Secure environments for developers and their agents"
+  },
+  "relevance": "medium",
+  "category": "셀프호스팅 개발환경·코딩 에이전트 실행 인프라",
+  "summary": "Terraform으로 컨테이너·VM 작업환경을 생성하고 유휴 종료하며, 자체 인프라에서 코딩 에이전트를 운영하는 플랫폼. [공식 저장소](https://github.com/coder/coder)",
+  "fit": "워커별 재현 가능한 분리 환경은 유용하지만, 단일 Mac mini 운영에서 추가 관리 비용을 정당화할 공백은 아직 불명확하다.",
+  "integration": "로컬 Docker 작업환경 하나로 시험 도입하고, Paperclip 워커의 실행환경으로 연결해 자원 사용량과 환경 분리 효과를 검증한다.",
+  "overlaps": "Paperclip의 작업 위임, cmux의 작업환경 관제, vault의 자격증명 격리와 부분 중복. 기존 도구 대체보다는 작업환경 생성·수명주기 관리 보강에 적합하다."
+}

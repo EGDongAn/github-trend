@@ -1,0 +1,15 @@
+{
+  "fullName": "Tencent/BrowserSkill",
+  "analyzedAt": "2026-09-17T23:00:33.390Z",
+  "repoMeta": {
+    "stars": 4070,
+    "language": "TypeScript",
+    "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent."
+  },
+  "relevance": "medium",
+  "category": "에이전트용 로컬 브라우저 자동화",
+  "summary": "로그인된 브라우저를 CLI·확장 프로그램으로 제어하며, 별도 에이전트 창과 사용자 개입을 지원한다. [공식 문서](https://github.com/Tencent/BrowserSkill)",
+  "fit": "macOS·로컬 실행과 Claude Code·Codex 연동은 적합하다. 다만 기존 Playwright MCP 대비 명확한 공백이나 성능 우위가 확인되지 않아 보완 후보로 평가한다.",
+  "integration": "Mac mini에 CLI·확장·스킬을 연결해 로그인 필요 업무부터 시험한다. 실제 계정 권한이 노출되므로 전용 브라우저 프로필과 작업별 승인 범위를 적용한다.",
+  "overlaps": "Playwright MCP의 탐색·클릭·화면 수집과 중복된다. 로그인 상태 재사용과 사용자 작업 방해 최소화가 차별점이며, Paperclip·cmux를 대체하지 않는다."
+}

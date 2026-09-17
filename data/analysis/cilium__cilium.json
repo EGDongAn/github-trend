@@ -1,0 +1,15 @@
+{
+  "fullName": "cilium/cilium",
+  "analyzedAt": "2026-09-17T23:00:27.584Z",
+  "repoMeta": {
+    "stars": 25251,
+    "language": "Go",
+    "description": "eBPF-based Networking, Security, and Observability"
+  },
+  "relevance": "low",
+  "category": "네트워크 보안·옵저버빌리티",
+  "summary": "Linux eBPF 기반으로 Kubernetes 등의 네트워크 연결, 보안 정책, 트래픽 관측을 제공하는 인프라 도구.",
+  "fit": "보안·관측 목적은 부합하지만, 현재 macOS 중심 스택에는 Kubernetes 운영 수요가 제시되지 않아 명확한 공백을 메우지 못함. 도입 시 Linux 기반 운영 환경과 관리 부담이 추가됨.",
+  "integration": "향후 Linux Kubernetes 클러스터를 운영할 때 네트워크 정책과 서비스 간 통신 관측 용도로 검토.",
+  "overlaps": "n8n·워치독과 감시 목적이 일부 겹치지만 관측 계층이 다름. vault의 비밀 격리나 Paperclip·cmux의 에이전트 관제를 대체하지 않음."
+}
