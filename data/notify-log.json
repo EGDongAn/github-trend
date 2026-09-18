@@ -724,5 +724,16 @@
     "stars": 18064,
     "category": "로컬 지식베이스·에이전트 검색 도구",
     "summary": "문서를 출처가 연결된 영속 위키로 축적하고 증분 갱신하는 데스크톱 앱. 로컬 API와 MCP를 제공한다. [공식 저장소](https://github.com/nashsu/llm_wiki)"
+  },
+  {
+    "date": "2026-09-18",
+    "sentAt": "2026-09-18T23:00:44.668Z",
+    "fullName": "supermemoryai/supermemory",
+    "owner": "supermemoryai",
+    "name": "supermemory",
+    "url": "https://github.com/supermemoryai/supermemory",
+    "stars": 30247,
+    "category": "에이전트 장기 기억·로컬 RAG",
+    "summary": "대화에서 사실을 추출·갱신하고 문서와 기억을 함께 검색하는 엔진. 공식 안내상 Ollama와 완전 로컬 실행을 지원한다. [저장소](https://github.com/supermemoryai/supermemory)"
   }
 ]

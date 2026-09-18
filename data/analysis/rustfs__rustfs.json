@@ -1,0 +1,15 @@
+{
+  "fullName": "rustfs/rustfs",
+  "analyzedAt": "2026-09-18T23:00:27.764Z",
+  "repoMeta": {
+    "stars": 33138,
+    "language": "Rust",
+    "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph."
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 S3 호환 객체 스토리지",
+  "summary": "Rust 기반 객체 스토리지로, S3 호환 API와 MinIO·Ceph 등과의 이전·공존을 지원한다.",
+  "fit": "셀프호스팅 방향에는 맞지만 현재 스택에 객체 스토리지 수요가 명시되지 않아 도입 근거가 약하다. 에이전트 오케스트레이션이나 로컬 추론을 직접 개선하지 않는다.",
+  "integration": "대용량 에이전트 산출물·문서 원본의 공용 저장소가 필요해질 때 검토. Mac mini 배포 호환성, 자원 사용량, 운영 부담을 먼저 확인해야 한다.",
+  "overlaps": "현재 스택과 직접 중복은 적다. 파일 저장 계층을 추가하는 도구이며, 비밀 관리용 vault나 Paperclip의 PostgreSQL을 대체하지 않는다."
+}

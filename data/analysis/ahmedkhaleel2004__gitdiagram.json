@@ -1,0 +1,15 @@
+{
+  "fullName": "ahmedkhaleel2004/gitdiagram",
+  "analyzedAt": "2026-09-18T23:00:33.498Z",
+  "repoMeta": {
+    "stars": 16446,
+    "language": "TypeScript",
+    "description": "Free, simple, fast interactive diagrams for any GitHub repository"
+  },
+  "relevance": "low",
+  "category": "개발 보조·저장소 아키텍처 시각화",
+  "summary": "저장소 구조와 소스 일부를 AI로 분석해 소스 링크가 있는 대화형 다이어그램을 생성한다. Mermaid·PNG 내보내기를 지원한다. [공식 문서](https://github.com/ahmedkhaleel2004/gitdiagram#readme)",
+  "fit": "코드 파악에는 유용하지만 오케스트레이션·로컬 추론의 공백을 메우지는 않는다. 현재 문서상 외부 AI·R2·Upstash가 필요해 비용 절감과 로컬 우선 측면에서 도입 유인이 약하다.",
+  "integration": "공개 저장소 검토 시 필요할 때 사용하고 Mermaid 결과를 설계 문서에 첨부하는 정도가 적절하다. 상시 자체 운영은 보류.",
+  "overlaps": "Claude Code·codex의 코드 분석 및 Mermaid 작성과 부분 중복된다. 클릭 가능한 시각화는 장점이나 기존 실행·관제 도구의 대체나 뚜렷한 업그레이드는 아니다."
+}

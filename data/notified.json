@@ -64,5 +64,6 @@
   "magnitudedev/magnitude",
   "openai/skills",
   "mksglu/context-mode",
-  "nashsu/llm_wiki"
+  "nashsu/llm_wiki",
+  "supermemoryai/supermemory"
 ]
