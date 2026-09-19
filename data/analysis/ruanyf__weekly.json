@@ -1,0 +1,15 @@
+{
+  "fullName": "ruanyf/weekly",
+  "analyzedAt": "2026-09-19T23:00:36.581Z",
+  "repoMeta": {
+    "stars": 103106,
+    "language": null,
+    "description": "科技爱好者周刊，每周五发布"
+  },
+  "relevance": "low",
+  "category": "기술 동향·자료 큐레이션",
+  "summary": "매주 금요일 발행되는 중국어 기술 애호가 주간 뉴스레터 저장소.",
+  "fit": "AI·개발 도구 탐색에 참고할 수 있지만, 현재 스택의 기능 공백을 메우거나 기존 도구를 업그레이드하지는 않음.",
+  "integration": "기술 동향 수집 대상에 선택적으로 추가하고, 로컬 LLM으로 관련 항목만 요약·선별.",
+  "overlaps": "실행 도구와 직접 중복되지는 않으나, 기존 GitHub 동향 수집과 정보 탐색 목적이 겹침."
+}

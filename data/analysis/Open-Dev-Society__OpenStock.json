@@ -1,0 +1,15 @@
+{
+  "fullName": "Open-Dev-Society/OpenStock",
+  "analyzedAt": "2026-09-19T23:00:23.408Z",
+  "repoMeta": {
+    "stars": 15997,
+    "language": "TypeScript",
+    "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free."
+  },
+  "relevance": "none",
+  "category": "금융 시장 모니터링 앱",
+  "summary": "실시간 시세 추적, 맞춤 알림, 기업 정보 조회를 제공하는 오픈소스 금융 앱.",
+  "fit": "에이전트 운영·로컬 LLM·개발 자동화와 직접 관련이 없으며, 현재 스택의 명확한 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "알림 기능은 n8n·tg-proxy와 일부 겹치지만, 금융 정보 조회가 주목적이라 기존 운영 도구의 대체·업그레이드 후보는 아니다."
+}

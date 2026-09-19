@@ -735,5 +735,16 @@
     "stars": 30247,
     "category": "에이전트 장기 기억·로컬 RAG",
     "summary": "대화에서 사실을 추출·갱신하고 문서와 기억을 함께 검색하는 엔진. 공식 안내상 Ollama와 완전 로컬 실행을 지원한다. [저장소](https://github.com/supermemoryai/supermemory)"
+  },
+  {
+    "date": "2026-09-19",
+    "sentAt": "2026-09-19T23:00:41.462Z",
+    "fullName": "docling-project/docling",
+    "owner": "docling-project",
+    "name": "docling",
+    "url": "https://github.com/docling-project/docling",
+    "stars": 67010,
+    "category": "로컬 문서 파싱·RAG 전처리",
+    "summary": "PDF·오피스 문서의 레이아웃·표·OCR을 처리해 Markdown·JSON으로 변환하는 로컬 실행 도구. [공식 저장소](https://github.com/docling-project/docling)"
   }
 ]

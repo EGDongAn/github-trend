@@ -1,0 +1,15 @@
+{
+  "fullName": "higgsfield-ai/higgsfield",
+  "analyzedAt": "2026-09-19T23:00:25.316Z",
+  "repoMeta": {
+    "stars": 4926,
+    "language": "Jupyter Notebook",
+    "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters"
+  },
+  "relevance": "low",
+  "category": "대규모 GPU 오케스트레이션·분산 모델 학습",
+  "summary": "수십억~수조 파라미터 모델 학습을 위한 장애 내성·확장성 중심의 GPU 오케스트레이션 프레임워크.",
+  "fit": "Mac mini 기반 로컬 추론·비용 절감과 거리가 멀다. 에이전트 작업 위임이 아닌 대규모 모델 학습 인프라용으로, 현재 스택의 명확한 공백을 메우지 않는다.",
+  "integration": "현재 도입 이유는 약함. 향후 다중 GPU 기반 자체 모델 학습이 필요할 때 별도 검토.",
+  "overlaps": "Paperclip·cmux의 에이전트 관제와 목적이 다르며, Ollama·mlx-lm의 로컬 추론을 직접 대체하거나 강화하는 도구로 보기 어렵다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "docling-project/docling",
+  "analyzedAt": "2026-09-19T23:00:40.098Z",
+  "repoMeta": {
+    "stars": 67010,
+    "language": "Python",
+    "description": "Get your documents ready for gen AI"
+  },
+  "relevance": "high",
+  "category": "로컬 문서 파싱·RAG 전처리",
+  "summary": "PDF·오피스 문서의 레이아웃·표·OCR을 처리해 Markdown·JSON으로 변환하는 로컬 실행 도구. [공식 저장소](https://github.com/docling-project/docling)",
+  "fit": "제시된 스택에 없는 전문 문서 구조화 계층을 보완한다. 문서를 외부로 보내지 않고 로컬 RAG와 에이전트 입력을 준비할 수 있어 도입 검토 가치가 높다.",
+  "integration": "Mac mini에서 CLI·Python으로 문서를 변환하고 n8n으로 수집·변환을 자동화한다. 결과를 로컬 RAG에 연결하며, 한국어 OCR·표 정확도와 메모리 사용량을 먼저 검증한다.",
+  "overlaps": "Open WebUI의 문서 추출·RAG 전처리와 일부 중복한다. Ollama 추론이나 Paperclip 관제를 대체하지 않으며, 복잡한 PDF 처리 계층을 보강하는 용도다."
+}
