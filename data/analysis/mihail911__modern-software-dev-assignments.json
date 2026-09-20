@@ -1,0 +1,15 @@
+{
+  "fullName": "mihail911/modern-software-dev-assignments",
+  "analyzedAt": "2026-09-20T23:00:24.072Z",
+  "repoMeta": {
+    "stars": 4540,
+    "language": "Python",
+    "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)"
+  },
+  "relevance": "low",
+  "category": "AI 개발 교육·실습",
+  "summary": "스탠퍼드 CS146S의 주차별 개발 과제 저장소. 운영 도구보다 교육 자료에 해당한다. [저장소](https://github.com/mihail911/modern-software-dev-assignments)",
+  "fit": "AI 개발 워크플로 학습에는 관련되지만, 현재 스택의 명확한 공백을 채우거나 기존 도구를 업그레이드할 근거는 부족하다.",
+  "integration": "필요한 과제만 별도 로컬 환경에서 실행해 코딩 에이전트 실습·평가 자료로 활용한다.",
+  "overlaps": "Claude Code·codex 기반 개발 자동화와 학습 주제가 겹친다. Paperclip·cmux 등의 대체재로 볼 근거는 없다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "vercel-labs/json-render",
+  "analyzedAt": "2026-09-20T23:00:25.517Z",
+  "repoMeta": {
+    "stars": 17265,
+    "language": "TypeScript",
+    "description": "The Generative UI framework"
+  },
+  "relevance": "low",
+  "category": "생성형 UI 프레임워크",
+  "summary": "AI가 생성한 JSON을 사전 정의한 컴포넌트·액션으로 렌더링하는 도구. [공식 저장소](https://github.com/vercel-labs/json-render)",
+  "fit": "에이전트 결과를 동적 화면으로 표시할 때 유용하나, 오케스트레이션·추론 비용·보안 격리의 명확한 공백을 채우지는 않음. 현재 도입 우선순위는 낮음.",
+  "integration": "향후 별도 관제 UI가 필요하면 작업 상태·보고서 JSON을 카드와 지표로 렌더링하는 용도로 소규모 검증.",
+  "overlaps": "Paperclip·cmux의 관제 화면과 용도 일부 중복. 실행·위임 기능을 대체하지 않으며 별도 화면 개발과 유지보수가 필요."
+}

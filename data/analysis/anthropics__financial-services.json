@@ -1,0 +1,15 @@
+{
+  "fullName": "anthropics/financial-services",
+  "analyzedAt": "2026-09-20T23:00:24.758Z",
+  "repoMeta": {
+    "stars": 35343,
+    "language": "Python",
+    "description": null
+  },
+  "relevance": "low",
+  "category": "금융 업무 특화 에이전트·스킬·MCP 플러그인",
+  "summary": "재무 모델링, 투자 리서치, 회계 대사 등을 위한 Claude 플러그인과 관리형 에이전트 예제 모음. [공식 저장소](https://github.com/anthropics/financial-services)",
+  "fit": "Claude Code에 연결할 수 있지만 금융 업무 특화로, 현재 스택의 명확한 공백을 메우지 않는다. 로컬 추론·비용 절감 효과도 불명확하다.",
+  "integration": "재무 분석 수요가 생길 때 관련 스킬만 선별 적용. 위임 예제는 참고 가능하나 관리형 API 경로는 클라우드 의존성을 추가한다.",
+  "overlaps": "기존 Claude Code 스킬·MCP와 기능 영역이 겹친다. Paperclip/cmux를 대체하거나 확실히 개선하는 범용 관제 도구는 아니다."
+}

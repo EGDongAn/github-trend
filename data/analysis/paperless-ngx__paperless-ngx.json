@@ -1,0 +1,15 @@
+{
+  "fullName": "paperless-ngx/paperless-ngx",
+  "analyzedAt": "2026-09-20T23:00:24.896Z",
+  "repoMeta": {
+    "stars": 45532,
+    "language": "Python",
+    "description": "A community-supported supercharged document management system: scan, index and archive all your documents"
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 문서 관리",
+  "summary": "종이 문서를 검색 가능한 디지털 아카이브로 관리하는 시스템. Docker Compose 배포 지원. [공식 저장소](https://github.com/paperless-ngx/paperless-ngx)",
+  "fit": "로컬 우선 원칙에는 부합하지만 에이전트 관제·코딩 자동화·로컬 추론을 직접 강화하지 않는다. 문서 아카이빙 수요가 명시되지 않아 당장 도입 근거는 약하다.",
+  "integration": "문서 보관 수요가 생기면 Mac mini의 Docker에 배포하고, 문서 수집·검색 연동을 별도 검토.",
+  "overlaps": "Google Drive의 문서 보관·검색 용도와 일부 중복. Paperclip/cmux를 대체하지 않으며, 기존 스택에 추가하는 별도 업무 앱에 가깝다."
+}
