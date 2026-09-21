@@ -1,0 +1,15 @@
+{
+  "fullName": "zhouxiaoka/autoclip",
+  "analyzedAt": "2026-09-21T23:00:23.532Z",
+  "repoMeta": {
+    "stars": 8198,
+    "language": "Python",
+    "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具"
+  },
+  "relevance": "low",
+  "category": "AI 영상 편집·하이라이트 추출",
+  "summary": "제공된 설명 기준, AI로 영상의 하이라이트를 추출하고 재편집하는 Python 도구.",
+  "fit": "콘텐츠 제작에는 활용 여지가 있지만, 현재 스택의 오케스트레이션·로컬 추론·개발 자동화 공백을 메우지는 않아 당장 도입 근거가 약함.",
+  "integration": "영상 재가공 수요가 생기면 로컬 실행·API 지원·모델 비용을 확인한 뒤 n8n 작업으로 연결 검토.",
+  "overlaps": "명시된 스택과 직접 중복은 적으나, 핵심 도구의 대체·업그레이드보다 별도 콘텐츠 제작 기능에 해당."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "mvt-project/mvt",
+  "analyzedAt": "2026-09-21T23:00:21.836Z",
+  "repoMeta": {
+    "stars": 13558,
+    "language": "Python",
+    "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise."
+  },
+  "relevance": "none",
+  "category": "모바일 기기 포렌식",
+  "summary": "모바일 기기의 침해 흔적을 찾는 포렌식 도구.",
+  "fit": "모바일 기기 침해 조사는 현재 스택의 운영 범위 밖이며, 에이전트 실행·비밀 격리·서버 감시의 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "직접 중복은 없지만 vault sidecar나 워치독을 보강·대체하는 도구도 아니다."
+}
