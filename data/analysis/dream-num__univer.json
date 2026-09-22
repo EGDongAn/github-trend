@@ -1,0 +1,15 @@
+{
+  "fullName": "dream-num/univer",
+  "analyzedAt": "2026-09-22T23:00:32.215Z",
+  "repoMeta": {
+    "stars": 15346,
+    "language": "TypeScript",
+    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime."
+  },
+  "relevance": "medium",
+  "category": "로컬 문서·스프레드시트 자동화 SDK",
+  "summary": "브라우저와 Node.js에서 문서·시트를 편집·계산하는 오피스 SDK. PDF는 아직 예정 기능이다. [공식 저장소](https://github.com/dream-num/univer)",
+  "fit": "로컬 에이전트의 문서 처리에 유용하지만, 현재 스택에 해당 공백이 명확하지 않아 관찰 후보. 오케스트레이션이나 로컬 추론을 직접 개선하지는 않는다.",
+  "integration": "로컬 Node.js에서 시트 생성·수식 계산을 소규모 검증하고 Paperclip 워커 도구로 연결. 공식 OpenClaw 연동도 검토하되 기능별 패키지·라이선스 확인이 필요하다.",
+  "overlaps": "Google Drive MCP의 문서·시트 작업과 일부 중복. 로컬 처리와 자체 편집 화면이 필요할 때 보완 가치가 있으며, Paperclip·cmux·n8n의 대체재는 아니다."
+}

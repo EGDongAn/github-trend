@@ -1,0 +1,15 @@
+{
+  "fullName": "sergebulaev/linkedin-skills",
+  "analyzedAt": "2026-09-22T23:00:26.209Z",
+  "repoMeta": {
+    "stars": 3298,
+    "language": "Python",
+    "description": "Claude skills for LinkedIn. 11 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft comments that get noticed, analyze your feed, and build a publishing cadence, all from your terminal. Content engineering by Creative Content Crafts. MIT."
+  },
+  "relevance": "low",
+  "category": "LinkedIn 콘텐츠 제작 스킬",
+  "summary": "게시글·댓글 작성, 피드 분석, 게시 주기 관리를 지원하는 Claude Code·Codex용 스킬 11종.",
+  "fit": "기존 CLI 환경과 맞지만 핵심 우선순위인 오케스트레이션·로컬 추론·보안 격리의 공백을 채우지 않는다. LinkedIn 운영 수요가 있을 때만 제한적으로 유용하다.",
+  "integration": "LinkedIn 운영이 필요하면 글·댓글 초안 스킬부터 기존 콘텐츠 워크플로에 선택적으로 적용한다.",
+  "overlaps": "기존 콘텐츠 제작·카피라이팅·SNS 마케팅 스킬과 상당 부분 겹친다. LinkedIn 특화 품질과 피드 분석의 추가 이점은 검증이 필요하다."
+}
