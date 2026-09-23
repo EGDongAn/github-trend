@@ -1,0 +1,15 @@
+{
+  "fullName": "pytorch/pytorch",
+  "analyzedAt": "2026-09-23T23:00:25.993Z",
+  "repoMeta": {
+    "stars": 103213,
+    "language": "Python",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+  },
+  "relevance": "low",
+  "category": "딥러닝 학습·추론 기반 프레임워크",
+  "summary": "텐서 연산과 신경망 학습·추론을 위한 범용 프레임워크.",
+  "fit": "로컬 모델 실험에는 관련되지만, 현재 스택의 명확한 공백을 메우거나 운영 비용을 바로 줄이는 도구는 아니다.",
+  "integration": "기존 도구로 지원하지 못하는 모델의 실행·미세조정이 필요할 때 별도 Python 환경에서 제한적으로 활용.",
+  "overlaps": "Ollama·mlx-lm과 모델 추론 영역이 일부 겹친다. 서빙·운영 기능은 별도 구성이 필요해 현재 스택의 직접 대체 이점은 불명확하다."
+}

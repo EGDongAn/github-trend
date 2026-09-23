@@ -1,0 +1,15 @@
+{
+  "fullName": "TNT-Likely/PanWatch",
+  "analyzedAt": "2026-09-23T23:00:31.650Z",
+  "repoMeta": {
+    "stars": 1473,
+    "language": "Python",
+    "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送"
+  },
+  "relevance": "low",
+  "category": "자가호스팅 투자 모니터링 앱",
+  "summary": "주가·보유자산 감시, TradingAgents 기반 투자 분석, 텔레그램·웹훅 알림을 제공한다. [저장소](https://github.com/TNT-Likely/PanWatch)",
+  "fit": "자가호스팅은 부합하지만 투자 전용 앱으로, 범용 에이전트 관제나 로컬 추론의 공백을 메우지 않는다. 별도 투자 자동화 수요가 없다면 도입 이유가 약하다.",
+  "integration": "투자 감시가 필요할 때 독립 Docker 서비스로 배치하고 웹훅을 n8n에 연결하는 정도가 적절하다.",
+  "overlaps": "스케줄링·알림은 n8n·Hermes·tg-proxy와 부분 중복. 투자 특화 분석은 추가되지만 Paperclip·cmux를 대체하거나 업그레이드하지 않는다."
+}
