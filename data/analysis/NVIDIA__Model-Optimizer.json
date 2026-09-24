@@ -1,0 +1,15 @@
+{
+  "fullName": "NVIDIA/Model-Optimizer",
+  "analyzedAt": "2026-09-24T23:00:34.300Z",
+  "repoMeta": {
+    "stars": 4051,
+    "language": "Python",
+    "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed."
+  },
+  "relevance": "low",
+  "category": "모델 압축·추론 최적화",
+  "summary": "양자화·증류·가지치기·추측 디코딩을 위한 모델 최적화 라이브러리. [공식 저장소](https://github.com/NVIDIA/Model-Optimizer)",
+  "fit": "추론 비용 절감에는 부합하지만 NVIDIA 배포 생태계 중심이라 Mac mini의 Ollama·mlx-lm을 직접 개선할 근거가 부족하다. 현재 도입 필요성은 낮다.",
+  "integration": "별도 NVIDIA GPU 서버 도입 시 모델을 압축하고 vLLM·TensorRT-LLM으로 서빙하는 경로를 검토. 현재 Mac 스택에는 적용 보류.",
+  "overlaps": "Ollama·mlx-lm의 양자화 모델 활용과 목적은 겹치지만, 이 도구는 배포 전 최적화 단계에 해당한다. 기존 실행 엔진이나 오케스트레이터의 대체재는 아니다."
+}

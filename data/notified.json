@@ -66,5 +66,6 @@
   "mksglu/context-mode",
   "nashsu/llm_wiki",
   "supermemoryai/supermemory",
-  "docling-project/docling"
+  "docling-project/docling",
+  "vectorize-io/hindsight"
 ]

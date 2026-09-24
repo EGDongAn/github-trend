@@ -1,0 +1,15 @@
+{
+  "fullName": "julyx10/lap",
+  "analyzedAt": "2026-09-24T23:00:26.766Z",
+  "repoMeta": {
+    "stars": 2851,
+    "language": "Vue",
+    "description": "An offline-first photo manager for large local libraries"
+  },
+  "relevance": "none",
+  "category": "로컬 사진 관리 앱",
+  "summary": "대규모 로컬 사진 라이브러리를 위한 오프라인 우선 사진 관리자.",
+  "fit": "로컬 우선 원칙에는 부합하지만, 에이전트 실행·오케스트레이션·LLM 운영·자동화의 공백을 메우지 않아 도입 필요성이 없다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 직접적인 기능 중복은 없으나, 핵심 운영 목적과 무관하다."
+}

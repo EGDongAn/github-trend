@@ -1,0 +1,15 @@
+{
+  "fullName": "leejet/stable-diffusion.cpp",
+  "analyzedAt": "2026-09-24T23:00:41.582Z",
+  "repoMeta": {
+    "stars": 7231,
+    "language": "C++",
+    "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++"
+  },
+  "relevance": "medium",
+  "category": "로컬 이미지·영상 생성 추론",
+  "summary": "C/C++ 기반으로 Stable Diffusion, Flux, Wan 등 확산 모델을 실행하는 추론 엔진.",
+  "fit": "로컬 우선·외부 API 비용 절감 방향과 맞지만, 현재 스택에 이미지·영상 생성 수요가 명시되지 않아 필수 공백을 메우는지는 불확실하다.",
+  "integration": "Mac mini에서 모델별 메모리 사용량·속도·품질을 검증한 뒤, 필요하면 CLI를 n8n 또는 에이전트 작업에 연결해 콘텐츠 생성에 활용.",
+  "overlaps": "Ollama·mlx-lm과 로컬 추론 운영 영역은 겹치지만 생성 대상이 다르다. 기존 오케스트레이션 도구의 대체재가 아닌 선택적 보완재."
+}

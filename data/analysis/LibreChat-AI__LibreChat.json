@@ -1,0 +1,15 @@
+{
+  "fullName": "LibreChat-AI/LibreChat",
+  "analyzedAt": "2026-09-24T23:00:54.490Z",
+  "repoMeta": {
+    "stars": 44892,
+    "language": "TypeScript",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active"
+  },
+  "relevance": "medium",
+  "category": "셀프호스팅 AI 대화·에이전트 플랫폼",
+  "summary": "여러 모델과 로컬 LLM, MCP, 스킬, 하위 에이전트를 통합하는 웹 플랫폼. [공식 저장소](https://github.com/LibreChat-AI/LibreChat)",
+  "fit": "로컬 우선 운영에 부합하지만 Open WebUI와 중복이 크다. 에이전트 통합 화면의 가치는 있으나 현재 스택의 명확한 공백이나 확실한 업그레이드는 입증되지 않았다.",
+  "integration": "별도 Docker 환경에서 Ollama와 기존 MCP를 연결해 Open WebUI 대체 후보로 비교한다. 도구 호출 안정성·자원 사용량·운영 부담을 검증한 뒤 전환 여부를 판단한다.",
+  "overlaps": "Open WebUI의 모델 통합·대화 UI와 크게 중복하고 Claude Code의 MCP·스킬·위임 기능과 부분 중복한다. Paperclip의 이슈·칸반 운영이나 cmux의 세션 관제를 대체할 근거는 부족하다."
+}

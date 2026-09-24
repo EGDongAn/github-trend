@@ -1,0 +1,15 @@
+{
+  "fullName": "FxEmbed/FxEmbed",
+  "analyzedAt": "2026-09-24T23:00:36.731Z",
+  "repoMeta": {
+    "stars": 5355,
+    "language": "TypeScript",
+    "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others"
+  },
+  "relevance": "low",
+  "category": "텔레그램·디스코드 링크 미리보기 보조",
+  "summary": "X·Bluesky 게시물의 이미지·영상·투표 등을 메신저에 표시하는 도구. Docker 자체 호스팅도 지원한다. [공식 저장소](https://github.com/FxEmbed/FxEmbed)",
+  "fit": "텔레그램 공유 품질에는 도움이 되지만, 에이전트 운영·로컬 추론·비용 절감의 명확한 공백을 메우지 않아 도입 우선순위는 낮다.",
+  "integration": "SNS 링크 미리보기 문제가 실제로 발생할 때 Hermes·tg-proxy의 발송 링크를 FxEmbed 주소로 변환하는 방식으로 제한 적용.",
+  "overlaps": "Hermes·tg-proxy와 메신저 활용 영역은 겹치지만 기능은 보완적이다. 기존 게이트웨이나 자동화 엔진을 대체하지 않는다."
+}

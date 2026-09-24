@@ -746,5 +746,16 @@
     "stars": 67010,
     "category": "로컬 문서 파싱·RAG 전처리",
     "summary": "PDF·오피스 문서의 레이아웃·표·OCR을 처리해 Markdown·JSON으로 변환하는 로컬 실행 도구. [공식 저장소](https://github.com/docling-project/docling)"
+  },
+  {
+    "date": "2026-09-24",
+    "sentAt": "2026-09-24T23:00:55.896Z",
+    "fullName": "vectorize-io/hindsight",
+    "owner": "vectorize-io",
+    "name": "hindsight",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "stars": 27731,
+    "category": "에이전트 장기 기억·지식 검색",
+    "summary": "경험과 사실을 저장·검색·종합하는 셀프호스팅 기억 시스템. Ollama, MCP, Claude Code·Codex 연동을 지원한다. [공식 저장소](https://github.com/vectorize-io/hindsight)"
   }
 ]
