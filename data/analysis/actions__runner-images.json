@@ -1,0 +1,15 @@
+{
+  "fullName": "actions/runner-images",
+  "analyzedAt": "2026-09-26T23:00:35.864Z",
+  "repoMeta": {
+    "stars": 13289,
+    "language": "PowerShell",
+    "description": "GitHub Actions runner images"
+  },
+  "relevance": "low",
+  "category": "CI 실행 환경·러너 이미지",
+  "summary": "GitHub Actions 러너 이미지의 구성과 빌드 스크립트를 관리하는 저장소.",
+  "fit": "CI 환경 재현에는 참고할 수 있으나, 현재 스택의 명확한 공백을 메우거나 에이전트·로컬 LLM 운영을 개선할 근거가 부족하다.",
+  "integration": "자체 러너가 필요해질 때 도구 구성과 설치 스크립트를 참고. Mac mini에 전체 이미지 빌드 체계를 도입할 실익은 낮다.",
+  "overlaps": "기존 GitHub Actions 실행 환경과 직접 관련된다. 워크플로 엔진의 대체재는 아니며, 별도 도입 시 환경 유지보수 부담이 추가된다."
+}

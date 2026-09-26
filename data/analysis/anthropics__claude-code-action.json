@@ -1,0 +1,15 @@
+{
+  "fullName": "anthropics/claude-code-action",
+  "analyzedAt": "2026-09-26T23:00:26.936Z",
+  "repoMeta": {
+    "stars": 9076,
+    "language": "TypeScript",
+    "description": null
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트·개발 자동화",
+  "summary": "PR·이슈에서 Claude Code를 호출해 코드 검토·수정·분류를 수행하는 공식 GitHub Action. [공식 저장소](https://github.com/anthropics/claude-code-action)",
+  "fit": "기존 Claude Code와 GitHub Actions 연결을 간소화하지만, 명확한 기능 공백은 확인되지 않는다. 자체 러너에서도 추론은 외부 제공자를 사용하므로 로컬 LLM·비용 절감 효과는 제한적이다.",
+  "integration": "저장소 한 곳에서 멘션 기반 PR 검토를 시범 적용. 최소 권한과 실행 횟수 제한을 설정하고, 기존 워커 대비 비용·검토 품질을 비교한다.",
+  "overlaps": "Claude Code 실행 기능과 Paperclip의 이슈 기반 작업 위임에 부분 중복. GitHub 이벤트 연동을 보강하는 도구이며 Paperclip·cmux 대체재는 아니다."
+}

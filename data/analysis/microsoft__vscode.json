@@ -1,0 +1,15 @@
+{
+  "fullName": "microsoft/vscode",
+  "analyzedAt": "2026-09-26T23:00:21.147Z",
+  "repoMeta": {
+    "stars": 193062,
+    "language": "TypeScript",
+    "description": "Visual Studio Code"
+  },
+  "relevance": "low",
+  "category": "코드 편집기·개발 환경",
+  "summary": "확장 기능과 통합 터미널을 제공하는 범용 코드 편집기.",
+  "fit": "에이전트가 만든 코드와 변경 사항을 사람이 검토하는 데 유용하지만, 현재 자동화 스택의 명확한 공백을 메우거나 기존 도구를 확실히 업그레이드하지는 않음.",
+  "integration": "Mac mini에서 저장소 탐색·디버깅·변경 검토용 보조 편집기로 활용 가능. 당장 도입할 필요는 낮음.",
+  "overlaps": "통합 터미널과 개발 작업 공간은 cmux와 부분 중복. Claude Code·codex의 보조 환경이며 Paperclip·Hermes의 오케스트레이션 기능을 대체하지 않음."
+}

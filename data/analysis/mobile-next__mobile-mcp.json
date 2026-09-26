@@ -1,0 +1,15 @@
+{
+  "fullName": "mobile-next/mobile-mcp",
+  "analyzedAt": "2026-09-26T23:00:38.140Z",
+  "repoMeta": {
+    "stars": 7318,
+    "language": "TypeScript",
+    "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)"
+  },
+  "relevance": "medium",
+  "category": "모바일 자동화 MCP 서버",
+  "summary": "iOS·Android의 에뮬레이터·시뮬레이터·실기기 자동화와 데이터 추출을 제공하는 MCP 서버.",
+  "fit": "에이전트의 모바일 앱 조작·검증 범위를 넓힐 후보. 다만 현재 스택에 모바일 자동화 수요가 명시되지 않아 도입 필요성은 조건부다.",
+  "integration": "모바일 앱 테스트가 필요할 때 별도 테스트 기기를 연결하고, Claude Code의 MCP 도구로 핵심 화면 조작부터 검증한다. 로컬 실행 조건과 기기별 지원 범위는 확인이 필요하다.",
+  "overlaps": "기존 Playwright MCP와 UI 자동화 목적이 겹친다. 모바일 앱·기기 제어를 보완하는 용도이며 Paperclip·cmux의 오케스트레이션을 대체하지 않는다."
+}

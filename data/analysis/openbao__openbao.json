@@ -1,0 +1,15 @@
+{
+  "fullName": "openbao/openbao",
+  "analyzedAt": "2026-09-26T23:00:26.536Z",
+  "repoMeta": {
+    "stars": 7989,
+    "language": "Go",
+    "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys."
+  },
+  "relevance": "medium",
+  "category": "보안·시크릿 관리",
+  "summary": "시크릿·인증서·키를 저장하고 배포하는 보안 인프라.",
+  "fit": "보안 격리 방향과 맞지만, 이미 vault sidecar가 있어 명확한 공백은 불분명하다. 에이전트별 권한과 머신용 시크릿 관리 요구가 커질 때 검토할 후보.",
+  "integration": "별도 테스트 환경에서 에이전트별 인증·접근 정책과 기존 bearer/proxy 연결을 검증하고, 운영 부담 대비 개선이 확인되면 시크릿 저장 계층의 교체를 검토.",
+  "overlaps": "Vaultwarden 기반 vault sidecar와 저장·배포 기능이 중복된다. 도입하더라도 기존 프록시 격리 구조까지 자동으로 대체되는 것은 아니다."
+}
