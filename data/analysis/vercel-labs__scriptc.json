@@ -1,0 +1,15 @@
+{
+  "fullName": "vercel-labs/scriptc",
+  "analyzedAt": "2026-09-27T23:00:29.631Z",
+  "repoMeta": {
+    "stars": 5378,
+    "language": "TypeScript",
+    "description": "TypeScript-to-Native Compiler"
+  },
+  "relevance": "low",
+  "category": "개발 도구·네이티브 컴파일러",
+  "summary": "TypeScript/JavaScript를 독립 실행 파일과 WebAssembly로 변환하는 실험적 컴파일러. [공식 저장소](https://github.com/vercel-labs/scriptc)",
+  "fit": "로컬 자동화 스크립트의 배포 간소화에는 관련되지만, 에이전트 관제·추론·보안 격리의 명확한 공백을 메우지 않는다. 현재 도입 근거는 약하다.",
+  "integration": "실행 비용이나 배포 문제가 확인된 소형 TypeScript 도구에 한해 정적 컴파일 호환성을 점검하고, Mac mini에서 성능·메모리·동작을 비교하는 시험 적용.",
+  "overlaps": "기존 스크립트 실행·배포 경로와 일부 겹친다. Claude Code·Paperclip·cmux의 대체재는 아니며, 호환성과 실측 이점 확인 전에는 추가 유지보수 부담이 크다."
+}

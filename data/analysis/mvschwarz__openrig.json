@@ -1,0 +1,15 @@
+{
+  "fullName": "mvschwarz/openrig",
+  "analyzedAt": "2026-09-27T23:00:28.348Z",
+  "repoMeta": {
+    "stars": 926,
+    "language": "TypeScript",
+    "description": "Multi-agent harness that runs Claude Code and Codex together as one system"
+  },
+  "relevance": "medium",
+  "category": "멀티에이전트 오케스트레이션",
+  "summary": "Claude Code와 Codex를 YAML 기반 팀으로 구성하고 세션·메시지·작업 큐를 관리하는 로컬 실행 도구. [공식 문서](https://github.com/mvschwarz/openrig)",
+  "fit": "혼합 에이전트 팀 운영과 cmux 연계는 적합하지만, Paperclip·cmux 대비 명확한 공백 해소나 비용 절감 효과는 아직 입증되지 않았다.",
+  "integration": "별도 macOS 사용자와 시험 저장소에서 소규모 구현·검토 팀을 구성해 위임·복구를 비교 검증. 기존 hooks·MCP·신뢰 설정을 변경하므로 OPENRIG_HOME 분리만으로는 격리가 충분하지 않다.",
+  "overlaps": "Paperclip의 작업 위임·큐 관리, cmux의 세션 관제, Claude Code의 hooks·스킬과 중복. 기존 도구를 유지한 채 혼합 에이전트 실행 계층의 보강 후보로 평가."
+}
