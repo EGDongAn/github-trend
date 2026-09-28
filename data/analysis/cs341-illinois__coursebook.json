@@ -1,0 +1,15 @@
+{
+  "fullName": "cs341-illinois/coursebook",
+  "analyzedAt": "2026-09-28T23:00:19.758Z",
+  "repoMeta": {
+    "stars": 2481,
+    "language": "TeX",
+    "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois"
+  },
+  "relevance": "none",
+  "category": "시스템 프로그래밍 교육 자료",
+  "summary": "일리노이대학교의 오픈소스 시스템 프로그래밍 입문 교재.",
+  "fit": "교육용 교재로, EG AI GROUP OS의 자동화·오케스트레이션·로컬 추론 공백을 메우는 도구가 아니다.",
+  "integration": "-",
+  "overlaps": "기존 도구와 기능 중복은 없으나, 대체·업그레이드 대상에도 해당하지 않는다."
+}

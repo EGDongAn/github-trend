@@ -1,0 +1,15 @@
+{
+  "fullName": "elastic/elasticsearch",
+  "analyzedAt": "2026-09-28T23:00:23.208Z",
+  "repoMeta": {
+    "stars": 78051,
+    "language": "Java",
+    "description": "Free and Open Source, Distributed, RESTful Search Engine"
+  },
+  "relevance": "medium",
+  "category": "검색·RAG 인프라",
+  "summary": "대규모 문서와 로그를 색인하고 검색하는 분산 검색 엔진.",
+  "fit": "로컬 문서 RAG와 에이전트 실행 로그 검색에 활용 가능하다. 다만 현재 검색 공백이나 데이터 규모가 명확하지 않아, 1인 Mac mini 운영에서 자원·관리 부담을 감수할 도입 근거는 부족하다.",
+  "integration": "검색 수요가 확인되면 로컬 시험 환경에서 문서·실행 로그를 색인하고, MCP 검색 도구로 연결해 검색 품질과 메모리 사용량을 검증한다.",
+  "overlaps": "Open WebUI의 문서 검색·RAG 영역과 일부 중복한다. Ollama·mlx-lm의 추론 기능과는 보완 관계이며 Paperclip·cmux의 오케스트레이션을 대체하지 않는다."
+}
