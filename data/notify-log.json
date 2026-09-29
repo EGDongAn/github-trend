@@ -757,5 +757,16 @@
     "stars": 27731,
     "category": "에이전트 장기 기억·지식 검색",
     "summary": "경험과 사실을 저장·검색·종합하는 셀프호스팅 기억 시스템. Ollama, MCP, Claude Code·Codex 연동을 지원한다. [공식 저장소](https://github.com/vectorize-io/hindsight)"
+  },
+  {
+    "date": "2026-09-29",
+    "sentAt": "2026-09-29T23:00:30.849Z",
+    "fullName": "NVIDIA/OpenShell",
+    "owner": "NVIDIA",
+    "name": "OpenShell",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "stars": 10527,
+    "category": "에이전트 실행 격리·보안 런타임",
+    "summary": "파일·시스템 호출·네트워크 접근을 정책으로 제한하고, 승인된 요청에만 자격증명을 주입하는 에이전트 샌드박스. [공식 저장소](https://github.com/NVIDIA/OpenShell)"
   }
 ]

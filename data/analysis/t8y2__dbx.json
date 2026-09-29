@@ -1,0 +1,15 @@
+{
+  "fullName": "t8y2/dbx",
+  "analyzedAt": "2026-09-29T23:00:28.430Z",
+  "repoMeta": {
+    "stars": 21939,
+    "language": "Rust",
+    "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。"
+  },
+  "relevance": "medium",
+  "category": "데이터베이스 관리·MCP 도구",
+  "summary": "macOS·Docker·CLI를 지원하는 경량 다중 DB 클라이언트. MCP 서버와 Ollama 연동을 제공한다. [공식 저장소](https://github.com/t8y2/dbx)",
+  "fit": "로컬 우선 운영과 에이전트의 DB 조회에 적합하다. 다만 현재 스택에서 통합 DB 관리의 필요성이 확인되지 않아 핵심 공백을 메우는 도구로 보기는 어렵다.",
+  "integration": "Mac mini에 설치해 개발용 PostgreSQL·SQLite를 연결하고, 읽기 전용 DB 계정으로 Claude Code의 MCP 조회를 시범 적용한다.",
+  "overlaps": "Claude Code의 SQL 작성과 n8n의 DB 연동 기능에 부분 중복된다. 통합 조회·관리 도구로 보완 가능하며 Paperclip·cmux·Vault를 대체하지 않는다."
+}

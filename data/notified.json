@@ -67,5 +67,6 @@
   "nashsu/llm_wiki",
   "supermemoryai/supermemory",
   "docling-project/docling",
-  "vectorize-io/hindsight"
+  "vectorize-io/hindsight",
+  "NVIDIA/OpenShell"
 ]

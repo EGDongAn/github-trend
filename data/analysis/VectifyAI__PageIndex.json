@@ -1,0 +1,15 @@
+{
+  "fullName": "VectifyAI/PageIndex",
+  "analyzedAt": "2026-09-29T23:00:29.626Z",
+  "repoMeta": {
+    "stars": 37278,
+    "language": "Python",
+    "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"
+  },
+  "relevance": "medium",
+  "category": "문서 검색·추론 기반 RAG",
+  "summary": "문서를 계층형 트리로 색인하고 LLM 추론으로 검색하는 벡터 DB 없는 RAG. 로컬 색인·검색 SDK를 제공한다. [공식 저장소](https://github.com/VectifyAI/PageIndex)",
+  "fit": "긴 매뉴얼·논문 검색을 보강할 후보. 다만 현재 검색 품질의 공백이 확인되지 않았고, 로컬 실행이 로컬 LLM 추론까지 보장하지 않아 비용 절감 효과는 검증이 필요하다.",
+  "integration": "Mac mini에서 비민감 문서로 시험하고 Ollama 연동 가능성·검색 정확도·지연·호출 비용을 비교한다. 효과가 확인되면 에이전트용 검색 도구로 연결한다.",
+  "overlaps": "Open WebUI의 문서 RAG와 용도가 일부 겹친다. 추론 기반 검색의 보완·대체 후보이며 Paperclip·cmux와는 역할이 다르다."
+}
