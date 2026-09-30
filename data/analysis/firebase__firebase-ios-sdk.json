@@ -1,0 +1,15 @@
+{
+  "fullName": "firebase/firebase-ios-sdk",
+  "analyzedAt": "2026-09-30T23:00:21.305Z",
+  "repoMeta": {
+    "stars": 6755,
+    "language": "C++",
+    "description": "Firebase SDK for Apple App Development"
+  },
+  "relevance": "none",
+  "category": "Apple 앱 개발용 SDK",
+  "summary": "Apple 플랫폼 앱에 Firebase 기능을 연동하는 SDK.",
+  "fit": "EG AI GROUP OS의 에이전트 관제, 로컬 LLM, 개발 자동화 등 핵심 요구와 직접 관련이 없으며 현재 스택의 공백을 메우지 않음.",
+  "integration": "-",
+  "overlaps": "현재 스택과 직접적인 기능 중복은 없으나, 대체·업그레이드 대상도 없음."
+}

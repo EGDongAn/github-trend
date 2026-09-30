@@ -768,5 +768,16 @@
     "stars": 10527,
     "category": "에이전트 실행 격리·보안 런타임",
     "summary": "파일·시스템 호출·네트워크 접근을 정책으로 제한하고, 승인된 요청에만 자격증명을 주입하는 에이전트 샌드박스. [공식 저장소](https://github.com/NVIDIA/OpenShell)"
+  },
+  {
+    "date": "2026-09-30",
+    "sentAt": "2026-09-30T23:00:39.321Z",
+    "fullName": "colbymchenry/codegraph",
+    "owner": "colbymchenry",
+    "name": "codegraph",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "stars": 72577,
+    "category": "코딩 에이전트 지원·로컬 코드 지식 그래프",
+    "summary": "코드의 심볼·호출·의존성을 로컬에 인덱싱하고 변경 시 자동 갱신해 MCP로 제공한다. [공식 문서](https://github.com/colbymchenry/codegraph)"
   }
 ]

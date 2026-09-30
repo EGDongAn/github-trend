@@ -68,5 +68,6 @@
   "supermemoryai/supermemory",
   "docling-project/docling",
   "vectorize-io/hindsight",
-  "NVIDIA/OpenShell"
+  "NVIDIA/OpenShell",
+  "colbymchenry/codegraph"
 ]

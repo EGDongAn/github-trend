@@ -1,0 +1,15 @@
+{
+  "fullName": "modelcontextprotocol/servers",
+  "analyzedAt": "2026-09-30T23:00:34.239Z",
+  "repoMeta": {
+    "stars": 90800,
+    "language": "TypeScript",
+    "description": "Model Context Protocol Servers"
+  },
+  "relevance": "medium",
+  "category": "MCP 서버 참조 구현",
+  "summary": "파일·Git·웹 조회·지식 그래프 메모리 등을 제공하는 공식 참조 구현 모음. 운영용 완제품은 아니다. [공식 저장소](https://github.com/modelcontextprotocol/servers)",
+  "fit": "로컬 실행과 자체 MCP 개발에 유용하지만, 이미 MCP를 활용 중이므로 명확한 공백이나 확실한 업그레이드는 확인되지 않는다.",
+  "integration": "필요한 서버만 로컬 MCP로 연결해 시험하고, 자체 도구 개발의 참고 코드로 활용. 운영 적용 전 접근 권한과 저장 데이터 격리를 검증한다.",
+  "overlaps": "파일·Git·웹 조회는 Claude Code와 기존 도구에 중복. Paperclip/cmux 대체 기능은 없다. 기존 Brave·Google Drive 관련 참조 서버는 보관 처리되어 교체 대상으로 부적합하다."
+}

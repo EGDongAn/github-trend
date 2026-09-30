@@ -1,0 +1,15 @@
+{
+  "fullName": "colbymchenry/codegraph",
+  "analyzedAt": "2026-09-30T23:00:38.029Z",
+  "repoMeta": {
+    "stars": 72577,
+    "language": "C",
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트 지원·로컬 코드 지식 그래프",
+  "summary": "코드의 심볼·호출·의존성을 로컬에 인덱싱하고 변경 시 자동 갱신해 MCP로 제공한다. [공식 문서](https://github.com/colbymchenry/codegraph)",
+  "fit": "제시된 스택에 없는 지속형 코드 구조 인덱스를 보완한다. 반복 탐색과 토큰 소비를 줄일 가능성이 커 도입 검토 가치가 높으며, 실제 절감 효과는 검증이 필요하다.",
+  "integration": "Mac mini의 대표 저장소 하나에 초기화하고 Claude Code·Codex MCP에 연결한다. 텔레메트리를 끄고 탐색 정확도, 토큰 사용량, 자동 갱신 부하를 비교해 확대한다.",
+  "overlaps": "기존 코드 검색·파일 읽기와 부분 중복하지만 호출 관계·변경 영향 분석을 보강한다. context7의 외부 문서 조회와는 상호 보완적이며 Paperclip·cmux를 대체하지 않는다."
+}
