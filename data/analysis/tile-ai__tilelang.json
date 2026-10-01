@@ -1,0 +1,15 @@
+{
+  "fullName": "tile-ai/tilelang",
+  "analyzedAt": "2026-10-01T23:00:25.695Z",
+  "repoMeta": {
+    "stars": 8086,
+    "language": "Python",
+    "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels"
+  },
+  "relevance": "low",
+  "category": "고성능 연산 커널 개발",
+  "summary": "GPU·CPU·가속기용 고성능 연산 커널 작성을 돕는 도메인 특화 언어.",
+  "fit": "로컬 LLM 성능 최적화와 간접 관련되지만, 현재 스택에 필요한 추론·서빙·오케스트레이션 공백을 직접 메우지는 않는다. 커널을 직접 개발할 필요가 없다면 도입 실익이 낮다.",
+  "integration": "직접 커널 최적화가 필요한 경우에만 별도 실험으로 검토. Mac mini의 가속기 지원과 기존 추론 엔진 연동 가능성을 먼저 확인해야 한다.",
+  "overlaps": "Ollama·mlx-lm과 목적상 일부 관련되지만 커널 개발 계층의 도구로, 기존 추론 엔진을 바로 대체하거나 업그레이드하는 용도는 아니다."
+}

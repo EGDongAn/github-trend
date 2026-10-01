@@ -1,0 +1,15 @@
+{
+  "fullName": "flutter/flutter",
+  "analyzedAt": "2026-10-01T23:00:36.353Z",
+  "repoMeta": {
+    "stars": 179207,
+    "language": "Dart",
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+  },
+  "relevance": "none",
+  "category": "크로스플랫폼 앱 개발 프레임워크",
+  "summary": "Dart 기반으로 모바일·데스크톱·웹 앱의 사용자 인터페이스를 만드는 프레임워크.",
+  "fit": "에이전트 오케스트레이션, 로컬 LLM, 자동화·보안의 공백을 메우지 않는다. 별도 앱 개발 요구가 없어 도입 근거가 없다.",
+  "integration": "-",
+  "overlaps": "현재 핵심 스택과 직접 중복은 없으나, 기존 도구의 대체·업그레이드에도 해당하지 않는다."
+}

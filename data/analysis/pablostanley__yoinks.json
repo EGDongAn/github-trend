@@ -1,0 +1,15 @@
+{
+  "fullName": "pablostanley/yoinks",
+  "analyzedAt": "2026-10-01T23:00:24.994Z",
+  "repoMeta": {
+    "stars": 2899,
+    "language": "TypeScript",
+    "description": "yoink any video from your terminal. no shady ads."
+  },
+  "relevance": "low",
+  "category": "터미널 영상 다운로드 도구",
+  "summary": "터미널에서 영상을 다운로드하는 유틸리티.",
+  "fit": "콘텐츠 수집 보조 용도로는 관련되지만, 에이전트 운영·로컬 추론·보안 격리의 명확한 공백을 메우지 않아 당장 도입 이유는 약함.",
+  "integration": "영상 수집 수요가 생기면 에이전트의 다운로드 단계에서 호출하는 보조 도구로 검토.",
+  "overlaps": "기존 실행 엔진에서 호출할 수 있는 도구이며, Paperclip·cmux·Ollama 등을 대체하거나 업그레이드하지 않음."
+}

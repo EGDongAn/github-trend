@@ -1,0 +1,15 @@
+{
+  "fullName": "HunxByts/GhostTrack",
+  "analyzedAt": "2026-10-01T23:00:22.885Z",
+  "repoMeta": {
+    "stars": 16370,
+    "language": "Python",
+    "description": "Useful tool to track location or mobile number"
+  },
+  "relevance": "none",
+  "category": "위치·전화번호 정보 조회 도구",
+  "summary": "제공된 설명 기준, 위치나 휴대전화 번호 관련 정보를 조회하는 Python 도구.",
+  "fit": "에이전트 운영, 로컬 LLM, 개발 자동화 등 핵심 목적과 무관하며 현재 스택의 명확한 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 직접적인 중복은 없지만, 별도 도입할 필요성도 없다."
+}

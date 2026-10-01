@@ -1,0 +1,15 @@
+{
+  "fullName": "androoAGI/starnet",
+  "analyzedAt": "2026-10-01T23:00:52.044Z",
+  "repoMeta": {
+    "stars": 870,
+    "language": "JavaScript",
+    "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run."
+  },
+  "relevance": "medium",
+  "category": "로컬 멀티에이전트 실행·시각화",
+  "summary": "에이전트 실행·권한·위임 상태를 픽셀아트 공간으로 표현하는 데스크톱 도구. Ollama, MCP, 메신저, 예약 실행과 비용 기록을 지원한다. [공식 저장소](https://github.com/androoAGI/starnet)",
+  "fit": "로컬 우선·멀티에이전트 방향과 부합하지만, 기존 스택의 명확한 공백을 메우거나 확실히 개선한다는 근거는 부족하다. macOS 실사용 검증도 상대적으로 적다고 명시되어 있다.",
+  "integration": "Mac mini의 별도 작업공간에서 Ollama 기반 단일 업무로 시험하고, 시각적 권한·위임 관리의 효용을 검증한다. OpenClaw/Hermes 에이전트 가져오기는 지원하지만 기존 관제와의 실시간 연동은 별도 확인이 필요하다.",
+  "overlaps": "Paperclip의 작업 위임, cmux의 관제, Hermes의 메신저 연결, Claude Code의 도구·스킬·예약 실행과 크게 중복된다. 시각적 워크플로와 비용 표시가 차별점이며, vault sidecar 보안 격리의 대체재로 보기는 어렵다."
+}
