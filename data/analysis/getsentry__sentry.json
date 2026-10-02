@@ -1,0 +1,15 @@
+{
+  "fullName": "getsentry/sentry",
+  "analyzedAt": "2026-10-02T23:00:27.475Z",
+  "repoMeta": {
+    "stars": 45022,
+    "language": "Python",
+    "description": "Developer-first error tracking and performance monitoring"
+  },
+  "relevance": "medium",
+  "category": "오류 추적·성능 관측",
+  "summary": "애플리케이션 오류와 성능 문제를 수집·분석하는 개발자용 관측 플랫폼.",
+  "fit": "Hermes·vault sidecar·에이전트 워커의 오류 원인 분석에 유용하다. 다만 현재 오류 추적의 공백이 확인되지 않았고, 로컬 운영 자원과 관리 부담을 고려하면 즉시 도입 근거는 부족하다.",
+  "integration": "단일 서비스에 시범 적용해 예외·성능 정보를 수집하고, 비밀·개인정보 필터링과 로컬 운영 부담을 검증한 뒤 확대한다.",
+  "overlaps": "워치독·n8n의 장애 감지 및 알림과 일부 중복한다. 오류별 상세 진단을 보강할 수 있으나 Paperclip·cmux의 작업 관제를 대체하지는 않는다."
+}

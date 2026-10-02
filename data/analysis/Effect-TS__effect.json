@@ -1,0 +1,15 @@
+{
+  "fullName": "Effect-TS/effect",
+  "analyzedAt": "2026-10-02T23:00:37.758Z",
+  "repoMeta": {
+    "stars": 16527,
+    "language": "TypeScript",
+    "description": "Build production-ready applications in TypeScript"
+  },
+  "relevance": "medium",
+  "category": "타입스크립트 서비스 신뢰성·동시성 라이브러리",
+  "summary": "타입 기반 오류 처리, 의존성 주입, 구조적 동시성, 스케줄링·추적·스키마 검증을 제공한다. [공식 저장소](https://github.com/Effect-TS/effect)",
+  "fit": "로컬 자동화 서비스의 안정성을 높일 후보지만, 현재 스택의 명확한 공백이나 비용 절감 효과는 확인되지 않는다. 학습·전환 비용을 고려해 제한적으로 검토할 가치가 있다.",
+  "integration": "신규 타입스크립트 워커 하나에 적용해 외부 호출 실패 처리, 동시 작업 취소, 실행 추적의 개선 효과를 검증한다.",
+  "overlaps": "n8n의 스케줄링·오류 처리와 기능적으로 일부 겹치지만 코드 내부 구현 계층이다. Paperclip·cmux·Claude Code의 직접 대체재는 아니다."
+}
