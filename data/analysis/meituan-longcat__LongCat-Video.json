@@ -1,0 +1,15 @@
+{
+  "fullName": "meituan-longcat/LongCat-Video",
+  "analyzedAt": "2026-10-03T23:00:32.350Z",
+  "repoMeta": {
+    "stars": 8720,
+    "language": "Python",
+    "description": null
+  },
+  "relevance": "low",
+  "category": "영상 생성 모델",
+  "summary": "텍스트·이미지 기반 영상 생성과 영상 연장을 지원하는 136억 매개변수 모델. [공식 저장소](https://github.com/meituan-longcat/LongCat-Video)",
+  "fit": "자체 호스팅은 가능하지만 에이전트 운영·로컬 LLM·RAG의 공백을 메우지 않는다. 공식 설치가 CUDA 중심이어서 Mac mini 중심 환경과도 맞지 않아 당장 도입 이유가 약하다.",
+  "integration": "영상 제작 수요가 생기면 별도 NVIDIA GPU 서버에 추론 작업을 구성하고 n8n에서 호출하는 방식을 검토.",
+  "overlaps": "기존 스택과 직접 중복은 적지만, Ollama·mlx-lm이나 Paperclip의 대체·업그레이드가 아닌 별도 영상 제작 기능이다."
+}

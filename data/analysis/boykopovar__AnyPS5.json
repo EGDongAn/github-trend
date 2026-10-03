@@ -1,0 +1,15 @@
+{
+  "fullName": "boykopovar/AnyPS5",
+  "analyzedAt": "2026-10-03T23:00:35.421Z",
+  "repoMeta": {
+    "stars": 3226,
+    "language": "C++",
+    "description": "Tool for automatic PS5 executables porting to Linux and Windows"
+  },
+  "relevance": "none",
+  "category": "게임 실행 파일 포팅 도구",
+  "summary": "PS5 실행 파일을 Linux와 Windows로 자동 포팅하는 C++ 도구.",
+  "fit": "제공된 설명 기준으로 AI 에이전트 운영, 로컬 LLM, 개발 워크플로 자동화와 직접 관련이 없어 도입 필요성이 없다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 기능 중복은 없으나 시스템이 필요로 하는 공백도 메우지 않는다."
+}

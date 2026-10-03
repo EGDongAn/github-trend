@@ -1,0 +1,15 @@
+{
+  "fullName": "jamwithai/production-agentic-rag-course",
+  "analyzedAt": "2026-10-03T23:00:35.257Z",
+  "repoMeta": {
+    "stars": 9389,
+    "language": "Python",
+    "description": null
+  },
+  "relevance": "medium",
+  "category": "로컬 LLM·에이전트형 RAG 교육 및 참조 구현",
+  "summary": "논문 수집, 하이브리드 검색, Ollama 추론, LangGraph 검색 제어, Langfuse 추적을 다루는 실습 저장소. [공식 README](https://github.com/jamwithai/production-agentic-rag-course)",
+  "fit": "로컬 RAG와 검색 품질 개선에 유용하지만 교육용 구현이며, 현재 스택의 명확한 공백이나 확실한 업그레이드는 입증되지 않음. 전체 구성은 운영 부담이 큼.",
+  "integration": "검색·문서 평가·질의 재작성 부분을 별도 실험하고 기존 Ollama에 연결. 수집 예약과 대화 입구는 n8n·Hermes를 재사용하며, Jina 임베딩 API 의존은 로컬 대체 검토.",
+  "overlaps": "Ollama·Open WebUI의 추론 및 RAG, n8n의 수집 자동화, Hermes의 텔레그램 기능과 부분 중복. Paperclip·cmux 대체보다는 검색 품질·추적 기능 보강 참고자료."
+}
