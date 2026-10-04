@@ -1,0 +1,15 @@
+{
+  "fullName": "tester-army/e2e",
+  "analyzedAt": "2026-10-04T23:00:30.692Z",
+  "repoMeta": {
+    "stars": 3027,
+    "language": "TypeScript",
+    "description": "Next generation e2e testing framework for web and mobile apps."
+  },
+  "relevance": "medium",
+  "category": "에이전트 기반 종단간 테스트 자동화",
+  "summary": "자연어 에이전트 조작과 명시적 검증을 결합한 웹·모바일 테스트 프레임워크. 로컬 모델과 검증된 동작 재생을 지원한다. [공식 저장소](https://github.com/tester-army/e2e)",
+  "fit": "로컬 우선·추론 비용 절감 방향에 부합한다. 다만 기존 Playwright와 부분 중복이고, 현재 스택의 명확한 공백이나 확실한 성능 개선은 입증되지 않아 관찰 후보다.",
+  "integration": "대표 웹 회귀 테스트에 시범 적용해 GitHub Actions에서 실행하고, 기존 방식 대비 성공률·모델 호출 비용·유지보수 시간을 비교한다. 1.0 이전이므로 버전을 고정한다.",
+  "overlaps": "Playwright MCP의 브라우저 조작 및 Claude Code의 테스트 작성과 겹친다. 자연어 단계의 재생과 모바일 테스트가 보강점이며, Paperclip·cmux 대체 도구는 아니다."
+}

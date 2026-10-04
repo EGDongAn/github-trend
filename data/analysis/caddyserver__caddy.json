@@ -1,0 +1,15 @@
+{
+  "fullName": "caddyserver/caddy",
+  "analyzedAt": "2026-10-04T23:00:19.929Z",
+  "repoMeta": {
+    "stars": 76534,
+    "language": "Go",
+    "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS"
+  },
+  "relevance": "medium",
+  "category": "셀프호스팅 인프라·리버스 프록시",
+  "summary": "자동 HTTPS를 제공하는 확장형 Go 웹 서버.",
+  "fit": "여러 로컬 서비스의 접속 경로와 TLS 관리를 통합하는 데 유용하다. 다만 현재 프로파일에서 프록시 운영의 명확한 공백이 확인되지 않아 도입 우선순위는 중간이다.",
+  "integration": "Open WebUI·Paperclip·n8n 앞단에 배치하는 방안을 검토. 도메인별 라우팅과 HTTPS를 통합하되 기존 인증·접근 통제는 유지한다.",
+  "overlaps": "Claude Code·cmux·Paperclip의 핵심 기능과 직접 중복되지 않는다. 기존 프록시가 있다면 대체 이점을 비교해야 하며, Vercel 호스팅 영역에서는 필요성이 낮다."
+}
