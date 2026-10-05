@@ -1,0 +1,15 @@
+{
+  "fullName": "DuarteSantos8/openGym",
+  "analyzedAt": "2026-10-05T23:00:18.785Z",
+  "repoMeta": {
+    "stars": 4147,
+    "language": "JavaScript",
+    "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server."
+  },
+  "relevance": "none",
+  "category": "셀프호스팅 운동 기록 앱",
+  "summary": "운동 루틴 계획, 운동·체중 기록, 근육 상태 확인과 기존 운동 앱 데이터 가져오기를 지원한다.",
+  "fit": "셀프호스팅 방향은 일치하지만 개인 운동 관리 앱으로, AI 에이전트 운영·자동화 스택의 공백을 메우거나 기존 도구를 개선하지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 직접적인 기능 중복은 없으나, 시스템 목적과 무관해 도입 필요성이 없다."
+}

@@ -1,0 +1,15 @@
+{
+  "fullName": "Gaurav-Gosain/tuios",
+  "analyzedAt": "2026-10-05T23:00:23.319Z",
+  "repoMeta": {
+    "stars": 4829,
+    "language": "Go",
+    "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent."
+  },
+  "relevance": "medium",
+  "category": "에이전트 터미널 관제·멀티세션 관리",
+  "summary": "타일형 터미널, 세션 유지, 에이전트 상태·통합 수신함을 제공하는 Go 기반 도구. [공식 저장소](https://github.com/Gaurav-Gosain/tuios)",
+  "fit": "macOS 로컬 운영과 잘 맞지만 cmux와 핵심 기능이 겹친다. 통합 수신함의 운영 개선 효과가 검증되지 않아 확실한 업그레이드로 보기는 어렵다.",
+  "integration": "별도 작업실에서 Claude Code 세션을 시범 운영하고, 상태 추적·승인 처리·세션 복구를 cmux와 비교한 뒤 대체 여부를 판단한다.",
+  "overlaps": "cmux의 창·작업실·세션 관리와 크게 중복하며 Hermes의 알림 관제와 일부 겹친다. Paperclip의 이슈 기반 작업 배정·칸반을 대체할 근거는 부족하다."
+}

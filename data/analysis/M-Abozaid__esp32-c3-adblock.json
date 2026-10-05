@@ -1,0 +1,15 @@
+{
+  "fullName": "M-Abozaid/esp32-c3-adblock",
+  "analyzedAt": "2026-10-05T23:00:23.233Z",
+  "repoMeta": {
+    "stars": 1313,
+    "language": "C++",
+    "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share"
+  },
+  "relevance": "low",
+  "category": "임베디드 DNS 광고 차단",
+  "summary": "ESP32-C3에서 플래시 기반 도메인 해시 검색으로 DNS 광고 차단과 웹 대시보드를 제공한다.",
+  "fit": "저비용·로컬 운영 방향에는 맞지만, 에이전트 자동화·로컬 LLM·비밀 격리의 공백을 메우지 않아 당장 도입 이유는 약하다.",
+  "integration": "별도 ESP32-C3 장비에서 보조 DNS로 시험할 수 있으나, 핵심 스택에 연결할 필요는 낮다.",
+  "overlaps": "제시된 스택에 직접 중복되는 DNS 차단 도구는 없다. 다만 vault의 비밀 보호·권한 격리를 보강하거나 대체하는 도구는 아니다."
+}
