@@ -1,0 +1,15 @@
+{
+  "fullName": "morluto/rea",
+  "analyzedAt": "2026-10-06T23:00:29.837Z",
+  "repoMeta": {
+    "stars": 9108,
+    "language": "TypeScript",
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+  },
+  "relevance": "medium",
+  "category": "역공학·개발 분석 MCP 도구",
+  "summary": "앱 동작, 네이티브 바이너리, JavaScript·Electron 등을 로컬에서 분석하는 MCP·CLI 도구. [공식 저장소](https://github.com/morluto/rea)",
+  "fit": "로컬 우선과 기존 코딩 에이전트 확장 방향에 부합한다. 다만 현재 프로파일에 역공학 수요가 명시되지 않아 핵심 공백을 메운다고 보기는 어렵다.",
+  "integration": "분석 수요가 생기면 Claude Code·Codex에 MCP로 연결해 제한적으로 시험한다. JavaScript 정적 분석부터 시작하고, 네이티브 분석에는 Ghidra·Hopper 등 별도 엔진을 준비한다.",
+  "overlaps": "Claude Code·Playwright의 코드 및 웹 동작 조사와 일부 겹치지만, 소스 없는 앱·바이너리 분석을 보강한다. Paperclip·cmux 대체나 로컬 LLM 비용 절감 도구는 아니다."
+}

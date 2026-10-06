@@ -1,0 +1,15 @@
+{
+  "fullName": "deepseek-ai/DeepGEMM",
+  "analyzedAt": "2026-10-06T23:00:23.295Z",
+  "repoMeta": {
+    "stars": 8676,
+    "language": "Cuda",
+    "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU"
+  },
+  "relevance": "low",
+  "category": "GPU 연산 커널·추론 최적화",
+  "summary": "CUDA GPU용 고성능 행렬 연산 라이브러리.",
+  "fit": "로컬 LLM 최적화와는 관련되지만, Mac mini의 Apple Silicon에서 직접 활용할 수 없어 현재 스택의 공백을 메우지 못한다.",
+  "integration": "별도 NVIDIA GPU 추론 서버를 구축할 때 검토. 현재 macOS 스택에 적용할 이유는 낮다.",
+  "overlaps": "Ollama·mlx-lm과 추론 성능 개선 목적은 겹치지만, 저수준 연산 라이브러리이므로 직접적인 대체재는 아니다."
+}
