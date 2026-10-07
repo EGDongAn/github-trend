@@ -1,0 +1,15 @@
+{
+  "fullName": "EpicGames/raddebugger",
+  "analyzedAt": "2026-10-07T23:00:27.399Z",
+  "repoMeta": {
+    "stars": 7843,
+    "language": "C",
+    "description": "A native, user-mode, multi-process, graphical debugger."
+  },
+  "relevance": "none",
+  "category": "네이티브 그래픽 디버거",
+  "summary": "Windows x64 로컬 프로세스와 PDB를 지원하는 알파 단계 디버거. [공식 README](https://github.com/EpicGames/raddebugger#readme)",
+  "fit": "macOS 기반 운영 환경과 맞지 않으며, 에이전트 오케스트레이션·로컬 LLM·자동화의 공백을 메우지 않는다.",
+  "integration": "-",
+  "overlaps": "기존 스택과 직접 중복은 없지만, Claude Code/codex 개발 자동화를 대체하거나 강화할 명확한 용도가 없다."
+}
