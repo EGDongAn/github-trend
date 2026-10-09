@@ -1,0 +1,15 @@
+{
+  "fullName": "BerriAI/litellm",
+  "analyzedAt": "2026-10-09T23:00:26.250Z",
+  "repoMeta": {
+    "stars": 60631,
+    "language": "Python",
+    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
+  },
+  "relevance": "high",
+  "category": "셀프호스팅 LLM 게이트웨이·비용 관측",
+  "summary": "여러 LLM API를 통합하고 비용 추적·부하 분산·로깅을 제공하는 게이트웨이. [공식 저장소](https://github.com/BerriAI/litellm)",
+  "fit": "제시된 스택의 공백인 공통 모델 호출·비용 관리 계층을 보완한다. 로컬 모델과 유료 API를 함께 운영하는 구조에 도입 검토 가치가 높다.",
+  "integration": "Mac mini에 자체 호스팅해 Ollama와 외부 API를 연결하고, n8n·에이전트의 API 호출부터 단계적으로 통합한다. 로컬 우선 정책과 외부 전송 허용 범위를 명시하고 기존 vault 격리를 유지한다.",
+  "overlaps": "Open WebUI의 모델 연결 및 vault 프록시와 일부 겹치지만 통합 비용 추적·라우팅이 추가 이점이다. Paperclip·cmux·추론 엔진을 대체하지 않으며, CLI 구독 기반 실행에는 직접적인 비용 절감 효과가 제한적이다."
+}
