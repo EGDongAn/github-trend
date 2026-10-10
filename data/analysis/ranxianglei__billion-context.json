@@ -1,0 +1,15 @@
+{
+  "fullName": "ranxianglei/billion-context",
+  "analyzedAt": "2026-10-10T23:00:33.752Z",
+  "repoMeta": {
+    "stars": 773,
+    "language": "TypeScript",
+    "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need"
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 컨텍스트 압축",
+  "summary": "대화를 계층적으로 요약하고 필요 시 복원하는 로컬 프록시·플러그인. 토큰 5배 절감은 프로젝트 측 주장이다. [저장소](https://github.com/ranxianglei/billion-context)",
+  "fit": "장시간 코딩 세션과 비용 절감에 부합한다. 다만 기존 압축 기능 대비 품질·실제 비용 우위가 검증되지 않아 확실한 업그레이드로 판단하기 어렵다.",
+  "integration": "격리된 Claude Code 또는 Codex 세션에 런처 방식으로 시험 적용하고, 작업 성공률·정보 누락·캐시 포함 비용을 비교한다. 기존 vault 프록시와의 인증·라우팅 호환성도 확인해야 한다.",
+  "overlaps": "Claude Code·Codex의 대화 요약 및 컨텍스트 관리와 중복된다. 선택적 복원·검색은 보강 후보이며 Paperclip·cmux의 작업 위임·관제를 대체하지 않는다."
+}
