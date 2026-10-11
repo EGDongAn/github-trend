@@ -1,0 +1,15 @@
+{
+  "fullName": "danyuchn/asd-ste100-skill",
+  "analyzedAt": "2026-10-11T23:00:22.815Z",
+  "repoMeta": {
+    "stars": 4459,
+    "language": "Python",
+    "description": "ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English."
+  },
+  "relevance": "medium",
+  "category": "코딩 에이전트 지시문 개선 스킬",
+  "summary": "ASD-STE100 간소화 기술 영어 규칙을 활용해 에이전트용 영어 지시문의 모호성을 줄이는 Claude Code 스킬.",
+  "fit": "기존 Claude Code에 적용하기 쉽고 지시문 품질 개선에 유용할 수 있다. 다만 오케스트레이션·추론·격리 기능의 공백을 메우지는 않으며, 한국어 중심 운영에서 효과는 제한적이다.",
+  "integration": "영문 AGENTS.md·SKILL.md·워커 지시문 일부에 시범 적용하고, 의미 보존 여부와 에이전트의 지시 이행 개선을 비교한다.",
+  "overlaps": "기존 스킬 작성·문서 편집·프롬프트 개선 기능과 부분 중복된다. 도구 대체보다는 영문 지시문 작성 규칙 보강에 해당한다."
+}
