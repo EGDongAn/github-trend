@@ -1,0 +1,15 @@
+{
+  "fullName": "open-webui/open-webui",
+  "analyzedAt": "2026-10-12T23:00:47.655Z",
+  "repoMeta": {
+    "stars": 154922,
+    "language": "Python",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+  },
+  "relevance": "low",
+  "category": "로컬 LLM 대화 인터페이스",
+  "summary": "Ollama와 OpenAI 호환 API를 이용하는 AI 대화 UI.",
+  "fit": "로컬 우선 방향에는 부합하지만 이미 보유한 도구다. 제공된 정보에서 새로운 공백 해소나 확실한 업그레이드 근거는 없어 신규 도입 가치는 낮다.",
+  "integration": "기존 Open WebUI를 Ollama 모델의 대화·비교 인터페이스로 활용한다. 추가 도입보다 현재 활용 범위 점검이 적절하다.",
+  "overlaps": "현재 스택의 Open WebUI와 동일하다. OpenClaw의 개인 비서·대화 용도와도 일부 겹친다."
+}
