@@ -1,0 +1,15 @@
+{
+  "fullName": "xtool-org/xtool",
+  "analyzedAt": "2026-10-13T23:00:19.377Z",
+  "repoMeta": {
+    "stars": 9268,
+    "language": "Swift",
+    "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS."
+  },
+  "relevance": "low",
+  "category": "iOS 앱 빌드·배포 개발 도구",
+  "summary": "SwiftPM으로 Linux·Windows·macOS에서 iOS 앱을 빌드·배포하는 Xcode 대체 도구.",
+  "fit": "로컬 개발 자동화와는 맞지만, 현재 스택에 iOS 앱 개발 수요가 제시되지 않아 명확한 공백을 메우지 않는다. 에이전트 오케스트레이션이나 로컬 LLM 운영 개선과도 직접 관련이 없다.",
+  "integration": "iOS 앱 개발이 필요해질 때 코딩 에이전트의 빌드·배포 도구로 검토할 수 있다.",
+  "overlaps": "현재 도구와 직접 중복은 적다. GitHub Actions와 연계 가능한 특화 빌드 도구이며, Claude Code·Paperclip·cmux의 대체재는 아니다."
+}
