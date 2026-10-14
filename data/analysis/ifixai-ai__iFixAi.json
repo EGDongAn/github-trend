@@ -1,0 +1,15 @@
+{
+  "fullName": "ifixai-ai/iFixAi",
+  "analyzedAt": "2026-10-14T23:00:29.496Z",
+  "repoMeta": {
+    "stars": 27312,
+    "language": "Python",
+    "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds."
+  },
+  "relevance": "medium",
+  "category": "에이전트 감사·행동 평가",
+  "summary": "권한 준수, 프롬프트 주입, 실패 은폐 등을 검사하는 자체 실행형 감사 도구. CLI·에이전트 플러그인과 보고서를 제공한다. [공식 저장소](https://github.com/ifixai-ai/iFixAi)",
+  "fit": "에이전트 행동 검증을 보강할 후보. 다만 실제 권한·실행 기록을 노출하는 어댑터와 맞춤 시나리오가 필요하며, 외부 심사 모델 비용과 로컬 전용 평가 가능성은 검증해야 한다.",
+  "integration": "격리된 워커에 맞춤 시나리오를 작성해 소규모 평가부터 시행. 권한 검사·감사 기록을 연결하고 JSON 결과를 Paperclip 이슈로 전달하는 연계를 검토한다.",
+  "overlaps": "Claude Code 검증 스킬·CI와 일부 중복. Paperclip/cmux의 관제나 vault의 권한 격리를 대체하지 않으며, 별도 행동 감사 계층으로 보완한다."
+}

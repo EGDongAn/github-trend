@@ -1,0 +1,15 @@
+{
+  "fullName": "rust-lang/rust",
+  "analyzedAt": "2026-10-14T23:00:18.598Z",
+  "repoMeta": {
+    "stars": 119992,
+    "language": "Rust",
+    "description": "Empowering everyone to build reliable and efficient software."
+  },
+  "relevance": "low",
+  "category": "프로그래밍 언어·컴파일러",
+  "summary": "Rust 언어의 컴파일러와 표준 라이브러리를 개발하는 공식 저장소.",
+  "fit": "효율적인 로컬 도구 개발에는 관련되지만, 현재 스택의 공백을 메우거나 기존 도구를 직접 업그레이드하지 않는다.",
+  "integration": "Rust 기반 도구를 소스에서 빌드하거나 자체 네이티브 도구를 개발할 때만 툴체인 활용을 검토.",
+  "overlaps": "기존 오케스트레이션·LLM·자동화 도구와 직접 중복되지 않으며, 이들을 대체하는 제품도 아니다."
+}

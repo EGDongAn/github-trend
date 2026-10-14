@@ -1,0 +1,15 @@
+{
+  "fullName": "ntdevlabs/tiny11builder",
+  "analyzedAt": "2026-10-14T23:00:18.097Z",
+  "repoMeta": {
+    "stars": 20190,
+    "language": "C#",
+    "description": "WinUI app for building smaller, customized Windows 11 images."
+  },
+  "relevance": "none",
+  "category": "Windows 설치 이미지 경량화 도구",
+  "summary": "더 작고 사용자화된 Windows 11 설치 이미지를 만드는 도구.",
+  "fit": "macOS 기반 로컬 AI 운영 스택의 공백을 메우지 않으며, 에이전트 오케스트레이션·로컬 LLM·개발 자동화 개선과 직접 관련이 없다.",
+  "integration": "-",
+  "overlaps": "기존 도구와 직접 중복은 없지만, 현재 시스템에 Windows 이미지 제작 수요가 제시되지 않아 도입 근거가 없다."
+}
