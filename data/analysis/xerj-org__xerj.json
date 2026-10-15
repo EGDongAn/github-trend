@@ -1,0 +1,15 @@
+{
+  "fullName": "xerj-org/xerj",
+  "analyzedAt": "2026-10-15T23:00:20.596Z",
+  "repoMeta": {
+    "stars": 5594,
+    "language": "Rust",
+    "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work."
+  },
+  "relevance": "medium",
+  "category": "로컬 RAG·에이전트 검색 인프라",
+  "summary": "코드·문서·로그·PDF를 단일 인덱스로 검색/RAG/에이전트 메모리에 활용하는 Rust 기반 도구다. Elasticsearch 호환을 표방한다.",
+  "fit": "로컬 우선·토큰 절감 목표와 잘 맞으며 Claude Code/Codex 에이전트의 대규모 저장소 탐색과 장기 메모리 검색을 보강할 수 있다. 다만 현재 MCP·로컬 LLM·에이전트 도구들과 역할이 일부 겹치고, 실제 로컬 운영성·보안 경계·검색 품질 검증이 필요하다.",
+  "integration": "Mac mini에 로컬 인덱서/검색 서비스로 격리 배포하고, MCP 서버 또는 에이전트 스킬에서 검색 API를 호출하도록 연결한다. 우선 비민감 코드·운영 문서 사본으로 grep 대비 정확도·지연·인덱싱 비용을 검증한다.",
+  "overlaps": "Context7·기존 MCP 검색 도구·Claude Code의 ripgrep 기반 탐색·향후/기존 RAG 인덱스와 부분 중복. Elasticsearch 호환성과 토큰 절감이 실증되면 이들을 보완하거나 일부 대체할 후보다."
+}

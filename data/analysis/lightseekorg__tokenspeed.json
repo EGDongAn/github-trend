@@ -1,0 +1,15 @@
+{
+  "fullName": "lightseekorg/tokenspeed",
+  "analyzedAt": "2026-10-15T23:00:40.972Z",
+  "repoMeta": {
+    "stars": 2464,
+    "language": "Python",
+    "description": "TokenSpeed is a speed-of-light LLM inference engine."
+  },
+  "relevance": "low",
+  "category": "LLM 추론 엔진",
+  "summary": "에이전트 워크로드용 고성능 오픈소스 LLM 서빙 엔진이다. C++ 스케줄러·Python 실행 계층과 GPU 커널 최적화가 핵심이다.",
+  "fit": "로컬 우선·비용 절감 방향에는 맞지만, 주 지원 대상이 Blackwell/AMD 데이터센터 GPU다. Mac mini의 Ollama·mlx-lm 운영을 즉시 개선할 근거는 부족하다.",
+  "integration": "향후 CUDA/AMD 서버를 별도 확보할 때 OpenAI 호환 추론 엔드포인트 후보로 제한적 벤치마크 검토.",
+  "overlaps": "Ollama·mlx-lm과 로컬 LLM 서빙 역할이 중복된다. 현 하드웨어에서는 대체·업그레이드 이점이 불명확하다."
+}

@@ -779,5 +779,16 @@
     "stars": 72577,
     "category": "코딩 에이전트 지원·로컬 코드 지식 그래프",
     "summary": "코드의 심볼·호출·의존성을 로컬에 인덱싱하고 변경 시 자동 갱신해 MCP로 제공한다. [공식 문서](https://github.com/colbymchenry/codegraph)"
+  },
+  {
+    "date": "2026-10-15",
+    "sentAt": "2026-10-15T23:00:42.420Z",
+    "fullName": "BerriAI/litellm",
+    "owner": "BerriAI",
+    "name": "litellm",
+    "url": "https://github.com/BerriAI/litellm",
+    "stars": 60631,
+    "category": "셀프호스팅 LLM 게이트웨이·비용 관측",
+    "summary": "여러 LLM API를 통합하고 비용 추적·부하 분산·로깅을 제공하는 게이트웨이. [공식 저장소](https://github.com/BerriAI/litellm)"
   }
 ]

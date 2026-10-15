@@ -69,5 +69,6 @@
   "docling-project/docling",
   "vectorize-io/hindsight",
   "NVIDIA/OpenShell",
-  "colbymchenry/codegraph"
+  "colbymchenry/codegraph",
+  "BerriAI/litellm"
 ]
