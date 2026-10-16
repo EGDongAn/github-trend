@@ -1,0 +1,15 @@
+{
+  "fullName": "android/skills",
+  "analyzedAt": "2026-10-16T23:00:32.038Z",
+  "repoMeta": {
+    "stars": 8040,
+    "language": "Kotlin",
+    "description": null
+  },
+  "relevance": "low",
+  "category": "코딩 에이전트·Android 개발 스킬",
+  "summary": "공식 Android 개발 지침을 AI 에이전트용 SKILL.md로 제공하는 저장소다. Android CLI·Claude Code·Codex 플러그인 설치를 지원한다.",
+  "fit": "현재 OS의 코딩 에이전트 역량에는 맞지만, Android 앱 개발이 명시된 운영 공백은 아니다. Android/Kotlin 작업이 생길 때만 품질 보강 가치가 있다.",
+  "integration": "Android 프로젝트에 한해 Codex 또는 Claude Code에 선택 설치하고, 전역 일괄 설치는 피한다.",
+  "overlaps": "기존 Claude Code 스킬 200+와 기능적으로 중복되나, Android 공식 가이드 기반의 전문 지침이라는 보완점이 있다."
+}
