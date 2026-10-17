@@ -1,0 +1,15 @@
+{
+  "fullName": "deepseek-ai/deepseek-harness",
+  "analyzedAt": "2026-10-17T23:00:36.127Z",
+  "repoMeta": {
+    "stars": 252116,
+    "language": "TypeScript",
+    "description": "DeepSeek Harness: Everything is a Plugin."
+  },
+  "relevance": "medium",
+  "category": "에이전트 하니스·플러그인 런타임",
+  "summary": "로컬 Web UI와 플러그인 중심 구조를 갖춘 오픈소스 에이전트 하니스다. 다만 개발자 프리뷰이며 호환성 파괴 변경을 예고한다.",
+  "fit": "로컬 우선·멀티에이전트·개발 자동화 우선순위에는 맞지만, 현재 Paperclip·cmux·Claude Code·Hermes를 즉시 대체할 검증된 공백은 확인되지 않는다.",
+  "integration": "격리된 로컬 샌드박스에서 Codex/Claude Code 보조 하니스 또는 특정 워커용 플러그인 런타임으로 PoC 후, Telegram·Vault·Paperclip 연동 가능성을 검증한다.",
+  "overlaps": "Paperclip의 작업 위임, cmux의 세션 관제, Claude Code의 코딩 에이전트와 기능적으로 중복된다. 차별점은 Everything-is-a-Plugin 구조이나, 프리뷰 단계라 운영 도입은 보류가 적절하다."
+}
