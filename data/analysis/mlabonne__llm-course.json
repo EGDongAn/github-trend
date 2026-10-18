@@ -1,0 +1,15 @@
+{
+  "fullName": "mlabonne/llm-course",
+  "analyzedAt": "2026-10-18T23:00:14.614Z",
+  "repoMeta": {
+    "stars": 83994,
+    "language": null,
+    "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks."
+  },
+  "relevance": "low",
+  "category": "LLM 교육 자료",
+  "summary": "LLM 입문·심화 로드맵과 Colab 노트북을 제공하는 학습용 코스입니다.",
+  "fit": "로컬 LLM·RAG 역량 강화에는 참고가 되지만, 운영 자동화나 에이전트 오케스트레이션 기능을 직접 제공하지 않습니다.",
+  "integration": "선별한 노트북·로드맵만 내부 실험 및 온보딩 자료로 참고합니다.",
+  "overlaps": "Ollama, mlx-lm, Open WebUI 등 기존 로컬 LLM 실행 스택과 기능적으로 중복되지는 않지만, 교육 자료라는 점에서 직접 도입 가치는 제한적입니다."
+}

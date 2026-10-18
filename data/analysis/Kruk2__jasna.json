@@ -1,0 +1,15 @@
+{
+  "fullName": "Kruk2/jasna",
+  "analyzedAt": "2026-10-18T23:00:14.010Z",
+  "repoMeta": {
+    "stars": 2368,
+    "language": "Python",
+    "description": "Video restoration tool"
+  },
+  "relevance": "none",
+  "category": "영상 복원 도구",
+  "summary": "Python 기반 영상 복원 도구로 보입니다.",
+  "fit": "EG AI GROUP OS의 에이전트 오케스트레이션·로컬 LLM·개발 자동화·보안 핵심 영역과 직접 관련이 없습니다.",
+  "integration": "-",
+  "overlaps": "현재 스택과 직접 중복은 없지만, 운영 자동화 스택에 도입할 이유도 없습니다."
+}
