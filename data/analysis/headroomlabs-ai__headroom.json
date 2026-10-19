@@ -1,0 +1,15 @@
+{
+  "fullName": "headroomlabs-ai/headroom",
+  "analyzedAt": "2026-10-19T23:00:18.081Z",
+  "repoMeta": {
+    "stars": 76206,
+    "language": "Python",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+  },
+  "relevance": "high",
+  "category": "코딩 에이전트 컨텍스트 최적화 / MCP 프록시",
+  "summary": "도구 출력·로그·파일·RAG 청크를 LLM 투입 전 압축해 토큰 비용과 컨텍스트 점유를 줄이는 Python 라이브러리·프록시·MCP 서버다.",
+  "fit": "Claude Code·Codex·로컬 LLM·MCP 중심 운영에서 긴 로그와 JSON 응답 비용을 직접 낮춘다. 특히 다중 에이전트 작업의 컨텍스트 효율 개선 여지가 크다.",
+  "integration": "기존 MCP 서버와 에이전트 도구 호출 사이에 프록시/MCP 서버로 우선 배치하고, 효과·정확도·지연을 측정한 뒤 Paperclip 워커와 RAG 파이프라인으로 확대 적용한다.",
+  "overlaps": "MCP·RAG·에이전트 실행 환경은 이미 보유했지만, 범용 출력 압축 계층은 명시된 동일 기능이 없어 보완재다."
+}

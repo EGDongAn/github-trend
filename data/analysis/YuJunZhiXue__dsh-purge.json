@@ -1,0 +1,15 @@
+{
+  "fullName": "YuJunZhiXue/dsh-purge",
+  "analyzedAt": "2026-10-19T23:00:12.938Z",
+  "repoMeta": {
+    "stars": 8707,
+    "language": "JavaScript",
+    "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分"
+  },
+  "relevance": "none",
+  "category": "모델 탈옥·프롬프트 우회",
+  "summary": "여러 모델의 안전장치 우회를 목표로 한 프롬프트 모음/도구입니다.",
+  "fit": "로컬 우선과 형식상 맞을 수 있으나, EG AI GROUP OS의 정상 운영·보안 격리 목표와 충돌하며 도입 가치가 없습니다.",
+  "integration": "-",
+  "overlaps": "기존 Claude Code·Ollama 등 실행 스택과 기능 중복은 아니지만, 안전 정책을 우회하는 용도라 제외 대상입니다."
+}

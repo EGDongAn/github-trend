@@ -1,0 +1,15 @@
+{
+  "fullName": "withmarbleapp/os-taxonomy",
+  "analyzedAt": "2026-10-19T23:00:34.494Z",
+  "repoMeta": {
+    "stars": 6088,
+    "language": "JavaScript",
+    "description": null
+  },
+  "relevance": "none",
+  "category": "초등 교육과정 지식 그래프 데이터셋",
+  "summary": "초등 교육 마이크로토픽·선수지식·교육과정 정렬을 담은 정적 JSON 데이터셋이다.",
+  "fit": "에이전트 오케스트레이션, 로컬 LLM 운영, 개발 자동화와 직접적 연관이 없다. 교육용 RAG 제품을 별도로 만들 때만 원천 데이터로 제한적 활용 가능하다.",
+  "integration": "-",
+  "overlaps": "현재 보유 도구와 기능 중복은 없지만, EG AI GROUP OS의 운영 스택을 보강하거나 대체하지도 않는다."
+}

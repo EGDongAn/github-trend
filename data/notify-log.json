@@ -790,5 +790,16 @@
     "stars": 60631,
     "category": "셀프호스팅 LLM 게이트웨이·비용 관측",
     "summary": "여러 LLM API를 통합하고 비용 추적·부하 분산·로깅을 제공하는 게이트웨이. [공식 저장소](https://github.com/BerriAI/litellm)"
+  },
+  {
+    "date": "2026-10-19",
+    "sentAt": "2026-10-19T23:00:35.911Z",
+    "fullName": "headroomlabs-ai/headroom",
+    "owner": "headroomlabs-ai",
+    "name": "headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "stars": 76206,
+    "category": "코딩 에이전트 컨텍스트 최적화 / MCP 프록시",
+    "summary": "도구 출력·로그·파일·RAG 청크를 LLM 투입 전 압축해 토큰 비용과 컨텍스트 점유를 줄이는 Python 라이브러리·프록시·MCP 서버다."
   }
 ]

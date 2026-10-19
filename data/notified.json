@@ -70,5 +70,6 @@
   "vectorize-io/hindsight",
   "NVIDIA/OpenShell",
   "colbymchenry/codegraph",
-  "BerriAI/litellm"
+  "BerriAI/litellm",
+  "headroomlabs-ai/headroom"
 ]
