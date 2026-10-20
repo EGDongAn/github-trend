@@ -71,5 +71,6 @@
   "NVIDIA/OpenShell",
   "colbymchenry/codegraph",
   "BerriAI/litellm",
-  "headroomlabs-ai/headroom"
+  "headroomlabs-ai/headroom",
+  "vllm-project/vllm"
 ]

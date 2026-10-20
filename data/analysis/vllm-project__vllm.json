@@ -1,0 +1,15 @@
+{
+  "fullName": "vllm-project/vllm",
+  "analyzedAt": "2026-10-20T23:00:17.904Z",
+  "repoMeta": {
+    "stars": 94417,
+    "language": "Python",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+  },
+  "relevance": "high",
+  "category": "로컬 LLM 추론·서빙",
+  "summary": "고처리량·메모리 효율을 목표로 한 오픈소스 LLM 추론 및 서빙 엔진이다.",
+  "fit": "Ollama·mlx-lm 중심 로컬 추론 스택에서 GPU 서버용 고성능 API 서빙, 동시 에이전트 요청 처리, 비용 절감에 직접 유용하다. Mac mini의 Apple Silicon 지원·운영 난이도는 별도 검증이 필요하다.",
+  "integration": "Ollama를 대체하기보다, CUDA GPU가 있는 별도 워커에 vLLM을 배치하고 OpenAI 호환 API로 Claude Code·Paperclip·n8n·MCP 워크플로의 로컬 모델 엔드포인트로 연결한다.",
+  "overlaps": "Ollama 및 mlx-lm과 추론·서빙 영역이 겹친다. 다만 vLLM은 특히 NVIDIA GPU 환경의 대규모 동시 요청·처리량에서 업그레이드 후보이다."
+}

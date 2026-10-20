@@ -801,5 +801,16 @@
     "stars": 76206,
     "category": "코딩 에이전트 컨텍스트 최적화 / MCP 프록시",
     "summary": "도구 출력·로그·파일·RAG 청크를 LLM 투입 전 압축해 토큰 비용과 컨텍스트 점유를 줄이는 Python 라이브러리·프록시·MCP 서버다."
+  },
+  {
+    "date": "2026-10-20",
+    "sentAt": "2026-10-20T23:00:19.125Z",
+    "fullName": "vllm-project/vllm",
+    "owner": "vllm-project",
+    "name": "vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "stars": 94417,
+    "category": "로컬 LLM 추론·서빙",
+    "summary": "고처리량·메모리 효율을 목표로 한 오픈소스 LLM 추론 및 서빙 엔진이다."
   }
 ]
