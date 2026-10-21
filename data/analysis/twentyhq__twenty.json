@@ -1,0 +1,15 @@
+{
+  "fullName": "twentyhq/twenty",
+  "analyzedAt": "2026-10-21T23:00:22.030Z",
+  "repoMeta": {
+    "stars": 59125,
+    "language": "TypeScript",
+    "description": "The open alternative to Salesforce, designed for AI."
+  },
+  "relevance": "low",
+  "category": "셀프호스팅 CRM",
+  "summary": "Salesforce 대안 오픈소스 CRM으로 고객·리드·거래 데이터를 관리한다.",
+  "fit": "TypeScript 기반이며 AI 기능과 셀프호스팅 선택지가 있어 EG 운영 데이터 관리에는 활용 가능하다.",
+  "integration": "Paperclip/텔레그램/n8n에서 고객·파트너 정보를 조회·갱신하는 CRM 백엔드로 연동 가능하다.",
+  "overlaps": "현재 명시된 CRM은 없어 직접 중복은 적지만, 에이전트 오케스트레이션·로컬 LLM·개발 자동화의 핵심 공백을 메우지는 않는다."
+}

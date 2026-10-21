@@ -1,0 +1,15 @@
+{
+  "fullName": "strelov1/freehire",
+  "analyzedAt": "2026-10-21T23:00:16.647Z",
+  "repoMeta": {
+    "stars": 2359,
+    "language": "Go",
+    "description": "freehire — the open-source search engine for job seekers"
+  },
+  "relevance": "none",
+  "category": "구직자용 채용 검색 엔진",
+  "summary": "구직 공고를 검색·탐색하는 오픈소스 서비스입니다.",
+  "fit": "EG AI GROUP OS의 에이전트 오케스트레이션, 로컬 LLM, 개발 자동화, 보안·인프라와 직접적 연관이 없습니다.",
+  "integration": "-",
+  "overlaps": "현재 보유 스택과의 기능 중복은 없지만, 운영 목적과도 무관합니다."
+}
